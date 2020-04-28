@@ -4,7 +4,7 @@
 
 For more information, see:
 
-* Please visit http://techdocs.ed-fi.org for documentation and http://tracker.ed-fi.org for issues.
+* [Ed-Fi Data Standard in Tech Docs](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Data+Standard)
 * [How to Submit an Issue](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+an+Issue)
 * [How Submit a Feature Request](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+a+Feature+Request)
 * Review on-going development work at **[Link to appropriate Tracker project]**
