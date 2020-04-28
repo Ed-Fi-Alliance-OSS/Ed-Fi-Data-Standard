@@ -7,7 +7,7 @@ For more information, see:
 * [Ed-Fi Data Standard in Tech Docs](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Data+Standard)
 * [How to Submit an Issue](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+an+Issue)
 * [How Submit a Feature Request](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+a+Feature+Request)
-* Review on-going development work at **[Link to appropriate Tracker project]**
+* Review on-going development work in the [Ed-Fi Data Standard](https://tracker.ed-fi.org/projects/DATASTD/) project in Tracker
 
 ## Contributing
 
