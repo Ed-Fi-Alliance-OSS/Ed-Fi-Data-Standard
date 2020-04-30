@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeEducationOrganization xmlns="http://ed-fi.org/0310" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/0310 ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
+<InterchangeEducationOrganization xmlns="http://ed-fi.org/0320" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/0320 ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
 	<EducationServiceCenter id="ESC_255950">
 		<EducationOrganizationIdentificationCode>
 			<IdentificationCode>255950</IdentificationCode>
@@ -2827,14 +2827,6 @@
 		<NameOfInstitution>The University of Texas at Austin</NameOfInstitution>
 		<ShortNameOfInstitution>UT-Austin</ShortNameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Post Secondary Institution</EducationOrganizationCategory>
-		<Address>
-			<StreetNumberName>110 Inner Campus Drive</StreetNumberName>
-			<City>Austin</City>
-			<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateAbbreviation>
-			<PostalCode>78705</PostalCode>
-			<NameOfCounty>Travis</NameOfCounty>
-			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
-		</Address>
 		<InstitutionTelephone>
 			<TelephoneNumber>(512) 471-3434</TelephoneNumber>
 			<InstitutionTelephoneNumberType>uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor#Main</InstitutionTelephoneNumberType>

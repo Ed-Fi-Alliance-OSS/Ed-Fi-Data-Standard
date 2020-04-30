@@ -59,6 +59,7 @@
       <xs:enumeration value="CredentialFieldDescriptor" />
       <xs:enumeration value="CredentialTypeDescriptor" />
       <xs:enumeration value="CreditTypeDescriptor" />
+      <xs:enumeration value="CTEProgramServiceDescriptor" />
       <xs:enumeration value="CurriculumUsedDescriptor" />
       <xs:enumeration value="DeliveryMethodDescriptor" />
       <xs:enumeration value="DiagnosisDescriptor" />
@@ -69,6 +70,7 @@
       <xs:enumeration value="DisabilityDeterminationSourceTypeDescriptor" />
       <xs:enumeration value="DisciplineActionLengthDifferenceReasonDescriptor" />
       <xs:enumeration value="DisciplineDescriptor" />
+      <xs:enumeration value="DisciplineIncidentParticipationCodeDescriptor" />
       <xs:enumeration value="EducationalEnvironmentDescriptor" />
       <xs:enumeration value="EducationOrganizationCategoryDescriptor" />
       <xs:enumeration value="EducationOrganizationIdentificationSystemDescriptor" />
@@ -81,6 +83,7 @@
       <xs:enumeration value="ExitWithdrawTypeDescriptor" />
       <xs:enumeration value="GradebookEntryTypeDescriptor" />
       <xs:enumeration value="GradeLevelDescriptor" />
+      <xs:enumeration value="GradePointAverageWeightSystemDescriptor" />
       <xs:enumeration value="GradeTypeDescriptor" />
       <xs:enumeration value="GradingPeriodDescriptor" />
       <xs:enumeration value="GraduationPlanTypeDescriptor" />
@@ -98,6 +101,8 @@
       <xs:enumeration value="LanguageInstructionProgramServiceDescriptor" />
       <xs:enumeration value="LanguageUseDescriptor" />
       <xs:enumeration value="LearningStandardCategoryDescriptor" />
+      <xs:enumeration value="LearningStandardEquivalenceStrengthDescriptor" />
+      <xs:enumeration value="LearningStandardScopeDescriptor" />
       <xs:enumeration value="LevelOfEducationDescriptor" />
       <xs:enumeration value="LicenseStatusDescriptor" />
       <xs:enumeration value="LicenseTypeDescriptor" />
@@ -116,9 +121,11 @@
       <xs:enumeration value="OperationalStatusDescriptor" />
       <xs:enumeration value="OtherNameTypeDescriptor" />
       <xs:enumeration value="ParticipationDescriptor" />
+      <xs:enumeration value="ParticipationStatusDescriptor" />
       <xs:enumeration value="PerformanceBaseConversionDescriptor" />
       <xs:enumeration value="PerformanceLevelDescriptor" />
       <xs:enumeration value="PersonalInformationVerificationDescriptor" />
+      <xs:enumeration value="PlatformTypeDescriptor" />
       <xs:enumeration value="PopulationServedDescriptor" />
       <xs:enumeration value="PostingResultDescriptor" />
       <xs:enumeration value="PostSecondaryEventCategoryDescriptor" />
@@ -171,6 +178,7 @@
       <xs:enumeration value="TelephoneNumberTypeDescriptor" />
       <xs:enumeration value="TermDescriptor" />
       <xs:enumeration value="TitleIPartAParticipantDescriptor" />
+      <xs:enumeration value="TitleIPartAProgramServiceDescriptor" />
       <xs:enumeration value="TitleIPartASchoolDesignationDescriptor" />
       <xs:enumeration value="TribalAffiliationDescriptor" />
       <xs:enumeration value="VisaDescriptor" />
