@@ -58,6 +58,7 @@
       <xs:enumeration value="CourseRepeatCodeDescriptor" />
       <xs:enumeration value="CredentialFieldDescriptor" />
       <xs:enumeration value="CredentialTypeDescriptor" />
+      <xs:enumeration value="CreditCategoryDescriptor" />
       <xs:enumeration value="CreditTypeDescriptor" />
       <xs:enumeration value="CTEProgramServiceDescriptor" />
       <xs:enumeration value="CurriculumUsedDescriptor" />
@@ -83,7 +84,7 @@
       <xs:enumeration value="ExitWithdrawTypeDescriptor" />
       <xs:enumeration value="GradebookEntryTypeDescriptor" />
       <xs:enumeration value="GradeLevelDescriptor" />
-      <xs:enumeration value="GradePointAverageWeightSystemDescriptor" />
+      <xs:enumeration value="GradePointAverageTypeDescriptor" />
       <xs:enumeration value="GradeTypeDescriptor" />
       <xs:enumeration value="GradingPeriodDescriptor" />
       <xs:enumeration value="GraduationPlanTypeDescriptor" />
