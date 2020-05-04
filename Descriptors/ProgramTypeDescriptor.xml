@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeDescriptors xmlns="http://ed-fi.org/0310" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/0310 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+<InterchangeDescriptors xmlns="http://ed-fi.org/0320" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/0320 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<ProgramTypeDescriptor>
 		<CodeValue>Adult/Continuing Education</CodeValue>
 		<ShortDescription>Adult/Continuing Education</ShortDescription>
@@ -310,6 +310,12 @@
 		<CodeValue>Student Retention/Dropout Prevention</CodeValue>
 		<ShortDescription>Student Retention/Dropout Prevention</ShortDescription>
 		<Description>Student Retention/Dropout Prevention</Description>
+		<Namespace>uri://ed-fi.org/ProgramTypeDescriptor</Namespace>
+	</ProgramTypeDescriptor>
+	<ProgramTypeDescriptor>
+		<CodeValue>Student School Food Service</CodeValue>
+		<ShortDescription>Student School Food Service</ShortDescription>
+		<Description>Student School Food Service</Description>
 		<Namespace>uri://ed-fi.org/ProgramTypeDescriptor</Namespace>
 	</ProgramTypeDescriptor>
 	<ProgramTypeDescriptor>
