@@ -142,6 +142,7 @@
       <xs:enumeration value="ProviderProfitabilityDescriptor" />
       <xs:enumeration value="ProviderStatusDescriptor" />
       <xs:enumeration value="PublicationStatusDescriptor" />
+      <xs:enumeration value="QuestionFormDescriptor" />
       <xs:enumeration value="RaceDescriptor" />
       <xs:enumeration value="ReasonExitedDescriptor" />
       <xs:enumeration value="ReasonNotTestedDescriptor" />
@@ -173,6 +174,8 @@
       <xs:enumeration value="StudentCharacteristicDescriptor" />
       <xs:enumeration value="StudentIdentificationSystemDescriptor" />
       <xs:enumeration value="StudentParticipationCodeDescriptor" />
+      <xs:enumeration value="SurveyCategoryDescriptor" />
+      <xs:enumeration value="SurveyLevelDescriptor" />
       <xs:enumeration value="TeachingCredentialBasisDescriptor" />
       <xs:enumeration value="TeachingCredentialDescriptor" />
       <xs:enumeration value="TechnicalSkillsAssessmentDescriptor" />

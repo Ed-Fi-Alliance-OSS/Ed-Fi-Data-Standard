@@ -4294,6 +4294,286 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="Survey">
+    <xs:annotation>
+      <xs:documentation>A survey to identified or anonymous respondents.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveyIdentifier" type="IdentificationCode">
+            <xs:annotation>
+              <xs:documentation>The unique survey identifier from the survey tool.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Namespace" type="URI">
+            <xs:annotation>
+              <xs:documentation>Namespace for the Survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The Education Organization associated with the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveyTitle" type="SurveyTitle">
+            <xs:annotation>
+              <xs:documentation>The title of the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SchoolYear" type="SchoolYearType">
+            <xs:annotation>
+              <xs:documentation>The school year associated with the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SessionReference" type="SessionReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The session associated with the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveyCategory" type="SurveyCategoryDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The category or type of survey.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SurveyCategoryDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="NumberAdministered" type="xs:int" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Number of persons to whom this survey was administered.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyQuestion">
+    <xs:annotation>
+      <xs:documentation>The questions for the survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="QuestionCode" type="IdentificationCode">
+            <xs:annotation>
+              <xs:documentation>The identifying code for the question, unique for the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveyReference" type="SurveyReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="QuestionForm" type="QuestionFormDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The form or type of question.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>QuestionFormDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="QuestionText" type="ItemText">
+            <xs:annotation>
+              <xs:documentation>The text of the question.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ResponseChoice" type="ResponseChoice" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The optional list of possible responses to a survey question.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveySectionReference" type="SurveySectionReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Reference to the survey section.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Matrix" type="Matrix" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Information about the matrix element in the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyQuestionResponse">
+    <xs:annotation>
+      <xs:documentation>The response to a survey question.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveyQuestionReference" type="SurveyQuestionReferenceType">
+            <xs:annotation>
+              <xs:documentation>The identifying code for the question, unique for the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveyResponseReference" type="SurveyResponseReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the survey response.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="NoResponse" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates there was no response to the question.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveyQuestionResponseValue" type="SurveyQuestionResponseValue" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>For free-form, single- or multiple-selection questions, one or more responses.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveyQuestionMatrixElementResponse" type="SurveyQuestionMatrixElementResponse" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>For matrix questions, the response for each row of the matrix.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Comment" type="Comment" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Additional information provided by the responder about the question in the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyResponse">
+    <xs:annotation>
+      <xs:documentation>Responses to a Survey for named or anonymous persons.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveyResponseIdentifier" type="IdentificationCode">
+            <xs:annotation>
+              <xs:documentation>The identifier of the survey typically from the survey application.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveyReference" type="SurveyReferenceType">
+            <xs:annotation>
+              <xs:documentation>The survey associated with the response.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ResponseDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>Date of the survey response.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ResponseTime" type="xs:int" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The amount of time (in seconds) it took for the respondent to complete the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveyLevel" type="SurveyLevelDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Provides information about the respondents of a survey and how they can be grouped together.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SurveyLevelDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ElectronicMailAddress" type="ElectronicMailAddress" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Email address of the respondent.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="FullName" type="FullName" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Full name of the respondent.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Location" type="Whereabouts" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Location of the respondent, often a city, district, or school.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:choice minOccurs="0">
+            <xs:element name="StudentReference" type="StudentReferenceType">
+              <xs:annotation>
+                <xs:documentation>The student respondent for a survey.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="ParentReference" type="ParentReferenceType">
+              <xs:annotation>
+                <xs:documentation>The parent respondent for a survey.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="StaffReference" type="StaffReferenceType">
+              <xs:annotation>
+                <xs:documentation>The staff respondent for a survey.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+          </xs:choice>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySection">
+    <xs:annotation>
+      <xs:documentation>The section of questions for the survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveyReference" type="SurveyReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveySectionTitle" type="SurveySectionTitle">
+            <xs:annotation>
+              <xs:documentation>The title or label for the survey section.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionResponse">
+    <xs:annotation>
+      <xs:documentation>Optional information about the responses provided for a section of a survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveySectionReference" type="SurveySectionReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the survey section.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SurveyResponseReference" type="SurveyResponseReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the survey response.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SectionRating" type="SectionRating" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Numeric rating computed from the survey responses for the section.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:annotation>
     <xs:documentation>===== Descriptors =====</xs:documentation>
   </xs:annotation>
@@ -5702,6 +5982,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="QuestionFormDescriptor">
+    <xs:annotation>
+      <xs:documentation>The form or type of question.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="RaceDescriptor">
     <xs:annotation>
       <xs:documentation>The enumeration items defining the racial categories which most clearly reflects the individual's recognition of his or her community or with which the individual most identifies.</xs:documentation>
@@ -6052,6 +6343,28 @@
   <xs:complexType name="StudentParticipationCodeDescriptor">
     <xs:annotation>
       <xs:documentation>The role or type of participation of a student in a discipline incident; for example: Victim, Perpetrator, Witness, Reporter.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyCategoryDescriptor">
+    <xs:annotation>
+      <xs:documentation>The descriptor holds the category or type of survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyLevelDescriptor">
+    <xs:annotation>
+      <xs:documentation>Provides information about the respondents of a survey and how they can be grouped together.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7787,6 +8100,174 @@
           <xs:element name="Service" type="Service" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Indicates the Service(s) being provided to the Student by the Program.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyCourseAssociation">
+    <xs:annotation>
+      <xs:documentation>The course associated with the survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveyReference" type="SurveyReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to Survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CourseReference" type="CourseReferenceType">
+            <xs:annotation>
+              <xs:documentation>The course associated with the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyProgramAssociation">
+    <xs:annotation>
+      <xs:documentation>The program associated with the survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveyReference" type="SurveyReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to Survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramReference" type="ProgramReferenceType">
+            <xs:annotation>
+              <xs:documentation>The program associated with the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyResponseEducationOrganizationTargetAssociation">
+    <xs:annotation>
+      <xs:documentation>This association provides information about the survey being taken and the education organization the survey is about.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveyResponseReference" type="SurveyResponseReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the survey response.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the education organization.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyResponseStaffTargetAssociation">
+    <xs:annotation>
+      <xs:documentation>The association provides information about the survey being taken and who the survey is about.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveyResponseReference" type="SurveyResponseReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to survey response.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StaffReference" type="StaffReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to staff member.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionAssociation">
+    <xs:annotation>
+      <xs:documentation>The section associated with the survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveyReference" type="SurveyReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to Survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SectionReference" type="SectionReferenceType">
+            <xs:annotation>
+              <xs:documentation>The section associated with the survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionResponseEducationOrganizationTargetAssociation">
+    <xs:annotation>
+      <xs:documentation>This association provides information about the survey section and the Education Organization the survey section is about.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveySectionResponseReference" type="SurveySectionResponseReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the survey section response.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the education organization.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionResponseStaffTargetAssociation">
+    <xs:annotation>
+      <xs:documentation>This association provides information about the survey section and the staff the survey section is about.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SurveySectionResponseReference" type="SurveySectionResponseReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the survey section response.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StaffReference" type="StaffReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the staff.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -12693,6 +13174,513 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="SurveyCourseAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveyCourseAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyReference" type="SurveyReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to Survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="CourseReference" type="CourseReferenceType">
+        <xs:annotation>
+          <xs:documentation>The course associated with the survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyCourseAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveyCourseAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveyCourseAssociationIdentity" type="SurveyCourseAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveyCourseAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a Survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyIdentifier" type="IdentificationCode">
+        <xs:annotation>
+          <xs:documentation>The unique survey identifier from the survey tool.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Namespace" type="URI">
+        <xs:annotation>
+          <xs:documentation>Namespace for the Survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyProgramAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveyProgramAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyReference" type="SurveyReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to Survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ProgramReference" type="ProgramReferenceType">
+        <xs:annotation>
+          <xs:documentation>The program associated with the survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyProgramAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveyProgramAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveyProgramAssociationIdentity" type="SurveyProgramAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveyProgramAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyQuestionIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveyQuestion.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="QuestionCode" type="IdentificationCode">
+        <xs:annotation>
+          <xs:documentation>The identifying code for the question, unique for the survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SurveyReference" type="SurveyReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyQuestionReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveyQuestion. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveyQuestionIdentity" type="SurveyQuestionIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveyQuestion.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyQuestionResponseIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveyQuestionResponse.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyQuestionReference" type="SurveyQuestionReferenceType">
+        <xs:annotation>
+          <xs:documentation>The identifying code for the question, unique for the survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SurveyResponseReference" type="SurveyResponseReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the survey response.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyQuestionResponseReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveyQuestionResponse. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveyQuestionResponseIdentity" type="SurveyQuestionResponseIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveyQuestionResponse.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a Survey. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveyIdentity" type="SurveyIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a Survey.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyResponseEducationOrganizationTargetAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveyResponseEducationOrganizationTargetAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyResponseReference" type="SurveyResponseReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the survey response.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the education organization.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyResponseEducationOrganizationTargetAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveyResponseEducationOrganizationTargetAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveyResponseEducationOrganizationTargetAssociationIdentity" type="SurveyResponseEducationOrganizationTargetAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveyResponseEducationOrganizationTargetAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyResponseIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveyResponse.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyResponseIdentifier" type="IdentificationCode">
+        <xs:annotation>
+          <xs:documentation>The identifier of the survey typically from the survey application.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SurveyReference" type="SurveyReferenceType">
+        <xs:annotation>
+          <xs:documentation>The survey associated with the response.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyResponseReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveyResponse. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveyResponseIdentity" type="SurveyResponseIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveyResponse.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveyResponseStaffTargetAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveyResponseStaffTargetAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyResponseReference" type="SurveyResponseReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to survey response.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="StaffReference" type="StaffReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to staff member.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyResponseStaffTargetAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveyResponseStaffTargetAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveyResponseStaffTargetAssociationIdentity" type="SurveyResponseStaffTargetAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveyResponseStaffTargetAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveySectionAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyReference" type="SurveyReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to Survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SectionReference" type="SectionReferenceType">
+        <xs:annotation>
+          <xs:documentation>The section associated with the survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveySectionAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveySectionAssociationIdentity" type="SurveySectionAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveySectionAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveySection.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyReference" type="SurveyReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SurveySectionTitle" type="SurveySectionTitle">
+        <xs:annotation>
+          <xs:documentation>The title or label for the survey section.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveySection. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveySectionIdentity" type="SurveySectionIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveySection.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionResponseEducationOrganizationTargetAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveySectionResponseEducationOrganizationTargetAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveySectionResponseReference" type="SurveySectionResponseReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the survey section response.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the education organization.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionResponseEducationOrganizationTargetAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveySectionResponseEducationOrganizationTargetAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveySectionResponseEducationOrganizationTargetAssociationIdentity" type="SurveySectionResponseEducationOrganizationTargetAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveySectionResponseEducationOrganizationTargetAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionResponseIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveySectionResponse.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveySectionReference" type="SurveySectionReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the survey section.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SurveyResponseReference" type="SurveyResponseReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the survey response.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionResponseReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveySectionResponse. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveySectionResponseIdentity" type="SurveySectionResponseIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveySectionResponse.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionResponseStaffTargetAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a SurveySectionResponseStaffTargetAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveySectionResponseReference" type="SurveySectionResponseReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the survey section response.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="StaffReference" type="StaffReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the staff.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveySectionResponseStaffTargetAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a SurveySectionResponseStaffTargetAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SurveySectionResponseStaffTargetAssociationIdentity" type="SurveySectionResponseStaffTargetAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a SurveySectionResponseStaffTargetAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:annotation>
     <xs:documentation>===== Extended Descriptor Reference Types =====</xs:documentation>
   </xs:annotation>
@@ -13847,6 +14835,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="QuestionFormDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The form or type of question.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="RaceDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The enumeration items defining the racial categories which most clearly reflects the individual's recognition of his or her community or with which the individual most identifies.</xs:documentation>
@@ -14137,6 +15134,24 @@
   <xs:simpleType name="StudentParticipationCodeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The role or type of participation of a student in a discipline incident; for example: Victim, Perpetrator, Witness, Reporter.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="SurveyCategoryDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The descriptor holds the category or type of survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="SurveyLevelDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides information about the respondents of a survey and how they can be grouped together.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -16020,6 +17035,31 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="Matrix">
+    <xs:annotation>
+      <xs:documentation>Information about the matrix element in the survey</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="MatrixElement" type="MatrixElement">
+        <xs:annotation>
+          <xs:documentation>For matrix questions, the text identifying each row of the matrix.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MinRawScore" type="xs:int" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The minimum score possible on a survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MaxRawScore" type="xs:int" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The maximum score possible on a survey.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
   <xs:complexType name="MeetingTime">
     <xs:annotation>
       <xs:documentation>The start and end times defining a meeting time.</xs:documentation>
@@ -16403,6 +17443,31 @@
       <xs:element name="RequiredAssessmentPerformanceLevel" type="AssessmentPerformanceLevel" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Performance level required to be met or exceeded.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ResponseChoice">
+    <xs:annotation>
+      <xs:documentation>An individual choice within a list of possible responses to a survey question.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SortOrder" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>Sort order of this ResponseChoice within the complete list of choices attached to a SurveyQuestion. If sort order doesn't apply, the value of NumericValue or a unique, possibly sequential numeric value.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="NumericValue" type="NumericValue" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>A valid numeric response. If paired with a TextValue, the numeric equivalent of the TextValue.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TextValue" type="TextValue" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>A valid text response. If paired with a NumericValue, the text equivalent of the NumericValue.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -16802,6 +17867,71 @@
       <xs:element name="ObjectiveAssessmentReference" type="ObjectiveAssessmentReferenceType">
         <xs:annotation>
           <xs:documentation>Reference to the test objective that is being measured by the objective-level assessment.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyQuestionMatrixElementResponse">
+    <xs:annotation>
+      <xs:documentation>For matrix questions, the response for each row of the matrix.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="MatrixElement" type="MatrixElement">
+        <xs:annotation>
+          <xs:documentation>For matrix questions, the text identifying each row of the matrix.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="NumericResponse" type="NumericResponse" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The numeric response to the question.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TextResponse" type="TextResponse" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The text response(s) for the question.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="NoResponse" type="xs:boolean" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Indicates there was no response to the question.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MinNumericResponse" type="xs:int" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The minimum score response to the question.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MaxNumericResponse" type="xs:int" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The maximum score response to the question.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SurveyQuestionResponseValue">
+    <xs:annotation>
+      <xs:documentation>Individual response to a free-form, single- or multiple-selection survey question.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SurveyQuestionResponseValueIdentifier" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>Primary key for the response value; a unique, usually sequential numeric value for a collection of responses, or potentially the value of NumericResponse for a single response.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="NumericResponse" type="NumericResponse" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>A numeric response to the question.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TextResponse" type="TextResponse" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>A text response to the question.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -17515,6 +18645,18 @@
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="Comment">
+    <xs:annotation>
+      <xs:documentation>Additional information provided by the responder about the question in the survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="1024" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="CongressionalDistrict">
     <xs:annotation>
       <xs:documentation>The congressional district in which an address is located.</xs:documentation>
@@ -17862,6 +19004,17 @@
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="FullName">
+    <xs:annotation>
+      <xs:documentation>Full name of a person.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="80" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="GenerationCodeSuffix">
     <xs:annotation>
       <xs:documentation>An appendage, if any, used to denote an individual's generation in his family (e.g., Jr., Sr., III).</xs:documentation>
@@ -18075,6 +19228,18 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="60" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="MatrixElement">
+    <xs:annotation>
+      <xs:documentation>For matrix questions, the text identifying each row of the matrix.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="MiddleName">
@@ -18437,6 +19602,30 @@
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="SurveySectionTitle">
+    <xs:annotation>
+      <xs:documentation>The title or label for the survey section.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SurveyTitle">
+    <xs:annotation>
+      <xs:documentation>The title of the survey.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="TelephoneNumber">
     <xs:annotation>
       <xs:documentation>The telephone number including the area code, and extension, if applicable.</xs:documentation>
@@ -18447,6 +19636,30 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="24" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TextResponse">
+    <xs:annotation>
+      <xs:documentation>The text response(s) for the question.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="2048" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TextValue">
+    <xs:annotation>
+      <xs:documentation>For radio buttons, checkboxes, dropdowns, matrix of drop downs - the list of choices.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="TimeInterval">
@@ -18492,6 +19705,18 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="5" />
       <xs:maxLength value="80" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Whereabouts">
+    <xs:annotation>
+      <xs:documentation>The location, typically City and State, for the institution.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
   <xs:annotation>
@@ -18774,6 +19999,30 @@
       <xs:fractionDigits value="2" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="NumericResponse">
+    <xs:annotation>
+      <xs:documentation>The numeric response to the question.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="100" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="NumericValue">
+    <xs:annotation>
+      <xs:documentation>The numeric choice available for the question (i.e. 0-100 or 0-10).</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="100" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="OrderOfPriority">
     <xs:annotation>
       <xs:documentation>The order of priority assigned to telephone numbers to define which number to attempt first, second, etc.</xs:documentation>
@@ -18809,6 +20058,19 @@
     <xs:restriction base="xs:decimal">
       <xs:totalDigits value="15" />
       <xs:fractionDigits value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SectionRating">
+    <xs:annotation>
+      <xs:documentation>The type for survey section ratings.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
+      <xs:totalDigits value="9" />
+      <xs:fractionDigits value="3" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="SequenceOfCourse">
