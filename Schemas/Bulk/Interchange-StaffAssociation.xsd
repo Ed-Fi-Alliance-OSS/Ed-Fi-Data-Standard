@@ -21,6 +21,7 @@
         <xs:element name="StaffEducationOrganizationContactAssociation" type="StaffEducationOrganizationContactAssociation" />
         <xs:element name="StaffAbsenceEvent" type="StaffAbsenceEvent" />
         <xs:element name="Credential" type="Credential" />
+        <xs:element name="Person" type="Person" />
       </xs:choice>
     </xs:complexType>
   </xs:element>

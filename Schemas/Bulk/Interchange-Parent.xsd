@@ -12,6 +12,7 @@
       <xs:choice maxOccurs="unbounded">
         <xs:element name="Parent" type="Parent" />
         <xs:element name="StudentParentAssociation" type="StudentParentAssociation" />
+        <xs:element name="Person" type="Person" />
       </xs:choice>
     </xs:complexType>
   </xs:element>

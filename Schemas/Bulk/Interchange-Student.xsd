@@ -11,6 +11,7 @@
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
         <xs:element name="Student" type="Student" />
+        <xs:element name="Person" type="Person" />
       </xs:choice>
     </xs:complexType>
   </xs:element>

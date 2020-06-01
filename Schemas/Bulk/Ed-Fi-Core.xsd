@@ -2730,6 +2730,11 @@
               <xs:documentation>The language(s) the individual uses to communicate. It is strongly recommended that entries use only ISO 639-2 language codes.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Relates the parent to a generic person.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -2762,6 +2767,33 @@
           <xs:element name="StaffReference" type="StaffReferenceType">
             <xs:annotation>
               <xs:documentation>Staff member associated with the Payroll expense.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Person">
+    <xs:annotation>
+      <xs:documentation>This entity represents a human being.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="PersonId" type="UniqueId">
+            <xs:annotation>
+              <xs:documentation>A unique alphanumeric code assigned to a person.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SourceSystem" type="SourceSystemDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>This descriptor defines the originating record source system for the person.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SourceSystemDescriptor</ann:Descriptor>
+              </xs:appinfo>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -3533,6 +3565,11 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
+          <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Relates the staff to a generic person.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -3688,6 +3725,11 @@
           <xs:element name="Citizenship" type="Citizenship" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Contains information relative to U.S. citizenship status and its associated probationary documentation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Relates the student to a generic person.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -6244,6 +6286,17 @@
   <xs:complexType name="SexDescriptor">
     <xs:annotation>
       <xs:documentation>A person's gender.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SourceSystemDescriptor">
+    <xs:annotation>
+      <xs:documentation>This descriptor defines the originating record source system.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -10703,6 +10756,48 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="PersonIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a Person.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="PersonId" type="UniqueId">
+        <xs:annotation>
+          <xs:documentation>A unique alphanumeric code assigned to a person.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SourceSystem" type="SourceSystemDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>This descriptor defines the originating record source system for the person.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>SourceSystemDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PersonReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a Person. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="PersonIdentity" type="PersonIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a Person.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="PostSecondaryEventIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a PostSecondaryEvent.</xs:documentation>
@@ -15053,6 +15148,15 @@
   <xs:simpleType name="SexDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>A person's gender.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="SourceSystemDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>This descriptor defines the originating record source system.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>

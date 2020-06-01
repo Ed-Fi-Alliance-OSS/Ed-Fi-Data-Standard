@@ -256,6 +256,12 @@
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>1.00</YearsOfPriorProfessionalExperience>
 		<LoginId>sdickson</LoginId>
+		<PersonReference>
+			<PersonIdentity>
+				<PersonId>207284</PersonId>
+				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+			</PersonIdentity>
+		</PersonReference>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207285</StaffUniqueId>
@@ -657,6 +663,12 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
+		<PersonReference>
+			<PersonIdentity>
+				<PersonId>207227</PersonId>
+				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+			</PersonIdentity>
+		</PersonReference>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207231</StaffUniqueId>
@@ -1177,7 +1189,7 @@
 		<Name>
 			<FirstName>Esther</FirstName>
 			<MiddleName>Wendy</MiddleName>
-			<LastSurname>Gallegos</LastSurname>
+			<LastSurname>Hartman</LastSurname>
 		</Name>
 		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1967-04-10</BirthDate>
@@ -1198,6 +1210,12 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
+		<PersonReference>
+			<PersonIdentity>
+				<PersonId>207253</PersonId>
+				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+			</PersonIdentity>
+		</PersonReference>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207255</StaffUniqueId>
@@ -1436,6 +1454,12 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
+		<PersonReference>
+			<PersonIdentity>
+				<PersonId>207269</PersonId>
+				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+			</PersonIdentity>
+		</PersonReference>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207262</StaffUniqueId>
@@ -1696,7 +1720,7 @@
 			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
 		</StaffIdentificationCode>
 		<Name>
-			<FirstName>Steven</FirstName>
+			<FirstName>Seth</FirstName>
 			<LastSurname>Weeks</LastSurname>
 		</Name>
 		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
@@ -1714,6 +1738,12 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
+		<PersonReference>
+			<PersonIdentity>
+				<PersonId>605362</PersonId>
+				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+			</PersonIdentity>
+		</PersonReference>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207278</StaffUniqueId>
@@ -1767,6 +1797,12 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
+		<PersonReference>
+			<PersonIdentity>
+				<PersonId>207279</PersonId>
+				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+			</PersonIdentity>
+		</PersonReference>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207281</StaffUniqueId>
@@ -25070,4 +25106,28 @@
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>		<Namespace>uri://ed-fi.org</Namespace>
 	</Credential>
+	<Person>
+		<PersonId>207284</PersonId>
+		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+	</Person>
+	<Person>
+		<PersonId>207227</PersonId>
+		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+	</Person>
+	<Person>
+		<PersonId>207253</PersonId>
+		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+	</Person>
+	<Person>
+		<PersonId>207269</PersonId>
+		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+	</Person>
+	<Person>
+		<PersonId>207279</PersonId>
+		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+	</Person>
+	<Person>
+		<PersonId>605362</PersonId>
+		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
+	</Person>
 </InterchangeStaffAssociation>
