@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.2.0-c" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.2.0-c ../Schemas/Bulk/Interchange-Descriptors.xsd">
+		<SourceSystemDescriptor>
+		<CodeValue>School</CodeValue>
+		<ShortDescription>School</ShortDescription>
+		<Description>School</Description>
+		<Namespace>uri://ed-fi.org/SourceSystemDescriptor</Namespace>
+	</SourceSystemDescriptor>
+	<SourceSystemDescriptor>
+		<CodeValue>District</CodeValue>
+		<ShortDescription>District</ShortDescription>
+		<Description>District</Description>
+		<Namespace>uri://ed-fi.org/SourceSystemDescriptor</Namespace>
+	</SourceSystemDescriptor>
+	<SourceSystemDescriptor>
+		<CodeValue>State</CodeValue>
+		<ShortDescription>State</ShortDescription>
+		<Description>State</Description>
+		<Namespace>uri://ed-fi.org/SourceSystemDescriptor</Namespace>
+	</SourceSystemDescriptor>
+	<SourceSystemDescriptor>
+		<CodeValue>Federal</CodeValue>
+		<ShortDescription>Federal</ShortDescription>
+		<Description>Federal</Description>
+		<Namespace>uri://ed-fi.org/SourceSystemDescriptor</Namespace>
+	</SourceSystemDescriptor>
+</InterchangeDescriptors>

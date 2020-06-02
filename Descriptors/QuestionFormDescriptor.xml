@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.2.0-c" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.2.0-c ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <QuestionFormDescriptor>
+		<CodeValue>Radio box</CodeValue>
+		<ShortDescription>Radio box</ShortDescription>
+		<Description>Radio box</Description>
+		<Namespace>uri://ed-fi.org/QuestionFormDescriptor</Namespace>
+	</QuestionFormDescriptor>
+	<QuestionFormDescriptor>
+		<CodeValue>Checkbox</CodeValue>
+		<ShortDescription>Checkbox</ShortDescription>
+		<Description>Checkbox</Description>
+		<Namespace>uri://ed-fi.org/QuestionFormDescriptor</Namespace>
+	</QuestionFormDescriptor>
+	<QuestionFormDescriptor>
+		<CodeValue>Dropdown</CodeValue>
+		<ShortDescription>Dropdown</ShortDescription>
+		<Description>Dropdown</Description>
+		<Namespace>uri://ed-fi.org/QuestionFormDescriptor</Namespace>
+	</QuestionFormDescriptor>
+	<QuestionFormDescriptor>
+		<CodeValue>Matrix of numeric ratings</CodeValue>
+		<ShortDescription>Matrix of numeric ratings</ShortDescription>
+		<Description>Matrix of numeric ratings</Description>
+		<Namespace>uri://ed-fi.org/QuestionFormDescriptor</Namespace>
+	</QuestionFormDescriptor>
+	<QuestionFormDescriptor>
+		<CodeValue>Matrix of dropdowns</CodeValue>
+		<ShortDescription>Matrix of dropdowns</ShortDescription>
+		<Description>Matrix of dropdowns</Description>
+		<Namespace>uri://ed-fi.org/QuestionFormDescriptor</Namespace>
+	</QuestionFormDescriptor>
+	<QuestionFormDescriptor>
+		<CodeValue>Ranking</CodeValue>
+		<ShortDescription>Ranking</ShortDescription>
+		<Description>Ranking</Description>
+		<Namespace>uri://ed-fi.org/QuestionFormDescriptor</Namespace>
+	</QuestionFormDescriptor>
+	<QuestionFormDescriptor>
+		<CodeValue>Textbox</CodeValue>
+		<ShortDescription>Textbox</ShortDescription>
+		<Description>Textbox</Description>
+		<Namespace>uri://ed-fi.org/QuestionFormDescriptor</Namespace>
+	</QuestionFormDescriptor>
+	<QuestionFormDescriptor>
+		<CodeValue>Matrix of textboxes</CodeValue>
+		<ShortDescription>Matrix of textboxes</ShortDescription>
+		<Description>Matrix of textboxes</Description>
+		<Namespace>uri://ed-fi.org/QuestionFormDescriptor</Namespace>
+	</QuestionFormDescriptor>
+</InterchangeDescriptors>
