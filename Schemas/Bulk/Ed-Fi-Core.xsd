@@ -1632,6 +1632,11 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
+          <xs:element name="EducationOrganizationIndicator" type="EducationOrganizationIndicator" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>An indicator or metric of an Education Organization.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -5477,6 +5482,39 @@
   <xs:complexType name="IncidentLocationDescriptor">
     <xs:annotation>
       <xs:documentation>Identifies where the incident occurred and whether or not it occurred on school property.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="IndicatorDescriptor">
+    <xs:annotation>
+      <xs:documentation>The name or code for the indicator or metric.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="IndicatorGroupDescriptor">
+    <xs:annotation>
+      <xs:documentation>The name for a group of indicators.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="IndicatorLevelDescriptor">
+    <xs:annotation>
+      <xs:documentation>The value of the indicator or metric, as a value from a controlled vocabulary. The semantics of an empty value is "not submitted."</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -14489,6 +14527,33 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="IndicatorDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The name or code for the indicator or metric.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="IndicatorGroupDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The name for a group of indicators.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="IndicatorLevelDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The value of the indicator or metric, as a value from a controlled vocabulary. The semantics of an empty value is "not submitted."</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="InstitutionTelephoneNumberTypeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The type of communication number listed for an organization.</xs:documentation>
@@ -16375,6 +16440,55 @@
           <xs:appinfo>
             <ann:Descriptor>EducationOrganizationIdentificationSystemDescriptor</ann:Descriptor>
           </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EducationOrganizationIndicator">
+    <xs:annotation>
+      <xs:documentation>An indicator or metric of an Education Organization.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Indicator" type="IndicatorDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The name or code for the indicator or metric.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>IndicatorDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DesignatedBy" type="DesignatedBy" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The person, organization, or department that defined the metric.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IndicatorValue" type="Indicator" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The value of the indicator or metric. The semantics of an empty value is "not submitted."</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IndicatorLevel" type="IndicatorLevelDescriptorReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The value of the indicator or metric, as a value from a controlled vocabulary. The semantics of an empty value is "not submitted."</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>IndicatorLevelDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IndicatorGroup" type="IndicatorGroupDescriptorReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The name for a group of indicators.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>IndicatorGroupDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Period" type="Period" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The time period or as-of date for the indicator.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>

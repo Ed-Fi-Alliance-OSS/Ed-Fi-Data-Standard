@@ -93,6 +93,9 @@
       <xs:enumeration value="HomelessProgramServiceDescriptor" />
       <xs:enumeration value="IdentificationDocumentUseDescriptor" />
       <xs:enumeration value="IncidentLocationDescriptor" />
+      <xs:enumeration value="IndicatorDescriptor" />
+      <xs:enumeration value="IndicatorGroupDescriptor" />
+      <xs:enumeration value="IndicatorLevelDescriptor" />
       <xs:enumeration value="InstitutionTelephoneNumberTypeDescriptor" />
       <xs:enumeration value="InteractivityStyleDescriptor" />
       <xs:enumeration value="InternetAccessDescriptor" />
