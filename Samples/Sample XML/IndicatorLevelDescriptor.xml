@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.2.0-c" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.2.0-c ../../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<IndicatorLevelDescriptor>
+		<CodeValue>High Retention</CodeValue>
+		<ShortDescription>High Retention</ShortDescription>
+		<Description>Staff retention from previous school year is between 90-100 percent of staff retained.</Description>
+		<Namespace>uri://gbisd.edu/IndicatorLevelDescriptor</Namespace>
+	</IndicatorLevelDescriptor>
+	<IndicatorLevelDescriptor>
+		<CodeValue>Medium Retention</CodeValue>
+		<ShortDescription>Medium Retention</ShortDescription>
+		<Description>Staff retention from previous school year is between 80-90 percent of staff retained.</Description>
+		<Namespace>uri://gbisd.edu/IndicatorLevelDescriptor</Namespace>
+	</IndicatorLevelDescriptor>
+	<IndicatorLevelDescriptor>
+		<CodeValue>Low Retention</CodeValue>
+		<ShortDescription>Low Retention</ShortDescription>
+		<Description>Staff retention from previous school year is under 80 percent of staff retained.</Description>
+		<Namespace>uri://gbisd.edu/IndicatorLevelDescriptor</Namespace>
+	</IndicatorLevelDescriptor>
+</InterchangeDescriptors>
