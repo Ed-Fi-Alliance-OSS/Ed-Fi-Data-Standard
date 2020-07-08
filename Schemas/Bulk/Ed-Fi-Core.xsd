@@ -16486,7 +16486,7 @@
           </xs:appinfo>
         </xs:annotation>
       </xs:element>
-      <xs:element name="Period" type="Period" minOccurs="0">
+      <xs:element name="Period" type="Period" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>The time period or as-of date for the indicator.</xs:documentation>
         </xs:annotation>
