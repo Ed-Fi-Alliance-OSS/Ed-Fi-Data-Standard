@@ -110,6 +110,10 @@
 			<IndicatorValue>90</IndicatorValue>
 			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#High Retention</IndicatorLevel>
 			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
+			<Period>
+				<BeginDate>2010-08-29</BeginDate>
+				<EndDate>2011-06-30</EndDate>
+			</Period>
 		</EducationOrganizationIndicator>
 		<SchoolId>255901001</SchoolId>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</GradeLevel>
@@ -163,6 +167,10 @@
 			<IndicatorValue>87</IndicatorValue>
 			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#Medium Retention</IndicatorLevel>
 			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
+			<Period>
+				<BeginDate>2010-08-29</BeginDate>
+				<EndDate>2011-06-30</EndDate>
+			</Period>
 		</EducationOrganizationIndicator>
 		<SchoolId>255901044</SchoolId>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
@@ -215,6 +223,10 @@
 			<IndicatorValue>94</IndicatorValue>
 			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#High Retention</IndicatorLevel>
 			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
+			<Period>
+				<BeginDate>2010-08-29</BeginDate>
+				<EndDate>2011-06-30</EndDate>
+			</Period>
 		</EducationOrganizationIndicator>
 		<SchoolId>255901107</SchoolId>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
