@@ -242,6 +242,44 @@
 		<LocalEducationAgencyReference ref="LEAG_255901">
 		</LocalEducationAgencyReference>
 	</School>
+	<CommunityOrganization>
+		<EducationOrganizationIdentificationCode>
+			<IdentificationCode>19</IdentificationCode>
+			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		</EducationOrganizationIdentificationCode>
+		<NameOfInstitution>Communities in Schools</NameOfInstitution>
+		<ShortNameOfInstitution>CIS</ShortNameOfInstitution>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Other</EducationOrganizationCategory>
+		<CommunityOrganizationId>19</CommunityOrganizationId>
+	</CommunityOrganization>
+	<CommunityProvider>
+		<NameOfInstitution>Communities in Schools of Grand Bend</NameOfInstitution>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Other</EducationOrganizationCategory>
+		<CommunityProviderId>19255901</CommunityProviderId>
+		<CommunityOrganizationReference>
+			<CommunityOrganizationIdentity>
+				<CommunityOrganizationId>19</CommunityOrganizationId>
+			</CommunityOrganizationIdentity>
+		</CommunityOrganizationReference>
+		<ProviderStatus>uri://ed-fi.org/ProviderStatusDescriptor#Active</ProviderStatus>
+		<ProviderCategory>uri://ed-fi.org/ProviderCategoryDescriptor#Not Applicable</ProviderCategory>
+		<SchoolIndicator>false</SchoolIndicator>
+	</CommunityProvider>
+	<CommunityProviderLicense>
+		<CommunityProviderReference>
+			<CommunityProviderIdentity>
+				<CommunityProviderId>19255901</CommunityProviderId>
+			</CommunityProviderIdentity>
+		</CommunityProviderReference>
+		<License>
+			<LicenseIdentifier>594835-c</LicenseIdentifier>
+			<LicensingOrganization>Texas Health and Human Services</LicensingOrganization>
+			<LicenseEffectiveDate>2010-01-01</LicenseEffectiveDate>
+			<LicenseExpirationDate>2012-12-31</LicenseExpirationDate>
+			<LicenseStatus>uri://ed-fi.org/LicenseStatusDescriptor#Regulated</LicenseStatus>
+			<LicenseType>uri://ed-fi.org/LicenseTypeDescriptor#School Age Program</LicenseType>
+		</License>
+	</CommunityProviderLicense>
 	<Location id="LOCN_255901107101-255901107">
 		<SchoolReference>
 			<SchoolIdentity>
