@@ -93,6 +93,9 @@
       <xs:enumeration value="HomelessProgramServiceDescriptor" />
       <xs:enumeration value="IdentificationDocumentUseDescriptor" />
       <xs:enumeration value="IncidentLocationDescriptor" />
+      <xs:enumeration value="IndicatorDescriptor" />
+      <xs:enumeration value="IndicatorGroupDescriptor" />
+      <xs:enumeration value="IndicatorLevelDescriptor" />
       <xs:enumeration value="InstitutionTelephoneNumberTypeDescriptor" />
       <xs:enumeration value="InteractivityStyleDescriptor" />
       <xs:enumeration value="InternetAccessDescriptor" />
@@ -142,6 +145,7 @@
       <xs:enumeration value="ProviderProfitabilityDescriptor" />
       <xs:enumeration value="ProviderStatusDescriptor" />
       <xs:enumeration value="PublicationStatusDescriptor" />
+      <xs:enumeration value="QuestionFormDescriptor" />
       <xs:enumeration value="RaceDescriptor" />
       <xs:enumeration value="ReasonExitedDescriptor" />
       <xs:enumeration value="ReasonNotTestedDescriptor" />
@@ -164,6 +168,7 @@
       <xs:enumeration value="SeparationReasonDescriptor" />
       <xs:enumeration value="ServiceDescriptor" />
       <xs:enumeration value="SexDescriptor" />
+      <xs:enumeration value="SourceSystemDescriptor" />
       <xs:enumeration value="SpecialEducationProgramServiceDescriptor" />
       <xs:enumeration value="SpecialEducationSettingDescriptor" />
       <xs:enumeration value="StaffClassificationDescriptor" />
@@ -173,6 +178,8 @@
       <xs:enumeration value="StudentCharacteristicDescriptor" />
       <xs:enumeration value="StudentIdentificationSystemDescriptor" />
       <xs:enumeration value="StudentParticipationCodeDescriptor" />
+      <xs:enumeration value="SurveyCategoryDescriptor" />
+      <xs:enumeration value="SurveyLevelDescriptor" />
       <xs:enumeration value="TeachingCredentialBasisDescriptor" />
       <xs:enumeration value="TeachingCredentialDescriptor" />
       <xs:enumeration value="TechnicalSkillsAssessmentDescriptor" />

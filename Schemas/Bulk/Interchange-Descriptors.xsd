@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/0320b" targetNamespace="http://ed-fi.org/0320b" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/3.2.0-c" targetNamespace="http://ed-fi.org/3.2.0-c" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:include schemaLocation="Ed-Fi-Core.xsd" />
   <xs:annotation>
     <xs:documentation>===== Descriptors Interchange Model =====</xs:documentation>
@@ -89,6 +89,9 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="HomelessProgramServiceDescriptor" type="HomelessProgramServiceDescriptor" />
         <xs:element name="IdentificationDocumentUseDescriptor" type="IdentificationDocumentUseDescriptor" />
         <xs:element name="IncidentLocationDescriptor" type="IncidentLocationDescriptor" />
+        <xs:element name="IndicatorDescriptor" type="IndicatorDescriptor" />
+        <xs:element name="IndicatorGroupDescriptor" type="IndicatorGroupDescriptor" />
+        <xs:element name="IndicatorLevelDescriptor" type="IndicatorLevelDescriptor" />
         <xs:element name="InstitutionTelephoneNumberTypeDescriptor" type="InstitutionTelephoneNumberTypeDescriptor" />
         <xs:element name="InteractivityStyleDescriptor" type="InteractivityStyleDescriptor" />
         <xs:element name="InternetAccessDescriptor" type="InternetAccessDescriptor" />
@@ -138,6 +141,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="ProviderProfitabilityDescriptor" type="ProviderProfitabilityDescriptor" />
         <xs:element name="ProviderStatusDescriptor" type="ProviderStatusDescriptor" />
         <xs:element name="PublicationStatusDescriptor" type="PublicationStatusDescriptor" />
+        <xs:element name="QuestionFormDescriptor" type="QuestionFormDescriptor" />
         <xs:element name="RaceDescriptor" type="RaceDescriptor" />
         <xs:element name="ReasonExitedDescriptor" type="ReasonExitedDescriptor" />
         <xs:element name="ReasonNotTestedDescriptor" type="ReasonNotTestedDescriptor" />
@@ -160,6 +164,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="SeparationReasonDescriptor" type="SeparationReasonDescriptor" />
         <xs:element name="ServiceDescriptor" type="ServiceDescriptor" />
         <xs:element name="SexDescriptor" type="SexDescriptor" />
+        <xs:element name="SourceSystemDescriptor" type="SourceSystemDescriptor" />
         <xs:element name="SpecialEducationProgramServiceDescriptor" type="SpecialEducationProgramServiceDescriptor" />
         <xs:element name="SpecialEducationSettingDescriptor" type="SpecialEducationSettingDescriptor" />
         <xs:element name="StaffClassificationDescriptor" type="StaffClassificationDescriptor" />
@@ -169,6 +174,8 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="StudentCharacteristicDescriptor" type="StudentCharacteristicDescriptor" />
         <xs:element name="StudentIdentificationSystemDescriptor" type="StudentIdentificationSystemDescriptor" />
         <xs:element name="StudentParticipationCodeDescriptor" type="StudentParticipationCodeDescriptor" />
+        <xs:element name="SurveyCategoryDescriptor" type="SurveyCategoryDescriptor" />
+        <xs:element name="SurveyLevelDescriptor" type="SurveyLevelDescriptor" />
         <xs:element name="TeachingCredentialDescriptor" type="TeachingCredentialDescriptor" />
         <xs:element name="TeachingCredentialBasisDescriptor" type="TeachingCredentialBasisDescriptor" />
         <xs:element name="TechnicalSkillsAssessmentDescriptor" type="TechnicalSkillsAssessmentDescriptor" />

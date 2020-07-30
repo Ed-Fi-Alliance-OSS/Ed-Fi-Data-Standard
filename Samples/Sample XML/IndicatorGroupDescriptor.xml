@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.2.0-c" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.2.0-c ../../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<IndicatorGroupDescriptor>
+		<CodeValue>Staff Indicator</CodeValue>
+		<ShortDescription>Staff Indicator</ShortDescription>
+		<Description>Indicators related to organization staffing.</Description>
+		<Namespace>uri://gbisd.edu/IndicatorGroupDescriptor</Namespace>
+	</IndicatorGroupDescriptor>
+</InterchangeDescriptors>

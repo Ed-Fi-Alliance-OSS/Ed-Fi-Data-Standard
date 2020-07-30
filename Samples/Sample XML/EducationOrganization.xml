@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeEducationOrganization xmlns="http://ed-fi.org/0320b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/0320b ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
+<InterchangeEducationOrganization xmlns="http://ed-fi.org/3.2.0-c" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.2.0-c ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
 	<EducationServiceCenter id="ESC_255950">
 		<EducationOrganizationIdentificationCode>
 			<IdentificationCode>255950</IdentificationCode>
@@ -105,6 +105,16 @@
 		</InstitutionTelephone>
 		<WebSite>http://www.GBISD.edu/GBHS/</WebSite>
 		<OperationalStatus>uri://ed-fi.org/OperationalStatusDescriptor#Active</OperationalStatus>
+		<EducationOrganizationIndicator>
+			<Indicator>uri://gbisd.edu/IndicatorDescriptor#Retention Rate</Indicator>
+			<IndicatorValue>90</IndicatorValue>
+			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#High Retention</IndicatorLevel>
+			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
+			<Period>
+				<BeginDate>2010-08-29</BeginDate>
+				<EndDate>2011-06-30</EndDate>
+			</Period>
+		</EducationOrganizationIndicator>
 		<SchoolId>255901001</SchoolId>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</GradeLevel>
@@ -152,6 +162,16 @@
 		</InstitutionTelephone>
 		<WebSite>http://www.GBISD.edu/GBMS/</WebSite>
 		<OperationalStatus>uri://ed-fi.org/OperationalStatusDescriptor#Active</OperationalStatus>
+		<EducationOrganizationIndicator>
+			<Indicator>uri://gbisd.edu/IndicatorDescriptor#Retention Rate</Indicator>
+			<IndicatorValue>87</IndicatorValue>
+			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#Medium Retention</IndicatorLevel>
+			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
+			<Period>
+				<BeginDate>2010-08-29</BeginDate>
+				<EndDate>2011-06-30</EndDate>
+			</Period>
+		</EducationOrganizationIndicator>
 		<SchoolId>255901044</SchoolId>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
@@ -198,6 +218,16 @@
 		</InstitutionTelephone>
 		<WebSite>http://www.GBISD.edu/GBES/</WebSite>
 		<OperationalStatus>uri://ed-fi.org/OperationalStatusDescriptor#Active</OperationalStatus>
+		<EducationOrganizationIndicator>
+			<Indicator>uri://gbisd.edu/IndicatorDescriptor#Retention Rate</Indicator>
+			<IndicatorValue>94</IndicatorValue>
+			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#High Retention</IndicatorLevel>
+			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
+			<Period>
+				<BeginDate>2010-08-29</BeginDate>
+				<EndDate>2011-06-30</EndDate>
+			</Period>
+		</EducationOrganizationIndicator>
 		<SchoolId>255901107</SchoolId>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Second grade</GradeLevel>
@@ -212,6 +242,44 @@
 		<LocalEducationAgencyReference ref="LEAG_255901">
 		</LocalEducationAgencyReference>
 	</School>
+	<CommunityOrganization>
+		<EducationOrganizationIdentificationCode>
+			<IdentificationCode>19</IdentificationCode>
+			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		</EducationOrganizationIdentificationCode>
+		<NameOfInstitution>Communities in Schools</NameOfInstitution>
+		<ShortNameOfInstitution>CIS</ShortNameOfInstitution>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Other</EducationOrganizationCategory>
+		<CommunityOrganizationId>19</CommunityOrganizationId>
+	</CommunityOrganization>
+	<CommunityProvider>
+		<NameOfInstitution>Communities in Schools of Grand Bend</NameOfInstitution>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Other</EducationOrganizationCategory>
+		<CommunityProviderId>19255901</CommunityProviderId>
+		<CommunityOrganizationReference>
+			<CommunityOrganizationIdentity>
+				<CommunityOrganizationId>19</CommunityOrganizationId>
+			</CommunityOrganizationIdentity>
+		</CommunityOrganizationReference>
+		<ProviderStatus>uri://ed-fi.org/ProviderStatusDescriptor#Active</ProviderStatus>
+		<ProviderCategory>uri://ed-fi.org/ProviderCategoryDescriptor#Not Applicable</ProviderCategory>
+		<SchoolIndicator>false</SchoolIndicator>
+	</CommunityProvider>
+	<CommunityProviderLicense>
+		<CommunityProviderReference>
+			<CommunityProviderIdentity>
+				<CommunityProviderId>19255901</CommunityProviderId>
+			</CommunityProviderIdentity>
+		</CommunityProviderReference>
+		<License>
+			<LicenseIdentifier>594835-c</LicenseIdentifier>
+			<LicensingOrganization>Texas Health and Human Services</LicensingOrganization>
+			<LicenseEffectiveDate>2010-01-01</LicenseEffectiveDate>
+			<LicenseExpirationDate>2012-12-31</LicenseExpirationDate>
+			<LicenseStatus>uri://ed-fi.org/LicenseStatusDescriptor#Regulated</LicenseStatus>
+			<LicenseType>uri://ed-fi.org/LicenseTypeDescriptor#School Age Program</LicenseType>
+		</License>
+	</CommunityProviderLicense>
 	<Location id="LOCN_255901107101-255901107">
 		<SchoolReference>
 			<SchoolIdentity>
