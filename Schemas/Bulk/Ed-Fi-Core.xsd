@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/3.2.0-c" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/3.2.0-c" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/3.2.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/3.2.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 3.2.0-c ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 3.2.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -2735,11 +2735,6 @@
               <xs:documentation>The language(s) the individual uses to communicate. It is strongly recommended that entries use only ISO 639-2 language codes.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Relates the parent to a generic person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -2772,33 +2767,6 @@
           <xs:element name="StaffReference" type="StaffReferenceType">
             <xs:annotation>
               <xs:documentation>Staff member associated with the Payroll expense.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="Person">
-    <xs:annotation>
-      <xs:documentation>This entity represents a human being.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="PersonId" type="UniqueId">
-            <xs:annotation>
-              <xs:documentation>A unique alphanumeric code assigned to a person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="SourceSystem" type="SourceSystemDescriptorReferenceType">
-            <xs:annotation>
-              <xs:documentation>This descriptor defines the originating record source system for the person.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>SourceSystemDescriptor</ann:Descriptor>
-              </xs:appinfo>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -3570,11 +3538,6 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Relates the staff to a generic person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -3730,11 +3693,6 @@
           <xs:element name="Citizenship" type="Citizenship" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Contains information relative to U.S. citizenship status and its associated probationary documentation.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Relates the student to a generic person.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -10788,48 +10746,6 @@
           <xs:element name="PayrollIdentity" type="PayrollIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a Payroll.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="PersonIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a Person.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="PersonId" type="UniqueId">
-        <xs:annotation>
-          <xs:documentation>A unique alphanumeric code assigned to a person.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="SourceSystem" type="SourceSystemDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>This descriptor defines the originating record source system for the person.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>SourceSystemDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="PersonReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a Person. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="PersonIdentity" type="PersonIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a Person.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
