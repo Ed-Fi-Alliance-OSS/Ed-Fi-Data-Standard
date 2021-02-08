@@ -17299,7 +17299,7 @@
 		<xs:sequence>
 			<xs:element name="FiscalYear" type="xs:int">
 				<xs:annotation>
-					<xs:documentation>The school year for which the accountability is reported.</xs:documentation>
+          <xs:documentation>The fiscal year for which the federal funds are received.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="InnovativeDollarsSpent" type="Currency" minOccurs="0">
