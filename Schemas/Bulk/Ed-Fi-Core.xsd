@@ -436,6 +436,58 @@
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
+  <xs:complexType name="AssessmentScoreRangeLearningStandard">
+    <xs:annotation>
+      <xs:documentation>Score ranges of an assessment associated with one or more learning standards.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="AssessmentReference" type="AssessmentReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the Assessment with which the score range is associated.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="LearningStandardReference" type="LearningStandardReferenceType" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>LearningStandard associated with the score range.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ScoreRangeId" type="IdentificationCode">
+            <xs:annotation>
+              <xs:documentation>A unique number or alphanumeric code assigned to the score range associated with one or more learning standards.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AssessmentReportingMethod" type="AssessmentReportingMethodDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The assessment reporting method defined (e.g., scale score, RIT scale score) associated with the referenced learning standard(s).</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>AssessmentReportingMethodDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="MinimumScore" type="Result">
+            <xs:annotation>
+              <xs:documentation>The minimum score in the score range.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="MaximumScore" type="Result">
+            <xs:annotation>
+              <xs:documentation>The maximum score in the score range.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ObjectiveAssessmentReference" type="ObjectiveAssessmentReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Reference to the ObjectiveAssessment with which the score range is associated.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
 	<xs:complexType name="BellSchedule">
 		<xs:annotation>
 			<xs:documentation>This entity represents the schedule of class period meeting times.</xs:documentation>
@@ -8760,6 +8812,45 @@
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
+  <xs:complexType name="AssessmentScoreRangeLearningStandardIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of an AssessmentScoreRangeLearningStandard.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="AssessmentReference" type="AssessmentReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the Assessment with which the score range is associated.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ScoreRangeId" type="IdentificationCode">
+        <xs:annotation>
+          <xs:documentation>A unique number or alphanumeric code assigned to the score range associated with one or more learning standards.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AssessmentScoreRangeLearningStandardReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for an AssessmentScoreRangeLearningStandard. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="AssessmentScoreRangeLearningStandardIdentity" type="AssessmentScoreRangeLearningStandardIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of an AssessmentScoreRangeLearningStandard.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
 	<xs:complexType name="BellScheduleIdentityType">
 		<xs:annotation>
 			<xs:documentation>Identity of a BellSchedule.</xs:documentation>
@@ -18238,302 +18329,302 @@
 		<xs:restriction base="xs:token">
 			<xs:enumeration value="1990-1991">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="1991-1992">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="1992-1993">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="1993-1994">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="1994-1995">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="1995-1996">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="1996-1997">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="1997-1998">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="1998-1999">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="1999-2000">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2000-2001">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2001-2002">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2002-2003">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2003-2004">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2004-2005">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2005-2006">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2006-2007">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2007-2008">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2008-2009">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2009-2010">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2010-2011">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2011-2012">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2012-2013">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2013-2014">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2014-2015">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2015-2016">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2016-2017">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2017-2018">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2018-2019">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2019-2020">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2020-2021">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2021-2022">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2022-2023">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2023-2024">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2024-2025">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2025-2026">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2026-2027">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2027-2028">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2028-2029">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2029-2030">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2030-2031">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2031-2032">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2032-2033">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2033-2034">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2034-2035">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2035-2036">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2036-2037">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2037-2038">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2038-2039">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2039-2040">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2040-2041">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2041-2042">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2042-2043">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2043-2044">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2044-2045">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2045-2046">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2046-2047">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2047-2048">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2048-2049">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="2049-2050">
 				<xs:annotation>
-					<xs:documentation/>
+          <xs:documentation></xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 		</xs:restriction>
