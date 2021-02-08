@@ -1427,7 +1427,7 @@
           </xs:element>
           <xs:element name="StudentReference" type="StudentReferenceType">
             <xs:annotation>
-              <xs:documentation>The student(s) disciplined by the DisciplineAction.</xs:documentation>
+              <xs:documentation>The student disciplined by the DisciplineAction.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StudentDisciplineIncidentAssociationReference" type="StudentDisciplineIncidentAssociationReferenceType" maxOccurs="unbounded">
@@ -1458,6 +1458,11 @@
           <xs:element name="IEPPlacementMeetingIndicator" type="xs:boolean" minOccurs="0">
             <xs:annotation>
               <xs:documentation>An indication as to whether an offense and/or disciplinary action resulted in a meeting of a student's Individualized Education Program (IEP) team to determine appropriate placement.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentDisciplineIncidentBehaviorAssociationReference" type="StudentDisciplineIncidentBehaviorAssociationReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A reference to the behavior(s) by the student that led or contributed to this specific action.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -7449,6 +7454,83 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentDisciplineIncidentBehaviorAssociation">
+    <xs:annotation>
+      <xs:documentation>This association describes the behavior of students involved in a discipline incident.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>Relates the Student associated with the DisciplineIncident.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="DisciplineIncidentReference" type="DisciplineIncidentReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the DisciplineIncident associated with the Student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Behavior" type="BehaviorDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>Describes behavior by category.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>BehaviorDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="BehaviorDetailedDescription" type="Description" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Specifies a more granular level of detail of a behavior involved in the incident.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="DisciplineIncidentParticipationCode" type="DisciplineIncidentParticipationCodeDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The role or type of participation of a student in a discipline incident.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>DisciplineIncidentParticipationCodeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentDisciplineIncidentNonOffenderAssociation">
+    <xs:annotation>
+      <xs:documentation>This association indicates those students who were involved and not perpetrators for a discipline incident.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>Relates the Student associated with the DisciplineIncident.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="DisciplineIncidentReference" type="DisciplineIncidentReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to the DisciplineIncident associated with the Student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="DisciplineIncidentParticipationCode" type="DisciplineIncidentParticipationCodeDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The role or type of participation of a student in a discipline incident.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>DisciplineIncidentParticipationCodeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentEducationOrganizationAssociation">
     <xs:annotation>
       <xs:documentation>This association represents student information as reported in the context of the student's relationship to the Education Organization. Enrollment relationship semantics are covered by StudentSchoolAssociation.</xs:documentation>
@@ -9556,7 +9638,7 @@
       </xs:element>
       <xs:element name="StudentReference" type="StudentReferenceType">
         <xs:annotation>
-          <xs:documentation>The student(s) disciplined by the DisciplineAction.</xs:documentation>
+          <xs:documentation>The student disciplined by the DisciplineAction.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -12418,6 +12500,92 @@
           <xs:element name="StudentDisciplineIncidentAssociationIdentity" type="StudentDisciplineIncidentAssociationIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a StudentDisciplineIncidentAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentDisciplineIncidentBehaviorAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentDisciplineIncidentBehaviorAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>Relates the Student associated with the DisciplineIncident.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DisciplineIncidentReference" type="DisciplineIncidentReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the DisciplineIncident associated with the Student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Behavior" type="BehaviorDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>Describes behavior by category.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>BehaviorDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentDisciplineIncidentBehaviorAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentDisciplineIncidentBehaviorAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentDisciplineIncidentBehaviorAssociationIdentity" type="StudentDisciplineIncidentBehaviorAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentDisciplineIncidentBehaviorAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentDisciplineIncidentNonOffenderAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentDisciplineIncidentNonOffenderAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>Relates the Student associated with the DisciplineIncident.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DisciplineIncidentReference" type="DisciplineIncidentReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to the DisciplineIncident associated with the Student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentDisciplineIncidentNonOffenderAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentDisciplineIncidentNonOffenderAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentDisciplineIncidentNonOffenderAssociationIdentity" type="StudentDisciplineIncidentNonOffenderAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentDisciplineIncidentNonOffenderAssociation.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
