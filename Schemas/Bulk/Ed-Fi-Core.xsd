@@ -2724,6 +2724,38 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="OrganizationDepartment">
+    <xs:annotation>
+      <xs:documentation>An organizational unit of another education organization, often devoted to a particular academic discipline, area of study, or organization function.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="EducationOrganization">
+        <xs:sequence>
+          <xs:element name="OrganizationDepartmentId" type="xs:int">
+            <xs:annotation>
+              <xs:documentation>The unique identification code for the OrganizationDepartment.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The intended major subject area of the department.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>AcademicSubjectDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ParentEducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Relates the OrganizationDepartment to an EducationOrganization it is an organizational unit of.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="Parent">
     <xs:annotation>
       <xs:documentation>This entity represents a parent or guardian of a student, such as mother, father, or caretaker.</xs:documentation>
@@ -10743,6 +10775,40 @@
           <xs:element name="OpenStaffPositionIdentity" type="OpenStaffPositionIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of an OpenStaffPosition.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="OrganizationDepartmentIdentityType">
+    <xs:annotation>
+      <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of an OrganizationDepartment.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="OrganizationDepartmentId" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>The unique identification code for the OrganizationDepartment.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OrganizationDepartmentReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for an OrganizationDepartment. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="OrganizationDepartmentIdentity" type="OrganizationDepartmentIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of an OrganizationDepartment.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>

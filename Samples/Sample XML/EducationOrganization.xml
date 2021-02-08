@@ -3240,4 +3240,14 @@
 		<PostSecondaryInstitutionId>6000203</PostSecondaryInstitutionId>
 		<PostSecondaryInstitutionLevel>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor#Four or more years</PostSecondaryInstitutionLevel>
 	</PostSecondaryInstitution>
+	<OrganizationDepartment>
+		<NameOfInstitution>Grand Bend ISD Central Office</NameOfInstitution>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Organization Department</EducationOrganizationCategory>
+		<OrganizationDepartmentId>2559011</OrganizationDepartmentId>
+		<ParentEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</ParentEducationOrganizationReference>
+	</OrganizationDepartment>
 </InterchangeEducationOrganization>
