@@ -3885,7 +3885,7 @@
           </xs:element>
           <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
             <xs:annotation>
-              <xs:documentation>Provides user information to lookup and link to an existing educational organization record.</xs:documentation>
+              <xs:documentation>The education organization that granted the credits or other achievements on the student academic record, generally a school district.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="SchoolYear" type="SchoolYearType">
@@ -12101,7 +12101,7 @@
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
         <xs:annotation>
-          <xs:documentation>Provides user information to lookup and link to an existing educational organization record.</xs:documentation>
+          <xs:documentation>The education organization that granted the credits or other achievements on the student academic record, generally a school district.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="SchoolYear" type="SchoolYearType">
