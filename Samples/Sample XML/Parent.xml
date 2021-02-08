@@ -54004,6 +54004,7 @@
 		<PrimaryContactStatus>false</PrimaryContactStatus>
 		<LivesWith>true</LivesWith>
 		<EmergencyContactStatus>false</EmergencyContactStatus>
+		<LegalGuardian>true</LegalGuardian>
 	</StudentParentAssociation>
 	<StudentParentAssociation>
 		<StudentReference>
@@ -65296,6 +65297,7 @@
 		<PrimaryContactStatus>false</PrimaryContactStatus>
 		<LivesWith>true</LivesWith>
 		<EmergencyContactStatus>false</EmergencyContactStatus>
+		<LegalGuardian>true</LegalGuardian>
 	</StudentParentAssociation>
 	<StudentParentAssociation>
 		<StudentReference>
