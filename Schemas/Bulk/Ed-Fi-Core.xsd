@@ -4823,6 +4823,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="AncestryEthnicOriginDescriptor">
+    <xs:annotation>
+      <xs:documentation>The original peoples or cultures with which the individual identifies.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="AssessmentCategoryDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor holds the category of an assessment based on format and content.</xs:documentation>
@@ -7670,6 +7681,14 @@
           <xs:element name="LoginId" type="IdentificationCode" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The login ID for the user; used for security access control interface.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AncestryEthnicOrigin" type="AncestryEthnicOriginDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The original peoples or cultures with which the individual identifies.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>AncestryEthnicOriginDescriptor</ann:Descriptor>
+              </xs:appinfo>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -14235,6 +14254,15 @@
   <xs:simpleType name="AdministrativeFundingControlDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor holds the type of education institution as classified by its funding source (e.g., public or private).</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="AncestryEthnicOriginDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The original peoples or cultures with which the individual identifies.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>

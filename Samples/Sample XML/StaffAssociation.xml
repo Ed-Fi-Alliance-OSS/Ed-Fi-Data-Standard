@@ -136,6 +136,7 @@
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>10.00</YearsOfPriorProfessionalExperience>
 		<LoginId>mmassey</LoginId>
+		<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Spaniard/Spanish/Spanish-American</AncestryEthnicOrigin>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207247</StaffUniqueId>
