@@ -133,7 +133,7 @@
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>Instructional Coordinators and Supervisors to the Staff</CodeValue>
+		<CodeValue>Instr Coordinators and Supervisors to the Staff</CodeValue>
 		<ShortDescription>Instructional Coordinators and Supervisors to the Staff</ShortDescription>
 		<Description>Instructional Coordinators and Supervisors to the Staff</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
