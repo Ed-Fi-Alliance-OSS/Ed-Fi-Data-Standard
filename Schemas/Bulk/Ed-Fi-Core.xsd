@@ -6861,6 +6861,11 @@
               <xs:documentation>The status of the student's program participation.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="ProgramParticipationStatus" type="ProgramParticipationStatus" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The status of the student's program participation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -17927,6 +17932,39 @@
       <xs:element name="DesignatedBy" type="DesignatedBy" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The person, organization, or department that designated the program association.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProgramParticipationStatus">
+    <xs:annotation>
+      <xs:documentation>The status of the student's program participation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ParticipationStatus" type="ParticipationStatusDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student's program participation status.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>ParticipationStatusDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="StatusBeginDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>The date the student's program participation status began.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="StatusEndDate" type="xs:date" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The date the student's program participation status ended.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DesignatedBy" type="DesignatedBy" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The person, organization, or department that designated the participation status.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>

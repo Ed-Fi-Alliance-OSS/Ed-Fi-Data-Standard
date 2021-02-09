@@ -1296,10 +1296,17 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ParticipationStatus>
+		<ProgramParticipationStatus>
 			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Referred</ParticipationStatus>
+			<StatusBeginDate>2010-06-30</StatusBeginDate>
+			<StatusEndDate>2010-08-29</StatusEndDate>
 			<DesignatedBy>255901107</DesignatedBy>
-		</ParticipationStatus>
+		</ProgramParticipationStatus>
+		<ProgramParticipationStatus>
+			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Eligible</ParticipationStatus>
+			<StatusBeginDate>2010-08-30</StatusBeginDate>
+			<DesignatedBy>255901107</DesignatedBy>
+		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -1760,10 +1767,10 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ParticipationStatus>
+		<ProgramParticipationStatus>
 			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Active in Program</ParticipationStatus>
 			<StatusBeginDate>2010-08-30</StatusBeginDate>
-		</ParticipationStatus>
+		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -2233,11 +2240,11 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ParticipationStatus>
+		<ProgramParticipationStatus>
 			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Refused</ParticipationStatus>
 			<StatusBeginDate>2010-08-30</StatusBeginDate>
 			<StatusEndDate>2010-09-02</StatusEndDate>
-		</ParticipationStatus>
+		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -2384,9 +2391,10 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ParticipationStatus>
+		<ProgramParticipationStatus>
 			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Eligible</ParticipationStatus>
-		</ParticipationStatus>
+			<StatusBeginDate>2010-08-30</StatusBeginDate>
+		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
