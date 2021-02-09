@@ -3672,6 +3672,14 @@
               <xs:documentation>Relates the staff to a generic person.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="AncestryEthnicOrigin" type="AncestryEthnicOriginDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The original peoples or cultures with which the individual identifies.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>AncestryEthnicOriginDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
