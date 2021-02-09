@@ -2829,6 +2829,14 @@
               <xs:documentation>Relates the parent to a generic person.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="HighestCompletedLevelOfEducation" type="LevelOfEducationDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The extent of formal instruction an individual has received (e.g., the highest grade in school completed or its equivalent or the highest degree received).</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>LevelOfEducationDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
