@@ -45,7 +45,7 @@
 	<EducationOrganizationCategoryDescriptor>
 		<CodeValue>Organization Department</CodeValue>
 		<ShortDescription>Organization Department</ShortDescription>
-		<Description>Organization Department</Description>
+		<Description>An organizational unit of another education organization, often devoted to a particular academic discipline, area of study, or organization function.</Description>
 		<Namespace>uri://ed-fi.org/EducationOrganizationCategoryDescriptor</Namespace>
 	</EducationOrganizationCategoryDescriptor>
 </InterchangeDescriptors>
