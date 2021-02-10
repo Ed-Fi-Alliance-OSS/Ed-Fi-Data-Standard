@@ -1218,4 +1218,37 @@
 			</AssessmentIdentity>
 		</AssessmentReference>
 	</AssessmentItem>
+	<AssessmentScoreRangeLearningStandard>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>MP-2013-Mathematics-Seventh grade</AssessmentIdentifier>
+				<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+			<LearningStandardReference>
+				<LearningStandardIdentity>
+					<LearningStandardId>CC.6.NS.3</LearningStandardId>
+				</LearningStandardIdentity>
+			</LearningStandardReference>
+			<ScoreRangeId>MP-2013-Mathematics-Seventh grade-CC.6.NS.3</ScoreRangeId>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Number score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>15</MaximumScore>
+	</AssessmentScoreRangeLearningStandard>
+	<AssessmentScoreRangeLearningStandard>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>MP-2013-Mathematics-Seventh grade</AssessmentIdentifier>
+				<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+			<LearningStandardReference>
+				<LearningStandardIdentity>
+					<LearningStandardId>CC.5.NBT.3</LearningStandardId>
+				</LearningStandardIdentity>
+			</LearningStandardReference>
+			<ScoreRangeId>MP-2013-Mathematics-Seventh grade-CC.5.NBT.3</ScoreRangeId>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>3</MaximumScore>
+	</AssessmentScoreRangeLearningStandard>
 </InterchangeAssessmentMetadata>

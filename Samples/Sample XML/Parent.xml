@@ -28,6 +28,7 @@
 			<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Other</TelephoneNumberType>
 			<OrderOfPriority>1</OrderOfPriority>
 		</Telephone>
+		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 	</Parent>
 	<Parent id="PRNT_779017">
 		<ParentUniqueId>779017</ParentUniqueId>
@@ -80,6 +81,7 @@
 			<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Emergency 2</TelephoneNumberType>
 			<OrderOfPriority>1</OrderOfPriority>
 		</Telephone>
+		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 	</Parent>
 	<Parent id="PRNT_778791">
 		<ParentUniqueId>778791</ParentUniqueId>
@@ -54004,6 +54006,7 @@
 		<PrimaryContactStatus>false</PrimaryContactStatus>
 		<LivesWith>true</LivesWith>
 		<EmergencyContactStatus>false</EmergencyContactStatus>
+		<LegalGuardian>true</LegalGuardian>
 	</StudentParentAssociation>
 	<StudentParentAssociation>
 		<StudentReference>
@@ -65296,6 +65299,7 @@
 		<PrimaryContactStatus>false</PrimaryContactStatus>
 		<LivesWith>true</LivesWith>
 		<EmergencyContactStatus>false</EmergencyContactStatus>
+		<LegalGuardian>true</LegalGuardian>
 	</StudentParentAssociation>
 	<StudentParentAssociation>
 		<StudentReference>

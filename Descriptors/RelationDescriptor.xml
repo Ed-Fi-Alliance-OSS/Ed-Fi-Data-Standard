@@ -44,8 +44,8 @@
 	</RelationDescriptor>
 	<RelationDescriptor>
 		<CodeValue>Emergency</CodeValue>
-		<ShortDescription>Emergency</ShortDescription>
-		<Description>Emergency</Description>
+		<ShortDescription>DEPRECATED: Emergency</ShortDescription>
+		<Description>DEPRECATED: Emergency</Description>
 		<Namespace>uri://ed-fi.org/RelationDescriptor</Namespace>
 	</RelationDescriptor>
 	<RelationDescriptor>
@@ -152,8 +152,8 @@
 	</RelationDescriptor>
 	<RelationDescriptor>
 		<CodeValue>Guardian</CodeValue>
-		<ShortDescription>Guardian</ShortDescription>
-		<Description>Guardian</Description>
+		<ShortDescription>DEPRECATED: Guardian</ShortDescription>
+		<Description>DEPRECATED: Guardian</Description>
 		<Namespace>uri://ed-fi.org/RelationDescriptor</Namespace>
 	</RelationDescriptor>
 	<RelationDescriptor>

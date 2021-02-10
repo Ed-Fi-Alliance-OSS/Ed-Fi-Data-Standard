@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.3.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-a ../../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<AncestryEthnicOriginDescriptor>
+		<CodeValue>Colombian</CodeValue>
+		<ShortDescription>Colombian</ShortDescription>
+		<Description>Colombian</Description>
+		<Namespace>uri://gbisd.edu/AncestryEthnicOriginDescriptor</Namespace>
+	</AncestryEthnicOriginDescriptor>
+	<AncestryEthnicOriginDescriptor>
+		<CodeValue>Ecuadorian</CodeValue>
+		<ShortDescription>Ecuadorian</ShortDescription>
+		<Description>Ecuadorian</Description>
+		<Namespace>uri://gbisd.edu/AncestryEthnicOriginDescriptor</Namespace>
+	</AncestryEthnicOriginDescriptor>
+	<AncestryEthnicOriginDescriptor>
+		<CodeValue>Guatemalan</CodeValue>
+		<ShortDescription>Guatemalan</ShortDescription>
+		<Description>Guatemalan</Description>
+		<Namespace>uri://gbisd.edu/AncestryEthnicOriginDescriptor</Namespace>
+	</AncestryEthnicOriginDescriptor>
+	<AncestryEthnicOriginDescriptor>
+		<CodeValue>Mexican</CodeValue>
+		<ShortDescription>Mexican</ShortDescription>
+		<Description>Mexican</Description>
+		<Namespace>uri://gbisd.edu/AncestryEthnicOriginDescriptor</Namespace>
+	</AncestryEthnicOriginDescriptor>
+	<AncestryEthnicOriginDescriptor>
+		<CodeValue>Puerto Rican</CodeValue>
+		<ShortDescription>Puerto Rican</ShortDescription>
+		<Description>Puerto Rican</Description>
+		<Namespace>uri://gbisd.edu/AncestryEthnicOriginDescriptor</Namespace>
+	</AncestryEthnicOriginDescriptor>
+	<AncestryEthnicOriginDescriptor>
+		<CodeValue>Salvadoran</CodeValue>
+		<ShortDescription>Salvadoran</ShortDescription>
+		<Description>Salvadoran</Description>
+		<Namespace>uri://gbisd.edu/AncestryEthnicOriginDescriptor</Namespace>
+	</AncestryEthnicOriginDescriptor>
+	<AncestryEthnicOriginDescriptor>
+		<CodeValue>Spaniard/Spanish/Spanish-American</CodeValue>
+		<ShortDescription>Spaniard/Spanish/Spanish-American</ShortDescription>
+		<Description>Spaniard/Spanish/Spanish-American</Description>
+		<Namespace>uri://gbisd.edu/AncestryEthnicOriginDescriptor</Namespace>
+	</AncestryEthnicOriginDescriptor>
+	<AncestryEthnicOriginDescriptor>
+		<CodeValue>Other Hispanic/Latino</CodeValue>
+		<ShortDescription>Other Hispanic/Latino</ShortDescription>
+		<Description>Other Hispanic/Latino</Description>
+		<Namespace>uri://gbisd.edu/AncestryEthnicOriginDescriptor</Namespace>
+	</AncestryEthnicOriginDescriptor>
+	<AncestryEthnicOriginDescriptor>
+		<CodeValue>Unknown</CodeValue>
+		<ShortDescription>Unknown</ShortDescription>
+		<Description>Unknown</Description>
+		<Namespace>uri://gbisd.edu/AncestryEthnicOriginDescriptor</Namespace>
+	</AncestryEthnicOriginDescriptor>
+</InterchangeDescriptors>

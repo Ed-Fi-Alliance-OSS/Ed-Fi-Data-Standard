@@ -883,195 +883,235 @@
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Witness</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605266</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_10_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Code of Conduct</Behavior>
+		<BehaviorDetailedDescription>Robbery</BehaviorDetailedDescription>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605265</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_11_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Code of Conduct</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>604892</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_12_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Code of Conduct</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605121</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_13_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Code of Conduct</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605417</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_14_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Code of Conduct</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605370</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_15_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Code of Conduct</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605568</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_16_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Code of Conduct</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605522</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_17_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Code of Conduct</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>604848</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_18_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#Other</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605477</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_19_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605035</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_20_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605389</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_21_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605274</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_8_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605262</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_9_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605040</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_3_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Violation</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605403</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_4_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Violation</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605772</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_5_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Violation</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605220</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_6_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Violation</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>604861</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_7_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605275</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_1_255901107"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605565</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_2_255901107"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentBehaviorAssociation>
+	<StudentDisciplineIncidentNonOffenderAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605275</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<DisciplineIncidentReference ref="DISC_1_255901107"/>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Witness</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentNonOffenderAssociation>
+	<StudentDisciplineIncidentNonOffenderAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605565</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<DisciplineIncidentReference ref="DISC_2_255901107"/>
+		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Witness</DisciplineIncidentParticipationCode>
+	</StudentDisciplineIncidentNonOffenderAssociation>
 	<DisciplineAction>
 		<DisciplineActionIdentifier>18</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>

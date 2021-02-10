@@ -25,6 +25,7 @@
       <xs:enumeration value="AddressTypeDescriptor" />
       <xs:enumeration value="AdministrationEnvironmentDescriptor" />
       <xs:enumeration value="AdministrativeFundingControlDescriptor" />
+      <xs:enumeration value="AncestryEthnicOriginDescriptor" />
       <xs:enumeration value="AssessmentCategoryDescriptor" />
       <xs:enumeration value="AssessmentIdentificationSystemDescriptor" />
       <xs:enumeration value="AssessmentItemCategoryDescriptor" />

@@ -29,6 +29,7 @@
         <xs:element name="CommunityProvider" type="CommunityProvider" />
         <xs:element name="CommunityProviderLicense" type="CommunityProviderLicense" />
         <xs:element name="PostSecondaryInstitution" type="PostSecondaryInstitution" />
+        <xs:element name="OrganizationDepartment" type="OrganizationDepartment" />
       </xs:choice>
     </xs:complexType>
   </xs:element>

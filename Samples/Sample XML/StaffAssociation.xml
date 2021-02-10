@@ -22,7 +22,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Hispanic</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#American Indian - Alaska Native</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>30.00</YearsOfPriorProfessionalExperience>
@@ -50,7 +49,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Asian Or Pacific Islander</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>30.00</YearsOfPriorProfessionalExperience>
@@ -79,7 +77,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Asian Or Pacific Islander</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>34.00</YearsOfPriorProfessionalExperience>
@@ -108,7 +105,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Hispanic</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian - Pacific Islander</Race>
 		<YearsOfPriorProfessionalExperience>14.00</YearsOfPriorProfessionalExperience>
 		<LoginId>alee</LoginId>
@@ -136,11 +132,11 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Hispanic</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian - Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>10.00</YearsOfPriorProfessionalExperience>
 		<LoginId>mmassey</LoginId>
+		<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Spaniard/Spanish/Spanish-American</AncestryEthnicOrigin>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207247</StaffUniqueId>
@@ -165,7 +161,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Hispanic</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian - Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>24.00</YearsOfPriorProfessionalExperience>
@@ -194,7 +189,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Asian Or Pacific Islander</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>17.00</YearsOfPriorProfessionalExperience>
@@ -223,7 +217,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Hispanic</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian - Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>5.00</YearsOfPriorProfessionalExperience>
@@ -251,7 +244,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Asian Or Pacific Islander</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>1.00</YearsOfPriorProfessionalExperience>
@@ -285,7 +277,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#White, Not Of Hispanic Origin</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>18.00</YearsOfPriorProfessionalExperience>
@@ -314,7 +305,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Asian Or Pacific Islander</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>11.00</YearsOfPriorProfessionalExperience>
@@ -342,7 +332,6 @@
 			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<OldEthnicity>uri://ed-fi.org/OldEthnicityDescriptor#Asian Or Pacific Islander</OldEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>11.00</YearsOfPriorProfessionalExperience>
