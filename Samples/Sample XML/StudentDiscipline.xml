@@ -1079,7 +1079,7 @@
 			</StudentIdentity>
 		</StudentReference>
 		<DisciplineIncidentReference ref="DISC_10_255901001"/>
-		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Code of Conduct</Behavior>
+		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
 		<BehaviorDetailedDescription>Robbery</BehaviorDetailedDescription>
 		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
 	</StudentDisciplineIncidentBehaviorAssociation>
