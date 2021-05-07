@@ -45,8 +45,8 @@
 			<MaximumScore>22</MaximumScore>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Decimal</ResultDatatypeType>
 		</AssessmentPerformanceLevel>
-		<AssessmentVersion>2010</AssessmentVersion>
-		<RevisionDate>2010-07-15</RevisionDate>
+		<AssessmentVersion>2021</AssessmentVersion>
+		<RevisionDate>2021-07-15</RevisionDate>
 		<MaxRawScore>25.50000</MaxRawScore>
 		<AssessmentPeriod>
 			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#BOY</AssessmentPeriod>

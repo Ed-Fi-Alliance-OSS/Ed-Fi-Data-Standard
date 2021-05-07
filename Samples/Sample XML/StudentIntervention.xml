@@ -58,7 +58,7 @@
 				<InterventionPrescriptionIdentificationCode>255901-CheckAndConnect</InterventionPrescriptionIdentificationCode>
 			</InterventionPrescriptionIdentity>
 		</InterventionPrescriptionReference>
-		<BeginDate>2010-08-23</BeginDate>
+		<BeginDate>2021-08-23</BeginDate>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
 				<EducationOrganizationId>255901001</EducationOrganizationId>
@@ -561,6 +561,6 @@
 				<InterventionPrescriptionIdentificationCode>255901-CheckAndConnect</InterventionPrescriptionIdentificationCode>
 			</InterventionPrescriptionIdentity>
 		</InterventionPrescriptionReference>
-		<BeginDate>2007-08-01</BeginDate>
+		<BeginDate>2017-08-01</BeginDate>
 	</EducationOrganizationInterventionPrescriptionAssociation>
 </InterchangeStudentIntervention>

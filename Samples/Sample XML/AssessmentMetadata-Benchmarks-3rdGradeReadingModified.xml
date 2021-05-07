@@ -2,7 +2,7 @@
 <InterchangeAssessmentMetadata xmlns="http://ed-fi.org/3.3.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-a ../../Schemas/Bulk/Interchange-AssessmentMetadata.xsd">
 	<Assessment>
 		<AssessmentIdentifier>3e0e2cac-847b-4ddd-93ec-925826552447</AssessmentIdentifier>
-		<AssessmentTitle>3rd Grade Modified Reading 2nd Six Weeks 2012-2013</AssessmentTitle>
+		<AssessmentTitle>3rd Grade Modified Reading 2nd Six Weeks 2021-2022</AssessmentTitle>
 		<AssessmentIdentificationCode>
 			<IdentificationCode>3e0e2cac-847b-4ddd-93ec-925826552447</IdentificationCode>
 			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
@@ -20,14 +20,14 @@
 			<Title>State Essential Knowledge and Skills</Title>
 		</ContentStandard>
 		<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
-		<AssessmentVersion>2012</AssessmentVersion>
-		<RevisionDate>2012-10-24</RevisionDate>
+		<AssessmentVersion>2021</AssessmentVersion>
+		<RevisionDate>2021-10-24</RevisionDate>
 		<MaxRawScore>10.00000</MaxRawScore>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 	</Assessment>
 	<Assessment>
 		<AssessmentIdentifier>d128cfa6-b3df-430c-b671-c76d9822417d</AssessmentIdentifier>
-		<AssessmentTitle>3rd Grade Modified Reading 1st Six Weeks 2012-2013</AssessmentTitle>
+		<AssessmentTitle>3rd Grade Modified Reading 1st Six Weeks 2021-2022</AssessmentTitle>
 		<AssessmentIdentificationCode>
 			<IdentificationCode>d128cfa6-b3df-430c-b671-c76d9822417d</IdentificationCode>
 			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
@@ -45,8 +45,8 @@
 			<Title>State Essential Knowledge and Skills</Title>
 		</ContentStandard>
 		<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
-		<AssessmentVersion>2012</AssessmentVersion>
-		<RevisionDate>2012-09-26</RevisionDate>
+		<AssessmentVersion>2021</AssessmentVersion>
+		<RevisionDate>2021-09-26</RevisionDate>
 		<MaxRawScore>10.00000</MaxRawScore>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 	</Assessment>

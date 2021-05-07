@@ -111,8 +111,8 @@
 			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#High Retention</IndicatorLevel>
 			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
 			<Period>
-				<BeginDate>2010-08-29</BeginDate>
-				<EndDate>2011-06-30</EndDate>
+				<BeginDate>2020-08-29</BeginDate>
+				<EndDate>2021-06-30</EndDate>
 			</Period>
 		</EducationOrganizationIndicator>
 		<SchoolId>255901001</SchoolId>
@@ -168,8 +168,8 @@
 			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#Medium Retention</IndicatorLevel>
 			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
 			<Period>
-				<BeginDate>2010-08-29</BeginDate>
-				<EndDate>2011-06-30</EndDate>
+				<BeginDate>2020-08-29</BeginDate>
+				<EndDate>2021-06-30</EndDate>
 			</Period>
 		</EducationOrganizationIndicator>
 		<SchoolId>255901044</SchoolId>
@@ -224,8 +224,8 @@
 			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#High Retention</IndicatorLevel>
 			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
 			<Period>
-				<BeginDate>2010-08-29</BeginDate>
-				<EndDate>2011-06-30</EndDate>
+				<BeginDate>2020-08-29</BeginDate>
+				<EndDate>2021-06-30</EndDate>
 			</Period>
 		</EducationOrganizationIndicator>
 		<SchoolId>255901107</SchoolId>
@@ -274,8 +274,8 @@
 		<License>
 			<LicenseIdentifier>594835-c</LicenseIdentifier>
 			<LicensingOrganization>Texas Health and Human Services</LicensingOrganization>
-			<LicenseEffectiveDate>2010-01-01</LicenseEffectiveDate>
-			<LicenseExpirationDate>2012-12-31</LicenseExpirationDate>
+			<LicenseEffectiveDate>2020-01-01</LicenseEffectiveDate>
+			<LicenseExpirationDate>2022-12-31</LicenseExpirationDate>
 			<LicenseStatus>uri://ed-fi.org/LicenseStatusDescriptor#Regulated</LicenseStatus>
 			<LicenseType>uri://ed-fi.org/LicenseTypeDescriptor#School Age Program</LicenseType>
 		</License>
@@ -3183,8 +3183,8 @@
 		</EducationOrganizationReference>
 		<RatingTitle>Accountability Rating</RatingTitle>
 		<Rating>Recognized</Rating>
-		<RatingDate>2012-05-16</RatingDate>
-		<SchoolYear>2011-2012</SchoolYear>
+		<RatingDate>2022-05-16</RatingDate>
+		<SchoolYear>2021-2022</SchoolYear>
 		<RatingOrganization>SEA</RatingOrganization>
 		<RatingProgram>AEIS</RatingProgram>
 	</AccountabilityRating>
@@ -3196,8 +3196,8 @@
 		</EducationOrganizationReference>
 		<RatingTitle>Accountability Rating</RatingTitle>
 		<Rating>Academically Acceptable</Rating>
-		<RatingDate>2012-05-16</RatingDate>
-		<SchoolYear>2011-2012</SchoolYear>
+		<RatingDate>2022-05-16</RatingDate>
+		<SchoolYear>2021-2022</SchoolYear>
 		<RatingOrganization>SEA</RatingOrganization>
 		<RatingProgram>AEIS</RatingProgram>
 	</AccountabilityRating>
@@ -3209,8 +3209,8 @@
 		</EducationOrganizationReference>
 		<RatingTitle>Accountability Rating</RatingTitle>
 		<Rating>Recognized</Rating>
-		<RatingDate>2012-05-16</RatingDate>
-		<SchoolYear>2011-2012</SchoolYear>
+		<RatingDate>2022-05-16</RatingDate>
+		<SchoolYear>2021-2022</SchoolYear>
 		<RatingOrganization>SEA</RatingOrganization>
 		<RatingProgram>AEIS</RatingProgram>
 	</AccountabilityRating>
@@ -3222,8 +3222,8 @@
 		</EducationOrganizationReference>
 		<RatingTitle>Accountability Rating</RatingTitle>
 		<Rating>Exemplary</Rating>
-		<RatingDate>2012-05-16</RatingDate>
-		<SchoolYear>2011-2012</SchoolYear>
+		<RatingDate>2022-05-16</RatingDate>
+		<SchoolYear>2021-2022</SchoolYear>
 		<RatingOrganization>SEA</RatingOrganization>
 		<RatingProgram>AEIS</RatingProgram>
 	</AccountabilityRating>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeEducationOrgCalendar xmlns="http://ed-fi.org/3.3.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-a ../../Schemas/Bulk/Interchange-EducationOrgCalendar.xsd">
 	<Session>
-		<SessionName>2010-2011 Fall Semester</SessionName>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-08-23</BeginDate>
-		<EndDate>2010-12-17</EndDate>
+		<SessionName>2021-2022 Fall Semester</SessionName>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-08-23</BeginDate>
+		<EndDate>2021-12-17</EndDate>
 		<Term>uri://ed-fi.org/TermDescriptor#Fall Semester</Term>
 		<TotalInstructionalDays>81</TotalInstructionalDays>
 		<SchoolReference>
@@ -17,10 +17,10 @@
 		<GradingPeriodReference ref="GRDP_20101108_255901001"/>
 	</Session>
 	<Session>
-		<SessionName>2010-2011 Spring Semester</SessionName>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-01-04</BeginDate>
-		<EndDate>2011-05-27</EndDate>
+		<SessionName>2021-2022 Spring Semester</SessionName>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-01-04</BeginDate>
+		<EndDate>2022-05-27</EndDate>
 		<Term>uri://ed-fi.org/TermDescriptor#Spring Semester</Term>
 		<TotalInstructionalDays>88</TotalInstructionalDays>
 		<SchoolReference>
@@ -33,10 +33,10 @@
 		<GradingPeriodReference ref="GRDP_20110411_255901001"/>
 	</Session>
 	<Session>
-		<SessionName>2010-2011 Fall Semester</SessionName>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-08-23</BeginDate>
-		<EndDate>2010-12-17</EndDate>
+		<SessionName>2021-2022 Fall Semester</SessionName>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-08-23</BeginDate>
+		<EndDate>2021-12-17</EndDate>
 		<Term>uri://ed-fi.org/TermDescriptor#Fall Semester</Term>
 		<TotalInstructionalDays>81</TotalInstructionalDays>
 		<SchoolReference>
@@ -49,10 +49,10 @@
 		<GradingPeriodReference ref="GRDP_20101108_255901044"/>
 	</Session>
 	<Session>
-		<SessionName>2010-2011 Spring Semester</SessionName>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-01-04</BeginDate>
-		<EndDate>2011-05-27</EndDate>
+		<SessionName>2021-2022 Spring Semester</SessionName>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-01-04</BeginDate>
+		<EndDate>2022-05-27</EndDate>
 		<Term>uri://ed-fi.org/TermDescriptor#Spring Semester</Term>
 		<TotalInstructionalDays>88</TotalInstructionalDays>
 		<SchoolReference>
@@ -65,10 +65,10 @@
 		<GradingPeriodReference ref="GRDP_20110411_255901044"/>
 	</Session>
 	<Session>
-		<SessionName>2010-2011 Fall Semester</SessionName>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-08-23</BeginDate>
-		<EndDate>2010-12-17</EndDate>
+		<SessionName>2021-2022 Fall Semester</SessionName>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-08-23</BeginDate>
+		<EndDate>2021-12-17</EndDate>
 		<Term>uri://ed-fi.org/TermDescriptor#Fall Semester</Term>
 		<TotalInstructionalDays>81</TotalInstructionalDays>
 		<SchoolReference>
@@ -81,10 +81,10 @@
 		<GradingPeriodReference ref="GRDP_20101108_255901107"/>
 	</Session>
 	<Session>
-		<SessionName>2010-2011 Spring Semester</SessionName>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-01-04</BeginDate>
-		<EndDate>2011-05-27</EndDate>
+		<SessionName>2021-2022 Spring Semester</SessionName>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-01-04</BeginDate>
+		<EndDate>2022-05-27</EndDate>
 		<Term>uri://ed-fi.org/TermDescriptor#Spring Semester</Term>
 		<TotalInstructionalDays>88</TotalInstructionalDays>
 		<SchoolReference>
@@ -104,9 +104,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#First Six Weeks</GradingPeriod>
 		<PeriodSequence>1</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-08-23</BeginDate>
-		<EndDate>2010-10-03</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-08-23</BeginDate>
+		<EndDate>2021-10-03</EndDate>
 		<TotalInstructionalDays>29</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20100823_255901044">
@@ -117,9 +117,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#First Six Weeks</GradingPeriod>
 		<PeriodSequence>1</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-08-23</BeginDate>
-		<EndDate>2010-10-03</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-08-23</BeginDate>
+		<EndDate>2021-10-03</EndDate>
 		<TotalInstructionalDays>29</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20100823_255901107">
@@ -130,9 +130,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#First Six Weeks</GradingPeriod>
 		<PeriodSequence>1</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-08-23</BeginDate>
-		<EndDate>2010-10-03</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-08-23</BeginDate>
+		<EndDate>2021-10-03</EndDate>
 		<TotalInstructionalDays>29</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20101004_255901001">
@@ -143,9 +143,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Second Six Weeks</GradingPeriod>
 		<PeriodSequence>2</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-10-04</BeginDate>
-		<EndDate>2010-11-07</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-10-04</BeginDate>
+		<EndDate>2021-11-07</EndDate>
 		<TotalInstructionalDays>25</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20101004_255901044">
@@ -156,9 +156,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Second Six Weeks</GradingPeriod>
 		<PeriodSequence>2</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-10-04</BeginDate>
-		<EndDate>2010-11-07</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-10-04</BeginDate>
+		<EndDate>2021-11-07</EndDate>
 		<TotalInstructionalDays>25</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20101004_255901107">
@@ -169,9 +169,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Second Six Weeks</GradingPeriod>
 		<PeriodSequence>2</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-10-04</BeginDate>
-		<EndDate>2010-11-07</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-10-04</BeginDate>
+		<EndDate>2021-11-07</EndDate>
 		<TotalInstructionalDays>25</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20101108_255901001">
@@ -182,9 +182,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Third Six Weeks</GradingPeriod>
 		<PeriodSequence>3</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-11-08</BeginDate>
-		<EndDate>2010-12-17</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-11-08</BeginDate>
+		<EndDate>2021-12-17</EndDate>
 		<TotalInstructionalDays>27</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20101108_255901044">
@@ -195,9 +195,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Third Six Weeks</GradingPeriod>
 		<PeriodSequence>3</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-11-08</BeginDate>
-		<EndDate>2010-12-17</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-11-08</BeginDate>
+		<EndDate>2021-12-17</EndDate>
 		<TotalInstructionalDays>27</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20101108_255901107">
@@ -208,9 +208,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Third Six Weeks</GradingPeriod>
 		<PeriodSequence>3</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2010-11-08</BeginDate>
-		<EndDate>2010-12-17</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2021-11-08</BeginDate>
+		<EndDate>2021-12-17</EndDate>
 		<TotalInstructionalDays>27</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20110104_255901001">
@@ -221,9 +221,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fourth Six Weeks</GradingPeriod>
 		<PeriodSequence>4</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-01-04</BeginDate>
-		<EndDate>2011-02-21</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-01-04</BeginDate>
+		<EndDate>2022-02-21</EndDate>
 		<TotalInstructionalDays>33</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20110104_255901044">
@@ -234,9 +234,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fourth Six Weeks</GradingPeriod>
 		<PeriodSequence>4</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-01-04</BeginDate>
-		<EndDate>2011-02-21</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-01-04</BeginDate>
+		<EndDate>2022-02-21</EndDate>
 		<TotalInstructionalDays>33</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20110104_255901107">
@@ -247,9 +247,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fourth Six Weeks</GradingPeriod>
 		<PeriodSequence>4</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-01-04</BeginDate>
-		<EndDate>2011-02-21</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-01-04</BeginDate>
+		<EndDate>2022-02-21</EndDate>
 		<TotalInstructionalDays>33</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20110222_255901001">
@@ -260,9 +260,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fifth Six Weeks</GradingPeriod>
 		<PeriodSequence>5</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-02-22</BeginDate>
-		<EndDate>2011-04-10</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-02-22</BeginDate>
+		<EndDate>2022-04-10</EndDate>
 		<TotalInstructionalDays>29</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20110222_255901044">
@@ -273,9 +273,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fifth Six Weeks</GradingPeriod>
 		<PeriodSequence>5</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-02-22</BeginDate>
-		<EndDate>2011-04-10</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-02-22</BeginDate>
+		<EndDate>2022-04-10</EndDate>
 		<TotalInstructionalDays>29</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20110222_255901107">
@@ -286,9 +286,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fifth Six Weeks</GradingPeriod>
 		<PeriodSequence>5</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-02-22</BeginDate>
-		<EndDate>2011-04-10</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-02-22</BeginDate>
+		<EndDate>2022-04-10</EndDate>
 		<TotalInstructionalDays>29</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20110411_255901001">
@@ -299,9 +299,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Sixth Six Weeks</GradingPeriod>
 		<PeriodSequence>6</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-04-11</BeginDate>
-		<EndDate>2011-05-27</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-04-11</BeginDate>
+		<EndDate>2022-05-27</EndDate>
 		<TotalInstructionalDays>34</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20110411_255901044">
@@ -312,9 +312,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Sixth Six Weeks</GradingPeriod>
 		<PeriodSequence>6</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-04-11</BeginDate>
-		<EndDate>2011-05-27</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-04-11</BeginDate>
+		<EndDate>2022-05-27</EndDate>
 		<TotalInstructionalDays>34</TotalInstructionalDays>
 	</GradingPeriod>
 	<GradingPeriod id="GRDP_20110411_255901107">
@@ -325,9 +325,9 @@
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Sixth Six Weeks</GradingPeriod>
 		<PeriodSequence>6</PeriodSequence>
-		<SchoolYear>2010-2011</SchoolYear>
-		<BeginDate>2011-04-11</BeginDate>
-		<EndDate>2011-05-27</EndDate>
+		<SchoolYear>2021-2022</SchoolYear>
+		<BeginDate>2022-04-11</BeginDate>
+		<EndDate>2022-05-27</EndDate>
 		<TotalInstructionalDays>34</TotalInstructionalDays>
 	</GradingPeriod>
 	<Calendar>
@@ -338,10 +338,10 @@
 				<SchoolId>255901107</SchoolId>
 			</SchoolIdentity>
 		</SchoolReference>
-		<SchoolYear>2010-2011</SchoolYear>
+		<SchoolYear>2021-2022</SchoolYear>
 	</Calendar>
 	<CalendarDate>
-		<Date>2010-08-23</Date>
+		<Date>2021-08-23</Date>
 		<CalendarEvent>uri://ed-fi.org/CalendarEventDescriptor#Instructional day</CalendarEvent>
 		<CalendarReference>
 			<CalendarIdentity>
@@ -351,12 +351,12 @@
 						<SchoolId>255901107</SchoolId>
 					</SchoolIdentity>
 				</SchoolReference>
-				<SchoolYear>2010-2011</SchoolYear>
+				<SchoolYear>2021-2022</SchoolYear>
 			</CalendarIdentity>
 		</CalendarReference>
 	</CalendarDate>
 	<CalendarDate>
-		<Date>2010-12-17</Date>
+		<Date>2021-12-17</Date>
 		<CalendarEvent>uri://ed-fi.org/CalendarEventDescriptor#Instructional day</CalendarEvent>
 		<CalendarReference>
 			<CalendarIdentity>
@@ -366,7 +366,7 @@
 						<SchoolId>255901107</SchoolId>
 					</SchoolIdentity>
 				</SchoolReference>
-				<SchoolYear>2010-2011</SchoolYear>
+				<SchoolYear>2021-2022</SchoolYear>
 			</CalendarIdentity>
 		</CalendarReference>
 	</CalendarDate>

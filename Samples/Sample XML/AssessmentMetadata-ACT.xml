@@ -27,8 +27,8 @@
 		<ContentStandard>
 			<Title>ACT</Title>
 		</ContentStandard>
-		<AssessmentVersion>2005</AssessmentVersion>
-		<RevisionDate>2005-03-12</RevisionDate>
+		<AssessmentVersion>2016</AssessmentVersion>
+		<RevisionDate>2016-03-12</RevisionDate>
 		<MaxRawScore>36.00000</MaxRawScore>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Paper-based</PlatformType>
@@ -61,8 +61,8 @@
 		<ContentStandard>
 			<Title>ACT</Title>
 		</ContentStandard>
-		<AssessmentVersion>2005</AssessmentVersion>
-		<RevisionDate>2005-03-12</RevisionDate>
+		<AssessmentVersion>2016</AssessmentVersion>
+		<RevisionDate>2016-03-12</RevisionDate>
 		<MaxRawScore>36.00000</MaxRawScore>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Paper-based</PlatformType>
@@ -95,8 +95,8 @@
 		<ContentStandard>
 			<Title>ACT</Title>
 		</ContentStandard>
-		<AssessmentVersion>2005</AssessmentVersion>
-		<RevisionDate>2005-03-12</RevisionDate>
+		<AssessmentVersion>2016</AssessmentVersion>
+		<RevisionDate>2016-03-12</RevisionDate>
 		<MaxRawScore>36.00000</MaxRawScore>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Paper-based</PlatformType>
@@ -130,7 +130,7 @@
 			<Title>ACT</Title>
 		</ContentStandard>
 		<AssessmentVersion>2005</AssessmentVersion>
-		<RevisionDate>2005-03-12</RevisionDate>
+		<RevisionDate>2016-03-12</RevisionDate>
 		<MaxRawScore>36.00000</MaxRawScore>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Paper-based</PlatformType>
@@ -164,7 +164,7 @@
 			<Title>ACT</Title>
 		</ContentStandard>
 		<AssessmentVersion>2005</AssessmentVersion>
-		<RevisionDate>2005-03-12</RevisionDate>
+		<RevisionDate>2016-03-12</RevisionDate>
 		<MaxRawScore>12.00000</MaxRawScore>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Paper-based</PlatformType>
