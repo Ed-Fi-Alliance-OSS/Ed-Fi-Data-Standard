@@ -111,8 +111,8 @@
 			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#High Retention</IndicatorLevel>
 			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
 			<Period>
-				<BeginDate>2020-08-29</BeginDate>
-				<EndDate>2021-06-30</EndDate>
+				<BeginDate>2021-08-29</BeginDate>
+				<EndDate>2022-06-30</EndDate>
 			</Period>
 		</EducationOrganizationIndicator>
 		<SchoolId>255901001</SchoolId>
@@ -168,8 +168,8 @@
 			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#Medium Retention</IndicatorLevel>
 			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
 			<Period>
-				<BeginDate>2020-08-29</BeginDate>
-				<EndDate>2021-06-30</EndDate>
+				<BeginDate>2021-08-29</BeginDate>
+				<EndDate>2022-06-30</EndDate>
 			</Period>
 		</EducationOrganizationIndicator>
 		<SchoolId>255901044</SchoolId>
@@ -224,8 +224,8 @@
 			<IndicatorLevel>uri://gbisd.edu/IndicatorLevelDescriptor#High Retention</IndicatorLevel>
 			<IndicatorGroup>uri://gbisd.edu/IndicatorGroupDescriptor#Staff Indicator</IndicatorGroup>
 			<Period>
-				<BeginDate>2020-08-29</BeginDate>
-				<EndDate>2021-06-30</EndDate>
+				<BeginDate>2021-08-29</BeginDate>
+				<EndDate>2022-06-30</EndDate>
 			</Period>
 		</EducationOrganizationIndicator>
 		<SchoolId>255901107</SchoolId>
