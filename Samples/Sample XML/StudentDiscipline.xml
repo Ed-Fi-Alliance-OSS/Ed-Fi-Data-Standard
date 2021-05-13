@@ -1304,7 +1304,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>18</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-01-18</DisciplineDate>
+		<DisciplineDate>2022-01-18</DisciplineDate>
 		<DisciplineActionLength>3</DisciplineActionLength>
 		<ActualDisciplineActionLength>3</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -1361,7 +1361,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>25</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-01-18</DisciplineDate>
+		<DisciplineDate>2022-01-18</DisciplineDate>
 		<DisciplineActionLength>3</DisciplineActionLength>
 		<ActualDisciplineActionLength>3</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -1418,7 +1418,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>7</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-02-09</DisciplineDate>
+		<DisciplineDate>2022-02-09</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -1532,7 +1532,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>20</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-03-28</DisciplineDate>
+		<DisciplineDate>2022-03-28</DisciplineDate>
 		<DisciplineActionLength>5</DisciplineActionLength>
 		<ActualDisciplineActionLength>5</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -1589,7 +1589,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>3</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-04-26</DisciplineDate>
+		<DisciplineDate>2022-04-26</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -1646,7 +1646,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>13</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-01-28</DisciplineDate>
+		<DisciplineDate>2022-01-28</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -1703,7 +1703,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>24</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-01-28</DisciplineDate>
+		<DisciplineDate>2022-01-28</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -1874,7 +1874,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>23</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-05-13</DisciplineDate>
+		<DisciplineDate>2022-05-13</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -1931,7 +1931,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>9</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-05-13</DisciplineDate>
+		<DisciplineDate>2022-05-13</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -1988,7 +1988,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>11</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-03-31</DisciplineDate>
+		<DisciplineDate>2022-03-31</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -2102,7 +2102,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>8</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-01-07</DisciplineDate>
+		<DisciplineDate>2022-01-07</DisciplineDate>
 		<DisciplineActionLength>3</DisciplineActionLength>
 		<ActualDisciplineActionLength>3</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -2159,7 +2159,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>1</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-02-09</DisciplineDate>
+		<DisciplineDate>2022-02-09</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -2216,7 +2216,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>15</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-02-02</DisciplineDate>
+		<DisciplineDate>2022-02-02</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -2274,7 +2274,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>21</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-05-02</DisciplineDate>
+		<DisciplineDate>2022-05-02</DisciplineDate>
 		<DisciplineActionLength>5</DisciplineActionLength>
 		<ActualDisciplineActionLength>5</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -2331,7 +2331,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>4</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-05-03</DisciplineDate>
+		<DisciplineDate>2022-05-03</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -2388,7 +2388,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>14</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-04-18</DisciplineDate>
+		<DisciplineDate>2022-04-18</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -2446,7 +2446,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>19</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#Expulsion</Discipline>
-		<DisciplineDate>2012-01-13</DisciplineDate>
+		<DisciplineDate>2022-01-13</DisciplineDate>
 		<DisciplineActionLength>5</DisciplineActionLength>
 		<ActualDisciplineActionLength>5</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -2504,7 +2504,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>17</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-01-04</DisciplineDate>
+		<DisciplineDate>2022-01-04</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>
@@ -2561,7 +2561,7 @@
 	<DisciplineAction>
 		<DisciplineActionIdentifier>2</DisciplineActionIdentifier>
 		<Discipline>uri://ed-fi.org/DisciplineDescriptor#In School Suspension</Discipline>
-		<DisciplineDate>2012-02-18</DisciplineDate>
+		<DisciplineDate>2022-02-18</DisciplineDate>
 		<DisciplineActionLength>1</DisciplineActionLength>
 		<ActualDisciplineActionLength>1</ActualDisciplineActionLength>
 		<DisciplineActionLengthDifferenceReason>uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor#No Difference</DisciplineActionLengthDifferenceReason>

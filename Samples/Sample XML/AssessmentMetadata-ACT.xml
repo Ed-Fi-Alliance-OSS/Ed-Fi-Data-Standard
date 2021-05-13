@@ -129,7 +129,7 @@
 		<ContentStandard>
 			<Title>ACT</Title>
 		</ContentStandard>
-		<AssessmentVersion>2005</AssessmentVersion>
+		<AssessmentVersion>2016</AssessmentVersion>
 		<RevisionDate>2016-03-12</RevisionDate>
 		<MaxRawScore>36.00000</MaxRawScore>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
@@ -163,7 +163,7 @@
 		<ContentStandard>
 			<Title>ACT</Title>
 		</ContentStandard>
-		<AssessmentVersion>2005</AssessmentVersion>
+		<AssessmentVersion>2016</AssessmentVersion>
 		<RevisionDate>2016-03-12</RevisionDate>
 		<MaxRawScore>12.00000</MaxRawScore>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>

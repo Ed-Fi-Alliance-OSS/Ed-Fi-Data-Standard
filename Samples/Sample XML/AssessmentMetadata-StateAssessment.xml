@@ -51,7 +51,7 @@
 		</AssessmentPerformanceLevel>
 		<ContentStandard>
 			<Title>State Essential Knowledge and Skills</Title>
-			<PublicationYear>2011</PublicationYear>
+			<PublicationYear>2021</PublicationYear>
 		</ContentStandard>
 		<AssessmentVersion>2021</AssessmentVersion>
 		<RevisionDate>2021-09-01</RevisionDate>
@@ -114,7 +114,7 @@
 		</AssessmentPerformanceLevel>
 		<ContentStandard>
 			<Title>State Essential Knowledge and Skills</Title>
-			<PublicationYear>2011</PublicationYear>
+			<PublicationYear>2021</PublicationYear>
 		</ContentStandard>
 		<AssessmentVersion>2021</AssessmentVersion>
 		<RevisionDate>2021-09-01</RevisionDate>
@@ -183,15 +183,15 @@
 		</AssessmentPerformanceLevel>
 		<ContentStandard>
 			<Title>State Essential Knowledge and Skills</Title>
-			<PublicationYear>2011</PublicationYear>
+			<PublicationYear>2021</PublicationYear>
 		</ContentStandard>
-		<AssessmentVersion>2011</AssessmentVersion>
-		<RevisionDate>2011-09-01</RevisionDate>
+		<AssessmentVersion>2021</AssessmentVersion>
+		<RevisionDate>2021-09-01</RevisionDate>
 		<MaxRawScore>48.00000</MaxRawScore>
 		<AssessmentPeriod>
 			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#EOY</AssessmentPeriod>
-			<BeginDate>2010-03-29</BeginDate>
-			<EndDate>2010-05-07</EndDate>
+			<BeginDate>2022-03-29</BeginDate>
+			<EndDate>2022-05-07</EndDate>
 		</AssessmentPeriod>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 	</Assessment>
@@ -252,15 +252,15 @@
 		</AssessmentPerformanceLevel>
 		<ContentStandard>
 			<Title>State Essential Knowledge and Skills</Title>
-			<PublicationYear>2011</PublicationYear>
+			<PublicationYear>2021</PublicationYear>
 		</ContentStandard>
-		<AssessmentVersion>2011</AssessmentVersion>
-		<RevisionDate>2011-09-01</RevisionDate>
+		<AssessmentVersion>2021</AssessmentVersion>
+		<RevisionDate>2021-09-01</RevisionDate>
 		<MaxRawScore>42.00000</MaxRawScore>
 		<AssessmentPeriod>
 			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#EOY</AssessmentPeriod>
-			<BeginDate>2010-03-29</BeginDate>
-			<EndDate>2010-05-07</EndDate>
+			<BeginDate>2022-03-29</BeginDate>
+			<EndDate>2022-05-07</EndDate>
 		</AssessmentPeriod>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 	</Assessment>

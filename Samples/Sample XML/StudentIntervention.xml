@@ -561,6 +561,6 @@
 				<InterventionPrescriptionIdentificationCode>255901-CheckAndConnect</InterventionPrescriptionIdentificationCode>
 			</InterventionPrescriptionIdentity>
 		</InterventionPrescriptionReference>
-		<BeginDate>2017-08-01</BeginDate>
+		<BeginDate>2018-08-01</BeginDate>
 	</EducationOrganizationInterventionPrescriptionAssociation>
 </InterchangeStudentIntervention>
