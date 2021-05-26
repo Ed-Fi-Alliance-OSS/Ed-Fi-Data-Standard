@@ -3140,6 +3140,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Autism Spectrum Disorders</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3194,6 +3197,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Physical Disability</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3261,6 +3267,12 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Motor impairment</Disability>
+		</Disability>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Physical Disability</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3375,6 +3387,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Intellectual Disability</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3485,6 +3500,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Speech or Language Impairment</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3601,6 +3619,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Visual Impairment, including Blindness</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3767,6 +3788,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Deaf-Blindness</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3821,6 +3845,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Speech or Language Impairment</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3931,6 +3958,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Traumatic Brain Injury</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4079,6 +4109,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Autism Spectrum Disorders</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4274,6 +4307,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Intellectual Disability</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4581,6 +4617,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Visual Impairment, including Blindness</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4720,6 +4759,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Speech or Language Impairment</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4859,6 +4901,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Deaf-Blindness</Disability>
+		</Disability>
 		<SpecialEducationProgramService>
 			<SpecialEducationProgramService>uri://ed-fi.org/SpecialEducationProgramServiceDescriptor#Speech-Language And Audiology Services</SpecialEducationProgramService>
 			<ServiceProvider>
@@ -5085,6 +5130,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Specific Learning Disability</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -5193,6 +5241,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Serious Emotional Disability</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -5333,6 +5384,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Sensory impairment</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -5528,6 +5582,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Hearing Impairment, including Deafness</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -5671,6 +5728,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Hearing Impairment, including Deafness</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -5814,6 +5874,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Medical condition</Disability>
+		</Disability>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
