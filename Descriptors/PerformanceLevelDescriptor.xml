@@ -19,6 +19,12 @@
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
+		<CodeValue>Well Below Basic</CodeValue>
+		<ShortDescription>Well Below Basic</ShortDescription>
+		<Description>Well Below Basic</Description>
+		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
+	</PerformanceLevelDescriptor>
+	<PerformanceLevelDescriptor>
 		<CodeValue>Fail</CodeValue>
 		<ShortDescription>Fail</ShortDescription>
 		<Description>Fail</Description>
@@ -36,10 +42,10 @@
 		<Description>Proficient</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
-	<PerformanceLevelDescriptor>
-		<CodeValue>Well Below Basic</CodeValue>
-		<ShortDescription>Well Below Basic</ShortDescription>
-		<Description>Well Below Basic</Description>
+		<PerformanceLevelDescriptor>
+		<CodeValue>Not Proficient</CodeValue>
+		<ShortDescription>Not Proficient</ShortDescription>
+		<Description>Not Proficient</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
@@ -49,9 +55,27 @@
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
+		<CodeValue>Did Not Meet Standard</CodeValue>
+		<ShortDescription>Did Not Meet Standard</ShortDescription>
+		<Description>Did Not Meet Standard</Description>
+		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
+	</PerformanceLevelDescriptor>
+	<PerformanceLevelDescriptor>
 		<CodeValue>Above Benchmark</CodeValue>
 		<ShortDescription>Above Benchmark</ShortDescription>
 		<Description>Above Benchmark</Description>
+		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
+	</PerformanceLevelDescriptor>
+	<PerformanceLevelDescriptor>
+		<CodeValue>Met Benchmark</CodeValue>
+		<ShortDescription>Met Benchmark</ShortDescription>
+		<Description>Met Benchmark</Description>
+		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
+	</PerformanceLevelDescriptor>
+	<PerformanceLevelDescriptor>
+		<CodeValue>Did Not Meet Benchmark</CodeValue>
+		<ShortDescription>Did Not Meet Benchmark</ShortDescription>
+		<Description>Did Not Meet Benchmark</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
@@ -67,15 +91,33 @@
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
-		<CodeValue>Minimum</CodeValue>
-		<ShortDescription>Minimum</ShortDescription>
-		<Description>Minimum</Description>
-		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
-	</PerformanceLevelDescriptor>
-	<PerformanceLevelDescriptor>
 		<CodeValue>Unsatisfactory</CodeValue>
 		<ShortDescription>Unsatisfactory</ShortDescription>
 		<Description>Unsatisfactory</Description>
+		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
+	</PerformanceLevelDescriptor>
+	<PerformanceLevelDescriptor>
+		<CodeValue>Masters Grade Level Performance</CodeValue>
+		<ShortDescription>Masters Grade Level Performance</ShortDescription>
+		<Description>Masters Grade Level Performance</Description>
+		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
+	</PerformanceLevelDescriptor>
+		<PerformanceLevelDescriptor>
+		<CodeValue>Meets Grade Level Performance</CodeValue>
+		<ShortDescription>Meets Grade Level Performance<</ShortDescription>
+		<Description>Meets Grade Level Performance<</Description>
+		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
+	</PerformanceLevelDescriptor>
+		<PerformanceLevelDescriptor>
+		<CodeValue>Approaches Grade Level Performance</CodeValue>
+		<ShortDescription>Approaches Grade Level Performance</ShortDescription>
+		<Description>Approaches Grade Level Performance</Description>
+		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
+	</PerformanceLevelDescriptor>
+		<PerformanceLevelDescriptor>
+		<CodeValue>Did Not Meet Grade Level Performance</CodeValue>
+		<ShortDescription>Did Not Meet Grade Level Performance</ShortDescription>
+		<Description>Did Not Meet Grade Level Performance</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 </InterchangeDescriptors>
