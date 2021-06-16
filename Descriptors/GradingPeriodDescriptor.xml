@@ -7,42 +7,6 @@
 		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
 	</GradingPeriodDescriptor>
 	<GradingPeriodDescriptor>
-		<CodeValue>First Semester</CodeValue>
-		<ShortDescription>First Semester</ShortDescription>
-		<Description>First Semester</Description>
-		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
-	</GradingPeriodDescriptor>
-	<GradingPeriodDescriptor>
-		<CodeValue>Second Semester</CodeValue>
-		<ShortDescription>Second Semester</ShortDescription>
-		<Description>Second Semester</Description>
-		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
-	</GradingPeriodDescriptor>
-	<GradingPeriodDescriptor>
-		<CodeValue>Summer Semester</CodeValue>
-		<ShortDescription>Summer Semester</ShortDescription>
-		<Description>Summer Semester</Description>
-		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
-	</GradingPeriodDescriptor>
-	<GradingPeriodDescriptor>
-		<CodeValue>First Summer Session</CodeValue>
-		<ShortDescription>First Summer Session</ShortDescription>
-		<Description>First Summer Session</Description>
-		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
-	</GradingPeriodDescriptor>
-	<GradingPeriodDescriptor>
-		<CodeValue>Second Summer Session</CodeValue>
-		<ShortDescription>Second Summer Session</ShortDescription>
-		<Description>Second Summer Session</Description>
-		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
-	</GradingPeriodDescriptor>
-	<GradingPeriodDescriptor>
-		<CodeValue>Third Summer Session</CodeValue>
-		<ShortDescription>Third Summer Session</ShortDescription>
-		<Description>Third Summer Session</Description>
-		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
-	</GradingPeriodDescriptor>
-	<GradingPeriodDescriptor>
 		<CodeValue>First Trimester</CodeValue>
 		<ShortDescription>First Trimester</ShortDescription>
 		<Description>First Trimester</Description>
@@ -118,6 +82,42 @@
 		<CodeValue>Sixth Six Weeks</CodeValue>
 		<ShortDescription>Sixth Six Weeks</ShortDescription>
 		<Description>Sixth Six Weeks</Description>
+		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
+	</GradingPeriodDescriptor>
+		<GradingPeriodDescriptor>
+		<CodeValue>First Semester</CodeValue>
+		<ShortDescription>First Semester</ShortDescription>
+		<Description>First Semester</Description>
+		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
+	</GradingPeriodDescriptor>
+	<GradingPeriodDescriptor>
+		<CodeValue>Second Semester</CodeValue>
+		<ShortDescription>Second Semester</ShortDescription>
+		<Description>Second Semester</Description>
+		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
+	</GradingPeriodDescriptor>
+	<GradingPeriodDescriptor>
+		<CodeValue>Summer Semester</CodeValue>
+		<ShortDescription>Summer Semester</ShortDescription>
+		<Description>Summer Semester</Description>
+		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
+	</GradingPeriodDescriptor>
+	<GradingPeriodDescriptor>
+		<CodeValue>First Summer Session</CodeValue>
+		<ShortDescription>First Summer Session</ShortDescription>
+		<Description>First Summer Session</Description>
+		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
+	</GradingPeriodDescriptor>
+	<GradingPeriodDescriptor>
+		<CodeValue>Second Summer Session</CodeValue>
+		<ShortDescription>Second Summer Session</ShortDescription>
+		<Description>Second Summer Session</Description>
+		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
+	</GradingPeriodDescriptor>
+	<GradingPeriodDescriptor>
+		<CodeValue>Third Summer Session</CodeValue>
+		<ShortDescription>Third Summer Session</ShortDescription>
+		<Description>Third Summer Session</Description>
 		<Namespace>uri://ed-fi.org/GradingPeriodDescriptor</Namespace>
 	</GradingPeriodDescriptor>
 </InterchangeDescriptors>
