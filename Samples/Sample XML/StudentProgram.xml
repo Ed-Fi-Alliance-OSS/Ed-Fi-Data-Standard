@@ -16172,7 +16172,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16185,6 +16185,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16196,7 +16199,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16209,6 +16212,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16220,7 +16226,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16233,6 +16239,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16244,7 +16253,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16257,6 +16266,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16268,7 +16280,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16281,6 +16293,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16292,7 +16307,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16305,6 +16320,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16316,7 +16334,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16329,6 +16347,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16340,7 +16361,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16353,6 +16374,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16364,7 +16388,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16377,6 +16401,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16388,7 +16415,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16401,6 +16428,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16412,7 +16442,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16425,6 +16455,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16436,7 +16469,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16449,6 +16482,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16460,7 +16496,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16473,6 +16509,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16484,7 +16523,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16497,6 +16536,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16508,7 +16550,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16521,6 +16563,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16532,7 +16577,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16545,6 +16590,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16556,7 +16604,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16569,6 +16617,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16580,7 +16631,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16593,6 +16644,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16604,7 +16658,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16617,6 +16671,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16628,7 +16685,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16641,6 +16698,9 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
 		<StudentReference>
@@ -16652,7 +16712,7 @@
 			<ProgramIdentity>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901 </EducationOrganizationId>
+						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<ProgramName>School Food Service</ProgramName>
@@ -16665,5 +16725,1655 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605061</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605082</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605093</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605100</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605111</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605124</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605136</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605151</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605165</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605224</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605240</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605258</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605298</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605317</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605361</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605377</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605407</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605508</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605555</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605609</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605516</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605551</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605562</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605579</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605614</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605635</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605674</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605740</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604950</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605542</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605468</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605447</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605422</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605401</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605352</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605297</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605251</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605207</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605168</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605127</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604821</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604844</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604858</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604877</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604899</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604919</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604935</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604881</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604976</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604999</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604958</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604945</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604920</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604912</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604894</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604867</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604863</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604851</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604837</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604822</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
+	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSchoolFoodServiceProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604866</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>School Food Service</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-08-30</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<SchoolFoodServiceProgramService>
+            <SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+        </SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 </InterchangeStudentProgram>
