@@ -13,6 +13,12 @@
 		<Namespace>uri://ed-fi.org/SexDescriptor</Namespace>
 	</SexDescriptor>
 	<SexDescriptor>
+		<CodeValue>Non-binary</CodeValue>
+		<ShortDescription>Non-binary</ShortDescription>
+		<Description>Non-binary</Description>
+		<Namespace>uri://ed-fi.org/SexDescriptor</Namespace>
+	</SexDescriptor>
+	<SexDescriptor>
 		<CodeValue>Not Selected</CodeValue>
 		<ShortDescription>Not Selected</ShortDescription>
 		<Description>Not Selected</Description>
