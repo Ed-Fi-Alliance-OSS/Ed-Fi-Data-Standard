@@ -4442,6 +4442,11 @@
               <xs:documentation>The time of day the student departed for the attendance event in ISO 8601 format.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="ClassPeriodReference" type="ClassPeriodReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The Class Period(s) to which the Section Attendance Event applies.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -7466,7 +7471,7 @@
           </xs:element>
           <xs:element name="StudentParticipationCode" type="StudentParticipationCodeDescriptorReferenceType">
             <xs:annotation>
-              <xs:documentation>The role or type of participation of a student in a discipline incident; 
+              <xs:documentation>The role or type of participation of a student in a discipline incident;
                       for example:
                       Victim
                       Perpetrator
