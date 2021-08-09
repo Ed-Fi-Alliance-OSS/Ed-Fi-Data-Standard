@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/3.3.0-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
-   <ProviderCategoryDescriptor>
+	<ProviderCategoryDescriptor>
 		<CodeValue>Care in your own home</CodeValue>
 		<ShortDescription>Care in your own home</ShortDescription>
 		<Description>Care in your own home</Description>
@@ -18,7 +18,7 @@
 		<Description>Community care</Description>
 		<Namespace>uri://ed-fi.org/ProviderCategoryDescriptor</Namespace>
 	</ProviderCategoryDescriptor>
-	 <ProviderCategoryDescriptor>
+	<ProviderCategoryDescriptor>
 		<CodeValue>Family child care home</CodeValue>
 		<ShortDescription>Family child care home</ShortDescription>
 		<Description>Family child care home</Description>
