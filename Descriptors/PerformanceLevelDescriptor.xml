@@ -38,50 +38,50 @@
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Pass</CodeValue>
-		<ShortDescription>DEPRECATE: Pass</ShortDescription>
-		<Description>DEPRECATE: Pass</Description>
+		<ShortDescription>DEPRECATED: Pass</ShortDescription>
+		<Description>DEPRECATED: Pass</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Fail</CodeValue>
-		<ShortDescription>DEPRECATE: Fail</ShortDescription>
-		<Description>DEPRECATE: Fail</Description>
+		<ShortDescription>DEPRECATED: Fail</ShortDescription>
+		<Description>DEPRECATED: Fail</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Commended Performance</CodeValue>
-		<ShortDescription>DEPRECATE: Commended Performance</ShortDescription>
-		<Description>DEPRECATE: Commended Performance</Description>
+		<ShortDescription>DEPRECATED: Commended Performance</ShortDescription>
+		<Description>DEPRECATED: Commended Performance</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Above Benchmark</CodeValue>
-		<ShortDescription>DEPRECATE: Above Benchmark</ShortDescription>
-		<Description>DEPRECATE: Above Benchmark</Description>
+		<ShortDescription>DEPRECATED: Above Benchmark</ShortDescription>
+		<Description>DEPRECATED: Above Benchmark</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Proficient</CodeValue>
-		<ShortDescription>DEPRECATE: Proficient</ShortDescription>
-		<Description>DEPRECATE: Proficient</Description>
+		<ShortDescription>DEPRECATED: Proficient</ShortDescription>
+		<Description>DEPRECATED: Proficient</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Minimum</CodeValue>
-		<ShortDescription>DEPRECATE: Minimum</ShortDescription>
-		<Description>DEPRECATE: Minimum</Description>
+		<ShortDescription>DEPRECATED: Minimum</ShortDescription>
+		<Description>DEPRECATED: Minimum</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Satisfactory</CodeValue>
-		<ShortDescription>DEPRECATE: Satisfactory</ShortDescription>
-		<Description>DEPRECATE: Satisfactory</Description>
+		<ShortDescription>DEPRECATED: Satisfactory</ShortDescription>
+		<Description>DEPRECATED: Satisfactory</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Unsatisfactory</CodeValue>
-		<ShortDescription>DEPRECATE: Unsatisfactory</ShortDescription>
-		<Description>DEPRECATE: Unsatisfactory</Description>
+		<ShortDescription>DEPRECATED: Unsatisfactory</ShortDescription>
+		<Description>DEPRECATED: Unsatisfactory</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 </InterchangeDescriptors>
