@@ -1236,7 +1236,12 @@
           </xs:element>
           <xs:element name="ExternalEducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Optional association between CourseTranscript and ExternalEdOrg is designed to capture cases in which the student takes a course via an ExternalEducationOrganization (like an enrolled student taking a Khan Academy course).</xs:documentation>
+              <xs:documentation>The external institution where the student completed the course (e.g., the original education organization for a transferred course transcript, or the provider for an online course).</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ExternalEducationOrganizationNameOfInstitution" type="NameOfInstitution" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Name of the external institution where the student completed the course; to be used only when the reference ExternalEducationOrganization is not available.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="AlternativeCourseIdentificationCode" type="CourseIdentificationCode" minOccurs="0" maxOccurs="unbounded">
@@ -7466,7 +7471,7 @@
           </xs:element>
           <xs:element name="StudentParticipationCode" type="StudentParticipationCodeDescriptorReferenceType">
             <xs:annotation>
-              <xs:documentation>The role or type of participation of a student in a discipline incident; 
+              <xs:documentation>The role or type of participation of a student in a discipline incident;
                       for example:
                       Victim
                       Perpetrator
