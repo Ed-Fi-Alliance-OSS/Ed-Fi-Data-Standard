@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.3.0-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<PrimaryLearningDeviceProviderDescriptor>
+		<CodeValue>Personal</CodeValue>
+		<ShortDescription>Personal</ShortDescription>
+		<Description>The provider of the primary learning device is the student or guardian.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceProviderDescriptor</Namespace>
+	</PrimaryLearningDeviceProviderDescriptor>
+	<PrimaryLearningDeviceProviderDescriptor>
+		<CodeValue>School</CodeValue>
+		<ShortDescription>School</ShortDescription>
+		<Description>The provider of the primary learning device is the school.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceProviderDescriptor</Namespace>
+	</PrimaryLearningDeviceProviderDescriptor>
+	<PrimaryLearningDeviceProviderDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>The provider of the primary learning device is not yet defined.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceProviderDescriptor</Namespace>
+	</PrimaryLearningDeviceProviderDescriptor>
+</InterchangeDescriptors>

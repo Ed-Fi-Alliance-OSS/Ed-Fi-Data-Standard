@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.3.0-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<InternetAccessTypeInResidenceDescriptor>
+		<CodeValue>Residential Broadband</CodeValue>
+		<ShortDescription>Residential Broadband</ShortDescription>
+		<Description>The type of internet service used in the student’s primary place of residence is residential broadband.</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessTypeInResidenceDescriptor</Namespace>
+	</InternetAccessTypeInResidenceDescriptor>
+	<InternetAccessTypeInResidenceDescriptor>
+		<CodeValue>Cellular Network</CodeValue>
+		<ShortDescription>Cellular Network</ShortDescription>
+		<Description>The type of internet service used in the student’s primary place of residence is a cellular network that creates a hot spot using a cell phone for additional device access or access to the internet is only available through a cellular device.</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessTypeInResidenceDescriptor</Namespace>
+	</InternetAccessTypeInResidenceDescriptor>
+	<InternetAccessTypeInResidenceDescriptor>
+		<CodeValue>Hot Spot</CodeValue>
+		<ShortDescription>Hot Spot</ShortDescription>
+		<Description>The type of internet service used in the student’s primary place of residence is a standalone hot spot device that is not a cell phone that allows for additional device access.</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessTypeInResidenceDescriptor</Namespace>
+	</InternetAccessTypeInResidenceDescriptor>
+	<InternetAccessTypeInResidenceDescriptor>
+		<CodeValue>Community Provided Wi-Fi</CodeValue>
+		<ShortDescription>Community Provided Wi-Fi</ShortDescription>
+		<Description>The type of internet service used in the student’s primary place of residence is community provided Wi-Fi.</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessTypeInResidenceDescriptor</Namespace>
+	</InternetAccessTypeInResidenceDescriptor>
+	<InternetAccessTypeInResidenceDescriptor>
+		<CodeValue>Satellite</CodeValue>
+		<ShortDescription>Satellite</ShortDescription>
+		<Description>The type of internet service used in the student’s primary place of residence is satellite.</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessTypeInResidenceDescriptor</Namespace>
+	</InternetAccessTypeInResidenceDescriptor>
+	<InternetAccessTypeInResidenceDescriptor>
+		<CodeValue>Dial-up</CodeValue>
+		<ShortDescription>Dial-up</ShortDescription>
+		<Description>The type of internet service used in the student’s primary place of residence is dial-up.</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessTypeInResidenceDescriptor</Namespace>
+	</InternetAccessTypeInResidenceDescriptor>
+	<InternetAccessTypeInResidenceDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>The type of internet service used in the student’s primary place of residence is not yet defined.</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessTypeInResidenceDescriptor</Namespace>
+	</InternetAccessTypeInResidenceDescriptor>
+	<InternetAccessTypeInResidenceDescriptor>
+		<CodeValue>None</CodeValue>
+		<ShortDescription>None</ShortDescription>
+		<Description>There is no internet service in the student’s primary place of residence.</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessTypeInResidenceDescriptor</Namespace>
+	</InternetAccessTypeInResidenceDescriptor>
+	<InternetAccessTypeInResidenceDescriptor>
+		<CodeValue>Unknown</CodeValue>
+		<ShortDescription>Unknown</ShortDescription>
+		<Description>It is not known whether there is internet service in the student’s primary place of residence.</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessTypeInResidenceDescriptor</Namespace>
+	</InternetAccessTypeInResidenceDescriptor>
+</InterchangeDescriptors>

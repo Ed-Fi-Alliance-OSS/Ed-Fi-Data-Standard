@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.3.0-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<BarrierToInternetAccessInResidenceDescriptor>
+		<CodeValue>Not Available</CodeValue>
+		<ShortDescription>Not Available</ShortDescription>
+		<Description>The student cannot access the internet in their primary place of residence because internet service is not available.</Description>
+		<Namespace>uri://ed-fi.org/BarrierToInternetAccessInResidenceDescriptor</Namespace>
+	</BarrierToInternetAccessInResidenceDescriptor>
+	<BarrierToInternetAccessInResidenceDescriptor>
+		<CodeValue>Not Affordable</CodeValue>
+		<ShortDescription>Not Affordable</ShortDescription>
+		<Description>The student cannot access the internet in their primary place of residence because internet service is not affordable.</Description>
+		<Namespace>uri://ed-fi.org/BarrierToInternetAccessInResidenceDescriptor</Namespace>
+	</BarrierToInternetAccessInResidenceDescriptor>
+	<BarrierToInternetAccessInResidenceDescriptor>
+		<CodeValue>Not Desired</CodeValue>
+		<ShortDescription>Not Desired</ShortDescription>
+		<Description>The student cannot access the internet in their primary place of residence because the parent or guardian chooses not to subscribe to internet service.</Description>
+		<Namespace>uri://ed-fi.org/BarrierToInternetAccessInResidenceDescriptor</Namespace>
+	</BarrierToInternetAccessInResidenceDescriptor>
+	<BarrierToInternetAccessInResidenceDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>The reason why a student cannot access the internet in their primary place of residence is not yet defined.</Description>
+		<Namespace>uri://ed-fi.org/BarrierToInternetAccessInResidenceDescriptor</Namespace>
+	</BarrierToInternetAccessInResidenceDescriptor>
+</InterchangeDescriptors>
