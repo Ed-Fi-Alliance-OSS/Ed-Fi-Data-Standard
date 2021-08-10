@@ -3114,7 +3114,7 @@
 		</StaffReference>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
+				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<EmploymentStatus>uri://ed-fi.org/EmploymentStatusDescriptor#Tenured or permanent</EmploymentStatus>
@@ -4152,6 +4152,23 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Counselor</StaffClassification>
 		<PositionTitle>High School Counselor</PositionTitle>
 		<BeginDate>1997-10-17</BeginDate>
+		<FullTimeEquivalency>0.5</FullTimeEquivalency>
+	</StaffEducationOrganizationAssignmentAssociation>
+	<StaffEducationOrganizationAssignmentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207283</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901044</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Counselor</StaffClassification>
+		<PositionTitle>Middle School Counselor</PositionTitle>
+		<BeginDate>1997-10-17</BeginDate>
+		<FullTimeEquivalency>0.5</FullTimeEquivalency>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>

@@ -7073,6 +7073,11 @@
               <xs:documentation>Reference to the Credential that is the basis for this assignment.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="FullTimeEquivalency" type="FullTimeEquivalency" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The ratio between the hours of work expected in a position and the hours of work normally expected in a full-time position in the same setting.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -7173,7 +7178,7 @@
               <xs:documentation>The department or suborganization the employee/contractor is associated with in the EducationOrganization.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="FullTimeEquivalency" type="Percent" minOccurs="0">
+          <xs:element name="FullTimeEquivalency" type="FullTimeEquivalency" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The ratio between the hours of work expected in a position and the hours of work normally expected in a full-time position in the same setting.</xs:documentation>
             </xs:annotation>
@@ -7466,7 +7471,7 @@
           </xs:element>
           <xs:element name="StudentParticipationCode" type="StudentParticipationCodeDescriptorReferenceType">
             <xs:annotation>
-              <xs:documentation>The role or type of participation of a student in a discipline incident; 
+              <xs:documentation>The role or type of participation of a student in a discipline incident;
                       for example:
                       Victim
                       Perpetrator
@@ -20477,9 +20482,8 @@
     </xs:annotation>
     <xs:restriction base="xs:decimal">
       <xs:minInclusive value="0" />
-      <xs:maxInclusive value="1" />
-      <xs:totalDigits value="3" />
-      <xs:fractionDigits value="2" />
+      <xs:totalDigits value="5" />
+      <xs:fractionDigits value="4" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="GPA">
