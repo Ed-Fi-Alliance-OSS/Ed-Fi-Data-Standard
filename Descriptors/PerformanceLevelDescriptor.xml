@@ -38,14 +38,14 @@
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Pass</CodeValue>
-		<ShortDescription>DEPRECATED: Pass</ShortDescription>
-		<Description>DEPRECATED: Pass</Description>
+		<ShortDescription>Pass</ShortDescription>
+		<Description>Pass</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
 		<CodeValue>Fail</CodeValue>
-		<ShortDescription>DEPRECATED: Fail</ShortDescription>
-		<Description>DEPRECATED: Fail</Description>
+		<ShortDescription>Fail</ShortDescription>
+		<Description>Fail</Description>
 		<Namespace>uri://ed-fi.org/PerformanceLevelDescriptor</Namespace>
 	</PerformanceLevelDescriptor>
 	<PerformanceLevelDescriptor>
