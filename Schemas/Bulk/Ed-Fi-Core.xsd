@@ -7022,7 +7022,7 @@
   </xs:complexType>
   <xs:complexType name="StaffEducationOrganizationAssignmentAssociation">
     <xs:annotation>
-      <xs:documentation>This association indicates the education organization to which a staff member provides services; also known as school of service.</xs:documentation>
+      <xs:documentation>This association indicates the education organization to which a staff member provides services.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -7055,12 +7055,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the LEA.</xs:documentation>
+              <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the education organization.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the end or termination date of a staff member's employment, contract, or relationship with the LEA.</xs:documentation>
+              <xs:documentation>Month, day, and year of the end or termination date of a staff member's employment, contract, or relationship with the education organization.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="OrderOfAssignment" type="xs:int" minOccurs="0">
@@ -11792,7 +11792,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the LEA.</xs:documentation>
+          <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the education organization.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
