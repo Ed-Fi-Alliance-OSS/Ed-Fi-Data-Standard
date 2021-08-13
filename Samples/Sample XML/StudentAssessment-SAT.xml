@@ -24,7 +24,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -101,7 +101,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -142,7 +142,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -363,7 +363,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -404,7 +404,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -553,7 +553,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -702,7 +702,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -779,7 +779,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -856,7 +856,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -897,7 +897,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -1046,7 +1046,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -1087,7 +1087,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -1128,7 +1128,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -1169,7 +1169,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -1210,7 +1210,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -1359,7 +1359,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -1436,7 +1436,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
@@ -1477,7 +1477,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevelMet>true</PerformanceLevelMet>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</PerformanceLevel>
 		<StudentReference>
