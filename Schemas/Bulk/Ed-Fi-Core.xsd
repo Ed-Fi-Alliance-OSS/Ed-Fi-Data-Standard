@@ -1299,7 +1299,7 @@
               <xs:documentation>The month, day, and year on which an active credential held by an individual will expire.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="CredentialField" type="CredentialFieldDescriptorReferenceType">
+          <xs:element name="CredentialField" type="CredentialFieldDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The field of certification for the certificate (e.g., Mathematics, Music).</xs:documentation>
               <xs:appinfo>
@@ -1325,7 +1325,7 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="GradeLevel" type="GradeLevelDescriptorReferenceType" maxOccurs="unbounded">
+          <xs:element name="GradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The grade level(s) certified for teaching.</xs:documentation>
               <xs:appinfo>
@@ -1341,7 +1341,7 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="TeachingCredential" type="TeachingCredentialDescriptorReferenceType">
+          <xs:element name="TeachingCredential" type="TeachingCredentialDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>An indication of the category of a legal document giving authorization to perform teaching assignment services.</xs:documentation>
               <xs:appinfo>
@@ -4440,6 +4440,11 @@
           <xs:element name="DepartureTime" type="xs:time" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The time of day the student departed for the attendance event in ISO 8601 format.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ClassPeriodReference" type="ClassPeriodReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The Class Period(s) to which the Section Attendance Event applies.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
