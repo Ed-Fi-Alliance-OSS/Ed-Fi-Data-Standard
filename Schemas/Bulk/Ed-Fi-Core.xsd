@@ -1236,7 +1236,12 @@
           </xs:element>
           <xs:element name="ExternalEducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Optional association between CourseTranscript and ExternalEdOrg is designed to capture cases in which the student takes a course via an ExternalEducationOrganization (like an enrolled student taking a Khan Academy course).</xs:documentation>
+              <xs:documentation>The external institution where the student completed the course (e.g., the original education organization for a transferred course transcript, or the provider for an online course).</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ExternalEducationOrganizationNameOfInstitution" type="NameOfInstitution" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Name of the external institution where the student completed the course; to be used only when the reference ExternalEducationOrganization is not available.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="AlternativeCourseIdentificationCode" type="CourseIdentificationCode" minOccurs="0" maxOccurs="unbounded">
@@ -1299,7 +1304,7 @@
               <xs:documentation>The month, day, and year on which an active credential held by an individual will expire.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="CredentialField" type="CredentialFieldDescriptorReferenceType">
+          <xs:element name="CredentialField" type="CredentialFieldDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The field of certification for the certificate (e.g., Mathematics, Music).</xs:documentation>
               <xs:appinfo>
@@ -1325,7 +1330,7 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="GradeLevel" type="GradeLevelDescriptorReferenceType" maxOccurs="unbounded">
+          <xs:element name="GradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The grade level(s) certified for teaching.</xs:documentation>
               <xs:appinfo>
@@ -1341,7 +1346,7 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="TeachingCredential" type="TeachingCredentialDescriptorReferenceType">
+          <xs:element name="TeachingCredential" type="TeachingCredentialDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>An indication of the category of a legal document giving authorization to perform teaching assignment services.</xs:documentation>
               <xs:appinfo>
@@ -4442,6 +4447,11 @@
               <xs:documentation>The time of day the student departed for the attendance event in ISO 8601 format.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="ClassPeriodReference" type="ClassPeriodReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The Class Period(s) to which the Section Attendance Event applies.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -7017,7 +7027,7 @@
   </xs:complexType>
   <xs:complexType name="StaffEducationOrganizationAssignmentAssociation">
     <xs:annotation>
-      <xs:documentation>This association indicates the education organization to which a staff member provides services; also known as school of service.</xs:documentation>
+      <xs:documentation>This association indicates the education organization to which a staff member provides services.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -7050,12 +7060,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the LEA.</xs:documentation>
+              <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the education organization.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the end or termination date of a staff member's employment, contract, or relationship with the LEA.</xs:documentation>
+              <xs:documentation>Month, day, and year of the end or termination date of a staff member's employment, contract, or relationship with the education organization.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="OrderOfAssignment" type="xs:int" minOccurs="0">
@@ -11792,7 +11802,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the LEA.</xs:documentation>
+          <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the education organization.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
