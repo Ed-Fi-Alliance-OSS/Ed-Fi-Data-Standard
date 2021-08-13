@@ -262,7 +262,7 @@
 			</CommunityOrganizationIdentity>
 		</CommunityOrganizationReference>
 		<ProviderStatus>uri://ed-fi.org/ProviderStatusDescriptor#Active</ProviderStatus>
-		<ProviderCategory>uri://ed-fi.org/ProviderCategoryDescriptor#Not Applicable</ProviderCategory>
+		<ProviderCategory>uri://ed-fi.org/ProviderCategoryDescriptor#Other</ProviderCategory>
 		<SchoolIndicator>false</SchoolIndicator>
 	</CommunityProvider>
 	<CommunityProviderLicense>
