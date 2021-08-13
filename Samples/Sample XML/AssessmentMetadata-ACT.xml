@@ -18,7 +18,7 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
 		</AssessmentScore>
 		<AssessmentPerformanceLevel>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Composite Score</AssessmentReportingMethod>
 			<MinimumScore>24</MinimumScore>
 			<MaximumScore>36</MaximumScore>
@@ -52,7 +52,7 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
 		</AssessmentScore>
 		<AssessmentPerformanceLevel>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 			<MinimumScore>24</MinimumScore>
 			<MaximumScore>36</MaximumScore>
@@ -86,7 +86,7 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
 		</AssessmentScore>
 		<AssessmentPerformanceLevel>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 			<MinimumScore>24</MinimumScore>
 			<MaximumScore>36</MaximumScore>
@@ -120,7 +120,7 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
 		</AssessmentScore>
 		<AssessmentPerformanceLevel>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 			<MinimumScore>24</MinimumScore>
 			<MaximumScore>36</MaximumScore>
@@ -154,7 +154,7 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
 		</AssessmentScore>
 		<AssessmentPerformanceLevel>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Above Benchmark</PerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 			<MinimumScore>9</MinimumScore>
 			<MaximumScore>12</MaximumScore>
