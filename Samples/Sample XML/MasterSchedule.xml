@@ -21496,6 +21496,16 @@
 				<ClassPeriodName>01 - Traditional</ClassPeriodName>
 			</ClassPeriodIdentity>
 		</ClassPeriodReference>
+		<ClassPeriodReference>
+			<ClassPeriodIdentity>
+				<SchoolReference>
+					<SchoolIdentity>
+						<SchoolId>255901107</SchoolId>
+					</SchoolIdentity>
+				</SchoolReference>
+				<ClassPeriodName>05 - Traditional</ClassPeriodName>
+			</ClassPeriodIdentity>
+		</ClassPeriodReference>
 	</Section>
 	<Section>
 		<SectionIdentifier>25590110701Trad202ELA0312011</SectionIdentifier>

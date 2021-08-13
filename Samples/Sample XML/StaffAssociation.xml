@@ -24577,13 +24577,10 @@
 	</Credential>
 	<Credential>
 		<ExpirationDate>1997-05-20</ExpirationDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Mathematics</CredentialField>
 		<CredentialIdentifier>554115575749</CredentialIdentifier>
 		<IssuanceDate>1996-05-20</IssuanceDate>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eighth grade</GradeLevel>
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 		<Namespace>uri://ed-fi.org</Namespace>
 	</Credential>
 	<Credential>
@@ -24956,13 +24953,10 @@
 	</Credential>
 	<Credential>
 		<ExpirationDate>2022-10-05</ExpirationDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Art</CredentialField>
 		<CredentialIdentifier>334191584741</CredentialIdentifier>
 		<IssuanceDate>2009-09-15</IssuanceDate>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
 		<Namespace>uri://ed-fi.org</Namespace>
 	</Credential>
 	<Credential>
@@ -25079,34 +25073,25 @@
 	</Credential>
 	<Credential>
 		<ExpirationDate>2003-01-10</ExpirationDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Mathematics</CredentialField>
 		<CredentialIdentifier>584115586749</CredentialIdentifier>
 		<IssuanceDate>2002-01-10</IssuanceDate>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</GradeLevel>
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 		<Namespace>uri://ed-fi.org</Namespace>
 	</Credential>
 	<Credential>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Art</CredentialField>
 		<CredentialIdentifier>434194587752</CredentialIdentifier>
 		<IssuanceDate>2008-05-10</IssuanceDate>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Third grade</GradeLevel>
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
 		<Namespace>uri://ed-fi.org</Namespace>
 	</Credential>
 	<Credential>
 		<ExpirationDate>2006-05-26</ExpirationDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Life and Physical Sciences</CredentialField>
 		<CredentialIdentifier>164155587745</CredentialIdentifier>
 		<IssuanceDate>2005-05-26</IssuanceDate>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Third grade</GradeLevel>
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 		<Namespace>uri://ed-fi.org</Namespace>
 	</Credential>
 	<Credential>
