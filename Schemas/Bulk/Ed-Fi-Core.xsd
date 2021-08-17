@@ -1275,6 +1275,11 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
+          <xs:element name="PartialCourseTranscriptAwards" type="PartialCourseTranscriptAwards" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A collection of partial credits and/or grades a student earned against the course over the session, used when awards of credit are incremental.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -18013,6 +18018,44 @@
           <xs:appinfo>
             <ann:Descriptor>OtherNameTypeDescriptor</ann:Descriptor>
           </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PartialCourseTranscriptAwards">
+    <xs:annotation>
+      <xs:documentation>A collection of partial credits and/or grades a student earned against the course over the session, used when awards of credit are incremental.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="AwardDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>The date the partial credits and/or grades were awarded or earned.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EarnedCredits" type="CreditsValue">
+        <xs:annotation>
+          <xs:documentation>The number of credits a student earned for completing a given course.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MethodCreditEarned" type="MethodCreditEarnedDescriptorReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The method the credits were earned.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>MethodCreditEarnedDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="LetterGradeEarned" type="GradeEarned" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The indicator of student performance as submitted by the instructor.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="NumericGradeEarned" type="GradeEarned" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The indicator of student performance as submitted by the instructor.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
