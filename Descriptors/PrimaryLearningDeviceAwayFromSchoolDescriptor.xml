@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.3.0-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<PrimaryLearningDeviceAwayFromSchoolDescriptor>
+		<CodeValue>Desktop Computer</CodeValue>
+		<ShortDescription>Desktop Computer</ShortDescription>
+		<Description>A desktop computer is the type of device the student uses most often to complete learning activities away from school.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAwayFromSchoolDescriptor</Namespace>
+	</PrimaryLearningDeviceAwayFromSchoolDescriptor>
+	<PrimaryLearningDeviceAwayFromSchoolDescriptor>
+		<CodeValue>Laptop Computer</CodeValue>
+		<ShortDescription>Laptop Computer</ShortDescription>
+		<Description>A Laptop Computer is the type of device the student uses most often to complete learning activities away from school.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAwayFromSchoolDescriptor</Namespace>
+	</PrimaryLearningDeviceAwayFromSchoolDescriptor>
+	<PrimaryLearningDeviceAwayFromSchoolDescriptor>
+		<CodeValue>Tablet</CodeValue>
+		<ShortDescription>Tablet</ShortDescription>
+		<Description>A Tablet is the type of device the student uses most often to complete learning activities away from school.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAwayFromSchoolDescriptor</Namespace>
+	</PrimaryLearningDeviceAwayFromSchoolDescriptor>
+	<PrimaryLearningDeviceAwayFromSchoolDescriptor>
+		<CodeValue>Chromebook</CodeValue>
+		<ShortDescription>Chromebook</ShortDescription>
+		<Description>A Chromebook is the type of device the student uses most often to complete learning activities away from school.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAwayFromSchoolDescriptor</Namespace>
+	</PrimaryLearningDeviceAwayFromSchoolDescriptor>
+	<PrimaryLearningDeviceAwayFromSchoolDescriptor>
+		<CodeValue>Smartphone</CodeValue>
+		<ShortDescription>Smartphone</ShortDescription>
+		<Description>A Smartphone is the type of device the student uses most often to complete learning activities away from school.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAwayFromSchoolDescriptor</Namespace>
+	</PrimaryLearningDeviceAwayFromSchoolDescriptor>
+	<PrimaryLearningDeviceAwayFromSchoolDescriptor>
+		<CodeValue>None</CodeValue>
+		<ShortDescription>None</ShortDescription>
+		<Description>There is not a device the student uses to complete learning activities away from school.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAwayFromSchoolDescriptor</Namespace>
+	</PrimaryLearningDeviceAwayFromSchoolDescriptor>
+	<PrimaryLearningDeviceAwayFromSchoolDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>The type of device the student uses most often to complete learning activities away from school is not yet defined.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAwayFromSchoolDescriptor</Namespace>
+	</PrimaryLearningDeviceAwayFromSchoolDescriptor>
+</InterchangeDescriptors>

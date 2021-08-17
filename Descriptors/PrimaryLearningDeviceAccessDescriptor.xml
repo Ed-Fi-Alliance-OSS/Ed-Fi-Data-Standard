@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.3.0-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<PrimaryLearningDeviceAccessDescriptor>
+		<CodeValue>Shared</CodeValue>
+		<ShortDescription>Shared</ShortDescription>
+		<Description>The primary learning device is shared with another individual.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAccessDescriptor</Namespace>
+	</PrimaryLearningDeviceAccessDescriptor>
+	<PrimaryLearningDeviceAccessDescriptor>
+		<CodeValue>Not Shared</CodeValue>
+		<ShortDescription>Not Shared</ShortDescription>
+		<Description>The primary learning device is not shared with another individual.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAccessDescriptor</Namespace>
+	</PrimaryLearningDeviceAccessDescriptor>
+	<PrimaryLearningDeviceAccessDescriptor>
+		<CodeValue>Unknown</CodeValue>
+		<ShortDescription>Unknown</ShortDescription>
+		<Description>It is not known whether the primary learning device is shared with another individual.</Description>
+		<Namespace>uri://ed-fi.org/PrimaryLearningDeviceAccessDescriptor</Namespace>
+	</PrimaryLearningDeviceAccessDescriptor>
+</InterchangeDescriptors>

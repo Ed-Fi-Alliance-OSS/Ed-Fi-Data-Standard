@@ -34,6 +34,7 @@
       <xs:enumeration value="AssessmentReportingMethodDescriptor" />
       <xs:enumeration value="AttemptStatusDescriptor" />
       <xs:enumeration value="AttendanceEventCategoryDescriptor" />
+      <xs:enumeration value="BarrierToInternetAccessInResidenceDescriptor" />
       <xs:enumeration value="BehaviorDescriptor" />
       <xs:enumeration value="CalendarEventDescriptor" />
       <xs:enumeration value="CalendarTypeDescriptor" />
@@ -100,6 +101,8 @@
       <xs:enumeration value="InstitutionTelephoneNumberTypeDescriptor" />
       <xs:enumeration value="InteractivityStyleDescriptor" />
       <xs:enumeration value="InternetAccessDescriptor" />
+      <xs:enumeration value="InternetAccessTypeInResidenceDescriptor" />
+      <xs:enumeration value="InternetPerformanceInResidenceDescriptor" />
       <xs:enumeration value="InterventionClassDescriptor" />
       <xs:enumeration value="InterventionEffectivenessRatingDescriptor" />
       <xs:enumeration value="LanguageDescriptor" />
@@ -135,6 +138,9 @@
       <xs:enumeration value="PostingResultDescriptor" />
       <xs:enumeration value="PostSecondaryEventCategoryDescriptor" />
       <xs:enumeration value="PostSecondaryInstitutionLevelDescriptor" />
+      <xs:enumeration value="PrimaryLearningDeviceAccessDescriptor" />
+      <xs:enumeration value="PrimaryLearningDeviceAwayFromSchoolDescriptor" />
+      <xs:enumeration value="PrimaryLearningDeviceProviderDescriptor" />
       <xs:enumeration value="ProficiencyDescriptor" />
       <xs:enumeration value="ProgramAssignmentDescriptor" />
       <xs:enumeration value="ProgramCharacteristicDescriptor" />
