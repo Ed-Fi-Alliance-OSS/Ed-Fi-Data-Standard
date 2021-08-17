@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.3.0-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.0-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<InternetPerformanceInResidenceDescriptor>
+		<CodeValue>Yes</CodeValue>
+		<ShortDescription>Yes</ShortDescription>
+		<Description>The student experiences very few or no interruptions in learning activities caused by poor internet performance in their primary place of residence.</Description>
+		<Namespace>uri://ed-fi.org/InternetPerformanceInResidenceDescriptor</Namespace>
+	</InternetPerformanceInResidenceDescriptor>
+	<InternetPerformanceInResidenceDescriptor>
+		<CodeValue>Sometimes</CodeValue>
+		<ShortDescription>Sometimes</ShortDescription>
+		<Description>The student regularly experiences interruptions in learning activities caused by poor internet performance in their primary place of residence.</Description>
+		<Namespace>uri://ed-fi.org/InternetPerformanceInResidenceDescriptor</Namespace>
+	</InternetPerformanceInResidenceDescriptor>
+	<InternetPerformanceInResidenceDescriptor>
+		<CodeValue>No</CodeValue>
+		<ShortDescription>No</ShortDescription>
+		<Description>The student is unable to complete learning activities due to poor internet performance in their primary place of residence.</Description>
+		<Namespace>uri://ed-fi.org/InternetPerformanceInResidenceDescriptor</Namespace>
+	</InternetPerformanceInResidenceDescriptor>
+</InterchangeDescriptors>
