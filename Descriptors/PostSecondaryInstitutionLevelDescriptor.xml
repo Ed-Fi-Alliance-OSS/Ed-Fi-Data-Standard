@@ -1,21 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/3.3.1-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.1-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
-	<PostSecondaryInstitutionLevelDescriptor>
+  <PostSecondaryInstitutionLevelDescriptor>
+    <CodeValue>Doctoral University</CodeValue>
+    <ShortDescription>Doctoral University</ShortDescription>
+    <Description>Includes institutions that awarded at least 20 research/scholarship doctoral degrees during the update year and also institutions with below 20 research/scholarship doctoral degrees that awarded at least 30 professional practice doctoral degrees in at least 2 programs. Excludes Special Focus Institutions and Tribal Colleges.</Description>
+    <Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
+  </PostSecondaryInstitutionLevelDescriptor>
+  <PostSecondaryInstitutionLevelDescriptor>
+    <CodeValue>Master's College or University</CodeValue>
+    <ShortDescription>Master's College or University</ShortDescription>
+    <Description>Generally includes institutions that awarded at least 50 master's degrees and fewer than 20 doctoral degrees during the update year (with occasional exceptions). Excludes Special Focus Institutions and Tribal Colleges.</Description>
+    <Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
+  </PostSecondaryInstitutionLevelDescriptor>
+  <PostSecondaryInstitutionLevelDescriptor>
+    <CodeValue>Baccalaureate College</CodeValue>
+    <ShortDescription>Baccalaureate College</ShortDescription>
+    <Description>Includes institutions where baccalaureate or higher degrees represent at least 50 percent of all degrees but where fewer than 50 master's degrees or 20 doctoral degrees were awarded during the update year. (Some institutions above the master's degree threshold are also included.) Excludes Special Focus Institutions and Tribal Colleges.</Description>
+    <Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
+  </PostSecondaryInstitutionLevelDescriptor>
+  <PostSecondaryInstitutionLevelDescriptor>
+    <CodeValue>Baccaulaureate/Associate's College</CodeValue>
+    <ShortDescription>Baccaulaureate/Associate's College</ShortDescription>
+    <Description>Includes four-year colleges (by virtue of having at least one baccalaureate degree program) that conferred more than 50 percent of degrees at the associate's level . Excludes Special Focus Institutions, Tribal Colleges, and institutions that have sufficient master’s or doctoral degrees to fall into those categories.</Description>
+    <Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
+  </PostSecondaryInstitutionLevelDescriptor>
+  <PostSecondaryInstitutionLevelDescriptor>
+    <CodeValue>Associate's College</CodeValue>
+    <ShortDescription>Associate's College</ShortDescription>
+    <Description>Institutions at which the highest level degree awarded is an associate's degree. The institutions are sorted into nine categories based on the intersection of two factors: disciplinary focus (transfer, career and technical or mixed) and dominant student type (traditional, nontraditional or mixed). Excludes Special Focus Institutions and Tribal Colleges.</Description>
+    <Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
+  </PostSecondaryInstitutionLevelDescriptor>
+  <PostSecondaryInstitutionLevelDescriptor>
+    <CodeValue>Special Focus Institution/Two-Year</CodeValue>
+    <ShortDescription>Special Focus Institution/Two-Year</ShortDescription>
+    <Description>Two-year institutions where a high concentration of degrees is in a single field or set of related fields. Excludes Tribal Colleges.</Description>
+    <Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
+  </PostSecondaryInstitutionLevelDescriptor>
+  <PostSecondaryInstitutionLevelDescriptor>
+    <CodeValue>Special Focus Institution/Four-Year</CodeValue>
+    <ShortDescription>Special Focus Institution/Four-Year</ShortDescription>
+    <Description>Four-year institutions where a high concentration of degrees is in a single field or set of related fields. Excludes Tribal Colleges.</Description>
+    <Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
+  </PostSecondaryInstitutionLevelDescriptor>
+  <PostSecondaryInstitutionLevelDescriptor>
+    <CodeValue>Tribal College</CodeValue>
+    <ShortDescription>Tribal College</ShortDescription>
+    <Description>Colleges and universities that are members of the American Indian Higher Education Consortium, as identified in IPEDS Institutional Characteristics.</Description>
+    <Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
+  </PostSecondaryInstitutionLevelDescriptor>
+  <PostSecondaryInstitutionLevelDescriptor>
 		<CodeValue>At least 2 but less than 4 years</CodeValue>
-		<ShortDescription>At least 2 but less than 4 years</ShortDescription>
-		<Description>At least 2 but less than 4 years</Description>
+		<ShortDescription>DEPRECATED: At least 2 but less than 4 years</ShortDescription>
+		<Description>DEPRECATED: At least 2 but less than 4 years</Description>
 		<Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
 	</PostSecondaryInstitutionLevelDescriptor>
 	<PostSecondaryInstitutionLevelDescriptor>
 		<CodeValue>Four or more years</CodeValue>
-		<ShortDescription>Four or more years</ShortDescription>
-		<Description>Four or more years</Description>
+		<ShortDescription>DEPRECATED: Four or more years</ShortDescription>
+		<Description>DEPRECATED: Four or more years</Description>
 		<Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
 	</PostSecondaryInstitutionLevelDescriptor>
 	<PostSecondaryInstitutionLevelDescriptor>
 		<CodeValue>Less than 2 years (below associate)</CodeValue>
-		<ShortDescription>Less than 2 years (below associate)</ShortDescription>
-		<Description>Less than 2 years (below associate)</Description>
+		<ShortDescription>DEPRECATED: Less than 2 years (below associate)</ShortDescription>
+		<Description>DEPRECATED: Less than 2 years (below associate)</Description>
 		<Namespace>uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor</Namespace>
 	</PostSecondaryInstitutionLevelDescriptor>
 </InterchangeDescriptors>
