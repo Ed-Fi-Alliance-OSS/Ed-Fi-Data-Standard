@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.3.1-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.1-b ../../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<CreditCategoryDescriptor>
+		<CodeValue>Advanced Placement</CodeValue>
+		<ShortDescription>Advanced Placement</ShortDescription>
+		<Description>Advanced Placement</Description>
+		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+	</CreditCategoryDescriptor>
+  <CreditCategoryDescriptor>
+  <CodeValue>Career and Technical Education</CodeValue>
+  <ShortDescription>Career and Technical Education</ShortDescription>
+  <Description>Career and Technical Education</Description>
+  <Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+  </CreditCategoryDescriptor>
+	<CreditCategoryDescriptor>
+		<CodeValue>Dual Credit</CodeValue>
+		<ShortDescription>DEPRECATED: Dual Credit</ShortDescription>
+		<Description>DEPRECATED: Dual Credit</Description>
+		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+	</CreditCategoryDescriptor>
+	<CreditCategoryDescriptor>
+		<CodeValue>Honors</CodeValue>
+		<ShortDescription>Honors</ShortDescription>
+		<Description>Honors</Description>
+		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+	</CreditCategoryDescriptor>
+	<CreditCategoryDescriptor>
+		<CodeValue>International Baccalaureate</CodeValue>
+		<ShortDescription>International Baccalaureate</ShortDescription>
+		<Description>International Baccalaureate</Description>
+		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+	</CreditCategoryDescriptor>
+  <CreditCategoryDescriptor>
+    <CodeValue>Remedial</CodeValue>
+    <ShortDescription>Remedial</ShortDescription>
+    <Description>Remedial</Description>
+    <Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+  </CreditCategoryDescriptor>
+</InterchangeDescriptors>
