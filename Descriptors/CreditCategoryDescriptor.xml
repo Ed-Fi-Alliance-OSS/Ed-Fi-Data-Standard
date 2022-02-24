@@ -6,12 +6,12 @@
 		<Description>Advanced Placement</Description>
 		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
 	</CreditCategoryDescriptor>
-  <CreditCategoryDescriptor>
-  <CodeValue>Career and Technical Education</CodeValue>
-  <ShortDescription>Career and Technical Education</ShortDescription>
-  <Description>Career and Technical Education</Description>
-  <Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
-  </CreditCategoryDescriptor>
+	<CreditCategoryDescriptor>
+		<CodeValue>Career and Technical Education</CodeValue>
+		<ShortDescription>Career and Technical Education</ShortDescription>
+		<Description>Career and Technical Education</Description>
+		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+	</CreditCategoryDescriptor>
 	<CreditCategoryDescriptor>
 		<CodeValue>Dual Credit</CodeValue>
 		<ShortDescription>DEPRECATED: Dual Credit</ShortDescription>
@@ -30,10 +30,10 @@
 		<Description>International Baccalaureate</Description>
 		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
 	</CreditCategoryDescriptor>
-  <CreditCategoryDescriptor>
-    <CodeValue>Remedial</CodeValue>
-    <ShortDescription>Remedial</ShortDescription>
-    <Description>Remedial</Description>
-    <Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
-  </CreditCategoryDescriptor>
+	<CreditCategoryDescriptor>
+		<CodeValue>Remedial</CodeValue>
+		<ShortDescription>Remedial</ShortDescription>
+		<Description>Remedial</Description>
+		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+	</CreditCategoryDescriptor>
 </InterchangeDescriptors>
