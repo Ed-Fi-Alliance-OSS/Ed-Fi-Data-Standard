@@ -42,4 +42,10 @@
 		<Description>Test Contractor</Description>
 		<Namespace>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor</Namespace>
 	</AssessmentIdentificationSystemDescriptor>
+  <AssessmentIdentificationSystemDescriptor>
+    <CodeValue>National</CodeValue>
+    <ShortDescription>National</ShortDescription>
+    <Description>National</Description>
+    <Namespace>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor</Namespace>
+  </AssessmentIdentificationSystemDescriptor>
 </InterchangeDescriptors>
