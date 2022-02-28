@@ -31,7 +31,7 @@
 		<Namespace>uri://ed-fi.org/AccommodationDescriptor</Namespace>
 	</AccommodationDescriptor>
 	<AccommodationDescriptor>
-		<CodeValue>Student equipment/technology</CodeValue>
+		<CodeValue>Student equipment/technology accommodation</CodeValue>
 		<ShortDescription>Student equipment/technology</ShortDescription>
 		<Description>Student equipment/technology</Description>
 		<Namespace>uri://ed-fi.org/AccommodationDescriptor</Namespace>
