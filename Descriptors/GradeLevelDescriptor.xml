@@ -8,14 +8,32 @@
 	</GradeLevelDescriptor>
 	<GradeLevelDescriptor>
 		<CodeValue>Early Education</CodeValue>
-		<ShortDescription>Early Education</ShortDescription>
-		<Description>Early Education</Description>
+		<ShortDescription>DEPRECATED: Early Education</ShortDescription>
+		<Description>DEPRECATED: Early Education</Description>
 		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
 	</GradeLevelDescriptor>
 	<GradeLevelDescriptor>
 		<CodeValue>Preschool/Prekindergarten</CodeValue>
-		<ShortDescription>Preschool/Prekindergarten</ShortDescription>
-		<Description>Preschool/Prekindergarten</Description>
+		<ShortDescription>DEPRECATED: Preschool/Prekindergarten</ShortDescription>
+		<Description>DEPRECATED: Preschool/Prekindergarten</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Preschool</CodeValue>
+		<ShortDescription>Preschool</ShortDescription>
+		<Description>Preschool</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Prekindergarten</CodeValue>
+		<ShortDescription>Prekindergarten</ShortDescription>
+		<Description>Prekindergarten</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Transitional Kindergarten</CodeValue>
+		<ShortDescription>Transitional Kindergarten</</ShortDescription>
+		<Description>Transitional Kindergarten</</Description>
 		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
 	</GradeLevelDescriptor>
 	<GradeLevelDescriptor>
@@ -110,14 +128,14 @@
 	</GradeLevelDescriptor>
 	<GradeLevelDescriptor>
 		<CodeValue>Adult Education</CodeValue>
-		<ShortDescription>Adult Education</ShortDescription>
-		<Description>Adult Education</Description>
+		<ShortDescription>DEPRECATED: Adult Education</ShortDescription>
+		<Description>DEPRECATED: Adult Education</Description>
 		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
 	</GradeLevelDescriptor>
 	<GradeLevelDescriptor>
 		<CodeValue>No grade level</CodeValue>
-		<ShortDescription>No grade level</ShortDescription>
-		<Description>No grade level</Description>
+		<ShortDescription>DEPRECATED: No grade level</ShortDescription>
+		<Description>DEPRECATED: No grade level</Description>
 		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
 	</GradeLevelDescriptor>
 	<GradeLevelDescriptor>
@@ -130,6 +148,12 @@
 		<CodeValue>Ungraded</CodeValue>
 		<ShortDescription>Ungraded</ShortDescription>
 		<Description>Ungraded</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Out of School</CodeValue>
+		<ShortDescription>Out of School</ShortDescription>
+		<Description>Out of School</Description>
 		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
 	</GradeLevelDescriptor>
 </InterchangeDescriptors>
