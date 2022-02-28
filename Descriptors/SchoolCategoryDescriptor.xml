@@ -20,8 +20,14 @@
 	</SchoolCategoryDescriptor>
 	<SchoolCategoryDescriptor>
 		<CodeValue>Elementary/Secondary School</CodeValue>
-		<ShortDescription>Elementary/Secondary School</ShortDescription>
-		<Description>Elementary/Secondary School</Description>
+		<ShortDescription>DEPRECATED: Elementary/Secondary School</ShortDescription>
+		<Description>DEPRECATED: Elementary/Secondary School</Description>
+		<Namespace>uri://ed-fi.org/SchoolCategoryDescriptor</Namespace>
+	</SchoolCategoryDescriptor>
+		<SchoolCategoryDescriptor>
+		<CodeValue>Joint Secondary and Postsecondary School</CodeValue>
+		<ShortDescription>Joint Secondary and Postsecondary School</ShortDescription>
+		<Description>Joint Secondary and Postsecondary School</Description>
 		<Namespace>uri://ed-fi.org/SchoolCategoryDescriptor</Namespace>
 	</SchoolCategoryDescriptor>
 	<SchoolCategoryDescriptor>
@@ -79,9 +85,9 @@
 		<Namespace>uri://ed-fi.org/SchoolCategoryDescriptor</Namespace>
 	</SchoolCategoryDescriptor>
 	<SchoolCategoryDescriptor>
-		<CodeValue>SecondarySchool</CodeValue>
-		<ShortDescription>SecondarySchool</ShortDescription>
-		<Description>SecondarySchool</Description>
+		<CodeValue>Secondary School</CodeValue>
+		<ShortDescription>Secondary School</ShortDescription>
+		<Description>Secondary School</Description>
 		<Namespace>uri://ed-fi.org/SchoolCategoryDescriptor</Namespace>
 	</SchoolCategoryDescriptor>
 	<SchoolCategoryDescriptor>
