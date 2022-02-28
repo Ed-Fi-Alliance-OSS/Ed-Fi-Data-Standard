@@ -8,20 +8,20 @@
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Assistant Principal</CodeValue>
-		<ShortDescription>Assistant Principal</ShortDescription>
-		<Description>Assistant Principal</Description>
+		<ShortDescription>DEPRECATED: Assistant Principal</ShortDescription>
+		<Description>DEPRECATED: Assistant Principal</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Assistant Superintendent</CodeValue>
-		<ShortDescription>Assistant Superintendent</ShortDescription>
-		<Description>Assistant Superintendent</Description>
+		<ShortDescription>DEPRECATED: Assistant Superintendent</ShortDescription>
+		<Description>DEPRECATED: Assistant Superintendent</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Counselor</CodeValue>
-		<ShortDescription>Counselor</ShortDescription>
-		<Description>Counselor</Description>
+		<ShortDescription>DEPRECATED: Counselor</ShortDescription>
+		<Description>DEPRECATED: Counselor</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -38,20 +38,20 @@
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Instructional Aide</CodeValue>
-		<ShortDescription>Instructional Aide</ShortDescription>
-		<Description>Instructional Aide</Description>
+		<ShortDescription>DEPRECATED: Instructional Aide</ShortDescription>
+		<Description>DEPRECATED: Instructional Aide</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>Instr Coordinators and Supervisors to the Staff</CodeValue>
+		<CodeValue>Instructional Coordinators and Supervisors to the Staff</CodeValue>
 		<ShortDescription>Instructional Coordinators and Supervisors to the Staff</ShortDescription>
 		<Description>Instructional Coordinators and Supervisors to the Staff</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Instructional Coordinator</CodeValue>
-		<ShortDescription>Instructional Coordinator</ShortDescription>
-		<Description>Instructional Coordinator</Description>
+		<ShortDescription>DEPRECATED: Instructional Coordinator</ShortDescription>
+		<Description>DEPRECATED: Instructional Coordinator</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -61,9 +61,9 @@
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>LEA Administrator</CodeValue>
-		<ShortDescription>LEA Administrator</ShortDescription>
-		<Description>LEA Administrator</Description>
+		<CodeValue>LEA Administrators</CodeValue>
+		<ShortDescription>LEA Administrators</ShortDescription>
+		<Description>LEA Administrators</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -74,14 +74,14 @@
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>LEA Specialist</CodeValue>
-		<ShortDescription>LEA Specialist</ShortDescription>
-		<Description>LEA Specialist</Description>
+		<ShortDescription>DEPRECATED: LEA Specialist</ShortDescription>
+		<Description>DEPRECATED: LEA Specialist</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>LEA System Administrator</CodeValue>
-		<ShortDescription>LEA System Administrator</ShortDescription>
-		<Description>LEA System Administrator</Description>
+		<ShortDescription>DEPRECATED: LEA System Administrator</ShortDescription>
+		<Description>DEPRECATED: LEA System Administrator</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -98,14 +98,14 @@
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Operational Support</CodeValue>
-		<ShortDescription>Operational Support</ShortDescription>
-		<Description>Operational Support</Description>
+		<ShortDescription>DEPRECATED: Operational Support</ShortDescription>
+		<Description>DEPRECATED: Operational Support</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Other</CodeValue>
-		<ShortDescription>Other</ShortDescription>
-		<Description>Other</Description>
+		<ShortDescription>DEPRECATED: Other</ShortDescription>
+		<Description>DEPRECATED: Other</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -122,8 +122,8 @@
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Principal</CodeValue>
-		<ShortDescription>Principal</ShortDescription>
-		<Description>Principal</Description>
+		<ShortDescription>DEPRECATED: Principal</ShortDescription>
+		<Description>DEPRECATED: Principal</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -133,9 +133,9 @@
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>School Administrator</CodeValue>
-		<ShortDescription>School Administrator</ShortDescription>
-		<Description>School Administrator</Description>
+		<CodeValue>School Administrators</CodeValue>
+		<ShortDescription>School Administrators</ShortDescription>
+		<Description>School Administrators</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -146,8 +146,8 @@
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>School Leader</CodeValue>
-		<ShortDescription>School Leader</ShortDescription>
-		<Description>School Leader</Description>
+		<ShortDescription>DEPRECATED: School Leader</ShortDescription>
+		<Description>DEPRECATED: School Leader</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -158,8 +158,8 @@
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>School Specialist</CodeValue>
-		<ShortDescription>School Specialist</ShortDescription>
-		<Description>School Specialist</Description>
+		<ShortDescription>DEPRECATED: School Specialist</ShortDescription>
+		<Description>DEPRECATED: School Specialist</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -176,8 +176,8 @@
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>State Administrator</CodeValue>
-		<ShortDescription>State Administrator</ShortDescription>
-		<Description>State Administrator</Description>
+		<ShortDescription>DEPRECATED: State Administrator</ShortDescription>
+		<Description>DEPRECATED: State Administrator</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -188,32 +188,38 @@
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Substitute Teacher</CodeValue>
-		<ShortDescription>Substitute Teacher</ShortDescription>
-		<Description>Substitute Teacher</Description>
+		<ShortDescription>DEPRECATED: Substitute Teacher</ShortDescription>
+		<Description>DEPRECATED: Substitute Teacher</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Superintendent</CodeValue>
-		<ShortDescription>Superintendent</ShortDescription>
-		<Description>Superintendent</Description>
+		<ShortDescription>DEPRECATED: Superintendent</ShortDescription>
+		<Description>DEPRECATED: Superintendent</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Support Services Staff</CodeValue>
-		<ShortDescription>Support Services Staff</ShortDescription>
-		<Description>Support Services Staff</Description>
+		<ShortDescription>DEPRECATED: Support Services Staff</ShortDescription>
+		<Description>DEPRECATED: Support Services Staff</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Teacher</CodeValue>
-		<ShortDescription>Teacher</ShortDescription>
-		<Description>Teacher</Description>
+		<ShortDescription>DEPRECATED: Teacher</ShortDescription>
+		<Description>DEPRECATED: Teacher</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Ungraded Teachers</CodeValue>
 		<ShortDescription>Ungraded Teachers</ShortDescription>
 		<Description>Ungraded Teachers</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+		<StaffClassificationDescriptor>
+		<CodeValue>Missing</CodeValue>
+		<ShortDescription>Missing</ShortDescription>
+		<Description>Missing</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 </InterchangeDescriptors>
