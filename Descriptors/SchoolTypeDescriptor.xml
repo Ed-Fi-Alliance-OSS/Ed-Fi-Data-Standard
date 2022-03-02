@@ -24,4 +24,10 @@
 		<Description>Special Education</Description>
 		<Namespace>uri://ed-fi.org/SchoolTypeDescriptor</Namespace>
 	</SchoolTypeDescriptor>
+	<SchoolTypeDescriptor>
+		<CodeValue>Reportable Program</CodeValue>
+		<ShortDescription>Reportable Program</ShortDescription>
+		<Description>Reportable Program</Description>
+		<Namespace>uri://ed-fi.org/SchoolTypeDescriptor</Namespace>
+	</SchoolTypeDescriptor>
 </InterchangeDescriptors>
