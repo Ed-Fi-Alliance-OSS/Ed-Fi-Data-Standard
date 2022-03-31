@@ -7,12 +7,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Afognak</CodeValue>
-		<ShortDescription>Afognak</ShortDescription>
-		<Description>Native Village of Afognak</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Agdaagux</CodeValue>
 		<ShortDescription>Agdaagux</ShortDescription>
 		<Description>Agdaagux Tribe of King Cove</Description>
@@ -27,13 +21,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Ak Chin</CodeValue>
 		<ShortDescription>Ak Chin</ShortDescription>
-		<Description>Ak-Chin Indian Community of the Maricopa (Ak Chin) Indian Reservation, Arizona</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Akhiok</CodeValue>
-		<ShortDescription>Akhiok</ShortDescription>
-		<Description>Native Village of Akhiok</Description>
+		<Description>Ak-Chin Indian Community</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -49,12 +37,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Akutan</CodeValue>
-		<ShortDescription>Akutan</ShortDescription>
-		<Description>Native Village of Akutan</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Alabama-Coushatta</CodeValue>
 		<ShortDescription>Alabama-Coushatta</ShortDescription>
 		<Description>Alabama-Coushatta Tribe of Texas</Description>
@@ -67,21 +49,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Alakanuk</CodeValue>
-		<ShortDescription>Alakanuk</ShortDescription>
-		<Description>Village of Alakanuk</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Alatna</CodeValue>
 		<ShortDescription>Alatna</ShortDescription>
 		<Description>Alatna Village</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Aleknagik</CodeValue>
-		<ShortDescription>Aleknagik</ShortDescription>
-		<Description>Native Village of Aleknagik</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -99,7 +69,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Alturas</CodeValue>
 		<ShortDescription>Alturas</ShortDescription>
-		<Description>Alturas Indian Rancheria, CA</Description>
+		<Description>Alturas Indian Rancheria, California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -109,33 +79,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Ambler</CodeValue>
-		<ShortDescription>Ambler</ShortDescription>
-		<Description>Native Village of Ambler</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Anaktuvuk Pass</CodeValue>
-		<ShortDescription>Anaktuvuk Pass</ShortDescription>
-		<Description>Village of Anaktuvuk Pass</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Andreafski</CodeValue>
-		<ShortDescription>Andreafski</ShortDescription>
-		<Description>Yupiit of Andreafski</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Angoon</CodeValue>
 		<ShortDescription>Angoon</ShortDescription>
 		<Description>Angoon Community Association</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Aniak</CodeValue>
-		<ShortDescription>Aniak</ShortDescription>
-		<Description>Village of Aniak</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -151,21 +97,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Arctic Slope</CodeValue>
-		<ShortDescription>Arctic Slope</ShortDescription>
-		<Description>Inupiat Community of the Arctic Slope</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Arctic Village</CodeValue>
 		<ShortDescription>Arctic Village</ShortDescription>
 		<Description>Arctic Village</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Aroostok</CodeValue>
-		<ShortDescription>Aroostok</ShortDescription>
-		<Description>Aroostook Band of Micmacs</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -175,33 +109,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Assiniboine and Gros Ventre Tribes</CodeValue>
-		<ShortDescription>Assiniboine and Gros Ventre Tribes</ShortDescription>
-		<Description>Fort Belknap Indian Community</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Assiniboine and Sioux</CodeValue>
 		<ShortDescription>Assiniboine and Sioux</ShortDescription>
-		<Description>Assiniboine &amp; Sioux Tribes of the Fort Peck Indian Reservation, MT</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Atka</CodeValue>
-		<ShortDescription>Atka</ShortDescription>
-		<Description>Native Village of Atka</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Atmautluak</CodeValue>
-		<ShortDescription>Atmautluak</ShortDescription>
-		<Description>Village of Atmautluak</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Atqasuk</CodeValue>
-		<ShortDescription>Atqasuk</ShortDescription>
-		<Description>Atqasuk Village (Atkasook)</Description>
+		<Description>Assiniboine &amp; Sioux Tribes of the Fort Peck Indian Reservation, Montana</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -213,13 +123,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Bad River Band</CodeValue>
 		<ShortDescription>Bad River Band</ShortDescription>
-		<Description>Bad River Band of Lake Superior Tribe of Chippewa Indians</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Barrow</CodeValue>
-		<ShortDescription>Barrow</ShortDescription>
-		<Description>Native Village of Barrow Inupiat Traditional Government</Description>
+		<Description>Bad River Band of the Lake Superior Tribe of Chippewa Indians of the Bad River Reservation, Wisconsin</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -238,18 +142,6 @@
 		<CodeValue>Beaver</CodeValue>
 		<ShortDescription>Beaver</ShortDescription>
 		<Description>Beaver Village</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Belkofski</CodeValue>
-		<ShortDescription>Belkofski</ShortDescription>
-		<Description>Native Village of Belkofski</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Benton</CodeValue>
-		<ShortDescription>Benton</ShortDescription>
-		<Description>Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -283,12 +175,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Bill Moore's Slough</CodeValue>
-		<ShortDescription>Bill Moore's Slough</ShortDescription>
-		<Description>Village of Bill Moore's Slough</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Birch Creek</CodeValue>
 		<ShortDescription>Birch Creek</ShortDescription>
 		<Description>Birch Creek Tribe</Description>
@@ -303,7 +189,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Blackfeet</CodeValue>
 		<ShortDescription>Blackfeet</ShortDescription>
-		<Description>Blackfeet Tribe of the Blackfeet Indian Reservation of MT</Description>
+		<Description>Blackfeet Tribe of the Blackfeet Indian Reservation of Montana</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -313,33 +199,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Bois Forte</CodeValue>
-		<ShortDescription>Bois Forte</ShortDescription>
-		<Description>Minnesota Chippewa Tribe - Bois Forte Band (Nett Lake)</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Brevig Mission</CodeValue>
-		<ShortDescription>Brevig Mission</ShortDescription>
-		<Description>Native Village of Brevig Mission</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Bridgeport Indian Colony</CodeValue>
 		<ShortDescription>Bridgeport Indian Colony</ShortDescription>
 		<Description>Bridgeport Indian Colony</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Buckland</CodeValue>
-		<ShortDescription>Buckland</ShortDescription>
-		<Description>Native Village of Buckland</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Buena Vista Rancheria</CodeValue>
 		<ShortDescription>Buena Vista Rancheria</ShortDescription>
-		<Description>Buena Vista Rancheria of Me-wuk Indians of California</Description>
+		<Description>Buena Vista Rancheria of Me-Wuk Indians of California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -375,7 +243,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Cahuilla</CodeValue>
 		<ShortDescription>Cahuilla</ShortDescription>
-		<Description>Cahuilla Band of Mission Indians of the Cahuilla Reservation, California</Description>
+		<Description>Cahuilla Band of Indians</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -391,9 +259,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Cantwell</CodeValue>
-		<ShortDescription>Cantwell</ShortDescription>
-		<Description>Native Village of Cantwell</Description>
+		<CodeValue>Capitan Grande Band</CodeValue>
+		<ShortDescription>Capitan Grande Band</ShortDescription>
+		<Description>Capitan Grande Band of Diegueno Mission Indians of California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -403,9 +271,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
+		<CodeValue>Viejas</CodeValue>
+		<ShortDescription>Viejas</ShortDescription>
+		<Description>Capitan Grande Band of Diegueno Mission Indians of California: Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
 		<CodeValue>Catawba</CodeValue>
 		<ShortDescription>Catawba</ShortDescription>
-		<Description>Catawba Indian Nation</Description>
+		<Description>Catawba Indian Nation (aka Catawba Indian Tribe of South Carolina)</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -421,6 +295,12 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
+		<CodeValue>Tlingit &amp; Haida</CodeValue>
+		<ShortDescription>Tlingit &amp; Haida</ShortDescription>
+		<Description>Central Council of the Tlingit &amp; Haida Indian Tribes</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
 		<CodeValue>Chalkyitsik</CodeValue>
 		<ShortDescription>Chalkyitsik</ShortDescription>
 		<Description>Chalkyitsik Village</Description>
@@ -433,27 +313,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Chefornak</CodeValue>
-		<ShortDescription>Chefornak</ShortDescription>
-		<Description>Village of Chefornak</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Chehalis</CodeValue>
-		<ShortDescription>Chehalis</ShortDescription>
-		<Description>Confederated Tribes of the Chehalis Reservation</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Chemehuevi</CodeValue>
 		<ShortDescription>Chemehuevi</ShortDescription>
 		<Description>Chemehuevi Indian Tribe of the Chemehuevi Reservation, California</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Chenega</CodeValue>
-		<ShortDescription>Chenega</ShortDescription>
-		<Description>Native Village of Chenega (aka Chanega)</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -481,15 +343,21 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Cheyenne-Arapaho</CodeValue>
-		<ShortDescription>Cheyenne-Arapaho</ShortDescription>
-		<Description>Cheyenne River Sioux Tribe of the Cheyenne River Reservation, SD</Description>
+		<CodeValue>Cheyenne River Sioux Tribe</CodeValue>
+		<ShortDescription>Cheyenne River Sioux Tribe</ShortDescription>
+		<Description>Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Chickahominy Indian Tribe</CodeValue>
-		<ShortDescription>Inc.</ShortDescription>
-		<Description>Chickahominy Indian Tribe, Inc.</Description>
+		<CodeValue>Chickahominy Indian Tribe, Inc.</CodeValue>
+		<ShortDescription>Chickahominy Indian Tribe, Inc.</ShortDescription>
+		<Description>Chickahominy Indian Tribe</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Chickahominy Indians-Eastern Division</CodeValue>
+		<ShortDescription>Chickahominy Indians-Eastern Division</ShortDescription>
+		<Description>Chickahominy Indian Tribe - Eastern Division</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -499,27 +367,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Chickasaw</CodeValue>
-		<ShortDescription>Chickasaw</ShortDescription>
-		<Description>The Chickasaw Nation</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Chicken Ranch</CodeValue>
 		<ShortDescription>Chicken Ranch</ShortDescription>
-		<Description>Chicken Ranch Rancheria of Me-wuk Indians of California</Description>
+		<Description>Chicken Ranch Rancheria of Me-Wuk Indians of California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Chignik Bay</CodeValue>
 		<ShortDescription>Chignik Bay</ShortDescription>
 		<Description>Chignik Bay Tribal Council</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Chignik Lagoon</CodeValue>
-		<ShortDescription>Chignik Lagoon</ShortDescription>
-		<Description>Native Village of Chignik Lagoon</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -549,31 +405,13 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Chippewa-Cree</CodeValue>
 		<ShortDescription>Chippewa-Cree</ShortDescription>
-		<Description>Chippewa Cree Indians of the Rocky Boy's Reservation, MT</Description>
+		<Description>Chippewa Cree Indians of the Rocky Boy's Reservation, Montana</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Chitimacha</CodeValue>
 		<ShortDescription>Chitimacha</ShortDescription>
 		<Description>Chitimacha Tribe of Louisiana</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Chitina</CodeValue>
-		<ShortDescription>Chitina</ShortDescription>
-		<Description>Native Village of Chitina</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Choctaw</CodeValue>
-		<ShortDescription>Choctaw</ShortDescription>
-		<Description>The Choctaw Nation of Oklahoma</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Chuathbaluk</CodeValue>
-		<ShortDescription>Chuathbaluk</ShortDescription>
-		<Description>Native Village of Chuathbaluk (Russian Mission, Kuskokwim)</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -591,13 +429,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Citizen Potawatomi</CodeValue>
 		<ShortDescription>Citizen Potawatomi</ShortDescription>
-		<Description>Citizen Potawatomi Nation (Oklahoma)</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Clark's Point</CodeValue>
-		<ShortDescription>Clark's Point</ShortDescription>
-		<Description>Village of Clarks Point</Description>
+		<Description>Citizen Potawatomi Nation, Oklahoma</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -627,13 +459,37 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Colorado River</CodeValue>
 		<ShortDescription>Colorado River</ShortDescription>
-		<Description>Colorado River Indian Tribes of the Colorado Indian Reservation, Arizona and California</Description>
+		<Description>Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Comanche</CodeValue>
 		<ShortDescription>Comanche</ShortDescription>
 		<Description>Comanche Nation, Oklahoma</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Confederated Salish</CodeValue>
+		<ShortDescription>Confederated Salish</ShortDescription>
+		<Description>Confederated Salish and Kootenai Tribes of the Flathead Reservation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Confederated Yakama</CodeValue>
+		<ShortDescription>Confederated Yakama</ShortDescription>
+		<Description>Confederated Tribes and Bands of the Yakama Nation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Siletz Tribe</CodeValue>
+		<ShortDescription>Siletz Tribe</ShortDescription>
+		<Description>Confederated Tribes of Siletz Indians of Oregon</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Chehalis</CodeValue>
+		<ShortDescription>Chehalis</ShortDescription>
+		<Description>Confederated Tribes of the Chehalis Reservation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -645,7 +501,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Confederated Coos</CodeValue>
 		<ShortDescription>Confederated Coos</ShortDescription>
-		<Description>Confederated Tribes of Coos, Lower Umpqua and Siuslaw Indians</Description>
+		<Description>Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -655,33 +511,27 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Confederated Salish</CodeValue>
-		<ShortDescription>Confederated Salish</ShortDescription>
-		<Description>Confederated Salish &amp; Kootenai Tribes of the Flathead Reservation</Description>
+		<CodeValue>Grand Ronde Tribes</CodeValue>
+		<ShortDescription>Grand Ronde Tribes</ShortDescription>
+		<Description>Confederated Tribes of the Grand Ronde Community of Oregon</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Confederated Yakama</CodeValue>
-		<ShortDescription>Confederated Yakama</ShortDescription>
-		<Description>Confederated Tribes and Bands of the Yakama Nation</Description>
+		<CodeValue>Umatilla Tribe</CodeValue>
+		<ShortDescription>Umatilla Tribe</ShortDescription>
+		<Description>Confederated Tribes of the Umatilla Indian Reservation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Warms Springs Tribe</CodeValue>
+		<ShortDescription>Warms Springs Tribe</ShortDescription>
+		<Description>Confederated Tribes of the Warm Springs Reservation of Oregon</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Coquille</CodeValue>
 		<ShortDescription>Coquille</ShortDescription>
 		<Description>Coquille Indian Tribe</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Cortina</CodeValue>
-		<ShortDescription>Cortina</ShortDescription>
-		<Description>Kletsel Dehe Band of Wintun Indians</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Council</CodeValue>
-		<ShortDescription>Council</ShortDescription>
-		<Description>Native Village of Council</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -715,9 +565,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Crooked Creek</CodeValue>
-		<ShortDescription>Crooked Creek</ShortDescription>
-		<Description>Village of Crooked Creek</Description>
+		<CodeValue>Crow Creek</CodeValue>
+		<ShortDescription>Crow Creek</ShortDescription>
+		<Description>Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -727,21 +577,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Crow Creek</CodeValue>
-		<ShortDescription>Crow Creek</ShortDescription>
-		<Description>Crow Creek Sioux Tribe of the Crow Creek Reservation, SD</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Curyung</CodeValue>
 		<ShortDescription>Curyung</ShortDescription>
 		<Description>Curyung Tribal Council</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Deering</CodeValue>
-		<ShortDescription>Deering</ShortDescription>
-		<Description>Native Village of Deering</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -754,18 +592,6 @@
 		<CodeValue>Delaware Tribe</CodeValue>
 		<ShortDescription>Delaware Tribe</ShortDescription>
 		<Description>Delaware Tribe of Indians</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Diomede</CodeValue>
-		<ShortDescription>Diomede</ShortDescription>
-		<Description>Native Village of Diomede (aka Inalik)</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Dot Lake</CodeValue>
-		<ShortDescription>Dot Lake</ShortDescription>
-		<Description>Village of Dot Lake</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -787,12 +613,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Eagle</CodeValue>
-		<ShortDescription>Eagle</ShortDescription>
-		<Description>Native Village of Eagle</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Eastern Cherokee</CodeValue>
 		<ShortDescription>Eastern Cherokee</ShortDescription>
 		<Description>Eastern Band of Cherokee Indians</Description>
@@ -811,12 +631,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Eek</CodeValue>
-		<ShortDescription>Eek</ShortDescription>
-		<Description>Native Village of Eek</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Egegik</CodeValue>
 		<ShortDescription>Egegik</ShortDescription>
 		<Description>Egegik Village</Description>
@@ -829,27 +643,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Ekuk</CodeValue>
-		<ShortDescription>Ekuk</ShortDescription>
-		<Description>Native Village of Ekuk</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Ekwok</CodeValue>
-		<ShortDescription>Ekwok</ShortDescription>
-		<Description>Native Village of Ekwok</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Elem</CodeValue>
 		<ShortDescription>Elem</ShortDescription>
 		<Description>Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Elim IRA</CodeValue>
-		<ShortDescription>Elim IRA</ShortDescription>
-		<Description>Native Village of Elim</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -889,18 +685,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Eyak</CodeValue>
-		<ShortDescription>Eyak</ShortDescription>
-		<Description>Native Village of Eyak (Cordova)</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>False Pass</CodeValue>
-		<ShortDescription>False Pass</ShortDescription>
-		<Description>Native Village of False Pass</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Federated Indians of Graton</CodeValue>
 		<ShortDescription>Federated Indians of Graton</ShortDescription>
 		<Description>Federated Indians of Graton Rancheria, California</Description>
@@ -913,15 +697,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Fond du Lac</CodeValue>
-		<ShortDescription>Fond du Lac</ShortDescription>
-		<Description>Minnesota Chippewa Tribe - Fond du Lac Band</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Forest County</CodeValue>
 		<ShortDescription>Forest County</ShortDescription>
 		<Description>Forest County Potawatomi Community, Wisconsin</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Assiniboine and Gros Ventre Tribes</CodeValue>
+		<ShortDescription>Assiniboine and Gros Ventre Tribes</ShortDescription>
+		<Description>Fort Belknap Indian Community of the Fort Belknap Reservation of Montana</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -961,33 +745,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Fort Yukon</CodeValue>
-		<ShortDescription>Fort Yukon</ShortDescription>
-		<Description>Native Village of Fort Yukon</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Gakona</CodeValue>
-		<ShortDescription>Gakona</ShortDescription>
-		<Description>Native Village of Gakona</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Galena</CodeValue>
 		<ShortDescription>Galena</ShortDescription>
 		<Description>Galena Village (aka Louden Village)</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Gambell</CodeValue>
-		<ShortDescription>Gambell</ShortDescription>
-		<Description>Native Village of Gambell</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Georgetown</CodeValue>
-		<ShortDescription>Georgetown</ShortDescription>
-		<Description>Native Village of Georgetown</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -997,33 +757,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Goodnews Bay</CodeValue>
-		<ShortDescription>Goodnews Bay</ShortDescription>
-		<Description>Native Village of Goodnews Bay</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Grand Portage</CodeValue>
-		<ShortDescription>Grand Portage</ShortDescription>
-		<Description>Minnesota Chippewa Tribe - Grand Portage Band</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Grand Ronde Tribes</CodeValue>
-		<ShortDescription>Grand Ronde Tribes</ShortDescription>
-		<Description>Confederated Tribes of the Grand Ronde Community of Oregon</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Grand Traverse</CodeValue>
 		<ShortDescription>Grand Traverse</ShortDescription>
-		<Description>Grand Traverse Band of Ottawa &amp; Chippewa Indians, Michigan</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Grayling</CodeValue>
-		<ShortDescription>Grayling</ShortDescription>
-		<Description>Organized Village of Grayling (aka Holikachuk)</Description>
+		<Description>Grand Traverse Band of Ottawa and Chippewa Indians, Michigan</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1047,19 +783,13 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Gulkana</CodeValue>
 		<ShortDescription>Gulkana</ShortDescription>
-		<Description>Gulkana Village</Description>
+		<Description>Gulkana Village Council</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Habematolel</CodeValue>
 		<ShortDescription>Habematolel</ShortDescription>
 		<Description>Habematolel Pomo of Upper Lake, California</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Hamilton</CodeValue>
-		<ShortDescription>Hamilton</ShortDescription>
-		<Description>Native Village of Hamilton</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1095,7 +825,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Holy Cross</CodeValue>
 		<ShortDescription>Holy Cross</ShortDescription>
-		<Description>Holy Cross Village</Description>
+		<Description>Holy Cross Tribe</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1108,12 +838,6 @@
 		<CodeValue>Hoopa</CodeValue>
 		<ShortDescription>Hoopa</ShortDescription>
 		<Description>Hoopa Valley Tribe, California</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Hooper Bay</CodeValue>
-		<ShortDescription>Hooper Bay</ShortDescription>
-		<Description>Native Village of Hooper Bay</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1171,15 +895,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Iliamna</CodeValue>
-		<ShortDescription>Iliamna</ShortDescription>
-		<Description>Village of Iliamna</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Inaja</CodeValue>
 		<ShortDescription>Inaja</ShortDescription>
 		<Description>Inaja Band of Diegueno Mission Indians of the Inaja and Cosmit Reservation, California</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Inupiat Community of the Arctic Slope</CodeValue>
+		<ShortDescription>Inupiat Community of the Arctic Slope</ShortDescription>
+		<Description>Inupiat Community of the Arctic Slope</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1191,7 +915,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Iowa of Kansas</CodeValue>
 		<ShortDescription>Iowa of Kansas</ShortDescription>
-		<Description>Iowa Tribe of Kansas &amp; Nebraska</Description>
+		<Description>Iowa Tribe of Kansas and Nebraska</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1201,9 +925,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Iqurmuit</CodeValue>
-		<ShortDescription>Iqurmuit</ShortDescription>
-		<Description>Iqurmuit Traditional Council</Description>
+		<CodeValue>Iqugmiut</CodeValue>
+		<ShortDescription>Iqugmiut</ShortDescription>
+		<Description>Iqugmiut Traditional Council</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1255,12 +979,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Kake</CodeValue>
-		<ShortDescription>Kake</ShortDescription>
-		<Description>Organized Village of Kake</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Kaktovik</CodeValue>
 		<ShortDescription>Kaktovik</ShortDescription>
 		<Description>Kaktovik Village (aka Barter Island)</Description>
@@ -1273,39 +991,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Kalskag</CodeValue>
-		<ShortDescription>Kalskag</ShortDescription>
-		<Description>Village of Kalskag</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kaltag</CodeValue>
-		<ShortDescription>Kaltag</ShortDescription>
-		<Description>Village of Kaltag</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kanatak</CodeValue>
-		<ShortDescription>Kanatak</ShortDescription>
-		<Description>Native Village of Kanatak</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Karluk</CodeValue>
-		<ShortDescription>Karluk</ShortDescription>
-		<Description>Native Village of Karluk</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Karuk</CodeValue>
 		<ShortDescription>Karuk</ShortDescription>
 		<Description>Karuk Tribe</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kasaan</CodeValue>
-		<ShortDescription>Kasaan</ShortDescription>
-		<Description>Organized Village of Kasaan</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1335,13 +1023,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Ketchikan</CodeValue>
 		<ShortDescription>Ketchikan</ShortDescription>
-		<Description>Ketchikan Indian Corporation</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kewa Pueblo</CodeValue>
-		<ShortDescription>Kewa Pueblo</ShortDescription>
-		<Description>Kewa Pueblo</Description>
+		<Description>Ketchikan Indian Community</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1357,27 +1039,21 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Kiana</CodeValue>
-		<ShortDescription>Kiana</ShortDescription>
-		<Description>Native Village of Kiana</Description>
+		<CodeValue>Kickapoo of Texas</CodeValue>
+		<ShortDescription>Kickapoo of Texas</ShortDescription>
+		<Description>Kickapoo Traditional Tribe of Texas</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Kickapoo of Kansas</CodeValue>
 		<ShortDescription>Kickapoo of Kansas</ShortDescription>
-		<Description>Kickapoo Tribe in Kansas</Description>
+		<Description>Kickapoo Tribe of Indians of the Kickapoo Reservation in Kansas</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Kickapoo of Oklahoma</CodeValue>
 		<ShortDescription>Kickapoo of Oklahoma</ShortDescription>
 		<Description>Kickapoo Tribe of Oklahoma</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kickapoo of Texas</CodeValue>
-		<ShortDescription>Kickapoo of Texas</ShortDescription>
-		<Description>Kickapoo Traditional Tribe of Texas</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1395,19 +1071,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Kiowa</CodeValue>
 		<ShortDescription>Kiowa</ShortDescription>
-		<Description>Kiowa Tribe</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kipnuk</CodeValue>
-		<ShortDescription>Kipnuk</ShortDescription>
-		<Description>Native Village of Kipnuk</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kivalina</CodeValue>
-		<ShortDescription>Kivalina</ShortDescription>
-		<Description>Native Village of Kivalina</Description>
+		<Description>Kiowa  Indian Tribe of Oklahoma</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1423,21 +1087,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Kluti-Kaah</CodeValue>
-		<ShortDescription>Kluti-Kaah</ShortDescription>
-		<Description>Native Village of Kluti-Kaah (aka Copper Center)</Description>
+		<CodeValue>Cortina</CodeValue>
+		<ShortDescription>Cortina</ShortDescription>
+		<Description>Kletsel Dehe Band of Wintun Indians</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Knik</CodeValue>
 		<ShortDescription>Knik</ShortDescription>
 		<Description>Knik Tribe</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kobuk</CodeValue>
-		<ShortDescription>Kobuk</ShortDescription>
-		<Description>Native Village of Kobuk</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1453,57 +1111,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Kongiganak</CodeValue>
-		<ShortDescription>Kongiganak</ShortDescription>
-		<Description>Native Village of Kongiganak</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Kootenai</CodeValue>
 		<ShortDescription>Kootenai</ShortDescription>
 		<Description>Kootenai Tribe of Idaho</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Kotlik</CodeValue>
-		<ShortDescription>Kotlik</ShortDescription>
-		<Description>Village of Kotlik</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kotzebue</CodeValue>
-		<ShortDescription>Kotzebue</ShortDescription>
-		<Description>Native Village of Kotzebue</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Koyuk</CodeValue>
-		<ShortDescription>Koyuk</ShortDescription>
-		<Description>Native Village of Koyuk</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Koyukuk</CodeValue>
 		<ShortDescription>Koyukuk</ShortDescription>
 		<Description>Koyukuk Native Village</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kwethluk</CodeValue>
-		<ShortDescription>Kwethluk</ShortDescription>
-		<Description>Organized Village of Kwethluk</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kwigillingok</CodeValue>
-		<ShortDescription>Kwigillingok</ShortDescription>
-		<Description>Native Village of Kwigillingok</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Kwinhagak</CodeValue>
-		<ShortDescription>Kwinhagak</ShortDescription>
-		<Description>Native Village of Kwinhagak (aka Quinhagak)</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1527,31 +1143,19 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Lac du Flambeau</CodeValue>
 		<ShortDescription>Lac du Flambeau</ShortDescription>
-		<Description>Lac du Flambeau Band of Lake Superior Chippewa Indians of Wisconsin</Description>
+		<Description>Lac du Flambeau Band of Lake Superior Chippewa Indians of the Lac du Flambeau Reservation of Wisconsin</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Lac Vieux</CodeValue>
 		<ShortDescription>Lac Vieux</ShortDescription>
-		<Description>Lac Vieux Desert Band of Lake Superior Chippewa Indians of MI</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Larsen Bay</CodeValue>
-		<ShortDescription>Larsen Bay</ShortDescription>
-		<Description>Native Village of Larsen Bay</Description>
+		<Description>Lac Vieux Desert Band of Lake Superior Chippewa Indians of Michigan</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Las Vegas</CodeValue>
 		<ShortDescription>Las Vegas</ShortDescription>
 		<Description>Las Vegas Tribe of Paiute Indians of the Las Vegas Indian Colony, Nevada</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Leech Lake</CodeValue>
-		<ShortDescription>Leech Lake</ShortDescription>
-		<Description>Minnesota Chippewa Tribe - Leech Lake Band</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1573,6 +1177,12 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
+		<CodeValue>Little Shell Tribe </CodeValue>
+		<ShortDescription>Little Shell Tribe </ShortDescription>
+		<Description>Little Shell Tribe of Chippewa Indians of Montana</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
 		<CodeValue>Little Traverse</CodeValue>
 		<ShortDescription>Little Traverse</ShortDescription>
 		<Description>Little Traverse Bay Bands of Odawa Indians, Michigan</Description>
@@ -1587,7 +1197,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Los Coyotes</CodeValue>
 		<ShortDescription>Los Coyotes</ShortDescription>
-		<Description>Los Coyotes Band of Cahuilla &amp; Cupeno Indians, California</Description>
+		<Description>Los Coyotes Band of Cahuilla and Cupeno Indians, California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1599,19 +1209,13 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Lower Brule</CodeValue>
 		<ShortDescription>Lower Brule</ShortDescription>
-		<Description>Lower Brule Sioux Tribe of the Lower Brule Reservation, SD</Description>
+		<Description>Lower Brule Sioux Tribe of the Lower Brule Reservation, South Dakota</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Lower Elwha</CodeValue>
 		<ShortDescription>Lower Elwha</ShortDescription>
 		<Description>Lower Elwha Tribal Community</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Lower Kalskag</CodeValue>
-		<ShortDescription>Lower Kalskag</ShortDescription>
-		<Description>Village of Lower Kalskag</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1659,19 +1263,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Manzanita</CodeValue>
 		<ShortDescription>Manzanita</ShortDescription>
-		<Description>Manzanita Band of Diegueno Mission Indians of the Manzanita Reservation, Califonria</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Marshall</CodeValue>
-		<ShortDescription>Marshall</ShortDescription>
-		<Description>Native Village of Marshall (aka Fortuna Ledge)</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Mary's Igloo</CodeValue>
-		<ShortDescription>Mary's Igloo</ShortDescription>
-		<Description>Native Village of Mary's Igloo</Description>
+		<Description>Manzanita Band of Diegueno Mission Indians of the Manzanita Reservation, California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1705,12 +1297,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Mekoryuk</CodeValue>
-		<ShortDescription>Mekoryuk</ShortDescription>
-		<Description>Native Village of Mekoryuk</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Menominee</CodeValue>
 		<ShortDescription>Menominee</ShortDescription>
 		<Description>Menominee Indian Tribe of Wisconsin</Description>
@@ -1729,15 +1315,21 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Mescalero</CodeValue>
-		<ShortDescription>Mescalero</ShortDescription>
-		<Description>Mescalero Apache Tribe</Description>
+		<CodeValue>Mescalero Apache</CodeValue>
+		<ShortDescription>Mescalero Apache</ShortDescription>
+		<Description>Mescalero Apache Tribe of the Mescalero Reservation, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Metlakatla</CodeValue>
 		<ShortDescription>Metlakatla</ShortDescription>
 		<Description>Metlakatla Indian Community, Annette Island Reserve</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Mi'kmaq Nation</CodeValue>
+		<ShortDescription>Mi'kmaq Nation</ShortDescription>
+		<Description>Mi'kmaq Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1759,21 +1351,45 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
+		<CodeValue>Bois Forte</CodeValue>
+		<ShortDescription>Bois Forte</ShortDescription>
+		<Description>Minnesota Chippewa Tribe - Bois Forte Band (Nett Lake)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Fond du Lac</CodeValue>
+		<ShortDescription>Fond du Lac</ShortDescription>
+		<Description>Minnesota Chippewa Tribe - Fond du Lac Band</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Grand Portage</CodeValue>
+		<ShortDescription>Grand Portage</ShortDescription>
+		<Description>Minnesota Chippewa Tribe - Grand Portage Band</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Leech Lake</CodeValue>
+		<ShortDescription>Leech Lake</ShortDescription>
+		<Description>Minnesota Chippewa Tribe - Leech Lake Band</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
 		<CodeValue>Mille Lacs</CodeValue>
 		<ShortDescription>Mille Lacs</ShortDescription>
 		<Description>Minnesota Chippewa Tribe - Mille Lacs Band</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Minnesota Chippewa</CodeValue>
-		<ShortDescription>Minnesota Chippewa</ShortDescription>
-		<Description>Minnesota Chippewa Tribe</Description>
+		<CodeValue>White Earth</CodeValue>
+		<ShortDescription>White Earth</ShortDescription>
+		<Description>Minnesota Chippewa Tribe - White Earth Band</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Minto</CodeValue>
-		<ShortDescription>Minto</ShortDescription>
-		<Description>Native Village of Minto</Description>
+		<CodeValue>Minnesota Chippewa</CodeValue>
+		<ShortDescription>Minnesota Chippewa</ShortDescription>
+		<Description>Minnesota Chippewa Tribe, Minnesota</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1791,13 +1407,19 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Modoc</CodeValue>
 		<ShortDescription>Modoc</ShortDescription>
-		<Description>The Modoc Tribe of Oklahoma</Description>
+		<Description>Modoc Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Mohegan</CodeValue>
 		<ShortDescription>Mohegan</ShortDescription>
 		<Description>Mohegan Tribe of Indians of Connecticut</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Monacan Indian Nation</CodeValue>
+		<ShortDescription>Monacan Indian Nation</ShortDescription>
+		<Description>Monacan Indian Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1819,15 +1441,321 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Muscogee</CodeValue>
-		<ShortDescription>Muscogee</ShortDescription>
-		<Description>The Muscogee (Creek) Nation</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Naknek</CodeValue>
 		<ShortDescription>Naknek</ShortDescription>
 		<Description>Naknek Native Village</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Nansemond Indian Tribe</CodeValue>
+		<ShortDescription>Nansemond Indian Tribe</ShortDescription>
+		<Description>Nansemond Indian Nation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Narragansett</CodeValue>
+		<ShortDescription>Narragansett</ShortDescription>
+		<Description>Narragansett Indian Tribe</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Afognak</CodeValue>
+		<ShortDescription>Afognak</ShortDescription>
+		<Description>Native Village of Afognak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Akhiok</CodeValue>
+		<ShortDescription>Akhiok</ShortDescription>
+		<Description>Native Village of Akhiok</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Akutan</CodeValue>
+		<ShortDescription>Akutan</ShortDescription>
+		<Description>Native Village of Akutan</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Aleknagik</CodeValue>
+		<ShortDescription>Aleknagik</ShortDescription>
+		<Description>Native Village of Aleknagik</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ambler</CodeValue>
+		<ShortDescription>Ambler</ShortDescription>
+		<Description>Native Village of Ambler</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Atka</CodeValue>
+		<ShortDescription>Atka</ShortDescription>
+		<Description>Native Village of Atka</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Native Village of Atqasuk</CodeValue>
+		<ShortDescription>Native Village of Atqasuk</ShortDescription>
+		<Description>Native Village of Atqasuk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Barrow</CodeValue>
+		<ShortDescription>Barrow</ShortDescription>
+		<Description>Native Village of Barrow Inupiat Traditional Government</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Belkofski</CodeValue>
+		<ShortDescription>Belkofski</ShortDescription>
+		<Description>Native Village of Belkofski</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Brevig Mission</CodeValue>
+		<ShortDescription>Brevig Mission</ShortDescription>
+		<Description>Native Village of Brevig Mission</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Buckland</CodeValue>
+		<ShortDescription>Buckland</ShortDescription>
+		<Description>Native Village of Buckland</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Cantwell</CodeValue>
+		<ShortDescription>Cantwell</ShortDescription>
+		<Description>Native Village of Cantwell</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Chenega</CodeValue>
+		<ShortDescription>Chenega</ShortDescription>
+		<Description>Native Village of Chenega (aka Chanega)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Chignik Lagoon</CodeValue>
+		<ShortDescription>Chignik Lagoon</ShortDescription>
+		<Description>Native Village of Chignik Lagoon</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Chitina</CodeValue>
+		<ShortDescription>Chitina</ShortDescription>
+		<Description>Native Village of Chitina</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Chuathbaluk</CodeValue>
+		<ShortDescription>Chuathbaluk</ShortDescription>
+		<Description>Native Village of Chuathbaluk (Russian Mission, Kuskokwim)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Council</CodeValue>
+		<ShortDescription>Council</ShortDescription>
+		<Description>Native Village of Council</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Deering</CodeValue>
+		<ShortDescription>Deering</ShortDescription>
+		<Description>Native Village of Deering</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Diomede</CodeValue>
+		<ShortDescription>Diomede</ShortDescription>
+		<Description>Native Village of Diomede (aka Inalik)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Eagle</CodeValue>
+		<ShortDescription>Eagle</ShortDescription>
+		<Description>Native Village of Eagle</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Eek</CodeValue>
+		<ShortDescription>Eek</ShortDescription>
+		<Description>Native Village of Eek</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ekuk</CodeValue>
+		<ShortDescription>Ekuk</ShortDescription>
+		<Description>Native Village of Ekuk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ekwok</CodeValue>
+		<ShortDescription>Ekwok</ShortDescription>
+		<Description>Native Village of Ekwok</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Elim IRA</CodeValue>
+		<ShortDescription>Elim IRA</ShortDescription>
+		<Description>Native Village of Elim</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Eyak</CodeValue>
+		<ShortDescription>Eyak</ShortDescription>
+		<Description>Native Village of Eyak (Cordova)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>False Pass</CodeValue>
+		<ShortDescription>False Pass</ShortDescription>
+		<Description>Native Village of False Pass</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Fort Yukon</CodeValue>
+		<ShortDescription>Fort Yukon</ShortDescription>
+		<Description>Native Village of Fort Yukon</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Gakona</CodeValue>
+		<ShortDescription>Gakona</ShortDescription>
+		<Description>Native Village of Gakona</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Gambell</CodeValue>
+		<ShortDescription>Gambell</ShortDescription>
+		<Description>Native Village of Gambell</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Georgetown</CodeValue>
+		<ShortDescription>Georgetown</ShortDescription>
+		<Description>Native Village of Georgetown</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Goodnews Bay</CodeValue>
+		<ShortDescription>Goodnews Bay</ShortDescription>
+		<Description>Native Village of Goodnews Bay</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Hamilton</CodeValue>
+		<ShortDescription>Hamilton</ShortDescription>
+		<Description>Native Village of Hamilton</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Hooper Bay</CodeValue>
+		<ShortDescription>Hooper Bay</ShortDescription>
+		<Description>Native Village of Hooper Bay</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kanatak</CodeValue>
+		<ShortDescription>Kanatak</ShortDescription>
+		<Description>Native Village of Kanatak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Karluk</CodeValue>
+		<ShortDescription>Karluk</ShortDescription>
+		<Description>Native Village of Karluk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kiana</CodeValue>
+		<ShortDescription>Kiana</ShortDescription>
+		<Description>Native Village of Kiana</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kipnuk</CodeValue>
+		<ShortDescription>Kipnuk</ShortDescription>
+		<Description>Native Village of Kipnuk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kivalina</CodeValue>
+		<ShortDescription>Kivalina</ShortDescription>
+		<Description>Native Village of Kivalina</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kluti Kaah</CodeValue>
+		<ShortDescription>Kluti Kaah</ShortDescription>
+		<Description>Native Village of Kluti Kaah (aka Copper Center)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kobuk</CodeValue>
+		<ShortDescription>Kobuk</ShortDescription>
+		<Description>Native Village of Kobuk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kongiganak</CodeValue>
+		<ShortDescription>Kongiganak</ShortDescription>
+		<Description>Native Village of Kongiganak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kotzebue</CodeValue>
+		<ShortDescription>Kotzebue</ShortDescription>
+		<Description>Native Village of Kotzebue</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Koyuk</CodeValue>
+		<ShortDescription>Koyuk</ShortDescription>
+		<Description>Native Village of Koyuk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kwigillingok</CodeValue>
+		<ShortDescription>Kwigillingok</ShortDescription>
+		<Description>Native Village of Kwigillingok</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kwinhagak</CodeValue>
+		<ShortDescription>Kwinhagak</ShortDescription>
+		<Description>Native Village of Kwinhagak (aka Quinhagak)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Larsen Bay</CodeValue>
+		<ShortDescription>Larsen Bay</ShortDescription>
+		<Description>Native Village of Larsen Bay</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Marshall</CodeValue>
+		<ShortDescription>Marshall</ShortDescription>
+		<Description>Native Village of Marshall (aka Fortuna Ledge)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Mary's Igloo</CodeValue>
+		<ShortDescription>Mary's Igloo</ShortDescription>
+		<Description>Native Village of Mary's Igloo</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Mekoryuk</CodeValue>
+		<ShortDescription>Mekoryuk</ShortDescription>
+		<Description>Native Village of Mekoryuk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Minto</CodeValue>
+		<ShortDescription>Minto</ShortDescription>
+		<Description>Native Village of Minto</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1855,21 +1783,243 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Narragansett</CodeValue>
-		<ShortDescription>Narragansett</ShortDescription>
-		<Description>Narragansett Indian Tribe</Description>
+		<CodeValue>Nelson Lagoon</CodeValue>
+		<ShortDescription>Nelson Lagoon</ShortDescription>
+		<Description>Native Village of Nelson Lagoon</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Nightmute</CodeValue>
+		<ShortDescription>Nightmute</ShortDescription>
+		<Description>Native Village of Nightmute</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Nikolski</CodeValue>
+		<ShortDescription>Nikolski</ShortDescription>
+		<Description>Native Village of Nikolski</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Noatak</CodeValue>
+		<ShortDescription>Noatak</ShortDescription>
+		<Description>Native Village of Noatak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Nuiqsut</CodeValue>
+		<ShortDescription>Nuiqsut</ShortDescription>
+		<Description>Native Village of Nuiqsut (aka Nooiksut)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Nunam Iqua</CodeValue>
+		<ShortDescription>Nunam Iqua</ShortDescription>
+		<Description>Native Village of Nunam Iqua</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Nunapitchuk</CodeValue>
+		<ShortDescription>Nunapitchuk</ShortDescription>
+		<Description>Native Village of Nunapitchuk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ouzinkie</CodeValue>
+		<ShortDescription>Ouzinkie</ShortDescription>
+		<Description>Native Village of Ouzinkie</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Paimiut</CodeValue>
+		<ShortDescription>Paimiut</ShortDescription>
+		<Description>Native Village of Paimiut</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Perryville</CodeValue>
+		<ShortDescription>Perryville</ShortDescription>
+		<Description>Native Village of Perryville</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Pilot Point</CodeValue>
+		<ShortDescription>Pilot Point</ShortDescription>
+		<Description>Native Village of Pilot Point</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Point Hope IRA</CodeValue>
+		<ShortDescription>Point Hope IRA</ShortDescription>
+		<Description>Native Village of Point Hope</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Point Lay IRA</CodeValue>
+		<ShortDescription>Point Lay IRA</ShortDescription>
+		<Description>Native Village of Point Lay</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Port Graham</CodeValue>
+		<ShortDescription>Port Graham</ShortDescription>
+		<Description>Native Village of Port Graham</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Port Heiden</CodeValue>
+		<ShortDescription>Port Heiden</ShortDescription>
+		<Description>Native Village of Port Heiden</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Port Lions</CodeValue>
+		<ShortDescription>Port Lions</ShortDescription>
+		<Description>Native Village of Port Lions</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ruby</CodeValue>
+		<ShortDescription>Ruby</ShortDescription>
+		<Description>Native Village of Ruby</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>St. Michael IRA</CodeValue>
+		<ShortDescription>St. Michael IRA</ShortDescription>
+		<Description>Native Village of Saint Michael</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Savoonga</CodeValue>
+		<ShortDescription>Savoonga</ShortDescription>
+		<Description>Native Village of Savoonga</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Scammon Bay</CodeValue>
+		<ShortDescription>Scammon Bay</ShortDescription>
+		<Description>Native Village of Scammon Bay</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Selawik</CodeValue>
+		<ShortDescription>Selawik</ShortDescription>
+		<Description>Native Village of Selawik</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Shaktoolik</CodeValue>
+		<ShortDescription>Shaktoolik</ShortDescription>
+		<Description>Native Village of Shaktoolik</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Shishmaref IRA</CodeValue>
+		<ShortDescription>Shishmaref IRA</ShortDescription>
+		<Description>Native Village of Shishmaref</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Shungnak</CodeValue>
+		<ShortDescription>Shungnak</ShortDescription>
+		<Description>Native Village of Shungnak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Stevens Village</CodeValue>
+		<ShortDescription>Stevens Village</ShortDescription>
+		<Description>Native Village of Stevens</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Tanacross</CodeValue>
+		<ShortDescription>Tanacross</ShortDescription>
+		<Description>Native Village of Tanacross</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Tanana</CodeValue>
+		<ShortDescription>Tanana</ShortDescription>
+		<Description>Native Village of Tanana</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Tatitlek</CodeValue>
+		<ShortDescription>Tatitlek</ShortDescription>
+		<Description>Native Village of Tatitlek</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Tazlina</CodeValue>
+		<ShortDescription>Tazlina</ShortDescription>
+		<Description>Native Village of Tazlina</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Teller</CodeValue>
+		<ShortDescription>Teller</ShortDescription>
+		<Description>Native Village of Teller</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Tetlin</CodeValue>
+		<ShortDescription>Tetlin</ShortDescription>
+		<Description>Native Village of Tetlin</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Tuntutuliak</CodeValue>
+		<ShortDescription>Tuntutuliak</ShortDescription>
+		<Description>Native Village of Tuntutuliak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Tununak</CodeValue>
+		<ShortDescription>Tununak</ShortDescription>
+		<Description>Native Village of Tununak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Tyonek</CodeValue>
+		<ShortDescription>Tyonek</ShortDescription>
+		<Description>Native Village of Tyonek</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Unalakleet</CodeValue>
+		<ShortDescription>Unalakleet</ShortDescription>
+		<Description>Native Village of Unalakleet</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Unga</CodeValue>
+		<ShortDescription>Unga</ShortDescription>
+		<Description>Native Village of Unga</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Venetie IRA</CodeValue>
+		<ShortDescription>Venetie IRA</ShortDescription>
+		<Description>Native Village of Venetie Tribal Government (Arctic Village and Village of Venetie)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Wales</CodeValue>
+		<ShortDescription>Wales</ShortDescription>
+		<Description>Native Village of Wales</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>White Mountain AK</CodeValue>
+		<ShortDescription>White Mountain AK</ShortDescription>
+		<Description>Native Village of White Mountain</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Navajo</CodeValue>
 		<ShortDescription>Navajo</ShortDescription>
 		<Description>Navajo Nation, Arizona, New Mexico &amp; Utah</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Nelson Lagoon</CodeValue>
-		<ShortDescription>Nelson Lagoon</ShortDescription>
-		<Description>Native Village of Nelson Lagoon</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1909,21 +2059,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Nightmute</CodeValue>
-		<ShortDescription>Nightmute</ShortDescription>
-		<Description>Native Village of Nightmute</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Nikolai</CodeValue>
 		<ShortDescription>Nikolai</ShortDescription>
 		<Description>Nikolai Village</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Nikolski</CodeValue>
-		<ShortDescription>Nikolski</ShortDescription>
-		<Description>Native Village of Nikolski</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1936,12 +2074,6 @@
 		<CodeValue>Nisqually</CodeValue>
 		<ShortDescription>Nisqually</ShortDescription>
 		<Description>Nisqually Indian Tribe</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Noatak</CodeValue>
-		<ShortDescription>Noatak</ShortDescription>
-		<Description>Native Village of Noatak</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -1977,12 +2109,12 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Northern Cheyenne</CodeValue>
 		<ShortDescription>Northern Cheyenne</ShortDescription>
-		<Description>Northern Cheyenne Tribe</Description>
+		<Description>Northern Cheyenne Tribe of the Northern Cheyenne Indian Reservation, Montana</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Northfork</CodeValue>
-		<ShortDescription>Northfork</ShortDescription>
+		<CodeValue>North Fork</CodeValue>
+		<ShortDescription>North Fork</ShortDescription>
 		<Description>Northfork Rancheria of Mono Indians of California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
@@ -1995,19 +2127,13 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Northwestern Shoshone</CodeValue>
 		<ShortDescription>Northwestern Shoshone</ShortDescription>
-		<Description>Northwestern Band of Shoshone Nation</Description>
+		<Description>Northwestern Band of the Shoshone Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Nottawaseppi Potawatomi</CodeValue>
 		<ShortDescription>Nottawaseppi Potawatomi</ShortDescription>
-		<Description>Nottawaseppi Huron Band of the Potawatomi, MI</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Nuiqsut</CodeValue>
-		<ShortDescription>Nuiqsut</ShortDescription>
-		<Description>Native Village of Nuiqsut (aka Nooiksut)</Description>
+		<Description>Nottawaseppi Huron Band of the Potawatomi, Michigan</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2023,33 +2149,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Nunam Iqua</CodeValue>
-		<ShortDescription>Nunam Iqua</ShortDescription>
-		<Description>Native Village of Nunam Iqua</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Nunapitchuk</CodeValue>
-		<ShortDescription>Nunapitchuk</ShortDescription>
-		<Description>Native Village of Nunapitchuk</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Oglala Sioux</CodeValue>
 		<ShortDescription>Oglala Sioux</ShortDescription>
 		<Description>Oglala Sioux Tribe</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Ohkay</CodeValue>
-		<ShortDescription>Ohkay</ShortDescription>
-		<Description>Ohkay Owingeh</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Ohogamuit</CodeValue>
-		<ShortDescription>Ohogamuit</ShortDescription>
-		<Description>Village of Ohogamiut</Description>
+		<CodeValue>Ohkay Owingeh</CodeValue>
+		<ShortDescription>Ohkay Owingeh</ShortDescription>
+		<Description>Ohkay Owingeh, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2059,9 +2167,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Oneida  Nation of New York</CodeValue>
-		<ShortDescription>Oneida  Nation of New York</ShortDescription>
-		<Description>Oneida  Nation of New York</Description>
+		<CodeValue>Oneida</CodeValue>
+		<ShortDescription>Oneida</ShortDescription>
+		<Description>Oneida Indian Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2077,15 +2185,39 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Orutsararmiut</CodeValue>
-		<ShortDescription>Orutsararmiut</ShortDescription>
-		<Description>Orutsararmiut Traditional Native Council</Description>
+		<CodeValue>Grayling</CodeValue>
+		<ShortDescription>Grayling</ShortDescription>
+		<Description>Organized Village of Grayling (aka Holikachuk)</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Osage</CodeValue>
-		<ShortDescription>Osage</ShortDescription>
-		<Description>The Osage Nation</Description>
+		<CodeValue>Kake</CodeValue>
+		<ShortDescription>Kake</ShortDescription>
+		<Description>Organized Village of Kake</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kasaan</CodeValue>
+		<ShortDescription>Kasaan</ShortDescription>
+		<Description>Organized Village of Kasaan</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kwethluk</CodeValue>
+		<ShortDescription>Kwethluk</ShortDescription>
+		<Description>Organized Village of Kwethluk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Saxman</CodeValue>
+		<ShortDescription>Saxman</ShortDescription>
+		<Description>Organized Village of Saxman</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Orutsararmiut</CodeValue>
+		<ShortDescription>Orutsararmiut</ShortDescription>
+		<Description>Orutsararmiut Traditional Native Council</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2101,21 +2233,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Ottawa of Oklahoma</CodeValue>
-		<ShortDescription>Ottawa of Oklahoma</ShortDescription>
+		<CodeValue>Ottawa Tribe of Oklahoma</CodeValue>
+		<ShortDescription>Ottawa Tribe of Oklahoma</ShortDescription>
 		<Description>Ottawa Tribe of Oklahoma</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Ouzinkie</CodeValue>
-		<ShortDescription>Ouzinkie</ShortDescription>
-		<Description>Native Village of Ouzinkie</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Paimiut</CodeValue>
-		<ShortDescription>Paimiut</ShortDescription>
-		<Description>Native Village of Paimiut</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2155,15 +2275,21 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Passamaquaddy Pleasant Point</CodeValue>
-		<ShortDescription>Passamaquaddy Pleasant Point</ShortDescription>
-		<Description>Passamaquoddy Tribe - Pleasant Point</Description>
+		<CodeValue>Passamaquoddy Tribe</CodeValue>
+		<ShortDescription>Passamaquoddy Tribe</ShortDescription>
+		<Description>Passamaquoddy Tribe</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Passamaquoddy Indian Township</CodeValue>
 		<ShortDescription>Passamaquoddy Indian Township</ShortDescription>
 		<Description>Passamaquoddy Tribe - Indian Township</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Passamaquoddy Pleasant Point</CodeValue>
+		<ShortDescription>Passamaquoddy Pleasant Point</ShortDescription>
+		<Description>Passamaquoddy Tribe - Pleasant Point</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2185,9 +2311,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Pechanga</CodeValue>
-		<ShortDescription>Pechanga</ShortDescription>
-		<Description>Pechanga Band of Luiseno Mission Indians of the Pechanga Reservation, California</Description>
+		<CodeValue>Pechanga Band of Indians </CodeValue>
+		<ShortDescription>Pechanga Band of Indians </ShortDescription>
+		<Description>Pechanga Band of Indians</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2203,15 +2329,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Peoria</CodeValue>
-		<ShortDescription>Peoria</ShortDescription>
+		<CodeValue>Peoria Tribe of Oklahoma</CodeValue>
+		<ShortDescription>Peoria Tribe of Oklahoma</ShortDescription>
 		<Description>Peoria Tribe of Indians of Oklahoma</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Perryville</CodeValue>
-		<ShortDescription>Perryville</ShortDescription>
-		<Description>Native Village of Perryville</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2224,12 +2344,6 @@
 		<CodeValue>Picayune</CodeValue>
 		<ShortDescription>Picayune</ShortDescription>
 		<Description>Picayune Rancheria of Chukchansi Indians of California</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Pilot Point</CodeValue>
-		<ShortDescription>Pilot Point</ShortDescription>
-		<Description>Native Village of Pilot Point</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2253,7 +2367,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pitka's Point</CodeValue>
 		<ShortDescription>Pitka's Point</ShortDescription>
-		<Description>Native Village of Pitka's Point</Description>
+		<Description>Pitka's Point Traditional Council</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2265,31 +2379,13 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Poarch</CodeValue>
 		<ShortDescription>Poarch</ShortDescription>
-		<Description>Poarch Band of Creeks</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Point Hope IRA</CodeValue>
-		<ShortDescription>Point Hope IRA</ShortDescription>
-		<Description>Native Village of Point Hope</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Point Lay IRA</CodeValue>
-		<ShortDescription>Point Lay IRA</ShortDescription>
-		<Description>Native Village of Point Lay</Description>
+		<Description>Poarch Band of Creek Indians</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pokagon</CodeValue>
 		<ShortDescription>Pokagon</ShortDescription>
-		<Description>Pokagon Band of Potawatomi Indians, Michigan &amp; Indiana</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Ponca of Nebraska</CodeValue>
-		<ShortDescription>Ponca of Nebraska</ShortDescription>
-		<Description>Ponca Tribe of Nebraska</Description>
+		<Description>Pokagon Band of Potawatomi Indians, Michigan and Indiana</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2299,27 +2395,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
+		<CodeValue>Ponca of Nebraska</CodeValue>
+		<ShortDescription>Ponca of Nebraska</ShortDescription>
+		<Description>Ponca Tribe of Nebraska</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
 		<CodeValue>Port Gamble</CodeValue>
 		<ShortDescription>Port Gamble</ShortDescription>
 		<Description>Port Gamble S'Klallam Tribe</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Port Graham</CodeValue>
-		<ShortDescription>Port Graham</ShortDescription>
-		<Description>Native Village of Port Graham</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Port Heiden</CodeValue>
-		<ShortDescription>Port Heiden</ShortDescription>
-		<Description>Native Village of Port Heiden</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Port Lions</CodeValue>
-		<ShortDescription>Port Lions</ShortDescription>
-		<Description>Native Village of Port Lions</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2337,109 +2421,115 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Prairie Band</CodeValue>
 		<ShortDescription>Prairie Band</ShortDescription>
-		<Description>Prairie Band of Potawatomi Nation</Description>
+		<Description>Prairie Band Potawatomi Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Prairie Island</CodeValue>
 		<ShortDescription>Prairie Island</ShortDescription>
-		<Description>Prairie Island Indian Community in the State of MN</Description>
+		<Description>Prairie Island Indian Community in the State of Minnesota</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Pribilof Islands Aleut Communities</CodeValue>
+		<ShortDescription>Pribilof Islands Aleut Communities</ShortDescription>
+		<Description>Pribilof Islands Aleut Communities</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Acoma</CodeValue>
 		<ShortDescription>Pueblo of Acoma</ShortDescription>
-		<Description>Pueblo of Acoma</Description>
+		<Description>Pueblo of Acoma, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Cochiti</CodeValue>
 		<ShortDescription>Pueblo of Cochiti</ShortDescription>
-		<Description>Pueblo of Cochiti</Description>
+		<Description>Pueblo of Cochiti, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Isleta</CodeValue>
 		<ShortDescription>Pueblo of Isleta</ShortDescription>
-		<Description>Pueblo of Isleta</Description>
+		<Description>Pueblo of Isleta, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Jemez</CodeValue>
 		<ShortDescription>Pueblo of Jemez</ShortDescription>
-		<Description>Pueblo of Jemez</Description>
+		<Description>Pueblo of Jemez, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Laguna</CodeValue>
 		<ShortDescription>Pueblo of Laguna</ShortDescription>
-		<Description>Pueblo of Laguna</Description>
+		<Description>Pueblo of Laguna, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Nambe</CodeValue>
 		<ShortDescription>Pueblo of Nambe</ShortDescription>
-		<Description>Pueblo of Nambe</Description>
+		<Description>Pueblo of Nambe, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Picuris</CodeValue>
 		<ShortDescription>Pueblo of Picuris</ShortDescription>
-		<Description>Pueblo of Picuris</Description>
+		<Description>Pueblo of Picuris, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Pojoaque</CodeValue>
 		<ShortDescription>Pueblo of Pojoaque</ShortDescription>
-		<Description>Pueblo of Pojoaque</Description>
+		<Description>Pueblo of Pojoaque, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of San Felipe</CodeValue>
 		<ShortDescription>Pueblo of San Felipe</ShortDescription>
-		<Description>Pueblo of San Felipe</Description>
+		<Description>Pueblo of San Felipe, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of San Ildefonso</CodeValue>
 		<ShortDescription>Pueblo of San Ildefonso</ShortDescription>
-		<Description>Pueblo of San Ildefonso</Description>
+		<Description>Pueblo of San Ildefonso, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Sandia</CodeValue>
 		<ShortDescription>Pueblo of Sandia</ShortDescription>
-		<Description>Pueblo of Sandia</Description>
+		<Description>Pueblo of Sandia, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Santa Ana</CodeValue>
 		<ShortDescription>Pueblo of Santa Ana</ShortDescription>
-		<Description>Pueblo of Santa Ana</Description>
+		<Description>Pueblo of Santa Ana, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Santa Clara</CodeValue>
 		<ShortDescription>Pueblo of Santa Clara</ShortDescription>
-		<Description>Pueblo of Santa Clara</Description>
+		<Description>Pueblo of Santa Clara, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Taos</CodeValue>
 		<ShortDescription>Pueblo of Taos</ShortDescription>
-		<Description>Pueblo of Taos</Description>
+		<Description>Pueblo of Taos, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Tesuque</CodeValue>
 		<ShortDescription>Pueblo of Tesuque</ShortDescription>
-		<Description>Pueblo of Tesuque</Description>
+		<Description>Pueblo of Tesuque, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Pueblo of Zia</CodeValue>
 		<ShortDescription>Pueblo of Zia</ShortDescription>
-		<Description>Pueblo of Zia</Description>
+		<Description>Pueblo of Zia, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2457,7 +2547,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Qagan Tayagungin</CodeValue>
 		<ShortDescription>Qagan Tayagungin</ShortDescription>
-		<Description>Qagan Tayagungin Tribe of Sand Point Village</Description>
+		<Description>Qagan Tayagungin Tribe of Sand Point</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2467,9 +2557,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Quapaw</CodeValue>
-		<ShortDescription>Quapaw</ShortDescription>
-		<Description>The Quapaw Tribe of Indians</Description>
+		<CodeValue>Quapaw Tribe</CodeValue>
+		<ShortDescription>Quapaw Tribe</ShortDescription>
+		<Description>Quapaw Nation </Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2497,9 +2587,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Ramah</CodeValue>
-		<ShortDescription>Ramah</ShortDescription>
-		<Description>Ramah Navajo Chapter</Description>
+		<CodeValue>Ramah Navajo Chapter</CodeValue>
+		<ShortDescription>Ramah Navajo Chapter</ShortDescription>
+		<Description>Ramah Navajo Chapter of the Navajo Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2515,15 +2605,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Red Cliff</CodeValue>
-		<ShortDescription>Red Cliff</ShortDescription>
-		<Description>Red Cliff Band of Lake Superior Chippewa Indians of Wisconsin</Description>
+		<CodeValue>Rappahannock Tribe, Inc.</CodeValue>
+		<ShortDescription>Rappahannock Tribe, Inc.</ShortDescription>
+		<Description>Rappahannock Tribe, Inc.</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Red Devil</CodeValue>
-		<ShortDescription>Red Devil</ShortDescription>
-		<Description>Village of Red Devil</Description>
+		<CodeValue>Red Cliff</CodeValue>
+		<ShortDescription>Red Cliff</ShortDescription>
+		<Description>Red Cliff Band of Lake Superior Chippewa Indians of Wisconsin</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2565,13 +2655,13 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Robinson</CodeValue>
 		<ShortDescription>Robinson</ShortDescription>
-		<Description>Robinson Rancheria Band of Pomo Indians, CA</Description>
+		<Description>Robinson Rancheria</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Rosebud</CodeValue>
 		<ShortDescription>Rosebud</ShortDescription>
-		<Description>Rosebud Sioux Tribe of the Rosebud Indian Reservation, SD</Description>
+		<Description>Rosebud Sioux Tribe of the Rosebud Indian Reservation, South Dakota</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2581,9 +2671,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Ruby</CodeValue>
-		<ShortDescription>Ruby</ShortDescription>
-		<Description>Native Village of Ruby</Description>
+		<CodeValue>Sac &amp; Fox Nation of Missouri in Kansas and Nebraska</CodeValue>
+		<ShortDescription>Sac &amp; Fox Nation of Missouri in Kansas and Nebraska</ShortDescription>
+		<Description>Sac &amp; Fox Nation of Missouri in Kansas and Nebraska</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Sac &amp; Fox Nation, Oklahoma</CodeValue>
+		<ShortDescription>Sac &amp; Fox Nation, Oklahoma</ShortDescription>
+		<Description>Sac &amp; Fox Nation, Oklahoma</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2593,21 +2689,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Sac and Fox Nation of Missouri in KS and NE</CodeValue>
-		<ShortDescription>Sac and Fox Nation of Missouri in Kansas and Nebraska</ShortDescription>
-		<Description>Sac and Fox Nation of Missouri in Kansas and Nebraska</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Sac and Fox Nation</CodeValue>
-		<ShortDescription>Oklahoma</ShortDescription>
-		<Description>Sac and Fox Nation, Oklahoma</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Saginaw Chippewa</CodeValue>
 		<ShortDescription>Saginaw Chippewa</ShortDescription>
 		<Description>Saginaw Chippewa Indian Tribe of Michigan</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>St. George</CodeValue>
+		<ShortDescription>St. George</ShortDescription>
+		<Description>Saint George Island</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2623,9 +2713,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Salamatoff</CodeValue>
-		<ShortDescription>Salamatoff</ShortDescription>
-		<Description>Village of Salamatoff</Description>
+		<CodeValue>Salamatof</CodeValue>
+		<ShortDescription>Salamatof</ShortDescription>
+		<Description>Salamatof Tribe</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2653,27 +2743,21 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>San Manuel</CodeValue>
-		<ShortDescription>San Manuel</ShortDescription>
-		<Description>San Manuel Band of Mission Indians, California</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>San Pasqual</CodeValue>
 		<ShortDescription>San Pasqual</ShortDescription>
 		<Description>San Pasqual Band of Diegueno Mission Indians of California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Santa Rosa</CodeValue>
-		<ShortDescription>Santa Rosa</ShortDescription>
-		<Description>Santa Rosa Indian Community of the Santa Rosa Rancheria, California</Description>
+		<CodeValue>Santa Rosa of Cahuilla</CodeValue>
+		<ShortDescription>Santa Rosa of Cahuilla</ShortDescription>
+		<Description>Santa Rosa Band of Cahuilla Indians, California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Santa Rosa of Chuilla</CodeValue>
-		<ShortDescription>Santa Rosa of Chuilla</ShortDescription>
-		<Description>Santa Rosa Band of Cahuilla Indians, California</Description>
+		<CodeValue>Santa Rosa</CodeValue>
+		<ShortDescription>Santa Rosa</ShortDescription>
+		<Description>Santa Rosa Indian Community of the Santa Rosa Rancheria, California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2689,6 +2773,12 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
+		<CodeValue>Santo Domingo</CodeValue>
+		<ShortDescription>Santo Domingo</ShortDescription>
+		<Description>Santo Domingo Pueblo</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
 		<CodeValue>Sauk-Suiattle</CodeValue>
 		<ShortDescription>Sauk-Suiattle</ShortDescription>
 		<Description>Sauk-Suiattle Indian Tribe</Description>
@@ -2701,33 +2791,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Savoonga</CodeValue>
-		<ShortDescription>Savoonga</ShortDescription>
-		<Description>Native Village of Savoonga</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Saxman</CodeValue>
-		<ShortDescription>Saxman</ShortDescription>
-		<Description>Organized Village of Saxman</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Scammon Bay</CodeValue>
-		<ShortDescription>Scammon Bay</ShortDescription>
-		<Description>Native Village of Scammon Bay</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Scotts Valley</CodeValue>
 		<ShortDescription>Scotts Valley</ShortDescription>
 		<Description>Scotts Valley Band of Pomo Indians of California</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Selawik</CodeValue>
-		<ShortDescription>Selawik</ShortDescription>
-		<Description>Native Village of Selawik</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2743,20 +2809,14 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Seminole of Oklahoma</CodeValue>
-		<ShortDescription>Seminole of Oklahoma</ShortDescription>
-		<Description>The Seminole Nation of Oklahoma</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Seneca</CodeValue>
 		<ShortDescription>Seneca</ShortDescription>
 		<Description>Seneca Nation of Indians</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Seneca-Cayuga</CodeValue>
-		<ShortDescription>Seneca-Cayuga</ShortDescription>
+		<CodeValue>Seneca-Cayuga Nation</CodeValue>
+		<ShortDescription>Seneca-Cayuga Nation</ShortDescription>
 		<Description>Seneca-Cayuga Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
@@ -2773,14 +2833,8 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Shaktoolik</CodeValue>
-		<ShortDescription>Shaktoolik</ShortDescription>
-		<Description>Native Village of Shaktoolik</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Shawnee</CodeValue>
-		<ShortDescription>Shawnee</ShortDescription>
+		<CodeValue>Shawnee Tribe</CodeValue>
+		<ShortDescription>Shawnee Tribe</ShortDescription>
 		<Description>Shawnee Tribe</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
@@ -2803,15 +2857,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Shishmaref IRA</CodeValue>
-		<ShortDescription>Shishmaref IRA</ShortDescription>
-		<Description>Native Village of Shishmaref</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Shoalwater</CodeValue>
 		<ShortDescription>Shoalwater</ShortDescription>
-		<Description>Shoalwater Bay Indian Tribe</Description>
+		<Description>Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2827,21 +2875,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Shungnak</CodeValue>
-		<ShortDescription>Shungnak</ShortDescription>
-		<Description>Native Village of Shungnak</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Siletz Tribe</CodeValue>
-		<ShortDescription>Siletz Tribe</ShortDescription>
-		<Description>Confederated Tribes of Siletz Indians of Oregon</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Sisseton-Wahpeton</CodeValue>
 		<ShortDescription>Sisseton-Wahpeton</ShortDescription>
-		<Description>Sisseton-Wahpeton Oyate of the Lake Traverse Reservation, SD</Description>
+		<Description>Sisseton-Wahpeton Oyate of the Lake Traverse Reservation, South Dakota</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2869,12 +2905,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Sleetmute</CodeValue>
-		<ShortDescription>Sleetmute</ShortDescription>
-		<Description>Village of Sleetmute</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Snoqualmie</CodeValue>
 		<ShortDescription>Snoqualmie</ShortDescription>
 		<Description>Snoqualmie Indian Tribe</Description>
@@ -2893,12 +2923,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Solomon</CodeValue>
-		<ShortDescription>Solomon</ShortDescription>
-		<Description>Village of Solomon</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>South Naknek</CodeValue>
 		<ShortDescription>South Naknek</ShortDescription>
 		<Description>South Naknek Village</Description>
@@ -2907,7 +2931,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Southern Ute</CodeValue>
 		<ShortDescription>Southern Ute</ShortDescription>
-		<Description>Southern Ute Indian Tribe</Description>
+		<Description>Southern Ute Indian Tribe of the Southern Ute Reservation, Colorado</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2935,18 +2959,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>St. George</CodeValue>
-		<ShortDescription>St. George</ShortDescription>
-		<Description>Saint George Island</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>St. Michael IRA</CodeValue>
-		<ShortDescription>St. Michael IRA</ShortDescription>
-		<Description>Native Village of Saint Michael</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Standing Rock</CodeValue>
 		<ShortDescription>Standing Rock</ShortDescription>
 		<Description>Standing Rock Sioux Tribe of North &amp; South Dakota</Description>
@@ -2959,12 +2971,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Stevens Village</CodeValue>
-		<ShortDescription>Stevens Village</ShortDescription>
-		<Description>Native Village of Stevens</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Stillaguamish</CodeValue>
 		<ShortDescription>Stillaguamish</ShortDescription>
 		<Description>Stillaguamish Tribe of Indians of Washington</Description>
@@ -2974,12 +2980,6 @@
 		<CodeValue>Stockbridge</CodeValue>
 		<ShortDescription>Stockbridge</ShortDescription>
 		<Description>Stockbridge Munsee Community, Wisconsin</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Stony River</CodeValue>
-		<ShortDescription>Stony River</ShortDescription>
-		<Description>Village of Stony River</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3021,7 +3021,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Table Mountain</CodeValue>
 		<ShortDescription>Table Mountain</ShortDescription>
-		<Description>Table Mountain Rancheria of California</Description>
+		<Description>Table Mountain Rancheria </Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3031,33 +3031,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Tanacross</CodeValue>
-		<ShortDescription>Tanacross</ShortDescription>
-		<Description>Native Village of Tanacross</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Tanana</CodeValue>
-		<ShortDescription>Tanana</ShortDescription>
-		<Description>Native Village of Tanana</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Tangirnaq</CodeValue>
 		<ShortDescription>Tangirnaq</ShortDescription>
-		<Description>Tangirnaq Native Village (aka Woody Island)</Description>
+		<Description>Tangirnaq Native Village </Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Tatitlek</CodeValue>
-		<ShortDescription>Tatitlek</ShortDescription>
-		<Description>Native Village of Tatitlek</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Tazlina</CodeValue>
-		<ShortDescription>Tazlina</ShortDescription>
-		<Description>Native Village of Tazlina</Description>
+		<CodeValue>Te-Moak</CodeValue>
+		<ShortDescription>Te-Moak</ShortDescription>
+		<Description>Te-Moak Tribe of Western Shoshone Indians of Nevada (Four constituent bands: Battle Mountain Band; Elko Band; South Fork Band and Wells Band)</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3073,51 +3055,51 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Teller</CodeValue>
-		<ShortDescription>Teller</ShortDescription>
-		<Description>Native Village of Teller</Description>
+		<CodeValue>Chickasaw</CodeValue>
+		<ShortDescription>Chickasaw</ShortDescription>
+		<Description>The Chickasaw Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Te-Moak</CodeValue>
-		<ShortDescription>Te-Moak</ShortDescription>
-		<Description>Te-Moak Tribe of Western Shoshone Indians of Nevada (Four constituent bands: Battle Mountain Band; Elko Band; South Fork Band and Wells Band)</Description>
+		<CodeValue>Choctaw</CodeValue>
+		<ShortDescription>Choctaw</ShortDescription>
+		<Description>The Choctaw Nation of Oklahoma</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Tetlin</CodeValue>
-		<ShortDescription>Tetlin</ShortDescription>
-		<Description>Native Village of Tetlin</Description>
+		<CodeValue>Muscogee (Creek) Nation</CodeValue>
+		<ShortDescription>Muscogee (Creek) Nation</ShortDescription>
+		<Description>The Muscogee (Creek) Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Thlopthlocco</CodeValue>
-		<ShortDescription>Thlopthlocco</ShortDescription>
+		<CodeValue>Osage Nation</CodeValue>
+		<ShortDescription>Osage Nation</ShortDescription>
+		<Description>The Osage Nation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Seminole Nation  of Oklahoma</CodeValue>
+		<ShortDescription>Seminole Nation  of Oklahoma</ShortDescription>
+		<Description>The Seminole Nation of Oklahoma</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Thlopthlocco Tribal Town</CodeValue>
+		<ShortDescription>Thlopthlocco Tribal Town</ShortDescription>
 		<Description>Thlopthlocco Tribal Town</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Three Affiliated</CodeValue>
 		<ShortDescription>Three Affiliated</ShortDescription>
-		<Description>Three Affiliated Tribes of the Fort Berthold Reservation, ND</Description>
+		<Description>Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Timbi-sha Shoshone</CodeValue>
 		<ShortDescription>Timbi-sha Shoshone</ShortDescription>
-		<Description>Death Valley Timbi-sha Shoshone Tribe</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Tlingit &amp; Haida</CodeValue>
-		<ShortDescription>Tlingit &amp; Haida</ShortDescription>
-		<Description>Central Council of the Tlingit &amp; Haida Indian Tribes of Alaska</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Togiak</CodeValue>
-		<ShortDescription>Togiak</ShortDescription>
-		<Description>Traditional Village of Togiak</Description>
+		<Description>Timbisha Shoshone Tribe</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3127,9 +3109,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Tolowa Dee-Ni'</CodeValue>
-		<ShortDescription>Tolowa Dee-Ni'</ShortDescription>
-		<Description>Tolowa Dee-Ni' Nation</Description>
+		<CodeValue>Tolowa Dee-ni'</CodeValue>
+		<ShortDescription>Tolowa Dee-ni'</ShortDescription>
+		<Description>Tolowa Dee-ni' Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3157,6 +3139,12 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
+		<CodeValue>Togiak</CodeValue>
+		<ShortDescription>Togiak</ShortDescription>
+		<Description>Traditional Village of Togiak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
 		<CodeValue>Tulalip</CodeValue>
 		<ShortDescription>Tulalip</ShortDescription>
 		<Description>Tulalip Tribes of Washington</Description>
@@ -3178,18 +3166,6 @@
 		<CodeValue>Tunica-Biloxi</CodeValue>
 		<ShortDescription>Tunica-Biloxi</ShortDescription>
 		<Description>Tunica-Biloxi Indian Tribe</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Tuntutuliak</CodeValue>
-		<ShortDescription>Tuntutuliak</ShortDescription>
-		<Description>Native Village of Tuntutuliak</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Tununak</CodeValue>
-		<ShortDescription>Tununak</ShortDescription>
-		<Description>Native Village of Tununak</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3223,21 +3199,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Tyonek</CodeValue>
-		<ShortDescription>Tyonek</ShortDescription>
-		<Description>Native Village of Tyonek</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Ugashik</CodeValue>
 		<ShortDescription>Ugashik</ShortDescription>
 		<Description>Ugashik Village</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Umatilla Tribe</CodeValue>
-		<ShortDescription>Umatilla Tribe</ShortDescription>
-		<Description>Confederated Tribes of the Umatilla Indian Reservation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3247,27 +3211,21 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Unalakleet</CodeValue>
-		<ShortDescription>Unalakleet</ShortDescription>
-		<Description>Native Village of Unalakleet</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Unga</CodeValue>
-		<ShortDescription>Unga</ShortDescription>
-		<Description>Native Village of Unga</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>United Auburn</CodeValue>
 		<ShortDescription>United Auburn</ShortDescription>
 		<Description>United Auburn Indian Community of the Auburn Rancheria of California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>United Keetoowah</CodeValue>
-		<ShortDescription>United Keetoowah</ShortDescription>
+		<CodeValue>United Keetoowah Band</CodeValue>
+		<ShortDescription>United Keetoowah Band</ShortDescription>
 		<Description>United Keetoowah Band of Cherokee Indians in Oklahoma</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Upper Mattaponi Tribe</CodeValue>
+		<ShortDescription>Upper Mattaponi Tribe</ShortDescription>
+		<Description>Upper Mattaponi Tribe</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3289,9 +3247,129 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Ute Mountain</CodeValue>
-		<ShortDescription>Ute Mountain</ShortDescription>
+		<CodeValue>Ute Mountain Ute</CodeValue>
+		<ShortDescription>Ute Mountain Ute</ShortDescription>
 		<Description>Ute Mountain Ute Tribe</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Benton</CodeValue>
+		<ShortDescription>Benton</ShortDescription>
+		<Description>Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Alakanuk</CodeValue>
+		<ShortDescription>Alakanuk</ShortDescription>
+		<Description>Village of Alakanuk</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Anaktuvuk Pass</CodeValue>
+		<ShortDescription>Anaktuvuk Pass</ShortDescription>
+		<Description>Village of Anaktuvuk Pass</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Aniak</CodeValue>
+		<ShortDescription>Aniak</ShortDescription>
+		<Description>Village of Aniak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Atmautluak</CodeValue>
+		<ShortDescription>Atmautluak</ShortDescription>
+		<Description>Village of Atmautluak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Bill Moore's Slough</CodeValue>
+		<ShortDescription>Bill Moore's Slough</ShortDescription>
+		<Description>Village of Bill Moore's Slough</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Chefornak</CodeValue>
+		<ShortDescription>Chefornak</ShortDescription>
+		<Description>Village of Chefornak</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Clark's Point</CodeValue>
+		<ShortDescription>Clark's Point</ShortDescription>
+		<Description>Village of Clarks Point</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Crooked Creek</CodeValue>
+		<ShortDescription>Crooked Creek</ShortDescription>
+		<Description>Village of Crooked Creek</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Dot Lake</CodeValue>
+		<ShortDescription>Dot Lake</ShortDescription>
+		<Description>Village of Dot Lake</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Iliamna</CodeValue>
+		<ShortDescription>Iliamna</ShortDescription>
+		<Description>Village of Iliamna</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kalskag</CodeValue>
+		<ShortDescription>Kalskag</ShortDescription>
+		<Description>Village of Kalskag</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kaltag</CodeValue>
+		<ShortDescription>Kaltag</ShortDescription>
+		<Description>Village of Kaltag</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kotlik</CodeValue>
+		<ShortDescription>Kotlik</ShortDescription>
+		<Description>Village of Kotlik</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Lower Kalskag</CodeValue>
+		<ShortDescription>Lower Kalskag</ShortDescription>
+		<Description>Village of Lower Kalskag</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ohogamiut</CodeValue>
+		<ShortDescription>Ohogamiut</ShortDescription>
+		<Description>Village of Ohogamiut</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Red Devil</CodeValue>
+		<ShortDescription>Red Devil</ShortDescription>
+		<Description>Village of Red Devil</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Sleetmute</CodeValue>
+		<ShortDescription>Sleetmute</ShortDescription>
+		<Description>Village of Sleetmute</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Solomon</CodeValue>
+		<ShortDescription>Solomon</ShortDescription>
+		<Description>Village of Solomon</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Stony River</CodeValue>
+		<ShortDescription>Stony River</ShortDescription>
+		<Description>Village of Stony River</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3301,27 +3379,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Venetie IRA</CodeValue>
-		<ShortDescription>Venetie IRA</ShortDescription>
-		<Description>Native Village of Venetie Tribal Government</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Viejas</CodeValue>
-		<ShortDescription>Viejas</ShortDescription>
-		<Description>Capitan Grande Band of Diegueno Mission Indians of California: Viejas (Barona Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Wainwright</CodeValue>
 		<ShortDescription>Wainwright</ShortDescription>
 		<Description>Village of Wainwright</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>Wales</CodeValue>
-		<ShortDescription>Wales</ShortDescription>
-		<Description>Native Village of Wales</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3337,21 +3397,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Warms Springs Tribe</CodeValue>
-		<ShortDescription>Warms Springs Tribe</ShortDescription>
-		<Description>Confederated Tribes of the Warm Springs Reservation of Oregon</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Washoe</CodeValue>
 		<ShortDescription>Washoe</ShortDescription>
 		<Description>Washoe Tribe of Nevada &amp; California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, &amp; Washoe Ranches)</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
-		<CodeValue>White Earth</CodeValue>
-		<ShortDescription>White Earth</ShortDescription>
-		<Description>Minnesota Chippewa Tribe - White Earth Band</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3361,21 +3409,15 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>White Mountain AK</CodeValue>
-		<ShortDescription>White Mountain AK</ShortDescription>
-		<Description>Native Village of White Mountain</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>Wichita</CodeValue>
 		<ShortDescription>Wichita</ShortDescription>
-		<Description>Wichita and Affiliated Tribes</Description>
+		<Description>Wichita and Affiliated Tribes (Wichita, Keechi, Waco &amp; Tawakonie), Oklahoma</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
 		<CodeValue>Wilton</CodeValue>
 		<ShortDescription>Wilton</ShortDescription>
-		<Description>Wilton Rancheria</Description>
+		<Description>Wilton Rancheria, California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3435,7 +3477,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Yerington</CodeValue>
 		<ShortDescription>Yerington</ShortDescription>
-		<Description>Yerington Paiute Tribe of the Yerington Colony &amp; Campbell Ranch, Nevada</Description>
+		<Description>Yerington Paiute Tribe of the Yerington Colony and Campbell Ranch, Nevada</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3457,15 +3499,27 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
+		<CodeValue>Yuhaaviatam of San Manuel Nation </CodeValue>
+		<ShortDescription>Yuhaaviatam of San Manuel Nation </ShortDescription>
+		<Description>Yuhaaviatam of San Manuel Nation </Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Andreafski</CodeValue>
+		<ShortDescription>Andreafski</ShortDescription>
+		<Description>Yupiit of Andreafski</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
 		<CodeValue>Yurok</CodeValue>
 		<ShortDescription>Yurok</ShortDescription>
 		<Description>Yurok Tribe of the Yurok Reservation, California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Zuni</CodeValue>
-		<ShortDescription>Zuni</ShortDescription>
-		<Description>Zuni Tribe of the Zuni Reservation</Description>
+		<CodeValue>Pueblo of Zuni</CodeValue>
+		<ShortDescription>Pueblo of Zuni</ShortDescription>
+		<Description>Zuni Tribe of the Zuni Reservation, New Mexico</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 </InterchangeDescriptors>
