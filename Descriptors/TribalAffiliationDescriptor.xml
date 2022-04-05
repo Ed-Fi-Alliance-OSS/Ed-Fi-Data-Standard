@@ -3522,4 +3522,208 @@
 		<Description>Yurok Tribe of the Yurok Reservation, California</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Arctic Slope</CodeValue>
+		<ShortDescription>DEPRECATED: Arctic Slope</ShortDescription>
+		<Description>DEPRECATED: Inupiat Community of the Arctic Slope</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Aroostok</CodeValue>
+		<ShortDescription>DEPRECATED: Aroostok</ShortDescription>
+		<Description>DEPRECATED: Aroostook Band of Micmacs</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Atqasuk</CodeValue>
+		<ShortDescription>DEPRECATED: Atqasuk</ShortDescription>
+		<Description>DEPRECATED: Atqasuk Village (Atkasook)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Cheyenne-Arapaho</CodeValue>
+		<ShortDescription>DEPRECATED: Cheyenne-Arapaho</ShortDescription>
+		<Description>DEPRECATED: Cheyenne River Sioux Tribe of the Cheyenne River Reservation, SD</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Chickahominy Indian Tribe</CodeValue>
+		<ShortDescription>DEPRECATED: Inc.</ShortDescription>
+		<Description>DEPRECATED: Chickahominy Indian Tribe, Inc.</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+		<TribalAffiliationDescriptor>
+		<CodeValue>Iqurmuit</CodeValue>
+		<ShortDescription>DEPRECATED: Iqurmuit</ShortDescription>
+		<Description>DEPRECATED: Iqurmuit Traditional Council</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kewa Pueblo</CodeValue>
+		<ShortDescription>DEPRECATED: Kewa Pueblo</ShortDescription>
+		<Description>DEPRECATED: Kewa Pueblo</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Kluti-Kaah</CodeValue>
+		<ShortDescription>DEPRECATED: Kluti-Kaah</ShortDescription>
+		<Description>DEPRECATED: Native Village of Kluti-Kaah (aka Copper Center)</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Mescalero</CodeValue>
+		<ShortDescription>DEPRECATED: Mescalero</ShortDescription>
+		<Description>DEPRECATED: Mescalero Apache Tribe</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Muscogee</CodeValue>
+		<ShortDescription>DEPRECATED: Muscogee</ShortDescription>
+		<Description>DEPRECATED: The Muscogee (Creek) Nation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Northfork</CodeValue>
+		<ShortDescription>DEPRECATED: Northfork</ShortDescription>
+		<Description>DEPRECATED: Northfork Rancheria of Mono Indians of California</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ohkay</CodeValue>
+		<ShortDescription>DEPRECATED: Ohkay</ShortDescription>
+		<Description>DEPRECATED: Ohkay Owingeh</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ohogamuit</CodeValue>
+		<ShortDescription>DEPRECATED: Ohogamuit</ShortDescription>
+		<Description>DEPRECATED: Village of Ohogamiut</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Oneida  Nation of New York</CodeValue>
+		<ShortDescription>DEPRECATED: Oneida  Nation of New York</ShortDescription>
+		<Description>DEPRECATED: Oneida  Nation of New York</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Osage</CodeValue>
+		<ShortDescription>DEPRECATED: Osage</ShortDescription>
+		<Description>DEPRECATED: The Osage Nation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ottawa of Oklahoma</CodeValue>
+		<ShortDescription>DEPRECATED: Ottawa of Oklahoma</ShortDescription>
+		<Description>DEPRECATED: Ottawa Tribe of Oklahoma</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Passamaquaddy Pleasant Point</CodeValue>
+		<ShortDescription>DEPRECATED: Passamaquaddy Pleasant Point</ShortDescription>
+		<Description>DEPRECATED: Passamaquoddy Tribe - Pleasant Point</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Pechanga</CodeValue>
+		<ShortDescription>DEPRECATED: Pechanga</ShortDescription>
+		<Description>DEPRECATED: Pechanga Band of Luiseno Mission Indians of the Pechanga Reservation, California</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Peoria</CodeValue>
+		<ShortDescription>DEPRECATED: Peoria</ShortDescription>
+		<Description>DEPRECATED: Peoria Tribe of Indians of Oklahoma</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Quapaw</CodeValue>
+		<ShortDescription>DEPRECATED: Quapaw</ShortDescription>
+		<Description>DEPRECATED: The Quapaw Tribe of Indians</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ramah</CodeValue>
+		<ShortDescription>DEPRECATED: Ramah</ShortDescription>
+		<Description>DEPRECATED: Ramah Navajo Chapter</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Sac and Fox Nation</CodeValue>
+		<ShortDescription>DEPRECATED: Oklahoma</ShortDescription>
+		<Description>DEPRECATED: Sac and Fox Nation, Oklahoma</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Sac and Fox Nation of Missouri in KS and NE</CodeValue>
+		<ShortDescription>DEPRECATED: Sac and Fox Nation of Missouri in Kansas and Nebraska</ShortDescription>
+		<Description>DEPRECATED: Sac and Fox Nation of Missouri in Kansas and Nebraska</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Salamatoff</CodeValue>
+		<ShortDescription>DEPRECATED: Salamatoff</ShortDescription>
+		<Description>DEPRECATED: Village of Salamatoff</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>San Manuel</CodeValue>
+		<ShortDescription>DEPRECATED: San Manuel</ShortDescription>
+		<Description>DEPRECATED: San Manuel Band of Mission Indians, California</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Santa Rosa of Chuilla</CodeValue>
+		<ShortDescription>DEPRECATED: Santa Rosa of Chuilla</ShortDescription>
+		<Description>DEPRECATED: Santa Rosa Band of Cahuilla Indians, California</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Seminole of Oklahoma</CodeValue>
+		<ShortDescription>DEPRECATED: Seminole of Oklahoma</ShortDescription>
+		<Description>DEPRECATED: The Seminole Nation of Oklahoma</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Seneca-Cayuga</CodeValue>
+		<ShortDescription>DEPRECATED: Seneca-Cayuga</ShortDescription>
+		<Description>DEPRECATED: Seneca-Cayuga Nation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Shawnee</CodeValue>
+		<ShortDescription>DEPRECATED: Shawnee</ShortDescription>
+		<Description>DEPRECATED: Shawnee Tribe</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Thlopthlocco</CodeValue>
+		<ShortDescription>DEPRECATED: Thlopthlocco</ShortDescription>
+		<Description>DEPRECATED: Thlopthlocco Tribal Town</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Tolowa Dee-Ni'</CodeValue>
+		<ShortDescription>DEPRECATED: Tolowa Dee-Ni'</ShortDescription>
+		<Description>DEPRECATED: Tolowa Dee-Ni' Nation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>United Keetoowah</CodeValue>
+		<ShortDescription>DEPRECATED: United Keetoowah</ShortDescription>
+		<Description>DEPRECATED: United Keetoowah Band of Cherokee Indians in Oklahoma</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Ute Mountain</CodeValue>
+		<ShortDescription>DEPRECATED: Ute Mountain</ShortDescription>
+		<Description>DEPRECATED: Ute Mountain Ute Tribe</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
+	<TribalAffiliationDescriptor>
+		<CodeValue>Zuni</CodeValue>
+		<ShortDescription>DEPRECATED: Zuni</ShortDescription>
+		<Description>DEPRECATED: Zuni Tribe of the Zuni Reservation</Description>
+		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
+	</TribalAffiliationDescriptor>
 </InterchangeDescriptors>
