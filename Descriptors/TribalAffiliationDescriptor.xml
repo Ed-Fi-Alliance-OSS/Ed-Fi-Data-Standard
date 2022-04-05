@@ -1389,7 +1389,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Kiowa</CodeValue>
 		<ShortDescription>Kiowa</ShortDescription>
-		<Description>Kiowa  Indian Tribe of Oklahoma</Description>
+		<Description>Kiowa Indian Tribe of Oklahoma</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -2791,8 +2791,8 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Seminole Nation  of Oklahoma</CodeValue>
-		<ShortDescription>Seminole Nation  of Oklahoma</ShortDescription>
+		<CodeValue>Seminole Nation of Oklahoma</CodeValue>
+		<ShortDescription>Seminole Nation of Oklahoma</ShortDescription>
 		<Description>The Seminole Nation of Oklahoma</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
@@ -2937,7 +2937,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Sokaogon</CodeValue>
 		<ShortDescription>Sokaogon</ShortDescription>
-		<Description>Sokaogon Chippewa  Community, Wisconsin</Description>
+		<Description>Sokaogon Chippewa Community, Wisconsin</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
