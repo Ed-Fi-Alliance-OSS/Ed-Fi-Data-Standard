@@ -43,7 +43,7 @@
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>(Deprecated)Independent</CodeValue>
+		<CodeValue>(Deprecate)Independent</CodeValue>
 		<ShortDescription>Independent</ShortDescription>
 		<Description>Independent</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
