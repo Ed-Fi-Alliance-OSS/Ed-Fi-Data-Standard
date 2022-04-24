@@ -1,19 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/3.3.1-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.1-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<InternetAccessDescriptor>
-		<CodeValue>High Speed</CodeValue>
+		<CodeValue>Cable</CodeValue>
+		<ShortDescription>Cable</ShortDescription>
+		<Description>Cable</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>Dial-up</CodeValue>
+		<ShortDescription>Dial-up</ShortDescription>
+		<Description>Dial-up</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>DSL</CodeValue>
+		<ShortDescription>DSL</ShortDescription>
+		<Description>DSL</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>Fiber</CodeValue>
+		<ShortDescription>Fiber</ShortDescription>
+		<Description>Fiber</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>None</CodeValue>
+		<ShortDescription>None</ShortDescription>
+		<Description>None</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>Microwave</CodeValue>
+		<ShortDescription>Microwave</ShortDescription>
+		<Description>Microwave</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>Personal hotspot/smartphone</CodeValue>
+		<ShortDescription>Personal hotspot/smartphone</ShortDescription>
+		<Description>Personal hotspot/smartphone</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>Satellite</CodeValue>
+		<ShortDescription>Satellite</ShortDescription>
+		<Description>Satellite</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>School-provided hotspot</CodeValue>
+		<ShortDescription>School-provided hotspot</ShortDescription>
+		<Description>School-provided hotspot</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>Unknown</CodeValue>
+		<ShortDescription>Unknown</ShortDescription>
+		<Description>Unknown</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>(Deprecated)High Speed</CodeValue>
 		<ShortDescription>High Speed</ShortDescription>
 		<Description>High Speed</Description>
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
 	</InternetAccessDescriptor>
 	<InternetAccessDescriptor>
-		<CodeValue>Less Than High Speed</CodeValue>
+		<CodeValue>(Deprecated)Less Than High Speed</CodeValue>
 		<ShortDescription>Less Than High Speed</ShortDescription>
 		<Description>Less Than High Speed</Description>
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
 	</InternetAccessDescriptor>
 	<InternetAccessDescriptor>
-		<CodeValue>None</CodeValue>
+		<CodeValue>(Deprecated)None</CodeValue>
 		<ShortDescription>None</ShortDescription>
 		<Description>None</Description>
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
