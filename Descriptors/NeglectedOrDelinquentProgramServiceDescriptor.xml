@@ -43,7 +43,6 @@
 		<Description>Other programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
-
 	<NeglectedOrDelinquentProgramServiceDescriptor>
 		<CodeValue>(Deprecated)Transition Programs</CodeValue>
 		<ShortDescription>Transition Programs</ShortDescription>
