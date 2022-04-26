@@ -310,6 +310,8 @@
 	</GradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>74.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -381,6 +383,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>48.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -452,6 +456,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>71.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -523,6 +529,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>64.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -594,6 +602,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>72.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -665,6 +675,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>49.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -736,6 +748,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>50.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -807,6 +821,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>54.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -878,6 +894,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>69.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -949,6 +967,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>79.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1020,6 +1040,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>62.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1091,6 +1113,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>79.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1162,6 +1186,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>79.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1233,6 +1259,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>61.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1304,6 +1332,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>69.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1375,6 +1405,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>61.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1446,6 +1478,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>74.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1517,6 +1551,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>58.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1588,6 +1624,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>71.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1659,6 +1697,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>66.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1730,6 +1770,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>82.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1801,6 +1843,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>96.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1872,6 +1916,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>91.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -1943,6 +1989,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>99.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2014,6 +2062,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>74.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2085,6 +2135,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>93.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2156,6 +2208,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>92.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2227,6 +2281,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>85.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2298,6 +2354,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>87.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2369,6 +2427,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>81.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2440,6 +2500,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>87.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2511,6 +2573,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>89.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2582,6 +2646,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>91.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2653,6 +2719,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>97.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2724,6 +2792,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>100.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2795,6 +2865,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>88.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2866,6 +2938,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>88.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -2937,6 +3011,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>93.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3008,6 +3084,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>91.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3079,6 +3157,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>96.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3150,6 +3230,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>30.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3221,6 +3303,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>28.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3292,6 +3376,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>52.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3363,6 +3449,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>50.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3434,6 +3522,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>44.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3505,6 +3595,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>57.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3576,6 +3668,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>56.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3647,6 +3741,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>55.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3718,6 +3814,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>52.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3789,6 +3887,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>66.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3860,6 +3960,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>98.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -3931,6 +4033,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>103.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4002,6 +4106,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>102.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4073,6 +4179,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>98.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4144,6 +4252,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>99.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4215,6 +4325,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>100.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4286,6 +4398,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>97.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4357,6 +4471,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>102.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4428,6 +4544,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>98.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4499,6 +4617,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>103.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4570,6 +4690,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>87.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4641,6 +4763,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>86.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4712,6 +4836,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>92.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4783,6 +4909,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>92.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4854,6 +4982,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>88.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4925,6 +5055,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>97.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -4996,6 +5128,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>89.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5067,6 +5201,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>92.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5138,6 +5274,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>87.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5209,6 +5347,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>90.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5280,6 +5420,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>33.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5351,6 +5493,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>47.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5422,6 +5566,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>39.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5493,6 +5639,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>27.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5564,6 +5712,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>31.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5635,6 +5785,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>47.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5706,6 +5858,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>44.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5777,6 +5931,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>29.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5848,6 +6004,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>45.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5919,6 +6077,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>68.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -5990,6 +6150,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>65.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6061,6 +6223,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>68.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6132,6 +6296,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>90.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6203,6 +6369,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>72.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6274,6 +6442,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>75.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6345,6 +6515,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>81.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6416,6 +6588,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>68.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6487,6 +6661,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>76.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6558,6 +6734,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>73.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6629,6 +6807,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>92.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6700,6 +6880,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>78.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6771,6 +6953,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>82.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6842,6 +7026,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>77.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6913,6 +7099,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>91.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -6984,6 +7172,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>97.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7055,6 +7245,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>82.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7126,6 +7318,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>80.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7197,6 +7391,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>72.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7268,6 +7464,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>91.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7339,6 +7537,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>80.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7410,6 +7610,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>65.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7481,6 +7683,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>61.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7552,6 +7756,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>81.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7623,6 +7829,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>82.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7694,6 +7902,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>84.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7765,6 +7975,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>78.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7836,6 +8048,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>85.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7907,6 +8121,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>58.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -7978,6 +8194,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>62.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8049,6 +8267,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>74.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8120,6 +8340,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>68.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8191,6 +8413,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>88.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8262,6 +8486,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>87.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8333,6 +8559,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>79.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8404,6 +8632,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>81.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8475,6 +8705,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>85.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8546,6 +8778,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>86.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8617,6 +8851,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>77.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8688,6 +8924,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>82.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8759,6 +8997,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>87.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8830,6 +9070,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>66.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8901,6 +9143,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>61.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -8972,6 +9216,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>61.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9043,6 +9289,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>53.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9114,6 +9362,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>65.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9185,6 +9435,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>64.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9256,6 +9508,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>68.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9327,6 +9581,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>70.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9398,6 +9654,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>69.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9469,6 +9727,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>63.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9540,6 +9800,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>90.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9611,6 +9873,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>100.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9682,6 +9946,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>99.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9753,6 +10019,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>100.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9824,6 +10092,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>90.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9895,6 +10165,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>89.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -9966,6 +10238,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>90.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10037,6 +10311,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>93.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10108,6 +10384,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>89.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10179,6 +10457,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>90.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10250,6 +10530,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>96.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10321,6 +10603,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>96.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10392,6 +10676,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>93.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10463,6 +10749,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>89.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10534,6 +10822,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>91.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10605,6 +10895,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>90.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10676,6 +10968,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>88.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10747,6 +11041,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>95.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10818,6 +11114,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>97.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10889,6 +11187,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>95.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -10960,6 +11260,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>86.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11031,6 +11333,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>63.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11102,6 +11406,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>77.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11173,6 +11479,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>83.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11244,6 +11552,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>79.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11315,6 +11625,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>76.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11386,6 +11698,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>76.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11457,6 +11771,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>70.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11528,6 +11844,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>80.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11599,6 +11917,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>80.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11670,6 +11990,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>71.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11741,6 +12063,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>62.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11812,6 +12136,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>73.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11883,6 +12209,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>76.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -11954,6 +12282,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>56.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12025,6 +12355,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>70.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12096,6 +12428,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>60.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12167,6 +12501,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>75.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12238,6 +12574,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>74.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12309,6 +12647,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>73.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12380,6 +12720,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>87.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12451,6 +12793,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>61.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12522,6 +12866,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>71.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12593,6 +12939,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>84.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12664,6 +13012,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>67.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12735,6 +13085,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>60.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12806,6 +13158,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>86.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12877,6 +13231,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>74.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -12948,6 +13304,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>68.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13019,6 +13377,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>82.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13090,6 +13450,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>90.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13161,6 +13523,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>80.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13232,6 +13596,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>71.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13303,6 +13669,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>86.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13374,6 +13742,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>69.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13445,6 +13815,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>98.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13516,6 +13888,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>76.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13587,6 +13961,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>78.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13658,6 +14034,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>96.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13729,6 +14107,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>86.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13800,6 +14180,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>52.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13871,6 +14253,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>74.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -13942,6 +14326,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>75.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14013,6 +14399,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>50.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14084,6 +14472,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>77.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14155,6 +14545,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>56.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14226,6 +14618,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>73.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14297,6 +14691,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>55.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14368,6 +14764,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>51.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14439,6 +14837,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>57.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14510,6 +14910,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>81.00</NumericGradeEarned>
+		<SubmissionStatus>Grade</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14581,6 +14983,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>78.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14652,6 +15056,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>84.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14723,6 +15129,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>71.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14794,6 +15202,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>68.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14865,6 +15275,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>56.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -14936,6 +15348,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>59.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15007,6 +15421,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>69.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15078,6 +15494,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>65.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15149,6 +15567,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>69.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15220,6 +15640,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>78.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15291,6 +15713,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>72.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15362,6 +15786,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>67.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15433,6 +15859,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>83.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15504,6 +15932,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>66.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15575,6 +16005,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>62.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15646,6 +16078,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>64.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15717,6 +16151,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>56.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15788,6 +16224,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>76.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15859,6 +16297,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>76.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -15930,6 +16370,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>69.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16001,6 +16443,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>72.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16072,6 +16516,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>47.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16143,6 +16589,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>58.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16214,6 +16662,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>68.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16285,6 +16735,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>65.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16356,6 +16808,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>50.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16427,6 +16881,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>52.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16498,6 +16954,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>69.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16569,6 +17027,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>60.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16640,6 +17100,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>99.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16711,6 +17173,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>98.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16782,6 +17246,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>101.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16853,6 +17319,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>97.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16924,6 +17392,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>99.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -16995,6 +17465,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>98.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17066,6 +17538,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>95.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17137,6 +17611,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>97.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17208,6 +17684,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>100.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17279,6 +17757,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>96.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17350,6 +17830,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>85.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17421,6 +17903,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>90.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17492,6 +17976,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>98.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17563,6 +18049,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>95.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17634,6 +18122,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>93.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17705,6 +18195,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>80.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17776,6 +18268,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>87.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17847,6 +18341,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>91.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17918,6 +18414,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>79.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
@@ -17989,6 +18487,8 @@
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
 		<NumericGradeEarned>92.00</NumericGradeEarned>
+		<SubmissionStatus>Graded</SubmissionStatus>
+		<AssignmentLateStatus>Not Late</AssignmentLateStatus>
 		<StudentSectionAssociationReference>
 			<StudentSectionAssociationIdentity>
 				<StudentReference>
