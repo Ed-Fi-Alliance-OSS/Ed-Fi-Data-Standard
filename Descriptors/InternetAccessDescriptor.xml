@@ -25,15 +25,15 @@
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
 	</InternetAccessDescriptor>
 	<InternetAccessDescriptor>
-		<CodeValue>None</CodeValue>
-		<ShortDescription>None</ShortDescription>
-		<Description>None</Description>
-		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
-	</InternetAccessDescriptor>
-	<InternetAccessDescriptor>
 		<CodeValue>Microwave</CodeValue>
 		<ShortDescription>Microwave</ShortDescription>
 		<Description>Microwave</Description>
+		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
+	</InternetAccessDescriptor>
+	<InternetAccessDescriptor>
+		<CodeValue>None</CodeValue>
+		<ShortDescription>None</ShortDescription>
+		<Description>None</Description>
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
 	</InternetAccessDescriptor>
 	<InternetAccessDescriptor>
