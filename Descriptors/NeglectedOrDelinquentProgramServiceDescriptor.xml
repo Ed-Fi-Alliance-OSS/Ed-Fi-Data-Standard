@@ -7,12 +7,6 @@
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>At-risk programs</CodeValue>
-		<ShortDescription>At-risk programs</ShortDescription>
-		<Description>At-risk programs</Description>
-		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
-	</NeglectedOrDelinquentProgramServiceDescriptor>
-	<NeglectedOrDelinquentProgramServiceDescriptor>
 		<CodeValue>Juvenile correction</CodeValue>
 		<ShortDescription>Juvenile correction</ShortDescription>
 		<Description>Juvenile correction</Description>
@@ -22,6 +16,12 @@
 		<CodeValue>Juvenile detention</CodeValue>
 		<ShortDescription>Juvenile detention</ShortDescription>
 		<Description>Juvenile detention</Description>
+		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
+	</NeglectedOrDelinquentProgramServiceDescriptor>
+		<NeglectedOrDelinquentProgramServiceDescriptor>
+		<CodeValue>Missing</CodeValue>
+		<ShortDescription>Missing</ShortDescription>
+		<Description>Other programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
@@ -36,11 +36,10 @@
 		<Description>Other programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
-	</NeglectedOrDelinquentProgramServiceDescriptor>
-		<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>Other programs</CodeValue>
-		<ShortDescription>Other programs</ShortDescription>
-		<Description>Other programs</Description>
+	<NeglectedOrDelinquentProgramServiceDescriptor>
+		<CodeValue>(Deprecated)At-risk programs</CodeValue>
+		<ShortDescription>At-risk programs</ShortDescription>
+		<Description>At-risk programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
