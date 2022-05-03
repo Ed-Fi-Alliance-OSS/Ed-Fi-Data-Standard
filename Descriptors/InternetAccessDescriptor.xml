@@ -67,21 +67,21 @@
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
 	</InternetAccessDescriptor>
 	<InternetAccessDescriptor>
-		<CodeValue>DEPRECATED:High Speed</CodeValue>
-		<ShortDescription>High Speed</ShortDescription>
-		<Description>High Speed</Description>
+		<CodeValue>High Speed</CodeValue>
+		<ShortDescription>DEPRECATED:High Speed</ShortDescription>
+		<Description>DEPRECATED:High Speed</Description>
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
 	</InternetAccessDescriptor>
 	<InternetAccessDescriptor>
-		<CodeValue>DEPRECATED:Less Than High Speed</CodeValue>
-		<ShortDescription>Less Than High Speed</ShortDescription>
-		<Description>Less Than High Speed</Description>
+		<CodeValue>Less Than High Speed</CodeValue>
+		<ShortDescription>DEPRECATED:Less Than High Speed</ShortDescription>
+		<Description>DEPRECATED:Less Than High Speed</Description>
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
 	</InternetAccessDescriptor>
 	<InternetAccessDescriptor>
-		<CodeValue>DEPRECATED:None</CodeValue>
-		<ShortDescription>None</ShortDescription>
-		<Description>None</Description>
+		<CodeValue>None</CodeValue>
+		<ShortDescription>DEPRECATED:None</ShortDescription>
+		<Description>DEPRECATED:None</Description>
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
 	</InternetAccessDescriptor>
 </InterchangeDescriptors>
