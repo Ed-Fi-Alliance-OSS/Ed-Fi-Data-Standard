@@ -7,9 +7,9 @@
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>Independent charter district</CodeValue>
-		<ShortDescription>Independent charter district</ShortDescription>
-		<Description>Independent charter district</Description>
+		<CodeValue>Independent charter district </CodeValue>
+		<ShortDescription>Independent charter district </ShortDescription>
+		<Description>Independent charter district </Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
@@ -19,9 +19,9 @@
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>Regular public school district that is a component of a supervisory union</CodeValue>
-		<ShortDescription>Regular public school district that is a component of a supervisory union</ShortDescription>
-		<Description>Regular public school district that is a component of a supervisory union</Description>
+		<CodeValue>Public school district</CodeValue>
+		<ShortDescription>Public school district</ShortDescription>
+		<Description>Public school district</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
@@ -31,9 +31,9 @@
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>State operated agency</CodeValue>
-		<ShortDescription>State operated agency</ShortDescription>
-		<Description>State operated agency</Description>
+		<CodeValue>Regular public school district that is a component of a supervisory union</CodeValue>
+		<ShortDescription>Regular public school district that is a component of a supervisory union</ShortDescription>
+		<Description>Regular public school district that is a component of a supervisory union</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
@@ -49,25 +49,25 @@
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>State operated agency</CodeValue>
+		<ShortDescription>State operated agency</ShortDescription>
+		<Description>State operated agency</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>
+	<LocalEducationAgencyCategoryDescriptor>
 		<CodeValue>Supervisory union</CodeValue>
 		<ShortDescription>Supervisory union</ShortDescription>
 		<Description>Supervisory union</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>DEPRECATED:Charter</CodeValue>
+		<CodeValue>DEPRECATED: Charter</CodeValue>
 		<ShortDescription>Charter</ShortDescription>
 		<Description>Charter</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>DEPRECATED:Public school district</CodeValue>
-		<ShortDescription>Public school district</ShortDescription>
-		<Description>Public school district</Description>
-		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
-	</LocalEducationAgencyCategoryDescriptor>
-	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>DEPRECATED:Independent</CodeValue>
+		<CodeValue>DEPRECATED: Independent</CodeValue>
 		<ShortDescription>Independent</ShortDescription>
 		<Description>Independent</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
