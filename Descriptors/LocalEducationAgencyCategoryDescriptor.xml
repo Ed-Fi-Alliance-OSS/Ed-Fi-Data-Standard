@@ -55,21 +55,21 @@
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>DEPRECATED:Charter</CodeValue>
-		<ShortDescription>Charter</ShortDescription>
-		<Description>Charter</Description>
+		<CodeValue>Charter</CodeValue>
+		<ShortDescription>DEPRECATED:Charter</ShortDescription>
+		<Description>DEPRECATED:Charter</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>DEPRECATED:Independent</CodeValue>
-		<ShortDescription>Independent</ShortDescription>
-		<Description>Independent</Description>
+		<CodeValue>Independent</CodeValue>
+		<ShortDescription>DEPRECATED:Independent</ShortDescription>
+		<Description>DEPRECATED:Independent</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>DEPRECATED:Public school district</CodeValue>
-		<ShortDescription>Public school district</ShortDescription>
-		<Description>Public school district</Description>
+		<CodeValue>Public school district</CodeValue>
+		<ShortDescription>DEPRECATED:Public school district</ShortDescription>
+		<Description>DEPRECATED:Public school district</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 </InterchangeDescriptors>
