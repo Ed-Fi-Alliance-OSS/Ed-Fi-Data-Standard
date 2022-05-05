@@ -21,7 +21,7 @@
 	<NeglectedOrDelinquentProgramServiceDescriptor>
 		<CodeValue>Missing</CodeValue>
 		<ShortDescription>Missing</ShortDescription>
-		<Description>Other programs</Description>
+		<Description>Missing</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
@@ -43,9 +43,9 @@
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>DEPRECATED:Transition Programs</CodeValue>
-		<ShortDescription>Transition Programs</ShortDescription>
-		<Description>Transition Programs</Description>
+		<CodeValue>Transition Programs</CodeValue>
+		<ShortDescription>DEPRECATED:Transition Programs</ShortDescription>
+		<Description>DEPRECATED:Transition Programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
