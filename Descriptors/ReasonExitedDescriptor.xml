@@ -19,6 +19,12 @@
 		<Namespace>uri://ed-fi.org/ReasonExitedDescriptor</Namespace>
 	</ReasonExitedDescriptor>
 	<ReasonExitedDescriptor>
+		<CodeValue>Graduated with an alternate diploma</CodeValue>
+		<ShortDescription>Graduated with an alternate diploma</ShortDescription>
+		<Description>Graduated with an alternate diploma</Description>
+		<Namespace>uri://ed-fi.org/ReasonExitedDescriptor</Namespace>
+	</ReasonExitedDescriptor>
+	<ReasonExitedDescriptor>
 		<CodeValue>Moved out of state</CodeValue>
 		<ShortDescription>Moved out of state</ShortDescription>
 		<Description>Moved out of state</Description>
@@ -52,6 +58,12 @@
 		<CodeValue>Transferred to another district or school</CodeValue>
 		<ShortDescription>Transferred to another district or school</ShortDescription>
 		<Description>Transferred to another district or school</Description>
+		<Namespace>uri://ed-fi.org/ReasonExitedDescriptor</Namespace>
+	</ReasonExitedDescriptor>
+	<ReasonExitedDescriptor>
+		<CodeValue>Transferred to regular education</CodeValue>
+		<ShortDescription>Transferred to regular education</ShortDescription>
+		<Description>Transferred to regular education</Description>
 		<Namespace>uri://ed-fi.org/ReasonExitedDescriptor</Namespace>
 	</ReasonExitedDescriptor>
 	<ReasonExitedDescriptor>
