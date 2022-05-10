@@ -13,7 +13,7 @@
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>Otherlocal education agency</CodeValue>
+		<CodeValue>Other local education agency</CodeValue>
 		<ShortDescription>Other local education agency</ShortDescription>
 		<Description>Other local education agency</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
