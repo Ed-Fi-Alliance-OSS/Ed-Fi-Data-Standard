@@ -18,4 +18,10 @@
 		<Description>Testing Center</Description>
 		<Namespace>uri://ed-fi.org/AdministrationEnvironmentDescriptor</Namespace>
 	</AdministrationEnvironmentDescriptor>
+	<AdministrationEnvironmentDescriptor>
+		<CodeValue>Remote</CodeValue>
+		<ShortDescription>Remote</ShortDescription>
+		<Description>Outside the school or district</Description>
+		<Namespace>uri://ed-fi.org/AdministrationEnvironmentDescriptor</Namespace>
+	</AdministrationEnvironmentDescriptor>
 </InterchangeDescriptors>

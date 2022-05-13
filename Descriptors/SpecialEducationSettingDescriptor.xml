@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/3.3.1-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.1-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Correctional Facilities</CodeValue>
-		<ShortDescription>Correctional Facilities</ShortDescription>
-		<Description>Correctional Facilities</Description>
+		<CodeValue>Correctional facilities</CodeValue>
+		<ShortDescription>Correctional facilities</ShortDescription>
+		<Description>Correctional facilities</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Home</CodeValue>
+		<ShortDescription>Home</ShortDescription>
+		<Description>Home</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
@@ -25,27 +31,99 @@
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Inside reg class between 40-79% of the day</CodeValue>
-		<ShortDescription>Inside reg class between 40-79% of the day</ShortDescription>
+		<CodeValue>Inside regular class between 40-79% of the day</CodeValue>
+		<ShortDescription>Inside regular class between 40-79% of the day</ShortDescription>
 		<Description>Inside regular class no more than 79% of day and no less than 40% of the day</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Parentally-placed in Private Schools</CodeValue>
+		<CodeValue>Other location regular early childhood program (at least 10 hours)</CodeValue>
+		<ShortDescription>Other location regular early childhood program (at least 10 hours)</ShortDescription>
+		<Description>Other location regular early childhood program (at least 10 hours)</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Other location regular early childhood program (less than 10 hours)</CodeValue>
+		<ShortDescription>Other location regular early childhood program (less than 10 hours)</ShortDescription>
+		<Description>Other location regular early childhood program (less than 10 hours)</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Parentally-placed in private schools</CodeValue>
+		<ShortDescription>Parentally-placed in private schools</ShortDescription>
+		<Description>Parentally-placed in private schools</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Residential facility</CodeValue>
+		<ShortDescription>Residential facility</ShortDescription>
+		<Description>Residential facility</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Separate class</CodeValue>
+		<ShortDescription>Separate class</ShortDescription>
+		<Description>Separate class</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Separate school</CodeValue>
+		<ShortDescription>Separate school</ShortDescription>
+		<Description>Separate school</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Services in regular early childhood program (at least 10 hours)</CodeValue>
+		<ShortDescription>Services in regular early childhood program (at least 10 hours)</ShortDescription>
+		<Description>Services in regular early childhood program (at least 10 hours)</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Services in regular early childhood program (less than 10 hours)</CodeValue>
+		<ShortDescription>Services in regular early childhood program (less than 10 hours)</ShortDescription>
+		<Description>Services in regular early childhood program (less than 10 hours)</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Service provider location</CodeValue>
+		<ShortDescription>Service provider location</ShortDescription>
+		<Description>Service provider location</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>(Deprecated)Correctional Facilities</CodeValue>
+		<ShortDescription>Correctional Facilities</ShortDescription>
+		<Description>Correctional Facilities</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>(Deprecated)Parentally-placed in Private Schools</CodeValue>
 		<ShortDescription>Parentally-placed in Private Schools</ShortDescription>
 		<Description>Parentally-placed in Private Schools</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Residential Facility</CodeValue>
+		<CodeValue>(Deprecated)Inside reg class between 40-79% of the day</CodeValue>
+		<ShortDescription>Inside reg class between 40-79% of the day</ShortDescription>
+		<Description>Inside regular class no more than 79% of day and no less than 40% of the day</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>(Deprecated)Residential Facility</CodeValue>
 		<ShortDescription>Residential Facility</ShortDescription>
 		<Description>Residential Facility</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Separate School</CodeValue>
+		<CodeValue>(Deprecated)Separate School</CodeValue>
 		<ShortDescription>Separate School</ShortDescription>
 		<Description>Separate School</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>(Deprecated)Service Provider Location</CodeValue>
+		<ShortDescription>Service Provider Location</ShortDescription>
+		<Description>Service Provider Location</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 </InterchangeDescriptors>
