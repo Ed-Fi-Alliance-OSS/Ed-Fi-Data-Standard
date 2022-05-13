@@ -84,4 +84,22 @@
 		<Description>Other</Description>
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
 	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Early-Exit Bilingual Education</CodeValue>
+		<ShortDescription>Early-Exit Bilingual Education</ShortDescription>
+		<Description>Early-Exit Bilingual Education</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Content Classes with integrated ESL support</CodeValue>
+		<ShortDescription>Content Classes with integrated ESL support</ShortDescription>
+		<Description>Content Classes with integrated ESL support</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Newcomer Program</CodeValue>
+		<ShortDescription>Newcomer Program</ShortDescription>
+		<Description>Newcomer Program</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
 </InterchangeDescriptors>
