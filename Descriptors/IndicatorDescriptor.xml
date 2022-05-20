@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/3.3.1-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.1-b ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+	<IndicatorDescriptor>
+		<CodeValue>Administrators Employed</CodeValue>
+		<ShortDescription>Number of administrators employed</ShortDescription>
+		<Description>The number of administrators employed by the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Teachers Employed</CodeValue>
+		<ShortDescription>Number of teachers employed</ShortDescription>
+		<Description>The number of teachers employed by the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Students Enrolled</CodeValue>
+		<ShortDescription>Number of students enrolled</ShortDescription>
+		<Description>The number of students enrolled in the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Students Eligible for Free Reduced Price Lunches</CodeValue>
+		<ShortDescription>Percent of students eligible for free and reduced lunches</ShortDescription>
+		<Description>The percent of students eligible for free and reduced lunches in the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Students with Limited English Proficiency</CodeValue>
+		<ShortDescription>Percent of students with limited English proficiency</ShortDescription>
+		<Description>The percent of students with limited English proficiency in the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Students in Special Education</CodeValue>
+		<ShortDescription>Percent of students in a special education program</ShortDescription>
+		<Description>The percent of students in a special education program in the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Hiring Rate</CodeValue>
+		<ShortDescription>Percent of staff hired</ShortDescription>
+		<Description>The percent of staff hired for the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Retention Rate</CodeValue>
+		<ShortDescription>Percent of staff retained</ShortDescription>
+		<Description>The percent of staff retained for the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Retirement Rate</CodeValue>
+		<ShortDescription>Percent of staff retired</ShortDescription>
+		<Description>The percent of staff retired for the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Projected Vacancies</CodeValue>
+		<ShortDescription>Number of projected vacancies</ShortDescription>
+		<Description>The number of projected vacancies associated with the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Actual Vacancies</CodeValue>
+		<ShortDescription>Number of actual vacancies</ShortDescription>
+		<Description>The number of actual vacancies associated with the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Average Salary</CodeValue>
+		<ShortDescription>Average of salaries</ShortDescription>
+		<Description>The average of salaries collected at the aggregate level</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Average Years Employed in District</CodeValue>
+		<ShortDescription>Average number of years employed in the district</ShortDescription>
+		<Description>The average number of years that all staff have been employed in the current district of employment</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+	<IndicatorDescriptor>
+		<CodeValue>Application Count</CodeValue>
+		<ShortDescription>Number of applications received</ShortDescription>
+		<Description>The number of applications received for the education organization</Description>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorDescriptor</Namespace>
+	</IndicatorDescriptor>
+</InterchangeDescriptors>
