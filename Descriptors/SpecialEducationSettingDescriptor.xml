@@ -37,15 +37,15 @@
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Other location regular early childhood program (at least 10 hours)</CodeValue>
-		<ShortDescription>Other location regular early childhood program (at least 10 hours)</ShortDescription>
-		<Description>Other location regular early childhood program (at least 10 hours)</Description>
+		<CodeValue>Other location early childhood program (10+ hrs)</CodeValue>
+		<ShortDescription>Other location early childhood program (10+ hrs)</ShortDescription>
+		<Description>Other location early childhood program (10+ hrs)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Other location regular early childhood program (less than 10 hours)</CodeValue>
-		<ShortDescription>Other location regular early childhood program (less than 10 hours)</ShortDescription>
-		<Description>Other location regular early childhood program (less than 10 hours)</Description>
+		<CodeValue>Other location early childhood program (< 10 hours)</CodeValue>
+		<ShortDescription>Other location early childhood program (< 10 hours)</ShortDescription>
+		<Description>Other location early childhood program (< 10 hours)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
@@ -104,8 +104,8 @@
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
 		<CodeValue>Inside reg class between 40-79% of the day</CodeValue>
-		<ShortDescription>DEPRECATED: Inside reg class between 40-79% of the day</ShortDescription>
-		<Description>DEPRECATED: Inside regular class no more than 79% of day and no less than 40% of the day</Description>
+		<ShortDescription>DEPRECATED: Inside reg class 40-79% of the day</ShortDescription>
+		<Description>DEPRECATED: Inside reg class 40-79% of the day</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
