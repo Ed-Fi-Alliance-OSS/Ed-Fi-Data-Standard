@@ -75,13 +75,13 @@
 	<SpecialEducationSettingDescriptor>
 		<CodeValue>Regular early childhood program (10+ hrs)</CodeValue>
 		<ShortDescription>Regular early childhood program (10+ hrs)</ShortDescription>
-		<Description>Regular early childhood program (10+ hrs)</Description>
+		<Description>Services in regular early childhood program (at least 10 hours)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
 		<CodeValue>Regular early childhood program (less than 10 hrs)</CodeValue>
 		<ShortDescription>Regular early childhood program (less than 10 hrs)</ShortDescription>
-		<Description>Regular early childhood program (less than 10 hrs)</Description>
+		<Description>Services in regular early childhood program (less than 10 hours)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
@@ -124,6 +124,18 @@
 		<CodeValue>Service Provider Location</CodeValue>
 		<ShortDescription>DEPRECATED: Service Provider Location</ShortDescription>
 		<Description>DEPRECATED: Service Provider Location</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+		<SpecialEducationSettingDescriptor>
+		<CodeValue>Regular early childhood program (10+ hrs)</CodeValue>
+		<ShortDescription>Regular early childhood program (10+ hrs)</ShortDescription>
+		<Description>Regular early childhood program (10+ hrs)</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
+	</SpecialEducationSettingDescriptor>
+	<SpecialEducationSettingDescriptor>
+		<CodeValue>Regular early childhood program (less than 10 hrs)</CodeValue>
+		<ShortDescription>Regular early childhood program (less than 10 hrs)</ShortDescription>
+		<Description>Regular early childhood program (less than 10 hrs)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 </InterchangeDescriptors>
