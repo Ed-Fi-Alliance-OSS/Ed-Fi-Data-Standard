@@ -1,69 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/3.3.1-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.1-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
-	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Dual Language</CodeValue>
-		<ShortDescription>Dual Language</ShortDescription>
-		<Description>Dual Language</Description>
+		<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Content Classes with integrated ESL support</CodeValue>
+		<ShortDescription>Content Classes with integrated ESL support</ShortDescription>
+		<Description>Content Classes with integrated ESL support</Description>
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
 	</LanguageInstructionProgramServiceDescriptor>
 	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Two-Way Immersion</CodeValue>
-		<ShortDescription>Two-Way Immersion</ShortDescription>
-		<Description>Two-Way Immersion</Description>
+		<CodeValue>Dual Language or Two-way Immersion</CodeValue>
+		<ShortDescription>Dual Language or Two-way Immersion</ShortDescription>
+		<Description>Dual Language or Two-way Immersion</Description>
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
 	</LanguageInstructionProgramServiceDescriptor>
 	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Transitional Bilingual</CodeValue>
-		<ShortDescription>Transitional Bilingual</ShortDescription>
-		<Description>Transitional Bilingual</Description>
+		<CodeValue>ESL or ELD</CodeValue>
+		<ShortDescription>ESL or ELD</ShortDescription>
+		<Description>ESL or ELD</Description>
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
 	</LanguageInstructionProgramServiceDescriptor>
 	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Developmental Bilingual</CodeValue>
-		<ShortDescription>Developmental Bilingual</ShortDescription>
-		<Description>Developmental Bilingual</Description>
+		<CodeValue>Missing</CodeValue>
+		<ShortDescription>Missing</ShortDescription>
+		<Description>Missing</Description>
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
 	</LanguageInstructionProgramServiceDescriptor>
 	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Heritage Language</CodeValue>
-		<ShortDescription>Heritage Language</ShortDescription>
-		<Description>Heritage Language</Description>
-		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
-	</LanguageInstructionProgramServiceDescriptor>
-	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Sheltered English Instruction</CodeValue>
-		<ShortDescription>Sheltered English Instruction</ShortDescription>
-		<Description>Sheltered English Instruction</Description>
-		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
-	</LanguageInstructionProgramServiceDescriptor>
-	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Structured English Immersion</CodeValue>
-		<ShortDescription>Structured English Immersion</ShortDescription>
-		<Description>Structured English Immersion</Description>
-		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
-	</LanguageInstructionProgramServiceDescriptor>
-	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>SDAIE</CodeValue>
-		<ShortDescription>SDAIE - Specially Designed Academic Instruction Delivered In English</ShortDescription>
-		<Description>SDAIE - Specially Designed Academic Instruction Delivered In English</Description>
-		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
-	</LanguageInstructionProgramServiceDescriptor>
-	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Content-Based ESL</CodeValue>
-		<ShortDescription>Content-Based ESL</ShortDescription>
-		<Description>Content-Based ESL</Description>
-		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
-	</LanguageInstructionProgramServiceDescriptor>
-	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Pull-Out ESL</CodeValue>
-		<ShortDescription>Pull-Out ESL</ShortDescription>
-		<Description>Pull-Out ESL</Description>
+		<CodeValue>Newcomer programs</CodeValue>
+		<ShortDescription>Newcomer programs</ShortDescription>
+		<Description>Newcomer programs</Description>
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
 	</LanguageInstructionProgramServiceDescriptor>
 	<LanguageInstructionProgramServiceDescriptor>
 		<CodeValue>Other</CodeValue>
 		<ShortDescription>Other</ShortDescription>
 		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Transitional Bilingual Education or Early-Exit Bilingual Education</CodeValue>
+		<ShortDescription>Transitional Bilingual Education or Early-Exit Bilingual Education</ShortDescription>
+		<Description>Transitional Bilingual Education or Early-Exit Bilingual Education</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Dual Language</CodeValue>
+		<ShortDescription>DEPRECATED: Dual Language</ShortDescription>
+		<Description>DEPRECATED: Dual Language</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Two-Way Immersion</CodeValue>
+		<ShortDescription>DEPRECATED: Two-Way Immersion</ShortDescription>
+		<Description>DEPRECATED: Two-Way Immersion</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Transitional Bilingual</CodeValue>
+		<ShortDescription>DEPRECATED: Transitional Bilingual</ShortDescription>
+		<Description>DEPRECATED: Transitional Bilingual</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Developmental Bilingual</CodeValue>
+		<ShortDescription>DEPRECATED: Developmental Bilingual</ShortDescription>
+		<Description>DEPRECATED: Developmental Bilingual</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Heritage Language</CodeValue>
+		<ShortDescription>DEPRECATED: Heritage Language</ShortDescription>
+		<Description>DEPRECATED: Heritage Language</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Sheltered English Instruction</CodeValue>
+		<ShortDescription>DEPRECATED: Sheltered English Instruction</ShortDescription>
+		<Description>DEPRECATED: Sheltered English Instruction</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Structured English Immersion</CodeValue>
+		<ShortDescription>DEPRECATED: Structured English Immersion</ShortDescription>
+		<Description>DEPRECATED: Structured English Immersion</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>SDAIE</CodeValue>
+		<ShortDescription>DEPRECATED: SDAIE - Specially Designed Academic Instruction Delivered In English</ShortDescription>
+		<Description>DEPRECATED: SDAIE - Specially Designed Academic Instruction Delivered In English</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Content-Based ESL</CodeValue>
+		<ShortDescription>DEPRECATED: Content-Based ESL</ShortDescription>
+		<Description>DEPRECATED: Content-Based ESL</Description>
+		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
+	</LanguageInstructionProgramServiceDescriptor>
+	<LanguageInstructionProgramServiceDescriptor>
+		<CodeValue>Pull-Out ESL</CodeValue>
+		<ShortDescription>DEPRECATED: Pull-Out ESL</ShortDescription>
+		<Description>DEPRECATED: Pull-Out ESL</Description>
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
 	</LanguageInstructionProgramServiceDescriptor>
 </InterchangeDescriptors>
