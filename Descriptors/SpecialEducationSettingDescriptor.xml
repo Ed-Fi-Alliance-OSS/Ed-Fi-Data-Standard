@@ -37,15 +37,15 @@
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Other location regular early childhood program (at least 10 hours)</CodeValue>
-		<ShortDescription>Other location regular early childhood program (at least 10 hours)</ShortDescription>
-		<Description>Other location regular early childhood program (at least 10 hours)</Description>
+		<CodeValue>Other location early childhood program (10+ hrs)</CodeValue>
+		<ShortDescription>Other location early childhood program (10+ hrs)</ShortDescription>
+		<Description>Other location early childhood program (10+ hrs)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Other location regular early childhood program (less than 10 hours)</CodeValue>
-		<ShortDescription>Other location regular early childhood program (less than 10 hours)</ShortDescription>
-		<Description>Other location regular early childhood program (less than 10 hours)</Description>
+		<CodeValue>Other location early childhood program (< 10 hours)</CodeValue>
+		<ShortDescription>Other location early childhood program (< 10 hours)</ShortDescription>
+		<Description>Other location early childhood program (< 10 hours)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
@@ -73,14 +73,14 @@
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Services in regular early childhood program (at least 10 hours)</CodeValue>
-		<ShortDescription>Services in regular early childhood program (at least 10 hours)</ShortDescription>
+		<CodeValue>Regular early childhood program (10+ hrs)</CodeValue>
+		<ShortDescription>Regular early childhood program (10+ hrs)</ShortDescription>
 		<Description>Services in regular early childhood program (at least 10 hours)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Services in regular early childhood program (less than 10 hours)</CodeValue>
-		<ShortDescription>Services in regular early childhood program (less than 10 hours)</ShortDescription>
+		<CodeValue>Regular early childhood program (less than 10 hrs)</CodeValue>
+		<ShortDescription>Regular early childhood program (less than 10 hrs)</ShortDescription>
 		<Description>Services in regular early childhood program (less than 10 hours)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
@@ -91,39 +91,39 @@
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>(Deprecated)Correctional Facilities</CodeValue>
-		<ShortDescription>Correctional Facilities</ShortDescription>
-		<Description>Correctional Facilities</Description>
+		<CodeValue>Correctional Facilities</CodeValue>
+		<ShortDescription>DEPRECATED: Correctional Facilities</ShortDescription>
+		<Description>DEPRECATED: Correctional Facilities</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>(Deprecated)Parentally-placed in Private Schools</CodeValue>
-		<ShortDescription>Parentally-placed in Private Schools</ShortDescription>
-		<Description>Parentally-placed in Private Schools</Description>
+		<CodeValue>Parentally-placed in Private Schools</CodeValue>
+		<ShortDescription>DEPRECATED: Parentally-placed in Private Schools</ShortDescription>
+		<Description>DEPRECATED: Parentally-placed in Private Schools</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>(Deprecated)Inside reg class between 40-79% of the day</CodeValue>
-		<ShortDescription>Inside reg class between 40-79% of the day</ShortDescription>
-		<Description>Inside regular class no more than 79% of day and no less than 40% of the day</Description>
+		<CodeValue>Inside reg class between 40-79% of the day</CodeValue>
+		<ShortDescription>DEPRECATED: Inside reg class 40-79% of the day</ShortDescription>
+		<Description>DEPRECATED: Inside reg class 40-79% of the day</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>(Deprecated)Residential Facility</CodeValue>
-		<ShortDescription>Residential Facility</ShortDescription>
-		<Description>Residential Facility</Description>
+		<CodeValue>Residential Facility</CodeValue>
+		<ShortDescription>DEPRECATED: Residential Facility</ShortDescription>
+		<Description>DEPRECATED: Residential Facility</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>(Deprecated)Separate School</CodeValue>
-		<ShortDescription>Separate School</ShortDescription>
-		<Description>Separate School</Description>
+		<CodeValue>Separate School</CodeValue>
+		<ShortDescription>DEPRECATED: Separate School</ShortDescription>
+		<Description>DEPRECATED: Separate School</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>(Deprecated)Service Provider Location</CodeValue>
-		<ShortDescription>Service Provider Location</ShortDescription>
-		<Description>Service Provider Location</Description>
+		<CodeValue>Service Provider Location</CodeValue>
+		<ShortDescription>DEPRECATED: Service Provider Location</ShortDescription>
+		<Description>DEPRECATED: Service Provider Location</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 </InterchangeDescriptors>
