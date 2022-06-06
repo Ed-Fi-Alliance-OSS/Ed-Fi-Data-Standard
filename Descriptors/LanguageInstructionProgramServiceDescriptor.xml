@@ -37,7 +37,7 @@
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
 	</LanguageInstructionProgramServiceDescriptor>
 	<LanguageInstructionProgramServiceDescriptor>
-		<CodeValue>Tran Bilingual Edu or Early-Exit Bilingual Edu</CodeValue>
+		<CodeValue>Transitional Bilingual or Early-Exit Bilingual</CodeValue>
 		<ShortDescription>Transitional Bilingual Education or Early-Exit Bilingual Education</ShortDescription>
 		<Description>Transitional Bilingual Education or Early-Exit Bilingual Education</Description>
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
@@ -86,7 +86,7 @@
 	</LanguageInstructionProgramServiceDescriptor>
 	<LanguageInstructionProgramServiceDescriptor>
 		<CodeValue>SDAIE</CodeValue>
-		<ShortDescription>DEPRECATED: SDAIE-Spec Dsgn Acad Inst Dlvr In Eng.</ShortDescription>
+		<ShortDescription>DEPRECATED: Specially Designed Academic Instruction Delivered In English</ShortDescription>
 		<Description>DEPRECATED: SDAIE - Specially Designed Academic Instruction Delivered In English</Description>
 		<Namespace>uri://ed-fi.org/LanguageInstructionProgramServiceDescriptor</Namespace>
 	</LanguageInstructionProgramServiceDescriptor>
