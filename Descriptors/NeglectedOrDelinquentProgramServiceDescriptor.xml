@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/3.3.1-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.1-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>Adult correction</CodeValue>
-		<ShortDescription>Adult correction</ShortDescription>
-		<Description>Adult correction</Description>
+		<CodeValue>Adult Correction</CodeValue>
+		<ShortDescription>Adult Correction</ShortDescription>
+		<Description>Adult Correction</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
@@ -67,9 +67,9 @@
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>At-risk Indian Youth Programs</CodeValue>
-		<ShortDescription>DEPRECATED: At-risk Indian Youth Programs</ShortDescription>
-		<Description>DEPRECATED: At-risk Indian Youth Programs</Description>
+		<CodeValue>At-Risk Indian Youth Programs</CodeValue>
+		<ShortDescription>DEPRECATED: At-Risk Indian Youth Programs</ShortDescription>
+		<Description>DEPRECATED: At-Risk Indian Youth Programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
