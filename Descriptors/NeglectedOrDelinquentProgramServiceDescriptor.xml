@@ -7,15 +7,15 @@
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>Juvenile correction</CodeValue>
-		<ShortDescription>Juvenile correction</ShortDescription>
-		<Description>Juvenile correction</Description>
+		<CodeValue>Juvenile Correction</CodeValue>
+		<ShortDescription>Juvenile Correction</ShortDescription>
+		<Description>Juvenile Correction</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>Juvenile detention</CodeValue>
-		<ShortDescription>Juvenile detention</ShortDescription>
-		<Description>Juvenile detention</Description>
+		<CodeValue>Juvenile Detention</CodeValue>
+		<ShortDescription>Juvenile Detention</ShortDescription>
+		<Description>Juvenile Detention</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
@@ -25,15 +25,15 @@
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>Neglected programs</CodeValue>
-		<ShortDescription>Neglected programs</ShortDescription>
-		<Description>Neglected programs</Description>
+		<CodeValue>Neglected Programs</CodeValue>
+		<ShortDescription>Neglected Programs</ShortDescription>
+		<Description>Neglected Programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>Other programs</CodeValue>
-		<ShortDescription>Other programs</ShortDescription>
-		<Description>Other programs</Description>
+		<CodeValue>Other Programs</CodeValue>
+		<ShortDescription>Other Programs</ShortDescription>
+		<Description>Other Programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
