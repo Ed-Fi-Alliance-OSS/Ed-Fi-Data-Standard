@@ -109,7 +109,7 @@
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>Instructional Coordinator and Supervisor to the Staff</CodeValue>
+		<CodeValue>Inst Coordinator and Supervisor to the Staff</CodeValue>
 		<ShortDescription>Instructional Coordinator and Supervisor to the Staff</ShortDescription>
 		<Description>Instructional Coordinator and Supervisor to the Staff</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
