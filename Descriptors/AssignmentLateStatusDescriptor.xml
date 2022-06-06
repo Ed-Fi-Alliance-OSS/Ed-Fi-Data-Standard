@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/4.0.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0-a ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<AssignmentLateStatusDescriptor>
+		<CodeValue>Late</CodeValue>
+		<ShortDescription>Late</ShortDescription>
+		<Description>The assignment was submitted by the student after the due date/time and marked as late and the score may or may not be affected.</Description>
+		<Namespace>uri://ed-fi.org/AssignmentLateStatusDescriptor</Namespace>
+	</AssignmentLateStatusDescriptor>
+	<AssignmentLateStatusDescriptor>
+		<CodeValue>Not Late</CodeValue>
+		<ShortDescription>Not Late</ShortDescription>
+		<Description>The assignment was not submitted after the due date and/or is not marked as late.</Description>
+		<Namespace>uri://ed-fi.org/AssignmentLateStatusDescriptor</Namespace>
+	</AssignmentLateStatusDescriptor>
+</InterchangeDescriptors>
