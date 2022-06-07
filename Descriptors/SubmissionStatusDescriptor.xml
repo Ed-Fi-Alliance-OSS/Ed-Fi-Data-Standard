@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/4.0.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0-a ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<SubmissionStatusDescriptor>
+		<CodeValue>Exempt</CodeValue>
+		<ShortDescription>Exempt</ShortDescription>
+		<Description>The student is exempted from the assignment and the assignment's score will not affect the student's grade calculations.</Description>
+		<Namespace>uri://ed-fi.org/SubmissionStatusDescriptor</Namespace>
+	</SubmissionStatusDescriptor>
+	<SubmissionStatusDescriptor>
+		<CodeValue>Graded</CodeValue>
+		<ShortDescription>Graded</ShortDescription>
+		<Description>Assignment has been graded by the teacher.</Description>
+		<Namespace>uri://ed-fi.org/SubmissionStatusDescriptor</Namespace>
+	</SubmissionStatusDescriptor>
+	<SubmissionStatusDescriptor>
+		<CodeValue>Not Submitted</CodeValue>
+		<ShortDescription>Not Submitted</ShortDescription>
+		<Description>The assignment has not been submitted by the student/received by the teacher.</Description>
+		<Namespace>uri://ed-fi.org/SubmissionStatusDescriptor</Namespace>
+	</SubmissionStatusDescriptor>
+	<SubmissionStatusDescriptor>
+		<CodeValue>Returned</CodeValue>
+		<ShortDescription>Returned</ShortDescription>
+		<Description>Assignment is returned by the teacher or reclaimed by the student for revision. Assignment needs to be submitted again after revisions have been made.</Description>
+		<Namespace>uri://ed-fi.org/SubmissionStatusDescriptor</Namespace>
+	</SubmissionStatusDescriptor>
+	<SubmissionStatusDescriptor>
+		<CodeValue>Submitted</CodeValue>
+		<ShortDescription>Submitted</ShortDescription>
+		<Description>The assignment has been submitted by the student but has not been graded.</Description>
+		<Namespace>uri://ed-fi.org/SubmissionStatusDescriptor</Namespace>
+	</SubmissionStatusDescriptor>
+</InterchangeDescriptors>

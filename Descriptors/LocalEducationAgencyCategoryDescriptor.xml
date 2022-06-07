@@ -1,15 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/3.3.1-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.1-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>Federal operated agency</CodeValue>
+		<ShortDescription>Federal operated agency</ShortDescription>
+		<Description>Federal operated agency</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>
+	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>Independent charter district</CodeValue>
+		<ShortDescription>Independent charter district</ShortDescription>
+		<Description>Independent charter district</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>	
+	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>Other local education agency</CodeValue>
+		<ShortDescription>Other local education agency</ShortDescription>
+		<Description>Other local education agency</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>	
+	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>Regular public school district that is a component of a supervisory union</CodeValue>
+		<ShortDescription>Regular public school district that is a component of a supervisory union</ShortDescription>
+		<Description>Regular public school district that is a component of a supervisory union</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>
+	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>Regular public school district that is not a component of a supervisory union</CodeValue>
+		<ShortDescription>Regular public school district that is not a component of a supervisory union</ShortDescription>
+		<Description>Regular public school district that is not a component of a supervisory union</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>
+	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>Service agency</CodeValue>
+		<ShortDescription>Service agency</ShortDescription>
+		<Description>Service agency</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>
+	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>Specialized public school district</CodeValue>
+		<ShortDescription>Specialized public school district</ShortDescription>
+		<Description>Specialized public school district</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>
+	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>State operated agency</CodeValue>
+		<ShortDescription>State operated agency</ShortDescription>
+		<Description>State operated agency</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>
+	<LocalEducationAgencyCategoryDescriptor>
+		<CodeValue>Supervisory union</CodeValue>
+		<ShortDescription>Supervisory union</ShortDescription>
+		<Description>Supervisory union</Description>
+		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
+	</LocalEducationAgencyCategoryDescriptor>
+	<LocalEducationAgencyCategoryDescriptor>
 		<CodeValue>Charter</CodeValue>
-		<ShortDescription>Charter</ShortDescription>
-		<Description>Charter</Description>
+		<ShortDescription>DEPRECATED: Charter</ShortDescription>
+		<Description>DEPRECATED: Charter</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
 		<CodeValue>Independent</CodeValue>
-		<ShortDescription>Independent</ShortDescription>
-		<Description>Independent</Description>
+		<ShortDescription>DEPRECATED: Independent</ShortDescription>
+		<Description>DEPRECATED: Independent</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 </InterchangeDescriptors>
