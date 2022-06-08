@@ -1,45 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/3.3.1-b" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/3.3.1-b ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<NeglectedOrDelinquentProgramServiceDescriptor>
+		<CodeValue>Adult Correction</CodeValue>
+		<ShortDescription>Adult Correction</ShortDescription>
+		<Description>Adult Correction</Description>
+		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
+	</NeglectedOrDelinquentProgramServiceDescriptor>
+	<NeglectedOrDelinquentProgramServiceDescriptor>
+		<CodeValue>Juvenile Correction</CodeValue>
+		<ShortDescription>Juvenile Correction</ShortDescription>
+		<Description>Juvenile Correction</Description>
+		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
+	</NeglectedOrDelinquentProgramServiceDescriptor>
+	<NeglectedOrDelinquentProgramServiceDescriptor>
+		<CodeValue>Juvenile Detention</CodeValue>
+		<ShortDescription>Juvenile Detention</ShortDescription>
+		<Description>Juvenile Detention</Description>
+		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
+	</NeglectedOrDelinquentProgramServiceDescriptor>
+	<NeglectedOrDelinquentProgramServiceDescriptor>
+		<CodeValue>Missing</CodeValue>
+		<ShortDescription>Missing</ShortDescription>
+		<Description>Missing</Description>
+		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
+	</NeglectedOrDelinquentProgramServiceDescriptor>
+	<NeglectedOrDelinquentProgramServiceDescriptor>
+		<CodeValue>Neglected Programs</CodeValue>
+		<ShortDescription>Neglected Programs</ShortDescription>
+		<Description>Neglected Programs</Description>
+		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
+	</NeglectedOrDelinquentProgramServiceDescriptor>
+	<NeglectedOrDelinquentProgramServiceDescriptor>
+		<CodeValue>Other Programs</CodeValue>
+		<ShortDescription>Other Programs</ShortDescription>
+		<Description>Other Programs</Description>
+		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
+	</NeglectedOrDelinquentProgramServiceDescriptor>
+	<NeglectedOrDelinquentProgramServiceDescriptor>
 		<CodeValue>Transition Programs</CodeValue>
-		<ShortDescription>Transition Programs</ShortDescription>
-		<Description>Transition Programs</Description>
+		<ShortDescription>DEPRECATED: Transition Programs</ShortDescription>
+		<Description>DEPRECATED: Transition Programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
 		<CodeValue>Dropout Prevention Programs</CodeValue>
-		<ShortDescription>Dropout Prevention Programs</ShortDescription>
-		<Description>Dropout Prevention Programs</Description>
+		<ShortDescription>DEPRECATED: Dropout Prevention Programs</ShortDescription>
+		<Description>DEPRECATED: Dropout Prevention Programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
 		<CodeValue>Health And Social Services</CodeValue>
-		<ShortDescription>Health And Social Services</ShortDescription>
-		<Description>Health And Social Services</Description>
+		<ShortDescription>DEPRECATED: Health And Social Services</ShortDescription>
+		<Description>DEPRECATED: Health And Social Services</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
 		<CodeValue>Special Programs</CodeValue>
-		<ShortDescription>Special Programs</ShortDescription>
-		<Description>Special Programs</Description>
+		<ShortDescription>DEPRECATED: Special Programs</ShortDescription>
+		<Description>DEPRECATED: Special Programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
 		<CodeValue>Mentoring Programs</CodeValue>
-		<ShortDescription>Mentoring Programs</ShortDescription>
-		<Description>Mentoring Programs</Description>
+		<ShortDescription>DEPRECATED: Mentoring Programs</ShortDescription>
+		<Description>DEPRECATED: Mentoring Programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
-		<CodeValue>At-risk Indian Youth Programs</CodeValue>
-		<ShortDescription>At-risk Indian Youth Programs</ShortDescription>
-		<Description>At-risk Indian Youth Programs</Description>
+		<CodeValue>At-Risk Indian Youth Programs</CodeValue>
+		<ShortDescription>DEPRECATED: At-Risk Indian Youth Programs</ShortDescription>
+		<Description>DEPRECATED: At-Risk Indian Youth Programs</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 	<NeglectedOrDelinquentProgramServiceDescriptor>
 		<CodeValue>Pay For Success Initiatives</CodeValue>
-		<ShortDescription>Pay For Success Initiatives</ShortDescription>
-		<Description>Pay For Success Initiatives</Description>
+		<ShortDescription>DEPRECATED: Pay For Success Initiatives</ShortDescription>
+		<Description>DEPRECATED: Pay For Success Initiatives</Description>
 		<Namespace>uri://ed-fi.org/NeglectedOrDelinquentProgramServiceDescriptor</Namespace>
 	</NeglectedOrDelinquentProgramServiceDescriptor>
 </InterchangeDescriptors>
