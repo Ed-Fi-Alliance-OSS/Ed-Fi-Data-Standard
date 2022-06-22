@@ -15,7 +15,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="AcademicHonorCategoryDescriptor" type="AcademicHonorCategoryDescriptor" />
         <xs:element name="AcademicSubjectDescriptor" type="AcademicSubjectDescriptor" />
         <xs:element name="AccommodationDescriptor" type="AccommodationDescriptor" />
-        <xs:element name="AccountClassificationDescriptor" type="AccountClassificationDescriptor" />
+        <xs:element name="AccountTypeDescriptor" type="AccountTypeDescriptor" />
         <xs:element name="AchievementCategoryDescriptor" type="AchievementCategoryDescriptor" />
         <xs:element name="AdditionalCreditTypeDescriptor" type="AdditionalCreditTypeDescriptor" />
         <xs:element name="AddressTypeDescriptor" type="AddressTypeDescriptor" />
@@ -81,6 +81,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="EntryTypeDescriptor" type="EntryTypeDescriptor" />
         <xs:element name="EventCircumstanceDescriptor" type="EventCircumstanceDescriptor" />
         <xs:element name="ExitWithdrawTypeDescriptor" type="ExitWithdrawTypeDescriptor" />
+        <xs:element name="FinancialCollectionDescriptor" type="FinancialCollectionDescriptor" />
         <xs:element name="GradebookEntryTypeDescriptor" type="GradebookEntryTypeDescriptor" />
         <xs:element name="GradeLevelDescriptor" type="GradeLevelDescriptor" />
         <xs:element name="GradePointAverageTypeDescriptor" type="GradePointAverageTypeDescriptor" />
@@ -157,6 +158,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="RelationDescriptor" type="RelationDescriptor" />
         <xs:element name="RepeatIdentifierDescriptor" type="RepeatIdentifierDescriptor" />
         <xs:element name="ReporterDescriptionDescriptor" type="ReporterDescriptionDescriptor" />
+        <xs:element name="ReportingTagDescriptor" type="ReportingTagDescriptor" />
         <xs:element name="ResidencyStatusDescriptor" type="ResidencyStatusDescriptor" />
         <xs:element name="ResponseIndicatorDescriptor" type="ResponseIndicatorDescriptor" />
         <xs:element name="ResponsibilityDescriptor" type="ResponsibilityDescriptor" />

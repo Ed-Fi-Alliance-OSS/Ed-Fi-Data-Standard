@@ -10,12 +10,11 @@
     </xs:annotation>
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
-        <xs:element name="Account" type="Account" />
-        <xs:element name="AccountCode" type="AccountCode" />
-        <xs:element name="Actual" type="Actual" />
-        <xs:element name="Budget" type="Budget" />
-        <xs:element name="ContractedStaff" type="ContractedStaff" />
-        <xs:element name="Payroll" type="Payroll" />
+        <xs:element name="LocalAccount" type="LocalAccount" />
+        <xs:element name="LocalActual" type="LocalActual" />
+        <xs:element name="LocalBudget" type="LocalBudget" />
+        <xs:element name="LocalContractedStaff" type="LocalContractedStaff" />
+        <xs:element name="LocalPayroll" type="LocalPayroll" />
       </xs:choice>
     </xs:complexType>
   </xs:element>
