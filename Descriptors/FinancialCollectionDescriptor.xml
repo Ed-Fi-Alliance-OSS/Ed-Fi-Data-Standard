@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/4.0.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0-a ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<FinancialCollectionDescriptor>
+		<CodeValue>0 to 30 days</CodeValue>
+		<ShortDescription>0 to 30 days</ShortDescription>
+		<Description>0 to 30 days</Description>
+		<Namespace>uri://ed-fi.org/FinancialCollectionDescriptor</Namespace>
+	</FinancialCollectionDescriptor>
+	<FinancialCollectionDescriptor>
+		<CodeValue>31 to 45 days</CodeValue>
+		<ShortDescription>31 to 45 days</ShortDescription>
+		<Description>31 to 45 days</Description>
+		<Namespace>uri://ed-fi.org/FinancialCollectionDescriptor</Namespace>
+	</FinancialCollectionDescriptor>
+	<FinancialCollectionDescriptor>
+		<CodeValue>46 to 60 days</CodeValue>
+		<ShortDescription>46 to 60 days</ShortDescription>
+		<Description>46 to 60 days</Description>
+		<Namespace>uri://ed-fi.org/FinancialCollectionDescriptor</Namespace>
+	</FinancialCollectionDescriptor>
+	<FinancialCollectionDescriptor>
+		<CodeValue>61 to 75 days</CodeValue>
+		<ShortDescription>61 to 75 days</ShortDescription>
+		<Description>61 to 75 days</Description>
+		<Namespace>uri://ed-fi.org/FinancialCollectionDescriptor</Namespace>
+	</FinancialCollectionDescriptor>
+	<FinancialCollectionDescriptor>
+		<CodeValue>76 to 90 days</CodeValue>
+		<ShortDescription>76 to 90 days</ShortDescription>
+		<Description>76 to 90 days</Description>
+		<Namespace>uri://ed-fi.org/FinancialCollectionDescriptor</Namespace>
+	</FinancialCollectionDescriptor>
+</InterchangeDescriptors>
