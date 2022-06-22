@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/4.0.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0-a ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<AccountTypeDescriptor>
+		<CodeValue>Balance sheet</CodeValue>
+		<ShortDescription>Balance sheet</ShortDescription>
+		<Description>Balance sheet</Description>
+		<Namespace>uri://ed-fi.org/AccountTypeDescriptor</Namespace>
+	</AccountTypeDescriptor>
+	<AccountTypeDescriptor>
+		<CodeValue>Expenditure</CodeValue>
+		<ShortDescription>Expenditure</ShortDescription>
+		<Description>Expenditure</Description>
+		<Namespace>uri://ed-fi.org/AccountTypeDescriptor</Namespace>
+	</AccountTypeDescriptor>
+	<AccountTypeDescriptor>
+		<CodeValue>Revenue</CodeValue>
+		<ShortDescription>Revenue</ShortDescription>
+		<Description>Revenue</Description>
+		<Namespace>uri://ed-fi.org/AccountTypeDescriptor</Namespace>
+	</AccountTypeDescriptor>
+</InterchangeDescriptors>
