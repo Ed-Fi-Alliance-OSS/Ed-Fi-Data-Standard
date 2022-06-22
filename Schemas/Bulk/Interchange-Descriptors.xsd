@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/3.3.1-b" targetNamespace="http://ed-fi.org/3.3.1-b" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/4.0.0-a" targetNamespace="http://ed-fi.org/4.0.0-a" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:include schemaLocation="Ed-Fi-Core.xsd" />
   <xs:annotation>
     <xs:documentation>===== Descriptors Interchange Model =====</xs:documentation>
@@ -28,6 +28,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="AssessmentItemResultDescriptor" type="AssessmentItemResultDescriptor" />
         <xs:element name="AssessmentPeriodDescriptor" type="AssessmentPeriodDescriptor" />
         <xs:element name="AssessmentReportingMethodDescriptor" type="AssessmentReportingMethodDescriptor" />
+        <xs:element name="AssignmentLateStatusDescriptor" type="AssignmentLateStatusDescriptor" />
         <xs:element name="AttemptStatusDescriptor" type="AttemptStatusDescriptor" />
         <xs:element name="AttendanceEventCategoryDescriptor" type="AttendanceEventCategoryDescriptor" />
         <xs:element name="BarrierToInternetAccessInResidenceDescriptor" type="BarrierToInternetAccessInResidenceDescriptor" />
@@ -181,6 +182,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="StudentCharacteristicDescriptor" type="StudentCharacteristicDescriptor" />
         <xs:element name="StudentIdentificationSystemDescriptor" type="StudentIdentificationSystemDescriptor" />
         <xs:element name="StudentParticipationCodeDescriptor" type="StudentParticipationCodeDescriptor" />
+        <xs:element name="SubmissionStatusDescriptor" type="SubmissionStatusDescriptor" />
         <xs:element name="SurveyCategoryDescriptor" type="SurveyCategoryDescriptor" />
         <xs:element name="SurveyLevelDescriptor" type="SurveyLevelDescriptor" />
         <xs:element name="TeachingCredentialDescriptor" type="TeachingCredentialDescriptor" />
