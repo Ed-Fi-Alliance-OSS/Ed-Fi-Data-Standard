@@ -19,14 +19,14 @@
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>	
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>Regular public school district that is a component of a supervisory union</CodeValue>
-		<ShortDescription>Regular public school district that is a component of a supervisory union</ShortDescription>
+		<CodeValue>Public school district is part of a supervisory union</CodeValue>
+		<ShortDescription>Public school district is part of a supervisory union</ShortDescription>
 		<Description>Regular public school district that is a component of a supervisory union</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
 	<LocalEducationAgencyCategoryDescriptor>
-		<CodeValue>Public school district part of a supervisory union</CodeValue>
-		<ShortDescription>Public school district part of a supervisory union</ShortDescription>
+		<CodeValue>Public school district not part of a supervisory union</CodeValue>
+		<ShortDescription>Public school district not part of a supervisory union</ShortDescription>
 		<Description>Regular public school district that is not a component of a supervisory union</Description>
 		<Namespace>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor</Namespace>
 	</LocalEducationAgencyCategoryDescriptor>
