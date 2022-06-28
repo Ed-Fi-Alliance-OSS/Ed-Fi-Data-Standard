@@ -37,15 +37,15 @@
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Other location early childhood program (10+ hrs)</CodeValue>
-		<ShortDescription>Other location early childhood program (10+ hrs)</ShortDescription>
-		<Description>Other location early childhood program (10+ hrs)</Description>
+		<CodeValue>Other early childhood location (10+ hrs)</CodeValue>
+		<ShortDescription>Other early childhood location (10+ hrs)</ShortDescription>
+		<Description>Other early childhood location (10+ hrs)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Other location early childhood program (< 10 hours)</CodeValue>
-		<ShortDescription>Other location early childhood program (< 10 hours)</ShortDescription>
-		<Description>Other location early childhood program (< 10 hours)</Description>
+		<CodeValue>Other early childhood location (&lt; 10 hours)</CodeValue>
+		<ShortDescription>Other early childhood location (&lt; 10 hours)</ShortDescription>
+		<Description>Other early childhood location (&lt; 10 hours)</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
