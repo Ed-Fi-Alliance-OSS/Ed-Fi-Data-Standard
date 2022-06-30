@@ -13,6 +13,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Advanced</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -634,6 +635,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -1255,6 +1257,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -1876,6 +1879,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -2497,6 +2501,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -3118,6 +3123,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -3739,6 +3745,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -4360,6 +4367,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -4981,6 +4989,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -5602,6 +5611,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -6223,6 +6233,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Advanced</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -6844,6 +6855,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -7465,6 +7477,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -8086,6 +8099,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -8707,6 +8721,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -9328,6 +9343,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -9949,6 +9965,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -10570,6 +10587,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -11191,6 +11209,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Advanced</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -11812,6 +11831,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -12433,6 +12453,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -13054,6 +13075,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -13675,6 +13697,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -14296,6 +14319,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -14917,6 +14941,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -15538,6 +15563,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -16159,6 +16185,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -16780,6 +16807,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -17401,6 +17429,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Advanced</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -18022,6 +18051,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Advanced</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -18643,6 +18673,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -19264,6 +19295,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -19885,6 +19917,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -20506,6 +20539,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -21127,6 +21161,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -21748,6 +21783,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -22369,6 +22405,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -22990,6 +23027,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -23611,6 +23649,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -24232,6 +24271,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -24853,6 +24893,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -25474,6 +25515,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -26095,6 +26137,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -26716,6 +26759,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -27337,6 +27381,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -27958,6 +28003,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -28579,6 +28625,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -29200,6 +29247,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -29821,6 +29869,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -30442,6 +30491,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -31063,6 +31113,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -31684,6 +31735,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -32305,6 +32357,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -32926,6 +32979,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -33547,6 +33601,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Advanced</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -34168,6 +34223,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -34789,6 +34845,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -35410,6 +35467,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -36031,6 +36089,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -36652,6 +36711,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Advanced</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -37273,6 +37333,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -37894,6 +37955,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -38515,6 +38577,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -39136,6 +39199,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -39757,6 +39821,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -40378,6 +40443,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -40999,6 +41065,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -41620,6 +41687,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -42241,6 +42309,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Advanced</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -42862,6 +42931,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -43483,6 +43553,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -44104,6 +44175,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -44725,6 +44797,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -45346,6 +45419,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -45967,6 +46041,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -46588,6 +46663,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -47209,6 +47285,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -47830,6 +47907,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -48451,6 +48529,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -49072,6 +49151,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -49693,6 +49773,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Advanced</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
@@ -50314,6 +50395,7 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Well Below Basic</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
 		</PerformanceLevel>
