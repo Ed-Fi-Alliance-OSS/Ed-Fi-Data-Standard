@@ -78,10 +78,4 @@
 		<Description>DEPRECATED: Less Than High Speed</Description>
 		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
 	</InternetAccessDescriptor>
-	<InternetAccessDescriptor>
-		<CodeValue>None</CodeValue>
-		<ShortDescription>DEPRECATED: None</ShortDescription>
-		<Description>DEPRECATED: None</Description>
-		<Namespace>uri://ed-fi.org/InternetAccessDescriptor</Namespace>
-	</InternetAccessDescriptor>
 </InterchangeDescriptors>
