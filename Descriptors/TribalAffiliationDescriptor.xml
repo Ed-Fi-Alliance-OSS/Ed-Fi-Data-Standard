@@ -3703,12 +3703,6 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Tolowa Dee-Ni'</CodeValue>
-		<ShortDescription>DEPRECATED: Tolowa Dee-Ni'</ShortDescription>
-		<Description>DEPRECATED: Tolowa Dee-Ni' Nation</Description>
-		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
-	</TribalAffiliationDescriptor>
-	<TribalAffiliationDescriptor>
 		<CodeValue>United Keetoowah</CodeValue>
 		<ShortDescription>DEPRECATED: United Keetoowah</ShortDescription>
 		<Description>DEPRECATED: United Keetoowah Band of Cherokee Indians in Oklahoma</Description>
