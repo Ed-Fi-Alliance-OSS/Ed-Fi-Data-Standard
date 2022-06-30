@@ -39,7 +39,7 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Decimal</ResultDatatypeType>
 		</AssessmentPerformanceLevel>
 		<AssessmentPerformanceLevel>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
+			<PerformanceLevelMet>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevelMet>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 			<MinimumScore>19</MinimumScore>
 			<MaximumScore>22</MaximumScore>
