@@ -91,39 +91,9 @@
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Correctional Facilities</CodeValue>
-		<ShortDescription>DEPRECATED: Correctional Facilities</ShortDescription>
-		<Description>DEPRECATED: Correctional Facilities</Description>
-		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
-	</SpecialEducationSettingDescriptor>
-	<SpecialEducationSettingDescriptor>
-		<CodeValue>Parentally-placed in Private Schools</CodeValue>
-		<ShortDescription>DEPRECATED: Parentally-placed in Private Schools</ShortDescription>
-		<Description>DEPRECATED: Parentally-placed in Private Schools</Description>
-		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
-	</SpecialEducationSettingDescriptor>
-	<SpecialEducationSettingDescriptor>
 		<CodeValue>Inside reg class between 40-79% of the day</CodeValue>
 		<ShortDescription>DEPRECATED: Inside reg class 40-79% of the day</ShortDescription>
 		<Description>DEPRECATED: Inside reg class 40-79% of the day</Description>
-		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
-	</SpecialEducationSettingDescriptor>
-	<SpecialEducationSettingDescriptor>
-		<CodeValue>Residential Facility</CodeValue>
-		<ShortDescription>DEPRECATED: Residential Facility</ShortDescription>
-		<Description>DEPRECATED: Residential Facility</Description>
-		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
-	</SpecialEducationSettingDescriptor>
-	<SpecialEducationSettingDescriptor>
-		<CodeValue>Separate School</CodeValue>
-		<ShortDescription>DEPRECATED: Separate School</ShortDescription>
-		<Description>DEPRECATED: Separate School</Description>
-		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
-	</SpecialEducationSettingDescriptor>
-	<SpecialEducationSettingDescriptor>
-		<CodeValue>Service Provider Location</CodeValue>
-		<ShortDescription>DEPRECATED: Service Provider Location</ShortDescription>
-		<Description>DEPRECATED: Service Provider Location</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 </InterchangeDescriptors>
