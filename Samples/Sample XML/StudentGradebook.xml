@@ -3553,7 +3553,7 @@
 			</StudentIdentity>
 		</StudentReference>
 		<NumericGradeEarned>81.00</NumericGradeEarned>
-		<SubmissionStatus>Grade</SubmissionStatus>
+		<SubmissionStatus>uri://ed-fi.org/SubmissionStatusDescriptor#Graded</SubmissionStatus>
 		<AssignmentLateStatus>uri://ed-fi.org/AssignmentLateStatusDescriptor#Not Late</AssignmentLateStatus>
 	</StudentGradebookEntry>
 	<StudentGradebookEntry>
