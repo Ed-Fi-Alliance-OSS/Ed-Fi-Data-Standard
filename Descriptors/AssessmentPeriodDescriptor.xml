@@ -7,12 +7,6 @@
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 	<AssessmentPeriodDescriptor>
-		<CodeValue>Middle of Year</CodeValue>
-		<ShortDescription>Middle of Year</ShortDescription>
-		<Description>Middle of Year</Description>
-		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
-	</AssessmentPeriodDescriptor>
-	<AssessmentPeriodDescriptor>
 		<CodeValue>End of Year</CodeValue>
 		<ShortDescription>End of Year</ShortDescription>
 		<Description>End of Year</Description>
@@ -24,6 +18,12 @@
 		<Description>Fall</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
+	<AssessmentPeriodDescriptor>
+		<CodeValue>Middle of Year</CodeValue>
+		<ShortDescription>Middle of Year</ShortDescription>
+		<Description>Middle of Year</Description>
+		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
+	</AssessmentPeriodDescriptor>
 	</AssessmentPeriodDescriptor>
 		<AssessmentPeriodDescriptor>
 		<CodeValue>Spring</CodeValue>
@@ -33,26 +33,26 @@
 	</AssessmentPeriodDescriptor>
 	</AssessmentPeriodDescriptor>
 		<AssessmentPeriodDescriptor>
-		<CodeValue>Winter</CodeValue>
-		<ShortDescription>Winter</ShortDescription>
-		<Description>Winter</Description>
+		<CodeValue>Summer</CodeValue>
+		<ShortDescription>Summer</ShortDescription>
+		<Description>Summer</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 	<AssessmentPeriodDescriptor>
 		<CodeValue>BOY</CodeValue>
 		<ShortDescription>DEEPRECATE: BOY</ShortDescription>
-		<Description>Beginning of Year</Description>
+		<Description>DEPRECATED: Beginning of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 	<AssessmentPeriodDescriptor>
 		<CodeValue>MOY</CodeValue>
-		<ShortDescription>MOY</ShortDescription>
+		<ShortDescription>DEPRECATED: MOY</ShortDescription>
 		<Description>DEEPRECATE: Middle of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 	<AssessmentPeriodDescriptor>
 		<CodeValue>EOY</CodeValue>
-		<ShortDescription>EOY</ShortDescription>
+		<ShortDescription>DEPRECATED: EOY</ShortDescription>
 		<Description>DEEPRECATE: End of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
