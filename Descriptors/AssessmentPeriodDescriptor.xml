@@ -1,21 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/4.0.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0-a ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<AssessmentPeriodDescriptor>
-		<CodeValue>BOY</CodeValue>
-		<ShortDescription>BOY</ShortDescription>
+		<CodeValue>Beginning of Year</CodeValue>
+		<ShortDescription>Beginning of Year</ShortDescription>
 		<Description>Beginning of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 	<AssessmentPeriodDescriptor>
-		<CodeValue>MOY</CodeValue>
-		<ShortDescription>MOY</ShortDescription>
+		<CodeValue>End of Year</CodeValue>
+		<ShortDescription>End of Year</ShortDescription>
+		<Description>End of Year</Description>
+		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
+	</AssessmentPeriodDescriptor>
+	<AssessmentPeriodDescriptor>
+		<CodeValue>Fall</CodeValue>
+		<ShortDescription>Fall</ShortDescription>
+		<Description>Fall</Description>
+		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
+	</AssessmentPeriodDescriptor>
+	<AssessmentPeriodDescriptor>
+		<CodeValue>Middle of Year</CodeValue>
+		<ShortDescription>Middle of Year</ShortDescription>
 		<Description>Middle of Year</Description>
+		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
+	</AssessmentPeriodDescriptor>
+	</AssessmentPeriodDescriptor>
+		<AssessmentPeriodDescriptor>
+		<CodeValue>Spring</CodeValue>
+		<ShortDescription>Spring</ShortDescription>
+		<Description>Spring</Description>
+		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
+	</AssessmentPeriodDescriptor>
+	</AssessmentPeriodDescriptor>
+		<AssessmentPeriodDescriptor>
+		<CodeValue>Summer</CodeValue>
+		<ShortDescription>Summer</ShortDescription>
+		<Description>Summer</Description>
+		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
+	</AssessmentPeriodDescriptor>
+	<AssessmentPeriodDescriptor>
+		<CodeValue>BOY</CodeValue>
+		<ShortDescription>DEPRECATED: BOY</ShortDescription>
+		<Description>DEPRECATED: Beginning of Year</Description>
+		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
+	</AssessmentPeriodDescriptor>
+	<AssessmentPeriodDescriptor>
+		<CodeValue>MOY</CodeValue>
+		<ShortDescription>DEPRECATED: MOY</ShortDescription>
+		<Description>DEPRECATED: Middle of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 	<AssessmentPeriodDescriptor>
 		<CodeValue>EOY</CodeValue>
-		<ShortDescription>EOY</ShortDescription>
-		<Description>End of Year</Description>
+		<ShortDescription>DEPRECATED: EOY</ShortDescription>
+		<Description>DEPRECATED: End of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 </InterchangeDescriptors>
