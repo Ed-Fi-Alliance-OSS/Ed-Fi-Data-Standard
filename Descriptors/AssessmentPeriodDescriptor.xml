@@ -40,20 +40,20 @@
 	</AssessmentPeriodDescriptor>
 	<AssessmentPeriodDescriptor>
 		<CodeValue>BOY</CodeValue>
-		<ShortDescription>DEEPRECATE: BOY</ShortDescription>
+		<ShortDescription>DEPRECATED: BOY</ShortDescription>
 		<Description>DEPRECATED: Beginning of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 	<AssessmentPeriodDescriptor>
 		<CodeValue>MOY</CodeValue>
 		<ShortDescription>DEPRECATED: MOY</ShortDescription>
-		<Description>DEEPRECATE: Middle of Year</Description>
+		<Description>DEPRECATED: Middle of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 	<AssessmentPeriodDescriptor>
 		<CodeValue>EOY</CodeValue>
 		<ShortDescription>DEPRECATED: EOY</ShortDescription>
-		<Description>DEEPRECATE: End of Year</Description>
+		<Description>DEPRECATED: End of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
 </InterchangeDescriptors>
