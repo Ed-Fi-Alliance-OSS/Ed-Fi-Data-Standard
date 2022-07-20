@@ -24,15 +24,13 @@
 		<Description>Middle of Year</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
-	</AssessmentPeriodDescriptor>
-		<AssessmentPeriodDescriptor>
+	<AssessmentPeriodDescriptor>
 		<CodeValue>Spring</CodeValue>
 		<ShortDescription>Spring</ShortDescription>
 		<Description>Spring</Description>
 		<Namespace>uri://ed-fi.org/AssessmentPeriodDescriptor</Namespace>
 	</AssessmentPeriodDescriptor>
-	</AssessmentPeriodDescriptor>
-		<AssessmentPeriodDescriptor>
+	<AssessmentPeriodDescriptor>
 		<CodeValue>Summer</CodeValue>
 		<ShortDescription>Summer</ShortDescription>
 		<Description>Summer</Description>
