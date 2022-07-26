@@ -2,7 +2,7 @@
 <InterchangeStudentGradebook xmlns="http://ed-fi.org/4.0.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0-a ../../Schemas/Bulk/Interchange-StudentGradebook.xsd">
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -36,7 +36,7 @@
 	</GradebookEntry>
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -70,7 +70,7 @@
 	</GradebookEntry>
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -104,7 +104,7 @@
 	</GradebookEntry>
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -137,7 +137,7 @@
 	</GradebookEntry>
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -171,7 +171,7 @@
 	</GradebookEntry>
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -205,7 +205,7 @@
 	</GradebookEntry>
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -239,7 +239,7 @@
 	</GradebookEntry>
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -272,7 +272,7 @@
 	</GradebookEntry>
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -306,7 +306,7 @@
 	</GradebookEntry>
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-		<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
@@ -342,7 +342,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -358,7 +358,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -374,7 +374,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -390,7 +390,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -406,7 +406,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -422,7 +422,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -438,7 +438,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -454,7 +454,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -470,7 +470,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -486,7 +486,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -502,7 +502,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -518,7 +518,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -534,7 +534,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -550,7 +550,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -566,7 +566,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -582,7 +582,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -598,7 +598,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -614,7 +614,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -630,7 +630,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -646,7 +646,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -662,7 +662,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -678,7 +678,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -694,7 +694,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -710,7 +710,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -726,7 +726,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -742,7 +742,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -758,7 +758,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -774,7 +774,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -790,7 +790,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -806,7 +806,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -822,7 +822,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -838,7 +838,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -854,7 +854,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -870,7 +870,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -886,7 +886,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -902,7 +902,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -918,7 +918,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -934,7 +934,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -950,7 +950,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -966,7 +966,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -982,7 +982,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -998,7 +998,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1014,7 +1014,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1030,7 +1030,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1046,7 +1046,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1062,7 +1062,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1078,7 +1078,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1094,7 +1094,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1110,7 +1110,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1126,7 +1126,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1142,7 +1142,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1158,7 +1158,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1174,7 +1174,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1190,7 +1190,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1206,7 +1206,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1222,7 +1222,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1238,7 +1238,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1254,7 +1254,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1270,7 +1270,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1286,7 +1286,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1302,7 +1302,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1318,7 +1318,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1334,7 +1334,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1350,7 +1350,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1366,7 +1366,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1382,7 +1382,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1398,7 +1398,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1414,7 +1414,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1430,7 +1430,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1446,7 +1446,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1462,7 +1462,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1478,7 +1478,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1494,7 +1494,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1510,7 +1510,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1526,7 +1526,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1542,7 +1542,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1558,7 +1558,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1574,7 +1574,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1590,7 +1590,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1606,7 +1606,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1622,7 +1622,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1638,7 +1638,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1654,7 +1654,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1670,7 +1670,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1686,7 +1686,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1702,7 +1702,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1718,7 +1718,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1734,7 +1734,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1750,7 +1750,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1766,7 +1766,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1782,7 +1782,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1798,7 +1798,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1814,7 +1814,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1830,7 +1830,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1846,7 +1846,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1862,7 +1862,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1878,7 +1878,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1894,7 +1894,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1910,7 +1910,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1926,7 +1926,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1942,7 +1942,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1958,7 +1958,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1974,7 +1974,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -1990,7 +1990,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2006,7 +2006,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2022,7 +2022,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2038,7 +2038,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2054,7 +2054,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2070,7 +2070,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2086,7 +2086,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2102,7 +2102,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2118,7 +2118,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2134,7 +2134,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2150,7 +2150,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2166,7 +2166,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2182,7 +2182,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2198,7 +2198,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2214,7 +2214,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2230,7 +2230,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2246,7 +2246,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2262,7 +2262,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2279,7 +2279,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2296,7 +2296,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2312,7 +2312,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2328,7 +2328,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2344,7 +2344,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2360,7 +2360,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2376,7 +2376,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2392,7 +2392,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2408,7 +2408,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2424,7 +2424,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2440,7 +2440,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2456,7 +2456,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2472,7 +2472,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2488,7 +2488,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2504,7 +2504,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2520,7 +2520,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2536,7 +2536,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2552,7 +2552,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2568,7 +2568,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2584,7 +2584,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2600,7 +2600,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2616,7 +2616,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2632,7 +2632,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2648,7 +2648,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2664,7 +2664,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2680,7 +2680,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2696,7 +2696,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2712,7 +2712,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2728,7 +2728,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2744,7 +2744,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2760,7 +2760,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2776,7 +2776,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2792,7 +2792,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2808,7 +2808,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2824,7 +2824,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2840,7 +2840,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2856,7 +2856,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2872,7 +2872,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2888,7 +2888,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2904,7 +2904,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2920,7 +2920,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2936,7 +2936,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2952,7 +2952,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2968,7 +2968,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -2984,7 +2984,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3000,7 +3000,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3016,7 +3016,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3032,7 +3032,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3048,7 +3048,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3064,7 +3064,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3080,7 +3080,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3096,7 +3096,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3112,7 +3112,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3128,7 +3128,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3144,7 +3144,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3160,7 +3160,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3176,7 +3176,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3192,7 +3192,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3208,7 +3208,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3224,7 +3224,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3240,7 +3240,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3256,7 +3256,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3272,7 +3272,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3288,7 +3288,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3304,7 +3304,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3320,7 +3320,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3336,7 +3336,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3352,7 +3352,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3368,7 +3368,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3384,7 +3384,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3400,7 +3400,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3416,7 +3416,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3432,7 +3432,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3448,7 +3448,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3464,7 +3464,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3480,7 +3480,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3496,7 +3496,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3512,7 +3512,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3528,7 +3528,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3544,7 +3544,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3560,7 +3560,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3576,7 +3576,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3592,7 +3592,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3608,7 +3608,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3624,7 +3624,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3640,7 +3640,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3656,7 +3656,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3672,7 +3672,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3688,7 +3688,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3704,7 +3704,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3720,7 +3720,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3736,7 +3736,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3752,7 +3752,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3768,7 +3768,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3784,7 +3784,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3800,7 +3800,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3816,7 +3816,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3832,7 +3832,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3848,7 +3848,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3864,7 +3864,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3880,7 +3880,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3896,7 +3896,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3912,7 +3912,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3928,7 +3928,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3944,7 +3944,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3960,7 +3960,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3976,7 +3976,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -3992,7 +3992,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4008,7 +4008,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4024,7 +4024,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4040,7 +4040,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4056,7 +4056,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4072,7 +4072,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4088,7 +4088,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4104,7 +4104,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4120,7 +4120,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4136,7 +4136,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4152,7 +4152,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4168,7 +4168,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4184,7 +4184,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4200,7 +4200,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4216,7 +4216,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4232,7 +4232,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4248,7 +4248,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4264,7 +4264,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4280,7 +4280,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4296,7 +4296,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4312,7 +4312,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
@@ -4328,7 +4328,7 @@
 		<GradebookEntryReference>
 			<GradebookEntryIdentity>
 				<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
-				<SourceSystemNamespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</SourceSystemNamespace>
+				<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
 			</GradebookEntryIdentity>
 		</GradebookEntryReference>
 		<StudentReference>
