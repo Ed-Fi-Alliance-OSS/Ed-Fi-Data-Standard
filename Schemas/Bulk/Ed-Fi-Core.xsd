@@ -192,7 +192,7 @@
               <xs:documentation>Reflects the specific nomenclature used for assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="AssessmentPeriod" type="AssessmentPeriod" minOccurs="0">
+          <xs:element name="AssessmentPeriod" type="AssessmentPeriod" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The period or window in which an assessment is supposed to be administered.</xs:documentation>
             </xs:annotation>
@@ -1313,6 +1313,48 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="DescriptorMapping">
+    <xs:annotation>
+      <xs:documentation>A mapping of a descriptor value in one namespace to a descriptor value in another namespace. This can be used to exchange known contextual mappings of enumeration values.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="Value" type="Value">
+            <xs:annotation>
+              <xs:documentation>The descriptor value that is being mapped to another value.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Namespace" type="URI">
+            <xs:annotation>
+              <xs:documentation>The namespace of the descriptor value that is being mapped to another value.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="MappedValue" type="MappedValue">
+            <xs:annotation>
+              <xs:documentation>The descriptor value to which the from descriptor value is being mapped to.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="MappedNamespace" type="URI">
+            <xs:annotation>
+              <xs:documentation>The namespace of the descriptor value to which the from descriptor value is mapped to.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ModelEntity" type="ModelEntityDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The resources for which the descriptor mapping applies. If empty, the mapping is assumed to be applicable to all resources in which the descriptor appears.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>ModelEntityDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="DisciplineAction">
     <xs:annotation>
       <xs:documentation>This event entity represents actions taken by an education organization after a disruptive event that is recorded as a discipline incident.</xs:documentation>
@@ -1840,7 +1882,7 @@
               <xs:documentation>Namespace URI for the source of the gradebook entry.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="SectionIdentifier" type="SectionIdentifier">
+          <xs:element name="SourceSectionIdentifier" type="SectionIdentifier">
             <xs:annotation>
               <xs:documentation>The local identifier assigned to a section.</xs:documentation>
             </xs:annotation>
@@ -4367,7 +4409,7 @@
               <xs:documentation>A unique number or alphanumeric code assigned to an assessment administered to a student.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="AdministrationDate" type="xs:dateTime">
+          <xs:element name="AdministrationDate" type="xs:dateTime" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The date and time an assessment was completed by the student. The use of ISO-8601 formats with a timezone designator (UTC or time offset) is recommended in order to prevent ambiguity due to time zones.</xs:documentation>
             </xs:annotation>
@@ -4484,6 +4526,16 @@
               <xs:appinfo>
                 <ann:Descriptor>PlatformTypeDescriptor</ann:Descriptor>
               </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AssessmentPeriod" type="AssessmentPeriod" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The period or window in which an assessment is supposed to be administered.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AssessedMinutes" type="xs:int" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Reported time student was assessed in minutes.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -5323,7 +5375,7 @@
   </xs:complexType>
   <xs:complexType name="AssignmentLateStatusDescriptor">
     <xs:annotation>
-      <xs:documentation>Status of whether the assignment was submitted after the due date and/or marked as.</xs:documentation>
+      <xs:documentation>Status of whether the assignment was submitted after the due date and/or marked as late.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6314,6 +6366,17 @@
   <xs:complexType name="MigrantEducationProgramServiceDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a migrant education program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ModelEntityDescriptor">
+    <xs:annotation>
+      <xs:documentation>The resources for which the descriptor mapping applies. If empty, the mapping is assumed to be applicable to all resources in which the descriptor appears.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -10033,6 +10096,55 @@
           <xs:element name="CredentialIdentity" type="CredentialIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a Credential.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DescriptorMappingIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a DescriptorMapping.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Value" type="Value">
+        <xs:annotation>
+          <xs:documentation>The descriptor value that is being mapped to another value.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Namespace" type="URI">
+        <xs:annotation>
+          <xs:documentation>The namespace of the descriptor value that is being mapped to another value.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MappedValue" type="MappedValue">
+        <xs:annotation>
+          <xs:documentation>The descriptor value to which the from descriptor value is being mapped to.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MappedNamespace" type="URI">
+        <xs:annotation>
+          <xs:documentation>The namespace of the descriptor value to which the from descriptor value is mapped to.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DescriptorMappingReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a DescriptorMapping. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="DescriptorMappingIdentity" type="DescriptorMappingIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a DescriptorMapping.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -15169,7 +15281,7 @@
   </xs:simpleType>
   <xs:simpleType name="AssignmentLateStatusDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>Status of whether the assignment was submitted after the due date and/or marked as.</xs:documentation>
+      <xs:documentation>Status of whether the assignment was submitted after the due date and/or marked as late.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -15980,6 +16092,15 @@
   <xs:simpleType name="MigrantEducationProgramServiceDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a migrant education program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="ModelEntityDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The resources for which the descriptor mapping applies. If empty, the mapping is assumed to be applicable to all resources in which the descriptor appears.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -18805,11 +18926,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="PerformanceLevelMet" type="xs:boolean">
-        <xs:annotation>
-          <xs:documentation>Indicator of whether the performance level was met.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
       <xs:element name="PerformanceLevel" type="PerformanceLevelDescriptorReferenceType">
         <xs:annotation>
           <xs:documentation>A specification of which performance level value describes the student proficiency.</xs:documentation>
@@ -19441,7 +19557,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="ScoreResult" type="ScoreResult" maxOccurs="unbounded">
+      <xs:element name="ScoreResult" type="ScoreResult" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>A meaningful score or statistical expression of the performance of an individual. The results can be expressed as a number, percentile, range, level, etc.</xs:documentation>
         </xs:annotation>
@@ -19454,6 +19570,21 @@
       <xs:element name="ObjectiveAssessmentReference" type="ObjectiveAssessmentReferenceType">
         <xs:annotation>
           <xs:documentation>Reference to the test objective that is being measured by the objective-level assessment.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AssessedMinutes" type="xs:int" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Reported time student was assessed in minutes.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AdministrationDate" type="xs:dateTime" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The date and time an assessment was completed by the student. The use of ISO-8601 formats with a timezone designator (UTC or time offset) is recommended in order to prevent ambiguity due to time zones.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AdministrationEndDate" type="xs:dateTime" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The date and time an assessment administration ended.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20038,7 +20169,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="100" />
+      <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="AttendanceEventReason">
@@ -20794,6 +20925,18 @@
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="MappedValue">
+    <xs:annotation>
+      <xs:documentation>The descriptor value to which the from descriptor value is being mapped to.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="MatrixElement">
     <xs:annotation>
       <xs:documentation>For matrix questions, the text identifying each row of the matrix.</xs:documentation>
@@ -21108,7 +21251,7 @@
   </xs:simpleType>
   <xs:simpleType name="SectionIdentifier">
     <xs:annotation>
-      <xs:documentation>A unique identifier for the Section, that is defined by the classroom, the subjects taught, and the instructors that are assigned.</xs:documentation>
+      <xs:documentation>A unique identifier for the section, that is defined by the classroom, the subjects taught, and the instructors that are assigned.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Simple</ann:TypeGroup>
       </xs:appinfo>
@@ -21292,6 +21435,18 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="5" />
       <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Value">
+    <xs:annotation>
+      <xs:documentation>The descriptor value that is being mapped to another value.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="WeekIdentifier">

@@ -123,6 +123,7 @@
       <xs:enumeration value="MediumOfInstructionDescriptor" />
       <xs:enumeration value="MethodCreditEarnedDescriptor" />
       <xs:enumeration value="MigrantEducationProgramServiceDescriptor" />
+      <xs:enumeration value="ModelEntityDescriptor" />
       <xs:enumeration value="MonitoredDescriptor" />
       <xs:enumeration value="NeglectedOrDelinquentProgramDescriptor" />
       <xs:enumeration value="NeglectedOrDelinquentProgramServiceDescriptor" />
