@@ -1882,7 +1882,7 @@
               <xs:documentation>Namespace URI for the source of the gradebook entry.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="SectionIdentifier" type="SectionIdentifier">
+          <xs:element name="SourceSectionIdentifier" type="SectionIdentifier">
             <xs:annotation>
               <xs:documentation>The local identifier assigned to a section.</xs:documentation>
             </xs:annotation>
@@ -21251,7 +21251,7 @@
   </xs:simpleType>
   <xs:simpleType name="SectionIdentifier">
     <xs:annotation>
-      <xs:documentation>A unique identifier for the Section, that is defined by the classroom, the subjects taught, and the instructors that are assigned.</xs:documentation>
+      <xs:documentation>A unique identifier for the section, that is defined by the classroom, the subjects taught, and the instructors that are assigned.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Simple</ann:TypeGroup>
       </xs:appinfo>
