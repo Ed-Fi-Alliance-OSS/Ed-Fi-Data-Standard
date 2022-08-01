@@ -10,9 +10,19 @@
     </xs:annotation>
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
+        <xs:element name="FundDimension" type="FundDimension" />
+        <xs:element name="ProgramDimension" type="ProgramDimension" />
+        <xs:element name="FunctionDimension" type="FunctionDimension" />
+        <xs:element name="ObjectDimension" type="ObjectDimension" />
+        <xs:element name="ProjectDimension" type="ProjectDimension" />
+        <xs:element name="OperationalUnitDimension" type="OperationalUnitDimension" />
+        <xs:element name="SourceDimension" type="SourceDimension" />
+        <xs:element name="BalanceSheetDimension" type="BalanceSheetDimension" />
+        <xs:element name="ChartOfAccount" type="ChartOfAccount" />
         <xs:element name="LocalAccount" type="LocalAccount" />
-        <xs:element name="LocalActual" type="LocalActual" />
         <xs:element name="LocalBudget" type="LocalBudget" />
+        <xs:element name="LocalActual" type="LocalActual" />
+        <xs:element name="LocalEncumbrance" type="LocalEncumbrance" />
         <xs:element name="LocalContractedStaff" type="LocalContractedStaff" />
         <xs:element name="LocalPayroll" type="LocalPayroll" />
       </xs:choice>
