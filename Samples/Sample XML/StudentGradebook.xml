@@ -6,7 +6,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -40,7 +40,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -74,7 +74,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -108,7 +108,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -141,7 +141,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -175,7 +175,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -209,7 +209,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -243,7 +243,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -276,7 +276,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -310,7 +310,7 @@
 		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
-				<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
 						<LocalCourseCode>ALG-1</LocalCourseCode>
@@ -4342,7 +4342,7 @@
 	</StudentGradebookEntry>
 	<SectionReference>
 		<SectionIdentity>
-			<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
+			<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
 			<CourseOfferingReference>
 				<CourseOfferingIdentity>
 					<LocalCourseCode>ALG-1</LocalCourseCode>
