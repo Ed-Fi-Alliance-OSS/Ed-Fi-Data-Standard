@@ -3,7 +3,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100001</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
@@ -37,7 +37,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100002</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
@@ -71,7 +71,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100003</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
@@ -105,7 +105,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100004</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
@@ -138,7 +138,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100005</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
@@ -172,7 +172,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100006</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
@@ -206,7 +206,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100007</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
@@ -240,7 +240,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100008</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
@@ -273,7 +273,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100009</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
@@ -307,7 +307,7 @@
 	<GradebookEntry>
 		<GradebookEntryIdentifier>8907100010</GradebookEntryIdentifier>
 		<Namespace>uri://ed-fi.org/GradebookEntry/GradebookEntry.xml</Namespace>
-		<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
+		<SourceSectionIdentifier>25590100102Trad220ALG112011</SourceSectionIdentifier>
 		<SectionReference>
 			<SectionIdentity>
 				<SectionIdentifier>25590100102Trad220ALG112011</SectionIdentifier>
