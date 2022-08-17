@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeAssessmentMetadata xmlns="http://ed-fi.org/4.0.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0-a ../../Schemas/Bulk/Interchange-AssessmentMetadata.xsd">
+	<Assessment>
+		<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+		<AssessmentTitle>The ACT with Writing</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>ACT-ABW</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+			<AssigningOrganizationIdentificationCode>CollegeBoard</AssigningOrganizationIdentificationCode>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#College entrance exam</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Reading</AcademicSubject>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Science</AcademicSubject>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Writing</AcademicSubject>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Arts</AcademicSubject>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Social Studies</AcademicSubject>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</AssessedGradeLevel>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessedGradeLevel>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</AssessedGradeLevel>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#No grade level</AssessedGradeLevel>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Composite Score</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Composite US Rank</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Composite State Rank</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Composite Standard Error of Measurement</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#STEM Score</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#STEM US Rank</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#STEM State Rank</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#ELA Score</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#ELA State Rank</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#ELA Standard Error of Measurement</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Sum of Scale Scores</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#At/Above Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#ELA Readiness Level</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>At/Above Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#At/Above Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#STEM Readiness Level</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>Above Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>			
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#At/Above Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#At/Above Readiness Benchmark</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>At/Above Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Falls within Readiness Range</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Below Proficiency</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Below Proficiency</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>Below Proficiency</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Proficient</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Proficient</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>Proficient</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>		
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Above proficiency</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Above proficiency</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>Above proficiency</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Unable to Calculate</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Unable to Calculate</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>Unable to Calculate</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPeriod>
+			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#Fall</AssessmentPeriod>
+		</AssessmentPeriod>
+		<Namespace>uri://act.org/Assessment</Namespace>	
+	</Assessment>
+</InterchangeAssessmentMetadata>
+	
