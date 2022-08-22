@@ -49,7 +49,7 @@
 		<RevisionDate>2021-07-15</RevisionDate>
 		<MaxRawScore>25.50000</MaxRawScore>
 		<AssessmentPeriod>
-			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#BOY</AssessmentPeriod>
+			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#Beginning of Year</AssessmentPeriod>
 		</AssessmentPeriod>
 		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Paper-based</PlatformType>

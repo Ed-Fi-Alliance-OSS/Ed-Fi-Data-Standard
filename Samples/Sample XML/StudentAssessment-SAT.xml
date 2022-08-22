@@ -23,9 +23,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -100,9 +100,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -141,9 +141,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -362,9 +362,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -403,9 +403,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -552,9 +552,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -701,9 +701,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -778,9 +778,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -855,9 +855,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -896,9 +896,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -1045,9 +1045,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -1086,9 +1086,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -1127,9 +1127,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -1168,9 +1168,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -1209,9 +1209,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -1358,9 +1358,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -1435,9 +1435,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -1476,9 +1476,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>SAT College Readiness Level Indicator</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>

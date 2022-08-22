@@ -57,7 +57,7 @@
 		<RevisionDate>2021-09-01</RevisionDate>
 		<MaxRawScore>50.00000</MaxRawScore>
 		<AssessmentPeriod>
-			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#EOY</AssessmentPeriod>
+			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#End of Year</AssessmentPeriod>
 			<BeginDate>2022-03-29</BeginDate>
 			<EndDate>2022-05-07</EndDate>
 		</AssessmentPeriod>
@@ -120,7 +120,7 @@
 		<RevisionDate>2021-09-01</RevisionDate>
 		<MaxRawScore>44.00000</MaxRawScore>
 		<AssessmentPeriod>
-			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#EOY</AssessmentPeriod>
+			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#End of Year</AssessmentPeriod>
 			<BeginDate>2022-03-29</BeginDate>
 			<EndDate>2022-05-07</EndDate>
 		</AssessmentPeriod>
@@ -189,7 +189,7 @@
 		<RevisionDate>2021-09-01</RevisionDate>
 		<MaxRawScore>48.00000</MaxRawScore>
 		<AssessmentPeriod>
-			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#EOY</AssessmentPeriod>
+			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#End of Year</AssessmentPeriod>
 			<BeginDate>2022-03-29</BeginDate>
 			<EndDate>2022-05-07</EndDate>
 		</AssessmentPeriod>
@@ -258,7 +258,7 @@
 		<RevisionDate>2021-09-01</RevisionDate>
 		<MaxRawScore>42.00000</MaxRawScore>
 		<AssessmentPeriod>
-			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#EOY</AssessmentPeriod>
+			<AssessmentPeriod>uri://ed-fi.org/AssessmentPeriodDescriptor#End of Year</AssessmentPeriod>
 			<BeginDate>2022-03-29</BeginDate>
 			<EndDate>2022-05-07</EndDate>
 		</AssessmentPeriod>
