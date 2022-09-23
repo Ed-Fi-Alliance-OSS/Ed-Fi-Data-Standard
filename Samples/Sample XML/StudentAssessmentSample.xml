@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeStudentAssessment xmlns="http://ed-fi.org/4.0.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0-a ../../Schemas/Bulk/Interchange-StudentAssessment.xsd">
+	<StudentAssessment>
+		<StudentAssessmentIdentifier>/3yOGsJIN9QQhavO5qGlXgHV1ZLCQDLFr87Vvscj</StudentAssessmentIdentifier>
+		<AdministrationDate>2021-12-01T16:00:00</AdministrationDate>
+		<ScoreResult>
+			<Result>18</Result>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Composite Score</AssessmentReportingMethod>
+		</ScoreResult>
+		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</WhenAssessedGradeLevel>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>123456700</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<SchoolYear>2021-2022</SchoolYear>
+	</StudentAssessment>
+	<StudentAssessment>
+		<StudentAssessmentIdentifier>/5CuICgv87a7l71buErHAU52UEvjNldXQJycrR/U</StudentAssessmentIdentifier>
+		<AdministrationDate>2021-12-01T16:00:00</AdministrationDate>
+		<ScoreResult>
+			<Result>27</Result>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Composite Score</AssessmentReportingMethod>
+		</ScoreResult>
+		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</WhenAssessedGradeLevel>
+		<PerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#At/Above Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#STEM Readiness Level</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</PerformanceLevel>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>123456700</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<SchoolYear>2021-2022</SchoolYear>
+	</StudentAssessment>
+</InterchangeStudentAssessment>	
