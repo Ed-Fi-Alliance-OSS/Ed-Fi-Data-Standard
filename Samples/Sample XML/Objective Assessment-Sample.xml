@@ -81,7 +81,7 @@
 			<MaximumScore>100</MaximumScore>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
 		</AssessmentScore>	
-			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
 		</AssessmentScore>
 	</ObjectiveAssessment>
