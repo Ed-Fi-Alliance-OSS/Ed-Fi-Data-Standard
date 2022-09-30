@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeAssessmentMetadata xmlns="http://ed-fi.org/4.0.0-a" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0-a ../../Schemas/Bulk/Interchange-AssessmentMetadata.xsd">
+	<ObjectiveAssessment>
+		<IdentificationCode>ACT-ABW-E</IdentificationCode>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#At or Above Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>18</MinimumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>At or Above Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Below Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>17</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Below Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - English</Description>	
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#US Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#State Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Standard Error of Measurement</AssessmentReportingMethod>
+			<MinimumScore>2</MinimumScore>
+			<MaximumScore>2</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>36</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>
+	<ObjectiveAssessment>			
+		<IdentificationCode>ACT-ABW-E-CSE</IdentificationCode>		
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - English - Conventions of Standard English</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-E</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>
+	<ObjectiveAssessment>			
+		<IdentificationCode>ACT-ABW-E-KL</IdentificationCode>			
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - English - Knowledge of Language</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-E</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>			
+		<IdentificationCode>ACT-ABW-E-PW</IdentificationCode>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - English - Production of Writing</Description>	
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-E</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>
+	<ObjectiveAssessment>
+		<IdentificationCode>ACT-ABW-M</IdentificationCode>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#At or Above Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>22</MinimumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>At or Above Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Below Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>21</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Below Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>		
+		<Description>The ACT with Writing - Mathematics</Description>	
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>			
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#US Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#State Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Standard Error of Measurement</AssessmentReportingMethod>
+			<MinimumScore>2</MinimumScore>
+			<MaximumScore>2</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>36</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>				
+		<IdentificationCode>ACT-ABW-M-IES</IdentificationCode>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Mathematics - Integrating Essential Skills</Description>
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-M</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-M-M</IdentificationCode>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Mathematics - Modeling</Description>	
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-M</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-M-PHM</IdentificationCode>		
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Mathematics - Preparing for Higher Math</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-M</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-M-PHM-A</IdentificationCode>		
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Mathematics - Preparing for Higher Math</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-M</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-M-PHM-F</IdentificationCode>		
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Mathematics - Preparing for Higher Math - Functions</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-M</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-M-PHM-G</IdentificationCode>		
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Mathematics - Preparing for Higher Math - Geometry</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-M</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-M-PHM-NQ</IdentificationCode>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Mathematics - Preparing for Higher Math - Number and Quantity</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-M</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-M-PHM-SP</IdentificationCode>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Mathematics - Preparing for Higher Math - Statistics and Probability</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-M</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-R</IdentificationCode>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#At or Above Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>22</MinimumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>At or Above Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Below Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>21</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Below Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#UCT Unable to calculate</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#UCT Profiency Level</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>UCTI Unable to calculate</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/AssessmentReportingMethodDescriptor#UCT Below Profiency Level</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#UCT Below Profiency Level</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>8</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>UCT Below Profiency Level</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#UCT Proficient</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#UCT Profiency Level</AssessmentReportingMethod>
+			<MinimumScore>9</MinimumScore>
+			<MaximumScore>12</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>UCT Proficient Level</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#UCT Above Proficient</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#UCT Above Proficient</AssessmentReportingMethod>
+			<MinimumScore>13</MinimumScore>
+			<MaximumScore>16</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>UCT Above Proficient</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Reading</Description>		
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#US Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#State Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Standard Error of Measurement</AssessmentReportingMethod>
+			<MinimumScore>2</MinimumScore>
+			<MaximumScore>2</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>36</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-R-CS</IdentificationCode>	
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Reading - Craft and Structure</Description>	
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-R</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>				
+		<IdentificationCode>ACT-ABW-R-IKI</IdentificationCode>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<Description>The ACT with Writing - Reading - Integration of Knowledge and Ideas</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-R</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>				
+		<IdentificationCode>ACT-ABW-S</IdentificationCode>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#At or Above Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>23</MinimumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>At or Above Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Below Readiness Benchmark</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>22</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Below Readiness Benchmark</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<Description>The ACT with Writing - Science</Description>		
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#US Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#State Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Standard Error of Measurement</AssessmentReportingMethod>
+			<MinimumScore>2</MinimumScore>
+			<MaximumScore>2</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>36</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-S-EMIER</IdentificationCode>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<Description>The ACT with Writing - Science - Evaluation of Models, Inferences And Experimental Results</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-S</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>				
+		<IdentificationCode>ACT-ABW-S-ID</IdentificationCode>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Science - Interpretation of Data</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-S</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>				
+		<IdentificationCode>ACT-ABW-S-SI</IdentificationCode>		
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls within Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#Falls outside Readiness Range</PerformanceLevel>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Falls outside Readiness Range</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>	
+		<Description>The ACT with Writing - Science - Scientific Investigation</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-S</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Earned</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Points Possible</AssessmentReportingMethod>
+			<MinimumScore>1</MinimumScore>
+			<MaximumScore>99</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Percent Correct</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Readiness Range Lower Bound</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>				
+	<IdentificationCode>ACT-ABW-W</IdentificationCode>
+		<Description>The ACT with Writing - Writing</Description>		
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#US Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#State Rank</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentage</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Standard Error of Measurement</AssessmentReportingMethod>
+			<MinimumScore>2</MinimumScore>
+			<MaximumScore>2</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>	
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Scale Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>36</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>		
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-W-DS</IdentificationCode>
+		<Description>The ACT with Writing - Writing - Development and Support</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-W</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Domain Score</AssessmentReportingMethod>
+			<MinimumScore>2</MinimumScore>
+			<MaximumScore>12</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>		
+		<IdentificationCode>ACT-ABW-W-LUC</IdentificationCode>	
+		<Description>The ACT with Writing - Writing - Language Use and Convention</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-W</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Domain Score</AssessmentReportingMethod>
+			<MinimumScore>2</MinimumScore>
+			<MaximumScore>12</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>	
+	<ObjectiveAssessment>
+		<IdentificationCode>ACT-ABW-W-O</IdentificationCode>		
+		<Description>The ACT with Writing - Writing - Organization</Description>		
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-w</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://act.org/Assessment</Namespace>						
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://act.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Domain Score</AssessmentReportingMethod>
+			<MinimumScore>2</MinimumScore>
+			<MaximumScore>12</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
+		</AssessmentScore>		
+	</ObjectiveAssessment>
+</InterchangeAssessmentMetadata>		
+	
