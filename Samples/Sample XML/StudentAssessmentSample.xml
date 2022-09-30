@@ -32,9 +32,9 @@
 		</ScoreResult>
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
-			<PerformanceLevel>uri://act.org/PerformanceLevelDescriptor#At/Above Readiness Benchmark</PerformanceLevel>
-			<AssessmentReportingMethod>uri://act.org/AssessmentReportingMethodDescriptor#STEM Readiness Level</AssessmentReportingMethod>
-			<PerformanceLevelIndicatorName>Falls within Readiness Range</PerformanceLevelIndicatorName>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Met Standard</AssessmentReportingMethod>
+			<PerformanceLevelIndicatorName>Met Standard</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
