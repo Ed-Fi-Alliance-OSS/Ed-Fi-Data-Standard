@@ -1411,7 +1411,7 @@
               <xs:documentation>The student disciplined by the discipline action.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentDisciplineIncidentAssociationReference" type="StudentDisciplineIncidentAssociationReferenceType" maxOccurs="unbounded">
+          <xs:element name="StudentDisciplineIncidentAssociationReference" type="StudentDisciplineIncidentAssociationReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Reference to the discipline incident associated with the discipline action.</xs:documentation>
             </xs:annotation>
@@ -6376,7 +6376,7 @@
   </xs:complexType>
   <xs:complexType name="ModelEntityDescriptor">
     <xs:annotation>
-      <xs:documentation>The resources for which the descriptor mapping applies. If empty, the mapping is assumed to be applicable to all resources in which the descriptor appears.</xs:documentation>
+      <xs:documentation>The class of a domain entity in the Ed-Fi data model.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -16100,7 +16100,7 @@
   </xs:simpleType>
   <xs:simpleType name="ModelEntityDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>The resources for which the descriptor mapping applies. If empty, the mapping is assumed to be applicable to all resources in which the descriptor appears.</xs:documentation>
+      <xs:documentation>The class of a domain entity in the Ed-Fi data model.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -20157,7 +20157,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="60" />
+      <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="AssessmentTitle">

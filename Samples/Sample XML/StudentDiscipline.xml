@@ -883,195 +883,6 @@
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Witness</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605266</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_10_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605265</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_11_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>604892</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_12_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605121</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_13_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605417</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_14_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605370</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_15_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605568</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_16_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605522</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_17_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>604848</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_18_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605477</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_19_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605035</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_20_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605389</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_21_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605274</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_8_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605262</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_9_255901001"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605040</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_3_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605403</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_4_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605772</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_5_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605220</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_6_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>604861</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_7_255901044"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605275</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_1_255901107"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
-	<StudentDisciplineIncidentAssociation>
-		<StudentReference>
-			<StudentIdentity>
-				<StudentUniqueId>605565</StudentUniqueId>
-			</StudentIdentity>
-		</StudentReference>
-		<DisciplineIncidentReference ref="DISC_2_255901107"/>
-		<StudentParticipationCode>uri://ed-fi.org/StudentParticipationCodeDescriptor#Perpetrator</StudentParticipationCode>
-	</StudentDisciplineIncidentAssociation>
 	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
 			<StudentIdentity>
@@ -1313,25 +1124,6 @@
 				<StudentUniqueId>604848</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>604848</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>18</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -1370,25 +1162,6 @@
 				<StudentUniqueId>604848</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>604848</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>18</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -1427,25 +1200,6 @@
 				<StudentUniqueId>604861</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>604861</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>7</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901044</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901044</SchoolId>
@@ -1484,25 +1238,6 @@
 				<StudentUniqueId>604892</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>604892</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>12</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -1541,25 +1276,6 @@
 				<StudentUniqueId>605035</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605035</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>20</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -1598,25 +1314,6 @@
 				<StudentUniqueId>605040</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605040</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>3</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901044</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901044</SchoolId>
@@ -1655,25 +1352,6 @@
 				<StudentUniqueId>605121</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605121</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>13</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -1712,25 +1390,6 @@
 				<StudentUniqueId>605121</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605121</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>13</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -1769,25 +1428,6 @@
 				<StudentUniqueId>605220</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605220</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>6</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901044</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901044</SchoolId>
@@ -1826,25 +1466,6 @@
 				<StudentUniqueId>605220</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605220</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>6</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901044</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901044</SchoolId>
@@ -1883,25 +1504,6 @@
 				<StudentUniqueId>605262</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605262</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>9</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -1940,25 +1542,6 @@
 				<StudentUniqueId>605262</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605262</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>9</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -1997,25 +1580,6 @@
 				<StudentUniqueId>605265</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605265</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>11</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -2054,25 +1618,6 @@
 				<StudentUniqueId>605266</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605266</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>10</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -2111,25 +1656,6 @@
 				<StudentUniqueId>605274</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605274</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>8</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -2168,25 +1694,6 @@
 				<StudentUniqueId>605275</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605275</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>1</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901107</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901107</SchoolId>
@@ -2225,25 +1732,6 @@
 				<StudentUniqueId>605370</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605370</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>15</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -2283,25 +1771,6 @@
 				<StudentUniqueId>605389</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605389</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>21</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -2340,25 +1809,6 @@
 				<StudentUniqueId>605403</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605403</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>4</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901044</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901044</SchoolId>
@@ -2397,25 +1847,6 @@
 				<StudentUniqueId>605417</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605417</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>14</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -2455,25 +1886,6 @@
 				<StudentUniqueId>605477</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605477</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>19</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -2513,25 +1925,6 @@
 				<StudentUniqueId>605522</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605522</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>17</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -2570,25 +1963,6 @@
 				<StudentUniqueId>605565</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605565</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>2</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901107</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901107</SchoolId>
@@ -2627,25 +2001,6 @@
 				<StudentUniqueId>605568</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605568</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>16</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901001</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -2684,25 +2039,6 @@
 				<StudentUniqueId>605772</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<StudentDisciplineIncidentAssociationReference>
-			<StudentDisciplineIncidentAssociationIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>605772</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<DisciplineIncidentReference>
-					<DisciplineIncidentIdentity>
-						<IncidentIdentifier>5</IncidentIdentifier>
-						<SchoolReference>
-							<SchoolIdentity>
-								<SchoolId>255901044</SchoolId>
-							</SchoolIdentity>
-						</SchoolReference>
-					</DisciplineIncidentIdentity>
-				</DisciplineIncidentReference>
-			</StudentDisciplineIncidentAssociationIdentity>
-		</StudentDisciplineIncidentAssociationReference>
 		<ResponsibilitySchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901044</SchoolId>
