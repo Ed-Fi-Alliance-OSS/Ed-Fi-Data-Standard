@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/4.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<EducationOrganizationAssociationTypeDescriptor>
+		<CodeValue>Administration</CodeValue>
+		<ShortDescription>Administration</ShortDescription>
+		<Description>Indicates the education organization (typically a school) that administered the assessment.</Description>
+		<Namespace>uri://ed-fi.org/EducationOrganizationAssociationTypeDescriptor</Namespace>
+	</EducationOrganizationAssociationTypeDescriptor>
+	<EducationOrganizationAssociationTypeDescriptor>
+		<CodeValue>Attribution</CodeValue>
+		<ShortDescription>Attribution</ShortDescription>
+		<Description>Indicates the education organization (state, district, and/or school) to which the student's results are attributed to; often used for accountability reporting.</Description>
+		<Namespace>uri://ed-fi.org/EducationOrganizationAssociationTypeDescriptor</Namespace>
+	</EducationOrganizationAssociationTypeDescriptor>
+	<EducationOrganizationAssociationTypeDescriptor>
+		<CodeValue>Enrollment</CodeValue>
+		<ShortDescription>Enrollment</ShortDescription>
+		<Description>Indicates the education organization (typically a school) where the student was enrolled at the time the assessment was taken by the student. If dual-enrolled, what the school of record.</Description>
+		<Namespace>uri://ed-fi.org/EducationOrganizationAssociationTypeDescriptor</Namespace>
+	</EducationOrganizationAssociationTypeDescriptor>
+</InterchangeDescriptors>
