@@ -143,7 +143,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>        
         </EducationOrganizationReference>
-        <AccountType>Revenue</AccountType>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Revenue</AccountType>
         <AccountName>TOTAL REVENUE FROM LOCAL SOURCES</AccountName>
         <FundFundDimensionReference>
             <FundDimensionIdentity>
@@ -170,7 +170,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>        
         </EducationOrganizationReference>
-        <AccountType>Revenue</AccountType>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Revenue</AccountType>
         <AccountName>TOTAL REVENUE FROM STATE SOURCES</AccountName>
         <FundFundDimensionReference>
             <FundDimensionIdentity>
@@ -186,7 +186,7 @@
         </SourceSourceDimensionReference>
         <ReportingTag>
             <TagValue>$210,788,057</TagValue>
-            <ReportingTag>State</ReportingTag>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#SEA</ReportingTag>
         </ReportingTag>
     </ChartOfAccount>
     <ChartOfAccount>
@@ -197,7 +197,7 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>        
         </EducationOrganizationReference>
-        <AccountType>Revenue</AccountType>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Revenue</AccountType>
         <AccountName>TOTAL REVENUE FROM FEDERAL SOURCES</AccountName>
         <FundFundDimensionReference>
             <FundDimensionIdentity>
@@ -224,7 +224,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>        
         </EducationOrganizationReference>
-        <AccountType>Expenditure</AccountType>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
         <AccountName>REGULAR INSTRUCTION - Salaries</AccountName>
         <FunctionFunctionDimensionReference>
             <FunctionDimensionIdentity>
@@ -257,7 +257,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>        
         </EducationOrganizationReference>
-        <AccountType>Expenditure</AccountType>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
         <AccountName>REGULAR INSTRUCTION - Benefits</AccountName>
         <FunctionFunctionDimensionReference>
             <FunctionDimensionIdentity>
@@ -290,7 +290,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>        
         </EducationOrganizationReference>
-        <AccountType>Expenditure</AccountType>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
         <AccountName>REGULAR INSTRUCTION - Professional/Tech Services</AccountName>
         <FunctionFunctionDimensionReference>
             <FunctionDimensionIdentity>
@@ -323,7 +323,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>        
         </EducationOrganizationReference>
-        <AccountType>Expenditure</AccountType>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
         <AccountName>REGULAR INSTRUCTION - Property Services</AccountName>
         <FunctionFunctionDimensionReference>
             <FunctionDimensionIdentity>
@@ -356,7 +356,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>        
         </EducationOrganizationReference>
-        <AccountType>Expenditure</AccountType>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
         <AccountName>REGULAR INSTRUCTION - Other Purchased Services</AccountName>
         <FunctionFunctionDimensionReference>
             <FunctionDimensionIdentity>
@@ -389,7 +389,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>        
         </EducationOrganizationReference>
-        <AccountType>Expenditure</AccountType>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
         <AccountName>REGULAR INSTRUCTION - Supplies</AccountName>
         <FunctionFunctionDimensionReference>
             <FunctionDimensionIdentity>
@@ -422,7 +422,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>REGULAR INSTRUCTION - Capital Outlay</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -455,7 +455,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - ATTENDANCE AND SOCIAL WORK SERVICES - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -488,7 +488,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - ATTENDANCE AND SOCIAL WORK SERVICES - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -521,7 +521,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - ATTENDANCE AND SOCIAL WORK SERVICES - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -554,7 +554,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - ATTENDANCE AND SOCIAL WORK SERVICES - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -587,7 +587,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - ATTENDANCE AND SOCIAL WORK SERVICES - Debt Related or other</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -620,7 +620,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - GUIDANCE SERVICES - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -653,7 +653,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - GUIDANCE SERVICES - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -686,7 +686,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - GUIDANCE SERVICES - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -719,7 +719,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - GUIDANCE SERVICES - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -752,7 +752,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - HEALTH SERVICES - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -785,7 +785,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - HEALTH SERVICES - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -818,7 +818,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - HEALTH SERVICES - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -851,7 +851,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - HEALTH SERVICES - Property Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -884,7 +884,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - HEALTH SERVICES - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -917,7 +917,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - HEALTH SERVICES - Debt Related or other</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -950,7 +950,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - PSYCHOLOGICAL SERVICES - SPED - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -983,7 +983,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - PSYCHOLOGICAL SERVICES - SPED - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1016,7 +1016,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - PSYCHOLOGICAL SERVICES - SPED - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1049,7 +1049,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - PSYCHOLOGICAL SERVICES - SPED - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1082,7 +1082,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - SPEECH PATHOLOGY AND AUDIOLOGY SVCS - SPED - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1115,7 +1115,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - SPEECH PATHOLOGY AND AUDIOLOGY SVCS - SPED - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1148,7 +1148,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - SPEECH PATHOLOGY AND AUDIOLOGY SVCS - SPED - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1181,7 +1181,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - SPEECH PATHOLOGY AND AUDIOLOGY SVCS - SPED - Other Purchased Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1214,7 +1214,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - SPEECH PATHOLOGY AND AUDIOLOGY SVCS - SPED - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1247,7 +1247,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - OCCUPATIONAL THERAPY-RELATED SVCS - SPED - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1280,7 +1280,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - OCCUPATIONAL THERAPY-RELATED SVCS - SPED - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1313,7 +1313,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - OCCUPATIONAL THERAPY-RELATED SVCS - SPED - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1346,7 +1346,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - OCCUPATIONAL THERAPY-RELATED SVCS - SPED - Other Purchased Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1379,7 +1379,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - OCCUPATIONAL THERAPY-RELATED SVCS - SPED - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1412,7 +1412,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - PHYSICAL THERAPY-RELATED SERVICES - SPED - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1445,7 +1445,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - PHYSICAL THERAPY-RELATED SERVICES - SPED - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1478,7 +1478,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - PHYSICAL THERAPY-RELATED SERVICES - SPED - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1511,7 +1511,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - VISUALLY IMPAIRED/VISION SERVICES - SPED - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1544,7 +1544,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - VISUALLY IMPAIRED/VISION SERVICES - SPED - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1577,7 +1577,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - VISUALLY IMPAIRED/VISION SERVICES - SPED - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1610,7 +1610,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - VISUALLY IMPAIRED/VISION SERVICES - SPED - Other Purchased Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1643,7 +1643,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - STUDENT - VISUALLY IMPAIRED/VISION SERVICES - SPED - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1676,7 +1676,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - IMPROVEMENT OF INSTRUCTION - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1709,7 +1709,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - IMPROVEMENT OF INSTRUCTION - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1742,7 +1742,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - IMPROVEMENT OF INSTRUCTION - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1775,7 +1775,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - IMPROVEMENT OF INSTRUCTION - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1808,7 +1808,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - LIBRARY/MEDIA SERVICES - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1841,7 +1841,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - LIBRARY/MEDIA SERVICES - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1874,7 +1874,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - LIBRARY/MEDIA SERVICES - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1907,7 +1907,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - LIBRARY/MEDIA SERVICES - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1940,7 +1940,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - ACADEMIC STUDENT ASSESSMENT - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -1973,7 +1973,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - ACADEMIC STUDENT ASSESSMENT - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2006,7 +2006,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - INSTRUCTION - ACADEMIC STUDENT ASSESSMENT - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2039,7 +2039,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - BOARD OF EDUCATION - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2072,7 +2072,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - BOARD OF EDUCATION - Other Purchased Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2105,7 +2105,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - BOARD OF EDUCATION - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2138,7 +2138,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - EXECUTIVE ADMINISTRATION - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2171,7 +2171,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - EXECUTIVE ADMINISTRATION - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2204,7 +2204,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - EXECUTIVE ADMINISTRATION - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2237,7 +2237,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - EXECUTIVE ADMINISTRATION - Other Purchased Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2270,7 +2270,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - EXECUTIVE ADMINISTRATION - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2303,7 +2303,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - EXECUTIVE ADMINISTRATION - Debt Related or other</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2336,7 +2336,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - GENERAL ADMINISTRATION - DISTRICT LEGAL SERVICES - Professional/Tech Services</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2369,7 +2369,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - SCHOOL ADMINISTRATION - OFFICE OF THE PRINCIPAL - Salaries</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2402,7 +2402,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - SCHOOL ADMINISTRATION - OFFICE OF THE PRINCIPAL - Benefits</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
@@ -2435,7 +2435,7 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<AccountType>Expenditure</AccountType>
+		<AccountType>uri://ed-fi.org/AccountTypeDescriptor#Expenditure</AccountType>
 		<AccountName>SUPPORT SERVICES - SCHOOL ADMINISTRATION - OFFICE OF THE PRINCIPAL - Supplies</AccountName>
 		<FunctionFunctionDimensionReference>
 			<FunctionDimensionIdentity>
