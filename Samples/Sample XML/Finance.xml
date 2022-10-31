@@ -4,49 +4,49 @@
 		<Code>1</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>General Fund</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</FundDimension>
 	<FundDimension>
 		<Code>2</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Special Revenue Fund</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</FundDimension>
 	<FundDimension>
 		<Code>3</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Fund</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</FundDimension>
 	<FundDimension>
 		<Code>4</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Debt Service Fund</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</FundDimension>
 	<FunctionDimension>
 		<Code>1000</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Instruction</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</FunctionDimension>
 	<FunctionDimension>
 		<Code>2000</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Support Services</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</FunctionDimension>
 	<FunctionDimension>
 		<Code>3000</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Operation of Non-Instructional Services</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</FunctionDimension>
 	<FunctionDimension>
 		<Code>4000</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Facilities Acquisition and Construction</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</FunctionDimension>
 	<FunctionDimension>
 		<Code>5000</Code>
@@ -57,61 +57,61 @@
 		<Code>100</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Salaries</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</ObjectDimension>
 	<ObjectDimension>
 		<Code>200</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Employee Benefits</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</ObjectDimension>
 	<ObjectDimension>
 		<Code>300</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Purchased Professional and Technical Services</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</ObjectDimension>
 	<ObjectDimension>
 		<Code>400</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Purchased Property Services</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</ObjectDimension>
 	<ObjectDimension>
 		<Code>500</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Other Purchased Services</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</ObjectDimension>
 	<ObjectDimension>
 		<Code>600</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Supplies</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</ObjectDimension>
 	<ObjectDimension>
 		<Code>700</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Property</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</ObjectDimension>
 	<ObjectDimension>
 		<Code>800</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Debt Service and Miscellaneous</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</ObjectDimension>
 	<ObjectDimension>
 		<Code>900</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Other Items</CodeName>
-		<ReportingTag>Local</ReportingTag>
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 	</ObjectDimension>
 	<SourceDimension>
 		<Code>1000</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Revenues from Local Sources</CodeName>
-		<ReportingTag>Local</ReportingTag>	
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>	
 	</SourceDimension>
 	<SourceDimension>
 		<Code>2000</Code>
@@ -122,13 +122,13 @@
 		<Code>3000</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Revenue from State Sources</CodeName>
-		<ReportingTag>State</ReportingTag>	
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#SEA</ReportingTag>		
 	</SourceDimension>
 	<SourceDimension>
 		<Code>4000</Code>
 		<FiscalYear>2022</FiscalYear>
 		<CodeName>Revenue from Federal Sources</CodeName>
-		<ReportingTag>Federal</ReportingTag>	
+		<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#Federal</ReportingTag>	
 	</SourceDimension>
 	<SourceDimension>
 		<Code>5000</Code>
@@ -159,7 +159,7 @@
         </SourceSourceDimensionReference>
         <ReportingTag>
             <TagValue>$308,136,446</TagValue>
-            <ReportingTag>Local</ReportingTag>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
         </ReportingTag>
     </ChartOfAccount>
     <ChartOfAccount>
@@ -213,7 +213,7 @@
         </SourceSourceDimensionReference>
         <ReportingTag>
             <TagValue>$47,401,063</TagValue>
-            <ReportingTag>Federal</ReportingTag>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#Federal</ReportingTag>
         </ReportingTag>
     </ChartOfAccount>
     <ChartOfAccount>
@@ -246,7 +246,7 @@
         </ObjectObjectDimensionReference>
         <ReportingTag>
             <TagValue>$138,078,127</TagValue>
-            <ReportingTag>Local</ReportingTag>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
         </ReportingTag>
     </ChartOfAccount>
     <ChartOfAccount>
@@ -279,7 +279,7 @@
         </ObjectObjectDimensionReference>
         <ReportingTag>
             <TagValue>$52,275,097</TagValue>
-            <ReportingTag>Local</ReportingTag>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
         </ReportingTag>
     </ChartOfAccount>
     <ChartOfAccount>
@@ -312,7 +312,7 @@
         </ObjectObjectDimensionReference>
         <ReportingTag>
             <TagValue>$1,041,837</TagValue>
-            <ReportingTag>Local</ReportingTag>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
         </ReportingTag>
     </ChartOfAccount>
     <ChartOfAccount>
@@ -345,7 +345,7 @@
         </ObjectObjectDimensionReference>
         <ReportingTag>
             <TagValue>$852,113</TagValue>
-            <ReportingTag>Local</ReportingTag>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
         </ReportingTag>
     </ChartOfAccount>
     <ChartOfAccount>
@@ -378,7 +378,7 @@
         </ObjectObjectDimensionReference>
         <ReportingTag>
             <TagValue>$3,160,058</TagValue>
-            <ReportingTag>Local</ReportingTag>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
         </ReportingTag>
     </ChartOfAccount>
     <ChartOfAccount>
@@ -411,7 +411,7 @@
         </ObjectObjectDimensionReference>
         <ReportingTag>
             <TagValue>$17,114,917</TagValue>
-            <ReportingTag>Local</ReportingTag>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
         </ReportingTag>
     </ChartOfAccount>
 	<ChartOfAccount>
@@ -444,7 +444,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$3850337</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -477,7 +477,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$2256487</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -510,7 +510,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$811644</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -543,7 +543,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$972</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -576,7 +576,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$2526</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -609,7 +609,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$558</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -642,7 +642,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$7715085</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -675,7 +675,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$2847039</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -708,7 +708,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$704466</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -741,7 +741,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$21908</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -774,7 +774,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$6369273</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -807,7 +807,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$2676825</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -840,7 +840,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$29781</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -873,7 +873,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$4535</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -906,7 +906,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$63435</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -939,7 +939,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$2856</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -972,7 +972,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$5534358</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1005,7 +1005,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$1858704</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1038,7 +1038,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$864</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1071,7 +1071,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$40018</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1104,7 +1104,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$9798348</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1137,7 +1137,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$2068058</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1170,7 +1170,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$21120</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1203,7 +1203,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$66</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1236,7 +1236,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$45637</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1269,7 +1269,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$1786382</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1302,7 +1302,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$501798</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1335,7 +1335,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$6015</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1368,7 +1368,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$13</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1401,7 +1401,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$11375</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1434,7 +1434,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$693964</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1467,7 +1467,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$168798</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1500,7 +1500,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$7511</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1533,7 +1533,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$878580</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1566,7 +1566,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$369797</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1599,7 +1599,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$17859</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1632,7 +1632,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$2</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1665,7 +1665,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$30440</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1698,7 +1698,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$4500317</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1731,7 +1731,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$828376</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1764,7 +1764,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$18</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1797,7 +1797,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$24829</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1830,7 +1830,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$4630214</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1863,7 +1863,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$1616445</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1896,7 +1896,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$2098002</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1929,7 +1929,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$514041</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1962,7 +1962,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$5852</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -1995,7 +1995,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$473</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2028,7 +2028,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$1015</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2061,7 +2061,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$98132</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2094,7 +2094,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$4661904</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2127,7 +2127,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$6236</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2160,7 +2160,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$2143677</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2193,7 +2193,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$699008</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2226,7 +2226,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$103076</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2259,7 +2259,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$1561</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2292,7 +2292,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$7017</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2325,7 +2325,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$5066</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2358,7 +2358,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$725444</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2391,7 +2391,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$27442887</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2424,7 +2424,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$10802471</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
@@ -2457,7 +2457,7 @@
 		</ObjectObjectDimensionReference>
 		<ReportingTag>
 			<TagValue>$8997</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</ChartOfAccount>
 	<LocalAccount>
@@ -2482,7 +2482,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$308136446</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2507,7 +2507,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$210788057</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2532,7 +2532,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$47401063</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2557,7 +2557,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$240136</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2582,7 +2582,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$138078127</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2607,7 +2607,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$52275097</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2632,7 +2632,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$1041837</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2657,7 +2657,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$852113</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2682,7 +2682,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$3160058</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2707,7 +2707,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$17114917</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2732,7 +2732,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$3850337</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2757,7 +2757,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$2256487</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2782,7 +2782,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$811644</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2807,7 +2807,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$972</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2832,7 +2832,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$2526</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2857,7 +2857,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$558</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2882,7 +2882,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$7715085</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2907,7 +2907,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$2847039</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2932,7 +2932,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$704466</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2957,7 +2957,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$21908</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -2982,7 +2982,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$6369273</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3007,7 +3007,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$2676825</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3032,7 +3032,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$29781</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3057,7 +3057,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$4535</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3082,7 +3082,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$63435</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3107,7 +3107,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$2856</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3132,7 +3132,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$5534358</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3157,7 +3157,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$1858704</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3182,7 +3182,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$864</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3207,7 +3207,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$40018</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3232,7 +3232,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$9798348</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3257,7 +3257,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$2068058</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3282,7 +3282,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$21120</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3307,7 +3307,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$66</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3332,7 +3332,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$45637</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3357,7 +3357,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$1786382</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3382,7 +3382,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$501798</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3407,7 +3407,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$6015</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3432,7 +3432,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$13</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3457,7 +3457,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$11375</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3482,7 +3482,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$693964</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3507,7 +3507,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$168798</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3532,7 +3532,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$7511</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3557,7 +3557,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$878580</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3582,7 +3582,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$369797</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3607,7 +3607,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$17859</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3632,7 +3632,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$2</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3657,7 +3657,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$30440</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3682,7 +3682,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$4500317</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3707,7 +3707,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$828376</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3732,7 +3732,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$18</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3757,7 +3757,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$24829</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3782,7 +3782,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$4630214</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3807,7 +3807,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$1616445</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3832,7 +3832,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$2098002</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3857,7 +3857,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$514041</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3882,7 +3882,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$5852</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3907,7 +3907,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$473</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3932,7 +3932,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$1015</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3957,7 +3957,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$98132</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -3982,7 +3982,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$4661904</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4007,7 +4007,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$6236</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4032,7 +4032,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$2143677</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4057,7 +4057,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$699008</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4082,7 +4082,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$103076</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4107,7 +4107,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$1561</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4132,7 +4132,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$7017</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4157,7 +4157,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$5066</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4182,7 +4182,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$725444</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4207,7 +4207,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$27442887</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4232,7 +4232,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$10802471</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
@@ -4257,7 +4257,7 @@
 		</ChartOfAccountReference>
 		<ReportingTag>
 			<TagValue>$8997</TagValue>
-			<ReportingTag>Local</ReportingTag>
+			<ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#LEA</ReportingTag>
 		</ReportingTag>
 	</LocalAccount>
 </InterchangeFinance>
