@@ -43,7 +43,7 @@
 		</AssessmentPerformanceLevel>
 		<AssessmentPerformanceLevel>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Did Not Meet Standard</PerformanceLevel>
-			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Did Not Meet Standard</AssessmentReportingMethod>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Proficiency level</AssessmentReportingMethod>
 			<PerformanceLevelIndicatorName>Did Not Meet Standard</PerformanceLevelIndicatorName>
 		</AssessmentPerformanceLevel>			
 		<AssessmentPeriod>
