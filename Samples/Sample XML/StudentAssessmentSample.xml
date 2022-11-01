@@ -11,7 +11,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</WhenAssessedGradeLevel>
 		<StudentReference>
 			<StudentIdentity>
-				<StudentUniqueId>123456700</StudentUniqueId>
+				<StudentUniqueId>605123</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<AssessmentReference>
@@ -38,7 +38,7 @@
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
-				<StudentUniqueId>123456700</StudentUniqueId>
+				<StudentUniqueId>605123</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<AssessmentReference>
