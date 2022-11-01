@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/4.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<ReportingTagDescriptor>
+		<CodeValue>CMO</CodeValue>
+		<ShortDescription>Charter Management Organization</ShortDescription>
+		<Description>Charter Management Organization</Description>
+		<Namespace>uri://ed-fi.org/ReportingTagDescriptor</Namespace>
+	</ReportingTagDescriptor>
+	<ReportingTagDescriptor>
+		<CodeValue>ESSA</CodeValue>
+		<ShortDescription>Every Student Succeeds Act</ShortDescription>
+		<Description>Every Student Succeeds Act</Description>
+		<Namespace>uri://ed-fi.org/ReportingTagDescriptor</Namespace>
+	</ReportingTagDescriptor>
+	<ReportingTagDescriptor>
 		<CodeValue>Federal</CodeValue>
 		<ShortDescription>Federal</ShortDescription>
 		<Description>Federal</Description>
 		<Namespace>uri://ed-fi.org/ReportingTagDescriptor</Namespace>
-	</ReportingTagDescriptor>
+	</ReportingTagDescriptor>		
 	<ReportingTagDescriptor>
-		<CodeValue>Local</CodeValue>
-		<ShortDescription>Local</ShortDescription>
-		<Description>Local</Description>
+		<CodeValue>LEA</CodeValue>
+		<ShortDescription>Local Education Agency</ShortDescription>
+		<Description>Local Education Agency</Description>
 		<Namespace>uri://ed-fi.org/ReportingTagDescriptor</Namespace>
 	</ReportingTagDescriptor>
 	<ReportingTagDescriptor>
-		<CodeValue>State</CodeValue>
-		<ShortDescription>State</ShortDescription>
-		<Description>State</Description>
+		<CodeValue>SEA</CodeValue>
+		<ShortDescription>State Education Agency</ShortDescription>
+		<Description>State Education Agency</Description>
 		<Namespace>uri://ed-fi.org/ReportingTagDescriptor</Namespace>
 	</ReportingTagDescriptor>
 </InterchangeDescriptors>
