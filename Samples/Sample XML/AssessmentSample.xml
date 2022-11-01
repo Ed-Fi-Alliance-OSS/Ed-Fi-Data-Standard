@@ -38,7 +38,7 @@
 		</AssessmentScore>
 		<AssessmentPerformanceLevel>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
-			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Met Standard</AssessmentReportingMethod>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Proficiency level</AssessmentReportingMethod>
 			<PerformanceLevelIndicatorName>Met Standard</PerformanceLevelIndicatorName>
 		</AssessmentPerformanceLevel>
 		<AssessmentPerformanceLevel>
