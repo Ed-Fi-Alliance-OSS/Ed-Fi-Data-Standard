@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/4.0.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/4.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 4.0.0-a ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 4.0.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -4538,6 +4538,16 @@
               <xs:documentation>Reported time student was assessed in minutes.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="ReportedSchoolReference" type="SchoolReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The school reference reported as the school the enrollment at the time of the assessment using the assigned SchoolId.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ReportedSchoolIdentifier" type="SchoolIdentifier" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>A reported school identifier for the school the enrollment at the time of the assessment used when the assigned SchoolId is not known by the assessment vendor.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -5849,6 +5859,17 @@
   <xs:complexType name="EducationalEnvironmentDescriptor">
     <xs:annotation>
       <xs:documentation>The setting in which a child receives education and related services.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EducationOrganizationAssociationTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type of education organization association being represented.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7897,6 +7918,43 @@
           <xs:element name="PercentageContribution" type="Percent" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Indicates the percentage of the total scheduled course time, academic standards, and/or learning activities delivered in this section by this staff member. A teacher of record designation may be based solely or partially on this contribution percentage.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentAssessmentEducationOrganizationAssociation">
+    <xs:annotation>
+      <xs:documentation>The association of individual StudentAssessments with EducationOrganizations indicating administration, enrollment, or attribution.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentAssessmentReference" type="StudentAssessmentReferenceType">
+            <xs:annotation>
+              <xs:documentation>The student assessment associated with the education organization.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The education organization associated with the student assessment results.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationAssociationType" type="EducationOrganizationAssociationTypeDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The type of association being represented.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EducationOrganizationAssociationTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SchoolYear" type="SchoolYearType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The school year associated with the association..</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -13266,6 +13324,53 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentAssessmentEducationOrganizationAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentAssessmentEducationOrganizationAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentAssessmentReference" type="StudentAssessmentReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student assessment associated with the education organization.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The education organization associated with the student assessment results.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EducationOrganizationAssociationType" type="EducationOrganizationAssociationTypeDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The type of association being represented.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>EducationOrganizationAssociationTypeDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentAssessmentEducationOrganizationAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentAssessmentEducationOrganizationAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentAssessmentEducationOrganizationAssociationIdentity" type="StudentAssessmentEducationOrganizationAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentAssessmentEducationOrganizationAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentAssessmentIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a StudentAssessment.</xs:documentation>
@@ -15669,6 +15774,15 @@
   <xs:simpleType name="EducationalEnvironmentDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The setting in which a child receives education and related services.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="EducationOrganizationAssociationTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type of education organization association being represented.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -21247,6 +21361,18 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="35" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SchoolIdentifier">
+    <xs:annotation>
+      <xs:documentation>The alphanumeric string that identifies the school.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="SectionIdentifier">
