@@ -21,7 +21,7 @@
 			</EducationContentReference>
 		</EducationContentSource>
 		<InterventionClass>uri://ed-fi.org/InterventionClassDescriptor#Practice</InterventionClass>
-		<Diagnosis>uri://ed-fi.org/DiagnosisDescriptor#Dropout Risk</Diagnosis>
+		<Diagnosis>uri://gbisd.edu/DiagnosisDescriptor#Dropout Risk</Diagnosis>
 		<AppropriateGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</AppropriateGradeLevel>
 		<AppropriateGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</AppropriateGradeLevel>
 		<AppropriateGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AppropriateGradeLevel>
@@ -45,7 +45,7 @@
 			</EducationContentReference>
 		</EducationContentSource>
 		<InterventionClass>uri://ed-fi.org/InterventionClassDescriptor#Practice</InterventionClass>
-		<Diagnosis>uri://ed-fi.org/DiagnosisDescriptor#Dropout Risk</Diagnosis>
+		<Diagnosis>uri://gbisd.edu/DiagnosisDescriptor#Dropout Risk</Diagnosis>
 		<AppropriateGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</AppropriateGradeLevel>
 		<DeliveryMethod>uri://ed-fi.org/DeliveryMethodDescriptor#Whole Class</DeliveryMethod>
 		<InterventionPrescriptionReference>
@@ -80,7 +80,7 @@
 			</InterventionPrescriptionIdentity>
 		</InterventionPrescriptionReference>
 		<InterventionEffectiveness>
-			<Diagnosis>uri://ed-fi.org/DiagnosisDescriptor#Dropout Risk</Diagnosis>
+			<Diagnosis>uri://gbisd.edu/DiagnosisDescriptor#Dropout Risk</Diagnosis>
 			<PopulationServed>uri://ed-fi.org/PopulationServedDescriptor#Regular Students</PopulationServed>
 			<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</GradeLevel>
 			<InterventionEffectivenessRating>uri://ed-fi.org/InterventionEffectivenessRatingDescriptor#Potentially Positive Effects</InterventionEffectivenessRating>
