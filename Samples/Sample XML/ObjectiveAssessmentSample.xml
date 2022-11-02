@@ -971,7 +971,7 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
 		</AssessmentScore>
 		<AssessmentScore>	
-			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Omitted or Not Attempted</AssessmentReportingMethod>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Mastery level</AssessmentReportingMethod>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
 		</AssessmentScore>
 	</ObjectiveAssessment>	

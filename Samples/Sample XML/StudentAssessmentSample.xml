@@ -11,7 +11,7 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</WhenAssessedGradeLevel>
 		<StudentReference>
 			<StudentIdentity>
-				<StudentUniqueId>123456700</StudentUniqueId>
+				<StudentUniqueId>605123</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<AssessmentReference>
@@ -33,12 +33,12 @@
 		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
-			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Met Standard</AssessmentReportingMethod>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Proficiency level</AssessmentReportingMethod>
 			<PerformanceLevelIndicatorName>Met Standard</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
-				<StudentUniqueId>123456700</StudentUniqueId>
+				<StudentUniqueId>605123</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
 		<AssessmentReference>
