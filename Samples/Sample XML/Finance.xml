@@ -217,6 +217,33 @@
         </ReportingTag>
     </ChartOfAccount>
     <ChartOfAccount>
+        <AccountIdentifier>1-1-5000-000</AccountIdentifier>
+        <FiscalYear>2022</FiscalYear>
+        <EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+			    <EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>        
+        </EducationOrganizationReference>
+        <AccountType>uri://ed-fi.org/AccountTypeDescriptor#Revenue</AccountType>
+        <AccountName>TOTAL OTHER FINANCING SOURCES</AccountName>
+        <FundFundDimensionReference>
+            <FundDimensionIdentity>
+                <Code>1</Code>
+                <FiscalYear>2022</FiscalYear>
+            </FundDimensionIdentity>
+        </FundFundDimensionReference>
+        <SourceSourceDimensionReference>
+            <SourceDimensionIdentity>
+                <Code>5000</Code>
+                <FiscalYear>2022</FiscalYear>
+            </SourceDimensionIdentity>
+        </SourceSourceDimensionReference>
+        <ReportingTag>
+            <TagValue>$240,136</TagValue>
+            <ReportingTag>uri://ed-fi.org/ReportingTagDescriptor#Federal</ReportingTag>
+        </ReportingTag>
+    </ChartOfAccount>	
+    <ChartOfAccount>
         <AccountIdentifier>2-1-1000-100</AccountIdentifier>
         <FiscalYear>2022</FiscalYear>
         <EducationOrganizationReference>
@@ -1273,7 +1300,7 @@
 		</ReportingTag>
 	</ChartOfAccount>
 	<ChartOfAccount>
-		<AccountIdentifier>2-1-2160-100</AccountIdentifier>
+		<AccountIdentifier>2-1-2160-200</AccountIdentifier>
 		<FiscalYear>2022</FiscalYear>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
@@ -3361,7 +3388,7 @@
 		</ReportingTag>
 	</LocalAccount>
 	<LocalAccount>
-		<AccountIdentifier>2-1-2160-100</AccountIdentifier>
+		<AccountIdentifier>2-1-2160-200</AccountIdentifier>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
 				<EducationOrganizationId>255901</EducationOrganizationId>
@@ -3371,7 +3398,7 @@
 		<AccountName>SUPPORT SERVICES - STUDENT - OCCUPATIONAL THERAPY-RELATED SERVICES - SPED - Benefits</AccountName>
 		<ChartOfAccountReference>
 			<ChartOfAccountIdentity>
-				<AccountIdentifier>2-1-2160-100</AccountIdentifier>
+				<AccountIdentifier>2-1-2160-200</AccountIdentifier>
 				<FiscalYear>2022</FiscalYear>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
