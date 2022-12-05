@@ -7,11 +7,23 @@
 		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
 	</CreditCategoryDescriptor>
 	<CreditCategoryDescriptor>
-		<CodeValue>Career and Technical Education</CodeValue>
-		<ShortDescription>Career and Technical Education</ShortDescription>
-		<Description>Career and Technical Education</Description>
+		<CodeValue>College Preparatory</CodeValue>
+		<ShortDescription>College Preparatory</ShortDescription>
+		<Description>College Preparatory</Description>
 		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
 	</CreditCategoryDescriptor>
+	<CreditCategoryDescriptor>
+		<CodeValue>Dual Credit</CodeValue>
+		<ShortDescription>Dual Credit</ShortDescription>
+		<Description>Dual Credit</Description>
+		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+	</CreditCategoryDescriptor>
+	<CreditCategoryDescriptor>
+		<CodeValue>General</CodeValue>
+		<ShortDescription>General</ShortDescription>
+		<Description>General</Description>
+		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
+	</CreditCategoryDescriptor>      
 	<CreditCategoryDescriptor>
 		<CodeValue>Honors</CodeValue>
 		<ShortDescription>Honors</ShortDescription>
@@ -31,9 +43,9 @@
 		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
 	</CreditCategoryDescriptor>
 	<CreditCategoryDescriptor>
-		<CodeValue>Dual Credit</CodeValue>
-		<ShortDescription>DEPRECATED: Dual Credit</ShortDescription>
-		<Description>DEPRECATED: Dual Credit</Description>
+		<CodeValue>Career and Technical Education</CodeValue>
+		<ShortDescription>DEPRECATED: Career and Technical Education</ShortDescription>
+		<Description>DEPRECATED: Career and Technical Education</Description>
 		<Namespace>uri://ed-fi.org/CreditCategoryDescriptor</Namespace>
 	</CreditCategoryDescriptor>
 </InterchangeDescriptors>
