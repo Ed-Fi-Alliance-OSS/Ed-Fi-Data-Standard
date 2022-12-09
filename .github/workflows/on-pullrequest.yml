@@ -7,15 +7,11 @@ name: On Pull Request
 
 on:
   pull_request:
-    # Trigger ODS/API build for testing purposes
     branches: [main]
-    # However, we don't need to trigger for every file change - only XML files.
     paths:
       - "**/*.xml"
       - "**/*.xsd"
   push:
-    # Trigger ODS/API build to create a new pre-release artifact of the ODS/API,
-    # incorporating the changed XML files.
     branches: [main]
     paths:
       - "**/*.xml"
