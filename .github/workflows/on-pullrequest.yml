@@ -1,0 +1,49 @@
+# SPDX-License-Identifier: Apache-2.0
+# Licensed to the Ed-Fi Alliance under one or more agreements.
+# The Ed-Fi Alliance licenses this file to you under the Apache License, Version 2.0.
+# See the LICENSE and NOTICES files in the project root for more information.
+
+name: On Pull Request
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "**/*.xml"
+      - "**/*.xsd"
+  push:
+    branches: [main]
+    paths:
+      - "**/*.xml"
+      - "**/*.xsd"
+  workflow_dispatch:
+
+env:
+  EDFI_ODS_TOKEN: ${{ secrets.REPO_DISPATCH_TOKEN }}
+  HEAD_REF: ${{ GITHUB.HEAD_REF }}
+  REF_NAME: ${{ GITHUB.REF_NAME }}
+
+jobs:
+  trigger-ods-platform:
+    name: Trigger EdFi.Ods.DB.Templates workflow in ODS repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set Current Branch Environment Variable
+        shell: pwsh
+        run: |
+          $current_branch = '${{env.REF_NAME}}'
+          if ($current_branch -like "*/merge"){
+            $current_branch = '${{env.HEAD_REF}}'
+          }
+
+          Write-Output "Current Branch: $current_branch"
+          Write-Output "current_branch=$current_branch" >> $Env:GITHUB_ENV
+
+      - name: Dispatch to ODS repo
+        uses: peter-evans/repository-dispatch@11ba7d3f32dc7cc919d1c43f1fec1c05260c26b5 # v2
+        with:
+          token: ${{ env.EDFI_ODS_TOKEN }}
+          repository: Ed-Fi-Alliance-OSS/Ed-Fi-ODS
+          event-type: triggered-from-datastandard-repo
+          client-payload: '{"branch": "${{ env.current_branch }}"}'
