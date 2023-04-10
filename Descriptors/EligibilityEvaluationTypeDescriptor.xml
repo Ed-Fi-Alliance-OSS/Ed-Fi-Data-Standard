@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/4.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<EligibilityEvaluationTypeDescriptor>
+		<CodeValue>Initial</CodeValue>
+		<ShortDescription>Initial Evaluation</ShortDescription>
+		<Description>Initial Evaluation</Description>
+		<Namespace>uri://ed-fi.org/EligibilityEvaluationTypeDescriptor</Namespace>
+	</EligibilityEvaluationTypeDescriptor>
+	<EligibilityEvaluationTypeDescriptor>
+		<CodeValue>Reevaluation</CodeValue>
+		<ShortDescription>Reevaluation</ShortDescription>
+		<Description>Reevaluation</Description>
+		<Namespace>uri://ed-fi.org/EligibilityEvaluationTypeDescriptor</Namespace>
+	</EligibilityEvaluationTypeDescriptor>
+</InterchangeDescriptors>
