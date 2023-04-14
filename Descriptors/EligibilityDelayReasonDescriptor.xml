@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/4.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<EligibilityDelayReasonDescriptor>
-		<CodeValue>01</CodeValue>
-		<ShortDescription>LEA Delay Due to Lack of Available Assessment Personnel.</ShortDescription>
-		<Description>LEA Delay Due to Lack of Available Assessment Personnel.</Description>
+		<CodeValue>Detailed Records Maintained by LEA</CodeValue>
+		<ShortDescription>Detailed Records Maintained by LEA</ShortDescription>
+		<Description>LEA agreement with parent or guardian to timeframe. Detailed records maintained by LEA.</Description>
 		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
 	</EligibilityDelayReasonDescriptor>
 	<EligibilityDelayReasonDescriptor>
-		<CodeValue>02</CodeValue>
-		<ShortDescription>LEA Delay Due to Scheduling</ShortDescription>
-		<Description>LEA Delay Due to Scheduling</Description>
+		<CodeValue>Lack of Available Assessment Personnel</CodeValue>
+		<ShortDescription>Lack of Available Assessment Personnel</ShortDescription>
+		<Description>LEA delay due to lack of available assessment personnel.</Description>
 		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
 	</EligibilityDelayReasonDescriptor>
 	<EligibilityDelayReasonDescriptor>
-		<CodeValue>03</CodeValue>
-		<ShortDescription>LEA Delay Due to Late Report from Contracted Personnel.</ShortDescription>
-		<Description>LEA Delay Due to Late Report from Contracted Personnel.</Description>
+		<CodeValue>Late Report from Contracted Personnel</CodeValue>
+		<ShortDescription>Late Report from Contracted Personnel</ShortDescription>
+		<Description>LEA delay due to late report from contracted personnel.</Description>
 		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
 	</EligibilityDelayReasonDescriptor>
     <EligibilityDelayReasonDescriptor>
-		<CodeValue>04</CodeValue>
-		<ShortDescription>Parent Delay (No Detailed Records).</ShortDescription>
-		<Description>Parent Delay (No Detailed Records Maintained by LEA Regarding a Parent of a Child who Repeatedly Fails or Refuses to Produce the Child for the Evaluation or Eligibility Determination).</Description>
+		<CodeValue>No Detailed Records by LEA</CodeValue>
+		<ShortDescription>No Detailed Records by LEA</ShortDescription>
+		<Description>LEA agreement with parent to timeframe. No detailed records maintained by LEA.</Description>
 		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
 	</EligibilityDelayReasonDescriptor>
     <EligibilityDelayReasonDescriptor>
-		<CodeValue>05</CodeValue>
-		<ShortDescription>Parent Delay (Detailed Records).</ShortDescription>
-		<Description>Parent Delay (Detailed Records Maintained by LEA Regarding a Parent of a Child who Repeatedly Fails or Refuses to Produce the Child for the Evaluation or Eligibility Determination).</Description>
-		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
-	</EligibilityDelayReasonDescriptor>
-    <EligibilityDelayReasonDescriptor>
-		<CodeValue>06</CodeValue>
-		<ShortDescription>No Detailed Records Maintained by LEA.</ShortDescription>
-		<Description>LEA Agreement with Parent to Timeframe (No Detailed Records Maintained by LEA).</Description>
-		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
-	</EligibilityDelayReasonDescriptor>
-    <EligibilityDelayReasonDescriptor>
-		<CodeValue>07</CodeValue>
-		<ShortDescription>Detailed Records Maintained by LEA.</ShortDescription>
-		<Description>LEA Agreement with Parent to Timeframe (Detailed Records Maintained by LEA).</Description>
-		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
-	</EligibilityDelayReasonDescriptor>
-    <EligibilityDelayReasonDescriptor>
-		<CodeValue>08</CodeValue>
-		<ShortDescription>Part C (ECI)</ShortDescription>
-		<Description>Part C (ECI) Did Not Notify/Refer Child to Part B at Least 90 Days Prior to the Child's Third Birthday.</Description>
-		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
-	</EligibilityDelayReasonDescriptor>
-    <EligibilityDelayReasonDescriptor>
-		<CodeValue>09</CodeValue>
+		<CodeValue>Other</CodeValue>
 		<ShortDescription>Other</ShortDescription>
 		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
+	</EligibilityDelayReasonDescriptor>		
+    <EligibilityDelayReasonDescriptor>
+		<CodeValue>Parent/Guardian Delay - Detailed Records</CodeValue>
+		<ShortDescription>Parent Delay - Detailed Records</ShortDescription>
+		<Description>Delay due to parent or guardian. Detailed records maintained by LEA regarding a parent or guardian of a child who repeatedly fails or refuses to produce the child for the evaluation or eligibility determination.</Description>
+		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
+	</EligibilityDelayReasonDescriptor>	
+	<EligibilityDelayReasonDescriptor>
+		<CodeValue>Parent/Guardian Delay - No Detailed Records</CodeValue>
+		<ShortDescription>Parent Delay - No Detailed Records</ShortDescription>
+		<Description>Delay due to parent or guardian. No detailed records maintained by LEA regarding a parent or guardian of a child who repeatedly fails or refuses to produce the child for the evaluation or eligibility determination.</Description>
+		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
+	</EligibilityDelayReasonDescriptor>
+    <EligibilityDelayReasonDescriptor>
+		<CodeValue>Part C (ECI)</CodeValue>
+		<ShortDescription>Part C (ECI)</ShortDescription>
+		<Description>Part C (ECI) did not notify or refer the child to Part B at least 90 days prior to the child's third birthday.</Description>
+		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
+	</EligibilityDelayReasonDescriptor>	
+	<EligibilityDelayReasonDescriptor>
+		<CodeValue>Scheduling</CodeValue>
+		<ShortDescription>LEA Delay Due to Scheduling</ShortDescription>
+		<Description>LEA delay due to scheduling.</Description>
 		<Namespace>uri://ed-fi.org/EligibilityDelayReasonDescriptor</Namespace>
 	</EligibilityDelayReasonDescriptor>
 </InterchangeDescriptors>
