@@ -863,6 +863,86 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="Contact">
+    <xs:annotation>
+      <xs:documentation>This entity represents a contact of a student, such as a parent, guardian or caretaker.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="ContactUniqueId" type="UniqueId">
+            <xs:annotation>
+              <xs:documentation>A unique alphanumeric code assigned to a contact.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Name" type="Name">
+            <xs:annotation>
+              <xs:documentation>Full legal name of the person.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="OtherName" type="OtherName" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Other names (e.g., alias, nickname, previous legal name) associated with a person.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>A person's gender.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SexDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Address" type="Address" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Contact's address, if different from the student address.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="InternationalAddress" type="InternationalAddress" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The set of elements that describes an international address.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Telephone" type="Telephone" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The 10-digit telephone number, including the area code, for the person.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ElectronicMail" type="ElectronicMail" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The numbers, letters, and symbols used to identify an electronic mail (e-mail) user within the network to which the individual or organization belongs.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="LoginId" type="IdentificationCode" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The login ID for the user; used for security access control interface.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Language" type="Language" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The language(s) the individual uses to communicate. It is strongly recommended that entries use only ISO 639-2 language codes.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Relates the contact to a generic person.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="HighestCompletedLevelOfEducation" type="LevelOfEducationDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The extent of formal instruction an individual has received (e.g., the highest grade in school completed or its equivalent or the highest degree received).</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>LevelOfEducationDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="Course">
     <xs:annotation>
       <xs:documentation>This educational entity represents the organization of subject matter and related learning experiences provided for the instruction of students on a regular or systematic basis.</xs:documentation>
@@ -1094,7 +1174,7 @@
               <xs:documentation>The number of credits a student attempted and could earn for successfully completing a given course.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="EarnedCredits" type="Credits">
+          <xs:element name="EarnedCredits" type="Credits" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The number of credits a student earned for completing a given course.</xs:documentation>
             </xs:annotation>
@@ -1856,6 +1936,11 @@
           <xs:element name="CurrentGradeAsOfDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>As-Of date for a grade posted as the current grade.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="GradeEarnedDescription" type="GradeEarnedDescription" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>A description of the grade earned by the learner.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -3138,86 +3223,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="Parent">
-    <xs:annotation>
-      <xs:documentation>This entity represents a parent or guardian of a student, such as mother, father, or caretaker.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="ParentUniqueId" type="UniqueId">
-            <xs:annotation>
-              <xs:documentation>A unique alphanumeric code assigned to a parent.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Name" type="Name">
-            <xs:annotation>
-              <xs:documentation>Full legal name of the person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="OtherName" type="OtherName" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Other names (e.g., alias, nickname, previous legal name) associated with a person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>A person's gender.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>SexDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Address" type="Address" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Parent's address, if different from the student address.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="InternationalAddress" type="InternationalAddress" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The set of elements that describes an international address.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Telephone" type="Telephone" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The 10-digit telephone number, including the area code, for the person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ElectronicMail" type="ElectronicMail" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The numbers, letters, and symbols used to identify an electronic mail (e-mail) user within the network to which the individual or organization belongs.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="LoginId" type="IdentificationCode" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The login ID for the user; used for security access control interface.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Language" type="Language" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The language(s) the individual uses to communicate. It is strongly recommended that entries use only ISO 639-2 language codes.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Relates the parent to a generic person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="HighestCompletedLevelOfEducation" type="LevelOfEducationDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The extent of formal instruction an individual has received (e.g., the highest grade in school completed or its equivalent or the highest degree received).</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>LevelOfEducationDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="Person">
     <xs:annotation>
       <xs:documentation>This entity represents a human being.</xs:documentation>
@@ -4294,7 +4299,7 @@
           </xs:element>
           <xs:element name="CumulativeAttemptedCredits" type="Credits" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The cumulative number of credits an individual attempts to earn by taking courses during his or her enrollment in the current school as well as those credits transferred from schools in which the individual had been previously enrolled.</xs:documentation>
+              <xs:documentation>The total number of credits a student has earned plus the total number of credits the student has attempted but not earned from distinct courses. This includes credits attempted and earned from all schools the student has been enrolled.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="CumulativeGradePointsEarned" type="GPA" minOccurs="0">
@@ -5121,9 +5126,9 @@
                 <xs:documentation>The student respondent for a survey.</xs:documentation>
               </xs:annotation>
             </xs:element>
-            <xs:element name="ParentReference" type="ParentReferenceType">
+            <xs:element name="ContactReference" type="ContactReferenceType">
               <xs:annotation>
-                <xs:documentation>The parent respondent for a survey.</xs:documentation>
+                <xs:documentation>The contact respondent for a survey.</xs:documentation>
               </xs:annotation>
             </xs:element>
             <xs:element name="StaffReference" type="StaffReferenceType">
@@ -5925,6 +5930,17 @@
   <xs:complexType name="EmploymentStatusDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the type of employment or contract.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EnrollmentTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type of enrollment reflected by the StudentSchoolAssociation.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6915,6 +6931,17 @@
   <xs:complexType name="SchoolCategoryDescriptor">
     <xs:annotation>
       <xs:documentation>The category of school. For example: High School, Middle School, Elementary School.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SchoolChoiceBasisDescriptor">
+    <xs:annotation>
+      <xs:documentation>The legal basis for the school choice enrollment according to local, state or federal policy or regulation. (The descriptor provides the list of available bases specific to the state).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -8000,6 +8027,68 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentContactAssociation">
+    <xs:annotation>
+      <xs:documentation>This association relates students to their parents, guardians, or caretakers.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>The student associated with the contact.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ContactReference" type="ContactReferenceType">
+            <xs:annotation>
+              <xs:documentation>The contact associated with the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Relation" type="RelationDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The nature of an individual's relationship to a student, primarily used to capture family relationships.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>RelationDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="PrimaryContactStatus" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicator of whether the person is a primary contact for the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="LivesWith" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicator of whether the student lives with the associated contact.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EmergencyContactStatus" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicator of whether the person is a designated emergency contact for the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ContactPriority" type="xs:int" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The numeric order of the preferred sequence or priority of contact.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ContactRestrictions" type="ContactRestrictions" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Restrictions for student and/or teacher contact with the individual (e.g., the student may not be picked up by the individual).</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="LegalGuardian" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicator of whether the person is a legal guardian for the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentCTEProgramAssociation">
     <xs:annotation>
       <xs:documentation>This association represents the career and technical education (CTE) program that a student participates in. The association is an extension of the StudentProgramAssociation particular for CTE programs.</xs:documentation>
@@ -8628,68 +8717,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StudentParentAssociation">
-    <xs:annotation>
-      <xs:documentation>This association relates students to their parents, guardians, or caretakers.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Association</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="StudentReference" type="StudentReferenceType">
-            <xs:annotation>
-              <xs:documentation>The student associated with the parent.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ParentReference" type="ParentReferenceType">
-            <xs:annotation>
-              <xs:documentation>The parent associated with the student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Relation" type="RelationDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The nature of an individual's relationship to a student, primarily used to capture family relationships.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>RelationDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PrimaryContactStatus" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator of whether the person is a primary parental contact for the student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="LivesWith" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator of whether the student lives with the associated parent.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EmergencyContactStatus" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator of whether the person is a designated emergency contact for the student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ContactPriority" type="xs:int" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The numeric order of the preferred sequence or priority of contact.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ContactRestrictions" type="ContactRestrictions" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Restrictions for student and/or teacher contact with the individual (e.g., the student may not be picked up by the individual).</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="LegalGuardian" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator of whether the person is a legal guardian for the student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="StudentProgramAssociation">
     <xs:annotation>
       <xs:documentation>This association represents the program(s) that a student participates in or is served by.</xs:documentation>
@@ -8840,6 +8867,40 @@
           <xs:element name="TermCompletionIndicator" type="xs:boolean" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Idicates whether or not a student completed the most recent school term.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="NextYearSchoolReference" type="SchoolReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The anticipated school of enrollment for the student for the next school year, possibly reflecting a rollover to the same school, the promotion to a feeder school, or an anticipated transfer.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="NextYearGradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The anticipated grade level for the student for the next school year.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SchoolChoice" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>An indication of whether the student enrolled in this school under the provisions for public school choice</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SchoolChoiceBasis" type="SchoolChoiceBasisDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The legal basis for the school choice enrollment according to local, state or federal policy or regulation. (The descriptor provides the list of available bases specific to the state</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SchoolChoiceBasisDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EnrollmentType" type="EnrollmentTypeDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The type of enrollment reflected by the StudentSchoolAssociation.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EnrollmentTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -9947,6 +10008,40 @@
           <xs:element name="CompetencyObjectiveIdentity" type="CompetencyObjectiveIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a CompetencyObjective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ContactIdentityType">
+    <xs:annotation>
+      <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of a Contact.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ContactUniqueId" type="UniqueId">
+        <xs:annotation>
+          <xs:documentation>A unique alphanumeric code assigned to a contact.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ContactReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a Contact. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="ContactIdentity" type="ContactIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of a Contact.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -11873,98 +11968,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="ParentIdentityType">
-    <xs:annotation>
-      <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of a Parent.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="ParentUniqueId" type="UniqueId">
-        <xs:annotation>
-          <xs:documentation>A unique alphanumeric code assigned to a parent.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ParentLookupType">
-    <xs:annotation>
-      <xs:documentation>Encapsulates alternative attributes that can be used to look up the identity of a Parent.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Lookup</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="ParentUniqueId" type="UniqueId" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A unique alphanumeric code assigned to a parent.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Name" type="Name" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>Full legal name of the person.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="OtherName" type="OtherName" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>Other names (e.g., alias, nickname, previous legal name) associated with a person.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A person's gender.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>SexDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Address" type="Address" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>Parent's address, if different from the student address.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Telephone" type="Telephone" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The 10-digit telephone number, including the area code, for the person.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="ElectronicMail" type="ElectronicMail" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The numbers, letters, and symbols used to identify an electronic mail (e-mail) user within the network to which the individual or organization belongs.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>Provide user information to lookup and link to an existing educational organization record in the receiving system.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ParentReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a Parent. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="ParentIdentity" type="ParentIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of a Parent.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ParentLookup" type="ParentLookupType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Encapsulates alternative attributes that can be used to look up the identity of a Parent.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="PersonIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a Person.</xs:documentation>
@@ -13503,6 +13506,45 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentContactAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentContactAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student associated with the contact.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ContactReference" type="ContactReferenceType">
+        <xs:annotation>
+          <xs:documentation>The contact associated with the student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentContactAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentContactAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentContactAssociationIdentity" type="StudentContactAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentContactAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentCTEProgramAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a StudentCTEProgramAssociation.</xs:documentation>
@@ -14186,45 +14228,6 @@
           <xs:element name="StudentNeglectedOrDelinquentProgramAssociationIdentity" type="StudentNeglectedOrDelinquentProgramAssociationIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a StudentNeglectedOrDelinquentProgramAssociation.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StudentParentAssociationIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a StudentParentAssociation.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="StudentReference" type="StudentReferenceType">
-        <xs:annotation>
-          <xs:documentation>The student associated with the parent.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="ParentReference" type="ParentReferenceType">
-        <xs:annotation>
-          <xs:documentation>The parent associated with the student.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="StudentParentAssociationReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a StudentParentAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="StudentParentAssociationIdentity" type="StudentParentAssociationIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a StudentParentAssociation.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -15834,6 +15837,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="EnrollmentTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type of enrollment reflected by the StudentSchoolAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="EntryGradeLevelReasonDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The primary reason as to why a staff member determined that a student should be promoted or not (or be demoted) at the end of a given school term.</xs:documentation>
@@ -16638,6 +16650,15 @@
   <xs:simpleType name="SchoolCategoryDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The category of school. For example: High School, Middle School, Elementary School.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="SchoolChoiceBasisDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The legal basis for the school choice enrollment according to local, state or federal policy or regulation. (The descriptor provides the list of available bases specific to the state).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -18878,6 +18899,16 @@
           <xs:documentation>The individual's maiden name.</xs:documentation>
         </xs:annotation>
       </xs:element>
+      <xs:element name="PreferredFirstName" type="FirstName" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The first name the individual prefers, if different from their legal first name</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PreferredLastSurname" type="LastSurname" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The last name the individual prefers, if different from their legal last name</xs:documentation>
+        </xs:annotation>
+      </xs:element>
       <xs:element name="PersonalIdentificationDocument" type="IdentificationDocument" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>The documents presented as evident to verify one's personal identity; for example: drivers license, passport, birth certificate, etc.</xs:documentation>
@@ -20463,7 +20494,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="20" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Comment">
@@ -20763,7 +20794,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="32" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="DocumentTitle">
@@ -20860,6 +20891,18 @@
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="GradeEarnedDescription">
+    <xs:annotation>
+      <xs:documentation>A description of the grade earned by the learner.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0" />
+      <xs:maxLength value="64" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="GradeValueQualifier">
     <xs:annotation>
       <xs:documentation>The scale of equivalents, if applicable, for grades awarded as indicators of performance in schoolwork. For example, numerical equivalents for letter grades used in determining a student's Grade Point Average (A=4, B=3, C=2, D=1 in a four-point system) or letter equivalents for percentage grades (90-100%=A, 80-90%=B, etc.)</xs:documentation>
@@ -20905,7 +20948,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="20" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Indicator">
@@ -21012,7 +21055,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="20" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="LicensingOrganization">
@@ -21348,7 +21391,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="20" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Result">
@@ -21710,12 +21753,14 @@
   </xs:simpleType>
   <xs:simpleType name="EventDuration">
     <xs:annotation>
-      <xs:documentation>The amount of time for the event as recognized by the school: 1 day = 1, 1/2 day = 0.5, 1/3 day = 0.33.</xs:documentation>
+      <xs:documentation>The amount of time as a decimal fraction for the event as recognized by the school: 1 day = 1.0, 1/2 day = 0.5, 1/3 day = 0.33. The value can have up to two decimal places with a min of 0.00 and max of 1.00.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Simple</ann:TypeGroup>
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="1" />
       <xs:totalDigits value="3" />
       <xs:fractionDigits value="2" />
     </xs:restriction>
