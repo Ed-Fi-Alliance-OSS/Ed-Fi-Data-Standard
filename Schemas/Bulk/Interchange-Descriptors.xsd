@@ -78,7 +78,6 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="EducationPlanDescriptor" type="EducationPlanDescriptor" />
         <xs:element name="ElectronicMailTypeDescriptor" type="ElectronicMailTypeDescriptor" />
         <xs:element name="EmploymentStatusDescriptor" type="EmploymentStatusDescriptor" />
-        <xs:element name="EnrollmentTypeDescriptor" type="EnrollmentTypeDescriptor" />
         <xs:element name="EntryGradeLevelReasonDescriptor" type="EntryGradeLevelReasonDescriptor" />
         <xs:element name="EntryTypeDescriptor" type="EntryTypeDescriptor" />
         <xs:element name="EventCircumstanceDescriptor" type="EventCircumstanceDescriptor" />
@@ -169,7 +168,6 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="ResultDatatypeTypeDescriptor" type="ResultDatatypeTypeDescriptor" />
         <xs:element name="RetestIndicatorDescriptor" type="RetestIndicatorDescriptor" />
         <xs:element name="SchoolCategoryDescriptor" type="SchoolCategoryDescriptor" />
-        <xs:element name="SchoolChoiceBasisDescriptor" type="SchoolChoiceBasisDescriptor" />
         <xs:element name="SchoolChoiceImplementStatusDescriptor" type="SchoolChoiceImplementStatusDescriptor" />
         <xs:element name="SchoolFoodServiceProgramServiceDescriptor" type="SchoolFoodServiceProgramServiceDescriptor" />
         <xs:element name="SchoolTypeDescriptor" type="SchoolTypeDescriptor" />
