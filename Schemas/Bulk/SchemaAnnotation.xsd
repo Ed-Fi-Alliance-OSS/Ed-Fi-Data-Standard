@@ -89,6 +89,7 @@
       <xs:enumeration value="ElectronicMailTypeDescriptor" />
       <xs:enumeration value="EmploymentStatusDescriptor" />
       <xs:enumeration value="EnglishLanguageExamDescriptor" />
+      <xs:enumeration value="EnrollmentTypeDescriptor" />
       <xs:enumeration value="EntryGradeLevelReasonDescriptor" />
       <xs:enumeration value="EntryTypeDescriptor" />
       <xs:enumeration value="EPPProgramPathwayDescriptor" />
@@ -190,6 +191,7 @@
       <xs:enumeration value="RetestIndicatorDescriptor" />
       <xs:enumeration value="RubricRatingLevelDescriptor" />
       <xs:enumeration value="SchoolCategoryDescriptor" />
+      <xs:enumeration value="SchoolChoiceBasisDescriptor" />
       <xs:enumeration value="SchoolChoiceImplementStatusDescriptor" />
       <xs:enumeration value="SchoolFoodServiceProgramServiceDescriptor" />
       <xs:enumeration value="SchoolTypeDescriptor" />
