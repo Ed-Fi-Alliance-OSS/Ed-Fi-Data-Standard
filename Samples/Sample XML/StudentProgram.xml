@@ -1296,17 +1296,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Referred</ParticipationStatus>
-			<StatusBeginDate>2021-06-30</StatusBeginDate>
-			<StatusEndDate>2021-08-29</StatusEndDate>
-			<DesignatedBy>255901107</DesignatedBy>
-		</ProgramParticipationStatus>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Eligible</ParticipationStatus>
-			<StatusBeginDate>2021-08-30</StatusBeginDate>
-			<DesignatedBy>255901107</DesignatedBy>
-		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -1767,10 +1756,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Active in Program</ParticipationStatus>
-			<StatusBeginDate>2021-08-30</StatusBeginDate>
-		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -2240,11 +2225,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Refused</ParticipationStatus>
-			<StatusBeginDate>2021-08-30</StatusBeginDate>
-			<StatusEndDate>2021-09-02</StatusEndDate>
-		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -2391,10 +2371,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Eligible</ParticipationStatus>
-			<StatusBeginDate>2021-08-30</StatusBeginDate>
-		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
