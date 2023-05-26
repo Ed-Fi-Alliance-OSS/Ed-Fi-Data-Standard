@@ -7302,6 +7302,50 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="EligibilityDelayReasonDescriptor">
+    <xs:annotation>
+      <xs:documentation>EligibilityDelayReasonDescriptor.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="IDEAPartDescriptor">
+    <xs:annotation>
+      <xs:documentation>IDEAPartDescriptor</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+    <xs:complexType name="EligibilityEvaluationTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>EligibilityEvaluationTypeDescriptor</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EvaluationDelayReasonDescriptor">
+    <xs:annotation>
+      <xs:documentation>EvaluationDelayReasonDescriptor</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>      
   <xs:annotation>
     <xs:documentation>===== Associations =====</xs:documentation>
   </xs:annotation>
