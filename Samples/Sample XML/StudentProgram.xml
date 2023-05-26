@@ -1978,9 +1978,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<Service>
-			<Service>uri://ed-fi.org/ServiceDescriptor#Interpreting services</Service>
-		</Service>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -7531,9 +7528,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<TitleIPartAParticipant>uri://ed-fi.org/TitleIPartAParticipantDescriptor#Public Targeted Assistance Program</TitleIPartAParticipant>
-		<Service>
-			<Service>uri://ed-fi.org/ServiceDescriptor#Audiological Impairment</Service>
-		</Service>
 	</StudentTitleIPartAProgramAssociation>
 	<StudentMigrantEducationProgramAssociation>
 		<StudentReference>
