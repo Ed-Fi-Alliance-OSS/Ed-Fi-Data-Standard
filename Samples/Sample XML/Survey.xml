@@ -276,6 +276,7 @@
 		</SurveyReference>
 		<CourseReference>
 			<CourseIdentity>
+				<CourseCode>ART-1</CourseCode>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
 						<EducationOrganizationId>255901001</EducationOrganizationId>
@@ -296,6 +297,7 @@
 				<SectionIdentifier>25590100102Trad322ART122011</SectionIdentifier>
 				<CourseOfferingReference>
 					<CourseOfferingIdentity>
+						<LocalCourseCode>ART-1</LocalCourseCode>
 						<SchoolReference>
 							<SchoolIdentity>
 								<SchoolId>255901001</SchoolId>
