@@ -1097,6 +1097,7 @@
 		</MeetingTime>
 	</ClassPeriod>
 	<Course>
+		<CourseCode>03100500</CourseCode>
 		<CourseTitle>Algebra I</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1126,6 +1127,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ALG-2</CourseCode>
 		<CourseTitle>Algebra II</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1151,6 +1153,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ART-01</CourseCode>
 		<CourseTitle>Art, Grade 1</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1171,6 +1174,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ART-02</CourseCode>
 		<CourseTitle>Art, Grade 2</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1191,6 +1195,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ART-03</CourseCode>
 		<CourseTitle>Art, Grade 3</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1211,6 +1216,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ART-04</CourseCode>
 		<CourseTitle>Art, Grade 4</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1231,6 +1237,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ART-05</CourseCode>
 		<CourseTitle>Art, Grade 5</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1251,6 +1258,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ART-06</CourseCode>
 		<CourseTitle>Art, Departmentalized Grade 6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1271,6 +1279,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ART-1</CourseCode>
 		<CourseTitle>Art I</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1291,6 +1300,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ART2-EM</CourseCode>
 		<CourseTitle>Art II Electronic Media</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1311,6 +1321,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ART3-EM</CourseCode>
 		<CourseTitle>Art III Electronic Media</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1331,6 +1342,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>BAND-07</CourseCode>
 		<CourseTitle>Music/Band, Grade 7</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1351,6 +1363,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>BAND-08</CourseCode>
 		<CourseTitle>Music/Band, Grade 8</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1371,6 +1384,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>BIO</CourseCode>
 		<CourseTitle>Biology</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1396,6 +1410,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>CHEM</CourseCode>
 		<CourseTitle>Chemistry</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1416,6 +1431,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>CREAT-WR</CourseCode>
 		<CourseTitle>Creative/Imaginative Writing</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1436,6 +1452,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ECO-FE</CourseCode>
 		<CourseTitle>Economics With Free System Emphasis</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1456,6 +1473,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ELA-01</CourseCode>
 		<CourseTitle>English Language Arts, Grade 1</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1476,6 +1494,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>ELA-02</CourseCode>
 		<CourseTitle>English Language Arts, Grade 2</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1501,6 +1520,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ELA-03</CourseCode>
 		<CourseTitle>English Language Arts, Grade 3</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1526,6 +1546,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ELA-04</CourseCode>
 		<CourseTitle>English Language Arts, Grade 4</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1551,6 +1572,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ELA-05</CourseCode>
 		<CourseTitle>English Language Arts, Grade 5</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1576,6 +1598,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ELA-06</CourseCode>
 		<CourseTitle>English Language Arts, Grade 6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1601,6 +1624,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ELA-07</CourseCode>
 		<CourseTitle>English Language Arts And Reading, Grade 7</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1626,6 +1650,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ELA-08</CourseCode>
 		<CourseTitle>English Language Arts And Reading, Grade 8</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1651,6 +1676,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ENG-1</CourseCode>
 		<CourseTitle>English I</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1676,6 +1702,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ENG-2</CourseCode>
 		<CourseTitle>English II</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1701,6 +1728,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ENG-3</CourseCode>
 		<CourseTitle>English III</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1726,6 +1754,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ENG-4</CourseCode>
 		<CourseTitle>English IV</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1751,6 +1780,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>ENVIRSYS</CourseCode>
 		<CourseTitle>Environmental Systems</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1771,6 +1801,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>GEOM</CourseCode>
 		<CourseTitle>Geometry</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1796,6 +1827,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>GOVT</CourseCode>
 		<CourseTitle>United States Government</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1816,6 +1848,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>HLTH-07</CourseCode>
 		<CourseTitle>Health Education, Grades 7-8</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1836,6 +1869,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>HLTH-08</CourseCode>
 		<CourseTitle>Health Education, Grades 7-8</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1856,6 +1890,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>HLTH-ED</CourseCode>
 		<CourseTitle>Health Education</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1876,6 +1911,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>HUMT</CourseCode>
 		<CourseTitle>Humanities</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1896,6 +1932,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>MATH-01</CourseCode>
 		<CourseTitle>Mathematics, Grade 1</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1916,6 +1953,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>MATH-02</CourseCode>
 		<CourseTitle>Mathematics, Grade 2</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1941,6 +1979,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>MATH-03</CourseCode>
 		<CourseTitle>Mathematics, Grade 3</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1966,6 +2005,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>MATH-04</CourseCode>
 		<CourseTitle>Mathematics, Grade 4</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -1991,6 +2031,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>MATH-05</CourseCode>
 		<CourseTitle>Mathematics, Grade 5</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2016,6 +2057,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>MATH-06</CourseCode>
 		<CourseTitle>Mathematics, Departmentalized Grade 6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2041,6 +2083,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>MATH-07</CourseCode>
 		<CourseTitle>Mathematics, Grade 7</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2066,6 +2109,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>MATH-08</CourseCode>
 		<CourseTitle>Mathematics, Grade 8</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2091,6 +2135,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>MUS-01</CourseCode>
 		<CourseTitle>Music, Grade 1</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2111,6 +2156,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>MUS-02</CourseCode>
 		<CourseTitle>Music, Grade 2</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2131,6 +2177,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>MUS-03</CourseCode>
 		<CourseTitle>Music, Grade 3</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2151,6 +2198,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>MUS-04</CourseCode>
 		<CourseTitle>Music, Grade 4</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2171,6 +2219,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>MUS-05</CourseCode>
 		<CourseTitle>Music, Grade 5</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2191,6 +2240,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>MUS-06</CourseCode>
 		<CourseTitle>General Music, Departmentalized Grade 6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2211,6 +2261,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PE-01</CourseCode>
 		<CourseTitle>Physical Education, Grades 1-6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2231,6 +2282,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PE-02</CourseCode>
 		<CourseTitle>Physical Education, Grades 1-6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2251,6 +2303,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PE-03</CourseCode>
 		<CourseTitle>Physical Education, Grades 1-6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2271,6 +2324,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PE-04</CourseCode>
 		<CourseTitle>Physical Education, Grades 1-6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2291,6 +2345,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PE-05</CourseCode>
 		<CourseTitle>Physical Education, Grades 1-6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2311,6 +2366,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PE-06</CourseCode>
 		<CourseTitle>Physical Education, Grades 1-6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2331,6 +2387,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PE-07</CourseCode>
 		<CourseTitle>Physical Education, Grades 7-8</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2351,6 +2408,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PE-08</CourseCode>
 		<CourseTitle>Physical Education, Grades 7-8</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2371,6 +2429,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PHOTJOUR</CourseCode>
 		<CourseTitle>Photojournalism</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2391,6 +2450,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>PHYSICS</CourseCode>
 		<CourseTitle>Physics</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2416,6 +2476,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>PRE-CALC</CourseCode>
 		<CourseTitle>Precalculus</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2441,6 +2502,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SCI-01</CourseCode>
 		<CourseTitle>Science, Grade 1</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2461,6 +2523,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>SCI-02</CourseCode>
 		<CourseTitle>Science, Grade 2</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2486,6 +2549,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SCI-03</CourseCode>
 		<CourseTitle>Science, Grade 3</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2511,6 +2575,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SCI-04</CourseCode>
 		<CourseTitle>Science, Grade 4</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2536,6 +2601,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SCI-05</CourseCode>
 		<CourseTitle>Science, Grade 5</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2561,6 +2627,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SCI-06</CourseCode>
 		<CourseTitle>Science, Departmentalized Grade 6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2586,6 +2653,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SCI-07</CourseCode>
 		<CourseTitle>Science, Grade 7</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2611,6 +2679,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SCI-08</CourseCode>
 		<CourseTitle>Science, Grade 8</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2636,6 +2705,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SPAN-1</CourseCode>
 		<CourseTitle>Languages Other Than English Level I</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2656,6 +2726,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>SPAN-2</CourseCode>
 		<CourseTitle>Languages Other Than English Level II</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2676,6 +2747,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>SPAN-3</CourseCode>
 		<CourseTitle>Languages Other Than English Level III</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2696,6 +2768,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>SS-01</CourseCode>
 		<CourseTitle>Social Studies, Grade 1</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2716,6 +2789,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>SS-02</CourseCode>
 		<CourseTitle>Social Studies, Grade 2</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2741,6 +2815,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SS-03</CourseCode>
 		<CourseTitle>Social Studies, Grade 3</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2766,6 +2841,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SS-04</CourseCode>
 		<CourseTitle>Social Studies, Grade 4</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2791,6 +2867,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SS-05</CourseCode>
 		<CourseTitle>Social Studies, Grade 5</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2816,6 +2893,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SS-06</CourseCode>
 		<CourseTitle>Social Studies, Departmentalized Grade 6</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2841,6 +2919,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SS-07</CourseCode>
 		<CourseTitle>Social Studies, Grade 7</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2866,6 +2945,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>SS-08</CourseCode>
 		<CourseTitle>Social Studies, Grade 8</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2891,6 +2971,7 @@
 		</LearningStandardReference>
 	</Course>
 	<Course>
+		<CourseCode>TAMULTIM</CourseCode>
 		<CourseTitle>Multimedia</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2911,6 +2992,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>US-HIST</CourseCode>
 		<CourseTitle>United States History Since Reconstruction</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2931,6 +3013,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>WGEO</CourseCode>
 		<CourseTitle>World Geography Studies</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
@@ -2951,6 +3034,7 @@
 		</EducationOrganizationReference>
 	</Course>
 	<Course>
+		<CourseCode>W-HIST</CourseCode>
 		<CourseTitle>World History Studies</CourseTitle>
 		<NumberOfParts>1</NumberOfParts>
 		<CourseIdentificationCode>
