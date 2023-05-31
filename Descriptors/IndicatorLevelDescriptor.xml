@@ -4,30 +4,30 @@
 		<CodeValue>Excellent</CodeValue>
 		<ShortDescription>Excellent</ShortDescription>
 		<Description>Excellent</Description>
-		<Namespace>uri://ed-fi.org/IndicatorLevelDescriptor</Namespace>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorLevelDescriptor</Namespace>
 	</IndicatorLevelDescriptor>
 	<IndicatorLevelDescriptor>
 		<CodeValue>Good</CodeValue>
 		<ShortDescription>Good</ShortDescription>
 		<Description>Good</Description>
-		<Namespace>uri://ed-fi.org/IndicatorLevelDescriptor</Namespace>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorLevelDescriptor</Namespace>
 	</IndicatorLevelDescriptor>
 	<IndicatorLevelDescriptor>
 		<CodeValue>Average</CodeValue>
 		<ShortDescription>Average</ShortDescription>
 		<Description>Average</Description>
-		<Namespace>uri://ed-fi.org/IndicatorLevelDescriptor</Namespace>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorLevelDescriptor</Namespace>
 	</IndicatorLevelDescriptor>
 	<IndicatorLevelDescriptor>
 		<CodeValue>Below Average</CodeValue>
 		<ShortDescription>Below Average</ShortDescription>
 		<Description>Below Average</Description>
-		<Namespace>uri://ed-fi.org/IndicatorLevelDescriptor</Namespace>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorLevelDescriptor</Namespace>
 	</IndicatorLevelDescriptor>
 	<IndicatorLevelDescriptor>
 		<CodeValue>Unsatisfactory</CodeValue>
 		<ShortDescription>Unsatisfactory</ShortDescription>
 		<Description>Unsatisfactory</Description>
-		<Namespace>uri://ed-fi.org/IndicatorLevelDescriptor</Namespace>
+		<Namespace>uri://tpdm.ed-fi.org/IndicatorLevelDescriptor</Namespace>
 	</IndicatorLevelDescriptor>
 </InterchangeDescriptors>
