@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeStudentProgram xmlns="http://ed-fi.org/4.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/4.0.0 ../../Schemas/Bulk/Interchange-StudentProgram.xsd">
+<InterchangeStudentProgram xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../../Schemas/Bulk/Interchange-StudentProgram.xsd">
 	<StudentProgramAssociation>
 		<StudentReference>
 			<StudentIdentity>
@@ -1296,17 +1296,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Referred</ParticipationStatus>
-			<StatusBeginDate>2021-06-30</StatusBeginDate>
-			<StatusEndDate>2021-08-29</StatusEndDate>
-			<DesignatedBy>255901107</DesignatedBy>
-		</ProgramParticipationStatus>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Eligible</ParticipationStatus>
-			<StatusBeginDate>2021-08-30</StatusBeginDate>
-			<DesignatedBy>255901107</DesignatedBy>
-		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -1767,10 +1756,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Active in Program</ParticipationStatus>
-			<StatusBeginDate>2021-08-30</StatusBeginDate>
-		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -1993,9 +1978,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<Service>
-			<Service>uri://ed-fi.org/ServiceDescriptor#Interpreting services</Service>
-		</Service>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -2240,11 +2222,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Refused</ParticipationStatus>
-			<StatusBeginDate>2021-08-30</StatusBeginDate>
-			<StatusEndDate>2021-09-02</StatusEndDate>
-		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -2391,10 +2368,6 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ProgramParticipationStatus>
-			<ParticipationStatus>uri://ed-fi.org/ParticipationStatusDescriptor#Eligible</ParticipationStatus>
-			<StatusBeginDate>2021-08-30</StatusBeginDate>
-		</ProgramParticipationStatus>
 	</StudentProgramAssociation>
 	<StudentProgramAssociation>
 		<StudentReference>
@@ -7555,9 +7528,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<TitleIPartAParticipant>uri://ed-fi.org/TitleIPartAParticipantDescriptor#Public Targeted Assistance Program</TitleIPartAParticipant>
-		<Service>
-			<Service>uri://ed-fi.org/ServiceDescriptor#Audiological Impairment</Service>
-		</Service>
 	</StudentTitleIPartAProgramAssociation>
 	<StudentMigrantEducationProgramAssociation>
 		<StudentReference>
