@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<EnrollmentTypeDescriptor>
+		<CodeValue>Current</CodeValue>
+		<ShortDescription>Current</ShortDescription>
+		<Description>Current</Description>
+		<Namespace>uri://ed-fi.org/EnrollmentTypeDescriptor</Namespace>
+	</EnrollmentTypeDescriptor> 
+	<EnrollmentTypeDescriptor>
+		<CodeValue>Preregistered</CodeValue>
+		<ShortDescription>Preregistered</ShortDescription>
+		<Description>Preregistered</Description>
+		<Namespace>uri://ed-fi.org/EnrollmentTypeDescriptor</Namespace>
+	</EnrollmentTypeDescriptor>	
+	<EnrollmentTypeDescriptor>
+		<CodeValue>Summer</CodeValue>
+		<ShortDescription>Summer</ShortDescription>
+		<Description>Summer</Description>
+		<Namespace>uri://ed-fi.org/EnrollmentTypeDescriptor</Namespace>
+	</EnrollmentTypeDescriptor>
+</InterchangeDescriptors>
