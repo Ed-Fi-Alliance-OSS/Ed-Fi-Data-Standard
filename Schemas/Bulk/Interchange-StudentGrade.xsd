@@ -13,9 +13,7 @@
         <xs:element name="ReportCard" type="ReportCard" />
         <xs:element name="Grade" type="Grade" />
         <xs:element name="CompetencyObjective" type="CompetencyObjective" />
-        <xs:element name="LearningObjective" type="LearningObjective" />
         <xs:element name="StudentCompetencyObjective" type="StudentCompetencyObjective" />
-        <xs:element name="StudentLearningObjective" type="StudentLearningObjective" />
       </xs:choice>
     </xs:complexType>
   </xs:element>

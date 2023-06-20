@@ -11,7 +11,6 @@
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
         <xs:element name="DisciplineIncident" type="DisciplineIncident" />
-        <xs:element name="StudentDisciplineIncidentAssociation" type="StudentDisciplineIncidentAssociation" />
         <xs:element name="DisciplineAction" type="DisciplineAction" />
         <xs:element name="StaffDisciplineIncidentAssociation" type="StaffDisciplineIncidentAssociation" />
         <xs:element name="StudentDisciplineIncidentBehaviorAssociation" type="StudentDisciplineIncidentBehaviorAssociation" />

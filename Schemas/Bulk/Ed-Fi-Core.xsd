@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/5.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 4.0.0 ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 5.0.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -989,11 +989,6 @@
               <xs:documentation>Learning standard(s) to be taught by the course.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="LearningObjectiveReference" type="LearningObjectiveReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Learning objectives to be mastered in the course.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="MaxCompletionsForCredit" type="MaxCompletionsForCredit" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Designates how many times the course may be taken with credit received by the student.</xs:documentation>
@@ -1094,7 +1089,7 @@
               <xs:documentation>The number of credits a student attempted and could earn for successfully completing a given course.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="EarnedCredits" type="Credits">
+          <xs:element name="EarnedCredits" type="Credits" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The number of credits a student earned for completing a given course.</xs:documentation>
             </xs:annotation>
@@ -1156,11 +1151,6 @@
           <xs:element name="AlternativeCourseTitle" type="CourseTitle" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The descriptive name given to a course of study offered in the school, if different from the CourseTitle.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="AlternativeCourseCode" type="LocalCourseCode" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The local code assigned by the school that identifies the course offering, the code from an external educational organization, or other alternate course code.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ExternalEducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
@@ -1411,11 +1401,6 @@
               <xs:documentation>The student disciplined by the discipline action.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentDisciplineIncidentAssociationReference" type="StudentDisciplineIncidentAssociationReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Reference to the discipline incident associated with the discipline action.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="StaffReference" type="StaffReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The staff responsible for enforcing the discipline action.</xs:documentation>
@@ -1429,11 +1414,6 @@
           <xs:element name="AssignmentSchoolReference" type="SchoolReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>School where student is transferred for discipline.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ReceivedEducationServicesDuringExpulsion" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>An indication of whether the student received educational services when removed from the regular school program for disciplinary reasons.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="IEPPlacementMeetingIndicator" type="xs:boolean" minOccurs="0">
@@ -1532,11 +1512,6 @@
           <xs:element name="SchoolReference" type="SchoolReferenceType">
             <xs:annotation>
               <xs:documentation>Relates the discipline incident to the school where the incident occurred.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="StaffReference" type="StaffReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identifies the staff reporter of the discipline incident by use of a pre-existing school or district unique identifier.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="DisciplineIncidentExternalParticipant" type="DisciplineIncidentExternalParticipant" minOccurs="0" maxOccurs="unbounded">
@@ -1856,6 +1831,11 @@
           <xs:element name="CurrentGradeAsOfDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>As-Of date for a grade posted as the current grade.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="GradeEarnedDescription" type="GradeEarnedDescription" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>A description of the grade earned by the learner.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -2359,81 +2339,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="LearningObjective">
-    <xs:annotation>
-      <xs:documentation>This entity represents identified LearningObjectives for courses in specific grades.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="LearningObjectiveId" type="LearningStandardId">
-            <xs:annotation>
-              <xs:documentation>The identifier for the specific learning objective in the context of a standard (e.g., 111.15.3.1.A).</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ContentStandard" type="ContentStandard" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>A reference to the type of content standard (e.g., state, national)</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Objective" type="Objective">
-            <xs:annotation>
-              <xs:documentation>The designated title of the learning objective.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Description" type="Description" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The description of the learning objective.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The description of the content or subject area of an assessment.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>AcademicSubjectDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ObjectiveGradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The grade level for which the learning objective is targeted. The semantics of null is assumed to mean that the learning objective is not associated with any grade level.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Nomenclature" type="Nomenclature" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Reflects the specific nomenclature used for the learning objective.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="SuccessCriteria" type="Criteria" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>One or more statements that describes the criteria used by teachers and students to check for attainment of a learning objective. This criteria gives clear indications as to the degree to which learning is moving through the Zone or Proximal Development toward independent achievement of the learning objective.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="LearningStandardReference" type="LearningStandardReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Learning standard(s) included in this objective.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ParentLearningObjectiveReference" type="LearningObjectiveReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Provide user information to lookup and link to an existing learning objective which serves as a method to group other learning objectives.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Namespace" type="URI">
-            <xs:annotation>
-              <xs:documentation>Namespace for the learning objective.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="LearningStandard">
     <xs:annotation>
       <xs:documentation>A statement that describes a specific competency or academic standard.</xs:documentation>
@@ -2498,11 +2403,6 @@
           <xs:element name="SuccessCriteria" type="Criteria" minOccurs="0">
             <xs:annotation>
               <xs:documentation>One or more statements that describes the criteria used by teachers and students to check for attainment of a learning standard. This criteria gives clear indications as to the degree to which learning is moving through the Zone or Proximal Development toward independent achievement of the learning standard.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PrerequisiteLearningStandardReference" type="LearningStandardReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The unique identifier of a prerequisite learning standard item, a competency needed prior to learning this one. (Some items may have no prerequisites others may have one or more prerequisites. This should only be used to represent the immediate predecessors in a competency-based pathway, i.e. not prerequisites of prerequisites).</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ParentLearningStandardReference" type="LearningStandardReferenceType" minOccurs="0">
@@ -3165,7 +3065,7 @@
           </xs:element>
           <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>A person's gender.</xs:documentation>
+              <xs:documentation>A person's birth sex.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>SexDescriptor</ann:Descriptor>
               </xs:appinfo>
@@ -3374,19 +3274,6 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Service" type="ServiceDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Defines the services this program provides to students.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>ServiceDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="LearningObjectiveReference" type="LearningObjectiveReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>References the learning objective(s) with which the program is associated.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="LearningStandardReference" type="LearningStandardReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Learning standard followed by this program.</xs:documentation>
@@ -3488,21 +3375,6 @@
           <xs:element name="StudentCompetencyObjectiveReference" type="StudentCompetencyObjectiveReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The student competency evaluations associated for this grading period.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="StudentLearningObjectiveReference" type="StudentLearningObjectiveReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The student learning objective evaluations associated for this grading period.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GPAGivenGradingPeriod" type="GPA" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>A measure of average performance in all courses taken by an individual for the current grading period.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GPACumulative" type="GPA" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>A measure of cumulative average performance in all courses taken by an individual from the beginning of the school year through the current grading period.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="GradePointAverage" type="GradePointAverage" minOccurs="0" maxOccurs="unbounded">
@@ -3985,7 +3857,7 @@
           </xs:element>
           <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>A person's gender.</xs:documentation>
+              <xs:documentation>The birth sex of the staff member.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>SexDescriptor</ann:Descriptor>
               </xs:appinfo>
@@ -4019,19 +3891,6 @@
           <xs:element name="HispanicLatinoEthnicity" type="xs:boolean" minOccurs="0">
             <xs:annotation>
               <xs:documentation>An indication that the individual traces his or her origin or descent to Mexico, Puerto Rico, Cuba, Central, and South America, and other Spanish cultures, regardless of race. The term, "Spanish origin," can be used in addition to "Hispanic or Latino."</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="OldEthnicity" type="OldEthnicityDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Previous definition of ethnicity combining Hispanic/Latino and race:
-                      1 - American Indian or Alaskan Native
-                      2 - Asian or Pacific Islander
-                      3 - Black, not of Hispanic origin
-                      4 - Hispanic
-                      5 - White, not of Hispanic origin.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>OldEthnicityDescriptor</ann:Descriptor>
-              </xs:appinfo>
             </xs:annotation>
           </xs:element>
           <xs:element name="Race" type="RaceDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
@@ -4294,22 +4153,7 @@
           </xs:element>
           <xs:element name="CumulativeAttemptedCredits" type="Credits" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The cumulative number of credits an individual attempts to earn by taking courses during his or her enrollment in the current school as well as those credits transferred from schools in which the individual had been previously enrolled.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CumulativeGradePointsEarned" type="GPA" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The cumulative number of grade points an individual earns by successfully completing courses or examinations during his or her enrollment in the current school as well as those transferred from schools in which the individual had been previously enrolled.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CumulativeGradePointAverage" type="GPA" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>A measure of average performance in all courses taken by an individual during his or her school career as determined for record-keeping purposes. This is obtained by dividing the total grade points received by the total number of credits attempted. This usually includes grade points received and credits attempted in his or her current school as well as those transferred from schools in which the individual was previously enrolled.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GradeValueQualifier" type="GradeValueQualifier" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The scale of equivalents, if applicable, for grades awarded as indicators of performance in schoolwork. For example, numerical equivalents for letter grades used in determining a student's grade point average (A=4, B=3, C=2, D=1 in a four-point system) or letter equivalents for percentage grades (90-100%=A, 80-90%=B, etc.).</xs:documentation>
+              <xs:documentation>The total number of credits a student has earned plus the total number of credits the student has attempted but not earned from distinct courses. This includes credits attempted and earned from all schools the student has been enrolled.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ClassRanking" type="ClassRanking" minOccurs="0">
@@ -4340,16 +4184,6 @@
           <xs:element name="SessionAttemptedCredits" type="Credits" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The number of credits an individual attempted to earn in this session.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="SessionGradePointsEarned" type="GPA" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The number of grade points an individual earned for this session.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="SessionGradePointAverage" type="GPA" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The grade point average for an individual computed as the grade points earned during the session divided by the number of credits attempted.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="GradePointAverage" type="GradePointAverage" minOccurs="0" maxOccurs="unbounded">
@@ -4714,60 +4548,6 @@
               <xs:documentation>The duration in minutes in which the student participated in the intervention during this instance.</xs:documentation>
             </xs:annotation>
           </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StudentLearningObjective">
-    <xs:annotation>
-      <xs:documentation>This entity represents the competency assessed or evaluated for the student against a specific learning objective.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="LearningObjectiveReference" type="LearningObjectiveReferenceType">
-            <xs:annotation>
-              <xs:documentation>The learning objective evaluated or assessed for the student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CompetencyLevel" type="CompetencyLevelDescriptorReferenceType">
-            <xs:annotation>
-              <xs:documentation>The competency level assessed for the student for the referenced learning objective.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CompetencyLevelDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="DiagnosticStatement" type="DiagnosticStatement" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>A statement provided by the teacher that provides information in addition to the grade or assessment score.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GradingPeriodReference" type="GradingPeriodReferenceType">
-            <xs:annotation>
-              <xs:documentation>Relates the LearningObjective to a grading period.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="StudentReference" type="StudentReferenceType">
-            <xs:annotation>
-              <xs:documentation>Relates the student associated with the learning objective.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:choice minOccurs="0">
-            <xs:element name="StudentSectionAssociationReference" type="StudentSectionAssociationReferenceType" minOccurs="0" maxOccurs="unbounded">
-              <xs:annotation>
-                <xs:documentation>Relates the Student and Section associated with the LearningObjective.</xs:documentation>
-              </xs:annotation>
-            </xs:element>
-            <xs:element name="GeneralStudentProgramAssociationReference" type="GeneralStudentProgramAssociationReferenceType" minOccurs="0" maxOccurs="unbounded">
-              <xs:annotation>
-                <xs:documentation>Relates the Student and Program associated with the LearningObjective.</xs:documentation>
-              </xs:annotation>
-            </xs:element>
-          </xs:choice>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -5922,9 +5702,42 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="EligibilityDelayReasonDescriptor">
+    <xs:annotation>
+      <xs:documentation>The reason why the eligibility determination was completed beyond the required timeframe.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EligibilityEvaluationTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>Indicates if this is an initial evaluation or a reevaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="EmploymentStatusDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the type of employment or contract.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EnrollmentTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type of enrollment reflected by the StudentSchoolAssociation.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -5947,6 +5760,17 @@
   <xs:complexType name="EntryTypeDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the process by which a student enters a school during a given academic session.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EvaluationDelayReasonDescriptor">
+    <xs:annotation>
+      <xs:documentation>Refers to the justification as to why the evaluation report was completed beyond the state-established timeframe.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6079,6 +5903,17 @@
   <xs:complexType name="HomelessProgramServiceDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a homeless program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="IDEAPartDescriptor">
+    <xs:annotation>
+      <xs:documentation>Indicates if the evaluation is done under Part B IDEA or Part C IDEA.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6442,17 +6277,6 @@
   <xs:complexType name="NetworkPurposeDescriptor">
     <xs:annotation>
       <xs:documentation>The purpose(s) of the network, e.g. shared services, collective procurement, etc.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="OldEthnicityDescriptor">
-    <xs:annotation>
-      <xs:documentation>Previous definition of Ethnicity combining Hispanic/Latino and Race.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6923,6 +6747,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="SchoolChoiceBasisDescriptor">
+    <xs:annotation>
+      <xs:documentation>The legal basis for the school choice enrollment according to local, state or federal policy or regulation. (The descriptor provides the list of available bases specific to the state).</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="SchoolChoiceImplementStatusDescriptor">
     <xs:annotation>
       <xs:documentation>An indication of whether the LEA was able to implement the provisions for public school choice under Title I, Part A, Section 1116 of ESEA, as amended.</xs:documentation>
@@ -7002,7 +6837,7 @@
   </xs:complexType>
   <xs:complexType name="SexDescriptor">
     <xs:annotation>
-      <xs:documentation>A person's gender.</xs:documentation>
+      <xs:documentation>A person's birth sex.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7455,11 +7290,6 @@
           <xs:element name="ServedOutsideOfRegularSession" type="xs:boolean" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Indicates whether the student received services during the summer session or between sessions.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ParticipationStatus" type="ParticipationStatus" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The status of the student's program participation.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ProgramParticipationStatus" type="ProgramParticipationStatus" minOccurs="0" maxOccurs="unbounded">
@@ -8010,16 +7840,6 @@
     <xs:complexContent>
       <xs:extension base="GeneralStudentProgramAssociation">
         <xs:sequence>
-          <xs:element name="CTEProgram" type="CTEProgram" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The career cluster representing the career path of the Vocational/Career Tech concentrator.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Service" type="Service" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Indicates the service(s) being provided to the student by the program.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="NonTraditionalGenderStatus" type="xs:boolean" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Indicator that student is from a gender group that comprises less than 25% of the individuals employed in an occupation or field of work.</xs:documentation>
@@ -8041,43 +7861,6 @@
           <xs:element name="CTEProgramService" type="CTEProgramService" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Indicates the service(s) being provided to the student by the CTE program.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StudentDisciplineIncidentAssociation">
-    <xs:annotation>
-      <xs:documentation>This association indicates those students who were victims, perpetrators, witnesses, and reporters for a discipline incident.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Association</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="StudentReference" type="StudentReferenceType">
-            <xs:annotation>
-              <xs:documentation>Relates the student associated with the discipline incident.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="DisciplineIncidentReference" type="DisciplineIncidentReferenceType">
-            <xs:annotation>
-              <xs:documentation>Reference to the discipline incident associated with the student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="StudentParticipationCode" type="StudentParticipationCodeDescriptorReferenceType">
-            <xs:annotation>
-              <xs:documentation>The role or type of participation of a student in a discipline incident.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>StudentParticipationCodeDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Behavior" type="Behavior" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Describes behavior by category and provides a detailed description.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -8224,19 +8007,6 @@
               <xs:documentation>An indication that the individual traces his or her origin or descent to Mexico, Puerto Rico, Cuba, Central, and South America, and other Spanish cultures, regardless of race, as last reported to the education organization. The term, "Spanish origin," can be used in addition to "Hispanic or Latino."</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="OldEthnicity" type="OldEthnicityDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Previous definition of ethnicity combining Hispanic/Latino and race:
-                      1 - American Indian or Alaskan Native
-                      2 - Asian or Pacific Islander
-                      3 - Black, not of Hispanic origin
-                      4 - Hispanic
-                      5 - White, not of Hispanic origin.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>OldEthnicityDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="Race" type="RaceDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The general racial category which most clearly reflects the individual's recognition of his or her community or with which the individual most identifies as last reported to the education organization. The data model allows for multiple entries so that each individual can specify all appropriate races.</xs:documentation>
@@ -8274,11 +8044,6 @@
           <xs:element name="Disability" type="Disability" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The disability condition(s) that best describes an individual's impairment, as determined by evaluation(s) conducted by the education organization.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ProgramParticipation" type="ProgramParticipation" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Key programs the student is participating in or receives services from.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="CohortYear" type="CohortYear" minOccurs="0" maxOccurs="unbounded">
@@ -8842,6 +8607,40 @@
               <xs:documentation>Idicates whether or not a student completed the most recent school term.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="NextYearSchoolReference" type="SchoolReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The anticipated school of enrollment for the student for the next school year, possibly reflecting a rollover to the same school, the promotion to a feeder school, or an anticipated transfer.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="NextYearGradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The anticipated grade level for the student for the next school year.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SchoolChoice" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>An indication of whether the student enrolled in this school under the provisions for public school choice</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SchoolChoiceBasis" type="SchoolChoiceBasisDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The legal basis for the school choice enrollment according to local, state or federal policy or regulation. (The descriptor provides the list of available bases specific to the state</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SchoolChoiceBasisDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EnrollmentType" type="EnrollmentTypeDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The type of enrollment reflected by the StudentSchoolAssociation.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EnrollmentTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -9012,6 +8811,122 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentSpecialEducationProgramEligibilityAssociation">
+    <xs:annotation>
+      <xs:documentation>Captures details regarding the evaluation process for eligibility of students for special education services under IDEA Part C or Part B.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>Indicates the education organization where the student was evaluated for special education services. This could be a school or a district.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>Student who is evaluated by a local education agency or a school. This is often their resident district. Students could be enrolled or unenrolled, or private-schooled or home-schooled.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramReference" type="ProgramReferenceType">
+            <xs:annotation>
+              <xs:documentation>Indicates the program that the student is being evaluated for.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ConsentToEvaluationReceivedDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>Indicates the date on which the local education agency received written consent for the evaluation from the student's parent or guardian. This is the first day of the evaluation timeframe.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="OriginalECIServicesDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The month, date, and year when an infant or toddler, from birth through age 2, began participating in the early childhood intervention (ECI) program.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IDEAPart" type="IDEAPartDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>Indicates if the evaluation is done under Part B IDEA or Part C IDEA.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>IDEAPartDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ConsentToEvaluationDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The date on which the student's parent gave a consent (Parent Consent Date).</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationCompleteIndicator" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates the evaluation completed status.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EligibilityEvaluationDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates the month, day, and year when the written individual evaluation report was completed.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EligibilityEvaluationType" type="EligibilityEvaluationTypeDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates if this is an initial evaluation or a reevaluation.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EligibilityEvaluationTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationDelayReason" type="EvaluationDelayReasonDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Refers to the justification as to why the evaluation report was completed beyond the state-established timeframe. This descriptor field will have allowed reasons as descriptor values.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EvaluationDelayReasonDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationLateReason" type="EvaluationLateReason" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Refers to additional information for delay in doing the evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationDelayDays" type="EvaluationDelayDays" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates the number of student absences, if any, beginning the first instructional day following the date on which the local education agency (LEA) received written parental or guardian consent for the evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EligibilityDeterminationDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates the month, day, and year the local education agency (LEA) held the admission, review, and dismissal committee meeting regarding the child's eligibility determination for special education and related services. An individualized education plan (IEP) would be developed and implemented for a child admitted into special education on this same date.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IDEAIndicator" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates whether or not the student was determined eligible and enrolled in special education and related services as a result of the evaluation report and the admission, review, and dismissal committee meeting decision.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EligibilityDelayReason" type="EligibilityDelayReasonDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The reason why the eligibility determination was completed beyond the required timeframe.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EligibilityDelayReasonDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransitionNotificationDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates the month, day, and year the LEA Notification of Potentially Eligible for Special Education Services was sent by the early childhood intervention (ECI) contractor to the local education agency (LEA) to notify them that a child enrolled in ECI will shortly reach the age of eligibility for Part B services and the child is potentially eligible for services under Part B, early childhood special education (ECSE). The LEA Notification constitutes a referral to the LEA for an initial evaluation and eligibility determination of the child which the parent or guardian may opt out from the referral.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransitionConferenceDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates the month, day, and year when the transition conference was held (for a child receiving early childhood intervention (ECI) services) among the lead agency, the family, and the local education agency (LEA) where the child resides to discuss the child's potential eligibility for early childhood special education (ECSE) services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentTitleIPartAProgramAssociation">
     <xs:annotation>
       <xs:documentation>This association represents the Title I Part A program(s) that a student participates in or from which the student receives services. The association is an extension of the StudentProgramAssociation particular for Title I Part A programs.</xs:documentation>
@@ -9033,11 +8948,6 @@
           <xs:element name="TitleIPartAProgramService" type="TitleIPartAProgramService" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Indicates the service(s) being provided to the student by the Title I Part A program.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Service" type="Service" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Indicates the service(s) being provided to the student by the program.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -11160,45 +11070,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="LearningObjectiveIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a LearningObjective.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="LearningObjectiveId" type="LearningStandardId">
-        <xs:annotation>
-          <xs:documentation>The identifier for the specific learning objective in the context of a standard (e.g., 111.15.3.1.A).</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Namespace" type="URI">
-        <xs:annotation>
-          <xs:documentation>Namespace for the learning objective.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="LearningObjectiveReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a LearningObjective. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="LearningObjectiveIdentity" type="LearningObjectiveIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a LearningObjective.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="LearningStandardEquivalenceAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a LearningStandardEquivalenceAssociation.</xs:documentation>
@@ -11913,7 +11784,7 @@
       </xs:element>
       <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>A person's gender.</xs:documentation>
+          <xs:documentation>A person's birth sex.</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>SexDescriptor</ann:Descriptor>
           </xs:appinfo>
@@ -13005,7 +12876,7 @@
       </xs:element>
       <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>A person's gender.</xs:documentation>
+          <xs:documentation>The birth sex of the staff member.</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>SexDescriptor</ann:Descriptor>
           </xs:appinfo>
@@ -13552,45 +13423,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StudentDisciplineIncidentAssociationIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a StudentDisciplineIncidentAssociation.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="StudentReference" type="StudentReferenceType">
-        <xs:annotation>
-          <xs:documentation>Relates the student associated with the discipline incident.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="DisciplineIncidentReference" type="DisciplineIncidentReferenceType">
-        <xs:annotation>
-          <xs:documentation>Reference to the discipline incident associated with the student.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="StudentDisciplineIncidentAssociationReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a StudentDisciplineIncidentAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="StudentDisciplineIncidentAssociationIdentity" type="StudentDisciplineIncidentAssociationIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a StudentDisciplineIncidentAssociation.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="StudentDisciplineIncidentBehaviorAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a StudentDisciplineIncidentBehaviorAssociation.</xs:documentation>
@@ -14009,50 +13841,6 @@
           <xs:element name="StudentLanguageInstructionProgramAssociationIdentity" type="StudentLanguageInstructionProgramAssociationIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a StudentLanguageInstructionProgramAssociation.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StudentLearningObjectiveIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a StudentLearningObjective.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="LearningObjectiveReference" type="LearningObjectiveReferenceType">
-        <xs:annotation>
-          <xs:documentation>The learning objective evaluated or assessed for the student.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="GradingPeriodReference" type="GradingPeriodReferenceType">
-        <xs:annotation>
-          <xs:documentation>Relates the LearningObjective to a grading period.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="StudentReference" type="StudentReferenceType">
-        <xs:annotation>
-          <xs:documentation>Relates the student associated with the learning objective.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="StudentLearningObjectiveReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a StudentLearningObjective. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="StudentLearningObjectiveIdentity" type="StudentLearningObjectiveIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a StudentLearningObjective.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -14662,6 +14450,55 @@
           <xs:element name="StudentSpecialEducationProgramAssociationIdentity" type="StudentSpecialEducationProgramAssociationIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a StudentSpecialEducationProgramAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentSpecialEducationProgramEligibilityAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentSpecialEducationProgramEligibilityAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>Indicates the education organization where the student was evaluated for special education services. This could be a school or a district.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>Student who is evaluated by a local education agency or a school. This is often their resident district. Students could be enrolled or unenrolled, or private-schooled or home-schooled.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ProgramReference" type="ProgramReferenceType">
+        <xs:annotation>
+          <xs:documentation>Indicates the program that the student is being evaluated for.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ConsentToEvaluationReceivedDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>Indicates the date on which the local education agency received written consent for the evaluation from the student's parent or guardian. This is the first day of the evaluation timeframe.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentSpecialEducationProgramEligibilityAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentSpecialEducationProgramEligibilityAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentSpecialEducationProgramEligibilityAssociationIdentity" type="StudentSpecialEducationProgramEligibilityAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentSpecialEducationProgramEligibilityAssociation.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -15825,9 +15662,36 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="EligibilityDelayReasonDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The reason why the eligibility determination was completed beyond the required timeframe.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="EligibilityEvaluationTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Indicates if this is an initial evaluation or a reevaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="EmploymentStatusDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the type of employment or contract.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="EnrollmentTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type of enrollment reflected by the StudentSchoolAssociation.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -15846,6 +15710,15 @@
   <xs:simpleType name="EntryTypeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the process by which a student enters a school during a given academic session.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="EvaluationDelayReasonDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Refers to the justification as to why the evaluation report was completed beyond the state-established timeframe.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -15954,6 +15827,15 @@
   <xs:simpleType name="HomelessProgramServiceDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a homeless program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="IDEAPartDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Indicates if the evaluation is done under Part B IDEA or Part C IDEA.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -16251,15 +16133,6 @@
   <xs:simpleType name="NetworkPurposeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The purpose(s) of the network, e.g. shared services, collective procurement, etc.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="OldEthnicityDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>Previous definition of Ethnicity combining Hispanic/Latino and Race.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -16644,6 +16517,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="SchoolChoiceBasisDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The legal basis for the school choice enrollment according to local, state or federal policy or regulation. (The descriptor provides the list of available bases specific to the state).</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="SchoolChoiceImplementStatusDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>An indication of whether the LEA was able to implement the provisions for public school choice under Title I, Part A, Section 1116 of ESEA, as amended.</xs:documentation>
@@ -16709,7 +16591,7 @@
   </xs:simpleType>
   <xs:simpleType name="SexDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>A person's gender.</xs:documentation>
+      <xs:documentation>A person's birth sex.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -17412,7 +17294,7 @@
       </xs:element>
       <xs:element name="BirthSex" type="SexDescriptorReferenceType" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>A person's gender at birth.</xs:documentation>
+          <xs:documentation>A person's sex at birth.</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>SexDescriptor</ann:Descriptor>
           </xs:appinfo>
@@ -18876,6 +18758,16 @@
       <xs:element name="MaidenName" type="LastSurname" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The individual's maiden name.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PreferredFirstName" type="FirstName" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The first name the individual prefers, if different from their legal first name</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PreferredLastSurname" type="LastSurname" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The last name the individual prefers, if different from their legal last name</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="PersonalIdentificationDocument" type="IdentificationDocument" minOccurs="0" maxOccurs="unbounded">
@@ -20463,7 +20355,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="20" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Comment">
@@ -20763,7 +20655,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="32" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="DocumentTitle">
@@ -20788,6 +20680,18 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="7" />
       <xs:maxLength value="128" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EvaluationLateReason">
+    <xs:annotation>
+      <xs:documentation>Refers to additional information for delay in doing the evaluation. This is a free flow text.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ExternalTerm">
@@ -20860,6 +20764,18 @@
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="GradeEarnedDescription">
+    <xs:annotation>
+      <xs:documentation>A description of the grade earned by the learner.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0" />
+      <xs:maxLength value="64" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="GradeValueQualifier">
     <xs:annotation>
       <xs:documentation>The scale of equivalents, if applicable, for grades awarded as indicators of performance in schoolwork. For example, numerical equivalents for letter grades used in determining a student's Grade Point Average (A=4, B=3, C=2, D=1 in a four-point system) or letter equivalents for percentage grades (90-100%=A, 80-90%=B, etc.)</xs:documentation>
@@ -20905,7 +20821,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="20" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Indicator">
@@ -21012,7 +20928,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="20" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="LicensingOrganization">
@@ -21348,7 +21264,7 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
-      <xs:maxLength value="20" />
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Result">
@@ -21708,14 +21624,25 @@
       <xs:minInclusive value="1" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="EvaluationDelayDays">
+    <xs:annotation>
+      <xs:documentation>Indicates the number of student absences, if any, beginning the first instructional day following the date on which the Local Education Agency (LEA) received written parental consent for the evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:int" />
+  </xs:simpleType>
   <xs:simpleType name="EventDuration">
     <xs:annotation>
-      <xs:documentation>The amount of time for the event as recognized by the school: 1 day = 1, 1/2 day = 0.5, 1/3 day = 0.33.</xs:documentation>
+      <xs:documentation>The amount of time as a decimal fraction for the event as recognized by the school: 1 day = 1.0, 1/2 day = 0.5, 1/3 day = 0.33. The value can have up to two decimal places with a min of 0.00 and max of 1.00.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Simple</ann:TypeGroup>
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="1" />
       <xs:totalDigits value="3" />
       <xs:fractionDigits value="2" />
     </xs:restriction>
