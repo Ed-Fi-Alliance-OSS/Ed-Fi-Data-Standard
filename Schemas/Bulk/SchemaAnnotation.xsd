@@ -222,6 +222,9 @@
       <xs:enumeration value="TribalAffiliationDescriptor" />
       <xs:enumeration value="VisaDescriptor" />
       <xs:enumeration value="WeaponDescriptor" />
+      <xs:enumeration value="EligibilityDelayReasonDescriptor" />
+      <xs:enumeration value="EligibilityEvaluationTypeDescriptor" />
+      <xs:enumeration value="IDEAPartDescriptor" />                  
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="TypeGroup">
