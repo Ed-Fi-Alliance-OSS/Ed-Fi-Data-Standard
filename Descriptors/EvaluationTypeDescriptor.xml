@@ -1,57 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<EvaluationTypeDescriptor>
-		<CodeValue>Formal Evaluation</CodeValue>
-		<ShortDescription>Formal Evaluation</ShortDescription>
-		<Description>Formal Evaluation</Description>
+		<CodeValue>Observation</CodeValue>
+		<ShortDescription>Observation</ShortDescription>
+		<Description>Observation</Description>
 		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
 	</EvaluationTypeDescriptor>
 	<EvaluationTypeDescriptor>
-		<CodeValue>Formal Observation</CodeValue>
-		<ShortDescription>Formal Observation</ShortDescription>
-		<Description>Formal Observation</Description>
+		<CodeValue>Principal</CodeValue>
+		<ShortDescription>Principal</ShortDescription>
+		<Description>Principal</Description>
 		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
 	</EvaluationTypeDescriptor>
 	<EvaluationTypeDescriptor>
-		<CodeValue>Formal Evaluation Self-Rating</CodeValue>
-		<ShortDescription>Formal Evaluation Self-Rating</ShortDescription>
-		<Description>Formal Evaluation Self-Rating</Description>
-		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
-	</EvaluationTypeDescriptor>
-	<EvaluationTypeDescriptor>
-		<CodeValue>Informal Observation</CodeValue>
-		<ShortDescription>Informal Observation</ShortDescription>
-		<Description>Informal Observation</Description>
+		<CodeValue>Peer</CodeValue>
+		<ShortDescription>Peer</ShortDescription>
+		<Description>Peer</Description>
 		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
 	</EvaluationTypeDescriptor>
 	<EvaluationTypeDescriptor>
 		<CodeValue>Student Growth</CodeValue>
 		<ShortDescription>Student Growth</ShortDescription>
 		<Description>Student Growth Measures</Description>
-		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
-	</EvaluationTypeDescriptor>
-	<EvaluationTypeDescriptor>
-		<CodeValue>Informal Observation Self-Rating</CodeValue>
-		<ShortDescription>Informal Observation Self-Rating</ShortDescription>
-		<Description>Informal Observation Self-Rating</Description>
-		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
-	</EvaluationTypeDescriptor>
-	<EvaluationTypeDescriptor>
-		<CodeValue>Formal Observation Self-Rating</CodeValue>
-		<ShortDescription>Formal Observation Self-Rating</ShortDescription>
-		<Description>Formal Observation Self-Rating</Description>
-		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
-	</EvaluationTypeDescriptor>
-	<EvaluationTypeDescriptor>
-		<CodeValue>Student Work</CodeValue>
-		<ShortDescription>Student Work</ShortDescription>
-		<Description>Student Work</Description>
-		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
-	</EvaluationTypeDescriptor>
-	<EvaluationTypeDescriptor>
-		<CodeValue>Walkthrough</CodeValue>
-		<ShortDescription>Walkthrough</ShortDescription>
-		<Description>Walkthrough</Description>
 		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
 	</EvaluationTypeDescriptor>
 	<EvaluationTypeDescriptor>
