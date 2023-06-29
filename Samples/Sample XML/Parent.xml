@@ -178,8 +178,8 @@
 		<Name>
 			<PersonalTitlePrefix>Ms</PersonalTitlePrefix>
 			<FirstName>Jimmie</FirstName>
-			<PreferredFirstName>Jim</PreferredFirstName>
 			<LastSurname>Mathews</LastSurname>
+			<PreferredFirstName>Jim</PreferredFirstName>			
 			<PreferredLastSurname>Clarke</PreferredLastSurname>
 			<PersonalIdentificationDocument>
 				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Other official document</PersonalInformationVerification>
@@ -266,8 +266,8 @@
 		<Name>
 			<PersonalTitlePrefix>Mr</PersonalTitlePrefix>
 			<FirstName>Clyde</FirstName>
-			<PreferredFirstName>Rexler</PreferredFirstName>
 			<LastSurname>Jimenez</LastSurname>
+			<PreferredFirstName>Rexler</PreferredFirstName>			
 			<PreferredLastSurname>Rodri</PreferredLastSurname>
 			<PersonalIdentificationDocument>
 				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Other official document</PersonalInformationVerification>
