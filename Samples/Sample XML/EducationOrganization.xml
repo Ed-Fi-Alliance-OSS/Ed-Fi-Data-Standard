@@ -1106,7 +1106,7 @@
 			<CourseCatalogURL>http://www.GBISD.edu/coursecatalog</CourseCatalogURL>
 		</CourseIdentificationCode>
 		<CourseIdentificationCode>
-			<IdentificationCode>03100500</IdentificationCode>
+			<IdentificationCode>ALG-1</IdentificationCode>
 			<CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code</CourseIdentificationSystem>
 		</CourseIdentificationCode>
 		<CourseLevelCharacteristic>uri://ed-fi.org/CourseLevelCharacteristicDescriptor#Core Subject</CourseLevelCharacteristic>
