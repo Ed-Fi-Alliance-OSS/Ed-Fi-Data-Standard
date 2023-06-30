@@ -77,10 +77,13 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="EducationOrganizationIdentificationSystemDescriptor" type="EducationOrganizationIdentificationSystemDescriptor" />
         <xs:element name="EducationPlanDescriptor" type="EducationPlanDescriptor" />
         <xs:element name="ElectronicMailTypeDescriptor" type="ElectronicMailTypeDescriptor" />
+        <xs:element name="EligibilityDelayReasonDescriptor" type="EligibilityDelayReasonDescriptor" />
+        <xs:element name="EligibilityEvaluationTypeDescriptor" type="EligibilityEvaluationTypeDescriptor" />
         <xs:element name="EmploymentStatusDescriptor" type="EmploymentStatusDescriptor" />
         <xs:element name="EnrollmentTypeDescriptor" type="EnrollmentTypeDescriptor" />
         <xs:element name="EntryGradeLevelReasonDescriptor" type="EntryGradeLevelReasonDescriptor" />
         <xs:element name="EntryTypeDescriptor" type="EntryTypeDescriptor" />
+        <xs:element name="EvaluationDelayReasonDescriptor" type="EvaluationDelayReasonDescriptor" />
         <xs:element name="EventCircumstanceDescriptor" type="EventCircumstanceDescriptor" />
         <xs:element name="ExitWithdrawTypeDescriptor" type="ExitWithdrawTypeDescriptor" />
         <xs:element name="FinancialCollectionDescriptor" type="FinancialCollectionDescriptor" />
@@ -93,6 +96,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="GunFreeSchoolsActReportingStatusDescriptor" type="GunFreeSchoolsActReportingStatusDescriptor" />
         <xs:element name="HomelessPrimaryNighttimeResidenceDescriptor" type="HomelessPrimaryNighttimeResidenceDescriptor" />
         <xs:element name="HomelessProgramServiceDescriptor" type="HomelessProgramServiceDescriptor" />
+        <xs:element name="IDEAPartDescriptor" type="IDEAPartDescriptor" />
         <xs:element name="IdentificationDocumentUseDescriptor" type="IdentificationDocumentUseDescriptor" />
         <xs:element name="IncidentLocationDescriptor" type="IncidentLocationDescriptor" />
         <xs:element name="IndicatorDescriptor" type="IndicatorDescriptor" />
@@ -126,7 +130,6 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="NeglectedOrDelinquentProgramDescriptor" type="NeglectedOrDelinquentProgramDescriptor" />
         <xs:element name="NeglectedOrDelinquentProgramServiceDescriptor" type="NeglectedOrDelinquentProgramServiceDescriptor" />
         <xs:element name="NetworkPurposeDescriptor" type="NetworkPurposeDescriptor" />
-        <xs:element name="OldEthnicityDescriptor" type="OldEthnicityDescriptor" />
         <xs:element name="OperationalStatusDescriptor" type="OperationalStatusDescriptor" />
         <xs:element name="OtherNameTypeDescriptor" type="OtherNameTypeDescriptor" />
         <xs:element name="ParticipationDescriptor" type="ParticipationDescriptor" />
