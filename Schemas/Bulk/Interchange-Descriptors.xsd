@@ -84,6 +84,8 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="EntryGradeLevelReasonDescriptor" type="EntryGradeLevelReasonDescriptor" />
         <xs:element name="EntryTypeDescriptor" type="EntryTypeDescriptor" />
         <xs:element name="EvaluationDelayReasonDescriptor" type="EvaluationDelayReasonDescriptor" />
+        <xs:element name="EvaluationPeriodDescriptor" type="EvaluationPeriodDescriptor" />
+        <xs:element name="EvaluationTypeDescriptor" type="EvaluationTypeDescriptor" />
         <xs:element name="EventCircumstanceDescriptor" type="EventCircumstanceDescriptor" />
         <xs:element name="ExitWithdrawTypeDescriptor" type="ExitWithdrawTypeDescriptor" />
         <xs:element name="FinancialCollectionDescriptor" type="FinancialCollectionDescriptor" />
@@ -158,6 +160,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="PublicationStatusDescriptor" type="PublicationStatusDescriptor" />
         <xs:element name="QuestionFormDescriptor" type="QuestionFormDescriptor" />
         <xs:element name="RaceDescriptor" type="RaceDescriptor" />
+        <xs:element name="RatingLevelDescriptor" type="RatingLevelDescriptor" />
         <xs:element name="ReasonExitedDescriptor" type="ReasonExitedDescriptor" />
         <xs:element name="ReasonNotTestedDescriptor" type="ReasonNotTestedDescriptor" />
         <xs:element name="RecognitionTypeDescriptor" type="RecognitionTypeDescriptor" />
