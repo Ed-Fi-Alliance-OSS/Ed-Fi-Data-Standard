@@ -398,6 +398,11 @@
 		</SchoolReference>
 	</DisciplineIncident>
 	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207288</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>	
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>10</IncidentIdentifier>
@@ -410,7 +415,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207249</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>11</IncidentIdentifier>
@@ -423,7 +433,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207264</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>12</IncidentIdentifier>
@@ -436,7 +451,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207265</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>13</IncidentIdentifier>
@@ -450,7 +470,12 @@
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Witness</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207265</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>14</IncidentIdentifier>
@@ -463,7 +488,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207263</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>15</IncidentIdentifier>
@@ -476,7 +506,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207247</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>16</IncidentIdentifier>
@@ -489,7 +524,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207266</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>17</IncidentIdentifier>
@@ -502,7 +542,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207266</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>18</IncidentIdentifier>
@@ -515,7 +560,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207248</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>19</IncidentIdentifier>
@@ -528,7 +578,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207284</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>20</IncidentIdentifier>
@@ -541,7 +596,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207284</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>21</IncidentIdentifier>
@@ -554,7 +614,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207284</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>8</IncidentIdentifier>
@@ -567,7 +632,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207285</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>9</IncidentIdentifier>
@@ -580,7 +650,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207267</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>3</IncidentIdentifier>
@@ -594,7 +669,12 @@
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Witness</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207283</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>4</IncidentIdentifier>
@@ -607,7 +687,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207225</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>5</IncidentIdentifier>
@@ -620,7 +705,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207220</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>6</IncidentIdentifier>
@@ -633,7 +723,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207222</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>7</IncidentIdentifier>
@@ -646,7 +741,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207221</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>1</IncidentIdentifier>
@@ -659,7 +759,12 @@
         </DisciplineIncidentReference>
         <DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Reporter</DisciplineIncidentParticipationCode>
     </StaffDisciplineIncidentAssociation>
-    <StaffDisciplineIncidentAssociation>
+	<StaffDisciplineIncidentAssociation>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207288</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
         <DisciplineIncidentReference>
             <DisciplineIncidentIdentity>
                 <IncidentIdentifier>2</IncidentIdentifier>
@@ -1681,7 +1786,6 @@
 				<SchoolId>255901001</SchoolId>
 			</SchoolIdentity>
 		</ResponsibilitySchoolReference>
-		<ReceivedEducationServicesDuringExpulsion>1</ReceivedEducationServicesDuringExpulsion>
 		<StudentDisciplineIncidentBehaviorAssociationReference>
 			<StudentDisciplineIncidentBehaviorAssociationIdentity>
 				<StudentReference>
