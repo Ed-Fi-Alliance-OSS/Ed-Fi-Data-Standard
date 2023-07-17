@@ -20,7 +20,7 @@
 		</SessionReference>
 		<CourseReference>
 			<CourseIdentity>
-				<CourseCode>03100500</CourseCode>
+				<CourseCode>ALG-1</CourseCode>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
 						<EducationOrganizationId>255901001</EducationOrganizationId>
@@ -49,7 +49,7 @@
 		</SessionReference>
 		<CourseReference>
 			<CourseIdentity>
-				<CourseCode>03100500</CourseCode>
+				<CourseCode>ALG-1</CourseCode>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
 						<EducationOrganizationId>255901001</EducationOrganizationId>
@@ -842,7 +842,7 @@
 		</CourseReference>
 	</CourseOffering>
 	<CourseOffering>
-		<LocalCourseCode>03100500</LocalCourseCode>
+		<LocalCourseCode>ALG-1</LocalCourseCode>
 		<SchoolReference>
 			<SchoolIdentity>
 				<SchoolId>255901001</SchoolId>
@@ -861,7 +861,7 @@
 		</SessionReference>
 		<CourseReference>
 			<CourseIdentity>
-				<CourseCode>03100500</CourseCode>
+				<CourseCode>ALG-1</CourseCode>
 				<EducationOrganizationReference>
 					<EducationOrganizationIdentity>
 						<EducationOrganizationId>255901001</EducationOrganizationId>
