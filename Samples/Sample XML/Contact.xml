@@ -3352,7 +3352,7 @@
 			<FirstName>Lydia</FirstName>
 			<LastSurname>Franco</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -3490,7 +3490,7 @@
 			<FirstName>Valerie</FirstName>
 			<LastSurname>Stout</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -3918,7 +3918,7 @@
 			<FirstName>Rick</FirstName>
 			<LastSurname>Pope</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -4240,7 +4240,7 @@
 			<FirstName>Tameka</FirstName>
 			<LastSurname>Nash</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -4835,7 +4835,7 @@
 			<FirstName>Rosa</FirstName>
 			<LastSurname>Richards</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -4913,7 +4913,7 @@
 			<FirstName>Byron</FirstName>
 			<LastSurname>Pena</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -6219,7 +6219,7 @@
 			<FirstName>Josie</FirstName>
 			<LastSurname>Gamble</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -6383,7 +6383,7 @@
 			<FirstName>Minerva</FirstName>
 			<LastSurname>Fischer</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -6439,7 +6439,7 @@
 			<FirstName>Claudette</FirstName>
 			<LastSurname>Larsen</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -6947,7 +6947,7 @@
 			<FirstName>Mavis</FirstName>
 			<LastSurname>Young</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -7271,7 +7271,7 @@
 			<FirstName>Hilary</FirstName>
 			<LastSurname>Guerrero</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -7587,7 +7587,7 @@
 			<FirstName>Tamara</FirstName>
 			<LastSurname>Moses</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -7613,7 +7613,7 @@
 			<FirstName>Louis</FirstName>
 			<LastSurname>Moses</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -7721,7 +7721,7 @@
 			<FirstName>Cory</FirstName>
 			<LastSurname>Juarez</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -7885,7 +7885,7 @@
 			<FirstName>Kurt</FirstName>
 			<LastSurname>House</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -8909,7 +8909,7 @@
 			<FirstName>Marianne</FirstName>
 			<LastSurname>Mckee</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -9225,7 +9225,7 @@
 			<FirstName>Brigitte</FirstName>
 			<LastSurname>Riggs</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -9779,7 +9779,7 @@
 			<FirstName>Stefanie</FirstName>
 			<LastSurname>Thornton</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -10051,7 +10051,7 @@
 			<FirstName>Janine</FirstName>
 			<LastSurname>Lowe</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -10155,7 +10155,7 @@
 			<FirstName>Candace</FirstName>
 			<LastSurname>Chaney</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -10915,7 +10915,7 @@
 			<FirstName>Lina</FirstName>
 			<LastSurname>Short</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -11688,7 +11688,7 @@
 			<FirstName>Kristi</FirstName>
 			<LastSurname>Lynch</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -11796,7 +11796,7 @@
 			<FirstName>Josefa</FirstName>
 			<LastSurname>Willis</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -11822,7 +11822,7 @@
 			<FirstName>Tommy</FirstName>
 			<LastSurname>Willis</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -11900,7 +11900,7 @@
 			<FirstName>Adela</FirstName>
 			<LastSurname>Cook</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -12758,7 +12758,7 @@
 			<FirstName>Brian</FirstName>
 			<LastSurname>Kirby</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -12788,7 +12788,7 @@
 			<FirstName>Ernest</FirstName>
 			<LastSurname>Anthony</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -13060,7 +13060,7 @@
 			<FirstName>Stanley</FirstName>
 			<LastSurname>Blanchard</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -13946,7 +13946,7 @@
 			<FirstName>Everett</FirstName>
 			<LastSurname>Good</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -14530,7 +14530,7 @@
 			<FirstName>Nell</FirstName>
 			<LastSurname>Blair</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -14820,7 +14820,7 @@
 			<FirstName>Sean</FirstName>
 			<LastSurname>Ross</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -15040,7 +15040,7 @@
 			<FirstName>Robbie</FirstName>
 			<LastSurname>Mitchell</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -15364,7 +15364,7 @@
 			<FirstName>Harriet</FirstName>
 			<LastSurname>Allison</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -15528,7 +15528,7 @@
 			<FirstName>Claude</FirstName>
 			<LastSurname>Knox</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -15960,7 +15960,7 @@
 			<FirstName>Carly</FirstName>
 			<LastSurname>Roberts</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -16016,7 +16016,7 @@
 			<FirstName>Kenneth</FirstName>
 			<LastSurname>Miranda</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -16072,7 +16072,7 @@
 			<FirstName>Harvey</FirstName>
 			<LastSurname>Santos</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -16644,7 +16644,7 @@
 			<FirstName>Reyna</FirstName>
 			<LastSurname>Franklin</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -16726,7 +16726,7 @@
 			<FirstName>Corey</FirstName>
 			<LastSurname>Wright</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -16886,7 +16886,7 @@
 			<FirstName>Pearl</FirstName>
 			<LastSurname>Mathews</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -18972,7 +18972,7 @@
 			<FirstName>Guy</FirstName>
 			<LastSurname>Duran</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -18998,7 +18998,7 @@
 			<FirstName>Lee</FirstName>
 			<LastSurname>Gross</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -19214,7 +19214,7 @@
 			<FirstName>Elmer</FirstName>
 			<LastSurname>Cash</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -19844,7 +19844,7 @@
 			<FirstName>George</FirstName>
 			<LastSurname>Franco</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -20566,7 +20566,7 @@
 			<FirstName>Kelley</FirstName>
 			<LastSurname>Gordon</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -21040,7 +21040,7 @@
 			<FirstName>Glenn</FirstName>
 			<LastSurname>Blackburn</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -21204,7 +21204,7 @@
 			<FirstName>Alfredo</FirstName>
 			<LastSurname>Gay</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -22008,7 +22008,7 @@
 			<FirstName>Eric</FirstName>
 			<LastSurname>Miles</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -22896,7 +22896,7 @@
 			<FirstName>Florence</FirstName>
 			<LastSurname>York</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -22982,7 +22982,7 @@
 			<FirstName>Bruce</FirstName>
 			<LastSurname>Bridges</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -23442,7 +23442,7 @@
 			<FirstName>Kent</FirstName>
 			<LastSurname>Lancaster</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -23800,7 +23800,7 @@
 			<FirstName>Justin</FirstName>
 			<LastSurname>Richards</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -23968,7 +23968,7 @@
 			<FirstName>Kristina</FirstName>
 			<LastSurname>Richards</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -24326,7 +24326,7 @@
 			<FirstName>Alfred</FirstName>
 			<LastSurname>Vinson</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -24382,7 +24382,7 @@
 			<FirstName>Adrienne</FirstName>
 			<LastSurname>Terry</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -24408,7 +24408,7 @@
 			<FirstName>Rafael</FirstName>
 			<LastSurname>Terry</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -26249,7 +26249,7 @@
 			<FirstName>Perry</FirstName>
 			<LastSurname>Montoya</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -26837,7 +26837,7 @@
 			<FirstName>Rene</FirstName>
 			<LastSurname>Zamora</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -27239,7 +27239,7 @@
 			<FirstName>Joni</FirstName>
 			<LastSurname>Velasquez</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -28591,7 +28591,7 @@
 			<FirstName>Pedro</FirstName>
 			<LastSurname>Estrada</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -28811,7 +28811,7 @@
 			<FirstName>Tyler</FirstName>
 			<LastSurname>Wilkinson</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -30653,7 +30653,7 @@
 			<FirstName>Nathan</FirstName>
 			<LastSurname>Wallace</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -31047,7 +31047,7 @@
 			<FirstName>Norman</FirstName>
 			<LastSurname>Parker</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -32111,7 +32111,7 @@
 			<FirstName>Dave</FirstName>
 			<LastSurname>De Leon</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -32421,7 +32421,7 @@
 			<FirstName>Frank</FirstName>
 			<LastSurname>Meyer</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -32663,7 +32663,7 @@
 			<FirstName>Irene</FirstName>
 			<LastSurname>Camacho</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -33451,7 +33451,7 @@
 			<FirstName>Trisha</FirstName>
 			<LastSurname>Jensen</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -33667,7 +33667,7 @@
 			<FirstName>Maxine</FirstName>
 			<LastSurname>Frederick</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -34473,7 +34473,7 @@
 			<FirstName>Kitty</FirstName>
 			<LastSurname>Wheeler</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -34887,7 +34887,7 @@
 			<FirstName>Ryan</FirstName>
 			<LastSurname>Frye</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -35639,7 +35639,7 @@
 			<FirstName>Mariana</FirstName>
 			<LastSurname>Bauer</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -36643,7 +36643,7 @@
 			<FirstName>Lonnie</FirstName>
 			<LastSurname>Richards</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -36781,7 +36781,7 @@
 			<FirstName>Augusta</FirstName>
 			<LastSurname>Jones</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -36807,7 +36807,7 @@
 			<FirstName>Alan</FirstName>
 			<LastSurname>Jones</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -37079,7 +37079,7 @@
 			<FirstName>Gilbert</FirstName>
 			<LastSurname>Savage</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -37105,7 +37105,7 @@
 			<FirstName>Faith</FirstName>
 			<LastSurname>Hurley</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -37843,7 +37843,7 @@
 			<FirstName>Clifton</FirstName>
 			<LastSurname>Kirk</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -38299,7 +38299,7 @@
 			<FirstName>Tabitha</FirstName>
 			<LastSurname>Ortiz</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -38381,7 +38381,7 @@
 			<FirstName>Oscar</FirstName>
 			<LastSurname>Underwood</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -38463,7 +38463,7 @@
 			<FirstName>Etta</FirstName>
 			<LastSurname>Bailey</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -38819,7 +38819,7 @@
 			<FirstName>Arthur</FirstName>
 			<LastSurname>Fisher</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -38849,7 +38849,7 @@
 			<FirstName>Nadine</FirstName>
 			<LastSurname>Durham</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -39579,7 +39579,7 @@
 			<FirstName>Ross</FirstName>
 			<LastSurname>May</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -39963,7 +39963,7 @@
 			<FirstName>Tyler</FirstName>
 			<LastSurname>Preston</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -40579,7 +40579,7 @@
 			<FirstName>Juliana</FirstName>
 			<LastSurname>Brock</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -40687,7 +40687,7 @@
 			<FirstName>Alma</FirstName>
 			<LastSurname>Levine</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -40895,7 +40895,7 @@
 			<FirstName>Lourdes</FirstName>
 			<LastSurname>Perry</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -41029,7 +41029,7 @@
 			<FirstName>Miguel</FirstName>
 			<LastSurname>Roy</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -41547,7 +41547,7 @@
 			<FirstName>Ladonna</FirstName>
 			<LastSurname>Ellison</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -42056,7 +42056,7 @@
 			<FirstName>Bruce</FirstName>
 			<LastSurname>Howe</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -42294,7 +42294,7 @@
 			<FirstName>Lilly</FirstName>
 			<LastSurname>Vargas</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -43044,7 +43044,7 @@
 			<FirstName>Aida</FirstName>
 			<LastSurname>Saunders</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -43782,7 +43782,7 @@
 			<FirstName>Corey</FirstName>
 			<LastSurname>Rowe</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -44804,7 +44804,7 @@
 			<FirstName>Morris</FirstName>
 			<LastSurname>Alvarado</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -44938,7 +44938,7 @@
 			<FirstName>Lorie</FirstName>
 			<LastSurname>Salas</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -45046,7 +45046,7 @@
 			<FirstName>Jerry</FirstName>
 			<LastSurname>Salas</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -45682,7 +45682,7 @@
 			<FirstName>Holly</FirstName>
 			<LastSurname>Camacho</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -46256,7 +46256,7 @@
 			<FirstName>Dennis</FirstName>
 			<LastSurname>Brandt</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -46424,7 +46424,7 @@
 			<FirstName>Johnnie</FirstName>
 			<LastSurname>Conley</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -46480,7 +46480,7 @@
 			<FirstName>Dale</FirstName>
 			<LastSurname>David</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -46830,7 +46830,7 @@
 			<FirstName>Trina</FirstName>
 			<LastSurname>Acevedo</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -47050,7 +47050,7 @@
 			<FirstName>Liza</FirstName>
 			<LastSurname>Hunter</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -47184,7 +47184,7 @@
 			<FirstName>Darryl</FirstName>
 			<LastSurname>Mc Gee</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -47590,7 +47590,7 @@
 			<FirstName>Malinda</FirstName>
 			<LastSurname>Mc Intyre</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -47642,7 +47642,7 @@
 			<FirstName>Ivy</FirstName>
 			<LastSurname>Mc Neil</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -47824,7 +47824,7 @@
 			<FirstName>Leonard</FirstName>
 			<LastSurname>Ford</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -48688,7 +48688,7 @@
 			<FirstName>Lorrie</FirstName>
 			<LastSurname>Mays</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -48714,7 +48714,7 @@
 			<FirstName>Alex</FirstName>
 			<LastSurname>Mays</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -49510,7 +49510,7 @@
 			<FirstName>Lance</FirstName>
 			<LastSurname>Schultz</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -50430,7 +50430,7 @@
 			<FirstName>Bradley</FirstName>
 			<LastSurname>Atkinson</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -50570,7 +50570,7 @@
 			<FirstName>Kellie</FirstName>
 			<LastSurname>Carney</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
@@ -50596,7 +50596,7 @@
 			<FirstName>Antonio</FirstName>
 			<LastSurname>Davila</LastSurname>
 			<PersonalIdentificationDocument>
-				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Contacts affidavit</PersonalInformationVerification>
+				<PersonalInformationVerification>uri://ed-fi.org/PersonalInformationVerificationDescriptor#Parents affidavit</PersonalInformationVerification>
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
