@@ -11,7 +11,12 @@
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
         <xs:element name="StudentProgramEvaluation" type="StudentProgramEvaluation" />
+        <xs:element name="EvaluationRubricDimension" type="EvaluationRubricDimension" />
+        <xs:element name="ProgramEvaluation" type="ProgramEvaluation" />
+        <xs:element name="Program" type="Program" />
+        <xs:element name="ProgramEvaluationObjective" type="ProgramEvaluationObjective" />
+        <xs:element name="ProgramEvaluationElement" type="ProgramEvaluationElement" />
       </xs:choice>
     </xs:complexType>
   </xs:element>
-</xs:schema>    
+</xs:schema>
