@@ -989,9 +989,9 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" minOccurs="0">
+          <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation>The intended major subject area of the course.</xs:documentation>
+              <xs:documentation>The intended major subject/s area of the course.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>AcademicSubjectDescriptor</ann:Descriptor>
               </xs:appinfo>
