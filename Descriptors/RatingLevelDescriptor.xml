@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<EvaluationRatingLevelDescriptor>
+		<CodeValue>Developing</CodeValue>
+		<ShortDescription>Developing</ShortDescription>
+		<Description>Developing</Description>
+		<Namespace>uri://ed-fi.org/RatingLevelDescriptor</Namespace>
+	</EvaluationRatingLevelDescriptor>
+	<EvaluationRatingLevelDescriptor>
+		<CodeValue>Minimally Effective</CodeValue>
+		<ShortDescription>Minimally Effective</ShortDescription>
+		<Description>Minimally Effective</Description>
+		<Namespace>uri://ed-fi.org/RatingLevelDescriptor</Namespace>
+	</EvaluationRatingLevelDescriptor>
+	<EvaluationRatingLevelDescriptor>
+		<CodeValue>Ineffective</CodeValue>
+		<ShortDescription>Ineffective</ShortDescription>
+		<Description>Ineffective</Description>
+		<Namespace>uri://ed-fi.org/RatingLevelDescriptor</Namespace>
+	</EvaluationRatingLevelDescriptor>
+	<EvaluationRatingLevelDescriptor>
+		<CodeValue>Accomplished</CodeValue>
+		<ShortDescription>Accomplished</ShortDescription>
+		<Description>Accomplished</Description>
+		<Namespace>uri://ed-fi.org/RatingLevelDescriptor</Namespace>
+	</EvaluationRatingLevelDescriptor>
+	<EvaluationRatingLevelDescriptor>
+		<CodeValue>Highly Effective</CodeValue>
+		<ShortDescription>Highly Effective</ShortDescription>
+		<Description>Highly Effective</Description>
+		<Namespace>uri://ed-fi.org/RatingLevelDescriptor</Namespace>
+	</EvaluationRatingLevelDescriptor>
+	<EvaluationRatingLevelDescriptor>
+		<CodeValue>Effective</CodeValue>
+		<ShortDescription>Effective</ShortDescription>
+		<Description>Effective</Description>
+		<Namespace>uri://ed-fi.org/RatingLevelDescriptor</Namespace>
+	</EvaluationRatingLevelDescriptor>
+	<EvaluationRatingLevelDescriptor>
+		<CodeValue>Not Demonstrated</CodeValue>
+		<ShortDescription>Not Demonstrated</ShortDescription>
+		<Description>Not Demonstrated</Description>
+		<Namespace>uri://ed-fi.org/RatingLevelDescriptor</Namespace>
+	</EvaluationRatingLevelDescriptor>
+	<EvaluationRatingLevelDescriptor>
+		<CodeValue>Demonstrated</CodeValue>
+		<ShortDescription>Demonstrated</ShortDescription>
+		<Description>Demonstrated</Description>
+		<Namespace>uri://ed-fi.org/RatingLevelDescriptor</Namespace>
+	</EvaluationRatingLevelDescriptor>
+	<EvaluationRatingLevelDescriptor>
+		<CodeValue>Skilled</CodeValue>
+		<ShortDescription>Skilled</ShortDescription>
+		<Description>Skilled</Description>
+		<Namespace>uri://ed-fi.org/RatingLevelDescriptor</Namespace>
+	</EvaluationRatingLevelDescriptor>
+</InterchangeDescriptors>

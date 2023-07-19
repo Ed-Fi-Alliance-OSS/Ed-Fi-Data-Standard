@@ -325,6 +325,12 @@
 		<Namespace>uri://ed-fi.org/ProgramTypeDescriptor</Namespace>
 	</ProgramTypeDescriptor>
 	<ProgramTypeDescriptor>
+		<CodeValue>Support</CodeValue>
+		<ShortDescription>Support</ShortDescription>
+		<Description>Support</Description>
+		<Namespace>uri://ed-fi.org/ProgramTypeDescriptor</Namespace>
+	</ProgramTypeDescriptor>
+	<ProgramTypeDescriptor>
 		<CodeValue>Teacher Professional Development/Mentoring</CodeValue>
 		<ShortDescription>Teacher Professional Development/Mentoring</ShortDescription>
 		<Description>Teacher Professional Development/Mentoring</Description>

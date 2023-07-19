@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeStudentProgramEvaluation xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../../Schemas/Bulk/Interchange-StudentProgramEvaluation.xsd">
+	<StudentProgramEvaluation>
+		<ProgramEvaluationReference>
+			<ProgramEvaluationIdentity>
+				<ProgramReference>
+					<ProgramIdentity>
+						<EducationOrganizationReference>
+							<EducationOrganizationIdentity>
+								<EducationOrganizationId>4235</EducationOrganizationId>
+							</EducationOrganizationIdentity>
+						</EducationOrganizationReference>
+						<ProgramName>21st CCLC</ProgramName>
+						<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+					</ProgramIdentity>
+				</ProgramReference>
+				<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+				<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+				<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+			</ProgramEvaluationIdentity>
+		</ProgramEvaluationReference>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604854</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EvaluationDate>2023-01-25</EvaluationDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>4235</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EvaluationDuration>120</EvaluationDuration>
+		<SummaryEvaluationNumericRating>0.60</SummaryEvaluationNumericRating>
+		<SummaryEvaluationRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</SummaryEvaluationRatingLevel>
+		<SummaryEvaluationComment>Passed</SummaryEvaluationComment>
+		<StaffEvaluatorStaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207247</StaffUniqueId>
+			</StaffIdentity>
+		</StaffEvaluatorStaffReference>
+		<ExternalEvaluator>Jaime George</ExternalEvaluator>
+		<StudentEvaluationObjective>
+			<ProgramEvaluationObjectiveReference>
+				<ProgramEvaluationObjectiveIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st century</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationObjectiveTitle>Critical Thinking</ProgramEvaluationObjectiveTitle>
+				</ProgramEvaluationObjectiveIdentity>
+			</ProgramEvaluationObjectiveReference>
+			<EvaluationObjectiveNumericRating>0.86</EvaluationObjectiveNumericRating>
+			<EvaluationObjectiveRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationObjectiveRatingLevel>
+		</StudentEvaluationObjective>
+		<StudentEvaluationElement>
+			<ProgramEvaluationElementReference>
+				<ProgramEvaluationElementIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>								
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationElementTitle>Question 1</ProgramEvaluationElementTitle>
+				</ProgramEvaluationElementIdentity>
+			</ProgramEvaluationElementReference>
+			<EvaluationElementNumericRating>0.73</EvaluationElementNumericRating>
+			<EvaluationElementRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationElementRatingLevel>
+		</StudentEvaluationElement>
+	</StudentProgramEvaluation>
+	<StudentProgramEvaluation>
+		<ProgramEvaluationReference>
+			<ProgramEvaluationIdentity>
+				<ProgramReference>
+					<ProgramIdentity>
+						<EducationOrganizationReference>
+							<EducationOrganizationIdentity>
+								<EducationOrganizationId>4235</EducationOrganizationId>
+							</EducationOrganizationIdentity>
+						</EducationOrganizationReference>
+						<ProgramName>21st CCLC</ProgramName>
+						<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+					</ProgramIdentity>
+				</ProgramReference>
+				<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+				<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+				<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+			</ProgramEvaluationIdentity>
+		</ProgramEvaluationReference>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604900</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EvaluationDate>2023-01-25</EvaluationDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>4235</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EvaluationDuration>120</EvaluationDuration>
+		<SummaryEvaluationNumericRating>0.56</SummaryEvaluationNumericRating>
+		<SummaryEvaluationRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</SummaryEvaluationRatingLevel>
+		<SummaryEvaluationComment>Passed</SummaryEvaluationComment>
+		<StaffEvaluatorStaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207247</StaffUniqueId>
+			</StaffIdentity>
+		</StaffEvaluatorStaffReference>
+		<ExternalEvaluator>Jaime George</ExternalEvaluator>
+		<StudentEvaluationObjective>
+			<ProgramEvaluationObjectiveReference>
+				<ProgramEvaluationObjectiveIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st century</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationObjectiveTitle>Critical Thinking</ProgramEvaluationObjectiveTitle>
+				</ProgramEvaluationObjectiveIdentity>
+			</ProgramEvaluationObjectiveReference>
+			<EvaluationObjectiveNumericRating>0.68</EvaluationObjectiveNumericRating>
+			<EvaluationObjectiveRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationObjectiveRatingLevel>
+		</StudentEvaluationObjective>
+		<StudentEvaluationElement>
+			<ProgramEvaluationElementReference>
+				<ProgramEvaluationElementIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>								
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationElementTitle>Question 1</ProgramEvaluationElementTitle>
+				</ProgramEvaluationElementIdentity>
+			</ProgramEvaluationElementReference>
+			<EvaluationElementNumericRating>0.47</EvaluationElementNumericRating>
+			<EvaluationElementRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationElementRatingLevel>
+		</StudentEvaluationElement>
+	</StudentProgramEvaluation>
+	<StudentProgramEvaluation>
+		<ProgramEvaluationReference>
+			<ProgramEvaluationIdentity>
+				<ProgramReference>
+					<ProgramIdentity>
+						<EducationOrganizationReference>
+							<EducationOrganizationIdentity>
+								<EducationOrganizationId>4235</EducationOrganizationId>
+							</EducationOrganizationIdentity>
+						</EducationOrganizationReference>
+						<ProgramName>21st CCLC</ProgramName>
+						<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+					</ProgramIdentity>
+				</ProgramReference>
+				<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+				<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+				<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+			</ProgramEvaluationIdentity>
+		</ProgramEvaluationReference>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604901</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EvaluationDate>2023-01-25</EvaluationDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>4235</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EvaluationDuration>120</EvaluationDuration>
+		<SummaryEvaluationNumericRating>0.67</SummaryEvaluationNumericRating>
+		<SummaryEvaluationRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</SummaryEvaluationRatingLevel>
+		<SummaryEvaluationComment>Passed</SummaryEvaluationComment>
+		<StaffEvaluatorStaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207247</StaffUniqueId>
+			</StaffIdentity>
+		</StaffEvaluatorStaffReference>
+		<ExternalEvaluator>Jaime George</ExternalEvaluator>
+		<StudentEvaluationObjective>
+			<ProgramEvaluationObjectiveReference>
+				<ProgramEvaluationObjectiveIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st century</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationObjectiveTitle>Critical Thinking</ProgramEvaluationObjectiveTitle>
+				</ProgramEvaluationObjectiveIdentity>
+			</ProgramEvaluationObjectiveReference>
+			<EvaluationObjectiveNumericRating>0.59</EvaluationObjectiveNumericRating>
+			<EvaluationObjectiveRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationObjectiveRatingLevel>
+		</StudentEvaluationObjective>
+		<StudentEvaluationElement>
+			<ProgramEvaluationElementReference>
+				<ProgramEvaluationElementIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>								
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationElementTitle>Question 1</ProgramEvaluationElementTitle>
+				</ProgramEvaluationElementIdentity>
+			</ProgramEvaluationElementReference>
+			<EvaluationElementNumericRating>0.43</EvaluationElementNumericRating>
+			<EvaluationElementRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationElementRatingLevel>
+		</StudentEvaluationElement>
+	</StudentProgramEvaluation>
+	<StudentProgramEvaluation>
+		<ProgramEvaluationReference>
+			<ProgramEvaluationIdentity>
+				<ProgramReference>
+					<ProgramIdentity>
+						<EducationOrganizationReference>
+							<EducationOrganizationIdentity>
+								<EducationOrganizationId>4235</EducationOrganizationId>
+							</EducationOrganizationIdentity>
+						</EducationOrganizationReference>
+						<ProgramName>21st CCLC</ProgramName>
+						<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+					</ProgramIdentity>
+				</ProgramReference>
+				<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+				<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+				<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+			</ProgramEvaluationIdentity>
+		</ProgramEvaluationReference>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604902</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EvaluationDate>2023-01-25</EvaluationDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>4235</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EvaluationDuration>120</EvaluationDuration>
+		<SummaryEvaluationNumericRating>0.45</SummaryEvaluationNumericRating>
+		<SummaryEvaluationRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</SummaryEvaluationRatingLevel>
+		<SummaryEvaluationComment>Passed</SummaryEvaluationComment>
+		<StaffEvaluatorStaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207247</StaffUniqueId>
+			</StaffIdentity>
+		</StaffEvaluatorStaffReference>
+		<ExternalEvaluator>Jaime George</ExternalEvaluator>
+		<StudentEvaluationObjective>
+			<ProgramEvaluationObjectiveReference>
+				<ProgramEvaluationObjectiveIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st century</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationObjectiveTitle>Critical Thinking</ProgramEvaluationObjectiveTitle>
+				</ProgramEvaluationObjectiveIdentity>
+			</ProgramEvaluationObjectiveReference>
+			<EvaluationObjectiveNumericRating>0.65</EvaluationObjectiveNumericRating>
+			<EvaluationObjectiveRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationObjectiveRatingLevel>
+		</StudentEvaluationObjective>
+		<StudentEvaluationElement>
+			<ProgramEvaluationElementReference>
+				<ProgramEvaluationElementIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>								
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationElementTitle>Question 1</ProgramEvaluationElementTitle>
+				</ProgramEvaluationElementIdentity>
+			</ProgramEvaluationElementReference>
+			<EvaluationElementNumericRating>0.56</EvaluationElementNumericRating>
+			<EvaluationElementRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationElementRatingLevel>
+		</StudentEvaluationElement>
+	</StudentProgramEvaluation>
+	<StudentProgramEvaluation>
+		<ProgramEvaluationReference>
+			<ProgramEvaluationIdentity>
+				<ProgramReference>
+					<ProgramIdentity>
+						<EducationOrganizationReference>
+							<EducationOrganizationIdentity>
+								<EducationOrganizationId>4235</EducationOrganizationId>
+							</EducationOrganizationIdentity>
+						</EducationOrganizationReference>
+						<ProgramName>21st CCLC</ProgramName>
+						<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+					</ProgramIdentity>
+				</ProgramReference>
+				<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+				<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+				<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+			</ProgramEvaluationIdentity>
+		</ProgramEvaluationReference>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604903</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EvaluationDate>2023-01-25</EvaluationDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>4235</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EvaluationDuration>120</EvaluationDuration>
+		<SummaryEvaluationNumericRating>0.73</SummaryEvaluationNumericRating>
+		<SummaryEvaluationRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</SummaryEvaluationRatingLevel>
+		<SummaryEvaluationComment>Passed</SummaryEvaluationComment>
+		<StaffEvaluatorStaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207247</StaffUniqueId>
+			</StaffIdentity>
+		</StaffEvaluatorStaffReference>
+		<ExternalEvaluator>Jaime George</ExternalEvaluator>
+		<StudentEvaluationObjective>
+			<ProgramEvaluationObjectiveReference>
+				<ProgramEvaluationObjectiveIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st century</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationObjectiveTitle>Critical Thinking</ProgramEvaluationObjectiveTitle>
+				</ProgramEvaluationObjectiveIdentity>
+			</ProgramEvaluationObjectiveReference>
+			<EvaluationObjectiveNumericRating>0.78</EvaluationObjectiveNumericRating>
+			<EvaluationObjectiveRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationObjectiveRatingLevel>
+		</StudentEvaluationObjective>
+		<StudentEvaluationElement>
+			<ProgramEvaluationElementReference>
+				<ProgramEvaluationElementIdentity>
+					<ProgramEvaluationReference>
+						<ProgramEvaluationIdentity>
+							<ProgramReference>
+								<ProgramIdentity>
+									<EducationOrganizationReference>
+										<EducationOrganizationIdentity>
+											<EducationOrganizationId>4235</EducationOrganizationId>
+										</EducationOrganizationIdentity>
+									</EducationOrganizationReference>
+									<ProgramName>21st CCLC</ProgramName>
+									<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+								</ProgramIdentity>								
+							</ProgramReference>
+							<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+							<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+							<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+						</ProgramEvaluationIdentity>
+					</ProgramEvaluationReference>
+					<ProgramEvaluationElementTitle>Question 1</ProgramEvaluationElementTitle>
+				</ProgramEvaluationElementIdentity>
+			</ProgramEvaluationElementReference>
+			<EvaluationElementNumericRating>0.64</EvaluationElementNumericRating>
+			<EvaluationElementRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationElementRatingLevel>
+		</StudentEvaluationElement>
+	</StudentProgramEvaluation>				
+	<EvaluationRubricDimension>
+		<ProgramEvaluationElementReference>
+			<ProgramEvaluationElementIdentity>
+				<ProgramEvaluationReference>
+					<ProgramEvaluationIdentity>
+						<ProgramReference>
+							<ProgramIdentity>
+								<EducationOrganizationReference>
+									<EducationOrganizationIdentity>
+										<EducationOrganizationId>4235</EducationOrganizationId>
+									</EducationOrganizationIdentity>
+								</EducationOrganizationReference>
+								<ProgramName>21st CCLC</ProgramName>
+								<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+							</ProgramIdentity>
+						</ProgramReference>
+						<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+						<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+						<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+					</ProgramEvaluationIdentity>
+				</ProgramEvaluationReference>
+				<ProgramEvaluationElementTitle>Question 1</ProgramEvaluationElementTitle>
+			</ProgramEvaluationElementIdentity>
+		</ProgramEvaluationElementReference>
+		<EvaluationRubricRating>1</EvaluationRubricRating>
+		<EvaluationCriterionDescription>Impact Analysis</EvaluationCriterionDescription>
+	</EvaluationRubricDimension>
+	<ProgramEvaluation>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>4235</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>21st CCLC</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+		<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+		<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+		<ProgramEvaluationDescription>This evaluation is designed to determine the effect of the 21st CCLC program on student participants.</ProgramEvaluationDescription>
+		<EvaluationRatingLevel>
+			<RatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</RatingLevel>
+			<MinNumericRating>0</MinNumericRating>
+			<MaxNumericRating>1.0</MaxNumericRating>
+		</EvaluationRatingLevel>
+		<EvaluationMaxNumericRating>1.0</EvaluationMaxNumericRating>
+		<EvaluationMinNumericRating>0</EvaluationMinNumericRating>
+	</ProgramEvaluation>
+	<ProgramEvaluationObjective>
+		<ProgramEvaluationReference>
+			<ProgramEvaluationIdentity>
+				<ProgramReference>
+					<ProgramIdentity>
+						<EducationOrganizationReference>
+							<EducationOrganizationIdentity>
+								<EducationOrganizationId>4235</EducationOrganizationId>
+							</EducationOrganizationIdentity>
+						</EducationOrganizationReference>
+						<ProgramName>21st CCLC</ProgramName>
+						<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+					</ProgramIdentity>								
+				</ProgramReference>
+				<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+				<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+				<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+			</ProgramEvaluationIdentity>
+		</ProgramEvaluationReference>
+		<ProgramEvaluationObjectiveTitle>Critical Thinking</ProgramEvaluationObjectiveTitle>
+		<ProgramEvaluationObjectiveDescription>Critical Thinking</ProgramEvaluationObjectiveDescription>
+		<ObjectiveRatingLevel>
+			<RatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</RatingLevel>
+			<MinNumericRating>0</MinNumericRating>
+			<MaxNumericRating>1.0</MaxNumericRating>
+		</ObjectiveRatingLevel>
+		<ObjectiveMaxNumericRating>1.0</ObjectiveMaxNumericRating>
+		<ObjectiveMinNumericRating>0</ObjectiveMinNumericRating>
+		<ObjectiveSortOrder>1</ObjectiveSortOrder>
+	</ProgramEvaluationObjective>
+	<ProgramEvaluationElement>
+		<ProgramEvaluationReference>
+			<ProgramEvaluationIdentity>
+				<ProgramReference>
+					<ProgramIdentity>
+						<EducationOrganizationReference>
+							<EducationOrganizationIdentity>
+								<EducationOrganizationId>4235</EducationOrganizationId>
+							</EducationOrganizationIdentity>
+						</EducationOrganizationReference>
+						<ProgramName>21st CCLC</ProgramName>
+						<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+					</ProgramIdentity>								
+				</ProgramReference>
+				<ProgramEvaluationTitle>21st CCLC Annual Performance Report Teacher Survey</ProgramEvaluationTitle>
+				<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+				<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+			</ProgramEvaluationIdentity>
+		</ProgramEvaluationReference>
+		<ProgramEvaluationObjectiveReference>
+			<ProgramEvaluationObjectiveIdentity>
+				<ProgramEvaluationReference>
+					<ProgramEvaluationIdentity>
+						<ProgramReference>
+							<ProgramIdentity>
+								<EducationOrganizationReference>
+									<EducationOrganizationIdentity>
+										<EducationOrganizationId>4235</EducationOrganizationId>
+									</EducationOrganizationIdentity>
+								</EducationOrganizationReference>
+								<ProgramName>21st CCLC</ProgramName>
+								<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+							</ProgramIdentity>
+						</ProgramReference>
+						<ProgramEvaluationTitle>21st century</ProgramEvaluationTitle>
+						<ProgramEvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
+						<ProgramEvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
+					</ProgramEvaluationIdentity>
+				</ProgramEvaluationReference>
+				<ProgramEvaluationObjectiveTitle>Critical Thinking</ProgramEvaluationObjectiveTitle>
+			</ProgramEvaluationObjectiveIdentity>
+		</ProgramEvaluationObjectiveReference>
+		<ProgramEvaluationElementTitle>Question 1</ProgramEvaluationElementTitle>		
+		<ProgramEvaluationElementDescription>I am confident in my ability to remain informed of the design project and collect important information to support the ideas of the design team.</ProgramEvaluationElementDescription>
+		<ElementRatingLevel>
+			<RatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</RatingLevel>
+			<MinNumericRating>0</MinNumericRating>
+			<MaxNumericRating>1.0</MaxNumericRating>
+		</ElementRatingLevel>
+		<ElementMaxNumericRating>1.0</ElementMaxNumericRating>
+		<ElementMinNumericRating>0</ElementMinNumericRating>
+		<ElementSortOrder>1</ElementSortOrder>
+	</ProgramEvaluationElement>
+</InterchangeStudentProgramEvaluation>

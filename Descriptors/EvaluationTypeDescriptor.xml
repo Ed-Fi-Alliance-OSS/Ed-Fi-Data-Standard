@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<EvaluationTypeDescriptor>
+		<CodeValue>Observation</CodeValue>
+		<ShortDescription>Observation</ShortDescription>
+		<Description>Observation</Description>
+		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
+	</EvaluationTypeDescriptor>
+	<EvaluationTypeDescriptor>
+		<CodeValue>Peer</CodeValue>
+		<ShortDescription>Peer</ShortDescription>
+		<Description>Peer</Description>
+		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
+	</EvaluationTypeDescriptor>
+	<EvaluationTypeDescriptor>
+		<CodeValue>Principal</CodeValue>
+		<ShortDescription>Principal</ShortDescription>
+		<Description>Principal</Description>
+		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
+	</EvaluationTypeDescriptor>
+	<EvaluationTypeDescriptor>
+		<CodeValue>Student Growth</CodeValue>
+		<ShortDescription>Student Growth</ShortDescription>
+		<Description>Student Growth Measures</Description>
+		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
+	</EvaluationTypeDescriptor>
+	<EvaluationTypeDescriptor>
+		<CodeValue>Student survey</CodeValue>
+		<ShortDescription>Student survey</ShortDescription>
+		<Description>Student survey</Description>
+		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
+	</EvaluationTypeDescriptor>
+	<EvaluationTypeDescriptor>
+		<CodeValue>Teacher survey</CodeValue>
+		<ShortDescription>Teacher survey</ShortDescription>
+		<Description>Teacher survey</Description>
+		<Namespace>uri://ed-fi.org/EvaluationTypeDescriptor</Namespace>
+	</EvaluationTypeDescriptor>
+</InterchangeDescriptors>
