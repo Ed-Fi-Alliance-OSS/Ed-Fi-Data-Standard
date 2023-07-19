@@ -989,9 +989,9 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The intended major subject/s area of the course.</xs:documentation>
+              <xs:documentation>The intended major subject area of the course.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>AcademicSubjectDescriptor</ann:Descriptor>
               </xs:appinfo>
@@ -1767,6 +1767,48 @@
           <xs:element name="StateEducationAgencyReference" type="StateEducationAgencyReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The SEA of which the ESC is an organizational component.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EvaluationRubricDimension">
+    <xs:annotation>
+      <xs:documentation>The cells of a rubric, consisting of a qualitative decription, definition, or exemplar with the associated rubric evaluation level.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="ProgramEvaluationElementReference" type="ProgramEvaluationElementReferenceType">
+            <xs:annotation>
+              <xs:documentation>The program evaluation element associated with the evaluation rubric dimension.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationRubricRating" type="xs:int">
+            <xs:annotation>
+              <xs:documentation>The numeric rating associated with the evaluation rubric dimension.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationCriterionDescription" type="Description">
+            <xs:annotation>
+              <xs:documentation>The evaluation criterion description for the evaluation rubric dimension.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationRubricRatingLevel" type="RatingLevelDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The rating level achieved for the evaluation rubric dimension.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>RatingLevelDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="RubricDimensionSortOrder" type="SortOrder" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The sort order of the rubric dimension.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -3320,6 +3362,169 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="ProgramEvaluation">
+    <xs:annotation>
+      <xs:documentation>An evaluation instrument applied to evaluate a student in the context of a program. Student evaluations are typically applied by a staff member based upon a rubric.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="ProgramReference" type="ProgramReferenceType">
+            <xs:annotation>
+              <xs:documentation>The program associated with the student program evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramEvaluationTitle" type="ProgramEvaluationTitle">
+            <xs:annotation>
+              <xs:documentation>An assigned unique identifier for the student program evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramEvaluationType" type="EvaluationTypeDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The type of program evaluation conducted.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EvaluationTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramEvaluationPeriod" type="EvaluationPeriodDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The name of the period for the program evaluation.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EvaluationPeriodDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramEvaluationDescription" type="EvaluationDescription" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The long description of the program evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationRatingLevel" type="RatingLevel" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The descriptive level(s) of ratings (cut scores) for the program evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationMaxNumericRating" type="NumericRating" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The maximum summary numerical rating or score for the program evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationMinNumericRating" type="NumericRating" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The minimum summary numerical rating or score for the program evaluation. If omitted, assumed to be 0.0</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ProgramEvaluationElement">
+    <xs:annotation>
+      <xs:documentation>The lowest level elements or criterion of a students's performance that is being evaluated, typically by a rubric.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="ProgramEvaluationReference" type="ProgramEvaluationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The program evaluation associated with this program evaluation element.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramEvaluationObjectiveReference" type="ProgramEvaluationObjectiveReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The program evaluation objective associated with this program evaluation element, if applicable.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramEvaluationElementTitle" type="ProgramEvaluationElementTitle">
+            <xs:annotation>
+              <xs:documentation>The name or title of the program evaluation element.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramEvaluationElementDescription" type="EvaluationDescription" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The long description of the program evaluation element.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ElementRatingLevel" type="RatingLevel" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The descriptive level(s) of ratings (cut scores) for the program evaluation element.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ElementMaxNumericRating" type="NumericRating" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>	The maximum summary numerical rating or score for the program evaluation element.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ElementMinNumericRating" type="NumericRating" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The minimum summary numerical rating or score for the program evaluation element. If omitted, assumed to be 0.0.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ElementSortOrder" type="SortOrder" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The sort order of this program evaluation element.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ProgramEvaluationObjective">
+    <xs:annotation>
+      <xs:documentation>A subcomponent of a ProgramEvaluation, a specific student objective or domain of performance that is being evaluated.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="ProgramEvaluationReference" type="ProgramEvaluationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The program evaluation associated with this program evaluation objective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramEvaluationObjectiveTitle" type="ProgramEvaluationObjectiveTitle">
+            <xs:annotation>
+              <xs:documentation>The name or title of the program evaluation objective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramEvaluationObjectiveDescription" type="EvaluationDescription" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>	The long description of the program evaluation objective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ObjectiveRatingLevel" type="RatingLevel" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The descriptive level(s) of ratings (cut scores) for the program evaluation objective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ObjectiveMaxNumericRating" type="NumericRating" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The maximum summary numerical rating or score for the program evaluation objective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ObjectiveMinNumericRating" type="NumericRating" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The minimum summary numerical rating or score for the program evaluation objective. If omitted, assumed to be 0.0</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ObjectiveSortOrder" type="SortOrder" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The sort order of this program evaluation objective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="ProjectDimension">
     <xs:annotation>
       <xs:documentation>The NCES project accounting dimension. The project dimension reporting code permits school districts to accumulate expenditures to meet a variety of specialized reporting requirements at the local, state, and federal levels.</xs:documentation>
@@ -4591,6 +4796,83 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentProgramEvaluation">
+    <xs:annotation>
+      <xs:documentation>The evaluation results for a student as evaluated in the context of a program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="ProgramEvaluationReference" type="ProgramEvaluationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The program evaluation administered to the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>The student being evaluated on behalf of the program.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The month, day, and year on which the evaluation was conducted.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>A reference to the education organization that evaluated the student, which may be different from the education organization associated with the program.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EvaluationDuration" type="Duration" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The actual or estimated number of clock minutes during which the evaluation was conducted.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SummaryEvaluationNumericRating" type="NumericRating" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The numerical summary rating or score for the evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SummaryEvaluationRatingLevel" type="RatingLevelDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The summary rating level achieved based upon the rating or score.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>RatingLevelDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SummaryEvaluationComment" type="Comment" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Any comments about the summary evaluation to be captured.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StaffEvaluatorStaffReference" type="StaffReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Reference to the staff that evaluated the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ExternalEvaluator" type="ExternalEvaluator" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The external person(s) - not staff - that conducted the evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentEvaluationObjective" type="StudentEvaluationObjective" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The student's rating and/or rating levels earned for a program evaluation objective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentEvaluationElement" type="StudentEvaluationElement" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The student's rating and/or rating levels earned for a program evaluation element.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentSchoolAttendanceEvent">
     <xs:annotation>
       <xs:documentation>This event entity represents the recording of whether a student is in attendance for a school day.</xs:documentation>
@@ -5779,6 +6061,28 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="EvaluationPeriodDescriptor">
+    <xs:annotation>
+      <xs:documentation>The period for the evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EvaluationTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type of the evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="EventCircumstanceDescriptor">
     <xs:annotation>
       <xs:documentation>An unusual event occurred during the administration of the assessment. This could include fire alarm, student became ill, etc.</xs:documentation>
@@ -6585,6 +6889,17 @@
   <xs:complexType name="RaceDescriptor">
     <xs:annotation>
       <xs:documentation>The enumeration items defining the racial categories which most clearly reflects the individual's recognition of his or her community or with which the individual most identifies.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="RatingLevelDescriptor">
+    <xs:annotation>
+      <xs:documentation>The descriptive level(s) of ratings (cut scores) for evaluation.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -10603,6 +10918,45 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="EvaluationRubricDimensionIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of an EvaluationRubricDimension.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ProgramEvaluationElementReference" type="ProgramEvaluationElementReferenceType">
+        <xs:annotation>
+          <xs:documentation>The program evaluation element associated with the evaluation rubric dimension.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EvaluationRubricRating" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>The numeric rating associated with the evaluation rubric dimension.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EvaluationRubricDimensionReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for an EvaluationRubricDimension. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="EvaluationRubricDimensionIdentity" type="EvaluationRubricDimensionIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of an EvaluationRubricDimension.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="FeederSchoolAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a FeederSchoolAssociation.</xs:documentation>
@@ -11934,6 +12288,139 @@
           <xs:element name="ProgramDimensionIdentity" type="ProgramDimensionIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a ProgramDimension.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ProgramEvaluationElementIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a ProgramEvaluationElement.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ProgramEvaluationReference" type="ProgramEvaluationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The program evaluation associated with this program evaluation element.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ProgramEvaluationElementTitle" type="ProgramEvaluationElementTitle">
+        <xs:annotation>
+          <xs:documentation>The name or title of the program evaluation element.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProgramEvaluationElementReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a ProgramEvaluationElement. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="ProgramEvaluationElementIdentity" type="ProgramEvaluationElementIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a ProgramEvaluationElement.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ProgramEvaluationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a ProgramEvaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ProgramReference" type="ProgramReferenceType">
+        <xs:annotation>
+          <xs:documentation>The program associated with the student program evaluation.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ProgramEvaluationTitle" type="ProgramEvaluationTitle">
+        <xs:annotation>
+          <xs:documentation>An assigned unique identifier for the student program evaluation.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ProgramEvaluationType" type="EvaluationTypeDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The type of program evaluation conducted.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>EvaluationTypeDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ProgramEvaluationPeriod" type="EvaluationPeriodDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The name of the period for the program evaluation.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>EvaluationPeriodDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProgramEvaluationObjectiveIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a ProgramEvaluationObjective.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ProgramEvaluationReference" type="ProgramEvaluationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The program evaluation associated with this program evaluation objective.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ProgramEvaluationObjectiveTitle" type="ProgramEvaluationObjectiveTitle">
+        <xs:annotation>
+          <xs:documentation>The name or title of the program evaluation objective.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProgramEvaluationObjectiveReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a ProgramEvaluationObjective. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="ProgramEvaluationObjectiveIdentity" type="ProgramEvaluationObjectiveIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a ProgramEvaluationObjective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ProgramEvaluationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a ProgramEvaluation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="ProgramEvaluationIdentity" type="ProgramEvaluationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a ProgramEvaluation.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -14071,6 +14558,50 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentProgramEvaluationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentProgramEvaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ProgramEvaluationReference" type="ProgramEvaluationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The program evaluation administered to the student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student being evaluated on behalf of the program.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EvaluationDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>The month, day, and year on which the evaluation was conducted.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentProgramEvaluationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentProgramEvaluation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentProgramEvaluationIdentity" type="StudentProgramEvaluationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentProgramEvaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentReferenceType">
     <xs:annotation>
       <xs:documentation>Provides alternative references for a Student. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
@@ -15667,6 +16198,24 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="EvaluationPeriodDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The period for the evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="EvaluationTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type of the evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="EventCircumstanceDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>An unusual event occurred during the administration of the assessment. This could include fire alarm, student became ill, etc.</xs:documentation>
@@ -16327,6 +16876,15 @@
   <xs:simpleType name="RaceDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The enumeration items defining the racial categories which most clearly reflects the individual's recognition of his or her community or with which the individual most identifies.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="RatingLevelDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The descriptive level(s) of ratings (cut scores) for evaluation.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -19016,6 +19574,34 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="RatingLevel">
+    <xs:annotation>
+      <xs:documentation>The descriptive level(s) of ratings (cut scores) for evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="RatingLevel" type="RatingLevelDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The title for a level of rating or evaluation band (e.g., Excellent, Acceptable, Needs Improvement, Unacceptable).</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>RatingLevelDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MinNumericRating" type="NumericRating" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The minimum numerical rating or score to achieve the evaluation rating level.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MaxNumericRating" type="NumericRating" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The maximum numerical rating or score to achieve the evaluation rating level.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
   <xs:complexType name="Recognition">
     <xs:annotation>
       <xs:documentation>Recognition given to the individual for accomplishments in a co-curricular, or extra-curricular activity.</xs:documentation>
@@ -19110,7 +19696,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="SortOrder" type="xs:int">
+      <xs:element name="SortOrder" type="SortOrder">
         <xs:annotation>
           <xs:documentation>Sort order of this ResponseChoice within the complete list of choices attached to a SurveyQuestion. If sort order doesn't apply, the value of NumericValue or a unique, possibly sequential numeric value.</xs:documentation>
         </xs:annotation>
@@ -19430,6 +20016,62 @@
       <xs:element name="DesignatedBy" type="DesignatedBy" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The person, organization, or department that designated the characteristic.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentEvaluationElement">
+    <xs:annotation>
+      <xs:documentation>The student's rating and/or rating levels earned for a program evaluation element.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ProgramEvaluationElementReference" type="ProgramEvaluationElementReferenceType">
+        <xs:annotation>
+          <xs:documentation>The program evaluation element associated with the student's results.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EvaluationElementNumericRating" type="NumericRating" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The numerical rating or score for the evaluation element.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EvaluationElementRatingLevel" type="RatingLevelDescriptorReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The rating level achieved based upon the rating or score for the evaluation element.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>RatingLevelDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentEvaluationObjective">
+    <xs:annotation>
+      <xs:documentation>The student's rating and/or rating levels earned for a program evaluation objective.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ProgramEvaluationObjectiveReference" type="ProgramEvaluationObjectiveReferenceType">
+        <xs:annotation>
+          <xs:documentation>The program evaluation objective associated with the student's results.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EvaluationObjectiveNumericRating" type="NumericRating" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The numerical rating or score for the evaluation objective.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EvaluationObjectiveRatingLevel" type="RatingLevelDescriptorReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The rating level achieved based upon the rating or score for the evaluation objective.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>RatingLevelDescriptor</ann:Descriptor>
+          </xs:appinfo>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20624,6 +21266,17 @@
       <xs:maxLength value="128" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="EvaluationDescription">
+    <xs:annotation>
+      <xs:documentation>The long description of the Evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="EvaluationLateReason">
     <xs:annotation>
       <xs:documentation>Refers to additional information for delay in doing the evaluation. This is a free flow text.</xs:documentation>
@@ -20634,6 +21287,17 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ExternalEvaluator">
+    <xs:annotation>
+      <xs:documentation>The external person(s) - not staff - that conducted the evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ExternalTerm">
@@ -21039,6 +21703,39 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ProgramEvaluationElementTitle">
+    <xs:annotation>
+      <xs:documentation>The name or title of the program evaluation element</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ProgramEvaluationObjectiveTitle">
+    <xs:annotation>
+      <xs:documentation>The name or title of the program evaluation objective.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ProgramEvaluationTitle">
+    <xs:annotation>
+      <xs:documentation>An assigned unique identifier for the program evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ProgramId">
@@ -21771,6 +22468,18 @@
       <xs:fractionDigits value="2" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="NumericRating">
+    <xs:annotation>
+      <xs:documentation>The numerical summary rating or score for an evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="6" />
+      <xs:fractionDigits value="3" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="NumericResponse">
     <xs:annotation>
       <xs:documentation>The numeric response to the question.</xs:documentation>
@@ -21856,6 +22565,15 @@
       <xs:minInclusive value="1" />
       <xs:maxInclusive value="8" />
     </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SortOrder">
+    <xs:annotation>
+      <xs:documentation>The arrangement or sequence in which data is organized or displayed.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:int" />
   </xs:simpleType>
   <xs:simpleType name="TotalInstructionalDays">
     <xs:annotation>

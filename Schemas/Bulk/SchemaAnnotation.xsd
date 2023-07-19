@@ -88,6 +88,8 @@
       <xs:enumeration value="EntryGradeLevelReasonDescriptor" />
       <xs:enumeration value="EntryTypeDescriptor" />
       <xs:enumeration value="EvaluationDelayReasonDescriptor" />
+      <xs:enumeration value="EvaluationPeriodDescriptor" />
+      <xs:enumeration value="EvaluationTypeDescriptor" />
       <xs:enumeration value="EventCircumstanceDescriptor" />
       <xs:enumeration value="ExitWithdrawTypeDescriptor" />
       <xs:enumeration value="FinancialCollectionDescriptor" />
@@ -162,6 +164,7 @@
       <xs:enumeration value="PublicationStatusDescriptor" />
       <xs:enumeration value="QuestionFormDescriptor" />
       <xs:enumeration value="RaceDescriptor" />
+      <xs:enumeration value="RatingLevelDescriptor" />
       <xs:enumeration value="ReasonExitedDescriptor" />
       <xs:enumeration value="ReasonNotTestedDescriptor" />
       <xs:enumeration value="RecognitionTypeDescriptor" />
