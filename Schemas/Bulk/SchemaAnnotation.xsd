@@ -98,10 +98,8 @@
       <xs:enumeration value="EvaluationDelayReasonDescriptor" />
       <xs:enumeration value="EvaluationElementRatingLevelDescriptor" />
       <xs:enumeration value="EvaluationPeriodDescriptor" />
-      <xs:enumeration value="EvaluationPeriodDescriptor" />
       <xs:enumeration value="EvaluationRatingLevelDescriptor" />
       <xs:enumeration value="EvaluationRatingStatusDescriptor" />
-      <xs:enumeration value="EvaluationTypeDescriptor" />
       <xs:enumeration value="EvaluationTypeDescriptor" />
       <xs:enumeration value="EventCircumstanceDescriptor" />
       <xs:enumeration value="ExitWithdrawTypeDescriptor" />
@@ -171,6 +169,8 @@
       <xs:enumeration value="ProficiencyDescriptor" />
       <xs:enumeration value="ProgramAssignmentDescriptor" />
       <xs:enumeration value="ProgramCharacteristicDescriptor" />
+      <xs:enumeration value="ProgramEvaluationPeriodDescriptor" />
+      <xs:enumeration value="ProgramEvaluationTypeDescriptor" />
       <xs:enumeration value="ProgramSponsorDescriptor" />
       <xs:enumeration value="ProgramTypeDescriptor" />
       <xs:enumeration value="ProgressDescriptor" />
