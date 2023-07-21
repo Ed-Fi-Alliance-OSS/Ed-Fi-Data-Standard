@@ -535,7 +535,7 @@
 		<ProgramId>0012003</ProgramId>
 		<ProgramName>21st CCLC</ProgramName>
 		<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
-		<ProgramSponsor>Federal government</ProgramSponsor>
+		<ProgramSponsor>uri://ed-fi.org/ProgramSponsorDescriptor#Federal government</ProgramSponsor>
 	</Program>
 	<ProgramEvaluationObjective>
 		<ProgramEvaluationReference>
