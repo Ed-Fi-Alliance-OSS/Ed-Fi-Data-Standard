@@ -3178,10 +3178,10 @@
 	<Program>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
-				<EducationOrganizationId>4235</EducationOrganizationId>
+				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
-		<ProgramId>0012003</ProgramId>
+		<ProgramId>12</ProgramId>
 		<ProgramName>21st CCLC</ProgramName>
 		<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
 		<ProgramSponsor>uri://ed-fi.org/ProgramSponsorDescriptor#Federal government</ProgramSponsor>
