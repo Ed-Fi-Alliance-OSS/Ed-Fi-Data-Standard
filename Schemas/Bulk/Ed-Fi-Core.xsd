@@ -3498,7 +3498,7 @@
           </xs:element>
           <xs:element name="ProgramEvaluationObjectiveDescription" type="ProgramEvaluationDescription" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>	The long description of the program evaluation objective.</xs:documentation>
+              <xs:documentation>The long description of the program evaluation objective.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ObjectiveRatingLevel" type="Level" minOccurs="0" maxOccurs="unbounded">
