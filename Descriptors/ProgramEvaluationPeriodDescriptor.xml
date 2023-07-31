@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
-	<EvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>Mid-Year</CodeValue>
 		<ShortDescription>Mid-Year</ShortDescription>
 		<Description>Mid-Year</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>Beginning of year</CodeValue>
 		<ShortDescription>Beginning of year</ShortDescription>
 		<Description>Beginning of year</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>End of Year</CodeValue>
 		<ShortDescription>End of Year</ShortDescription>
 		<Description>End of Year</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>First Quarter</CodeValue>
 		<ShortDescription>First Quarter</ShortDescription>
 		<Description>First Quarter</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>Second Quarter</CodeValue>
 		<ShortDescription>Second Quarter</ShortDescription>
 		<Description>Second Quarter</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>Third Quarter</CodeValue>
 		<ShortDescription>Third Quarter</ShortDescription>
 		<Description>Third Quarter</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>Fall Semester</CodeValue>
 		<ShortDescription>Fall</ShortDescription>
 		<Description>Fall</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>Fourth Quarter</CodeValue>
 		<ShortDescription>Fourth Quarter</ShortDescription>
 		<Description>Fourth Quarter</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>Spring Semester</CodeValue>
 		<ShortDescription>Spring Semester</ShortDescription>
 		<Description>Spring Semester</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>Summer Semester</CodeValue>
 		<ShortDescription>Summer Semester</ShortDescription>
 		<Description>Summer Semester</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
-	<EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
+	<ProgramEvaluationPeriodDescriptor>
 		<CodeValue>Winter Semester</CodeValue>
 		<ShortDescription>Winter Semester</ShortDescription>
 		<Description>Winter Semester</Description>
-		<Namespace>uri://ed-fi.org/EvaluationPeriodDescriptor</Namespace>
-	</EvaluationPeriodDescriptor>
+		<Namespace>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor</Namespace>
+	</ProgramEvaluationPeriodDescriptor>
 </InterchangeDescriptors>

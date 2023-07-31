@@ -3175,6 +3175,17 @@
 		<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Compensatory Services for Disadvantaged Students</ProgramType>
 		<ProgramSponsor>uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency</ProgramSponsor>
 	</Program>
+	<Program>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<ProgramId>12</ProgramId>
+		<ProgramName>21st CCLC</ProgramName>
+		<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
+		<ProgramSponsor>uri://ed-fi.org/ProgramSponsorDescriptor#Federal government</ProgramSponsor>
+	</Program>
 	<AccountabilityRating>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
