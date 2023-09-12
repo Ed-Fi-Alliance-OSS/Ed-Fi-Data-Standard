@@ -103,6 +103,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#First Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Fall Semester</GradingPeriodName>
 		<PeriodSequence>1</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2021-08-23</BeginDate>
@@ -116,6 +117,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#First Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Fall Semester</GradingPeriodName>
 		<PeriodSequence>1</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2021-08-23</BeginDate>
@@ -129,6 +131,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#First Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Fall Semester</GradingPeriodName>
 		<PeriodSequence>1</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2021-08-23</BeginDate>
@@ -142,6 +145,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Second Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Fall Semester</GradingPeriodName>
 		<PeriodSequence>2</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2021-10-04</BeginDate>
@@ -155,6 +159,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Second Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Fall Semester</GradingPeriodName>
 		<PeriodSequence>2</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2021-10-04</BeginDate>
@@ -168,6 +173,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Second Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Fall Semester</GradingPeriodName>
 		<PeriodSequence>2</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2021-10-04</BeginDate>
@@ -181,6 +187,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Third Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Fall Semester</GradingPeriodName>
 		<PeriodSequence>3</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2021-11-08</BeginDate>
@@ -194,6 +201,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Third Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Fall Semester</GradingPeriodName>
 		<PeriodSequence>3</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2021-11-08</BeginDate>
@@ -207,6 +215,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Third Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Fall Semester</GradingPeriodName>
 		<PeriodSequence>3</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2021-11-08</BeginDate>
@@ -220,6 +229,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fourth Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Spring Semester</GradingPeriodName>
 		<PeriodSequence>4</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2022-01-04</BeginDate>
@@ -233,6 +243,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fourth Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Spring Semester</GradingPeriodName>
 		<PeriodSequence>4</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2022-01-04</BeginDate>
@@ -246,6 +257,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fourth Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Spring Semester</GradingPeriodName>
 		<PeriodSequence>4</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2022-01-04</BeginDate>
@@ -259,6 +271,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fifth Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Spring Semester</GradingPeriodName>
 		<PeriodSequence>5</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2022-02-22</BeginDate>
@@ -272,6 +285,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fifth Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Spring Semester</GradingPeriodName>
 		<PeriodSequence>5</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2022-02-22</BeginDate>
@@ -285,6 +299,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Fifth Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Spring Semester</GradingPeriodName>
 		<PeriodSequence>5</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2022-02-22</BeginDate>
@@ -298,6 +313,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Sixth Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Spring Semester</GradingPeriodName>
 		<PeriodSequence>6</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2022-04-11</BeginDate>
@@ -311,6 +327,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Sixth Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Spring Semester</GradingPeriodName>
 		<PeriodSequence>6</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2022-04-11</BeginDate>
@@ -324,6 +341,7 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<GradingPeriod>uri://ed-fi.org/GradingPeriodDescriptor#Sixth Six Weeks</GradingPeriod>
+		<GradingPeriodName>2021-2022 Spring Semester</GradingPeriodName>
 		<PeriodSequence>6</PeriodSequence>
 		<SchoolYear>2021-2022</SchoolYear>
 		<BeginDate>2022-04-11</BeginDate>
