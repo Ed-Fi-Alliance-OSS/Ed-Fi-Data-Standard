@@ -2063,13 +2063,18 @@
           </xs:element>
           <xs:element name="GradingPeriod" type="GradingPeriodDescriptorReferenceType">
             <xs:annotation>
-              <xs:documentation>The name of the period for which grades are reported.</xs:documentation>
+              <xs:documentation>The state's name of the period for which grades are reported.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>GradingPeriodDescriptor</ann:Descriptor>
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="PeriodSequence" type="xs:int">
+          <xs:element name="GradingPeriodName" type="GradingPeriodName">
+            <xs:annotation>
+              <xs:documentation>The school's descriptive name of the grading period.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="PeriodSequence" type="xs:int" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The sequential order of this period relative to other periods.</xs:documentation>
             </xs:annotation>
@@ -6140,7 +6145,7 @@
   </xs:complexType>
   <xs:complexType name="GradingPeriodDescriptor">
     <xs:annotation>
-      <xs:documentation>This descriptor defines the name of the period for which grades are reported. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor defines the state's name of the period for which grades are reported. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7097,7 +7102,7 @@
   </xs:complexType>
   <xs:complexType name="SchoolTypeDescriptor">
     <xs:annotation>
-      <xs:documentation>The type of education institution as classified by its primary focus.</xs:documentation>
+      <xs:documentation>The type of education institution as classified by its primary focus such as Alternative, Career and Technical Education, Regular, or Special Education schools.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -11257,15 +11262,15 @@
       </xs:element>
       <xs:element name="GradingPeriod" type="GradingPeriodDescriptorReferenceType">
         <xs:annotation>
-          <xs:documentation>The name of the period for which grades are reported.</xs:documentation>
+          <xs:documentation>The state's name of the period for which grades are reported.</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>GradingPeriodDescriptor</ann:Descriptor>
           </xs:appinfo>
         </xs:annotation>
       </xs:element>
-      <xs:element name="PeriodSequence" type="xs:int">
+      <xs:element name="GradingPeriodName" type="GradingPeriodName">
         <xs:annotation>
-          <xs:documentation>The sequential order of this period relative to other periods.</xs:documentation>
+          <xs:documentation>The school's descriptive name of the grading period.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="SchoolYear" type="SchoolYearType">
@@ -16263,7 +16268,7 @@
   </xs:simpleType>
   <xs:simpleType name="GradingPeriodDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>This descriptor defines the name of the period for which grades are reported. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor defines the state's name of the period for which grades are reported. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -17046,7 +17051,7 @@
   </xs:simpleType>
   <xs:simpleType name="SchoolTypeDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>The type of education institution as classified by its primary focus.</xs:documentation>
+      <xs:documentation>The type of education institution as classified by its primary focus such as Alternative, Career and Technical Education, Regular, or Special Education schools.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -21381,6 +21386,18 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="80" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="GradingPeriodName">
+    <xs:annotation>
+      <xs:documentation>The school's descriptive name of the grading period.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="HonorDescription">
