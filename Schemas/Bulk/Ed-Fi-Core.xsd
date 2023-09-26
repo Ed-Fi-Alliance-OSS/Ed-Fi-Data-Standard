@@ -1223,6 +1223,21 @@
               <xs:documentation>Link to the student's academic record for a semester/school year.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="SectionReference" type="SectionReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The section(s) associated with the course transcript.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ResponsibleTeacherStaffReference" type="StaffReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The staff member that is the responsible teacher for instructing or monitoring instruction for student attempting the course.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramReference" type="ProgramReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The program(s) that the student participated in the context of the course.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
           <xs:element name="CourseTitle" type="CourseTitle" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The descriptive name given to a course of study offered in a school or other institution or organization. In departmentalized classes at the elementary, secondary, and postsecondary levels (and for staff development activities), this refers to the name by which a course is identified (e.g., American History, English III). For elementary and other non-departmentalized classes, it refers to any portion of the instruction for which a grade or report is assigned (e.g., reading, composition, spelling, language arts).</xs:documentation>
@@ -3795,6 +3810,14 @@
           <xs:element name="SectionIdentifier" type="SectionIdentifier">
             <xs:annotation>
               <xs:documentation>The local identifier assigned to a section.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SectionType" type="SectionTypeDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Specifies whether the section is for attendance only, credit only, or both.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SectionTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
             </xs:annotation>
           </xs:element>
           <xs:element name="SequenceOfCourse" type="SequenceOfCourse" minOccurs="0">
@@ -7122,6 +7145,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="SectionTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>Specifies whether the section is for attendance only, credit only, or both.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="SeparationDescriptor">
     <xs:annotation>
       <xs:documentation>Type of employment separation; for example:  Voluntary separation, Involuntary separation, Mutual agreement. Other, etc.</xs:documentation>
@@ -7909,6 +7943,11 @@
           <xs:element name="HourlyWage" type="Currency" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Hourly wage associated with the employment position being reported.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AnnualWage" type="Currency" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Annual wage associated with the employment position being reported.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="CredentialReference" type="CredentialReferenceType" minOccurs="0">
@@ -9043,6 +9082,11 @@
               <xs:appinfo>
                 <ann:Descriptor>AttemptStatusDescriptor</ann:Descriptor>
               </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProgramReference" type="ProgramReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The program(s) that the student is participating in the context of the course.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -17061,6 +17105,15 @@
   <xs:simpleType name="SectionCharacteristicDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines characteristics of a Section, such as whether attendance is taken and the Section is graded.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="SectionTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Specifies whether the section is for attendance only, credit only, or both.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
