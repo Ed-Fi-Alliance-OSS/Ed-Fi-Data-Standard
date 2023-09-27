@@ -7911,6 +7911,11 @@
               <xs:documentation>Hourly wage associated with the employment position being reported.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="AnnualWage" type="Currency" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Annual wage associated with the employment position being reported.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
           <xs:element name="CredentialReference" type="CredentialReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Reference to the credential that is the basis for this employment.</xs:documentation>
