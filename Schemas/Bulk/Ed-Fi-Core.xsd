@@ -7323,7 +7323,7 @@
   </xs:complexType>
   <xs:complexType name="SupporterMilitaryConnectionDescriptor">
     <xs:annotation>
-      <xs:documentation>Military connection of the person/people who the student is a dependent of.</xs:documentation>
+      <xs:documentation>Military connection of the person/people whom the student is a dependent of.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -8556,7 +8556,7 @@
           </xs:element>
           <xs:element name="SupporterMilitaryConnection" type="SupporterMilitaryConnectionDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Military connection of the person/people who the student is a dependent of.</xs:documentation>
+              <xs:documentation>Military connection of the person/people whom the student is a dependent of.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>SupporterMilitaryConnectionDescriptor</ann:Descriptor>
               </xs:appinfo>
@@ -17276,7 +17276,7 @@
   </xs:simpleType>
   <xs:simpleType name="SupporterMilitaryConnectionDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>Military connection of the person/people who the student is a dependent of.</xs:documentation>
+      <xs:documentation>Military connection of the person/people whom the student is a dependent of.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
