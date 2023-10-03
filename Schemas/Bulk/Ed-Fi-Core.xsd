@@ -17207,15 +17207,6 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="SupporterMilitaryConnectionDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>Military connection of the person/people who the student is a dependent of.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
   <xs:simpleType name="SurveyCategoryDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The descriptor holds the category or type of survey.</xs:documentation>
