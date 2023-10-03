@@ -1223,21 +1223,6 @@
               <xs:documentation>Link to the student's academic record for a semester/school year.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="SectionReference" type="SectionReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The section(s) associated with the course transcript.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ResponsibleTeacherStaffReference" type="StaffReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The staff member that is the responsible teacher for instructing or monitoring instruction for student attempting the course.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ProgramReference" type="ProgramReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The program(s) that the student participated in the context of the course.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="CourseTitle" type="CourseTitle" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The descriptive name given to a course of study offered in a school or other institution or organization. In departmentalized classes at the elementary, secondary, and postsecondary levels (and for staff development activities), this refers to the name by which a course is identified (e.g., American History, English III). For elementary and other non-departmentalized classes, it refers to any portion of the instruction for which a grade or report is assigned (e.g., reading, composition, spelling, language arts).</xs:documentation>
@@ -3812,14 +3797,6 @@
               <xs:documentation>The local identifier assigned to a section.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="SectionType" type="SectionTypeDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Specifies whether the section is for attendance only, credit only, or both.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>SectionTypeDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="SequenceOfCourse" type="SequenceOfCourse" minOccurs="0">
             <xs:annotation>
               <xs:documentation>When a section is part of a sequence of parts for a course, the number of the sequence. If the course has only one part, the value of this section attribute should be 1.</xs:documentation>
@@ -3961,7 +3938,7 @@
   </xs:complexType>
   <xs:complexType name="Session">
     <xs:annotation>
-      <xs:documentation>A specific designated unit of time during which instruction is provided, grades are reported and academic credits are awarded to students (whenever applicable). Sessions serve as organized segments of the academic year and can be interrupted by vacations or other events.</xs:documentation>
+      <xs:documentation>A term in the school year, generally a unit of time into which courses are scheduled, instruction occurs and by which credits are awarded. Sessions may be interrupted by vacations or other events.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Domain Entity</ann:TypeGroup>
       </xs:appinfo>
@@ -3991,7 +3968,7 @@
           </xs:element>
           <xs:element name="Term" type="TermDescriptorReferenceType">
             <xs:annotation>
-              <xs:documentation>A descriptor value to indicate the term that the session is associated with.</xs:documentation>
+              <xs:documentation>An descriptor value indicating the term.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>TermDescriptor</ann:Descriptor>
               </xs:appinfo>
@@ -7145,17 +7122,6 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="SectionTypeDescriptor">
-    <xs:annotation>
-      <xs:documentation>Specifies whether the section is for attendance only, credit only, or both.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="SeparationDescriptor">
     <xs:annotation>
       <xs:documentation>Type of employment separation; for example:  Voluntary separation, Involuntary separation, Mutual agreement. Other, etc.</xs:documentation>
@@ -7321,17 +7287,6 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="SupporterMilitaryConnectionDescriptor">
-    <xs:annotation>
-      <xs:documentation>Military connection of the person/people who the student is a dependent of.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="SurveyCategoryDescriptor">
     <xs:annotation>
       <xs:documentation>The descriptor holds the category or type of survey.</xs:documentation>
@@ -7400,7 +7355,7 @@
   </xs:complexType>
   <xs:complexType name="TermDescriptor">
     <xs:annotation>
-      <xs:documentation>A distinct period of time into which the academic year is divided. These could be “semesters”, “trimesters” or “quarters”, depending on the school or district’s academic calendar.</xs:documentation>
+      <xs:documentation>This descriptor defines the term of a session during the school year (e.g., Semester).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -8554,14 +8509,6 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="SupporterMilitaryConnection" type="SupporterMilitaryConnectionDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Military connection of the person/people who the student is a dependent of.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>SupporterMilitaryConnectionDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -9101,11 +9048,6 @@
               <xs:appinfo>
                 <ann:Descriptor>AttemptStatusDescriptor</ann:Descriptor>
               </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ProgramReference" type="ProgramReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The program(s) that the student is participating in the context of the course.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -12927,7 +12869,7 @@
       </xs:element>
       <xs:element name="Term" type="TermDescriptorReferenceType" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>A descriptor value to indicate the term that the session is associated with.</xs:documentation>
+          <xs:documentation>An descriptor value indicating the term.</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>TermDescriptor</ann:Descriptor>
           </xs:appinfo>
@@ -17130,15 +17072,6 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="SectionTypeDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>Specifies whether the section is for attendance only, credit only, or both.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
   <xs:simpleType name="SeparationDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>Type of employment separation; for example:  Voluntary separation, Involuntary separation, Mutual agreement. Other, etc.</xs:documentation>
@@ -17274,15 +17207,6 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="SupporterMilitaryConnectionDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>Military connection of the person/people who the student is a dependent of.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
   <xs:simpleType name="SurveyCategoryDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The descriptor holds the category or type of survey.</xs:documentation>
@@ -17339,7 +17263,7 @@
   </xs:simpleType>
   <xs:simpleType name="TermDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>A distinct period of time into which the academic year is divided. These could be “semesters”, “trimesters” or “quarters”, depending on the school or district’s academic calendar.</xs:documentation>
+      <xs:documentation>This descriptor defines the term of a session during the school year (e.g., Semester).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
