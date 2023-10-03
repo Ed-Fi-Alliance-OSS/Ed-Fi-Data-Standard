@@ -184,6 +184,7 @@
       <xs:enumeration value="SchoolFoodServiceProgramServiceDescriptor" />
       <xs:enumeration value="SchoolTypeDescriptor" />
       <xs:enumeration value="SectionCharacteristicDescriptor" />
+      <xs:enumeration value="SectionTypeDescriptor" />
       <xs:enumeration value="SeparationDescriptor" />
       <xs:enumeration value="SeparationReasonDescriptor" />
       <xs:enumeration value="ServiceDescriptor" />
@@ -199,6 +200,7 @@
       <xs:enumeration value="StudentIdentificationSystemDescriptor" />
       <xs:enumeration value="StudentParticipationCodeDescriptor" />
       <xs:enumeration value="SubmissionStatusDescriptor" />
+      <xs:enumeration value="SupporterMilitaryConnectionDescriptor" />
       <xs:enumeration value="SurveyCategoryDescriptor" />
       <xs:enumeration value="SurveyLevelDescriptor" />
       <xs:enumeration value="TeachingCredentialBasisDescriptor" />

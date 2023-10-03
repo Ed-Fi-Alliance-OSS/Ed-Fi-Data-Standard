@@ -180,6 +180,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="SchoolFoodServiceProgramServiceDescriptor" type="SchoolFoodServiceProgramServiceDescriptor" />
         <xs:element name="SchoolTypeDescriptor" type="SchoolTypeDescriptor" />
         <xs:element name="SectionCharacteristicDescriptor" type="SectionCharacteristicDescriptor" />
+        <xs:element name="SectionTypeDescriptor" type="SectionTypeDescriptor" />
         <xs:element name="SeparationDescriptor" type="SeparationDescriptor" />
         <xs:element name="SeparationReasonDescriptor" type="SeparationReasonDescriptor" />
         <xs:element name="ServiceDescriptor" type="ServiceDescriptor" />
@@ -195,6 +196,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="StudentIdentificationSystemDescriptor" type="StudentIdentificationSystemDescriptor" />
         <xs:element name="StudentParticipationCodeDescriptor" type="StudentParticipationCodeDescriptor" />
         <xs:element name="SubmissionStatusDescriptor" type="SubmissionStatusDescriptor" />
+        <xs:element name="SupporterMilitaryConnectionDescriptor" type="SupporterMilitaryConnectionDescriptor" />
         <xs:element name="SurveyCategoryDescriptor" type="SurveyCategoryDescriptor" />
         <xs:element name="SurveyLevelDescriptor" type="SurveyLevelDescriptor" />
         <xs:element name="TeachingCredentialDescriptor" type="TeachingCredentialDescriptor" />
