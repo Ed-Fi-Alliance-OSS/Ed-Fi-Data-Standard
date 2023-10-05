@@ -200,6 +200,7 @@
       <xs:enumeration value="StudentIdentificationSystemDescriptor" />
       <xs:enumeration value="StudentParticipationCodeDescriptor" />
       <xs:enumeration value="SubmissionStatusDescriptor" />
+      <xs:enumeration value="SupporterMilitaryConnectionDescriptor" />
       <xs:enumeration value="SurveyCategoryDescriptor" />
       <xs:enumeration value="SurveyLevelDescriptor" />
       <xs:enumeration value="TeachingCredentialBasisDescriptor" />

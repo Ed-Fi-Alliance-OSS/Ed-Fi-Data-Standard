@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <SupporterMilitaryConnectionDescriptor>
+		<CodeValue>Active Duty</CodeValue>
+		<ShortDescription>Student is a dependent of a (full-time) member of the military</ShortDescription>
+		<Description>Student is a dependent of a member of the Active Duty Forces (full-time) Army, Navy, Air Force, Space Force, Marine Corps, or Coast Guard or a member on full-time National Guard duty</Description>
+		<Namespace>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor</Namespace>
+	</SupporterMilitaryConnectionDescriptor>
+	<SupporterMilitaryConnectionDescriptor>
+		<CodeValue>Reserve</CodeValue>
+		<ShortDescription>Student is a dependent of a  member of reserve forces or national guard</ShortDescription>
+		<Description>Student is a dependent of a member of the National Guard (not full-time) or the Reserve Forces Army, Navy, Air Force, Space Force, Marine Corps or Coast Guard</Description>
+		<Namespace>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor</Namespace>
+	</SupporterMilitaryConnectionDescriptor>
+	<SupporterMilitaryConnectionDescriptor>
+		<CodeValue>Veteran</CodeValue>
+		<ShortDescription>Student is a dependent of a discharged military personnel or a retiree</ShortDescription>
+		<Description>Student is a dependent of a person who has served in the US military and become discharged or released or got retired after completing required amount of years of military services</Description>
+		<Namespace>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor</Namespace>
+	</SupporterMilitaryConnectionDescriptor>
+	<SupporterMilitaryConnectionDescriptor>
+		<CodeValue>DoD Civilian</CodeValue>
+		<ShortDescription>Student is a dependent of a civil servant to the DoD</ShortDescription>
+		<Description>Student is a dependent of a person who is employed by the Department of Defense as a civil servant</Description>
+		<Namespace>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor</Namespace>
+	</SupporterMilitaryConnectionDescriptor>
+	<SupporterMilitaryConnectionDescriptor>
+		<CodeValue>Not Military Connected</CodeValue>
+		<ShortDescription>People who the student is a dependent of is/are not military connected</ShortDescription>
+		<Description>Contact does not have a connection with military or department of defense as an employee or retiree</Description>
+		<Namespace>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor</Namespace>
+    </SupporterMilitaryConnectionDescriptor>
+    	<SupporterMilitaryConnectionDescriptor>
+		<CodeValue>Unknown</CodeValue>
+		<ShortDescription>Military connection information is unknown</ShortDescription>
+		<Description>It is unknown whether or not the student is a dependent of a person who is military-connected</Description>
+		<Namespace>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor</Namespace>
+    </SupporterMilitaryConnectionDescriptor>
+</InterchangeDescriptors>
