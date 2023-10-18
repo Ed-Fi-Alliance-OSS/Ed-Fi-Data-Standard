@@ -896,6 +896,11 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
+          <xs:element name="GenderIdentity" type="GenderIdentity" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The gender the contact identifies themselves as.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
           <xs:element name="Address" type="Address" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Contact's address, if different from the student address.</xs:documentation>
@@ -4094,6 +4099,11 @@
               <xs:appinfo>
                 <ann:Descriptor>SexDescriptor</ann:Descriptor>
               </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="GenderIdentity" type="GenderIdentity" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The gender the staff member identifies themselves as.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="BirthDate" type="xs:date" minOccurs="0">
@@ -8401,12 +8411,17 @@
               <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services, or other agencies to refer to a student.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Sex" type="SexDescriptorReferenceType">
+          <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The student's gender as last reported to the education organization.</xs:documentation>
+              <xs:documentation>The student's birth sex as reported to the education organization.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>SexDescriptor</ann:Descriptor>
               </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="GenderIdentity" type="GenderIdentity" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The student's gender as last reported to the education organization.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="Address" type="Address" minOccurs="0" maxOccurs="unbounded">
@@ -21407,6 +21422,17 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:maxLength value="80" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="GenderIdentity">
+    <xs:annotation>
+      <xs:documentation>The gender a person identifies themselves as.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="GenerationCodeSuffix">
