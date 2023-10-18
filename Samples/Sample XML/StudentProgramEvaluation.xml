@@ -445,7 +445,7 @@
 				</ProgramEvaluationObjectiveIdentity>
 			</ProgramEvaluationObjectiveReference>
 			<EvaluationObjectiveNumericRating>0.78</EvaluationObjectiveNumericRating>
-			<EvaluationObjectiveRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationObjectiveRatingLevel>
+			<EvaluationObjectiveProgramEvaluationLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationObjectiveProgramEvaluationLevel>
 		</StudentEvaluationObjective>
 		<StudentEvaluationElement>
 			<ProgramEvaluationElementReference>
@@ -472,7 +472,7 @@
 				</ProgramEvaluationElementIdentity>
 			</ProgramEvaluationElementReference>
 			<EvaluationElementNumericRating>0.64</EvaluationElementNumericRating>
-			<EvaluationElementRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationElementRatingLevel>
+			<EvaluationElementProgramEvaluationLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationElementProgramEvaluationLevel>
 		</StudentEvaluationElement>
 	</StudentProgramEvaluation>				
 	<EvaluationRubricDimension>
@@ -518,11 +518,11 @@
 		<ProgramEvaluationType>uri://ed-fi.org/ProgramEvaluationTypeDescriptor#Teacher survey</ProgramEvaluationType>
 		<ProgramEvaluationPeriod>uri://ed-fi.org/ProgramEvaluationPeriodDescriptor#End of Year</ProgramEvaluationPeriod>
 		<ProgramEvaluationDescription>This evaluation is designed to determine the effect of the 21st CCLC program on student participants.</ProgramEvaluationDescription>
-		<EvaluationRatingLevel>
+		<ProgramEvaluationLevel>
 			<RatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</RatingLevel>
 			<MinNumericRating>0</MinNumericRating>
 			<MaxNumericRating>1.0</MaxNumericRating>
-		</EvaluationRatingLevel>
+		</ProgramEvaluationLevel>
 		<EvaluationMaxNumericRating>1.0</EvaluationMaxNumericRating>
 		<EvaluationMinNumericRating>0</EvaluationMinNumericRating>
 	</ProgramEvaluation>
@@ -547,11 +547,11 @@
 		</ProgramEvaluationReference>
 		<ProgramEvaluationObjectiveTitle>Critical Thinking</ProgramEvaluationObjectiveTitle>
 		<ProgramEvaluationObjectiveDescription>Critical Thinking</ProgramEvaluationObjectiveDescription>
-		<ObjectiveRatingLevel>
+		<ObjectiveProgramEvaluationLevel>
 			<RatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</RatingLevel>
 			<MinNumericRating>0</MinNumericRating>
 			<MaxNumericRating>1.0</MaxNumericRating>
-		</ObjectiveRatingLevel>
+		</ObjectiveProgramEvaluationLevel>
 		<ObjectiveMaxNumericRating>1.0</ObjectiveMaxNumericRating>
 		<ObjectiveMinNumericRating>0</ObjectiveMinNumericRating>
 		<ObjectiveSortOrder>1</ObjectiveSortOrder>
@@ -600,11 +600,11 @@
 		</ProgramEvaluationObjectiveReference>
 		<ProgramEvaluationElementTitle>Question 1</ProgramEvaluationElementTitle>		
 		<ProgramEvaluationElementDescription>I am confident in my ability to remain informed of the design project and collect important information to support the ideas of the design team.</ProgramEvaluationElementDescription>
-		<ElementRatingLevel>
+		<ElementProgramEvaluationLevel>
 			<RatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</RatingLevel>
 			<MinNumericRating>0</MinNumericRating>
 			<MaxNumericRating>1.0</MaxNumericRating>
-		</ElementRatingLevel>
+		</ElementProgramEvaluationLevel>
 		<ElementMaxNumericRating>1.0</ElementMaxNumericRating>
 		<ElementMinNumericRating>0</ElementMinNumericRating>
 		<ElementSortOrder>1</ElementSortOrder>
