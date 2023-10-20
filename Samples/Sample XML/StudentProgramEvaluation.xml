@@ -472,7 +472,7 @@
 				</ProgramEvaluationElementIdentity>
 			</ProgramEvaluationElementReference>
 			<EvaluationElementNumericRating>0.64</EvaluationElementNumericRating>
-			<EvaluationElementProgramEvaluationLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationElementProgramEvaluationLevel>
+			<EvaluationElementRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationElementRatingLevel>
 		</StudentEvaluationElement>
 	</StudentProgramEvaluation>				
 	<EvaluationRubricDimension>
