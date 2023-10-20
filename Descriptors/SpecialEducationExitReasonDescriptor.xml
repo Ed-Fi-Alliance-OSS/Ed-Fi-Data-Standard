@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>Transferred out</CodeValue>
+		<ShortDescription>Transferred to another educational organization</ShortDescription>
+		<Description>Student exited the Special Education program and related services because of transfering out another educational organization</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>Graduated with Diploma</CodeValue>
+		<ShortDescription>Graduated with Diploma</ShortDescription>
+		<Description>Student exited the Special Education program and related services because of graduating with a diploma.</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>Graduated with Certificate</CodeValue>
+		<ShortDescription>Graduated with Certificate of Completion</ShortDescription>
+		<Description>Student exited the Special Education program and related services because of graduating with a certificate of completion.</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>Reached the age limit</CodeValue>
+		<ShortDescription>Reached the maximum age limit for services</ShortDescription>
+		<Description>Student exited the Special Education program and related services because of an ineligibility other than reaching the maximum age limit.</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>No longer eligible for Special Education</CodeValue>
+		<ShortDescription>No longer eligible for Special Education</ShortDescription>
+		<Description>Student exited the Special Education program and related services because of an ineligibility other than reaching age limit</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>Dropped out</CodeValue>
+		<ShortDescription>Dropped out of school</ShortDescription>
+		<Description>Student exited the Special Education program and related services because of dropping out of school.</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Student exited the Special Education program and related services for any reason other than listed in the descriptor.</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+</InterchangeDescriptors>
