@@ -3428,7 +3428,7 @@
               <xs:documentation>The long description of the program evaluation.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="EvaluationRatingLevel" type="Level" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ProgramEvaluationLevel" type="ProgramEvaluationLevel" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The descriptive level(s) of ratings (cut scores) for the program evaluation.</xs:documentation>
             </xs:annotation>
@@ -3477,14 +3477,14 @@
               <xs:documentation>The long description of the program evaluation element.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="ElementRatingLevel" type="Level" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ElementProgramEvaluationLevel" type="ProgramEvaluationLevel" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The descriptive level(s) of ratings (cut scores) for the program evaluation element.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ElementMaxNumericRating" type="NumericRating" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>	The maximum summary numerical rating or score for the program evaluation element.</xs:documentation>
+              <xs:documentation>The maximum summary numerical rating or score for the program evaluation element.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ElementMinNumericRating" type="NumericRating" minOccurs="0">
@@ -3526,7 +3526,7 @@
               <xs:documentation>The long description of the program evaluation objective.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="ObjectiveRatingLevel" type="Level" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ObjectiveProgramEvaluationLevel" type="ProgramEvaluationLevel" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The descriptive level(s) of ratings (cut scores) for the program evaluation objective.</xs:documentation>
             </xs:annotation>
@@ -19136,34 +19136,6 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="Level">
-    <xs:annotation>
-      <xs:documentation>The descriptive level(s) of ratings (cut scores) for evaluation.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="RatingLevel" type="RatingLevelDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>The title for a level of rating or evaluation band (e.g., Excellent, Acceptable, Needs Improvement, Unacceptable).</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>RatingLevelDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="MinNumericRating" type="NumericRating" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The minimum numerical rating or score to achieve the evaluation rating level.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="MaxNumericRating" type="NumericRating" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The maximum numerical rating or score to achieve the evaluation rating level.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
   <xs:complexType name="License">
     <xs:annotation>
       <xs:documentation>The legal document showing proof of permission or authorization.</xs:documentation>
@@ -19668,6 +19640,34 @@
       <xs:element name="CorrectResponse" type="xs:boolean" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Indicates the response is correct.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProgramEvaluationLevel">
+    <xs:annotation>
+      <xs:documentation>The descriptive level(s) of ratings (cut scores) for evaluation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="RatingLevel" type="RatingLevelDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The title for a level of rating or evaluation band (e.g., Excellent, Acceptable, Needs Improvement, Unacceptable).</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>RatingLevelDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MinNumericRating" type="NumericRating" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The minimum numerical rating or score to achieve the evaluation rating level.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MaxNumericRating" type="NumericRating" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The maximum numerical rating or score to achieve the evaluation rating level.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
