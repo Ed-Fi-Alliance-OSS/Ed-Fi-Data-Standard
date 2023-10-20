@@ -21,7 +21,7 @@
 	<SpecialEducationExitReasonDescriptor>
 		<CodeValue>Reached the age limit</CodeValue>
 		<ShortDescription>Reached the maximum age limit for services</ShortDescription>
-		<Description>Student exited the Special Education program and related services because of reaching maximum age limit for eligibility.</Description>
+		<Description>Student exited the Special Education program and related services because of an ineligibility other than reaching the maximum age limit.</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
 	</SpecialEducationExitReasonDescriptor>
 	<SpecialEducationExitReasonDescriptor>
