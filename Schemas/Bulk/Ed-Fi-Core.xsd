@@ -7221,6 +7221,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="SpecialEducationExitReasonDescriptor">
+    <xs:annotation>
+      <xs:documentation>The reason why a person stops receiving special education services.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="SpecialEducationProgramServiceDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a special education program.</xs:documentation>
@@ -9205,6 +9216,24 @@
               <xs:documentation>Indicates the service(s) being provided to the student by the special education program.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="SpecialEducationExitDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The  month, day and year on which a person stops receiving special education services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SpecialEducationExitReason" type="SpecialEducationExitReasonDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The reason why a person stops receiving special education services.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SpecialEducationExitReasonDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SpecialEducationExitExplained" type="SpecialEducationExitExplained" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Explanation on why a person stops receiving special education services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -9300,7 +9329,7 @@
           </xs:element>
           <xs:element name="IDEAIndicator" type="xs:boolean" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Indicates whether or not the student was determined eligible and enrolled in special education and related services as a result of the evaluation report and the admission, review, and dismissal committee meeting decision.</xs:documentation>
+              <xs:documentation>Indicates whether or not the student was determined eligible as a result of an evaluation.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EligibilityDelayReason" type="EligibilityDelayReasonDescriptorReferenceType" minOccurs="0">
@@ -9319,6 +9348,11 @@
           <xs:element name="TransitionConferenceDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Indicates the month, day, and year when the transition conference was held (for a child receiving early childhood intervention (ECI) services) among the lead agency, the family, and the local education agency (LEA) where the child resides to discuss the child's potential eligibility for early childhood special education (ECSE) services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EligibilityConferenceDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The month, day, and year when the eligibility conference is held between the parent(s)/guardian(s) and the educational organization responsible staff member(s) to review and make decision on special education related services eligibility.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -17199,6 +17233,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="SpecialEducationExitReasonDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The reason why a person stops receiving special education services.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="SpecialEducationProgramServiceDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a special education program.</xs:documentation>
@@ -22100,6 +22143,17 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="75" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SpecialEducationExitExplained">
+    <xs:annotation>
+      <xs:documentation>Explanation on why a person stops receiving special education services.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Statement">
