@@ -186,6 +186,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="ServiceDescriptor" type="ServiceDescriptor" />
         <xs:element name="SexDescriptor" type="SexDescriptor" />
         <xs:element name="SourceSystemDescriptor" type="SourceSystemDescriptor" />
+        <xs:element name="SpecialEducationExitReasonDescriptor" type="SpecialEducationExitReasonDescriptor" />
         <xs:element name="SpecialEducationProgramServiceDescriptor" type="SpecialEducationProgramServiceDescriptor" />
         <xs:element name="SpecialEducationSettingDescriptor" type="SpecialEducationSettingDescriptor" />
         <xs:element name="StaffClassificationDescriptor" type="StaffClassificationDescriptor" />

@@ -190,6 +190,7 @@
       <xs:enumeration value="ServiceDescriptor" />
       <xs:enumeration value="SexDescriptor" />
       <xs:enumeration value="SourceSystemDescriptor" />
+      <xs:enumeration value="SpecialEducationExitReasonDescriptor" />
       <xs:enumeration value="SpecialEducationProgramServiceDescriptor" />
       <xs:enumeration value="SpecialEducationSettingDescriptor" />
       <xs:enumeration value="StaffClassificationDescriptor" />
