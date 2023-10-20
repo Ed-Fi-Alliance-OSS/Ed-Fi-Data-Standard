@@ -27,7 +27,7 @@
 	<SpecialEducationExitReasonDescriptor>
 		<CodeValue>No longer eligible for Special Education</CodeValue>
 		<ShortDescription>No longer eligible for Special Education</ShortDescription>
-		<Description>Student exited the Special Education program and related services because of the en of eligibility other than reaching age limit</Description>
+		<Description>Student exited the Special Education program and related services because of an ineligibility other than reaching age limit</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
 	</SpecialEducationExitReasonDescriptor>
 	<SpecialEducationExitReasonDescriptor>
