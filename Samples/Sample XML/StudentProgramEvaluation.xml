@@ -445,7 +445,7 @@
 				</ProgramEvaluationObjectiveIdentity>
 			</ProgramEvaluationObjectiveReference>
 			<EvaluationObjectiveNumericRating>0.78</EvaluationObjectiveNumericRating>
-			<EvaluationObjectiveProgramEvaluationLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationObjectiveProgramEvaluationLevel>
+			<EvaluationObjectiveRatingLevel>uri://ed-fi.org/RatingLevelDescriptor#Demonstrated</EvaluationObjectiveProgramEvaluationLevel>
 		</StudentEvaluationObjective>
 		<StudentEvaluationElement>
 			<ProgramEvaluationElementReference>
