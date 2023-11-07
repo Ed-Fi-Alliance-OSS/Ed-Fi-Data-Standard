@@ -3113,12 +3113,12 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
-		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
-		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Transferred out</SpecialEducationExitReason>
-		<SpecialEducationExitExplained>Transferred to another educational organization</SpecialEducationExitExplained>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Autism Spectrum Disorders</Disability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Transferred out</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Transferred to another educational organization</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3176,12 +3176,12 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
-		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
-		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Transferred out</SpecialEducationExitReason>
-		<SpecialEducationExitExplained>Transferred to another educational organization</SpecialEducationExitExplained>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Physical Disability</Disability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Transferred out</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Transferred to another educational organization</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3209,9 +3209,6 @@
 		<LastEvaluationDate>2021-08-24</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
-		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
-		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Transferred out</SpecialEducationExitReason>
-		<SpecialEducationExitExplained>Transferred to another educational organization</SpecialEducationExitExplained>
 		<SpecialEducationProgramService>
 			<SpecialEducationProgramService>uri://ed-fi.org/SpecialEducationProgramServiceDescriptor#Early Identification And Evaluation</SpecialEducationProgramService>
 			<ServiceProvider>
@@ -3252,9 +3249,6 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
-		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
-		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Diploma</SpecialEducationExitReason>
-		<SpecialEducationExitExplained>Student Graduated with Diploma</SpecialEducationExitExplained>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Motor impairment</Disability>
 			<OrderOfDisability>1</OrderOfDisability>
@@ -3263,6 +3257,9 @@
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Physical Disability</Disability>
 			<OrderOfDisability>2</OrderOfDisability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Diploma</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Graduated with Diploma</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3386,12 +3383,12 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
-		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
-		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Diploma</SpecialEducationExitReason>
-		<SpecialEducationExitExplained>Student Graduated with Diploma</SpecialEducationExitExplained>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Intellectual Disability</Disability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Diploma</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Graduated with Diploma</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3511,12 +3508,12 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
-		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
-		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Certificate</SpecialEducationExitReason>
-		<SpecialEducationExitExplained>Student Graduated with Certificate of Completion</SpecialEducationExitExplained>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Speech or Language Impairment</Disability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Certificate</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Graduated with Certificate of Completion</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3641,12 +3638,12 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
-		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
-		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Reached the age limit</SpecialEducationExitReason>
-		<SpecialEducationExitExplained>Student Reached the maximum age limit for services</SpecialEducationExitExplained>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Visual Impairment, including Blindness</Disability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Reached the age limit</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Reached the maximum age limit for services</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3828,12 +3825,12 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
-		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
-		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Dropped out</SpecialEducationExitReason>
-		<SpecialEducationExitExplained>Student Dropped out of school</SpecialEducationExitExplained>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Deaf-Blindness</Disability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Dropped out</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Dropped out of school</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3891,12 +3888,12 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
-		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
-		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Other</SpecialEducationExitReason>
-		<SpecialEducationExitExplained>Student Exited for any other reason not listed</SpecialEducationExitExplained>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Speech or Language Impairment</Disability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Other</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Exited for any other reason not listed</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4013,6 +4010,9 @@
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Traumatic Brain Injury</Disability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Other</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Exited for any other reason not listed</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4075,6 +4075,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Other</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Exited for any other reason not listed</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4105,6 +4108,9 @@
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
 		<IEPEndDate>2021-09-30</IEPEndDate>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Other</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Exited for any other reason not listed</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4134,6 +4140,9 @@
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Other</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Exited for any other reason not listed</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -4164,6 +4173,9 @@
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Autism Spectrum Disorders</Disability>
 		</Disability>
+		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
+		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Other</SpecialEducationExitReason>
+		<SpecialEducationExitExplained>Student Exited for any other reason not listed</SpecialEducationExitExplained>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
