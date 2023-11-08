@@ -1238,7 +1238,7 @@
               <xs:documentation>The staff member that is the responsible teacher for instructing or monitoring instruction for student attempting the course.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="ProgramReference" type="ProgramReferenceType" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CourseProgramReference" type="ProgramReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The program(s) that the student participated in the context of the course.</xs:documentation>
             </xs:annotation>
@@ -8116,9 +8116,9 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="BeginDate" type="xs:date" minOccurs="0">
+          <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of a teacher's assignment to the section. If blank, defaults to the first day of the first grading period for the section.</xs:documentation>
+              <xs:documentation>Month, day, and year of a teacher's assignment to the section.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
@@ -13594,6 +13594,11 @@
       <xs:element name="SectionReference" type="SectionReferenceType">
         <xs:annotation>
           <xs:documentation>The section the staff member is assigned to.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="BeginDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>Month, day, and year of a teacher's assignment to the section.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
