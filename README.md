@@ -5,13 +5,12 @@ The Ed-Fi Data Standard serves as the foundation for enabling interoperability a
 For more information, see:
 
 * [Ed-Fi Standards in Tech Docs](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Standards)
-* [How to Submit an Issue](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+an+Issue)
-* [How Submit a Feature Request](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+a+Feature+Request)
+* [How To: Get Technical Help or Provide Feedback](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Get+Technical+Help+or+Provide+Feedback)
 * Review on-going development work in the [Ed-Fi Data Standard](https://tracker.ed-fi.org/projects/DATASTD/) project in Tracker
 
 ## Legal Information
 
-Copyright (c) 2020 Ed-Fi Alliance, LLC and contributors.
+Copyright (c) 2023 Ed-Fi Alliance, LLC and contributors.
 
 Licensed under the [Apache License, Version 2.0](LICENSE) (the "License").
 
