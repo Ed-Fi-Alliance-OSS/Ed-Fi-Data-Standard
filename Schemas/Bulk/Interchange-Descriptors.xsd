@@ -180,11 +180,13 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="SchoolFoodServiceProgramServiceDescriptor" type="SchoolFoodServiceProgramServiceDescriptor" />
         <xs:element name="SchoolTypeDescriptor" type="SchoolTypeDescriptor" />
         <xs:element name="SectionCharacteristicDescriptor" type="SectionCharacteristicDescriptor" />
+        <xs:element name="SectionTypeDescriptor" type="SectionTypeDescriptor" />
         <xs:element name="SeparationDescriptor" type="SeparationDescriptor" />
         <xs:element name="SeparationReasonDescriptor" type="SeparationReasonDescriptor" />
         <xs:element name="ServiceDescriptor" type="ServiceDescriptor" />
         <xs:element name="SexDescriptor" type="SexDescriptor" />
         <xs:element name="SourceSystemDescriptor" type="SourceSystemDescriptor" />
+        <xs:element name="SpecialEducationExitReasonDescriptor" type="SpecialEducationExitReasonDescriptor" />
         <xs:element name="SpecialEducationProgramServiceDescriptor" type="SpecialEducationProgramServiceDescriptor" />
         <xs:element name="SpecialEducationSettingDescriptor" type="SpecialEducationSettingDescriptor" />
         <xs:element name="StaffClassificationDescriptor" type="StaffClassificationDescriptor" />
@@ -195,6 +197,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="StudentIdentificationSystemDescriptor" type="StudentIdentificationSystemDescriptor" />
         <xs:element name="StudentParticipationCodeDescriptor" type="StudentParticipationCodeDescriptor" />
         <xs:element name="SubmissionStatusDescriptor" type="SubmissionStatusDescriptor" />
+        <xs:element name="SupporterMilitaryConnectionDescriptor" type="SupporterMilitaryConnectionDescriptor" />
         <xs:element name="SurveyCategoryDescriptor" type="SurveyCategoryDescriptor" />
         <xs:element name="SurveyLevelDescriptor" type="SurveyLevelDescriptor" />
         <xs:element name="TeachingCredentialDescriptor" type="TeachingCredentialDescriptor" />
