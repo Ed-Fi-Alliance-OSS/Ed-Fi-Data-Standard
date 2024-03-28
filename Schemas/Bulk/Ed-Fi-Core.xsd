@@ -1403,6 +1403,48 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="CrisisEvent">
+    <xs:annotation>
+      <xs:documentation>A natural or man-made event that causes the disruption of school-level activities and the temporary or permanent displacement of students.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="CrisisEventName" type="CrisisEventName">
+            <xs:annotation>
+              <xs:documentation>The name of the crisis event that occurred. If there is no generally accepted name for this crisis event, the suggested format: Location + Crisis type + Year.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CrisisType" type="CrisisTypeDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The type or category of crisis.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>CrisisTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CrisisDescription" type="Description" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Provides a textual description of the crisis event affecting the student. It may include details such as the nature of the crisis (e.g., natural disaster, conflict, medical emergency), its severity, location, and any other relevant information describing the crisis situation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CrisisStartDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The year, month and day on which the crisis affected the student. This date may not be the same as the date the crisis occurred if evacuation orders are implemented in anticipation of a crisis.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CrisisEndDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The date on which the crisis ceased to affect the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="DescriptorMapping">
     <xs:annotation>
       <xs:documentation>A mapping of a descriptor value in one namespace to a descriptor value in another namespace. This can be used to exchange known contextual mappings of enumeration values.</xs:documentation>
@@ -5824,6 +5866,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="CrisisTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type or category of crisis.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="CTEProgramServiceDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a CTE program.</xs:documentation>
@@ -5948,6 +6001,17 @@
   <xs:complexType name="DisciplineIncidentParticipationCodeDescriptor">
     <xs:annotation>
       <xs:documentation>The role or type of participation of a person in a discipline incident; for example: Victim, Perpetrator, Witness, Reporter.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DisplacedStudentStatusDescriptor">
+    <xs:annotation>
+      <xs:documentation>Indicates whether a student has been displaced as a result of a crisis event.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -8588,6 +8652,11 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
+          <xs:element name="DisplacedStudent" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Information about student who was enrolled, or eligible for enrollment, but has temporarily or permanently enrolled in another school or district because of a crisis-related disruption in educational services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -10530,6 +10599,40 @@
           <xs:element name="CredentialIdentity" type="CredentialIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a Credential.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CrisisEventIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a CrisisEvent.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="CrisisEventName" type="CrisisEventName">
+        <xs:annotation>
+          <xs:documentation>The name of the crisis event that occurred. If there is no generally accepted name for this crisis event, the suggested format: Location + Crisis type + Year.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CrisisEventReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a CrisisEvent. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="CrisisEventIdentity" type="CrisisEventIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a CrisisEvent.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -16095,6 +16198,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="CrisisTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type or category of crisis.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="CTEProgramServiceDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a CTE program.</xs:documentation>
@@ -16197,6 +16309,15 @@
   <xs:simpleType name="DisciplineIncidentParticipationCodeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The role or type of participation of a person in a discipline incident; for example: Victim, Perpetrator, Witness, Reporter.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="DisplacedStudentStatusDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Indicates whether a student has been displaced as a result of a crisis event.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -18439,6 +18560,44 @@
           <xs:appinfo>
             <ann:Descriptor>DisciplineIncidentParticipationCodeDescriptor</ann:Descriptor>
           </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DisplacedStudent">
+    <xs:annotation>
+      <xs:documentation>Information about student who was enrolled, or eligible for enrollment, but has temporarily or permanently enrolled in another school or district because of a crisis-related disruption in educational services.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="CrisisEventReference" type="CrisisEventReferenceType">
+        <xs:annotation>
+          <xs:documentation>A reference to the crisis event related to the displaced student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DisplacedStudentStatus" type="DisplacedStudentStatusDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>Indicates whether a student has been displaced as a result of a crisis event.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>DisplacedStudentStatusDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DisplacedStudentStartDate" type="xs:date" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The date on which a student is officially identified as displaced due to a crisis event.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DisplacedStudentEndDate" type="xs:date" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The date marking the end of the period during which a student is considered displaced due to a crisis event.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="CrisisHomelessnessIndicator" type="xs:boolean" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Any student considered homeless (defined by the McKinney-Vento Homeless Education Assistance Act as lacking a fixed, regular, and adequate nighttime residence) as a result of the crisis event.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -21281,6 +21440,17 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="CrisisEventName">
+    <xs:annotation>
+      <xs:documentation>The name of the crisis event that occurred. If there is no generally accepted name for this crisis event, the suggested format: Location + Crisis type + Year.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Criteria">
