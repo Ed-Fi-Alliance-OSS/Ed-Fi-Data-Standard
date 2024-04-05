@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<DisplacedStudentStatusDescriptor>
-		<CodeValue>D</CodeValue>
+		<CodeValue>Displaced</CodeValue>
 		<ShortDescription>Displaced</ShortDescription>
 		<Description>Displaced</Description>
 		<Namespace>uri://ed-fi.org/DisplacedStudentStatusDescriptor</Namespace>
 	</DisplacedStudentStatusDescriptor>
 	<DisplacedStudentStatusDescriptor>
-		<CodeValue>ND</CodeValue>
+		<CodeValue>Not Displaced</CodeValue>
 		<ShortDescription>Not Displaced</ShortDescription>
 		<Description>Not Displaced</Description>
 		<Namespace>uri://ed-fi.org/DisplacedStudentStatusDescriptor</Namespace>
 	</DisplacedStudentStatusDescriptor>
 	<DisplacedStudentStatusDescriptor>
-		<CodeValue>P</CodeValue>
+		<CodeValue>Pending Displacement</CodeValue>
 		<ShortDescription>Pending Displacement</ShortDescription>
 		<Description>Pending Displacement</Description>
 		<Namespace>uri://ed-fi.org/DisplacedStudentStatusDescriptor</Namespace>
 	</DisplacedStudentStatusDescriptor>
 	<DisplacedStudentStatusDescriptor>
-		<CodeValue>U</CodeValue>
+		<CodeValue>Unknown</CodeValue>
 		<ShortDescription>Unknown</ShortDescription>
 		<Description>Unknown</Description>
 		<Namespace>uri://ed-fi.org/DisplacedStudentStatusDescriptor</Namespace>
