@@ -9,7 +9,7 @@
 	<TransportationPublicExpenseEligibilityTypeDescriptor>
 		<CodeValue>Eligible - Desegregation</CodeValue>
 		<ShortDescription>Eligible because of desegregation</ShortDescription>
-		<Description>Student is eligible for transportation at public expense because of the desegragation practices.</Description>
+		<Description>Student is eligible for transportation at public expense because of a locally initiated or court mandated program for achieving racial or cultural integration or for ending previous segregation.</Description>
 		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
 	</TransportationPublicExpenseEligibilityTypeDescriptor>
 	<TransportationPublicExpenseEligibilityTypeDescriptor>
