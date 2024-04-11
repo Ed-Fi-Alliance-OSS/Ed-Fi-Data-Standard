@@ -8652,7 +8652,7 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="DisplacedStudent" type="xs:boolean" minOccurs="0">
+          <xs:element name="DisplacedStudent" type="DisplacedStudent" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Information about student who was enrolled, or eligible for enrollment, but has temporarily or permanently enrolled in another school or district because of a crisis-related disruption in educational services.</xs:documentation>
             </xs:annotation>
