@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<TravelDirectionDescriptor>
+		<CodeValue>To School</CodeValue>
+		<ShortDescription>To School</ShortDescription>
+		<Description>To School</Description>
+		<Namespace>uri://ed-fi.org/TravelDirectionDescriptor</Namespace>
+	</TravelDirectionDescriptor>
+	<TravelDirectionDescriptor>
+		<CodeValue>From School</CodeValue>
+		<ShortDescription>From School</ShortDescription>
+		<Description>From School</Description>
+		<Namespace>uri://ed-fi.org/TravelDirectionDescriptor</Namespace>
+	</TravelDirectionDescriptor>
+	<TravelDirectionDescriptor>
+		<CodeValue>To and From School</CodeValue>
+		<ShortDescription>To and From School</ShortDescription>
+		<Description>To and From School</Description>
+		<Namespace>uri://ed-fi.org/TravelDirectionDescriptor</Namespace>
+	</TravelDirectionDescriptor>	
+</InterchangeDescriptors>

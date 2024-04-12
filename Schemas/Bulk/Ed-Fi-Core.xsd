@@ -5051,6 +5051,56 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentTransportation">
+    <xs:annotation>
+      <xs:documentation>This entity captures a student's specific transportation arrangement.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>The student associated with the transportation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransportationEducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The educational organization accountable for managing a student's transportation arrangements. Usually, this refers to a Local Education Agency (LEA), though it could also pertain to a school.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransportationPublicExpenseEligibilityType" type="TransportationPublicExpenseEligibilityTypeDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The primary type of eligibility for transporting a student at public expense.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>TransportationPublicExpenseEligibilityTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransportationType" type="TransportationTypeDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The mode or type of transportation utilized by a student to commute to and from school</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>TransportationTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SpecialAccomodationRequirements" type="SpecialAccomodationRequirements" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Specific requirements needed to accommodate a student's physical needs which may include special equipment installed in a vehicle or a special arrangement for transportation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentBusDetails" type="StudentBusDetails" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Stores details associated with student-bus assignment within a transportation system.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="Survey">
     <xs:annotation>
       <xs:documentation>A survey to identified or anonymous respondents.</xs:documentation>
@@ -5572,6 +5622,17 @@
   <xs:complexType name="BehaviorDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor holds the categories of behavior describing a discipline incident.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="BusRouteDescriptor">
+    <xs:annotation>
+      <xs:documentation>Identifies the specific route taken by a bus for student transportation.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7527,6 +7588,50 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="TransportationPublicExpenseEligibilityTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The primary type of eligibility for transporting a student at public expense.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TransportationTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The mode or type of transportation utilized by a student to commute to and from school</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TravelDayofWeekDescriptor">
+    <xs:annotation>
+      <xs:documentation>Specifies the day(s) of the week on which student transportation occurs.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TravelDirectionDescriptor">
+    <xs:annotation>
+      <xs:documentation>Indicates the direction of travel for the student transportation route (e.g., to school, from school).</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="TribalAffiliationDescriptor">
     <xs:annotation>
       <xs:documentation>An American Indian tribe with which an individual is affiliated.</xs:documentation>
@@ -8652,7 +8757,7 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="DisplacedStudent" type="xs:boolean" minOccurs="0">
+          <xs:element name="DisplacedStudent" type="DisplacedStudent" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Information about student who was enrolled, or eligible for enrollment, but has temporarily or permanently enrolled in another school or district because of a crisis-related disruption in educational services.</xs:documentation>
             </xs:annotation>
@@ -15252,6 +15357,45 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentTransportationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentTransportation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student associated with the transportation.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TransportationEducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The educational organization accountable for managing a student's transportation arrangements. Usually, this refers to a Local Education Agency (LEA), though it could also pertain to a school.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentTransportationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentTransportation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentTransportationIdentity" type="StudentTransportationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentTransportation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="SurveyCourseAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a SurveyCourseAssociation.</xs:documentation>
@@ -15958,6 +16102,15 @@
   <xs:simpleType name="BehaviorDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor holds the categories of behavior describing a discipline incident.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="BusRouteDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Identifies the specific route taken by a bus for student transportation.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -17551,6 +17704,42 @@
   <xs:simpleType name="TitleIPartASchoolDesignationDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>Denotes the Title I Part A designation for the school.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="TransportationPublicExpenseEligibilityTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The primary type of eligibility for transporting a student at public expense.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="TransportationTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The mode or type of transportation utilized by a student to commute to and from school</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="TravelDayofWeekDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Specifies the day(s) of the week on which student transportation occurs.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="TravelDirectionDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Indicates the direction of travel for the student transportation route (e.g., to school, from school).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -20300,6 +20489,50 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="StudentBusDetails">
+    <xs:annotation>
+      <xs:documentation>Stores details associated with student-bus assignment within a transportation system.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="BusNumber" type="BusNumber">
+        <xs:annotation>
+          <xs:documentation>The unique identifier assigned to the bus used for transporting the student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="BusRoute" type="BusRouteDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>Identifies the specific route taken by a bus for student transportation.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>BusRouteDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TravelDayofWeek" type="TravelDayofWeekDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Specifies the day(s) of the week on which student transportation occurs.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>TravelDayofWeekDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TravelDirection" type="TravelDirectionDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Indicates the direction of travel for the student transportation route (e.g., to school, from school).</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>TravelDirectionDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Mileage" type="Mileage" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The distance, typically measured in miles, that a student was transported along the route of the bus during a single trip.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
   <xs:complexType name="StudentCharacteristic">
     <xs:annotation>
       <xs:documentation>Reflects important characteristics of a student. If a student has a characteristic present, that characteristic is considered true or active for that student. If a characteristic is not present, no assumption is made as to the applicability of the characteristic, but local policy may dictate otherwise.</xs:documentation>
@@ -21128,6 +21361,17 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="20" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BusNumber">
+    <xs:annotation>
+      <xs:documentation>The unique identifier assigned to the bus used for transporting the student.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="CaseNumber">
@@ -22320,6 +22564,17 @@
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="SpecialAccomodationRequirements">
+    <xs:annotation>
+      <xs:documentation>Specific requirements needed to accommodate a student's physical needs which may include special equipment installed in a vehicle or a special arrangement for transportation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="SpecialEducationExitExplained">
     <xs:annotation>
       <xs:documentation>Explanation on why a person stops receiving special education services.</xs:documentation>
@@ -22746,6 +23001,18 @@
     <xs:restriction base="xs:decimal">
       <xs:totalDigits value="15" />
       <xs:fractionDigits value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Mileage">
+    <xs:annotation>
+      <xs:documentation>The distance, typically measured in miles, that a student was transported along the route of the bus during a single trip.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="5" />
+      <xs:fractionDigits value="2" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="NumberOfDaysAbsent">
