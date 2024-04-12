@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<TravelDayofWeekDescriptor>
+		<CodeValue>Sunday</CodeValue>
+		<ShortDescription>Sunday</ShortDescription>
+		<Description>Sunday</Description>
+		<Namespace>uri://ed-fi.org/TravelDayofWeekDescriptor</Namespace>
+	</TravelDayofWeekDescriptor>
+	<TravelDayofWeekDescriptor>
+		<CodeValue>Monday</CodeValue>
+		<ShortDescription>Monday</ShortDescription>
+		<Description>Monday</Description>
+		<Namespace>uri://ed-fi.org/TravelDayofWeekDescriptor</Namespace>
+	</TravelDayofWeekDescriptor>
+	<TravelDayofWeekDescriptor>
+		<CodeValue>Tuesday</CodeValue>
+		<ShortDescription>Tuesday</ShortDescription>
+		<Description>Tuesday</Description>
+		<Namespace>uri://ed-fi.org/TravelDayofWeekDescriptor</Namespace>
+	</TravelDayofWeekDescriptor>
+	<TravelDayofWeekDescriptor>
+		<CodeValue>Wednesday</CodeValue>
+		<ShortDescription>Wednesday</ShortDescription>
+		<Description>Wednesday</Description>
+		<Namespace>uri://ed-fi.org/TravelDayofWeekDescriptor</Namespace>
+	</TravelDayofWeekDescriptor>
+	<TravelDayofWeekDescriptor>
+		<CodeValue>Thursday</CodeValue>
+		<ShortDescription>Thursday</ShortDescription>
+		<Description>Thursday</Description>
+		<Namespace>uri://ed-fi.org/TravelDayofWeekDescriptor</Namespace>
+	</TravelDayofWeekDescriptor>
+	<TravelDayofWeekDescriptor>
+		<CodeValue>Friday</CodeValue>
+		<ShortDescription>Friday</ShortDescription>
+		<Description>Friday</Description>
+		<Namespace>uri://ed-fi.org/TravelDayofWeekDescriptor</Namespace>
+	</TravelDayofWeekDescriptor>
+	<TravelDayofWeekDescriptor>
+		<CodeValue>Saturday</CodeValue>
+		<ShortDescription>Saturday</ShortDescription>
+		<Description>Saturday</Description>
+		<Namespace>uri://ed-fi.org/TravelDayofWeekDescriptor</Namespace>
+	</TravelDayofWeekDescriptor>
+</InterchangeDescriptors>

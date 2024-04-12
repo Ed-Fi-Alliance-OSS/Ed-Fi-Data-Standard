@@ -37,6 +37,7 @@
       <xs:enumeration value="AttendanceEventCategoryDescriptor" />
       <xs:enumeration value="BarrierToInternetAccessInResidenceDescriptor" />
       <xs:enumeration value="BehaviorDescriptor" />
+      <xs:enumeration value="BusRouteDescriptor" />
       <xs:enumeration value="CalendarEventDescriptor" />
       <xs:enumeration value="CalendarTypeDescriptor" />
       <xs:enumeration value="CareerPathwayDescriptor" />
@@ -214,6 +215,10 @@
       <xs:enumeration value="TitleIPartAParticipantDescriptor" />
       <xs:enumeration value="TitleIPartAProgramServiceDescriptor" />
       <xs:enumeration value="TitleIPartASchoolDesignationDescriptor" />
+      <xs:enumeration value="TransportationPublicExpenseEligibilityTypeDescriptor" />
+      <xs:enumeration value="TransportationTypeDescriptor" />
+      <xs:enumeration value="TravelDayofWeekDescriptor" />
+      <xs:enumeration value="TravelDirectionDescriptor" />
       <xs:enumeration value="TribalAffiliationDescriptor" />
       <xs:enumeration value="VisaDescriptor" />
       <xs:enumeration value="WeaponDescriptor" />

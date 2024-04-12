@@ -16,6 +16,7 @@
         <xs:element name="CrisisEvent" type="CrisisEvent" />
         <xs:element name="StudentEducationOrganizationResponsibilityAssociation" type="StudentEducationOrganizationResponsibilityAssociation" />
         <xs:element name="StudentEducationOrganizationAssociation" type="StudentEducationOrganizationAssociation" />
+        <xs:element name="StudentTransportation" type="StudentTransportation" />
         <xs:element name="SectionReference" type="SectionReferenceType" />
       </xs:choice>
     </xs:complexType>
