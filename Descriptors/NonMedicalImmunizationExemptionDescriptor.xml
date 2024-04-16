@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<NonMedicalImmunizationExemptionDescriptor>
+		<CodeValue>Religious</CodeValue>
+		<ShortDescription>Religious belief</ShortDescription>
+		<Description>Religious belief</Description>
+		<Namespace>uri://ed-fi.org/NonMedicalImmunizationExemptionDescriptor</Namespace>
+	</NonMedicalImmunizationExemptionDescriptor>
+    <NonMedicalImmunizationExemptionDescriptor>
+		<CodeValue>Philosophical</CodeValue>
+		<ShortDescription>Philosophical belief</ShortDescription>
+		<Description>Philosophical belief</Description>
+		<Namespace>uri://ed-fi.org/NonMedicalImmunizationExemptionDescriptor</Namespace>
+	</NonMedicalImmunizationExemptionDescriptor>
+	<NonMedicalImmunizationExemptionDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/NonMedicalImmunizationExemptionDescriptor</Namespace>
+	</NonMedicalImmunizationExemptionDescriptor>
+</InterchangeDescriptors>

@@ -4803,6 +4803,58 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentHealth">
+    <xs:annotation>
+      <xs:documentation>This entity stores the student health records.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>The student whom the health information relates to.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The educational organization accountable for a student's health information.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AsOfDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>Date of last update of the student's healh record.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="RequiredImmunization" type="RequiredImmunization" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A record of the immunizations satisfactorily  received for those recommended to protect the student against vaccine-preventable diseases.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AdditionalImmunization" type="AdditionalImmunization" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A record of additional immunizations satisfactorily received and reported.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="NonMedicalImmunizationExemption" type="NonMedicalImmunizationExemptionDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The type of nonmedical exemption from vaccination claimed by the student's parent or guardian.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>NonMedicalImmunizationExemptionDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="NonMedicalImmunizationExemptionDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The year, month and day of the nonmedical exemption from vaccination claimed by the student's parent or guardian.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentInterventionAttendanceEvent">
     <xs:annotation>
       <xs:documentation>This event entity represents the recording of whether a student is in attendance for an intervention service.</xs:documentation>
@@ -6378,6 +6430,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="ImmunizationTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>An indication of the type of immunization that an individual has satisfactorily received.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="IncidentLocationDescriptor">
     <xs:annotation>
       <xs:documentation>Identifies where the incident occurred and whether or not it occurred on school property.</xs:documentation>
@@ -6722,6 +6785,17 @@
   <xs:complexType name="NetworkPurposeDescriptor">
     <xs:annotation>
       <xs:documentation>The purpose(s) of the network, e.g. shared services, collective procurement, etc.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="NonMedicalImmunizationExemptionDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type of nonmedical exemption from vaccination claimed by the student's parent or guardian.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -14437,6 +14511,45 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentHealthIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentHealth.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student whom the health information relates to.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The educational organization accountable for a student's health information.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentHealthReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentHealth. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentHealthIdentity" type="StudentHealthIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentHealth.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentHomelessProgramAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a StudentHomelessProgramAssociation.</xs:documentation>
@@ -16720,6 +16833,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="ImmunizationTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>An indication of the type of immunization that an individual has satisfactorily received.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="IncidentLocationDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>Identifies where the incident occurred and whether or not it occurred on school property.</xs:documentation>
@@ -17002,6 +17124,15 @@
   <xs:simpleType name="NetworkPurposeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The purpose(s) of the network, e.g. shared services, collective procurement, etc.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="NonMedicalImmunizationExemptionDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type of nonmedical exemption from vaccination claimed by the student's parent or guardian.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -17891,6 +18022,26 @@
           <xs:appinfo>
             <ann:Descriptor>AdditionalCreditTypeDescriptor</ann:Descriptor>
           </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AdditionalImmunization">
+    <xs:annotation>
+      <xs:documentation>Stores student's vaccination or immunization history beyond those mandated.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ImmunizationName" type="ImmunizationName">
+        <xs:annotation>
+          <xs:documentation>The name of the immunization that an individual has satisfactorily received.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ImmunizationDate" type="xs:date" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>The year, month and day of the related additional immunization.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20185,6 +20336,39 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="RequiredImmunization">
+    <xs:annotation>
+      <xs:documentation>Stores student's mandatory vaccination or immunization history.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ImmunizationType" type="ImmunizationTypeDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>An indication of the type of immunization that an individual has satisfactorily received.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>ImmunizationTypeDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ImmunizationDate" type="xs:date" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>The year, month and day of the related required immunization.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MedicalExemption" type="MedicalExemption" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The medical condition identified by a physician that contraindicates the vaccine.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MedicalExemptionDate" type="xs:date" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The year, month, and day of the medical exemption by a physician.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
   <xs:complexType name="ResponseChoice">
     <xs:annotation>
       <xs:documentation>An individual choice within a list of possible responses to a survey question.</xs:documentation>
@@ -21180,7 +21364,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -21203,7 +21386,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21215,7 +21397,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21227,7 +21408,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -21239,7 +21419,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -21251,7 +21430,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -21263,7 +21441,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21275,7 +21452,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21287,7 +21463,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21299,7 +21474,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21311,7 +21485,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21323,7 +21496,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -21335,7 +21507,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21347,7 +21518,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -21359,7 +21529,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -21382,7 +21551,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -21394,7 +21562,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="120" />
     </xs:restriction>
   </xs:simpleType>
@@ -21418,7 +21585,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21430,7 +21596,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21442,7 +21607,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="16" />
     </xs:restriction>
   </xs:simpleType>
@@ -21454,7 +21618,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -21478,7 +21641,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -21490,7 +21652,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
@@ -21502,7 +21663,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -21514,7 +21674,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="30" />
     </xs:restriction>
   </xs:simpleType>
@@ -21526,7 +21685,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="250" />
     </xs:restriction>
   </xs:simpleType>
@@ -21538,7 +21696,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21550,7 +21707,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="225" />
     </xs:restriction>
   </xs:simpleType>
@@ -21562,7 +21718,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="65" />
     </xs:restriction>
   </xs:simpleType>
@@ -21574,7 +21729,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21586,7 +21740,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -21598,7 +21751,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="10" />
     </xs:restriction>
   </xs:simpleType>
@@ -21610,7 +21762,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -21646,7 +21797,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="120" />
     </xs:restriction>
   </xs:simpleType>
@@ -21658,7 +21808,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21670,7 +21819,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21682,7 +21830,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21705,7 +21852,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -21717,7 +21863,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21729,7 +21874,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -21753,7 +21897,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21765,7 +21908,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -21777,7 +21919,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -21789,7 +21930,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -21801,7 +21941,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
@@ -21813,7 +21952,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21837,7 +21975,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21871,7 +22008,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21905,7 +22041,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="10" />
     </xs:restriction>
   </xs:simpleType>
@@ -21917,7 +22052,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21929,7 +22063,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -21941,7 +22074,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="0" />
       <xs:maxLength value="64" />
     </xs:restriction>
   </xs:simpleType>
@@ -21953,7 +22085,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -21965,7 +22096,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21977,7 +22107,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -21989,8 +22118,18 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ImmunizationName">
+    <xs:annotation>
+      <xs:documentation>The name of the immunization that an individual has satisfactorily received.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="IncidentIdentifier">
@@ -22001,7 +22140,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
@@ -22013,7 +22151,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22025,7 +22162,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="200" />
     </xs:restriction>
   </xs:simpleType>
@@ -22037,7 +22173,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -22049,7 +22184,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -22061,7 +22195,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -22085,7 +22218,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22097,7 +22229,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22120,7 +22251,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -22132,7 +22262,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22144,7 +22273,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -22156,8 +22284,18 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="MedicalExemption">
+    <xs:annotation>
+      <xs:documentation>The medical condition identified by a physician that contraindicates the vaccine.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="MiddleName">
@@ -22168,7 +22306,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -22180,7 +22317,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="30" />
     </xs:restriction>
   </xs:simpleType>
@@ -22192,7 +22328,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -22204,7 +22339,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -22216,7 +22350,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22228,7 +22361,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22240,7 +22372,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="30" />
     </xs:restriction>
   </xs:simpleType>
@@ -22252,7 +22383,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -22264,7 +22394,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="17" />
     </xs:restriction>
   </xs:simpleType>
@@ -22276,7 +22405,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22332,7 +22460,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -22344,7 +22471,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22356,7 +22482,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -22368,7 +22493,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="35" />
     </xs:restriction>
   </xs:simpleType>
@@ -22380,7 +22504,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="35" />
     </xs:restriction>
   </xs:simpleType>
@@ -22392,7 +22515,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="30" />
     </xs:restriction>
   </xs:simpleType>
@@ -22404,7 +22526,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22416,7 +22537,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="40" />
     </xs:restriction>
   </xs:simpleType>
@@ -22428,7 +22548,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -22440,7 +22559,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -22452,7 +22570,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -22464,7 +22581,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -22476,7 +22592,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22488,7 +22603,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
@@ -22500,7 +22614,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="35" />
     </xs:restriction>
   </xs:simpleType>
@@ -22512,7 +22625,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22524,7 +22636,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22536,7 +22647,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -22548,7 +22658,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -22560,7 +22669,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -22594,7 +22702,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -22606,7 +22713,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -22618,7 +22724,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22630,7 +22735,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22642,7 +22746,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -22654,7 +22757,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="24" />
     </xs:restriction>
   </xs:simpleType>
@@ -22666,7 +22768,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="2048" />
     </xs:restriction>
   </xs:simpleType>
@@ -22678,7 +22779,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22710,7 +22810,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="32" />
     </xs:restriction>
   </xs:simpleType>
@@ -22734,7 +22833,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -22758,7 +22856,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
