@@ -10,6 +10,9 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  read-all
+
 jobs:
   scan-actions-bidi:
     name: Scan Actions, scan all files for BIDI Trojan Attacks
