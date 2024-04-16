@@ -1,5 +1,7 @@
 # Ed-Fi-Standard
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Ed-Fi-Alliance-OSS/Ed-Fi-Data-Standard/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Ed-Fi-Alliance-OSS/Ed-Fi-Data-Standard)
+
 The Ed-Fi Data Standard serves as the foundation for enabling interoperability among secure education data systems.
 
 For more information, see:
