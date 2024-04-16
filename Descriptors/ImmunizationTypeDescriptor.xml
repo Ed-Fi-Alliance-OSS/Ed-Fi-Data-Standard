@@ -20,8 +20,8 @@
 	</ImmunizationTypeDescriptor>
     <ImmunizationTypeDescriptor>
 		<CodeValue>DTaP</CodeValue>
-		<ShortDescription>Diphtheria, tetanus, & acellular pertussis</ShortDescription>
-		<Description>Diphtheria, tetanus, & acellular pertussis</Description>
+		<ShortDescription>Diphtheria, tetanus and acellular pertussis</ShortDescription>
+		<Description>Diphtheria, tetanus and acellular pertussis</Description>
 		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
 	</ImmunizationTypeDescriptor>
 	<ImmunizationTypeDescriptor>
