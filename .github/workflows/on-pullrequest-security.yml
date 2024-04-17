@@ -7,7 +7,9 @@ name: On Pull Request - Security
 
 on:
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
+      - v*
   workflow_dispatch:
 
 permissions:
