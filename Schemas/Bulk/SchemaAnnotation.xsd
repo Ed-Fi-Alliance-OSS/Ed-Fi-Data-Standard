@@ -105,6 +105,7 @@
       <xs:enumeration value="HomelessProgramServiceDescriptor" />
       <xs:enumeration value="IDEAPartDescriptor" />
       <xs:enumeration value="IdentificationDocumentUseDescriptor" />
+      <xs:enumeration value="ImmunizationTypeDescriptor" />
       <xs:enumeration value="IncidentLocationDescriptor" />
       <xs:enumeration value="IndicatorDescriptor" />
       <xs:enumeration value="IndicatorGroupDescriptor" />
@@ -137,6 +138,7 @@
       <xs:enumeration value="NeglectedOrDelinquentProgramDescriptor" />
       <xs:enumeration value="NeglectedOrDelinquentProgramServiceDescriptor" />
       <xs:enumeration value="NetworkPurposeDescriptor" />
+      <xs:enumeration value="NonMedicalImmunizationExemptionDescriptor" />
       <xs:enumeration value="OperationalStatusDescriptor" />
       <xs:enumeration value="OtherNameTypeDescriptor" />
       <xs:enumeration value="ParticipationDescriptor" />
