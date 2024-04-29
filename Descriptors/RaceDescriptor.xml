@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<RaceDescriptor>
-		<CodeValue>American Indian - Alaska Native</CodeValue>
-		<ShortDescription>American Indian - Alaska Native</ShortDescription>
-		<Description>American Indian - Alaska Native</Description>
+		<CodeValue>American Indian or Alaska Native</CodeValue>
+		<ShortDescription>American Indian or Alaska Native</ShortDescription>
+		<Description>American Indian or Alaska Native</Description>
 		<Namespace>uri://ed-fi.org/RaceDescriptor</Namespace>
 	</RaceDescriptor>
 	<RaceDescriptor>
@@ -13,9 +13,9 @@
 		<Namespace>uri://ed-fi.org/RaceDescriptor</Namespace>
 	</RaceDescriptor>
 	<RaceDescriptor>
-		<CodeValue>Black - African American</CodeValue>
-		<ShortDescription>Black - African American</ShortDescription>
-		<Description>Black - African American</Description>
+		<CodeValue>Black or African American</CodeValue>
+		<ShortDescription>Black or African American</ShortDescription>
+		<Description>Black or African American</Description>
 		<Namespace>uri://ed-fi.org/RaceDescriptor</Namespace>
 	</RaceDescriptor>
 	<RaceDescriptor>
@@ -25,9 +25,9 @@
 		<Namespace>uri://ed-fi.org/RaceDescriptor</Namespace>
 	</RaceDescriptor>
 	<RaceDescriptor>
-		<CodeValue>Native Hawaiian - Pacific Islander</CodeValue>
-		<ShortDescription>Native Hawaiian - Pacific Islander</ShortDescription>
-		<Description>Native Hawaiian - Pacific Islander</Description>
+		<CodeValue>Native Hawaiian or Pacific Islander</CodeValue>
+		<ShortDescription>Native Hawaiian or Pacific Islander</ShortDescription>
+		<Description>Native Hawaiian or Pacific Islander</Description>
 		<Namespace>uri://ed-fi.org/RaceDescriptor</Namespace>
 	</RaceDescriptor>
 	<RaceDescriptor>
@@ -40,6 +40,18 @@
 		<CodeValue>White</CodeValue>
 		<ShortDescription>White</ShortDescription>
 		<Description>White</Description>
+		<Namespace>uri://ed-fi.org/RaceDescriptor</Namespace>
+	</RaceDescriptor>
+	<RaceDescriptor>
+		<CodeValue>Hispanic or Latino</CodeValue>
+		<ShortDescription>Hispanic or Latino</ShortDescription>
+		<Description>Hispanic or Latino</Description>
+		<Namespace>uri://ed-fi.org/RaceDescriptor</Namespace>
+	</RaceDescriptor>
+	<RaceDescriptor>
+		<CodeValue>Middle Eastern or North African</CodeValue>
+		<ShortDescription>Middle Eastern or North African</ShortDescription>
+		<Description>Middle Eastern or North African</Description>
 		<Namespace>uri://ed-fi.org/RaceDescriptor</Namespace>
 	</RaceDescriptor>
 </InterchangeDescriptors>
