@@ -727,7 +727,7 @@
         <xs:sequence>
           <xs:element name="CommunityOrganizationId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a community organization.</xs:documentation>
+              <xs:documentation>The identifier assigned to a community organization. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -746,7 +746,7 @@
         <xs:sequence>
           <xs:element name="CommunityProviderId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a community provider.</xs:documentation>
+              <xs:documentation>The identifier assigned to a community provider. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="CommunityOrganizationReference" type="CommunityOrganizationReferenceType" minOccurs="0">
@@ -1796,7 +1796,7 @@
         <xs:sequence>
           <xs:element name="EducationOrganizationNetworkId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a network of education organizations.</xs:documentation>
+              <xs:documentation>The identifier assigned to a network of education organizations. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="NetworkPurpose" type="NetworkPurposeDescriptorReferenceType">
@@ -1823,7 +1823,7 @@
         <xs:sequence>
           <xs:element name="EducationServiceCenterId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to an education service center.</xs:documentation>
+              <xs:documentation>The identifier assigned to an education service center. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StateEducationAgencyReference" type="StateEducationAgencyReferenceType" minOccurs="0">
@@ -2796,7 +2796,7 @@
         <xs:sequence>
           <xs:element name="LocalEducationAgencyId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a local education agency.</xs:documentation>
+              <xs:documentation>The identifier assigned to a local education agency. It must be distinct from any other identifier assigned to educational organizations, such as a SchoolId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="LocalEducationAgencyCategory" type="LocalEducationAgencyCategoryDescriptorReferenceType">
@@ -3207,7 +3207,7 @@
         <xs:sequence>
           <xs:element name="OrganizationDepartmentId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The unique identification code for the organization department.</xs:documentation>
+              <xs:documentation>The unique identification code for the organization department. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" minOccurs="0">
@@ -3303,7 +3303,7 @@
         <xs:sequence>
           <xs:element name="PostSecondaryInstitutionId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The ID of the post secondary institution.</xs:documentation>
+              <xs:documentation>The ID of the post secondary institution. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="MediumOfInstruction" type="MediumOfInstructionDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
@@ -3755,7 +3755,7 @@
         <xs:sequence>
           <xs:element name="SchoolId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a school.</xs:documentation>
+              <xs:documentation>The identifier assigned to a school. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="GradeLevel" type="GradeLevelDescriptorReferenceType" maxOccurs="unbounded">
@@ -4360,7 +4360,7 @@
         <xs:sequence>
           <xs:element name="StateEducationAgencyId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a state education agency.</xs:documentation>
+              <xs:documentation>The identifier assigned to a state education agency. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StateEducationAgencyAccountability" type="StateEducationAgencyAccountability" minOccurs="0" maxOccurs="unbounded">
@@ -4825,7 +4825,7 @@
           </xs:element>
           <xs:element name="AsOfDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Date of last update of the student's healh record.</xs:documentation>
+              <xs:documentation>Date of last update of the student's health record.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="RequiredImmunization" type="RequiredImmunization" minOccurs="0" maxOccurs="unbounded">
@@ -10394,7 +10394,7 @@
     <xs:sequence>
       <xs:element name="CommunityOrganizationId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a community organization.</xs:documentation>
+          <xs:documentation>The identifier assigned to a community organization. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -10428,7 +10428,7 @@
     <xs:sequence>
       <xs:element name="CommunityProviderId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a community provider.</xs:documentation>
+          <xs:documentation>The identifier assigned to a community provider. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -11120,7 +11120,7 @@
     <xs:sequence>
       <xs:element name="EducationOrganizationNetworkId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a network of education organizations.</xs:documentation>
+          <xs:documentation>The identifier assigned to a network of education organizations. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -11135,7 +11135,7 @@
     <xs:sequence>
       <xs:element name="EducationOrganizationNetworkId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a network of education organizations.</xs:documentation>
+          <xs:documentation>The identifier assigned to a network of education organizations. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -11255,7 +11255,7 @@
     <xs:sequence>
       <xs:element name="EducationServiceCenterId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to an education service center.</xs:documentation>
+          <xs:documentation>The identifier assigned to an education service center. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -11270,7 +11270,7 @@
     <xs:sequence>
       <xs:element name="EducationServiceCenterId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to an education service center.</xs:documentation>
+          <xs:documentation>The identifier assigned to an education service center. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -12157,7 +12157,7 @@
     <xs:sequence>
       <xs:element name="LocalEducationAgencyId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a local education agency.</xs:documentation>
+          <xs:documentation>The identifier assigned to a local education agency. It must be distinct from any other identifier assigned to educational organizations, such as a SchoolId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -12172,7 +12172,7 @@
     <xs:sequence>
       <xs:element name="LocalEducationAgencyId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a local education agency.</xs:documentation>
+          <xs:documentation>The identifier assigned to a local education agency. It must be distinct from any other identifier assigned to educational organizations, such as a SchoolId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -12507,7 +12507,7 @@
     <xs:sequence>
       <xs:element name="OrganizationDepartmentId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The unique identification code for the organization department.</xs:documentation>
+          <xs:documentation>The unique identification code for the organization department. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -12630,7 +12630,7 @@
     <xs:sequence>
       <xs:element name="PostSecondaryInstitutionId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The ID of the post secondary institution.</xs:documentation>
+          <xs:documentation>The ID of the post secondary institution. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -13048,7 +13048,7 @@
     <xs:sequence>
       <xs:element name="SchoolId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a school.</xs:documentation>
+          <xs:documentation>The identifier assigned to a school. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -13063,7 +13063,7 @@
     <xs:sequence>
       <xs:element name="SchoolId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a school.</xs:documentation>
+          <xs:documentation>The identifier assigned to a school. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -13914,7 +13914,7 @@
     <xs:sequence>
       <xs:element name="StateEducationAgencyId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a state education agency.</xs:documentation>
+          <xs:documentation>The identifier assigned to a state education agency. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -13929,7 +13929,7 @@
     <xs:sequence>
       <xs:element name="StateEducationAgencyId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a state education agency.</xs:documentation>
+          <xs:documentation>The identifier assigned to a state education agency. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -18036,7 +18036,7 @@
     <xs:sequence>
       <xs:element name="ImmunizationName" type="ImmunizationName">
         <xs:annotation>
-          <xs:documentation>The name of the immunization that an individual has satisfactorily received.</xs:documentation>
+          <xs:documentation>The name of the immunization that the student has received.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ImmunizationDate" type="xs:date" minOccurs="0" maxOccurs="unbounded">
@@ -18089,8 +18089,7 @@
       </xs:element>
       <xs:element name="NameOfCounty" type="NameOfCounty" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The name of the county, parish, borough, or comparable unit (within a state) in
-                                    'which an address is located.</xs:documentation>
+          <xs:documentation>The name of the county, parish, borough, or comparable unit (within a state) in which an address is located.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="CountyFIPSCode" type="CountyFIPSCode" minOccurs="0">
@@ -20346,7 +20345,7 @@
     <xs:sequence>
       <xs:element name="ImmunizationType" type="ImmunizationTypeDescriptorReferenceType">
         <xs:annotation>
-          <xs:documentation>An indication of the type of immunization that an individual has satisfactorily received.</xs:documentation>
+          <xs:documentation>An indication of the type of immunization that the student has received.</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>ImmunizationTypeDescriptor</ann:Descriptor>
           </xs:appinfo>
@@ -22123,7 +22122,7 @@
   </xs:simpleType>
   <xs:simpleType name="ImmunizationName">
     <xs:annotation>
-      <xs:documentation>The name of the immunization that an individual has satisfactorily received.</xs:documentation>
+      <xs:documentation>The name of the immunization that the student has received.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Simple</ann:TypeGroup>
       </xs:appinfo>
