@@ -6,7 +6,7 @@
   </xs:annotation>
   <xs:element name="InterchangeStudentHealth">
     <xs:annotation>
-      <xs:documentation>The Student Health interchange carries information on student health such immunization, allergies, health conditions etc.</xs:documentation>
+      <xs:documentation>The Student Health interchange carries information on student health such immunization, allergies, health conditions, etc.</xs:documentation>
     </xs:annotation>
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
