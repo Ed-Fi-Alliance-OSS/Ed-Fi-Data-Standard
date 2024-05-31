@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<ImmunizationTypeDescriptor>
+		<CodeValue>RSV</CodeValue>
+		<ShortDescription>Respiratory syncytial virus</ShortDescription>
+		<Description>Respiratory syncytial virus</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+    <ImmunizationTypeDescriptor>
+		<CodeValue>HepB</CodeValue>
+		<ShortDescription>Hepatitis B</ShortDescription>
+		<Description>Hepatitis B</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+	<ImmunizationTypeDescriptor>
+		<CodeValue>RV</CodeValue>
+		<ShortDescription>Rotavirus</ShortDescription>
+		<Description>Rotavirus</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+    <ImmunizationTypeDescriptor>
+		<CodeValue>DTaP</CodeValue>
+		<ShortDescription>Diphtheria, tetanus and acellular pertussis</ShortDescription>
+		<Description>Diphtheria, tetanus and acellular pertussis</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+	<ImmunizationTypeDescriptor>
+		<CodeValue>Hib</CodeValue>
+		<ShortDescription>Haemophilus influenzae type b</ShortDescription>
+		<Description>Haemophilus influenzae type b</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+    <ImmunizationTypeDescriptor>
+		<CodeValue>PCV</CodeValue>
+		<ShortDescription>Pneumococcal conjugate</ShortDescription>
+		<Description>Pneumococcal conjugate</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+	<ImmunizationTypeDescriptor>
+		<CodeValue>IPV</CodeValue>
+		<ShortDescription>Inactivated poliovirus</ShortDescription>
+		<Description>Inactivated poliovirus</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+    <ImmunizationTypeDescriptor>
+		<CodeValue>1vCOV</CodeValue>
+		<ShortDescription>COVID-19</ShortDescription>
+		<Description>COVID-19</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+	<ImmunizationTypeDescriptor>
+		<CodeValue>IIV4</CodeValue>
+		<ShortDescription>Influenza</ShortDescription>
+		<Description>Influenza</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+    <ImmunizationTypeDescriptor>
+		<CodeValue>LAIV4</CodeValue>
+		<ShortDescription>Influenza</ShortDescription>
+		<Description>Influenza</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+	<ImmunizationTypeDescriptor>
+		<CodeValue>MMR</CodeValue>
+		<ShortDescription>Measles, mumps, rubella</ShortDescription>
+		<Description>Measles, mumps, rubella</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+    <ImmunizationTypeDescriptor>
+		<CodeValue>VAR</CodeValue>
+		<ShortDescription>Varicella (chickenpox)</ShortDescription>
+		<Description>Varicella (chickenpox)</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+	<ImmunizationTypeDescriptor>
+		<CodeValue>HepA</CodeValue>
+		<ShortDescription>Hepatitis A</ShortDescription>
+		<Description>Hepatitis A</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+    <ImmunizationTypeDescriptor>
+		<CodeValue>HPV</CodeValue>
+		<ShortDescription>Human papillomavirus</ShortDescription>
+		<Description>Human papillomavirus</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+	<ImmunizationTypeDescriptor>
+		<CodeValue>MenACWY</CodeValue>
+		<ShortDescription>Meningococcal serogroup A,C,W,Y</ShortDescription>
+		<Description>Meningococcal serogroup A,C,W,Y</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+    <ImmunizationTypeDescriptor>
+		<CodeValue>MenB</CodeValue>
+		<ShortDescription>Meningococcal serogroup B</ShortDescription>
+		<Description>Meningococcal serogroup B</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+	<ImmunizationTypeDescriptor>
+		<CodeValue>DEN4CYD</CodeValue>
+		<ShortDescription>Dengue</ShortDescription>
+		<Description>Dengue</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+    <ImmunizationTypeDescriptor>
+		<CodeValue>Mpox</CodeValue>
+		<ShortDescription>Mpox</ShortDescription>
+		<Description>Mpox</Description>
+		<Namespace>uri://ed-fi.org/ImmunizationTypeDescriptor</Namespace>
+	</ImmunizationTypeDescriptor>
+</InterchangeDescriptors>

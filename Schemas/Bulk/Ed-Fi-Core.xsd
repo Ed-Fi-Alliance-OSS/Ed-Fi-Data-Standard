@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.0.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/5.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/5.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 5.0.0 ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 5.1.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -727,7 +727,7 @@
         <xs:sequence>
           <xs:element name="CommunityOrganizationId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a community organization.</xs:documentation>
+              <xs:documentation>The identifier assigned to a community organization. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -746,7 +746,7 @@
         <xs:sequence>
           <xs:element name="CommunityProviderId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a community provider.</xs:documentation>
+              <xs:documentation>The identifier assigned to a community provider. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="CommunityOrganizationReference" type="CommunityOrganizationReferenceType" minOccurs="0">
@@ -1403,6 +1403,48 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="CrisisEvent">
+    <xs:annotation>
+      <xs:documentation>A natural or man-made event that causes the disruption of school-level activities and the temporary or permanent displacement of students.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="CrisisEventName" type="CrisisEventName">
+            <xs:annotation>
+              <xs:documentation>The name of the crisis event that occurred. If there is no generally accepted name for this crisis event, the suggested format: Location + Crisis type + Year.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CrisisType" type="CrisisTypeDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The type or category of crisis.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>CrisisTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CrisisDescription" type="Description" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Provides a textual description of the crisis event affecting the student. It may include details such as the nature of the crisis (e.g., natural disaster, conflict, medical emergency), its severity, location, and any other relevant information describing the crisis situation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CrisisStartDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The year, month and day on which the crisis affected the student. This date may not be the same as the date the crisis occurred if evacuation orders are implemented in anticipation of a crisis.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CrisisEndDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The date on which the crisis ceased to affect the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="DescriptorMapping">
     <xs:annotation>
       <xs:documentation>A mapping of a descriptor value in one namespace to a descriptor value in another namespace. This can be used to exchange known contextual mappings of enumeration values.</xs:documentation>
@@ -1754,7 +1796,7 @@
         <xs:sequence>
           <xs:element name="EducationOrganizationNetworkId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a network of education organizations.</xs:documentation>
+              <xs:documentation>The identifier assigned to a network of education organizations. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="NetworkPurpose" type="NetworkPurposeDescriptorReferenceType">
@@ -1781,7 +1823,7 @@
         <xs:sequence>
           <xs:element name="EducationServiceCenterId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to an education service center.</xs:documentation>
+              <xs:documentation>The identifier assigned to an education service center. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StateEducationAgencyReference" type="StateEducationAgencyReferenceType" minOccurs="0">
@@ -2754,7 +2796,7 @@
         <xs:sequence>
           <xs:element name="LocalEducationAgencyId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a local education agency.</xs:documentation>
+              <xs:documentation>The identifier assigned to a local education agency. It must be distinct from any other identifier assigned to educational organizations, such as a SchoolId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="LocalEducationAgencyCategory" type="LocalEducationAgencyCategoryDescriptorReferenceType">
@@ -3165,7 +3207,7 @@
         <xs:sequence>
           <xs:element name="OrganizationDepartmentId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The unique identification code for the organization department.</xs:documentation>
+              <xs:documentation>The unique identification code for the organization department. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" minOccurs="0">
@@ -3261,7 +3303,7 @@
         <xs:sequence>
           <xs:element name="PostSecondaryInstitutionId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The ID of the post secondary institution.</xs:documentation>
+              <xs:documentation>The ID of the post secondary institution. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="MediumOfInstruction" type="MediumOfInstructionDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
@@ -3713,7 +3755,7 @@
         <xs:sequence>
           <xs:element name="SchoolId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a school.</xs:documentation>
+              <xs:documentation>The identifier assigned to a school. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="GradeLevel" type="GradeLevelDescriptorReferenceType" maxOccurs="unbounded">
@@ -4318,7 +4360,7 @@
         <xs:sequence>
           <xs:element name="StateEducationAgencyId" type="xs:long">
             <xs:annotation>
-              <xs:documentation>The identifier assigned to a state education agency.</xs:documentation>
+              <xs:documentation>The identifier assigned to a state education agency. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StateEducationAgencyAccountability" type="StateEducationAgencyAccountability" minOccurs="0" maxOccurs="unbounded">
@@ -4761,6 +4803,58 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentHealth">
+    <xs:annotation>
+      <xs:documentation>This entity stores the student health records.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>The student whom the health information relates to.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The educational organization accountable for a student's health information.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AsOfDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>Date of last update of the student's health record.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="RequiredImmunization" type="RequiredImmunization" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A record of the immunizations satisfactorily  received for those recommended to protect the student against vaccine-preventable diseases.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AdditionalImmunization" type="AdditionalImmunization" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A record of additional immunizations satisfactorily received and reported.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="NonMedicalImmunizationExemption" type="NonMedicalImmunizationExemptionDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The type of nonmedical exemption from vaccination claimed by the student's parent or guardian.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>NonMedicalImmunizationExemptionDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="NonMedicalImmunizationExemptionDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The year, month and day of the nonmedical exemption from vaccination claimed by the student's parent or guardian.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentInterventionAttendanceEvent">
     <xs:annotation>
       <xs:documentation>This event entity represents the recording of whether a student is in attendance for an intervention service.</xs:documentation>
@@ -5003,6 +5097,56 @@
           <xs:element name="ClassPeriodReference" type="ClassPeriodReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The class period(s) to which the section attendance event applies.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentTransportation">
+    <xs:annotation>
+      <xs:documentation>This entity captures a student's specific transportation arrangement.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>The student associated with the transportation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransportationEducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The educational organization accountable for managing a student's transportation arrangements. Usually, this refers to a Local Education Agency (LEA), though it could also pertain to a school.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransportationPublicExpenseEligibilityType" type="TransportationPublicExpenseEligibilityTypeDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The primary type of eligibility for transporting a student at public expense.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>TransportationPublicExpenseEligibilityTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransportationType" type="TransportationTypeDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The mode or type of transportation utilized by a student to commute to and from school</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>TransportationTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SpecialAccomodationRequirements" type="SpecialAccomodationRequirements" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Specific requirements needed to accommodate a student's physical needs which may include special equipment installed in a vehicle or a special arrangement for transportation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentBusDetails" type="StudentBusDetails" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Stores details associated with student-bus assignment within a transportation system.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -5538,6 +5682,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="BusRouteDescriptor">
+    <xs:annotation>
+      <xs:documentation>Identifies the specific route taken by a bus for student transportation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="CalendarEventDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor holds the types of scheduled or unscheduled event for the day (e.g., Instructional day, Teacher only day, Holiday, Make-up day, Weather day, Student late arrival/early dismissal day).</xs:documentation>
@@ -5824,6 +5979,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="CrisisTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type or category of crisis.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="CTEProgramServiceDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a CTE program.</xs:documentation>
@@ -5948,6 +6114,17 @@
   <xs:complexType name="DisciplineIncidentParticipationCodeDescriptor">
     <xs:annotation>
       <xs:documentation>The role or type of participation of a person in a discipline incident; for example: Victim, Perpetrator, Witness, Reporter.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DisplacedStudentStatusDescriptor">
+    <xs:annotation>
+      <xs:documentation>Indicates whether a student has been displaced as a result of a crisis event.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6245,6 +6422,17 @@
   <xs:complexType name="IdentificationDocumentUseDescriptor">
     <xs:annotation>
       <xs:documentation>Identifies the type of use given to an identification document.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ImmunizationTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>An indication of the type of immunization that an individual has satisfactorily received.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6597,6 +6785,17 @@
   <xs:complexType name="NetworkPurposeDescriptor">
     <xs:annotation>
       <xs:documentation>The purpose(s) of the network, e.g. shared services, collective procurement, etc.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="NonMedicalImmunizationExemptionDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type of nonmedical exemption from vaccination claimed by the student's parent or guardian.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7455,6 +7654,50 @@
   <xs:complexType name="TitleIPartASchoolDesignationDescriptor">
     <xs:annotation>
       <xs:documentation>Denotes the Title I Part A designation for the school.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TransportationPublicExpenseEligibilityTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The primary type of eligibility for transporting a student at public expense.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TransportationTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The mode or type of transportation utilized by a student to commute to and from school</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TravelDayofWeekDescriptor">
+    <xs:annotation>
+      <xs:documentation>Specifies the day(s) of the week on which student transportation occurs.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TravelDirectionDescriptor">
+    <xs:annotation>
+      <xs:documentation>Indicates the direction of travel for the student transportation route (e.g., to school, from school).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -8586,6 +8829,11 @@
               <xs:appinfo>
                 <ann:Descriptor>SupporterMilitaryConnectionDescriptor</ann:Descriptor>
               </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="DisplacedStudent" type="DisplacedStudent" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Information about student who was enrolled, or eligible for enrollment, but has temporarily or permanently enrolled in another school or district because of a crisis-related disruption in educational services.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -10146,7 +10394,7 @@
     <xs:sequence>
       <xs:element name="CommunityOrganizationId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a community organization.</xs:documentation>
+          <xs:documentation>The identifier assigned to a community organization. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -10180,7 +10428,7 @@
     <xs:sequence>
       <xs:element name="CommunityProviderId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a community provider.</xs:documentation>
+          <xs:documentation>The identifier assigned to a community provider. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -10536,6 +10784,40 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="CrisisEventIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a CrisisEvent.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="CrisisEventName" type="CrisisEventName">
+        <xs:annotation>
+          <xs:documentation>The name of the crisis event that occurred. If there is no generally accepted name for this crisis event, the suggested format: Location + Crisis type + Year.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CrisisEventReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a CrisisEvent. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="CrisisEventIdentity" type="CrisisEventIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a CrisisEvent.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="DescriptorMappingIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a DescriptorMapping.</xs:documentation>
@@ -10838,7 +11120,7 @@
     <xs:sequence>
       <xs:element name="EducationOrganizationNetworkId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a network of education organizations.</xs:documentation>
+          <xs:documentation>The identifier assigned to a network of education organizations. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -10853,7 +11135,7 @@
     <xs:sequence>
       <xs:element name="EducationOrganizationNetworkId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a network of education organizations.</xs:documentation>
+          <xs:documentation>The identifier assigned to a network of education organizations. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -10973,7 +11255,7 @@
     <xs:sequence>
       <xs:element name="EducationServiceCenterId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to an education service center.</xs:documentation>
+          <xs:documentation>The identifier assigned to an education service center. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -10988,7 +11270,7 @@
     <xs:sequence>
       <xs:element name="EducationServiceCenterId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to an education service center.</xs:documentation>
+          <xs:documentation>The identifier assigned to an education service center. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -11875,7 +12157,7 @@
     <xs:sequence>
       <xs:element name="LocalEducationAgencyId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a local education agency.</xs:documentation>
+          <xs:documentation>The identifier assigned to a local education agency. It must be distinct from any other identifier assigned to educational organizations, such as a SchoolId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -11890,7 +12172,7 @@
     <xs:sequence>
       <xs:element name="LocalEducationAgencyId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a local education agency.</xs:documentation>
+          <xs:documentation>The identifier assigned to a local education agency. It must be distinct from any other identifier assigned to educational organizations, such as a SchoolId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -12225,7 +12507,7 @@
     <xs:sequence>
       <xs:element name="OrganizationDepartmentId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The unique identification code for the organization department.</xs:documentation>
+          <xs:documentation>The unique identification code for the organization department. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -12348,7 +12630,7 @@
     <xs:sequence>
       <xs:element name="PostSecondaryInstitutionId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The ID of the post secondary institution.</xs:documentation>
+          <xs:documentation>The ID of the post secondary institution. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -12766,7 +13048,7 @@
     <xs:sequence>
       <xs:element name="SchoolId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a school.</xs:documentation>
+          <xs:documentation>The identifier assigned to a school. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -12781,7 +13063,7 @@
     <xs:sequence>
       <xs:element name="SchoolId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a school.</xs:documentation>
+          <xs:documentation>The identifier assigned to a school. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -13632,7 +13914,7 @@
     <xs:sequence>
       <xs:element name="StateEducationAgencyId" type="xs:long">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a state education agency.</xs:documentation>
+          <xs:documentation>The identifier assigned to a state education agency. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -13647,7 +13929,7 @@
     <xs:sequence>
       <xs:element name="StateEducationAgencyId" type="xs:long" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The identifier assigned to a state education agency.</xs:documentation>
+          <xs:documentation>The identifier assigned to a state education agency. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
@@ -14223,6 +14505,45 @@
           <xs:element name="StudentGradebookEntryIdentity" type="StudentGradebookEntryIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a StudentGradebookEntry.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentHealthIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentHealth.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student whom the health information relates to.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The educational organization accountable for a student's health information.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentHealthReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentHealth. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentHealthIdentity" type="StudentHealthIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentHealth.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -15149,6 +15470,45 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentTransportationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentTransportation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student associated with the transportation.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TransportationEducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The educational organization accountable for managing a student's transportation arrangements. Usually, this refers to a Local Education Agency (LEA), though it could also pertain to a school.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentTransportationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentTransportation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentTransportationIdentity" type="StudentTransportationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentTransportation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="SurveyCourseAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a SurveyCourseAssociation.</xs:documentation>
@@ -15861,6 +16221,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="BusRouteDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Identifies the specific route taken by a bus for student transportation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="CalendarEventDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor holds the types of scheduled or unscheduled event for the day (e.g., Instructional day, Teacher only day, Holiday, Make-up day, Weather day, Student late arrival/early dismissal day).</xs:documentation>
@@ -16095,6 +16464,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="CrisisTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type or category of crisis.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="CTEProgramServiceDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a CTE program.</xs:documentation>
@@ -16197,6 +16575,15 @@
   <xs:simpleType name="DisciplineIncidentParticipationCodeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The role or type of participation of a person in a discipline incident; for example: Victim, Perpetrator, Witness, Reporter.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="DisplacedStudentStatusDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Indicates whether a student has been displaced as a result of a crisis event.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -16440,6 +16827,15 @@
   <xs:simpleType name="IdentificationDocumentUseDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>Identifies the type of use given to an identification document.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="ImmunizationTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>An indication of the type of immunization that an individual has satisfactorily received.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -16728,6 +17124,15 @@
   <xs:simpleType name="NetworkPurposeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The purpose(s) of the network, e.g. shared services, collective procurement, etc.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="NonMedicalImmunizationExemptionDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type of nonmedical exemption from vaccination claimed by the student's parent or guardian.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -17436,6 +17841,42 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="TransportationPublicExpenseEligibilityTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The primary type of eligibility for transporting a student at public expense.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="TransportationTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The mode or type of transportation utilized by a student to commute to and from school</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="TravelDayofWeekDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Specifies the day(s) of the week on which student transportation occurs.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="TravelDirectionDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Indicates the direction of travel for the student transportation route (e.g., to school, from school).</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="TribalAffiliationDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>An American Indian tribe with which an individual is affiliated.</xs:documentation>
@@ -17585,6 +18026,26 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="AdditionalImmunization">
+    <xs:annotation>
+      <xs:documentation>Stores student's vaccination or immunization history beyond those mandated.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ImmunizationName" type="ImmunizationName">
+        <xs:annotation>
+          <xs:documentation>The name of the immunization that the student has received.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ImmunizationDate" type="xs:date" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>The year, month and day of the related additional immunization.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
   <xs:complexType name="Address">
     <xs:annotation>
       <xs:documentation>The set of elements that describes an address, including the street address, city, state, and ZIP code.</xs:documentation>
@@ -17628,8 +18089,7 @@
       </xs:element>
       <xs:element name="NameOfCounty" type="NameOfCounty" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The name of the county, parish, borough, or comparable unit (within a state) in
-                                    'which an address is located.</xs:documentation>
+          <xs:documentation>The name of the county, parish, borough, or comparable unit (within a state) in which an address is located.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="CountyFIPSCode" type="CountyFIPSCode" minOccurs="0">
@@ -18439,6 +18899,44 @@
           <xs:appinfo>
             <ann:Descriptor>DisciplineIncidentParticipationCodeDescriptor</ann:Descriptor>
           </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DisplacedStudent">
+    <xs:annotation>
+      <xs:documentation>Information about student who was enrolled, or eligible for enrollment, but has temporarily or permanently enrolled in another school or district because of a crisis-related disruption in educational services.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="CrisisEventReference" type="CrisisEventReferenceType">
+        <xs:annotation>
+          <xs:documentation>A reference to the crisis event related to the displaced student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DisplacedStudentStatus" type="DisplacedStudentStatusDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>Indicates whether a student has been displaced as a result of a crisis event.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>DisplacedStudentStatusDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DisplacedStudentStartDate" type="xs:date" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The date on which a student is officially identified as displaced due to a crisis event.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DisplacedStudentEndDate" type="xs:date" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The date marking the end of the period during which a student is considered displaced due to a crisis event.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="CrisisHomelessnessIndicator" type="xs:boolean" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Any student considered homeless (defined by the McKinney-Vento Homeless Education Assistance Act as lacking a fixed, regular, and adequate nighttime residence) as a result of the crisis event.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -19837,6 +20335,39 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="RequiredImmunization">
+    <xs:annotation>
+      <xs:documentation>Stores student's mandatory vaccination or immunization history.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ImmunizationType" type="ImmunizationTypeDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>An indication of the type of immunization that the student has received.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>ImmunizationTypeDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ImmunizationDate" type="xs:date" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>The year, month and day of the related required immunization.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MedicalExemption" type="MedicalExemption" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The medical condition identified by a physician that contraindicates the vaccine.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MedicalExemptionDate" type="xs:date" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The year, month, and day of the medical exemption by a physician.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
   <xs:complexType name="ResponseChoice">
     <xs:annotation>
       <xs:documentation>An individual choice within a list of possible responses to a survey question.</xs:documentation>
@@ -20137,6 +20668,50 @@
       <xs:element name="ItemNumber" type="xs:int" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The test question number for this student's test item.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentBusDetails">
+    <xs:annotation>
+      <xs:documentation>Stores details associated with student-bus assignment within a transportation system.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="BusNumber" type="BusNumber">
+        <xs:annotation>
+          <xs:documentation>The unique identifier assigned to the bus used for transporting the student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="BusRoute" type="BusRouteDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>Identifies the specific route taken by a bus for student transportation.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>BusRouteDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TravelDayofWeek" type="TravelDayofWeekDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Specifies the day(s) of the week on which student transportation occurs.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>TravelDayofWeekDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TravelDirection" type="TravelDirectionDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Indicates the direction of travel for the student transportation route (e.g., to school, from school).</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>TravelDirectionDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Mileage" type="Mileage" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The distance, typically measured in miles, that a student was transported along the route of the bus during a single trip.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20788,7 +21363,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -20811,7 +21385,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -20823,7 +21396,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -20835,7 +21407,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -20847,7 +21418,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -20859,7 +21429,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -20871,7 +21440,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -20883,7 +21451,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -20895,7 +21462,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -20907,7 +21473,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -20919,7 +21484,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -20931,7 +21495,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -20943,7 +21506,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -20955,7 +21517,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -20967,8 +21528,18 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BusNumber">
+    <xs:annotation>
+      <xs:documentation>The unique identifier assigned to the bus used for transporting the student.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="CaseNumber">
@@ -20979,7 +21550,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -20991,7 +21561,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="120" />
     </xs:restriction>
   </xs:simpleType>
@@ -21015,7 +21584,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21027,7 +21595,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21039,7 +21606,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="16" />
     </xs:restriction>
   </xs:simpleType>
@@ -21051,7 +21617,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -21075,7 +21640,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -21087,7 +21651,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
@@ -21099,7 +21662,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -21111,7 +21673,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="30" />
     </xs:restriction>
   </xs:simpleType>
@@ -21123,7 +21684,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="250" />
     </xs:restriction>
   </xs:simpleType>
@@ -21135,7 +21695,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21147,7 +21706,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="225" />
     </xs:restriction>
   </xs:simpleType>
@@ -21159,7 +21717,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="65" />
     </xs:restriction>
   </xs:simpleType>
@@ -21171,7 +21728,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21183,7 +21739,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -21195,7 +21750,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="10" />
     </xs:restriction>
   </xs:simpleType>
@@ -21207,7 +21761,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -21243,7 +21796,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="120" />
     </xs:restriction>
   </xs:simpleType>
@@ -21255,7 +21807,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21267,7 +21818,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21279,8 +21829,18 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="CrisisEventName">
+    <xs:annotation>
+      <xs:documentation>The name of the crisis event that occurred. If there is no generally accepted name for this crisis event, the suggested format: Location + Crisis type + Year.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Criteria">
@@ -21291,7 +21851,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -21303,7 +21862,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21315,7 +21873,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -21339,7 +21896,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21351,7 +21907,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -21363,7 +21918,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -21375,7 +21929,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -21387,7 +21940,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
@@ -21399,7 +21951,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21423,7 +21974,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21457,7 +22007,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21491,7 +22040,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="10" />
     </xs:restriction>
   </xs:simpleType>
@@ -21503,7 +22051,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21515,7 +22062,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -21527,7 +22073,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="0" />
       <xs:maxLength value="64" />
     </xs:restriction>
   </xs:simpleType>
@@ -21539,7 +22084,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -21551,7 +22095,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21563,7 +22106,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -21575,8 +22117,18 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ImmunizationName">
+    <xs:annotation>
+      <xs:documentation>The name of the immunization that the student has received.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="IncidentIdentifier">
@@ -21587,7 +22139,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
@@ -21599,7 +22150,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21611,7 +22161,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="200" />
     </xs:restriction>
   </xs:simpleType>
@@ -21623,7 +22172,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -21635,7 +22183,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -21647,7 +22194,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21671,7 +22217,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21683,7 +22228,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21706,7 +22250,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21718,7 +22261,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21730,7 +22272,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -21742,8 +22283,18 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="MedicalExemption">
+    <xs:annotation>
+      <xs:documentation>The medical condition identified by a physician that contraindicates the vaccine.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="MiddleName">
@@ -21754,7 +22305,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21766,7 +22316,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="30" />
     </xs:restriction>
   </xs:simpleType>
@@ -21778,7 +22327,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -21790,7 +22338,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -21802,7 +22349,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21814,7 +22360,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21826,7 +22371,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="30" />
     </xs:restriction>
   </xs:simpleType>
@@ -21838,7 +22382,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -21850,7 +22393,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="17" />
     </xs:restriction>
   </xs:simpleType>
@@ -21862,7 +22404,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -21918,7 +22459,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -21930,7 +22470,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -21942,7 +22481,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -21954,7 +22492,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="35" />
     </xs:restriction>
   </xs:simpleType>
@@ -21966,7 +22503,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="35" />
     </xs:restriction>
   </xs:simpleType>
@@ -21978,7 +22514,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="30" />
     </xs:restriction>
   </xs:simpleType>
@@ -21990,7 +22525,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22002,7 +22536,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="40" />
     </xs:restriction>
   </xs:simpleType>
@@ -22014,7 +22547,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
@@ -22026,7 +22558,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -22038,7 +22569,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
@@ -22050,7 +22580,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
@@ -22062,7 +22591,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22074,7 +22602,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="36" />
     </xs:restriction>
   </xs:simpleType>
@@ -22086,7 +22613,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="35" />
     </xs:restriction>
   </xs:simpleType>
@@ -22098,7 +22624,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -22110,7 +22635,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22122,7 +22646,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -22134,7 +22657,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -22146,8 +22668,18 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SpecialAccomodationRequirements">
+    <xs:annotation>
+      <xs:documentation>Specific requirements needed to accommodate a student's physical needs which may include special equipment installed in a vehicle or a special arrangement for transportation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="SpecialEducationExitExplained">
@@ -22169,7 +22701,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -22181,7 +22712,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
@@ -22193,7 +22723,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22205,7 +22734,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22217,7 +22745,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -22229,7 +22756,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="24" />
     </xs:restriction>
   </xs:simpleType>
@@ -22241,7 +22767,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="2048" />
     </xs:restriction>
   </xs:simpleType>
@@ -22253,7 +22778,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
@@ -22285,7 +22809,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="32" />
     </xs:restriction>
   </xs:simpleType>
@@ -22309,7 +22832,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
@@ -22333,7 +22855,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
@@ -22576,6 +23097,18 @@
     <xs:restriction base="xs:decimal">
       <xs:totalDigits value="15" />
       <xs:fractionDigits value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Mileage">
+    <xs:annotation>
+      <xs:documentation>The distance, typically measured in miles, that a student was transported along the route of the bus during a single trip.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="5" />
+      <xs:fractionDigits value="2" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="NumberOfDaysAbsent">

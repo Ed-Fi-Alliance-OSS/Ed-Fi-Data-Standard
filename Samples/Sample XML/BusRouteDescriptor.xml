@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<BusRouteDescriptor>
+		<CodeValue>101</CodeValue>
+		<ShortDescription>Bus Route 101</ShortDescription>
+		<Description>Stops:
+            Stop 1: Main Street (7:35 AM)
+            Stop 2: Park Avenue (7:45 AM)
+            Stop 3: Town Hall (7:55 AM)
+            Stop 4: Library (8:05 AM)</Description>
+		<Namespace>uri://gbisd.edu/BusRouteDescriptor</Namespace>
+	</BusRouteDescriptor>
+	<BusRouteDescriptor>
+		<CodeValue>202</CodeValue>
+		<ShortDescription>Bus Route 202</ShortDescription>
+		<Description>Stops:
+			Stop 1: Community Center (8:05 AM)
+			Stop 2: Shopping Mall (8:15 AM)
+			Stop 3: Sports Complex (8:25 AM)
+			Stop 4: Public Park (8:35 AM)</Description>
+		<Namespace>uri://gbisd.edu/BusRouteDescriptor</Namespace>
+	</BusRouteDescriptor>
+	<BusRouteDescriptor>
+		<CodeValue>303</CodeValue>
+		<ShortDescription>Bus Route 303</ShortDescription>
+		<Description>Stops:
+			Stop 1: Residential Area (7:50 AM)
+			Stop 2: Downtown Square (8:00 AM)
+			Stop 3: Public Library (8:10 AM)
+			Stop 4: Community Park (8:20 AM)</Description>
+		<Namespace>uri://gbisd.edu/BusRouteDescriptor</Namespace>
+	</BusRouteDescriptor>
+	<BusRouteDescriptor>
+		<CodeValue>404</CodeValue>
+		<ShortDescription>Bus Route 404</ShortDescription>
+		<Description>Stops:
+			Stop 1: Residential Complex (8:20 AM)
+			Stop 2: Shopping Center (8:30 AM)
+			Stop 3: City Hall (8:40 AM)
+			Stop 4: Public Pool (8:50 AM)</Description>
+		<Namespace>uri://gbisd.edu/BusRouteDescriptor</Namespace>
+	</BusRouteDescriptor>
+</InterchangeDescriptors>

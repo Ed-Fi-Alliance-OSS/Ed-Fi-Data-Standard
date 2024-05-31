@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<CrisisTypeDescriptor>
+		<CodeValue>Active Shooter</CodeValue>
+		<ShortDescription>Active Shooter</ShortDescription>
+		<Description>Active Shooter</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Avalanche</CodeValue>
+		<ShortDescription>Avalanche</ShortDescription>
+		<Description>Avalanche</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Cyberattack</CodeValue>
+		<ShortDescription>Cyberattack</ShortDescription>
+		<Description>Cyberattack</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Earthquake</CodeValue>
+		<ShortDescription>Earthquake</ShortDescription>
+		<Description>Earthquake</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Extreme Heat</CodeValue>
+		<ShortDescription>Extreme Heat</ShortDescription>
+		<Description>Extreme Heat</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Financial Emergency</CodeValue>
+		<ShortDescription>Financial Emergency</ShortDescription>
+		<Description>Financial Emergency</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Flood</CodeValue>
+		<ShortDescription>Flood</ShortDescription>
+		<Description>Flood</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Hurricane</CodeValue>
+		<ShortDescription>Hurricane</ShortDescription>
+		<Description>Hurricane</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Landslide</CodeValue>
+		<ShortDescription>Landslide</ShortDescription>
+		<Description>Landslide</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Novel Pandemic</CodeValue>
+		<ShortDescription>Novel Pandemic</ShortDescription>
+		<Description>Novel Pandemic</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Nuclear Explosion</CodeValue>
+		<ShortDescription>Nuclear Explosion</ShortDescription>
+		<Description>Nuclear Explosion</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Power Outage</CodeValue>
+		<ShortDescription>Power Outage</ShortDescription>
+		<Description>Power Outage</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Thunderstorm, Lightning, or Hail</CodeValue>
+		<ShortDescription>Thunderstorm, Lightning, or Hail</ShortDescription>
+		<Description>Thunderstorm, Lightning, or Hail</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Tornado</CodeValue>
+		<ShortDescription>Tornado</ShortDescription>
+		<Description>Tornado</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Tsunami</CodeValue>
+		<ShortDescription>Tsunami</ShortDescription>
+		<Description>Tsunami</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Volcano</CodeValue>
+		<ShortDescription>Volcano</ShortDescription>
+		<Description>Volcano</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Wildfires</CodeValue>
+		<ShortDescription>Wildfires</ShortDescription>
+		<Description>Wildfires</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Winter Storm</CodeValue>
+		<ShortDescription>Winter Storm</ShortDescription>
+		<Description>Winter Storm</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+	<CrisisTypeDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/CrisisTypeDescriptor</Namespace>
+	</CrisisTypeDescriptor>
+</InterchangeDescriptors>

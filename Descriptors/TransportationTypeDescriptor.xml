@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<TransportationTypeDescriptor>
+		<CodeValue>School Bus</CodeValue>
+		<ShortDescription>School Bus</ShortDescription>
+		<Description>School Bus</Description>
+		<Namespace>uri://ed-fi.org/TransportationTypeDescriptor</Namespace>
+	</TransportationTypeDescriptor>
+	<TransportationTypeDescriptor>
+		<CodeValue>School Van or SUV</CodeValue>
+		<ShortDescription>School Van or SUV</ShortDescription>
+		<Description>School Van or SUV</Description>
+		<Namespace>uri://ed-fi.org/TransportationTypeDescriptor</Namespace>
+	</TransportationTypeDescriptor>
+	<TransportationTypeDescriptor>
+		<CodeValue>Special Needs Bus</CodeValue>
+		<ShortDescription>Special Needs Bus</ShortDescription>
+		<Description>Special Needs Bus</Description>
+		<Namespace>uri://ed-fi.org/TransportationTypeDescriptor</Namespace>
+	</TransportationTypeDescriptor>
+	<TransportationTypeDescriptor>
+		<CodeValue>General Public Transportation</CodeValue>
+		<ShortDescription>General Public Transportation</ShortDescription>
+		<Description>General Public Transportation</Description>
+		<Namespace>uri://ed-fi.org/TransportationTypeDescriptor</Namespace>
+	</TransportationTypeDescriptor>
+	<TransportationTypeDescriptor>
+		<CodeValue>Responsible for own transportation</CodeValue>
+		<ShortDescription>Responsible for own transportation</ShortDescription>
+		<Description>Responsible for own transportation</Description>
+		<Namespace>uri://ed-fi.org/TransportationTypeDescriptor</Namespace>
+	</TransportationTypeDescriptor>	
+</InterchangeDescriptors>

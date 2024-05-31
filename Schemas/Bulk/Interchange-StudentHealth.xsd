@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.1.0" targetNamespace="http://ed-fi.org/5.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:include schemaLocation="Ed-Fi-Core.xsd" />
+  <xs:annotation>
+    <xs:documentation>===== Student Health Interchange Model =====</xs:documentation>
+  </xs:annotation>
+  <xs:element name="InterchangeStudentHealth">
+    <xs:annotation>
+      <xs:documentation>The Student Health interchange carries information on student health such immunization, allergies, health conditions, etc.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="StudentHealth" type="StudentHealth" />
+        <xs:element name="Student" type="Student" />
+        <xs:element name="EducationOrganization" type="EducationOrganization" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

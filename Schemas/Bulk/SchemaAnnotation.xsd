@@ -37,6 +37,7 @@
       <xs:enumeration value="AttendanceEventCategoryDescriptor" />
       <xs:enumeration value="BarrierToInternetAccessInResidenceDescriptor" />
       <xs:enumeration value="BehaviorDescriptor" />
+      <xs:enumeration value="BusRouteDescriptor" />
       <xs:enumeration value="CalendarEventDescriptor" />
       <xs:enumeration value="CalendarTypeDescriptor" />
       <xs:enumeration value="CareerPathwayDescriptor" />
@@ -63,6 +64,7 @@
       <xs:enumeration value="CredentialTypeDescriptor" />
       <xs:enumeration value="CreditCategoryDescriptor" />
       <xs:enumeration value="CreditTypeDescriptor" />
+      <xs:enumeration value="CrisisTypeDescriptor" />
       <xs:enumeration value="CTEProgramServiceDescriptor" />
       <xs:enumeration value="CurriculumUsedDescriptor" />
       <xs:enumeration value="DeliveryMethodDescriptor" />
@@ -75,6 +77,7 @@
       <xs:enumeration value="DisciplineActionLengthDifferenceReasonDescriptor" />
       <xs:enumeration value="DisciplineDescriptor" />
       <xs:enumeration value="DisciplineIncidentParticipationCodeDescriptor" />
+      <xs:enumeration value="DisplacedStudentStatusDescriptor" />
       <xs:enumeration value="EducationalEnvironmentDescriptor" />
       <xs:enumeration value="EducationOrganizationAssociationTypeDescriptor" />
       <xs:enumeration value="EducationOrganizationCategoryDescriptor" />
@@ -102,6 +105,7 @@
       <xs:enumeration value="HomelessProgramServiceDescriptor" />
       <xs:enumeration value="IDEAPartDescriptor" />
       <xs:enumeration value="IdentificationDocumentUseDescriptor" />
+      <xs:enumeration value="ImmunizationTypeDescriptor" />
       <xs:enumeration value="IncidentLocationDescriptor" />
       <xs:enumeration value="IndicatorDescriptor" />
       <xs:enumeration value="IndicatorGroupDescriptor" />
@@ -134,6 +138,7 @@
       <xs:enumeration value="NeglectedOrDelinquentProgramDescriptor" />
       <xs:enumeration value="NeglectedOrDelinquentProgramServiceDescriptor" />
       <xs:enumeration value="NetworkPurposeDescriptor" />
+      <xs:enumeration value="NonMedicalImmunizationExemptionDescriptor" />
       <xs:enumeration value="OperationalStatusDescriptor" />
       <xs:enumeration value="OtherNameTypeDescriptor" />
       <xs:enumeration value="ParticipationDescriptor" />
@@ -212,6 +217,10 @@
       <xs:enumeration value="TitleIPartAParticipantDescriptor" />
       <xs:enumeration value="TitleIPartAProgramServiceDescriptor" />
       <xs:enumeration value="TitleIPartASchoolDesignationDescriptor" />
+      <xs:enumeration value="TransportationPublicExpenseEligibilityTypeDescriptor" />
+      <xs:enumeration value="TransportationTypeDescriptor" />
+      <xs:enumeration value="TravelDayofWeekDescriptor" />
+      <xs:enumeration value="TravelDirectionDescriptor" />
       <xs:enumeration value="TribalAffiliationDescriptor" />
       <xs:enumeration value="VisaDescriptor" />
       <xs:enumeration value="WeaponDescriptor" />

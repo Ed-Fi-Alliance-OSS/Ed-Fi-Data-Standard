@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeStudentEnrollment xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../../Schemas/Bulk/Interchange-StudentEnrollment.xsd">
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604822</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Disability</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 101</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>7.20</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604847</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - CTE</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<SpecialAccomodationRequirements>Customized Seating Arrangement</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 202</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>4.35</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604849</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604863</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604874</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Health Impaired</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Van or SUV</TransportationType>
+		<SpecialAccomodationRequirements>Seat Belts and Harnesses</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 303</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604881</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<StudentBusDetails>
+			<BusNumber>Bus 404</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
+			<Mileage>5.29</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604905</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Homelessness</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 101</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
+			<Mileage>15.43</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604918</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<StudentBusDetails>
+			<BusNumber>Bus 202</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>15.43</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604927</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Special Instruction</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<SpecialAccomodationRequirements>Customized Seating Arrangement</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 303</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
+			<Mileage>12.30</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604938</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<StudentBusDetails>
+			<BusNumber>Bus 404</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
+			<Mileage>8.67</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604940</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Unsafe Walk</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<SpecialAccomodationRequirements>Seat Belts and Harnesses</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 404</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604956</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<StudentBusDetails>
+			<BusNumber>Bus 101</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604969</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Other</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<SpecialAccomodationRequirements>Customized Seating Arrangement</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 202</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604974</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<StudentBusDetails>
+			<BusNumber>Bus 303</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605015</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 101</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>9.15</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605031</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 202</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605042</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Health Impaired</TransportationPublicExpenseEligibilityType>
+		<SpecialAccomodationRequirements>Communication Systems</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 303</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>19.13</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605043</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Disability</TransportationPublicExpenseEligibilityType>
+		<SpecialAccomodationRequirements>Communication Systems</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 404</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605047</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Distance</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<StudentBusDetails>
+			<BusNumber>Bus 101</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>24.67</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605088</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - CTE</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<StudentBusDetails>
+			<BusNumber>Bus 202</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605124</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Disability</TransportationPublicExpenseEligibilityType>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<SpecialAccomodationRequirements>Seat Belts and Harnesses</SpecialAccomodationRequirements>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605129</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605134</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Distance</TransportationPublicExpenseEligibilityType>
+		<StudentBusDetails>
+			<BusNumber>Bus 303</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>17.01</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605135</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Shelter Care</TransportationPublicExpenseEligibilityType>
+		<StudentBusDetails>
+			<BusNumber>Bus 101</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605148</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<StudentBusDetails>
+			<BusNumber>Bus 404</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
+			<Mileage>9.87</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604854</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
+		<StudentBusDetails>
+			<BusNumber>Bus 101</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
+			<Mileage>20.39</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604900</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 202</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>7.20</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604901</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<SpecialAccomodationRequirements>Seatbelts and Harnesses</SpecialAccomodationRequirements>
+		<StudentBusDetails>
+			<BusNumber>Bus 303</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604902</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<StudentBusDetails>
+			<BusNumber>Bus 404</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
+			<Mileage>18.49</Mileage>
+		</StudentBusDetails>
+	</StudentTransportation>
+	<StudentTransportation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604903</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<StudentBusDetails>
+			<BusNumber>Bus 101</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
+		</StudentBusDetails>
+	</StudentTransportation>
+</InterchangeStudentEnrollment>

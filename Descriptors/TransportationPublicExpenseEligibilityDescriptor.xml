@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - CTE</CodeValue>
+		<ShortDescription>Eligible because of CTE participation</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of their participation in a CTE program.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - Desegregation</CodeValue>
+		<ShortDescription>Eligible because of desegregation</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of a locally initiated or court mandated program for achieving racial or cultural integration or for ending previous segregation.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - Disability</CodeValue>
+		<ShortDescription>Eligible because of disability</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of the their disability and IEP.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - Distance</CodeValue>
+		<ShortDescription>Eligible because of distance</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of the distance between school and transportation address.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - Health Impaired</CodeValue>
+		<ShortDescription>Eigible because of health impairement</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of the health impairement that doesn't make the student eligible for IEP</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - Homelessness</CodeValue>
+		<ShortDescription>Eligible because of homeless status</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of being homeless as defined by the McKinney-Vento Act.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - Shelter Care</CodeValue>
+		<ShortDescription>Eligible from shelter care facility</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of their short or long term stay at a shelter care that is not covered by the McKinney-Vento Act.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - Special Instruction</CodeValue>
+		<ShortDescription>Eligible because of special instruction</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of the special instruction not due to a disability.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - Unsafe Walk</CodeValue>
+		<ShortDescription>Eligible because of hazardous conditions</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of the hazardous conditions that makes the walk between the school and the transportation address unsafe for the student.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Eligible - Other</CodeValue>
+		<ShortDescription>Eligible for other reason</ShortDescription>
+		<Description>Student is eligible for transportation at public expense because of the other reasons not listed.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+	<TransportationPublicExpenseEligibilityTypeDescriptor>
+		<CodeValue>Not Eligible</CodeValue>
+		<ShortDescription>Not Eligible</ShortDescription>
+		<Description>Student is not eligeble for transporation at public expense.</Description>
+		<Namespace>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor</Namespace>
+	</TransportationPublicExpenseEligibilityTypeDescriptor>
+</InterchangeDescriptors>
