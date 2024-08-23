@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/5.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/5.2.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 5.1.0 ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 5.2.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -281,7 +281,7 @@
           </xs:element>
           <xs:element name="ExpectedTimeAssessed" type="TimeInterval" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The duration of time allotted for the assessment item.</xs:documentation>
+              <xs:documentation>The duration allotted for the assessment item expressed in minutes.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="Nomenclature" type="Nomenclature" minOccurs="0">
@@ -3739,6 +3739,11 @@
               <xs:documentation>The school where the restraint event occurred.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="DisciplineIncidentReference" type="DisciplineIncidentReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The discipline incident associated with the restraint event.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -4882,7 +4887,7 @@
           </xs:element>
           <xs:element name="InterventionDuration" type="AttendanceEventDuration" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The duration in minutes in which the student participated in the intervention during this instance.</xs:documentation>
+              <xs:documentation>The duration in minutes of the intervention attendance event.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -4960,7 +4965,7 @@
           </xs:element>
           <xs:element name="EvaluationDuration" type="Duration" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The actual or estimated number of clock minutes during which the evaluation was conducted.</xs:documentation>
+              <xs:documentation>The actual number of minutes to conduct the evaluation.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="SummaryEvaluationNumericRating" type="NumericRating" minOccurs="0">
@@ -5333,7 +5338,7 @@
           </xs:element>
           <xs:element name="ResponseTime" type="xs:int" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The amount of time (in seconds) it took for the respondent to complete the survey.</xs:documentation>
+              <xs:documentation>The amount of time in seconds it took for the respondent to complete the survey.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="SurveyLevel" type="SurveyLevelDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
@@ -5651,7 +5656,7 @@
   </xs:complexType>
   <xs:complexType name="AttendanceEventCategoryDescriptor">
     <xs:annotation>
-      <xs:documentation>This descriptor holds the category of the attendance event (e.g., tardy). The map to known enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor holds the category of the attendance event (e.g., tardy).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -5838,7 +5843,7 @@
   </xs:complexType>
   <xs:complexType name="ContinuationOfServicesReasonDescriptor">
     <xs:annotation>
-      <xs:documentation>In the Migrant Education program, a provision allows continuation of services after a child is no longer considered migratory for certain reasons. This descriptor holds the reasons prescribed in the statute. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>In the Migrant Education program, a provision allows continuation of services after a child is no longer considered migratory for certain reasons. This descriptor holds the reasons prescribed in the statute.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6322,7 +6327,7 @@
   </xs:complexType>
   <xs:complexType name="GradeLevelDescriptor">
     <xs:annotation>
-      <xs:documentation>This descriptor defines the set of grade levels. The map to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor defines the set of grade levels.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6355,7 +6360,7 @@
   </xs:complexType>
   <xs:complexType name="GradingPeriodDescriptor">
     <xs:annotation>
-      <xs:documentation>This descriptor defines the state's name of the period for which grades are reported. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor defines the state's name of the period for which grades are reported.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6663,7 +6668,7 @@
   </xs:complexType>
   <xs:complexType name="LimitedEnglishProficiencyDescriptor">
     <xs:annotation>
-      <xs:documentation>This descriptor defines the indications that the student has been identified as limited English proficient by the Language Proficiency Assessment Committee (LPAC), or English proficient. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor defines the indications that the student has been identified as limited English proficient by the Language Proficiency Assessment Committee (LPAC), or English proficient.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7511,17 +7516,6 @@
   <xs:complexType name="StudentIdentificationSystemDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the originating record system and code that is used for record-keeping purposes of the student.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StudentParticipationCodeDescriptor">
-    <xs:annotation>
-      <xs:documentation>The role or type of participation of a student in a discipline incident; for example: Victim, Perpetrator, Witness, Reporter.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -8528,7 +8522,7 @@
   </xs:complexType>
   <xs:complexType name="StudentCTEProgramAssociation">
     <xs:annotation>
-      <xs:documentation>This association represents the career and technical education (CTE) program that a student participates in. The association is an extension of the StudentProgramAssociation particular for CTE programs.</xs:documentation>
+      <xs:documentation>This association represents the career and technical education (CTE) program that a student participates in. The association is a subclass of the GeneralStudentProgramAssociation specifically designed for CTE programs.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -8884,7 +8878,7 @@
   </xs:complexType>
   <xs:complexType name="StudentHomelessProgramAssociation">
     <xs:annotation>
-      <xs:documentation>This association represents the McKinney-Vento Homeless Program program(s) that a student participates in or from which the student receives services.</xs:documentation>
+      <xs:documentation>This association represents the McKinney-Vento Homeless Program program(s) that a student participates in or from which the student receives services. The association is a subclass of the GeneralStudentProgramAssociation specifically designed for homeless programs.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -8965,7 +8959,7 @@
   </xs:complexType>
   <xs:complexType name="StudentLanguageInstructionProgramAssociation">
     <xs:annotation>
-      <xs:documentation>This association represents the Title III Language Instruction for Limited English Proficient and Immigrant Students program(s) that a student participates in or from which the student receives services.</xs:documentation>
+      <xs:documentation>This association represents the Title III Language Instruction for Limited English Proficient and Immigrant Students program(s) that a student participates in or from which the student receives services. The association is a subclass of the GeneralStudentProgramAssociation specifically designed for language instruction programs.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -8999,7 +8993,7 @@
   </xs:complexType>
   <xs:complexType name="StudentMigrantEducationProgramAssociation">
     <xs:annotation>
-      <xs:documentation>This association represents the migrant education program(s) that a student participates in or receives services from. The association is an extension of the StudentProgramAssociation with added elements particular to migrant education programs.</xs:documentation>
+      <xs:documentation>This association represents the migrant education program(s) that a student participates in or receives services from. The association is a subclass of the GeneralStudentProgramAssociation specifically designed for migrant education programs.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -9066,7 +9060,7 @@
   </xs:complexType>
   <xs:complexType name="StudentNeglectedOrDelinquentProgramAssociation">
     <xs:annotation>
-      <xs:documentation>This association represents the Title I Part D Neglected or Delinquent program(s) that a student participates in or from which the student receives services.</xs:documentation>
+      <xs:documentation>This association represents the Title I Part D Neglected or Delinquent program(s) that a student participates in or from which the student receives services. The association is a subclass of the GeneralStudentProgramAssociation specifically designed for Title I Part D Neglected or Delinquent programs.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -9158,7 +9152,7 @@
           </xs:element>
           <xs:element name="EntryDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>The month, day, and year on which an individual enters and begins to receive instructional services in a school.</xs:documentation>
+              <xs:documentation>The month, day, and year on which an individual enters and begins to receive instructional services in a school for each school year. The EntryDate value should be the date the student enrolled, or when the student's enrollment materially changed, such as with a grade promotion.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EntryGradeLevel" type="GradeLevelDescriptorReferenceType">
@@ -9299,7 +9293,7 @@
   </xs:complexType>
   <xs:complexType name="StudentSchoolFoodServiceProgramAssociation">
     <xs:annotation>
-      <xs:documentation>This association represents the school food services program(s), such as the Free or Reduced Lunch program, that a student participates in or from which the student receives services.</xs:documentation>
+      <xs:documentation>This association represents the school food services program(s), such as the Free or Reduced Lunch program, that a student participates in or from which the student receives services. The association is a subclass of the GeneralStudentProgramAssociation specifically designed for school food service programs.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -9388,7 +9382,7 @@
   </xs:complexType>
   <xs:complexType name="StudentSpecialEducationProgramAssociation">
     <xs:annotation>
-      <xs:documentation>This association represents the special education program(s) that a student participates in or receives services from. The association is an extension of the StudentProgramAssociation particular for special education programs.</xs:documentation>
+      <xs:documentation>This association represents the special education program(s) that a student participates in or receives services from. The association is a subclass of the GeneralStudentProgramAssociation specifically designed for special education programs.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -9609,7 +9603,7 @@
   </xs:complexType>
   <xs:complexType name="StudentTitleIPartAProgramAssociation">
     <xs:annotation>
-      <xs:documentation>This association represents the Title I Part A program(s) that a student participates in or from which the student receives services. The association is an extension of the StudentProgramAssociation particular for Title I Part A programs.</xs:documentation>
+      <xs:documentation>This association represents the Title I Part A program(s) that a student participates in or from which the student receives services. The association is a subclass of the GeneralStudentProgramAssociation specifically designed for Title I Part A programs.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -15089,7 +15083,7 @@
       </xs:element>
       <xs:element name="EntryDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The month, day, and year on which an individual enters and begins to receive instructional services in a school.</xs:documentation>
+          <xs:documentation>The month, day, and year on which an individual enters and begins to receive instructional services in a school for each school year. The EntryDate value should be the date the student enrolled, or when the student's enrollment materially changed, such as with a grade promotion.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -16196,7 +16190,7 @@
   </xs:simpleType>
   <xs:simpleType name="AttendanceEventCategoryDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>This descriptor holds the category of the attendance event (e.g., tardy). The map to known enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor holds the category of the attendance event (e.g., tardy).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -16349,7 +16343,7 @@
   </xs:simpleType>
   <xs:simpleType name="ContinuationOfServicesReasonDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>In the Migrant Education program, a provision allows continuation of services after a child is no longer considered migratory for certain reasons. This descriptor holds the reasons prescribed in the statute. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>In the Migrant Education program, a provision allows continuation of services after a child is no longer considered migratory for certain reasons. This descriptor holds the reasons prescribed in the statute.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -16745,7 +16739,7 @@
   </xs:simpleType>
   <xs:simpleType name="GradeLevelDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>This descriptor defines the set of grade levels. The map to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor defines the set of grade levels.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -16772,7 +16766,7 @@
   </xs:simpleType>
   <xs:simpleType name="GradingPeriodDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>This descriptor defines the state's name of the period for which grades are reported. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor defines the state's name of the period for which grades are reported.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -17024,7 +17018,7 @@
   </xs:simpleType>
   <xs:simpleType name="LimitedEnglishProficiencyDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>This descriptor defines the indications that the student has been identified as limited English proficient by the Language Proficiency Assessment Committee (LPAC), or English proficient. The mapping of descriptor values to known Ed-Fi enumeration values is required.</xs:documentation>
+      <xs:documentation>This descriptor defines the indications that the student has been identified as limited English proficient by the Language Proficiency Assessment Committee (LPAC), or English proficient.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -17724,15 +17718,6 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="StudentParticipationCodeDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The role or type of participation of a student in a discipline incident; for example: Victim, Perpetrator, Witness, Reporter.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
   <xs:simpleType name="SubmissionStatusDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The status of the student's submission.</xs:documentation>
@@ -18324,7 +18309,7 @@
       </xs:element>
       <xs:element name="EventDuration" type="EventDuration" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The amount of time for the event as recognized by the school: 1 day = 1, 1/2 day = 0.5, 1/3 day = 0.33.</xs:documentation>
+          <xs:documentation>The amount of time in days for the event as recognized by the school: 1 day = 1, 1/2 day = 0.5, 1/3 day = 0.33.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -18705,39 +18690,6 @@
       <xs:element name="Credits" type="Credits">
         <xs:annotation>
           <xs:documentation>The value of credits or units of value awarded for the completion of a course.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="CTEProgram">
-    <xs:annotation>
-      <xs:documentation>The career cluster or pathway representing the career path of the Vocational/Career Tech concentrator.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="CareerPathway" type="CareerPathwayDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>A sequence of courses within an area of interest that is a student's educational road map to a chosen career.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>CareerPathwayDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="CIPCode" type="CIPCode" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>Number and description of the CIP code associated with the student's CTE program.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PrimaryCTEProgramIndicator" type="xs:boolean" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A boolean indicator of whether this CTE program is the student's primary CTE program.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="CTEProgramCompletionIndicator" type="xs:boolean" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A boolean indicator of whether the student has completed the CTE program.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -19504,7 +19456,7 @@
       </xs:element>
       <xs:element name="TimeRequired" type="TimeInterval" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience.</xs:documentation>
+          <xs:documentation>Approximate or typical time that it takes to work with or through this learning resource for the typical intended target audience expressed in minutes.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="InteractivityStyle" type="InteractivityStyleDescriptorReferenceType" minOccurs="0">
@@ -20038,39 +19990,6 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="ParticipationStatus">
-    <xs:annotation>
-      <xs:documentation>The status of the student's program participation.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="ParticipationStatus" type="ParticipationStatusDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>The student's program participation status.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>ParticipationStatusDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="StatusBeginDate" type="xs:date" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The date the student's program participation status began.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="StatusEndDate" type="xs:date" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The date the student's program participation status ended.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="DesignatedBy" type="DesignatedBy" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The person, organization, or department that designated the participation status.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
   <xs:complexType name="PerformanceLevel">
     <xs:annotation>
       <xs:documentation>A performance level value that describes student proficiency, generally a cut score.</xs:documentation>
@@ -20171,47 +20090,6 @@
       <xs:element name="MaxNumericRating" type="NumericRating" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The maximum numerical rating or score to achieve the evaluation rating level.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ProgramParticipation">
-    <xs:annotation>
-      <xs:documentation>Programs the student is participating in or receiving services from.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="ProgramType" type="ProgramTypeDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>The type of program.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>ProgramTypeDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="ProgramCharacteristic" type="ProgramCharacteristicDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-        <xs:annotation>
-          <xs:documentation>Reflects important characteristics of the program, such as categories or particular indications.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>ProgramCharacteristicDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="BeginDate" type="xs:date" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The date the student was associated with the program or service.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EndDate" type="xs:date" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The date the program participation ended.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="DesignatedBy" type="DesignatedBy" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The person, organization, or department that designated the program association.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20657,7 +20535,7 @@
       </xs:element>
       <xs:element name="TimeAssessed" type="TimeInterval" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The overall time a student actually spent during the assessment item.</xs:documentation>
+          <xs:documentation>The overall time that a student actually spent on the assessment item expressed in minutes.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="AssessmentItemReference" type="AssessmentItemReferenceType">
@@ -21810,17 +21688,6 @@
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="CredentialCode">
-    <xs:annotation>
-      <xs:documentation>A code, often shorter, identifying the type or category of the credential and generally issued by the authorizing entity.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="255" />
-    </xs:restriction>
-  </xs:simpleType>
   <xs:simpleType name="CredentialEndorsement">
     <xs:annotation>
       <xs:documentation>Endorsements are attachments to teaching certificates and indicate areas of specialization.</xs:documentation>
@@ -22074,17 +21941,6 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:maxLength value="64" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="GradeValueQualifier">
-    <xs:annotation>
-      <xs:documentation>The scale of equivalents, if applicable, for grades awarded as indicators of performance in schoolwork. For example, numerical equivalents for letter grades used in determining a student's Grade Point Average (A=4, B=3, C=2, D=1 in a four-point system) or letter equivalents for percentage grades (90-100%=A, 80-90%=B, etc.)</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="80" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="GradingPeriodName">
@@ -22647,17 +22503,6 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:maxLength value="100" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="ServiceCategory">
-    <xs:annotation>
-      <xs:documentation>The category of service provided by a program.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="50" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ShortDescription">
