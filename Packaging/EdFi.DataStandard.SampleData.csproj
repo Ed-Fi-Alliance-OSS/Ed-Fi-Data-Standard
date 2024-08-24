@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <IsPackable>true</IsPackable>
+        <RootNamespace>EdFi.DataStandard.SampleData</RootNamespace>
+        <NoWarn>NU5110,NU5111</NoWarn>
+        <PackageReadmeFile>docs\README.md</PackageReadmeFile>
+        <Version>$(Version)</Version>
+        <NuspecProperties>version=$(PackageVersion)</NuspecProperties>
+        <id>EdFi.DataStandard.SampleData</id>
+        <title>Ed-Fi sample XML files for Data Standard 5.1.0</title>
+        <authors>Ed-Fi Alliance</authors>
+        <projectUrl>https://github.com/Ed-Fi-Alliance-OSS</projectUrl>
+        <copyright>Copyright © 2024, Ed-Fi Alliance, LLC and contributors.</copyright>
+        <summary>Grand Bend fake data set</summary>
+        <description>Default Descriptors and Grand Bend fake data set in XML format for loading into an Ed-Fi API.</description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="docs\README.md" />
+        <None Include="../LICENSE" Pack="true" PackagePath="docs\" />
+        <None Include="../Descriptors/*" Pack="true" PackagePath="Bootstrap\" />
+        <None Include="../Samples/Sample XML/*" Pack="true" PackagePath="Sample XML\" />
+        <None Include="../Samples/Sample XML/EducationOrganization.xml" Pack="true" PackagePath="Partial\" />
+        <None Include="../Samples/Sample XML/EducationOrgCalendar.xml" Pack="true" PackagePath="Partial\" />
+        <None Include="../Samples/Sample XML/Standards.xml" Pack="true" PackagePath="Partial\" />
+    </ItemGroup>
+
+</Project>
