@@ -1,2 +1,6 @@
 
 Schemas/Bulk/SchemaAnnotation.xsd
+
+*.nupkg
+obj/
+bin/
