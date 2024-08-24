@@ -9,11 +9,11 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<SurveyTitle>Course Evaluation</SurveyTitle>
-		<SchoolYear>2021-2022</SchoolYear>
+		<SchoolYear>2021</SchoolYear>
 		<SessionReference>
 			<SessionIdentity>
 				<SessionName>2021-2022 Spring Semester</SessionName>
-				<SchoolYear>2021-2022</SchoolYear>
+				<SchoolYear>2021</SchoolYear>
 				<SchoolReference>
 					<SchoolIdentity>
 						<SchoolId>255901001</SchoolId>
@@ -306,7 +306,7 @@
 						<SessionReference>
 							<SessionIdentity>
 								<SessionName>2021-2022 Spring Semester</SessionName>
-								<SchoolYear>2021-2022</SchoolYear>
+								<SchoolYear>2021</SchoolYear>
 								<SchoolReference>
 									<SchoolIdentity>
 										<SchoolId>255901001</SchoolId>
