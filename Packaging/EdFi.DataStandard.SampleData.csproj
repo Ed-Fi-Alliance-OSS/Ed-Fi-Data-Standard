@@ -25,6 +25,7 @@
         <None Include="../Samples/Sample XML/EducationOrganization.xml" Pack="true" PackagePath="Partial\" />
         <None Include="../Samples/Sample XML/EducationOrgCalendar.xml" Pack="true" PackagePath="Partial\" />
         <None Include="../Samples/Sample XML/Standards.xml" Pack="true" PackagePath="Partial\" />
+        <None Include="../Schemas/Bulk" Pack="true" PackagePath="XSD\" />
     </ItemGroup>
 
 </Project>
