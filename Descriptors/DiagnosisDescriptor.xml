@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
-	<DiagnosisDescriptor>
-		<CodeValue>Low Attendance</CodeValue>
-		<ShortDescription>DEPRECATED: Low Attendance</ShortDescription>
-		<Description>DEPRECATED: Low Attendance</Description>
-		<Namespace>uri://ed-fi.org/DiagnosisDescriptor</Namespace>
-	</DiagnosisDescriptor>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<DiagnosisDescriptor>
 		<CodeValue>Dropout Risk</CodeValue>
 		<ShortDescription>DEPRECATED: Dropout Risk</ShortDescription>
 		<Description>DEPRECATED: Dropout Risk</Description>
+		<Namespace>uri://ed-fi.org/DiagnosisDescriptor</Namespace>
+	</DiagnosisDescriptor>
+	<DiagnosisDescriptor>
+		<CodeValue>Low Attendance</CodeValue>
+		<ShortDescription>DEPRECATED: Low Attendance</ShortDescription>
+		<Description>DEPRECATED: Low Attendance</Description>
 		<Namespace>uri://ed-fi.org/DiagnosisDescriptor</Namespace>
 	</DiagnosisDescriptor>
 </InterchangeDescriptors>

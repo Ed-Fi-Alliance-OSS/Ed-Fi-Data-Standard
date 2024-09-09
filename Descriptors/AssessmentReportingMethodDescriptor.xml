@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Achievement/proficiency level</CodeValue>
 		<ShortDescription>Achievement/proficiency level</ShortDescription>
 		<Description>Achievement/proficiency level</Description>
-		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
-	</AssessmentReportingMethodDescriptor>
-	<AssessmentReportingMethodDescriptor>
-		<CodeValue>ACT score</CodeValue>
-		<ShortDescription>DEPRECATED: ACT score</ShortDescription>
-		<Description>DEPRECATED: ACT score</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
@@ -31,21 +25,15 @@
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
-		<CodeValue>College Board examination scores</CodeValue>
-		<ShortDescription>DEPRECATED: College Board examination scores</ShortDescription>
-		<Description>DEPRECATED: College Board examination scores</Description>
+		<CodeValue>Composite Rating</CodeValue>
+		<ShortDescription>Composite Rating</ShortDescription>
+		<Description>Composite Rating</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Composite Score</CodeValue>
 		<ShortDescription>Composite Score</ShortDescription>
 		<Description>Composite Score</Description>
-		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
-	</AssessmentReportingMethodDescriptor>
-	<AssessmentReportingMethodDescriptor>
-		<CodeValue>Composite Rating</CodeValue>
-		<ShortDescription>Composite Rating</ShortDescription>
-		<Description>Composite Rating</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
@@ -73,23 +61,29 @@
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
-		<CodeValue>International Baccalaureate score</CodeValue>
-		<ShortDescription>DEPRECATED: International Baccalaureate score</ShortDescription>
-		<Description>DEPRECATED: International Baccalaureate score</Description>
-		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
-	</AssessmentReportingMethodDescriptor>
-	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Letter grade/mark</CodeValue>
 		<ShortDescription>Letter grade/mark</ShortDescription>
 		<Description>Letter grade/mark</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
+		<CodeValue>Lexile Measure</CodeValue>
+		<ShortDescription>Lexile Measure</ShortDescription>
+		<Description>Lexile Measure</Description>
+		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
+	</AssessmentReportingMethodDescriptor>	
+	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Mastery level</CodeValue>
 		<ShortDescription>Mastery level</ShortDescription>
 		<Description>Mastery level</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
+	<AssessmentReportingMethodDescriptor>
+		<CodeValue>National College-Bound Percentile</CodeValue>
+		<ShortDescription>National College-Bound Percentile</ShortDescription>
+		<Description>National College-Bound Percentile</Description>
+		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
+	</AssessmentReportingMethodDescriptor>	
 	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Normal curve equivalent</CodeValue>
 		<ShortDescription>Normal curve equivalent</ShortDescription>
@@ -108,6 +102,12 @@
 		<Description>Number score</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
+	<AssessmentReportingMethodDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
+	</AssessmentReportingMethodDescriptor>	
 	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Pass-fail</CodeValue>
 		<ShortDescription>Pass-fail</ShortDescription>
@@ -139,6 +139,12 @@
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
+		<CodeValue>Quantile Measure</CodeValue>
+		<ShortDescription>Quantile Measure</ShortDescription>
+		<Description>Quantile Measure</Description>
+		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
+	</AssessmentReportingMethodDescriptor>	
+	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Ranking</CodeValue>
 		<ShortDescription>Ranking</ShortDescription>
 		<Description>Ranking</Description>
@@ -156,6 +162,12 @@
 		<Description>Raw score</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
+	<AssessmentReportingMethodDescriptor>
+		<CodeValue>RIT scale score</CodeValue>
+		<ShortDescription>RIT scale score</ShortDescription>
+		<Description>RIT scale score</Description>
+		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
+	</AssessmentReportingMethodDescriptor>	
 	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Scale score</CodeValue>
 		<ShortDescription>Scale score</ShortDescription>
@@ -181,6 +193,12 @@
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
+		<CodeValue>State College-Bound Percentile</CodeValue>
+		<ShortDescription>State College-Bound Percentile</ShortDescription>
+		<Description>State College-Bound Percentile</Description>
+		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
+	</AssessmentReportingMethodDescriptor>		
+	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Sten score</CodeValue>
 		<ShortDescription>Sten score</ShortDescription>
 		<Description>Sten score</Description>
@@ -196,6 +214,12 @@
 		<CodeValue>T-score</CodeValue>
 		<ShortDescription>T-score</ShortDescription>
 		<Description>T-score</Description>
+		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
+	</AssessmentReportingMethodDescriptor>
+	<AssessmentReportingMethodDescriptor>
+		<CodeValue>Vertical Scale Score</CodeValue>
+		<ShortDescription>Vertical Scale Score</ShortDescription>
+		<Description>Vertical Scale Score</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
@@ -217,51 +241,27 @@
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
-		<CodeValue>Other</CodeValue>
-		<ShortDescription>Other</ShortDescription>
-		<Description>Other</Description>
+		<CodeValue>ACT score</CodeValue>
+		<ShortDescription>DEPRECATED: ACT score</ShortDescription>
+		<Description>DEPRECATED: ACT score</Description>
+		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
+	</AssessmentReportingMethodDescriptor>
+	<AssessmentReportingMethodDescriptor>
+		<CodeValue>College Board examination scores</CodeValue>
+		<ShortDescription>DEPRECATED: College Board examination scores</ShortDescription>
+		<Description>DEPRECATED: College Board examination scores</Description>
+		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
+	</AssessmentReportingMethodDescriptor>
+	<AssessmentReportingMethodDescriptor>
+		<CodeValue>International Baccalaureate score</CodeValue>
+		<ShortDescription>DEPRECATED: International Baccalaureate score</ShortDescription>
+		<Description>DEPRECATED: International Baccalaureate score</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 	<AssessmentReportingMethodDescriptor>
 		<CodeValue>Not applicable</CodeValue>
 		<ShortDescription>DEPRECATED: Not applicable</ShortDescription>
 		<Description>DEPRECATED: Not applicable</Description>
-		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
-	</AssessmentReportingMethodDescriptor>
-	<AssessmentReportingMethodDescriptor>
-		<CodeValue>Quantile Measure</CodeValue>
-		<ShortDescription>Quantile Measure</ShortDescription>
-		<Description>Quantile Measure</Description>
-		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
-	</AssessmentReportingMethodDescriptor>
-	<AssessmentReportingMethodDescriptor>
-		<CodeValue>Lexile Measure</CodeValue>
-		<ShortDescription>Lexile Measure</ShortDescription>
-		<Description>Lexile Measure</Description>
-		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
-	</AssessmentReportingMethodDescriptor>
-	<AssessmentReportingMethodDescriptor>
-		<CodeValue>Vertical Scale Score</CodeValue>
-		<ShortDescription>Vertical Scale Score</ShortDescription>
-		<Description>Vertical Scale Score</Description>
-		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
-	</AssessmentReportingMethodDescriptor>
-	<AssessmentReportingMethodDescriptor>
-		<CodeValue>National College-Bound Percentile</CodeValue>
-		<ShortDescription>National College-Bound Percentile</ShortDescription>
-		<Description>National College-Bound Percentile</Description>
-		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
-	</AssessmentReportingMethodDescriptor>
-	<AssessmentReportingMethodDescriptor>
-		<CodeValue>State College-Bound Percentile</CodeValue>
-		<ShortDescription>State College-Bound Percentile</ShortDescription>
-		<Description>State College-Bound Percentile</Description>
-		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
-	</AssessmentReportingMethodDescriptor>
-	<AssessmentReportingMethodDescriptor>
-		<CodeValue>RIT scale score</CodeValue>
-		<ShortDescription>RIT scale score</ShortDescription>
-		<Description>RIT scale score</Description>
 		<Namespace>uri://ed-fi.org/AssessmentReportingMethodDescriptor</Namespace>
 	</AssessmentReportingMethodDescriptor>
 </InterchangeDescriptors>
