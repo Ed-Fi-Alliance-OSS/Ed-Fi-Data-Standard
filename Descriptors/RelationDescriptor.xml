@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<RelationDescriptor>
 		<CodeValue>Aunt</CodeValue>
 		<ShortDescription>Aunt</ShortDescription>
@@ -40,12 +40,6 @@
 		<CodeValue>DaughterInLaw</CodeValue>
 		<ShortDescription>DaughterInLaw</ShortDescription>
 		<Description>DaughterInLaw</Description>
-		<Namespace>uri://ed-fi.org/RelationDescriptor</Namespace>
-	</RelationDescriptor>
-	<RelationDescriptor>
-		<CodeValue>Emergency</CodeValue>
-		<ShortDescription>DEPRECATED: Emergency</ShortDescription>
-		<Description>DEPRECATED: Emergency</Description>
 		<Namespace>uri://ed-fi.org/RelationDescriptor</Namespace>
 	</RelationDescriptor>
 	<RelationDescriptor>
@@ -148,12 +142,6 @@
 		<CodeValue>Great uncle</CodeValue>
 		<ShortDescription>Great uncle</ShortDescription>
 		<Description>Great uncle</Description>
-		<Namespace>uri://ed-fi.org/RelationDescriptor</Namespace>
-	</RelationDescriptor>
-	<RelationDescriptor>
-		<CodeValue>Guardian</CodeValue>
-		<ShortDescription>DEPRECATED: Guardian</ShortDescription>
-		<Description>DEPRECATED: Guardian</Description>
 		<Namespace>uri://ed-fi.org/RelationDescriptor</Namespace>
 	</RelationDescriptor>
 	<RelationDescriptor>
@@ -298,6 +286,18 @@
 		<CodeValue>Wife</CodeValue>
 		<ShortDescription>Wife</ShortDescription>
 		<Description>Wife</Description>
+		<Namespace>uri://ed-fi.org/RelationDescriptor</Namespace>
+	</RelationDescriptor>
+	<RelationDescriptor>
+		<CodeValue>Emergency</CodeValue>
+		<ShortDescription>DEPRECATED: Emergency</ShortDescription>
+		<Description>DEPRECATED: Emergency</Description>
+		<Namespace>uri://ed-fi.org/RelationDescriptor</Namespace>
+	</RelationDescriptor>
+	<RelationDescriptor>
+		<CodeValue>Guardian</CodeValue>
+		<ShortDescription>DEPRECATED: Guardian</ShortDescription>
+		<Description>DEPRECATED: Guardian</Description>
 		<Namespace>uri://ed-fi.org/RelationDescriptor</Namespace>
 	</RelationDescriptor>
 </InterchangeDescriptors>
