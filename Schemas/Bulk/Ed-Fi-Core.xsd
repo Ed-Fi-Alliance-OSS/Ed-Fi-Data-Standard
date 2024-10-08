@@ -1636,14 +1636,6 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentParticipationCode" type="StudentParticipationCodeDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>StudentParticipationCodeDescriptor.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>StudentParticipationCodeDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>          
           <xs:element name="ReportedToLawEnforcement" type="xs:boolean" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Indicator of whether the incident was reported to law enforcement.</xs:documentation>
@@ -7741,17 +7733,6 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StudentParticipationCodeDescriptor">
-    <xs:annotation>
-      <xs:documentation>StudentParticipationCodeDescriptor.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>  
   <xs:annotation>
     <xs:documentation>===== Associations =====</xs:documentation>
   </xs:annotation>
@@ -17908,15 +17889,6 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="StudentParticipationCodeDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>StudentParticipationCode Descriptor Reference.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>StudentParticipationCode Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>  
   <xs:annotation>
     <xs:documentation>===== Common Types =====</xs:documentation>
   </xs:annotation>
