@@ -29,12 +29,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>The start date for the academic week.</xs:documentation>
+              <xs:documentation>The start date for the academic week.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>The end date for the academic week.</xs:documentation>
+              <xs:documentation>The end date for the academic week.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="TotalInstructionalDays" type="TotalInstructionalDays">
@@ -1315,7 +1315,7 @@
         <xs:sequence>
           <xs:element name="EffectiveDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The year, month and day on which an active credential held by an individual was issued.</xs:documentation>
+              <xs:documentation>The year, month and day on which an active credential held by an individual was issued.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="CredentialEndorsement" type="CredentialEndorsement" minOccurs="0" maxOccurs="unbounded">
@@ -1325,7 +1325,7 @@
           </xs:element>
           <xs:element name="ExpirationDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The month, day, and year on which an active credential held by an individual will expire.</xs:documentation>
+              <xs:documentation>The month, day, and year on which an active credential held by an individual will expire.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="CredentialField" type="CredentialFieldDescriptorReferenceType" minOccurs="0">
@@ -1433,12 +1433,12 @@
           </xs:element>
           <xs:element name="CrisisStartDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The year, month and day on which the crisis affected the student. This date may not be the same as the date the crisis occurred if evacuation orders are implemented in anticipation of a crisis.</xs:documentation>
+              <xs:documentation>The year, month and day on which the crisis affected the student. This date may not be the same as the date the crisis occurred if evacuation orders are implemented in anticipation of a crisis.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="CrisisEndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The date on which the crisis ceased to affect the student.</xs:documentation>
+              <xs:documentation>The date on which the crisis ceased to affect the student. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -2148,12 +2148,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the first day of the grading period.</xs:documentation>
+              <xs:documentation>Month, day, and year of the first day of the grading period.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the last day of the grading period.</xs:documentation>
+              <xs:documentation>Month, day, and year of the last day of the grading period.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="TotalInstructionalDays" type="TotalInstructionalDays">
@@ -2297,12 +2297,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>The start date for the intervention implementation.</xs:documentation>
+              <xs:documentation>The start date for the intervention implementation.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The end date for the intervention implementation.</xs:documentation>
+              <xs:documentation>The end date for the intervention implementation.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="MeetingTime" type="MeetingTime" minOccurs="0" maxOccurs="unbounded">
@@ -3133,12 +3133,12 @@
           </xs:element>
           <xs:element name="DatePosted" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Date the open staff position was posted.</xs:documentation>
+              <xs:documentation>Date the open staff position was posted.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="DatePostingRemoved" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The date the posting was removed or filled.</xs:documentation>
+              <xs:documentation>The date the posting was removed or filled.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="PostingResult" type="PostingResultDescriptorReferenceType" minOccurs="0">
@@ -4033,12 +4033,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the first day of the session.</xs:documentation>
+              <xs:documentation>Month, day, and year of the first day of the session.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day and year of the last day of the session.</xs:documentation>
+              <xs:documentation>Month, day and year of the last day of the session.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="Term" type="TermDescriptorReferenceType">
@@ -4318,12 +4318,12 @@
         <xs:sequence>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>The begin date of the staff leave.</xs:documentation>
+              <xs:documentation>The begin date of the staff leave.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The end date of the staff leave.</xs:documentation>
+              <xs:documentation>The end date of the staff leave.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StaffLeaveEventCategory" type="StaffLeaveEventCategoryDescriptorReferenceType">
@@ -7758,12 +7758,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The begin date of the period during which the intervention prescription is available.</xs:documentation>
+              <xs:documentation>The begin date of the period during which the intervention prescription is available.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The end date of the period during which the intervention prescription is available.</xs:documentation>
+              <xs:documentation>The end date of the period during which the intervention prescription is available.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -7792,12 +7792,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The date on which the education organization joined this network.</xs:documentation>
+              <xs:documentation>The date on which the education organization joined this network.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The date on which the education organization left this network.</xs:documentation>
+              <xs:documentation>The date on which the education organization left this network.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -7850,12 +7850,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>The month, day, and year of the first day of the feeder school association.</xs:documentation>
+              <xs:documentation>The month, day, and year of the first day of the feeder school association.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The month, day, and year of the last day of the feeder school association.</xs:documentation>
+              <xs:documentation>The month, day, and year of the last day of the feeder school association.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="FeederRelationshipDescription" type="Description" minOccurs="0">
@@ -7889,12 +7889,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+              <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The month, day, and year on which the student exited the program or stopped receiving services.</xs:documentation>
+              <xs:documentation>The month, day, and year on which the student exited the program or stopped receiving services.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ReasonExited" type="ReasonExitedDescriptorReferenceType" minOccurs="0">
@@ -7993,12 +7993,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Start date for the association of staff to this cohort.</xs:documentation>
+              <xs:documentation>Start date for the association of staff to this cohort.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>End date for the association of staff to this cohort.</xs:documentation>
+              <xs:documentation>End date for the association of staff to this cohort.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StudentRecordAccess" type="xs:boolean" minOccurs="0">
@@ -8077,12 +8077,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the education organization.</xs:documentation>
+              <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the education organization.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the end or termination date of a staff member's employment, contract, or relationship with the education organization.</xs:documentation>
+              <xs:documentation>Month, day, and year of the end or termination date of a staff member's employment, contract, or relationship with the education organization.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="OrderOfAssignment" type="xs:int" minOccurs="0">
@@ -8250,12 +8250,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Start date for the association of staff to this program.</xs:documentation>
+              <xs:documentation>Start date for the association of staff to this program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>End date for the association of staff to this program.</xs:documentation>
+              <xs:documentation>End date for the association of staff to this program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StudentRecordAccess" type="xs:boolean" minOccurs="0">
@@ -8355,12 +8355,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of a teacher's assignment to the section.</xs:documentation>
+              <xs:documentation>Month, day, and year of a teacher's assignment to the section.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the last day of a staff member's assignment to the section.</xs:documentation>
+              <xs:documentation>Month, day, and year of the last day of a staff member's assignment to the section.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="HighlyQualifiedTeacher" type="xs:boolean" minOccurs="0">
@@ -8441,12 +8441,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>The month, day, and year on which the student was first identified as part of the cohort.</xs:documentation>
+              <xs:documentation>The month, day, and year on which the student was first identified as part of the cohort.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The month, day, and year on which the student was removed as part of the cohort.</xs:documentation>
+              <xs:documentation>The month, day, and year on which the student was removed as part of the cohort.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="SectionReference" type="SectionReferenceType" minOccurs="0" maxOccurs="unbounded">
@@ -8864,12 +8864,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the start date of an education organization's responsibility for a student.</xs:documentation>
+              <xs:documentation>Month, day, and year of the start date of an education organization's responsibility for a student.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the end date of an education organization's responsibility for a student.</xs:documentation>
+              <xs:documentation>Month, day, and year of the end date of an education organization's responsibility for a student.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -9152,7 +9152,7 @@
           </xs:element>
           <xs:element name="EntryDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>The month, day, and year on which an individual enters and begins to receive instructional services in a school for each school year. The EntryDate value should be the date the student enrolled, or when the student's enrollment materially changed, such as with a grade promotion.</xs:documentation>
+              <xs:documentation>The month, day, and year on which an individual enters and begins to receive instructional services in a school for each school year. The EntryDate value should be the date the student enrolled, or when the student's enrollment materially changed, such as with a grade promotion.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EntryGradeLevel" type="GradeLevelDescriptorReferenceType">
@@ -9196,7 +9196,7 @@
           </xs:element>
           <xs:element name="ExitWithdrawDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The recorded exit or withdraw date for the student.</xs:documentation>
+              <xs:documentation>The recorded exit or withdraw date for the student.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ExitWithdrawType" type="ExitWithdrawTypeDescriptorReferenceType" minOccurs="0">
@@ -9337,12 +9337,12 @@
           </xs:element>
           <xs:element name="BeginDate" type="xs:date">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the student's entry or assignment to the section.</xs:documentation>
+              <xs:documentation>Month, day, and year of the student's entry or assignment to the section.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Month, day, and year of the withdrawal or exit of the student from the section.</xs:documentation>
+              <xs:documentation>Month, day, and year of the withdrawal or exit of the student from the section.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="HomeroomIndicator" type="xs:boolean" minOccurs="0">
@@ -9440,12 +9440,12 @@
           </xs:element>
           <xs:element name="IEPBeginDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The effective date of the most recent IEP.</xs:documentation>
+              <xs:documentation>The effective date of the most recent IEP.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="IEPEndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The end date of the most recent IEP.</xs:documentation>
+              <xs:documentation>The end date of the most recent IEP.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="Disability" type="Disability" minOccurs="0" maxOccurs="unbounded">
@@ -11370,7 +11370,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The month, day, and year of the first day of the feeder school association.</xs:documentation>
+          <xs:documentation>The month, day, and year of the first day of the feeder school association.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -11492,7 +11492,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -13395,7 +13395,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>Start date for the association of staff to this cohort.</xs:documentation>
+          <xs:documentation>Start date for the association of staff to this cohort.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -13486,7 +13486,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the education organization.</xs:documentation>
+          <xs:documentation>Month, day, and year of the start or effective date of a staff member's employment, contract, or relationship with the education organization.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -13582,7 +13582,7 @@
       </xs:element>
       <xs:element name="HireDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The month, day, and year on which an individual was hired for a position.</xs:documentation>
+          <xs:documentation>The month, day, and year on which an individual was hired for a position.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -13631,7 +13631,7 @@
     <xs:sequence>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The begin date of the staff leave.</xs:documentation>
+          <xs:documentation>The begin date of the staff leave.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="StaffLeaveEventCategory" type="StaffLeaveEventCategoryDescriptorReferenceType">
@@ -13759,7 +13759,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>Start date for the association of staff to this program.</xs:documentation>
+          <xs:documentation>Start date for the association of staff to this program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -13874,7 +13874,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>Month, day, and year of a teacher's assignment to the section.</xs:documentation>
+          <xs:documentation>Month, day, and year of a teacher's assignment to the section.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -14133,7 +14133,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The month, day, and year on which the student was first identified as part of the cohort.</xs:documentation>
+          <xs:documentation>The month, day, and year on which the student was first identified as part of the cohort.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -14260,7 +14260,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -14442,7 +14442,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>Month, day, and year of the start date of an education organization's responsibility for a student.</xs:documentation>
+          <xs:documentation>Month, day, and year of the start date of an education organization's responsibility for a student.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -14564,7 +14564,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -14723,7 +14723,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -14807,7 +14807,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -14856,7 +14856,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -14905,7 +14905,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -15083,7 +15083,7 @@
       </xs:element>
       <xs:element name="EntryDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The month, day, and year on which an individual enters and begins to receive instructional services in a school for each school year. The EntryDate value should be the date the student enrolled, or when the student's enrollment materially changed, such as with a grade promotion.</xs:documentation>
+          <xs:documentation>The month, day, and year on which an individual enters and begins to receive instructional services in a school for each school year. The EntryDate value should be the date the student enrolled, or when the student's enrollment materially changed, such as with a grade promotion.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -15188,7 +15188,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -15237,7 +15237,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>Month, day, and year of the student's entry or assignment to the section.</xs:documentation>
+          <xs:documentation>Month, day, and year of the student's entry or assignment to the section.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -15337,7 +15337,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -15435,7 +15435,7 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.</xs:documentation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -17920,12 +17920,12 @@
       </xs:element>
       <xs:element name="HonorAwardDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The date the honor was awarded.</xs:documentation>
+          <xs:documentation>The date the honor was awarded.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="HonorAwardExpiresDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Date on which the honor expires.</xs:documentation>
+          <xs:documentation>Date on which the honor expires.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -18223,12 +18223,12 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The first date the assessment is to be administered.</xs:documentation>
+          <xs:documentation>The first date the assessment is to be administered.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The last date the assessment is to be administered.</xs:documentation>
+          <xs:documentation>The last date the assessment is to be administered.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -18544,12 +18544,12 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The beginning of the period during which this learning standard document is intended for use.</xs:documentation>
+          <xs:documentation>The beginning of the period during which this learning standard document is intended for use.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The end of the period during which this learning standard document is intended for use.</xs:documentation>
+          <xs:documentation>The end of the period during which this learning standard document is intended for use.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -18717,12 +18717,12 @@
       </xs:element>
       <xs:element name="ServiceBeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>First date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>First date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Last date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>Last date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="CIPCode" type="CIPCode" minOccurs="0">
@@ -18747,7 +18747,7 @@
       </xs:element>
       <xs:element name="DiplomaAwardDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The month, day, and year on which the student met  graduation requirements and was awarded a diploma.</xs:documentation>
+          <xs:documentation>The month, day, and year on which the student met  graduation requirements and was awarded a diploma.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="DiplomaLevel" type="DiplomaLevelDescriptorReferenceType" minOccurs="0">
@@ -18778,7 +18778,7 @@
       </xs:element>
       <xs:element name="DiplomaAwardExpiresDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Date on which the diploma expires.</xs:documentation>
+          <xs:documentation>Date on which the diploma expires.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -18878,12 +18878,12 @@
       </xs:element>
       <xs:element name="DisplacedStudentStartDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The date on which a student is officially identified as displaced due to a crisis event.</xs:documentation>
+          <xs:documentation>The date on which a student is officially identified as displaced due to a crisis event.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="DisplacedStudentEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The date marking the end of the period during which a student is considered displaced due to a crisis event.</xs:documentation>
+          <xs:documentation>The date marking the end of the period during which a student is considered displaced due to a crisis event.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="CrisisHomelessnessIndicator" type="xs:boolean" minOccurs="0">
@@ -19033,12 +19033,12 @@
     <xs:sequence>
       <xs:element name="HireDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The month, day, and year on which an individual was hired for a position.</xs:documentation>
+          <xs:documentation>The month, day, and year on which an individual was hired for a position.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The month, day, and year on which a contract between an individual and a governing authority ends or is terminated under the provisions of the contract (or the date on which the agreement is made invalid).</xs:documentation>
+          <xs:documentation>The month, day, and year on which a contract between an individual and a governing authority ends or is terminated under the provisions of the contract (or the date on which the agreement is made invalid).  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="Separation" type="SeparationDescriptorReferenceType" minOccurs="0">
@@ -19162,12 +19162,12 @@
       </xs:element>
       <xs:element name="ServiceBeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>First date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>First date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Last date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>Last date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -19305,12 +19305,12 @@
       </xs:element>
       <xs:element name="BeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The first date the address is valid. For physical addresses, the date the individual moved to that address.</xs:documentation>
+          <xs:documentation>The first date the address is valid. For physical addresses, the date the individual moved to that address.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The last date the address is valid. For physical addresses, the date the individual moved from that address.</xs:documentation>
+          <xs:documentation>The last date the address is valid. For physical addresses, the date the individual moved from that address.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -19411,12 +19411,12 @@
       </xs:element>
       <xs:element name="ServiceBeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>First date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>First date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Last date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>Last date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -19611,12 +19611,12 @@
       </xs:element>
       <xs:element name="LicenseEffectiveDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The month, day, and year on which a license is active or becomes effective.</xs:documentation>
+          <xs:documentation>The month, day, and year on which a license is active or becomes effective.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="LicenseExpirationDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The month, day, and year on which a license will expire.</xs:documentation>
+          <xs:documentation>The month, day, and year on which a license will expire.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="LicenseIssueDate" type="xs:date" minOccurs="0">
@@ -19811,12 +19811,12 @@
       </xs:element>
       <xs:element name="ServiceBeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>First date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>First date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Last date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>Last date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -19899,12 +19899,12 @@
       </xs:element>
       <xs:element name="ServiceBeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>First date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>First date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Last date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>Last date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20031,12 +20031,12 @@
     <xs:sequence>
       <xs:element name="BeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The month, day, and year for the start of the period.</xs:documentation>
+          <xs:documentation>The month, day, and year for the start of the period.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The month, day, and year for the end of the period.</xs:documentation>
+          <xs:documentation>The month, day, and year for the end of the period.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20112,12 +20112,12 @@
       </xs:element>
       <xs:element name="StatusBeginDate" type="xs:date">
         <xs:annotation>
-          <xs:documentation>The date the student's program participation status began.</xs:documentation>
+          <xs:documentation>The date the student's program participation status began.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="StatusEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The date the student's program participation status ended.</xs:documentation>
+          <xs:documentation>The date the student's program participation status ended.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="DesignatedBy" type="DesignatedBy" minOccurs="0">
@@ -20155,12 +20155,12 @@
       </xs:element>
       <xs:element name="RecognitionAwardDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>The date the recognition was awarded or earned.</xs:documentation>
+          <xs:documentation>The date the recognition was awarded or earned.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="RecognitionAwardExpiresDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Date on which the recognition expires.</xs:documentation>
+          <xs:documentation>Date on which the recognition expires.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20294,12 +20294,12 @@
       </xs:element>
       <xs:element name="ServiceBeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>First date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>First date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Last date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>Last date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20358,12 +20358,12 @@
       </xs:element>
       <xs:element name="ServiceBeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>First date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>First date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Last date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>Last date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -20411,12 +20411,12 @@
       </xs:element>
       <xs:element name="ServiceBeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>First date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>First date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Last date the student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>Last date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceProvider" type="ServiceProvider" minOccurs="0" maxOccurs="unbounded">
@@ -20907,12 +20907,12 @@
       </xs:element>
       <xs:element name="ServiceBeginDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>First date the Student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>First date the Student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="ServiceEndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>Last date the Student was in this option for the current school year.</xs:documentation>
+          <xs:documentation>Last date the Student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
