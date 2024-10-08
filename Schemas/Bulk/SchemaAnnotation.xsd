@@ -241,6 +241,7 @@
       <xs:enumeration value="TribalAffiliationDescriptor" />
       <xs:enumeration value="VisaDescriptor" />
       <xs:enumeration value="WeaponDescriptor" />
+      <xs:enumeration value="StudentParticipationCodeDescriptor" />      
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="TypeGroup">
