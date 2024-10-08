@@ -7741,6 +7741,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentParticipationCodeDescriptor">
+    <xs:annotation>
+      <xs:documentation>StudentParticipationCodeDescriptor.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>  
   <xs:annotation>
     <xs:documentation>===== Associations =====</xs:documentation>
   </xs:annotation>
@@ -17897,6 +17908,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="StudentParticipationCodeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>StudentParticipationCode Descriptor Reference.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>StudentParticipationCode Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>  
   <xs:annotation>
     <xs:documentation>===== Common Types =====</xs:documentation>
   </xs:annotation>
