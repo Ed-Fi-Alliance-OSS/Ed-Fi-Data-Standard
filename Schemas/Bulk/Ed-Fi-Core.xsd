@@ -7348,6 +7348,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="Section504DisabilityTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="SectionCharacteristicDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines characteristics of a Section, such as whether attendance is taken and the Section is graded.</xs:documentation>
@@ -9309,6 +9320,48 @@
           <xs:element name="SchoolFoodServiceProgramService" type="SchoolFoodServiceProgramService" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Indicates the service(s) being provided to the student by the school food service program.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentSection504ProgramAssociation">
+    <xs:annotation>
+      <xs:documentation>This association identifies student that qualifies for the Section 504 of the Rehabilitation Act of 1973.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="GeneralStudentProgramAssociation">
+        <xs:sequence>
+          <xs:element name="Section504Eligibility" type="xs:boolean">
+            <xs:annotation>
+              <xs:documentation>Indicates whether student has a disability, either temporary or permenant, that qualifies student for Section 504 consideration. Selection of FALSE for this boolean is equivalent to marking student as 'Did Not Qualify'.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AccommodationPlan" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates whether student has a Section 504 accommodation plan.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Section504DisabilityType" type="Section504DisabilityTypeDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Defines one or more disabilities student has that qualifies them for a Section 504 plan.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>Section504DisabilityTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Section504MeetingDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The month, day, and year on which the meeting with student's parent/guardian held to discuss the 504 eligibility of the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Section504EligibilityDecisionDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The month, day, and year on which the Section 504 eligibility decision is made.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -15217,6 +15270,55 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="StudentSection504ProgramAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentSection504ProgramAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student associated with the program.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ProgramReference" type="ProgramReferenceType">
+        <xs:annotation>
+          <xs:documentation>The program associated with the student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="BeginDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>The earliest date the student is involved with the program. Typically, this is the date the student becomes eligible for the program.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The education organization where the student is participating in or receiving the program services.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentSection504ProgramAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentSection504ProgramAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentSection504ProgramAssociationIdentity" type="StudentSection504ProgramAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentSection504ProgramAssociation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentSectionAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a StudentSectionAssociation.</xs:documentation>
@@ -17568,6 +17670,15 @@
   <xs:simpleType name="SchoolTypeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The type of education institution as classified by its primary focus such as Alternative, Career and Technical Education, Regular, or Special Education schools.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="Section504DisabilityTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
