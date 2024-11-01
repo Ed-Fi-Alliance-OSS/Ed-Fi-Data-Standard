@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.2.0" targetNamespace="http://ed-fi.org/5.2.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:include schemaLocation="Ed-Fi-Core.xsd" />
+  <xs:annotation>
+    <xs:documentation>===== Assessment Registration Interchange Model =====</xs:documentation>
+  </xs:annotation>
+  <xs:element name="InterchangeAssessmentRegistration">
+    <xs:annotation>
+      <xs:documentation>This interchange defines the registration of students for assessments. It encompasses information related to the scheduled assessment administration, scheduled student participation, and the specific assessments to be taken by the students.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="AssessmentAdministration" type="AssessmentAdministration" />
+        <xs:element name="AssessmentAdministrationParticipation" type="AssessmentAdministrationParticipation" />
+        <xs:element name="StudentAssessmentRegistration" type="StudentAssessmentRegistration" />
+        <xs:element name="AssessmentBatteryPart" type="AssessmentBatteryPart" />
+        <xs:element name="StudentEducationOrganizationAssessmentAccommodation" type="StudentEducationOrganizationAssessmentAccommodation" />
+        <xs:element name="StudentAssessmentRegistrationBatteryPartAssociation" type="StudentAssessmentRegistrationBatteryPartAssociation" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
