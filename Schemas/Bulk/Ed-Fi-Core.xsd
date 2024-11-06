@@ -263,10 +263,10 @@
           </xs:element>
           <xs:element name="AdministrationIdentifier" type="AdministrationIdentifier">
             <xs:annotation>
-              <xs:documentation>The title or name of the assessment in the context of it's administration.</xs:documentation>
+              <xs:documentation>The title or name of the assessment in the context of its administration.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="AssessmentAdministrationPeriod" type="Period" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AssessmentAdminstrationPeriod" type="Period" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The anticipated dates for the assessment or administration window.</xs:documentation>
             </xs:annotation>
@@ -274,35 +274,6 @@
           <xs:element name="AssessmentBatteryPartReference" type="AssessmentBatteryPartReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>A reference to the parts of the assessment battery that are offered in this administration of the assessment.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="AssessmentAdministrationParticipation">
-    <xs:annotation>
-      <xs:documentation>Identifies the point of contact for the administration of an assessment under the purview of an education organization.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="AssessmentAdministrationReference" type="AssessmentAdministrationReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the assessment administration for which participation is being indicated.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ParticipatingEducationOrganizationReference" type="EducationOrganizationReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the education organization for which participation is being indicated.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="AdministrationPointOfContact" type="AdministrationPointOfContact" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Pre-identified contacts for education organizations administering the assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -451,6 +422,35 @@
           <xs:element name="ObjectiveAssessmentReference" type="ObjectiveAssessmentReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Reference to the objective assessment with which the score range is associated.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AssesssmentAdministrationParticipation">
+    <xs:annotation>
+      <xs:documentation>Identifies the point of contact for the administration of an assessment under the purview of an education organization.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="AssessmentAdministrationReference" type="AssessmentAdministrationReferenceType">
+            <xs:annotation>
+              <xs:documentation>A reference to the assessment administration for which participation is being indicated.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ParticipatingEducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>A reference to the education organization for which participation is being indicated.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AdministrationPointOfContact" type="AdministrationPointOfContact" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Pre-identified contacts for education organizations administering the assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -4920,7 +4920,7 @@
               <xs:documentation>Reference to the student associated with the assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Accommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="GeneralAccommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The special variation(s) to be used in how assessments (in general) are presented, how it is administered, or how the test taker is allowed to respond. This generally refers to changes that do not substantially alter what the examination measures. The proper use of accommodations does not substantially change academic level or performance criteria.</xs:documentation>
               <xs:appinfo>
@@ -7550,7 +7550,7 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="Section504DisabilityTypeDescriptor">
+  <xs:complexType name="Section504DisabilityDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
       <xs:appinfo>
@@ -9580,11 +9580,11 @@
               <xs:documentation>Indicates whether student has a Section 504 accommodation plan.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Section504DisabilityType" type="Section504DisabilityTypeDescriptorReferenceType" minOccurs="0">
+          <xs:element name="Section504Disability" type="Section504DisabilityDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Defines one or more disabilities student has that qualifies them for a Section 504 plan.</xs:documentation>
               <xs:appinfo>
-                <ann:Descriptor>Section504DisabilityTypeDescriptor</ann:Descriptor>
+                <ann:Descriptor>Section504DisabilityDescriptor</ann:Descriptor>
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
@@ -10272,49 +10272,10 @@
       </xs:element>
       <xs:element name="AdministrationIdentifier" type="AdministrationIdentifier">
         <xs:annotation>
-          <xs:documentation>The title or name of the assessment in the context of it's administration.</xs:documentation>
+          <xs:documentation>The title or name of the assessment in the context of its administration.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="AssessmentAdministrationParticipationIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of an AssessmentAdministrationParticipation.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="AssessmentAdministrationReference" type="AssessmentAdministrationReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the assessment administration for which participation is being indicated.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="ParticipatingEducationOrganizationReference" type="EducationOrganizationReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the education organization for which participation is being indicated.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="AssessmentAdministrationParticipationReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for an AssessmentAdministrationParticipation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="AssessmentAdministrationParticipationIdentity" type="AssessmentAdministrationParticipationIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of an AssessmentAdministrationParticipation.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
   </xs:complexType>
   <xs:complexType name="AssessmentAdministrationReferenceType">
     <xs:annotation>
@@ -10498,6 +10459,45 @@
           <xs:element name="AssessmentScoreRangeLearningStandardIdentity" type="AssessmentScoreRangeLearningStandardIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of an AssessmentScoreRangeLearningStandard.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AssesssmentAdministrationParticipationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of an AssesssmentAdministrationParticipation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="AssessmentAdministrationReference" type="AssessmentAdministrationReferenceType">
+        <xs:annotation>
+          <xs:documentation>A reference to the assessment administration for which participation is being indicated.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ParticipatingEducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>A reference to the education organization for which participation is being indicated.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AssesssmentAdministrationParticipationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for an AssesssmentAdministrationParticipation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="AssesssmentAdministrationParticipationIdentity" type="AssesssmentAdministrationParticipationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of an AssesssmentAdministrationParticipation.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -18149,7 +18149,7 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="Section504DisabilityTypeDescriptorReferenceType">
+  <xs:simpleType name="Section504DisabilityDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
       <xs:appinfo>
@@ -18729,7 +18729,7 @@
       </xs:element>
       <xs:element name="FirstName" type="FirstName">
         <xs:annotation>
-          <xs:documentation>The contacts's first name.</xs:documentation>
+          <xs:documentation>The contact's first name.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="LastSurname" type="LastSurname">
@@ -18746,7 +18746,7 @@
   </xs:complexType>
   <xs:complexType name="AssessmentCustomization">
     <xs:annotation>
-      <xs:documentation>An un-typed key and value pair that is used to provide additional information needed for vendor regisration, administration, or reporting.</xs:documentation>
+      <xs:documentation>An untyped key and value pair that is used to provide additional information needed for vendor regisration, administration, or reporting.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Common</ann:TypeGroup>
       </xs:appinfo>
@@ -21929,7 +21929,7 @@
   </xs:simpleType>
   <xs:simpleType name="AdministrationIdentifier">
     <xs:annotation>
-      <xs:documentation>The title or name of the assessment in the context of it's administration.</xs:documentation>
+      <xs:documentation>The title or name of the assessment in the context of its administration.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Simple</ann:TypeGroup>
       </xs:appinfo>

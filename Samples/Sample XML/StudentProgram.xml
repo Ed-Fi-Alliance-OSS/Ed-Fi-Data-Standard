@@ -18460,7 +18460,7 @@
 		</EducationOrganizationReference>
 		<Section504Eligibility>1</Section504Eligibility>
 		<AccommodationPlan>0</AccommodationPlan>
-		<Section504DisabilityType>uri://ed-fi.org/Section504DisabilityTypeDescriptor#Autism Spectrum Disorder</Section504DisabilityType>
+		<Section504Disability>uri://ed-fi.org/Section504DisabilityDescriptor#Autism Spectrum Disorder</Section504Disability>
 		<Section504MeetingDate>2021-09-15</Section504MeetingDate>
 		<Section504EligibilityDecisionDate>2021-09-16</Section504EligibilityDecisionDate>
 	</StudentSection504ProgramAssociation>
@@ -18489,7 +18489,7 @@
 		</EducationOrganizationReference>
 		<Section504Eligibility>1</Section504Eligibility>
 		<AccommodationPlan>1</AccommodationPlan>
-		<Section504DisabilityType>uri://ed-fi.org/Section504DisabilityTypeDescriptor#Dyslexia</Section504DisabilityType>
+		<Section504Disability>uri://ed-fi.org/Section504DisabilityDescriptor#Dyslexia</Section504Disability>
 		<Section504MeetingDate>2021-11-20</Section504MeetingDate>
 		<Section504EligibilityDecisionDate>2021-11-22</Section504EligibilityDecisionDate>
 	</StudentSection504ProgramAssociation>
@@ -18518,7 +18518,7 @@
 		</EducationOrganizationReference>
 		<Section504Eligibility>1</Section504Eligibility>
 		<AccommodationPlan>0</AccommodationPlan>
-		<Section504DisabilityType>uri://ed-fi.org/Section504DisabilityTypeDescriptor#Visual Impairment</Section504DisabilityType>
+		<Section504Disability>uri://ed-fi.org/Section504DisabilityDescriptor#Visual Impairment</Section504Disability>
 		<Section504MeetingDate>2021-10-29</Section504MeetingDate>
 		<Section504EligibilityDecisionDate>2021-11-02</Section504EligibilityDecisionDate>
 	</StudentSection504ProgramAssociation>
