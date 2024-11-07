@@ -263,7 +263,7 @@
           </xs:element>
           <xs:element name="AdministrationIdentifier" type="AdministrationIdentifier">
             <xs:annotation>
-              <xs:documentation>The title or name of the assessment in the context of its administration.</xs:documentation>
+              <xs:documentation>The title or name of the assessment in the context of it's administration.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="AssessmentAdminstrationPeriod" type="Period" minOccurs="0" maxOccurs="unbounded">
@@ -4920,7 +4920,7 @@
               <xs:documentation>Reference to the student associated with the assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="GeneralAccommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Accommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The special variation(s) to be used in how assessments (in general) are presented, how it is administered, or how the test taker is allowed to respond. This generally refers to changes that do not substantially alter what the examination measures. The proper use of accommodations does not substantially change academic level or performance criteria.</xs:documentation>
               <xs:appinfo>
@@ -9705,6 +9705,16 @@
               <xs:documentation>Indicate the total number of hours of instructional time per week for the school that the student attends.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="ShortenedSchoolDayIndicator" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicator that the student's IEP requires a shortened school day.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ReductionInHoursPerWeekComparedToPeers" type="HoursPerWeek" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Records the number of hours reduced for the shortened school day for the IEP student as compared to peers in regular education.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
           <xs:element name="MultiplyDisabled" type="xs:boolean" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Indicates whether the student receiving special education and related services has been designated as multiply disabled by the admission, review, and dismissal committee as aligned with federal requirements.</xs:documentation>
@@ -10272,7 +10282,7 @@
       </xs:element>
       <xs:element name="AdministrationIdentifier" type="AdministrationIdentifier">
         <xs:annotation>
-          <xs:documentation>The title or name of the assessment in the context of its administration.</xs:documentation>
+          <xs:documentation>The title or name of the assessment in the context of it's administration.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -18729,7 +18739,7 @@
       </xs:element>
       <xs:element name="FirstName" type="FirstName">
         <xs:annotation>
-          <xs:documentation>The contact's first name.</xs:documentation>
+          <xs:documentation>The contacts's first name.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="LastSurname" type="LastSurname">
@@ -18746,7 +18756,7 @@
   </xs:complexType>
   <xs:complexType name="AssessmentCustomization">
     <xs:annotation>
-      <xs:documentation>An untyped key and value pair that is used to provide additional information needed for vendor regisration, administration, or reporting.</xs:documentation>
+      <xs:documentation>An un-typed key and value pair that is used to provide additional information needed for vendor regisration, administration, or reporting.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Common</ann:TypeGroup>
       </xs:appinfo>
@@ -21929,7 +21939,7 @@
   </xs:simpleType>
   <xs:simpleType name="AdministrationIdentifier">
     <xs:annotation>
-      <xs:documentation>The title or name of the assessment in the context of its administration.</xs:documentation>
+      <xs:documentation>The title or name of the assessment in the context of it's administration.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Simple</ann:TypeGroup>
       </xs:appinfo>

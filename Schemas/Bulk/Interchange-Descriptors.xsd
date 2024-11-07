@@ -34,7 +34,6 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="BarrierToInternetAccessInResidenceDescriptor" type="BarrierToInternetAccessInResidenceDescriptor" />
         <xs:element name="BehaviorDescriptor" type="BehaviorDescriptor" />
         <xs:element name="BusRouteDescriptor" type="BusRouteDescriptor" />
-        <xs:element name="CTEProgramServiceDescriptor" type="CTEProgramServiceDescriptor" />
         <xs:element name="CalendarEventDescriptor" type="CalendarEventDescriptor" />
         <xs:element name="CalendarTypeDescriptor" type="CalendarTypeDescriptor" />
         <xs:element name="CareerPathwayDescriptor" type="CareerPathwayDescriptor" />
@@ -62,6 +61,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="CreditCategoryDescriptor" type="CreditCategoryDescriptor" />
         <xs:element name="CreditTypeDescriptor" type="CreditTypeDescriptor" />
         <xs:element name="CrisisTypeDescriptor" type="CrisisTypeDescriptor" />
+        <xs:element name="CTEProgramServiceDescriptor" type="CTEProgramServiceDescriptor" />
         <xs:element name="CurriculumUsedDescriptor" type="CurriculumUsedDescriptor" />
         <xs:element name="DeliveryMethodDescriptor" type="DeliveryMethodDescriptor" />
         <xs:element name="DiagnosisDescriptor" type="DiagnosisDescriptor" />
@@ -74,11 +74,11 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="DisciplineActionLengthDifferenceReasonDescriptor" type="DisciplineActionLengthDifferenceReasonDescriptor" />
         <xs:element name="DisciplineIncidentParticipationCodeDescriptor" type="DisciplineIncidentParticipationCodeDescriptor" />
         <xs:element name="DisplacedStudentStatusDescriptor" type="DisplacedStudentStatusDescriptor" />
+        <xs:element name="EducationalEnvironmentDescriptor" type="EducationalEnvironmentDescriptor" />
         <xs:element name="EducationOrganizationAssociationTypeDescriptor" type="EducationOrganizationAssociationTypeDescriptor" />
         <xs:element name="EducationOrganizationCategoryDescriptor" type="EducationOrganizationCategoryDescriptor" />
         <xs:element name="EducationOrganizationIdentificationSystemDescriptor" type="EducationOrganizationIdentificationSystemDescriptor" />
         <xs:element name="EducationPlanDescriptor" type="EducationPlanDescriptor" />
-        <xs:element name="EducationalEnvironmentDescriptor" type="EducationalEnvironmentDescriptor" />
         <xs:element name="ElectronicMailTypeDescriptor" type="ElectronicMailTypeDescriptor" />
         <xs:element name="EligibilityDelayReasonDescriptor" type="EligibilityDelayReasonDescriptor" />
         <xs:element name="EligibilityEvaluationTypeDescriptor" type="EligibilityEvaluationTypeDescriptor" />
@@ -90,10 +90,10 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="EventCircumstanceDescriptor" type="EventCircumstanceDescriptor" />
         <xs:element name="ExitWithdrawTypeDescriptor" type="ExitWithdrawTypeDescriptor" />
         <xs:element name="FinancialCollectionDescriptor" type="FinancialCollectionDescriptor" />
+        <xs:element name="GradebookEntryTypeDescriptor" type="GradebookEntryTypeDescriptor" />
         <xs:element name="GradeLevelDescriptor" type="GradeLevelDescriptor" />
         <xs:element name="GradePointAverageTypeDescriptor" type="GradePointAverageTypeDescriptor" />
         <xs:element name="GradeTypeDescriptor" type="GradeTypeDescriptor" />
-        <xs:element name="GradebookEntryTypeDescriptor" type="GradebookEntryTypeDescriptor" />
         <xs:element name="GradingPeriodDescriptor" type="GradingPeriodDescriptor" />
         <xs:element name="GraduationPlanTypeDescriptor" type="GraduationPlanTypeDescriptor" />
         <xs:element name="GunFreeSchoolsActReportingStatusDescriptor" type="GunFreeSchoolsActReportingStatusDescriptor" />
@@ -123,8 +123,8 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="LicenseStatusDescriptor" type="LicenseStatusDescriptor" />
         <xs:element name="LicenseTypeDescriptor" type="LicenseTypeDescriptor" />
         <xs:element name="LimitedEnglishProficiencyDescriptor" type="LimitedEnglishProficiencyDescriptor" />
-        <xs:element name="LocalEducationAgencyCategoryDescriptor" type="LocalEducationAgencyCategoryDescriptor" />
         <xs:element name="LocaleDescriptor" type="LocaleDescriptor" />
+        <xs:element name="LocalEducationAgencyCategoryDescriptor" type="LocalEducationAgencyCategoryDescriptor" />
         <xs:element name="MagnetSpecialProgramEmphasisSchoolDescriptor" type="MagnetSpecialProgramEmphasisSchoolDescriptor" />
         <xs:element name="MediumOfInstructionDescriptor" type="MediumOfInstructionDescriptor" />
         <xs:element name="MethodCreditEarnedDescriptor" type="MethodCreditEarnedDescriptor" />
@@ -144,9 +144,9 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="PersonalInformationVerificationDescriptor" type="PersonalInformationVerificationDescriptor" />
         <xs:element name="PlatformTypeDescriptor" type="PlatformTypeDescriptor" />
         <xs:element name="PopulationServedDescriptor" type="PopulationServedDescriptor" />
+        <xs:element name="PostingResultDescriptor" type="PostingResultDescriptor" />
         <xs:element name="PostSecondaryEventCategoryDescriptor" type="PostSecondaryEventCategoryDescriptor" />
         <xs:element name="PostSecondaryInstitutionLevelDescriptor" type="PostSecondaryInstitutionLevelDescriptor" />
-        <xs:element name="PostingResultDescriptor" type="PostingResultDescriptor" />
         <xs:element name="PrimaryLearningDeviceAccessDescriptor" type="PrimaryLearningDeviceAccessDescriptor" />
         <xs:element name="PrimaryLearningDeviceAwayFromSchoolDescriptor" type="PrimaryLearningDeviceAwayFromSchoolDescriptor" />
         <xs:element name="PrimaryLearningDeviceProviderDescriptor" type="PrimaryLearningDeviceProviderDescriptor" />
