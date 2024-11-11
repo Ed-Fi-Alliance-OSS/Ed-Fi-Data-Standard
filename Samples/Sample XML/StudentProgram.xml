@@ -3110,7 +3110,7 @@
 		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Inside regular class less than 40% of the day</SpecialEducationSetting>
 		<SpecialEducationHoursPerWeek>25.00</SpecialEducationHoursPerWeek>
 		<SchoolHoursPerWeek>10.00</SchoolHoursPerWeek>
-		<ShortenSchoolDayIndicator>1</ShortenSchoolDayIndicator>
+		<ShortenedSchoolDayIndicator>1</ShortenedSchoolDayIndicator>
 		<ReductionInHoursPerWeekComparedToPeers>3.50</ReductionInHoursPerWeekComparedToPeers>		
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
@@ -3382,7 +3382,7 @@
 		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Inside regular class less than 40% of the day</SpecialEducationSetting>
 		<SpecialEducationHoursPerWeek>30.00</SpecialEducationHoursPerWeek>
 		<SchoolHoursPerWeek>5.00</SchoolHoursPerWeek>
-		<ShortenSchoolDayIndicator>1</ShortenSchoolDayIndicator>
+		<ShortenedSchoolDayIndicator>1</ShortenedSchoolDayIndicator>
 		<ReductionInHoursPerWeekComparedToPeers>2</ReductionInHoursPerWeekComparedToPeers>		
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
@@ -3639,7 +3639,7 @@
 		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Inside reg class between 40-79% of the day</SpecialEducationSetting>
 		<SpecialEducationHoursPerWeek>18.00</SpecialEducationHoursPerWeek>
 		<SchoolHoursPerWeek>17.00</SchoolHoursPerWeek>
-		<ShortenSchoolDayIndicator>1</ShortenSchoolDayIndicator>
+		<ShortenedSchoolDayIndicator>1</ShortenedSchoolDayIndicator>
 		<ReductionInHoursPerWeekComparedToPeers>5</ReductionInHoursPerWeekComparedToPeers>
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
@@ -4076,7 +4076,7 @@
 		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Inside reg class between 40-79% of the day</SpecialEducationSetting>
 		<SpecialEducationHoursPerWeek>18.00</SpecialEducationHoursPerWeek>
 		<SchoolHoursPerWeek>17.00</SchoolHoursPerWeek>
-		<ShortenSchoolDayIndicator>0</ShortenSchoolDayIndicator>	
+		<ShortenedSchoolDayIndicator>0</ShortenedSchoolDayIndicator>	
 		<MultiplyDisabled>1</MultiplyDisabled>
 		<MedicallyFragile>1</MedicallyFragile>
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
@@ -4658,7 +4658,7 @@
 		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Inside reg class between 40-79% of the day</SpecialEducationSetting>
 		<SpecialEducationHoursPerWeek>16.00</SpecialEducationHoursPerWeek>
 		<SchoolHoursPerWeek>19.00</SchoolHoursPerWeek>
-		<ShortenSchoolDayIndicator>1</ShortenSchoolDayIndicator>
+		<ShortenedSchoolDayIndicator>1</ShortenedSchoolDayIndicator>
 		<ReductionInHoursPerWeekComparedToPeers>2.75</ReductionInHoursPerWeekComparedToPeers>		
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
@@ -5715,7 +5715,7 @@
 		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Inside regular class less than 40% of the day</SpecialEducationSetting>
 		<SpecialEducationHoursPerWeek>25.00</SpecialEducationHoursPerWeek>
 		<SchoolHoursPerWeek>10.00</SchoolHoursPerWeek>
-		<ShortenSchoolDayIndicator>0</ShortenSchoolDayIndicator>		
+		<ShortenedSchoolDayIndicator>0</ShortenedSchoolDayIndicator>		
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
 		<IEPReviewDate>2021-08-27</IEPReviewDate>
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
@@ -5979,7 +5979,7 @@
 		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Inside regular class less than 40% of the day</SpecialEducationSetting>
 		<SpecialEducationHoursPerWeek>30.00</SpecialEducationHoursPerWeek>
 		<SchoolHoursPerWeek>5.00</SchoolHoursPerWeek>
-		<ShortenSchoolDayIndicator>1</ShortenSchoolDayIndicator>
+		<ShortenedSchoolDayIndicator>1</ShortenedSchoolDayIndicator>
 		<ReductionInHoursPerWeekComparedToPeers>1.25</ReductionInHoursPerWeekComparedToPeers>		
 		<MultiplyDisabled>1</MultiplyDisabled>
 		<LastEvaluationDate>2021-08-23</LastEvaluationDate>
