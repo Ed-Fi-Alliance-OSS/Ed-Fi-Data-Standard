@@ -18447,4 +18447,91 @@
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
+	<StudentSection504ProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605126</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>Section 504</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Section 504 Placement</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-09-16</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<Section504Eligibility>1</Section504Eligibility>
+		<AccommodationPlan>0</AccommodationPlan>
+		<Section504Disability>uri://ed-fi.org/Section504DisabilityDescriptor#Autism Spectrum Disorder</Section504Disability>
+		<Section504MeetingDate>2021-09-15</Section504MeetingDate>
+		<Section504EligibilityDecisionDate>2021-09-16</Section504EligibilityDecisionDate>
+	</StudentSection504ProgramAssociation>
+	<StudentSection504ProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605323</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>Section 504</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Section 504 Placement</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-11-22</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<Section504Eligibility>1</Section504Eligibility>
+		<AccommodationPlan>1</AccommodationPlan>
+		<Section504Disability>uri://ed-fi.org/Section504DisabilityDescriptor#Dyslexia</Section504Disability>
+		<Section504MeetingDate>2021-11-20</Section504MeetingDate>
+		<Section504EligibilityDecisionDate>2021-11-22</Section504EligibilityDecisionDate>
+	</StudentSection504ProgramAssociation>
+	<StudentSection504ProgramAssociation>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>605676</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<ProgramReference>
+			<ProgramIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<ProgramName>Section 504</ProgramName>
+				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Section 504 Placement</ProgramType>
+			</ProgramIdentity>
+		</ProgramReference>
+		<BeginDate>2021-11-02</BeginDate>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<Section504Eligibility>1</Section504Eligibility>
+		<AccommodationPlan>0</AccommodationPlan>
+		<Section504Disability>uri://ed-fi.org/Section504DisabilityDescriptor#Visual Impairment</Section504Disability>
+		<Section504MeetingDate>2021-10-29</Section504MeetingDate>
+		<Section504EligibilityDecisionDate>2021-11-02</Section504EligibilityDecisionDate>
+	</StudentSection504ProgramAssociation>
 </InterchangeStudentProgram>

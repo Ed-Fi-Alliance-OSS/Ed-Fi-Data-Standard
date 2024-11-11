@@ -7550,7 +7550,7 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="Section504DisabilityTypeDescriptor">
+  <xs:complexType name="Section504DisabilityDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
       <xs:appinfo>
@@ -9580,11 +9580,11 @@
               <xs:documentation>Indicates whether student has a Section 504 accommodation plan.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Section504DisabilityType" type="Section504DisabilityTypeDescriptorReferenceType" minOccurs="0">
+          <xs:element name="Section504Disability" type="Section504DisabilityDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Defines one or more disabilities student has that qualifies them for a Section 504 plan.</xs:documentation>
               <xs:appinfo>
-                <ann:Descriptor>Section504DisabilityTypeDescriptor</ann:Descriptor>
+                <ann:Descriptor>Section504DisabilityDescriptor</ann:Descriptor>
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
@@ -18159,7 +18159,7 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="Section504DisabilityTypeDescriptorReferenceType">
+  <xs:simpleType name="Section504DisabilityDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
       <xs:appinfo>
