@@ -158,7 +158,7 @@
 				<StudentUniqueId>604827</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -171,7 +171,7 @@
 				<StudentUniqueId>604830</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -184,7 +184,7 @@
 				<StudentUniqueId>604886</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -197,7 +197,7 @@
 				<StudentUniqueId>604896</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -210,7 +210,7 @@
 				<StudentUniqueId>604901</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -223,7 +223,7 @@
 				<StudentUniqueId>604924</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -236,7 +236,7 @@
 				<StudentUniqueId>604957</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -249,7 +249,7 @@
 				<StudentUniqueId>604962</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -262,7 +262,7 @@
 				<StudentUniqueId>604987</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -275,7 +275,7 @@
 				<StudentUniqueId>604992</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -288,7 +288,7 @@
 				<StudentUniqueId>605041</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -301,7 +301,7 @@
 				<StudentUniqueId>605062</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -314,7 +314,7 @@
 				<StudentUniqueId>605065</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -327,7 +327,7 @@
 				<StudentUniqueId>605083</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -340,7 +340,7 @@
 				<StudentUniqueId>605093</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -353,7 +353,7 @@
 				<StudentUniqueId>605115</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -366,7 +366,7 @@
 				<StudentUniqueId>605139</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -379,7 +379,7 @@
 				<StudentUniqueId>605146</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -392,7 +392,7 @@
 				<StudentUniqueId>605188</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -405,7 +405,7 @@
 				<StudentUniqueId>605187</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -418,7 +418,7 @@
 				<StudentUniqueId>605225</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -431,7 +431,7 @@
 				<StudentUniqueId>605245</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -444,7 +444,7 @@
 				<StudentUniqueId>605248</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -457,7 +457,7 @@
 				<StudentUniqueId>605253</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -470,7 +470,7 @@
 				<StudentUniqueId>605259</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -483,7 +483,7 @@
 				<StudentUniqueId>605266</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -496,7 +496,7 @@
 				<StudentUniqueId>605273</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -509,7 +509,7 @@
 				<StudentUniqueId>605302</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -522,7 +522,7 @@
 				<StudentUniqueId>605308</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -535,7 +535,7 @@
 				<StudentUniqueId>605313</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -548,7 +548,7 @@
 				<StudentUniqueId>605387</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -561,7 +561,7 @@
 				<StudentUniqueId>605401</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -574,7 +574,7 @@
 				<StudentUniqueId>605417</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -587,7 +587,7 @@
 				<StudentUniqueId>605422</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -600,7 +600,7 @@
 				<StudentUniqueId>605435</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -613,7 +613,7 @@
 				<StudentUniqueId>605457</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -626,7 +626,7 @@
 				<StudentUniqueId>605470</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -639,7 +639,7 @@
 				<StudentUniqueId>605511</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -652,7 +652,7 @@
 				<StudentUniqueId>605531</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
@@ -665,7 +665,7 @@
 				<StudentUniqueId>605549</StudentUniqueId>
 			</StudentIdentity>
 		</StudentReference>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
+		<GeneralAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</GeneralAccommodation>
 	</StudentEducationOrganizationAssessmentAccommodation>
 	<StudentAssessmentRegistration>
 		<AssessmentAdministrationReference>

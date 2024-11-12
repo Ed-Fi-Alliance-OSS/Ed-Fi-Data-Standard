@@ -263,7 +263,7 @@
           </xs:element>
           <xs:element name="AdministrationIdentifier" type="AdministrationIdentifier">
             <xs:annotation>
-              <xs:documentation>The title or name of the assessment in the context of it's administration.</xs:documentation>
+              <xs:documentation>The title or name of the assessment in the context of its administration.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="AssessmentAdministrationPeriod" type="Period" minOccurs="0" maxOccurs="unbounded">
@@ -4920,7 +4920,7 @@
               <xs:documentation>Reference to the student associated with the assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Accommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="GeneralAccommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The special variation(s) to be used in how assessments (in general) are presented, how it is administered, or how the test taker is allowed to respond. This generally refers to changes that do not substantially alter what the examination measures. The proper use of accommodations does not substantially change academic level or performance criteria.</xs:documentation>
               <xs:appinfo>
@@ -6340,6 +6340,28 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="DualCreditInstitutionDescriptor">
+    <xs:annotation>
+      <xs:documentation>Custom descriptor of college institutions or categories of institutions participating in the dual credit program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DualCreditTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>Indicates the type of the dual credit program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="EducationalEnvironmentDescriptor">
     <xs:annotation>
       <xs:documentation>The setting in which a child receives education and related services.</xs:documentation>
@@ -7550,7 +7572,7 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="Section504DisabilityTypeDescriptor">
+  <xs:complexType name="Section504DisabilityDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
       <xs:appinfo>
@@ -9580,11 +9602,11 @@
               <xs:documentation>Indicates whether student has a Section 504 accommodation plan.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Section504DisabilityType" type="Section504DisabilityTypeDescriptorReferenceType" minOccurs="0">
+          <xs:element name="Section504Disability" type="Section504DisabilityDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Defines one or more disabilities student has that qualifies them for a Section 504 plan.</xs:documentation>
               <xs:appinfo>
-                <ann:Descriptor>Section504DisabilityTypeDescriptor</ann:Descriptor>
+                <ann:Descriptor>Section504DisabilityDescriptor</ann:Descriptor>
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
@@ -9663,6 +9685,11 @@
               <xs:documentation>The program(s) that the student is participating in the context of the course.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="DualCredit" type="DualCredit" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The set of elements that capture relevant data regarding dual credit.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -9703,6 +9730,16 @@
           <xs:element name="SchoolHoursPerWeek" type="HoursPerWeek" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Indicate the total number of hours of instructional time per week for the school that the student attends.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ShortenedSchoolDayIndicator" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicator that the student's IEP requires a shortened school day.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ReductionInHoursPerWeekComparedToPeers" type="HoursPerWeek" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Records the number of hours reduced for the shortened school day for the IEP student as compared to peers in regular education.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="MultiplyDisabled" type="xs:boolean" minOccurs="0">
@@ -10272,7 +10309,7 @@
       </xs:element>
       <xs:element name="AdministrationIdentifier" type="AdministrationIdentifier">
         <xs:annotation>
-          <xs:documentation>The title or name of the assessment in the context of it's administration.</xs:documentation>
+          <xs:documentation>The title or name of the assessment in the context of its administration.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -17159,6 +17196,24 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="DualCreditInstitutionDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Custom descriptor of college institutions or categories of institutions participating in the dual credit program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="DualCreditTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Indicates the type of the dual credit program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="EducationalEnvironmentDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The setting in which a child receives education and related services.</xs:documentation>
@@ -18149,7 +18204,7 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="Section504DisabilityTypeDescriptorReferenceType">
+  <xs:simpleType name="Section504DisabilityDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
       <xs:appinfo>
@@ -18729,7 +18784,7 @@
       </xs:element>
       <xs:element name="FirstName" type="FirstName">
         <xs:annotation>
-          <xs:documentation>The contacts's first name.</xs:documentation>
+          <xs:documentation>The contact's first name.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="LastSurname" type="LastSurname">
@@ -18746,7 +18801,7 @@
   </xs:complexType>
   <xs:complexType name="AssessmentCustomization">
     <xs:annotation>
-      <xs:documentation>An un-typed key and value pair that is used to provide additional information needed for vendor regisration, administration, or reporting.</xs:documentation>
+      <xs:documentation>An untyped key and value pair that is used to provide additional information needed for vendor regisration, administration, or reporting.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Common</ann:TypeGroup>
       </xs:appinfo>
@@ -19528,6 +19583,47 @@
       <xs:element name="CrisisHomelessnessIndicator" type="xs:boolean" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Any student considered homeless (defined by the McKinney-Vento Homeless Education Assistance Act as lacking a fixed, regular, and adequate nighttime residence) as a result of the crisis event.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DualCredit">
+    <xs:annotation>
+      <xs:documentation>This common stores details about the dual credit type and information about the organization that delivers the educational service and award.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="DualCreditIndicator" type="xs:boolean" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Indicates whether the student assigned to the section is to receive dual credit upon successful completion.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DualCreditType" type="DualCreditTypeDescriptorReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>For a student taking a dual credit course in a college or high school setting, indicates the type of dual credit program.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>DualCreditTypeDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DualHighSchoolCreditIndicator" type="xs:boolean" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Indicates whether successful completion of the course will result in credits toward high school graduation.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DualCreditEducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The education organization reference that is awarding the postsecondary credit as part of the dual credit program. Use of this attribute requires that education organization, typically a postsecondary institution, is a defined education organization.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DualCreditInstitution" type="DualCreditInstitutionDescriptorReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Descriptor for the postsecondary institution offering college credit. This descriptor may be used to select a postsecondary institution that is not defined as an education organization, and/or select a general type of postsecondary institution.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>DualCreditInstitutionDescriptor</ann:Descriptor>
+          </xs:appinfo>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -21929,7 +22025,7 @@
   </xs:simpleType>
   <xs:simpleType name="AdministrationIdentifier">
     <xs:annotation>
-      <xs:documentation>The title or name of the assessment in the context of it's administration.</xs:documentation>
+      <xs:documentation>The title or name of the assessment in the context of its administration.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Simple</ann:TypeGroup>
       </xs:appinfo>
