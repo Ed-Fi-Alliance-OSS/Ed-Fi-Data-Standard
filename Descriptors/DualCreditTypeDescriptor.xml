@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<DualCreditTypeDescriptor>
+		<CodeValue>Dual Enrollment</CodeValue>
+		<ShortDescription>Dual enrollment in a college course.</ShortDescription>
+		<Description>College course taken while in high school. A dual enrollment experience earns college credit and may or may not allow students to earn simultaneous credits for high school.</Description>
+		<Namespace>uri://ed-fi.org/DualCreditTypeDescriptor</Namespace>
+	</DualCreditTypeDescriptor>
+	<DualCreditTypeDescriptor>
+		<CodeValue>Advanced Course Eligible for College Credit</CodeValue>
+		<ShortDescription>Advanced course eligible for college credit.</ShortDescription>
+		<Description>Advanced high school course, such as Advanced Placement (AP) or International Baccalaureate (IB), that allows students to earn academic credit that is accepted by some colleges and universities.</Description>
+		<Namespace>uri://ed-fi.org/DualCreditTypeDescriptor</Namespace>
+	</DualCreditTypeDescriptor>
+	<DualCreditTypeDescriptor>
+		<CodeValue>Concurrent Enrollment</CodeValue>
+		<ShortDescription>Concurrent enrollment in a college course taught in high school.</ShortDescription>
+		<Description>College course taught by college-approved high school teachers in a secondary environment earning college credit and may or may not allow students to earn high school credits.</Description>
+		<Namespace>uri://ed-fi.org/DualCreditTypeDescriptor</Namespace>
+	</DualCreditTypeDescriptor>	
+</InterchangeDescriptors>
