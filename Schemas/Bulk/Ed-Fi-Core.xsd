@@ -7572,7 +7572,7 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="Section504DisabilityDescriptor">
+  <xs:complexType name="Section504DisabilityTypeDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
       <xs:appinfo>
@@ -9602,11 +9602,11 @@
               <xs:documentation>Indicates whether student has a Section 504 accommodation plan.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Section504Disability" type="Section504DisabilityDescriptorReferenceType" minOccurs="0">
+          <xs:element name="Section504DisabilityType" type="Section504DisabilityTypeDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Defines one or more disabilities student has that qualifies them for a Section 504 plan.</xs:documentation>
               <xs:appinfo>
-                <ann:Descriptor>Section504DisabilityDescriptor</ann:Descriptor>
+                <ann:Descriptor>Section504DisabilityTypeDescriptor</ann:Descriptor>
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
@@ -9730,16 +9730,6 @@
           <xs:element name="SchoolHoursPerWeek" type="HoursPerWeek" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Indicate the total number of hours of instructional time per week for the school that the student attends.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ShortenedSchoolDayIndicator" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator that the student's IEP requires a shortened school day.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ReductionInHoursPerWeekComparedToPeers" type="HoursPerWeek" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Records the number of hours reduced for the shortened school day for the IEP student as compared to peers in regular education.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="MultiplyDisabled" type="xs:boolean" minOccurs="0">
@@ -18204,7 +18194,7 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="Section504DisabilityDescriptorReferenceType">
+  <xs:simpleType name="Section504DisabilityTypeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the reason(s) why student qualifies for Section 504 consideration.</xs:documentation>
       <xs:appinfo>
