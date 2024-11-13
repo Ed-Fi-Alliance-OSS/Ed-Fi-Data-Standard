@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<DualCreditInstitutionDescriptor>
+		<CodeValue>2897</CodeValue>
+		<ShortDescription>BYU - Utah</ShortDescription>
+		<Description>Brigham Young University in Utah</Description>
+		<Namespace>uri://gbisd.edu/DualCreditInstitutionDescriptor</Namespace>
+	</DualCreditInstitutionDescriptor>
+	<DualCreditInstitutionDescriptor>
+		<CodeValue>8845</CodeValue>
+		<ShortDescription>BYU - Idaho</ShortDescription>
+		<Description>Brigham Young University in Idaho</Description>
+		<Namespace>uri://gbisd.edu/DualCreditInstitutionDescriptor</Namespace>
+	</DualCreditInstitutionDescriptor>
+	<DualCreditInstitutionDescriptor>
+		<CodeValue>9999</CodeValue>
+		<ShortDescription>Out-of-State</ShortDescription>
+		<Description>General Category - A university out of the state</Description>
+		<Namespace>uri://gbisd.edu/DualCreditInstitutionDescriptor</Namespace>
+	</DualCreditInstitutionDescriptor>
+</InterchangeDescriptors>
