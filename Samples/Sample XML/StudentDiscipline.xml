@@ -788,6 +788,7 @@
 		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
 		<BehaviorDetailedDescription>Robbery</BehaviorDetailedDescription>
 		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+		<Weapon>uri://ed-fi.org/WeaponDescriptor#Knife</Weapon>
 	</StudentDisciplineIncidentBehaviorAssociation>
 	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
@@ -878,6 +879,7 @@
 		<DisciplineIncidentReference ref="DISC_19_255901001"/>
 		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
 		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+		<Weapon>uri://ed-fi.org/WeaponDescriptor#Club</Weapon>
 	</StudentDisciplineIncidentBehaviorAssociation>
 	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
@@ -888,6 +890,7 @@
 		<DisciplineIncidentReference ref="DISC_20_255901001"/>
 		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
 		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+		<Weapon>uri://ed-fi.org/WeaponDescriptor#Other</Weapon>
 	</StudentDisciplineIncidentBehaviorAssociation>
 	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
@@ -898,6 +901,7 @@
 		<DisciplineIncidentReference ref="DISC_21_255901001"/>
 		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
 		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+		<Weapon>uri://ed-fi.org/WeaponDescriptor#Knife</Weapon>
 	</StudentDisciplineIncidentBehaviorAssociation>
 	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
@@ -908,6 +912,7 @@
 		<DisciplineIncidentReference ref="DISC_8_255901001"/>
 		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
 		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+		<Weapon>uri://ed-fi.org/WeaponDescriptor#Other</Weapon>
 	</StudentDisciplineIncidentBehaviorAssociation>
 	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
@@ -918,6 +923,7 @@
 		<DisciplineIncidentReference ref="DISC_9_255901001"/>
 		<Behavior>uri://ed-fi.org/BehaviorDescriptor#State Offense</Behavior>
 		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+		<Weapon>uri://ed-fi.org/WeaponDescriptor#Handgun</Weapon>
 	</StudentDisciplineIncidentBehaviorAssociation>
 	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
@@ -928,6 +934,7 @@
 		<DisciplineIncidentReference ref="DISC_3_255901044"/>
 		<Behavior>uri://ed-fi.org/BehaviorDescriptor#School Violation</Behavior>
 		<DisciplineIncidentParticipationCode>uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor#Perpetrator</DisciplineIncidentParticipationCode>
+		<Weapon>uri://ed-fi.org/WeaponDescriptor#Knife</Weapon>
 	</StudentDisciplineIncidentBehaviorAssociation>
 	<StudentDisciplineIncidentBehaviorAssociation>
 		<StudentReference>
