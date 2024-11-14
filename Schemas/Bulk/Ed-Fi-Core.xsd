@@ -8867,7 +8867,7 @@
           </xs:element>
           <xs:element name="Weapon" type="WeaponDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation>Identifies the type(s) of weapon used by the student during a descipline incident. The Federal Gun-Free Schools Act requires states to report the number of students expelled for bringing firearms to school by type of firearm.</xs:documentation>
+              <xs:documentation>Identifies the type(s) of weapon used by the student during a discipline incident. The Federal Gun-Free Schools Act requires states to report the number of students expelled for bringing firearms to school by type of firearm.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>WeaponDescriptor</ann:Descriptor>
               </xs:appinfo>
