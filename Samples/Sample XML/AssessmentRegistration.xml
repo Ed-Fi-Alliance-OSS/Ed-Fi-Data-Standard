@@ -13,8 +13,8 @@
 				<IdentificationCode>ACT-ABW-R</IdentificationCode>
 				<AssessmentReference>
 					<AssessmentIdentity>
-						<AssessmentIdentifier>ACT Reading</AssessmentIdentifier>
-						<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://ed-fi.org/Assessment/Assessment</Namespace>
 					</AssessmentIdentity>
 				</AssessmentReference>					
 			</ObjectiveAssessmentIdentity>
@@ -33,8 +33,8 @@
 				<IdentificationCode>ACT-ABW-R</IdentificationCode>
 				<AssessmentReference>
 					<AssessmentIdentity>
-						<AssessmentIdentifier>ACT Reading</AssessmentIdentifier>
-						<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://ed-fi.org/Assessment/Assessment</Namespace>
 					</AssessmentIdentity>
 				</AssessmentReference>	
 			</ObjectiveAssessmentIdentity>
@@ -53,8 +53,8 @@
 				<IdentificationCode>ACT-ABW-R</IdentificationCode>
 				<AssessmentReference>
 					<AssessmentIdentity>
-						<AssessmentIdentifier>ACT Reading</AssessmentIdentifier>
-						<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://ed-fi.org/Assessment/Assessment</Namespace>
 					</AssessmentIdentity>
 				</AssessmentReference>	
 			</ObjectiveAssessmentIdentity>
