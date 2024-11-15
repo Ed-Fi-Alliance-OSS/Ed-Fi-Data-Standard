@@ -752,7 +752,7 @@
 			<StudentEducationOrganizationAssociationIdentity>
 				<StudentReference>
 					<StudentIdentity>
-						<StudentUniqueId>604827</StudentUniqueId>
+						<StudentUniqueId>604830</StudentUniqueId>
 				    </StudentIdentity>
 				</StudentReference>
     			<EducationOrganizationReference>
@@ -8900,7 +8900,7 @@
 					<StudentEducationOrganizationAssociationIdentity>
 						<StudentReference>
 							<StudentIdentity>
-								<StudentUniqueId>605549</StudentUniqueId>
+								<StudentUniqueId>604827</StudentUniqueId>
 						    </StudentIdentity>
 						</StudentReference>
 		    			<EducationOrganizationReference>
