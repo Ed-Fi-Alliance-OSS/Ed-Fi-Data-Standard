@@ -18460,7 +18460,7 @@
 						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
-				<ProgramName>Section 504</ProgramName>
+				<ProgramName>Section 504 Placement</ProgramName>
 				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Section 504 Placement</ProgramType>
 			</ProgramIdentity>
 		</ProgramReference>
@@ -18489,7 +18489,7 @@
 						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
-				<ProgramName>Section 504</ProgramName>
+				<ProgramName>Section 504 Placement</ProgramName>
 				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Section 504 Placement</ProgramType>
 			</ProgramIdentity>
 		</ProgramReference>
@@ -18518,7 +18518,7 @@
 						<EducationOrganizationId>255901</EducationOrganizationId>
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
-				<ProgramName>Section 504</ProgramName>
+				<ProgramName>Section 504 Placement</ProgramName>
 				<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Section 504 Placement</ProgramType>
 			</ProgramIdentity>
 		</ProgramReference>
