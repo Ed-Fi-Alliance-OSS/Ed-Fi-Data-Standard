@@ -3318,6 +3318,17 @@
 		<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
 		<ProgramSponsor>uri://ed-fi.org/ProgramSponsorDescriptor#Federal government</ProgramSponsor>
 	</Program>
+	<Program>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901001</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<ProgramId>25</ProgramId>
+		<ProgramName>Section 504 Placement</ProgramName>
+		<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Section 504 Placement</ProgramType>
+		<ProgramSponsor>uri://ed-fi.org/ProgramSponsorDescriptor#Federal government</ProgramSponsor>
+	</Program>	
 	<AccountabilityRating>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
