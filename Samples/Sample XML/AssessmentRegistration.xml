@@ -674,26 +674,40 @@
 				<StudentReference>
 					<StudentIdentity>
 						<StudentUniqueId>604827</StudentUniqueId>
-					</StudentIdentity>				
+					</StudentIdentity>
 				</StudentReference>
 				<SchoolReference>
 					<SchoolIdentity>
 						<SchoolId>255901001</SchoolId>
 					</SchoolIdentity>
 				</SchoolReference>
-				<EntryDate>2021-08-23</EntryDate>	
+				<EntryDate>2021-08-23</EntryDate>
 			</StudentSchoolAssociationIdentity>
 		</StudentSchoolAssociationReference>
 		<TestingEducationOrganizationReference>
 			<EducationOrganizationIdentity>
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
-		</TestingEducationOrganizationReference>
+	    </TestingEducationOrganizationReference>
 		<ReportingEducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901</EducationOrganizationId>
-			</EducationOrganizationIdentity>
+		    <EducationOrganizationIdentity>
+			    <EducationOrganizationId>255901</EducationOrganizationId>
+		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604827</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -758,6 +772,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604830</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -822,6 +850,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604886</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -886,6 +928,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604896</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -950,6 +1006,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604901</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1014,6 +1084,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604924</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1078,6 +1162,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604957</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1142,6 +1240,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604962</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1206,6 +1318,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604987</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1270,6 +1396,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>604992</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1334,6 +1474,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605041</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1398,6 +1552,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605062</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1462,6 +1630,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605065</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1526,6 +1708,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605083</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1590,6 +1786,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605093</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1654,6 +1864,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605115</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1718,6 +1942,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605139</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1782,6 +2020,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605146</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1846,6 +2098,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605188</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1910,6 +2176,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605187</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -1974,6 +2254,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605225</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2038,6 +2332,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605245</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2102,6 +2410,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605248</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2166,6 +2488,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605253</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2230,6 +2566,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605259</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2294,6 +2644,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605266</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2358,6 +2722,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605273</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2422,6 +2800,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605302</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2486,6 +2878,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605308</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2550,6 +2956,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605313</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2614,6 +3034,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605387</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2678,6 +3112,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605401</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2742,6 +3190,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605417</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2806,6 +3268,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605422</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2870,6 +3346,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605435</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2934,6 +3424,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605457</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -2998,6 +3502,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605470</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -3062,6 +3580,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605511</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -3126,6 +3658,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605531</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
@@ -3190,6 +3736,20 @@
 			    <EducationOrganizationId>255901</EducationOrganizationId>
 		    </EducationOrganizationIdentity>
 		</ReportingEducationOrganizationReference>
+		<StudentEducationOrganizationAssessmentAccommodationReference>
+			<StudentEducationOrganizationAssessmentAccommodationIdentity>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+				<StudentReference>
+					<StudentIdentity>
+						<StudentUniqueId>605549</StudentUniqueId>
+					</StudentIdentity>
+				</StudentReference>
+			</StudentEducationOrganizationAssessmentAccommodationIdentity>
+		</StudentEducationOrganizationAssessmentAccommodationReference>		
 		<AssessmentAccommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</AssessmentAccommodation>
 		<PlatformType>uri://ed-fi.org/PlatformTypeDescriptor#Computer-based</PlatformType>
 		<AssessmentGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessmentGradeLevel>
