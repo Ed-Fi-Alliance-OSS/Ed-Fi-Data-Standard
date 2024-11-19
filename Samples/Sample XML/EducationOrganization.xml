@@ -3321,7 +3321,7 @@
 	<Program>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
+				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<ProgramId>25</ProgramId>
