@@ -118,35 +118,6 @@
 			</AssessmentBatteryPartIdentity>
 		</AssessmentBatteryPartReference>
 	</AssessmentAdministration>
-	<AssessmentAdministration>
-		<AssigningEducationOrganizationReference>
-			<EducationOrganizationIdentity>	
-				<EducationOrganizationId>255901</EducationOrganizationId>
-			</EducationOrganizationIdentity>		
-		</AssigningEducationOrganizationReference>
-		<AssessmentReference>
-			<AssessmentIdentity>
-				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
-				<Namespace>uri://ed-fi.org/Assessment</Namespace>
-			</AssessmentIdentity>
-		</AssessmentReference>
-		<AdministrationIdentifier>Central Texas Assessment Institute (CTAI)</AdministrationIdentifier>
-		<AssessmentAdministrationPeriod>
-			<BeginDate>2021-12-01</BeginDate>
-			<EndDate>2021-12-01</EndDate>
-		</AssessmentAdministrationPeriod>
-		<AssessmentBatteryPartReference>
-			<AssessmentBatteryPartIdentity>
-				<AssessmentReference>
-					<AssessmentIdentity>
-						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
-						<Namespace>uri://ed-fi.org/Assessment</Namespace>
-					</AssessmentIdentity>	
-				</AssessmentReference>
-				<AssessmentBatteryPartName>ACT Reading - Passage 3</AssessmentBatteryPartName>
-			</AssessmentBatteryPartIdentity>
-		</AssessmentBatteryPartReference>
-	</AssessmentAdministration>	
 	<StudentEducationOrganizationAssessmentAccommodation>
 		<EducationOrganizationReference>
  			<EducationOrganizationIdentity>
