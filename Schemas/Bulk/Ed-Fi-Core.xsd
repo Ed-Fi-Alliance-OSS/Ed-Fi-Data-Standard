@@ -4808,9 +4808,9 @@
               <xs:documentation>A reference to the education organization which should receive the results of the assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentEducationOrganizationAssessmentAccommodationReference" type="StudentEducationOrganizationAssessmentAccommodationReferenceType" minOccurs="0">
+          <xs:element name="ScheduledStudentEducationOrganizationAssessmentAccommodationReference" type="StudentEducationOrganizationAssessmentAccommodationReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>A reference to the accommodations expected for administering the assessment.</xs:documentation>
+              <xs:documentation>A reference to the accommodations expected for administering the assessment. Student and education organization references must be consistent with StudentEducationOrganizationAssociation and StudentSchoolAssociation.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="AssessmentAccommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
