@@ -102,4 +102,10 @@
 		<Description>Regular diploma</Description>
 		<Namespace>uri://ed-fi.org/DiplomaTypeDescriptor</Namespace>
 	</DiplomaTypeDescriptor>
+	<DiplomaTypeDescriptor>
+		<CodeValue>State Defined Alternate Diploma</CodeValue>
+		<ShortDescription>State Defined Alternate Diploma</ShortDescription>
+		<Description>State Defined Alternate Diploma</Description>
+		<Namespace>uri://ed-fi.org/DiplomaTypeDescriptor</Namespace>
+	</DiplomaTypeDescriptor>
 </InterchangeDescriptors>
