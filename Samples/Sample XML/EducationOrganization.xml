@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeEducationOrganization xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
+<InterchangeEducationOrganization xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
 	<EducationServiceCenter id="ESC_255950">
 		<EducationOrganizationIdentificationCode>
 			<IdentificationCode>255950</IdentificationCode>
@@ -3318,6 +3318,17 @@
 		<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Support</ProgramType>
 		<ProgramSponsor>uri://ed-fi.org/ProgramSponsorDescriptor#Federal government</ProgramSponsor>
 	</Program>
+	<Program>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<ProgramId>25</ProgramId>
+		<ProgramName>Section 504 Placement</ProgramName>
+		<ProgramType>uri://ed-fi.org/ProgramTypeDescriptor#Section 504 Placement</ProgramType>
+		<ProgramSponsor>uri://ed-fi.org/ProgramSponsorDescriptor#Federal government</ProgramSponsor>
+	</Program>	
 	<AccountabilityRating>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>

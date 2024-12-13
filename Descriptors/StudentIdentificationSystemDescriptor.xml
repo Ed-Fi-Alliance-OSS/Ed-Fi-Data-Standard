@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<StudentIdentificationSystemDescriptor>
 		<CodeValue>Canadian SIN</CodeValue>
 		<ShortDescription>Canadian SIN</ShortDescription>
@@ -22,12 +22,6 @@
 		<CodeValue>Federal</CodeValue>
 		<ShortDescription>Federal</ShortDescription>
 		<Description>Federal</Description>
-		<Namespace>uri://ed-fi.org/StudentIdentificationSystemDescriptor</Namespace>
-	</StudentIdentificationSystemDescriptor>
-	<StudentIdentificationSystemDescriptor>
-		<CodeValue>Local</CodeValue>
-		<ShortDescription>DEPRECATED: Local</ShortDescription>
-		<Description>DEPRECATED: Local</Description>
 		<Namespace>uri://ed-fi.org/StudentIdentificationSystemDescriptor</Namespace>
 	</StudentIdentificationSystemDescriptor>
 	<StudentIdentificationSystemDescriptor>
@@ -72,4 +66,10 @@
 		<Description>A category of IDs often provided to enable students and others to remember and use in daily operations. If none exists, the Student Number system is generally equivalent to the District system.</Description>
 		<Namespace>uri://ed-fi.org/StudentIdentificationSystemDescriptor</Namespace>
 	</StudentIdentificationSystemDescriptor>
+	<StudentIdentificationSystemDescriptor>
+		<CodeValue>Local</CodeValue>
+		<ShortDescription>DEPRECATED: Local</ShortDescription>
+		<Description>DEPRECATED: Local</Description>
+		<Namespace>uri://ed-fi.org/StudentIdentificationSystemDescriptor</Namespace>
+	</StudentIdentificationSystemDescriptor>	
 </InterchangeDescriptors>

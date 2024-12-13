@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<Section504DisabilityDescriptor>
+		<CodeValue>Any Rare Disease</CodeValue>
+		<ShortDescription>A condition that affects a small number of people.</ShortDescription>
+		<Description>A condition that affects a small number of people, often with limited information or treatment options.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Attention Deficit Hyperactivity Disorder</CodeValue>
+		<ShortDescription>A condition characterized by inattention, hyperactivity, and impulsivity.</ShortDescription>
+		<Description>A neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsivity, which can make it difficult to focus, control impulses, and stay organized.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Autism Spectrum Disorder</CodeValue>
+		<ShortDescription>A condition affecting communication, behavior, and social interaction.</ShortDescription>
+		<Description>A developmental disorder affecting communication, behavior, and social interaction, often resulting in challenges with social skills, repetitive behaviors, and sensory sensitivities.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Bipolar Disorder</CodeValue>
+		<ShortDescription>A mental health condition characterized by extreme mood swings.</ShortDescription>
+		<Description>A mental health condition characterized by extreme mood swings, including periods of mania and depression, which can significantly impact daily life.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Cancer</CodeValue>
+		<ShortDescription>A disease caused by abnormal cell growth.</ShortDescription>
+		<Description>A disease caused by abnormal cell growth, which can lead to tumors and other health problems.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Cerebral Palsy</CodeValue>
+		<ShortDescription>A physical disability affecting movement and coordination.</ShortDescription>
+		<Description>A physical disability affecting movement and coordination, often caused by damage to the brain during development, resulting in varying levels of muscle weakness, spasticity, and difficulty with motor skills.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Cystic Fibrosis</CodeValue>
+		<ShortDescription>A genetic condition affecting the lungs and other organs.</ShortDescription>
+		<Description>A genetic disorder affecting the lungs and other organs, causing thick mucus buildup and leading to respiratory problems, digestive issues, and other health challenges.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Deafness</CodeValue>
+		<ShortDescription>A complete or partial loss of hearing.</ShortDescription>
+		<Description>A complete or partial loss of hearing, which can significantly impact communication and social interactions.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Down Syndrome</CodeValue>
+		<ShortDescription>A genetic condition causing intellectual and physical challenges.</ShortDescription>
+		<Description>A genetic condition causing intellectual and physical challenges, including delayed development, cognitive impairments, and physical features such as a flat face, slanted eyes, and a small head.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Drug or Alcohol Abuse</CodeValue>
+		<ShortDescription>The harmful use of substances.</ShortDescription>
+		<Description>The harmful use of substances, which can lead to addiction, health problems, and social consequences.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Dual Sensory Impairment</CodeValue>
+		<ShortDescription>Having both hearing and vision impairments.</ShortDescription>
+		<Description>Having both hearing and vision impairments, which can present unique challenges in communication, mobility, and daily living.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Dyslexia</CodeValue>
+		<ShortDescription>A learning disability that affects reading and writing.</ShortDescription>
+		<Description>A learning disability that affects reading and writing, often characterized by difficulty recognizing words, decoding sounds, and understanding written language.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Emotional or Behavorial Disorder</CodeValue>
+		<ShortDescription>A mental health condition affecting emotions and behavior.</ShortDescription>
+		<Description>A mental health condition affecting emotions and behavior, which can include anxiety, depression, conduct disorders, and other emotional or behavioral difficulties.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Epilepsy</CodeValue>
+		<ShortDescription>A neurological condition characterized by seizures.</ShortDescription>
+		<Description>A neurological disorder characterized by seizures, which are sudden, uncontrolled electrical activity in the brain.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Hearing Impairment</CodeValue>
+		<ShortDescription>A partial loss of hearing.</ShortDescription>
+		<Description>A partial loss of hearing, which can affect communication and social interactions, particularly in noisy environments or when speaking at a distance.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Intellectual Disability</CodeValue>
+		<ShortDescription>A cognitive impairment that affects learning and problem-solving.</ShortDescription>
+		<Description>A cognitive impairment that affects learning and problem-solving, often characterized by limitations in intellectual functioning and adaptive behavior.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Muscular Distrophy</CodeValue>
+		<ShortDescription>A group of genetic conditions that cause muscle weakness.</ShortDescription>
+		<Description>A group of genetic disorders that cause muscle weakness and wasting, leading to progressive loss of muscle function and mobility.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Other Reason</CodeValue>
+		<ShortDescription>A disability not listed.</ShortDescription>
+		<Description>A disability not listed, which may include a variety of conditions that affect an individual's abilities or functioning.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Specific Learning Disability</CodeValue>
+		<ShortDescription>A learning condition affecting a specific academic skill.</ShortDescription>
+		<Description>A learning disorder affecting a specific academic skill, such as reading, writing, or math, which can make it difficult to learn and achieve academic success.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Spina Bifida</CodeValue>
+		<ShortDescription>A birth condition affecting the spinal cord.</ShortDescription>
+		<Description>A birth defect affecting the spinal cord, which can cause paralysis, sensory loss, and other health problems.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Traumatic Brain Injury</CodeValue>
+		<ShortDescription>An injury to the brain caused by a sudden blow to the head.</ShortDescription>
+		<Description>An injury to the brain caused by a sudden blow to the head, which can result in a wide range of physical, cognitive, emotional, and behavioral impairments.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+	<Section504DisabilityDescriptor>
+		<CodeValue>Visual Impairment</CodeValue>
+		<ShortDescription>A partial or complete loss of vision.</ShortDescription>
+		<Description>A partial or complete loss of vision, which can affect daily activities, communication, and mobility.</Description>
+		<Namespace>uri://ed-fi.org/Section504DisabilityDescriptor</Namespace>
+	</Section504DisabilityDescriptor>
+</InterchangeDescriptors>

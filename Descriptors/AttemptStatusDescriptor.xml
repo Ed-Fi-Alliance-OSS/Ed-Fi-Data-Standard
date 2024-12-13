@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<AttemptStatusDescriptor>
-		<CodeValue>Pass</CodeValue>
-		<ShortDescription>Pass</ShortDescription>
-		<Description>Pass</Description>
+		<CodeValue>Audited</CodeValue>
+		<ShortDescription>Audited</ShortDescription>
+		<Description>Audited</Description>
 		<Namespace>uri://ed-fi.org/AttemptStatusDescriptor</Namespace>
 	</AttemptStatusDescriptor>
 	<AttemptStatusDescriptor>
@@ -19,15 +19,15 @@
 		<Namespace>uri://ed-fi.org/AttemptStatusDescriptor</Namespace>
 	</AttemptStatusDescriptor>
 	<AttemptStatusDescriptor>
-		<CodeValue>Withdrawn</CodeValue>
-		<ShortDescription>Withdrawn</ShortDescription>
-		<Description>Withdrawn</Description>
+		<CodeValue>Pass</CodeValue>
+		<ShortDescription>Pass</ShortDescription>
+		<Description>Pass</Description>
 		<Namespace>uri://ed-fi.org/AttemptStatusDescriptor</Namespace>
 	</AttemptStatusDescriptor>
 	<AttemptStatusDescriptor>
-		<CodeValue>Audited</CodeValue>
-		<ShortDescription>Audited</ShortDescription>
-		<Description>Audited</Description>
+		<CodeValue>Withdrawn</CodeValue>
+		<ShortDescription>Withdrawn</ShortDescription>
+		<Description>Withdrawn</Description>
 		<Namespace>uri://ed-fi.org/AttemptStatusDescriptor</Namespace>
 	</AttemptStatusDescriptor>
 	<AttemptStatusDescriptor>

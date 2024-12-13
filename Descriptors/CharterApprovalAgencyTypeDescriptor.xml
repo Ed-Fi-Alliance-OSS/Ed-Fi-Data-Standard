@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<CharterApprovalAgencyTypeDescriptor>
+		<CodeValue>Community college</CodeValue>
+		<ShortDescription>Community college</ShortDescription>
+		<Description>Community college</Description>
+		<Namespace>uri://ed-fi.org/CharterApprovalAgencyTypeDescriptor</Namespace>
+	</CharterApprovalAgencyTypeDescriptor>
+	<CharterApprovalAgencyTypeDescriptor>
+		<CodeValue>Local education agency</CodeValue>
+		<ShortDescription>Local education agency</ShortDescription>
+		<Description>Local education agency</Description>
+		<Namespace>uri://ed-fi.org/CharterApprovalAgencyTypeDescriptor</Namespace>
+	</CharterApprovalAgencyTypeDescriptor>
+	<CharterApprovalAgencyTypeDescriptor>
+		<CodeValue>Non educational government entities</CodeValue>
+		<ShortDescription>Non educational government entities</ShortDescription>
+		<Description>Non educational government entities</Description>
+		<Namespace>uri://ed-fi.org/CharterApprovalAgencyTypeDescriptor</Namespace>
+	</CharterApprovalAgencyTypeDescriptor>
+	<CharterApprovalAgencyTypeDescriptor>
+		<CodeValue>Not for profit organization</CodeValue>
+		<ShortDescription>Not for profit organization</ShortDescription>
+		<Description>Not for profit organization</Description>
+		<Namespace>uri://ed-fi.org/CharterApprovalAgencyTypeDescriptor</Namespace>
+	</CharterApprovalAgencyTypeDescriptor>	
 	<CharterApprovalAgencyTypeDescriptor>
 		<CodeValue>Other</CodeValue>
 		<ShortDescription>Other</ShortDescription>
@@ -11,7 +35,7 @@
 		<ShortDescription>Public charter school board</ShortDescription>
 		<Description>Public charter school board</Description>
 		<Namespace>uri://ed-fi.org/CharterApprovalAgencyTypeDescriptor</Namespace>
-	</CharterApprovalAgencyTypeDescriptor>
+	</CharterApprovalAgencyTypeDescriptor>	
 	<CharterApprovalAgencyTypeDescriptor>
 		<CodeValue>State board of education</CodeValue>
 		<ShortDescription>State board of education</ShortDescription>
@@ -19,9 +43,15 @@
 		<Namespace>uri://ed-fi.org/CharterApprovalAgencyTypeDescriptor</Namespace>
 	</CharterApprovalAgencyTypeDescriptor>
 	<CharterApprovalAgencyTypeDescriptor>
+		<CodeValue>State department of education</CodeValue>
+		<ShortDescription>State department of education</ShortDescription>
+		<Description>State department of education</Description>
+		<Namespace>uri://ed-fi.org/CharterApprovalAgencyTypeDescriptor</Namespace>
+	</CharterApprovalAgencyTypeDescriptor>
+	<CharterApprovalAgencyTypeDescriptor>
 		<CodeValue>University</CodeValue>
 		<ShortDescription>University</ShortDescription>
 		<Description>University</Description>
 		<Namespace>uri://ed-fi.org/CharterApprovalAgencyTypeDescriptor</Namespace>
-	</CharterApprovalAgencyTypeDescriptor>
+	</CharterApprovalAgencyTypeDescriptor>	
 </InterchangeDescriptors>
