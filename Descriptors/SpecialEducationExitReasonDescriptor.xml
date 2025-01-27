@@ -42,4 +42,28 @@
 		<Description>Student exited the Special Education program and related services for any reason other than listed in the descriptor.</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
 	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>No longer eligible for Part C prior to reaching age three</CodeValue>
+		<ShortDescription>No longer eligible for Part C prior to reaching age three as reason to exit</ShortDescription>
+		<Description>No longer eligible for Part C prior to reaching age three is the reason the child who was in special education at the start of the reporting period was not in special education at the end of the reporting period.</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>Part B eligible, exiting Part C</CodeValue>
+		<ShortDescription>Part B eligible, exiting Part C as reason to exit</ShortDescription>
+		<Description>Part B eligible, exiting Part C is the reason the child who was in special education at the start of the reporting period was not in special education at the end of the reporting period.</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>Part B eligible, continuing in Part C</CodeValue>
+		<ShortDescription>Part B eligible, continuing in Part C as reason to exit</ShortDescription>
+		<Description>Part B eligible, continuing in Part C is the reason the child who was in special education at the start of the reporting period was not in special education at the end of the reporting period.</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
+	<SpecialEducationExitReasonDescriptor>
+		<CodeValue>Part B eligibility not determined</CodeValue>
+		<ShortDescription>Part B eligibility not determined as reason to exit</ShortDescription>
+		<Description>Part B eligibility not determined is the reason the child who was in special education at the start of the reporting period was not in special education at the end of the reporting period.</Description>
+		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
+	</SpecialEducationExitReasonDescriptor>
 </InterchangeDescriptors>

@@ -1,21 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<WeaponDescriptor>
+		<CodeValue>BB gun</CodeValue>
+		<ShortDescription>The weapon involved was a BB gun.</ShortDescription>
+		<Description>The weapon involved was a BB gun.</Description>
+		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
+	<WeaponDescriptor>
 		<CodeValue>Club</CodeValue>
 		<ShortDescription>Club</ShortDescription>
 		<Description>Club</Description>
 		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
 	</WeaponDescriptor>
 	<WeaponDescriptor>
-		<CodeValue>Handgun</CodeValue>
-		<ShortDescription>Handgun</ShortDescription>
-		<Description>Handgun</Description>
+		<CodeValue>Destructive Device</CodeValue>
+		<ShortDescription>Any explosive, bomb, grenade,poison gas; specific weapons</ShortDescription>
+		<Description>Any explosive, incendiary (e.g., bomb, grenade), or poison gas; any weapon which may expel a projectile by explosive or another propellant with the barrel bore is more than one-half inch in diameter.</Description>
 		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
 	</WeaponDescriptor>
 	<WeaponDescriptor>
-		<CodeValue>Knife</CodeValue>
-		<ShortDescription>Knife</ShortDescription>
-		<Description>Knife</Description>
+		<CodeValue>Firearm</CodeValue>
+		<ShortDescription>Firearm</ShortDescription>
+		<Description>Any weapon (including a starter gun) which will or is designed to or may readily be converted to expel a projectile by the action of an explosive; the frame or receiver of any such weapon; any firearm muffler or firearm silencer; or any destructive device.</Description>
+		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
+	</WeaponDescriptor>
+	<WeaponDescriptor>
+		<CodeValue>Handgun</CodeValue>
+		<ShortDescription>Handgun</ShortDescription>
+		<Description>Any firearm which has a short stock and is designed to be held and fired by the use of a single hand.</Description>
+		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
+	</WeaponDescriptor>
+	<WeaponDescriptor>
+		<CodeValue>Knife Less Than 2.5 Inches</CodeValue>
+		<ShortDescription>Knife with blade length less than 2.5 inches</ShortDescription>
+		<Description>Knife with blade length less than 2.5 inches - the weapon involved was a knife with a blade less than 2.5 inches in length.</Description>
+		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
+	</WeaponDescriptor>
+	<WeaponDescriptor>
+		<CodeValue>Knife Less Than Three Inches</CodeValue>
+		<ShortDescription>Knife with blade equal or greater than 2.5 inches and less than 3 inches</ShortDescription>
+		<Description>Knife with blade length less than 3 inches in length - the weapon involved was a knife with a blade at least 2.5 inches in length, but less than 3 inches in length.</Description>
+		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
+	</WeaponDescriptor>
+	<WeaponDescriptor>
+		<CodeValue>Knife Greater Than Three Inches</CodeValue>
+		<ShortDescription>Knife with blade length greater than or equal to 3 inches</ShortDescription>
+		<Description>Knife with blade length greater than or equal to 3 inches - the weapon involved was a knife with a blade 3 inches or greater in length.</Description>
+		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
+	</WeaponDescriptor>
+	<WeaponDescriptor>
+		<CodeValue>None</CodeValue>
+		<ShortDescription>No weapon was used in the incident.</ShortDescription>
+		<Description>No weapon was used in the incident.</Description>
 		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
 	</WeaponDescriptor>
 	<WeaponDescriptor>
@@ -43,9 +78,9 @@
 		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
 	</WeaponDescriptor>
 	<WeaponDescriptor>
-		<CodeValue>Rifle/Shotgun</CodeValue>
-		<ShortDescription>Rifle/Shotgun</ShortDescription>
-		<Description>Rifle/Shotgun</Description>
+		<CodeValue>Rifle</CodeValue>
+		<ShortDescription>Rifle</ShortDescription>
+		<Description>A weapon designed or redesigned, made or remade, and intended to be fired from the shoulder and designed or redesigned and made or remade to use the energy of an explosive to fire only a single projectile through a rifled bore for each single pull of the trigger.</Description>
 		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
 	</WeaponDescriptor>
 	<WeaponDescriptor>
@@ -58,6 +93,18 @@
 		<CodeValue>Unknown</CodeValue>
 		<ShortDescription>Unknown</ShortDescription>
 		<Description>Unknown</Description>
+		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
+	</WeaponDescriptor>
+	<WeaponDescriptor>
+		<CodeValue>Knife</CodeValue>
+		<ShortDescription>DEPRECATED: Knife</ShortDescription>
+		<Description>DEPRECATED: Knife</Description>
+		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
+	</WeaponDescriptor>
+	<WeaponDescriptor>
+		<CodeValue>Rifle/Shotgun</CodeValue>
+		<ShortDescription>DEPRECATED: Rifle/Shotgun</ShortDescription>
+		<Description>DEPRECATED: Rifle/Shotgun</Description>
 		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
 	</WeaponDescriptor>
 </InterchangeDescriptors>
