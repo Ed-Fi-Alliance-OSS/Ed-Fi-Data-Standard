@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<CertificationExamStatusDescriptor>
+		<CodeValue>Failed</CodeValue>
+		<ShortDescription>The person has failed to pass the certification exam.</ShortDescription>
+		<Description>The person has failed to pass the certification exam.</Description>
+		<Namespace>uri://ed-fi.org/CertificationExamStatusDescriptor</Namespace>
+	</CertificationExamStatusDescriptor>
+	<CertificationExamStatusDescriptor>
+		<CodeValue>Passed</CodeValue>
+		<ShortDescription>The person has passed the certification exam.</ShortDescription>
+		<Description>The person has passed the certification exam.</Description>
+		<Namespace>uri://ed-fi.org/CertificationExamStatusDescriptor</Namespace>
+	</CertificationExamStatusDescriptor>
+	<CertificationExamStatusDescriptor>
+		<CodeValue>Planned</CodeValue>
+		<ShortDescription>The person has certification exam planned, but not registered yet.</ShortDescription>
+		<Description>The person has certification exam planned, but not registered yet.</Description>
+		<Namespace>uri://ed-fi.org/CertificationExamStatusDescriptor</Namespace>
+	</CertificationExamStatusDescriptor>
+	<CertificationExamStatusDescriptor>
+		<CodeValue>Registered</CodeValue>
+		<ShortDescription>The person has registered the certification exam, but not taken yet.</ShortDescription>
+		<Description>The person has registered the certification exam, but not taken yet.</Description>
+		<Namespace>uri://ed-fi.org/CertificationExamStatusDescriptor</Namespace>
+	</CertificationExamStatusDescriptor>
+	<CertificationExamStatusDescriptor>
+		<CodeValue>Taken</CodeValue>
+		<ShortDescription>The person has taken the certification exam and waiting for the exam result.</ShortDescription>
+		<Description>The person has taken the certification exam and waiting for the exam result.</Description>
+		<Namespace>uri://ed-fi.org/CertificationExamStatusDescriptor</Namespace>
+	</CertificationExamStatusDescriptor>			
+</InterchangeDescriptors>

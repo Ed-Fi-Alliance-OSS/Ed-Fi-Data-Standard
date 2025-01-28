@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+	<InstructionalSettingDescriptor>
+		<CodeValue>Co-Op</CodeValue>
+		<ShortDescription>Co-Op</ShortDescription>
+		<Description>Co-Op</Description>
+		<Namespace>uri://tpdm.ed-fi.org/InstructionalSettingDescriptor</Namespace>
+	</InstructionalSettingDescriptor>
+	<InstructionalSettingDescriptor>
+		<CodeValue>Regular class</CodeValue>
+		<ShortDescription>Regular class</ShortDescription>
+		<Description>Regular class</Description>
+		<Namespace>uri://tpdm.ed-fi.org/InstructionalSettingDescriptor</Namespace>
+	</InstructionalSettingDescriptor>
+	<InstructionalSettingDescriptor>
+		<CodeValue>Virtual</CodeValue>
+		<ShortDescription>Virtual</ShortDescription>
+		<Description>Virtual</Description>
+		<Namespace>uri://tpdm.ed-fi.org/InstructionalSettingDescriptor</Namespace>
+	</InstructionalSettingDescriptor>
+	<InstructionalSettingDescriptor>
+		<CodeValue>Vocational</CodeValue>
+		<ShortDescription>Vocational</ShortDescription>
+		<Description>Vocational</Description>
+		<Namespace>uri://tpdm.ed-fi.org/InstructionalSettingDescriptor</Namespace>
+	</InstructionalSettingDescriptor>
+</InterchangeDescriptors>

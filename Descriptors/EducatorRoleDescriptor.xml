@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.1.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+	<EducatorRoleDescriptor>
+		<CodeValue>Administrative</CodeValue>
+		<ShortDescription>Administrative</ShortDescription>
+		<Description>Administrative</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Assistant Principal</CodeValue>
+		<ShortDescription>Assistant Principal</ShortDescription>
+		<Description>Assistant Principal</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Associate School Psychologist</CodeValue>
+		<ShortDescription>Associate School Psychologist</ShortDescription>
+		<Description>Associate School Psychologist</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Counselor</CodeValue>
+		<ShortDescription>Counselor</ShortDescription>
+		<Description>Counselor</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>	
+	<EducatorRoleDescriptor>
+		<CodeValue>Educational Aide</CodeValue>
+		<ShortDescription>Educational Aide</ShortDescription>
+		<Description>Educational Aide</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Educational Diagnostician</CodeValue>
+		<ShortDescription>Educational Diagnostician</ShortDescription>
+		<Description>Educational Diagnostician</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Educational Secretary</CodeValue>
+		<ShortDescription>Educational Secretary</ShortDescription>
+		<Description>Educational Secretary</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Generalist</CodeValue>
+		<ShortDescription>Generalist</ShortDescription>
+		<Description>Generalist</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Instructional Officer</CodeValue>
+		<ShortDescription>Instructional Officer</ShortDescription>
+		<Description>Instructional Officer</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Librarian</CodeValue>
+		<ShortDescription>Librarian</ShortDescription>
+		<Description>Librarian</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Physician</CodeValue>
+		<ShortDescription>Physician</ShortDescription>
+		<Description>Physician</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Principal</CodeValue>
+		<ShortDescription>Principal</ShortDescription>
+		<Description>Principal</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>School Nurse</CodeValue>
+		<ShortDescription>School Nurse</ShortDescription>
+		<Description>School Nurse</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>School Psychologist</CodeValue>
+		<ShortDescription>School Psychologist</ShortDescription>
+		<Description>School Psychologist</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Special Education</CodeValue>
+		<ShortDescription>Special Education</ShortDescription>
+		<Description>Special Education</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Superintendent</CodeValue>
+		<ShortDescription>Superintendent</ShortDescription>
+		<Description>Superintendent</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>	
+	<EducatorRoleDescriptor>
+		<CodeValue>Teacher Supervisor</CodeValue>
+		<ShortDescription>Teacher Supervisor</ShortDescription>
+		<Description>Teacher Supervisor</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Teacher</CodeValue>
+		<ShortDescription>Teacher</ShortDescription>
+		<Description>Teacher</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Visiting Teacher</CodeValue>
+		<ShortDescription>Visiting Teacher</ShortDescription>
+		<Description>Visiting Teacher</Description>
+		<Namespace>uri://tpdm.ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>	
+</InterchangeDescriptors>
