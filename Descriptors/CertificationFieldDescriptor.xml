@@ -1,93 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<CertificationFieldDescriptor>
-		<CodeValue>Agricultural Science and Technology</CodeValue>
-		<ShortDescription>Agricultural Science and Technology</ShortDescription>
-		<Description>Agricultural Science and Technology</Description>
+		<CodeValue>Agricultural Science</CodeValue>
+		<ShortDescription>Certification exam is on Agricultural Science</ShortDescription>
+		<Description>The certification exam is on Agricultural Science</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>American Sign Language</CodeValue>
+		<ShortDescription>Certification exam is on American Sign Language</ShortDescription>
+		<Description>The certification exam is on American Sign Language</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
 		<CodeValue>Art</CodeValue>
-		<ShortDescription>Art</ShortDescription>
-		<Description>Art</Description>
+		<ShortDescription>Certification exam is on Art</ShortDescription>
+		<Description>The certification exam is on Art</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
-		<CodeValue>Bilingual</CodeValue>
-		<ShortDescription>Bilingual</ShortDescription>
-		<Description>Bilingual</Description>
+		<CodeValue>Bilingual Education</CodeValue>
+		<ShortDescription>Certification exam is on Bilingual Education</ShortDescription>
+		<Description>The certification exam is on Bilingual Education</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
-		<CodeValue>Bilingual Generalist-Spanish</CodeValue>
-		<ShortDescription>Bilingual Generalist-Spanish</ShortDescription>
-		<Description>Bilingual Generalist-Spanish</Description>
+		<CodeValue>Chemistry</CodeValue>
+		<ShortDescription>Certification exam is on Chemistry</ShortDescription>
+		<Description>The certification exam is on Chemistry</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
-	</CertificationFieldDescriptor>
+	</CertificationFieldDescriptor>	
 	<CertificationFieldDescriptor>
 		<CodeValue>Computer Science</CodeValue>
-		<ShortDescription>Computer Science</ShortDescription>
-		<Description>Computer Science</Description>
+		<ShortDescription>Certification exam is on Computer Science</ShortDescription>
+		<Description>The certification exam is on Computer Science</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Early Childhood</CodeValue>
+		<ShortDescription>Certification exam is on Early Childhood</ShortDescription>
+		<Description>The certification exam is on Early Childhood</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
 		<CodeValue>Elementary Education</CodeValue>
-		<ShortDescription>Elementary Education</ShortDescription>
-		<Description>Elementary Education</Description>
+		<ShortDescription>Certification exam is on Elementary Education</ShortDescription>
+		<Description>The certification exam is on Elementary Education</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>English Language Arts</CodeValue>
+		<ShortDescription>Certification exam is on English Language Arts</ShortDescription>
+		<Description>The certification exam is on English Language Arts</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
 		<CodeValue>Generalist</CodeValue>
-		<ShortDescription>Generalist</ShortDescription>
-		<Description>Generalist</Description>
+		<ShortDescription>Certification exam is on Generalist</ShortDescription>
+		<Description>The certification exam is on Generalist</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
-		<CodeValue>Health</CodeValue>
-		<ShortDescription>Health</ShortDescription>
-		<Description>Health</Description>
+		<CodeValue>Health Science</CodeValue>
+		<ShortDescription>Certification exam is on Health Science</ShortDescription>
+		<Description>The certification exam is on Health Science</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
-		<CodeValue>Life and Physical Sciences</CodeValue>
-		<ShortDescription>Life and Physical Sciences</ShortDescription>
-		<Description>Life and Physical Sciences</Description>
+		<CodeValue>History</CodeValue>
+		<ShortDescription>Certification exam is on History</ShortDescription>
+		<Description>The certification exam is on History</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Journalism</CodeValue>
+		<ShortDescription>Certification exam is on Journalism</ShortDescription>
+		<Description>The certification exam is on Journalism</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Language Other Than English</CodeValue>
+		<ShortDescription>Certification exam is on Language but not English</ShortDescription>
+		<Description>The certification exam is on Language Other Than English</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Life Sciences</CodeValue>
+		<ShortDescription>Certification exam is on Life Sciences</ShortDescription>
+		<Description>The certification exam is on Life Sciences</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Marketing</CodeValue>
+		<ShortDescription>Certification exam is on Marketing</ShortDescription>
+		<Description>The certification exam is on Marketing</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Mathematics</CodeValue>
+		<ShortDescription>Certification exam is on Mathematics</ShortDescription>
+		<Description>The certification exam is on Mathematics</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>	
 	<CertificationFieldDescriptor>
-		<CodeValue>Mathematics</CodeValue>
-		<ShortDescription>Mathematics</ShortDescription>
-		<Description>Mathematics</Description>
-		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
-	</CertificationFieldDescriptor>
-	<CertificationFieldDescriptor>
-		<CodeValue>Master Teacher</CodeValue>
-		<ShortDescription>Master Teacher</ShortDescription>
-		<Description>Master Teacher</Description>
-		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
-	</CertificationFieldDescriptor>
-	<CertificationFieldDescriptor>
 		<CodeValue>Music</CodeValue>
-		<ShortDescription>Music</ShortDescription>
-		<Description>Music</Description>
+		<ShortDescription>Certification exam is on Music</ShortDescription>
+		<Description>The certification exam is on Music</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>	
 	<CertificationFieldDescriptor>
 		<CodeValue>Physical Education</CodeValue>
-		<ShortDescription>Physical Education</ShortDescription>
-		<Description>Physical Education</Description>
+		<ShortDescription>Certification exam is on Physical Education</ShortDescription>
+		<Description>The certification exam is on Physical Education</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
-	</CertificationFieldDescriptor>	
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Physics</CodeValue>
+		<ShortDescription>Certification exam is on Physics</ShortDescription>
+		<Description>The certification exam is on Physics</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
 		<CodeValue>Psychology</CodeValue>
-		<ShortDescription>Psychology</ShortDescription>
-		<Description>Psychology</Description>
+		<ShortDescription>Certification exam is on Psychology</ShortDescription>
+		<Description>The certification exam is on Psychology</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Reading Specialist</CodeValue>
+		<ShortDescription>Certification exam is on Reading Specialist</ShortDescription>
+		<Description>The certification exam is on Reading Specialist</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Science</CodeValue>
+		<ShortDescription>Certification exam is on Science</ShortDescription>
+		<Description>The certification exam is on Science</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>School Counselor</CodeValue>
+		<ShortDescription>Certification exam is on School Counselor</ShortDescription>
+		<Description>The certification exam is on School Counselor</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>School Librarian</CodeValue>
+		<ShortDescription>Certification exam is on School Librarian</ShortDescription>
+		<Description>The certification exam is on School Librarian</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
 		<CodeValue>Social Studies</CodeValue>
-		<ShortDescription>Social Studies</ShortDescription>
-		<Description>Social Studies</Description>
+		<ShortDescription>Certification exam is on Social Studies</ShortDescription>
+		<Description>The certification exam is on Social Studies</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
-	</CertificationFieldDescriptor>	
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Special Education</CodeValue>
+		<ShortDescription>Certification exam is on Special Education</ShortDescription>
+		<Description>The certification exam is on Special Education</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Superintendent</CodeValue>
+		<ShortDescription>Certification exam is on Superintendent</ShortDescription>
+		<Description>The certification exam is on Superintendent</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Technology Education</CodeValue>
+		<ShortDescription>Certification exam is on Technology Education</ShortDescription>
+		<Description>The certification exam is on Technology Education</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
+	<CertificationFieldDescriptor>
+		<CodeValue>Technology Education</CodeValue>
+		<ShortDescription>Certification exam is on Theatre</ShortDescription>
+		<Description>The certification exam is on Theatre</Description>
+		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
+	</CertificationFieldDescriptor>
 </InterchangeDescriptors>

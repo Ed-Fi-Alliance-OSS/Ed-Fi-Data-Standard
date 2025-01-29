@@ -2,20 +2,20 @@
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<CertificationExamTypeDescriptor>
 		<CodeValue>National</CodeValue>
-		<ShortDescription>National</ShortDescription>
-		<Description>National</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationExamTypeDescriptor</Namespace>
+		<ShortDescription>Exam is for a nationally recognized certification.</ShortDescription>
+		<Description>The exam is for a nationally recognized certification.</Description>
+		<Namespace>uri://edfi.org/CertificationExamTypeDescriptor</Namespace>
 	</CertificationExamTypeDescriptor>
 	<CertificationExamTypeDescriptor>
 		<CodeValue>Other</CodeValue>
-		<ShortDescription>Other</ShortDescription>
-		<Description>Other</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationExamTypeDescriptor</Namespace>
+		<ShortDescription>Exam for other level of recognition.</ShortDescription>
+		<Description>A certification exam for recognition other than state or national level.</Description>
+		<Namespace>uri://edfi.org/CertificationExamTypeDescriptor</Namespace>
 	</CertificationExamTypeDescriptor>
 	<CertificationExamTypeDescriptor>
 		<CodeValue>State</CodeValue>
-		<ShortDescription>State</ShortDescription>
-		<Description>State</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationExamTypeDescriptor</Namespace>
+		<ShortDescription>Exam is for a state-wide recognized certification.</ShortDescription>
+		<Description>The exam is for a state-wide recognized certification.</Description>
+		<Namespace>uri://edfi.org/CertificationExamTypeDescriptor</Namespace>
 	</CertificationExamTypeDescriptor>	
 </InterchangeDescriptors>

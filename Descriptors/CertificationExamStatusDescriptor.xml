@@ -14,20 +14,20 @@
 	</CertificationExamStatusDescriptor>
 	<CertificationExamStatusDescriptor>
 		<CodeValue>Planned</CodeValue>
-		<ShortDescription>The person has certification exam planned, but not registered yet.</ShortDescription>
+		<ShortDescription>The person has certification exam planned.</ShortDescription>
 		<Description>The person has certification exam planned, but not registered yet.</Description>
 		<Namespace>uri://ed-fi.org/CertificationExamStatusDescriptor</Namespace>
 	</CertificationExamStatusDescriptor>
 	<CertificationExamStatusDescriptor>
 		<CodeValue>Registered</CodeValue>
-		<ShortDescription>The person has registered the certification exam, but not taken yet.</ShortDescription>
+		<ShortDescription>The person has registered the certification exam.</ShortDescription>
 		<Description>The person has registered the certification exam, but not taken yet.</Description>
 		<Namespace>uri://ed-fi.org/CertificationExamStatusDescriptor</Namespace>
 	</CertificationExamStatusDescriptor>
 	<CertificationExamStatusDescriptor>
 		<CodeValue>Taken</CodeValue>
-		<ShortDescription>The person has taken the certification exam and is waiting for the result.</ShortDescription>
-		<Description>The person has taken the certification exam and waiting for the exam result.</Description>
+		<ShortDescription>The person has taken the certification exam.</ShortDescription>
+		<Description>The person has taken the certification exam and is waiting for the exam result.</Description>
 		<Namespace>uri://ed-fi.org/CertificationExamStatusDescriptor</Namespace>
 	</CertificationExamStatusDescriptor>			
 </InterchangeDescriptors>

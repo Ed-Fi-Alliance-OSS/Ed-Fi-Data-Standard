@@ -2,50 +2,50 @@
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<CertificationLevelDescriptor>
 		<CodeValue>Administrative</CodeValue>
-		<ShortDescription>Administrative</ShortDescription>
-		<Description>Administrative</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationLevelDescriptor</Namespace>
+		<ShortDescription>Certifies for administrative responsibilities.</ShortDescription>
+		<Description>Certification permits the educator for responsibilities at administrative level.</Description>
+		<Namespace>uri://edfi.org/CertificationLevelDescriptor</Namespace>
 	</CertificationLevelDescriptor>
 	<CertificationLevelDescriptor>
 		<CodeValue>All-Level</CodeValue>
-		<ShortDescription>All-Level</ShortDescription>
-		<Description>All-Level</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationLevelDescriptor</Namespace>
+		<ShortDescription>For instructional responsibilities at all-level.</ShortDescription>
+		<Description>Certification permits the educator for instructional responsibilities at all-level.</Description>
+		<Namespace>uri://edfi.org/CertificationLevelDescriptor</Namespace>
 	</CertificationLevelDescriptor>
 	<CertificationLevelDescriptor>
 		<CodeValue>Elementary</CodeValue>
-		<ShortDescription>Elementary</ShortDescription>
-		<Description>Elementary</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationLevelDescriptor</Namespace>
+		<ShortDescription>For elementary school instructional certification.</ShortDescription>
+		<Description>Certification permits the educator for instructional responsibilities at elementary school level.</Description>
+		<Namespace>uri://edfi.org/CertificationLevelDescriptor</Namespace>
 	</CertificationLevelDescriptor>
 	<CertificationLevelDescriptor>
 		<CodeValue>Middle School</CodeValue>
-		<ShortDescription>Middle School</ShortDescription>
-		<Description>Middle School</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationLevelDescriptor</Namespace>
+		<ShortDescription>For middle school instructional responsibilities.</ShortDescription>
+		<Description>Certification permits the educator for instructional responsibilities at middle school level.</Description>
+		<Namespace>uri://edfi.org/CertificationLevelDescriptor</Namespace>
 	</CertificationLevelDescriptor>
 	<CertificationLevelDescriptor>
 		<CodeValue>Secondary</CodeValue>
-		<ShortDescription>Secondary</ShortDescription>
-		<Description>Secondary</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationLevelDescriptor</Namespace>
+		<ShortDescription>For secondary school instructional certification.</ShortDescription>
+		<Description>Certification permits the educator for instructional responsibilities at secondary school level.</Description>
+		<Namespace>uri://edfi.org/CertificationLevelDescriptor</Namespace>
 	</CertificationLevelDescriptor>
 	<CertificationLevelDescriptor>
 		<CodeValue>Student Services</CodeValue>
-		<ShortDescription>Student Services</ShortDescription>
-		<Description>Student Services</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationLevelDescriptor</Namespace>
+		<ShortDescription>For student service related responsibilities.</ShortDescription>
+		<Description>Certification permits the educator for student service related responsibilities.</Description>
+		<Namespace>uri://edfi.org/CertificationLevelDescriptor</Namespace>
 	</CertificationLevelDescriptor>
 	<CertificationLevelDescriptor>
 		<CodeValue>Supplemental</CodeValue>
-		<ShortDescription>Supplemental</ShortDescription>
-		<Description>Supplemental</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationLevelDescriptor</Namespace>
+		<ShortDescription>For supplemental instructional responsibilities.</ShortDescription>
+		<Description>Certification permits the educator for supplemental instructional responsibilities.</Description>
+		<Namespace>uri://edfi.org/CertificationLevelDescriptor</Namespace>
 	</CertificationLevelDescriptor>
 	<CertificationLevelDescriptor>
 		<CodeValue>Teacher Foundations</CodeValue>
-		<ShortDescription>Teacher Foundations</ShortDescription>
-		<Description>Teacher Foundations</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationLevelDescriptor</Namespace>
+		<ShortDescription>For teacher foundational responsibilities.</ShortDescription>
+		<Description>Certification permits the educator for teacher foundational responsibilities.</Description>
+		<Namespace>uri://edfi.org/CertificationLevelDescriptor</Namespace>
 	</CertificationLevelDescriptor>	
 </InterchangeDescriptors>

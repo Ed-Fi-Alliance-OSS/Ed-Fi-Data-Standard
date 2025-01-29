@@ -2,40 +2,38 @@
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<DegreeDescriptor>
 		<CodeValue>Associate's degree</CodeValue>
-		<ShortDescription>Associate's degree</ShortDescription>
-		<Description>Associate's degree</Description>
-		<Namespace>uri://tpdm.ed-fi.org/DegreeDescriptor</Namespace>
+		<ShortDescription>Certification requires  an Associate's degree.</ShortDescription>
+		<Description>The certification requires at minimum an Associate's degree.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
 	</DegreeDescriptor>
 	<DegreeDescriptor>
 		<CodeValue>Bachelor's degree</CodeValue>
-		<ShortDescription>Bachelor's degree</ShortDescription>
-		<Description>Bachelor's degree</Description>
-		<Namespace>uri://tpdm.ed-fi.org/DegreeDescriptor</Namespace>
+		<ShortDescription>Certification requires  a Bachelor's degree.</ShortDescription>
+		<Description>The certification requires at minimum a Bachelor's degree.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
 	</DegreeDescriptor>
 	<DegreeDescriptor>
 		<CodeValue>Doctorate degree</CodeValue>
-		<ShortDescription>Doctorate degree</ShortDescription>
-		<Description>Doctorate degree</Description>
-		<Namespace>uri://tpdm.ed-fi.org/DegreeDescriptor</Namespace>
+		<ShortDescription>Certification requires  a Doctorate degree.</ShortDescription>
+		<Description>The certification requires at minimum a Doctorate degree.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
 	</DegreeDescriptor>
 	<DegreeDescriptor>
 		<CodeValue>High school diploma</CodeValue>
-		<ShortDescription>High school diploma</ShortDescription>
-		<Description>High school diploma</Description>
-		<Namespace>uri://tpdm.ed-fi.org/DegreeDescriptor</Namespace>
+		<ShortDescription>Certification requires  a High school diploma.</ShortDescription>
+		<Description>The certification requires at minimum a High school diploma.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
 	</DegreeDescriptor>	
 	<DegreeDescriptor>
 		<CodeValue>Master's degree</CodeValue>
-		<ShortDescription>Master's degree</ShortDescription>
-		<Description>Master's degree</Description>
-		<Namespace>uri://tpdm.ed-fi.org/DegreeDescriptor</Namespace>
+		<ShortDescription>Certification requires  a Master's degree.</ShortDescription>
+		<Description>The certification requires at minimum a Master's degree.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
 	</DegreeDescriptor>
 	<DegreeDescriptor>
 		<CodeValue>No degree required</CodeValue>
-		<ShortDescription>No degree required</ShortDescription>
-		<Description>No degree required</Description>
-		<Namespace>uri://tpdm.ed-fi.org/DegreeDescriptor</Namespace>
-	</DegreeDescriptor>
-	
-	
+		<ShortDescription>Certification doesn't have a degree requirement.</ShortDescription>
+		<Description>The certification doesn't have a degree requirement.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
+	</DegreeDescriptor>	
 </InterchangeDescriptors>

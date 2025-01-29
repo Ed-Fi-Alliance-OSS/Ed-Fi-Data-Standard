@@ -2,68 +2,68 @@
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<CertificationRouteDescriptor>
 		<CodeValue>Alternative Program</CodeValue>
-		<ShortDescription>Alternative Program</ShortDescription>
-		<Description>Alternative Program</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>Certified by an alternative program.</ShortDescription>
+		<Description>The educator has attained an alternative program to be certified.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>
 	<CertificationRouteDescriptor>
 		<CodeValue>Center Professional Development</CodeValue>
-		<ShortDescription>Center Professional Development</ShortDescription>
-		<Description>Center Professional Development</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>Certified by a professional development.</ShortDescription>
+		<Description>The educator has attained a professional development center to be certified.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>
 	<CertificationRouteDescriptor>
 		<CodeValue>Certification by Exam</CodeValue>
-		<ShortDescription>Certification by Exam</ShortDescription>
-		<Description>Certification by Exam</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>The educator has certified by taking an exam.</ShortDescription>
+		<Description>The educator has certified by taking an exam.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>		
 	<CertificationRouteDescriptor>
 		<CodeValue>Out of State</CodeValue>
-		<ShortDescription>Out of State</ShortDescription>
-		<Description>Out of State</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>The educator has certified out of state.</ShortDescription>
+		<Description>The educator has certified out of state.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>
 	<CertificationRouteDescriptor>
 		<CodeValue>Paraprofessional Program</CodeValue>
-		<ShortDescription>Paraprofessional Program</ShortDescription>
-		<Description>Paraprofessional Program</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
-	</CertificationRouteDescriptor>
-	<CertificationRouteDescriptor>
-		<CodeValue>Post-Baccalaureate</CodeValue>
-		<ShortDescription>Post-Baccalaureate</ShortDescription>
-		<Description>Post-Baccalaureate</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>Certified by a paraprofessional program.</ShortDescription>
+		<Description>The educator has completed a paraprofessional program to be certified.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>
 	<CertificationRouteDescriptor>
 		<CodeValue>Permit Program</CodeValue>
-		<ShortDescription>Permit Program</ShortDescription>
-		<Description>Permit Program</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>Certified by a permit program.</ShortDescription>
+		<Description>The educator has attained a permit program to be certified.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>
 	<CertificationRouteDescriptor>
+		<CodeValue>Post-Baccalaureate</CodeValue>
+		<ShortDescription>Certified by a post-baccalaureate degree.</ShortDescription>
+		<Description>The educator has completed a post-baccalaureate degree to be certified.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
+	</CertificationRouteDescriptor>	
+	<CertificationRouteDescriptor>
 		<CodeValue>Standard Program</CodeValue>
-		<ShortDescription>Standard Program</ShortDescription>
-		<Description>Standard Program</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>Certified by a standard program.</ShortDescription>
+		<Description>The educator has attained a standard program to be certified.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>
 	<CertificationRouteDescriptor>
 		<CodeValue>Temporary Teaching Certificate</CodeValue>
-		<ShortDescription>Temporary Teaching Certificate</ShortDescription>
-		<Description>Temporary Teaching Certificate</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>The educator has a temporary teaching certificate.</ShortDescription>
+		<Description>The educator has obtained a temporary teaching certificate.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>
 	<CertificationRouteDescriptor>
 		<CodeValue>Unknown</CodeValue>
-		<ShortDescription>Unknown</ShortDescription>
-		<Description>Unknown</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>The route for certification is unknown.</ShortDescription>
+		<Description>The route the educator followed for certification is unknown.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>	
 	<CertificationRouteDescriptor>
 		<CodeValue>Vocational Experience</CodeValue>
-		<ShortDescription>Vocational Experience</ShortDescription>
-		<Description>Vocational Experience</Description>
-		<Namespace>uri://tpdm.ed-fi.org/CertificationRouteDescriptor</Namespace>
+		<ShortDescription>Certified by a vocational experience.</ShortDescription>
+		<Description>The educator has obtained certification through a vocational experience.</Description>
+		<Namespace>uri://edfi.org/CertificationRouteDescriptor</Namespace>
 	</CertificationRouteDescriptor>
 </InterchangeDescriptors>
