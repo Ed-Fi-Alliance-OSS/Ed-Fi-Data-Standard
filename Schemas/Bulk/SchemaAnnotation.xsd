@@ -41,6 +41,12 @@
       <xs:enumeration value="CalendarEventDescriptor" />
       <xs:enumeration value="CalendarTypeDescriptor" />
       <xs:enumeration value="CareerPathwayDescriptor" />
+      <xs:enumeration value="CertificationExamStatusDescriptor" />
+      <xs:enumeration value="CertificationExamTypeDescriptor" />
+      <xs:enumeration value="CertificationFieldDescriptor" />
+      <xs:enumeration value="CertificationLevelDescriptor" />
+      <xs:enumeration value="CertificationRouteDescriptor" />
+      <xs:enumeration value="CertificationStandardDescriptor" />
       <xs:enumeration value="CharterApprovalAgencyTypeDescriptor" />
       <xs:enumeration value="CharterStatusDescriptor" />
       <xs:enumeration value="CitizenshipStatusDescriptor" />
@@ -60,13 +66,16 @@
       <xs:enumeration value="CourseIdentificationSystemDescriptor" />
       <xs:enumeration value="CourseLevelCharacteristicDescriptor" />
       <xs:enumeration value="CourseRepeatCodeDescriptor" />
+      <xs:enumeration value="CredentialEventTypeDescriptor" />
       <xs:enumeration value="CredentialFieldDescriptor" />
+      <xs:enumeration value="CredentialStatusDescriptor" />
       <xs:enumeration value="CredentialTypeDescriptor" />
       <xs:enumeration value="CreditCategoryDescriptor" />
       <xs:enumeration value="CreditTypeDescriptor" />
       <xs:enumeration value="CrisisTypeDescriptor" />
       <xs:enumeration value="CTEProgramServiceDescriptor" />
       <xs:enumeration value="CurriculumUsedDescriptor" />
+      <xs:enumeration value="DegreeDescriptor" />
       <xs:enumeration value="DeliveryMethodDescriptor" />
       <xs:enumeration value="DiagnosisDescriptor" />
       <xs:enumeration value="DiplomaLevelDescriptor" />
@@ -85,6 +94,7 @@
       <xs:enumeration value="EducationOrganizationCategoryDescriptor" />
       <xs:enumeration value="EducationOrganizationIdentificationSystemDescriptor" />
       <xs:enumeration value="EducationPlanDescriptor" />
+      <xs:enumeration value="EducatorRoleDescriptor" />
       <xs:enumeration value="ElectronicMailTypeDescriptor" />
       <xs:enumeration value="EligibilityDelayReasonDescriptor" />
       <xs:enumeration value="EligibilityEvaluationTypeDescriptor" />
@@ -113,6 +123,7 @@
       <xs:enumeration value="IndicatorGroupDescriptor" />
       <xs:enumeration value="IndicatorLevelDescriptor" />
       <xs:enumeration value="InstitutionTelephoneNumberTypeDescriptor" />
+      <xs:enumeration value="InstructionalSettingDescriptor" />
       <xs:enumeration value="InteractivityStyleDescriptor" />
       <xs:enumeration value="InternetAccessDescriptor" />
       <xs:enumeration value="InternetAccessTypeInResidenceDescriptor" />
@@ -145,6 +156,9 @@
       <xs:enumeration value="OtherNameTypeDescriptor" />
       <xs:enumeration value="ParticipationDescriptor" />
       <xs:enumeration value="ParticipationStatusDescriptor" />
+      <xs:enumeration value="PathMilestoneStatusDescriptor" />
+      <xs:enumeration value="PathMilestoneTypeDescriptor" />
+      <xs:enumeration value="PathPhaseStatusDescriptor" />
       <xs:enumeration value="PerformanceBaseConversionDescriptor" />
       <xs:enumeration value="PerformanceLevelDescriptor" />
       <xs:enumeration value="PersonalInformationVerificationDescriptor" />
