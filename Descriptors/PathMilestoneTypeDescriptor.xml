@@ -19,19 +19,6 @@
 		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
 	</PathMilestoneTypeDescriptor>
 	<PathMilestoneTypeDescriptor>
-		<CodeValue>Course</CodeValue>
-		<ShortDescription>Required coursework in the education program</ShortDescription>
-		<Description>A specific course within the educator preparation program, covering a range of topics relevant to the field of education, such as pedagogy, curriculum development, classroom management, and special education.
-</Description>
-		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
-	</PathMilestoneTypeDescriptor>
-	<PathMilestoneTypeDescriptor>
-		<CodeValue>CPE (Continuing Professional Education)</CodeValue>
-		<ShortDescription>Continuing professional education course for educators</ShortDescription>
-		<Description>Continuing professional education courses or workshops designed to enhance the educator candidate's knowledge and skills beyond the initial teacher preparation program, such as specialized training in instructional technology, differentiated instruction, or culturally responsive teaching.</Description>
-		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
-	</PathMilestoneTypeDescriptor>
-	<PathMilestoneTypeDescriptor>
 		<CodeValue>Certification</CodeValue>
 		<ShortDescription>Professional certification in a specific area of education</ShortDescription>
 		<Description>A credential or certification obtained by the educator candidate that demonstrates specific knowledge and skills in a particular area of education, such as special education, early childhood education, or English as a Second Language (ESL).</Description>
@@ -47,6 +34,19 @@
 		<CodeValue>Clinical Teaching</CodeValue>
 		<ShortDescription>Supervised teaching experience in a classroom</ShortDescription>
 		<Description>A supervised teaching experience in a real-world classroom setting where the educator candidate applies theoretical knowledge and skills under the guidance of a mentor teacher. This experience is a critical component of the teacher preparation program.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>	
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Course</CodeValue>
+		<ShortDescription>Required coursework in the education program</ShortDescription>
+		<Description>A specific course within the educator preparation program, covering a range of topics relevant to the field of education, such as pedagogy, curriculum development, classroom management, and special education.
+</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>CPE (Continuing Professional Education)</CodeValue>
+		<ShortDescription>Continuing professional education course for educators</ShortDescription>
+		<Description>Continuing professional education courses or workshops designed to enhance the educator candidate's knowledge and skills beyond the initial teacher preparation program, such as specialized training in instructional technology, differentiated instruction, or culturally responsive teaching.</Description>
 		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
 	</PathMilestoneTypeDescriptor>
 	<PathMilestoneTypeDescriptor>
