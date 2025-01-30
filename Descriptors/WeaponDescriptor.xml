@@ -6,6 +6,7 @@
 		<Description>The weapon involved was a BB gun.</Description>
 		<Namespace>uri://ed-fi.org/WeaponDescriptor</Namespace>
 	</WeaponDescriptor>
+	<WeaponDescriptor>
 		<CodeValue>Club</CodeValue>
 		<ShortDescription>Club</ShortDescription>
 		<Description>Club</Description>
