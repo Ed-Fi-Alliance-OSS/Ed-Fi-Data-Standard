@@ -19,7 +19,7 @@
 		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
 	</SpecialEducationExitReasonDescriptor>
 		<SpecialEducationExitReasonDescriptor>
-		<CodeValue>No longer eligible for Part C prior to reaching age three</CodeValue>
+		<CodeValue>No longer eligible for Part C prior to age 3</CodeValue>
 		<ShortDescription>No longer eligible for Part C prior to reaching age three as reason to exit</ShortDescription>
 		<Description>No longer eligible for Part C prior to reaching age three is the reason the child who was in special education at the start of the reporting period was not in special education at the end of the reporting period.</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationExitReasonDescriptor</Namespace>
