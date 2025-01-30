@@ -43,6 +43,12 @@
 		<Namespace>uri://ed-fi.org/ReasonNotTestedDescriptor</Namespace>
 	</ReasonNotTestedDescriptor>
 	<ReasonNotTestedDescriptor>
+		<CodeValue>Moved</CodeValue>
+		<ShortDescription>Moved as primary reason for not testing</ShortDescription>
+		<Description>Moved is specified as the primary reason a participant did not complete an assessment.</Description>
+		<Namespace>uri://ed-fi.org/ReasonNotTestedDescriptor</Namespace>
+	</ReasonNotTestedDescriptor>
+	<ReasonNotTestedDescriptor>
 		<CodeValue>Not appropriate (ARD decision)</CodeValue>
 		<ShortDescription>Not appropriate (ARD decision)</ShortDescription>
 		<Description>Not appropriate (ARD decision)</Description>
