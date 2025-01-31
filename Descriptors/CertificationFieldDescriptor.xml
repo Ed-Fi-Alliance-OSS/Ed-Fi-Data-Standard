@@ -175,7 +175,7 @@
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
 	</CertificationFieldDescriptor>
 	<CertificationFieldDescriptor>
-		<CodeValue>Technology Education</CodeValue>
+		<CodeValue>Theater</CodeValue>
 		<ShortDescription>Certification exam is on Theatre</ShortDescription>
 		<Description>The certification exam is on Theatre</Description>
 		<Namespace>uri://ed-fi.org/CertificationFieldDescriptor</Namespace>
