@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<PathPhaseStatusDescriptor>
+		<CodeValue>Active</CodeValue>
+		<ShortDescription>Candidate is currently engaged in this path phase</ShortDescription>
+		<Description>The educator candidate is currently engaged in this phase of the path of study.</Description>
+		<Namespace>uri://ed-fi.org/PathPhaseStatusDescriptor</Namespace>
+	</PathPhaseStatusDescriptor>
+	<PathPhaseStatusDescriptor>
+		<CodeValue>Complete</CodeValue>
+		<ShortDescription>Candidate has successfully finished this path phase</ShortDescription>
+		<Description>The educator candidate has successfully finished this phase of the path of study.</Description>
+		<Namespace>uri://ed-fi.org/PathPhaseStatusDescriptor</Namespace>
+	</PathPhaseStatusDescriptor>
+	<PathPhaseStatusDescriptor>
+		<CodeValue>Inactive</CodeValue>
+		<ShortDescription>Candidate is not currently enrolled or active in this path phase</ShortDescription>
+		<Description>The educator candidate is not currently enrolled in or actively working on this phase of the path of study. This may be due to a temporary leave of absence or withdrawal from the program.</Description>
+		<Namespace>uri://ed-fi.org/PathPhaseStatusDescriptor</Namespace>
+	</PathPhaseStatusDescriptor>
+</InterchangeDescriptors>

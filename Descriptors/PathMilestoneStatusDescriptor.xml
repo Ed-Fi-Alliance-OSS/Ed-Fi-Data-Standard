@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<PathMilestoneStatusDescriptor>
+		<CodeValue>Attempting</CodeValue>
+		<ShortDescription>Student is working on the milestone</ShortDescription>
+		<Description>The student has begun working on this milestone but has not yet completed it.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneStatusDescriptor</Namespace>
+	</PathMilestoneStatusDescriptor>
+	<PathMilestoneStatusDescriptor>
+		<CodeValue>Complete</CodeValue>
+		<ShortDescription>Student has successfully completed this milestone</ShortDescription>
+		<Description>The student has successfully completed this milestone.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneStatusDescriptor</Namespace>
+	</PathMilestoneStatusDescriptor>
+	<PathMilestoneStatusDescriptor>
+		<CodeValue>Fail</CodeValue>
+		<ShortDescription>Student did not meet the requirements for this milestone</ShortDescription>
+		<Description>The student did not meet the requirements for this milestone.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneStatusDescriptor</Namespace>
+	</PathMilestoneStatusDescriptor>
+	<PathMilestoneStatusDescriptor>
+		<CodeValue>In Remediation</CodeValue>
+		<ShortDescription>Student is reworking the milestone after not meeting initial requirements</ShortDescription>
+		<Description>The student is working to meet the requirements for this milestone after not initially meeting them.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneStatusDescriptor</Namespace>
+	</PathMilestoneStatusDescriptor>
+	<PathMilestoneStatusDescriptor>
+		<CodeValue>Pass</CodeValue>
+		<ShortDescription>Student has met the requirements for this milestone</ShortDescription>
+		<Description>The student has met the requirements for this milestone.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneStatusDescriptor</Namespace>
+	</PathMilestoneStatusDescriptor>
+	<PathMilestoneStatusDescriptor>
+		<CodeValue>Scheduled</CodeValue>
+		<ShortDescription>Student is scheduled to begin working on this milestone</ShortDescription>
+		<Description>The student is scheduled to begin working on this milestone.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneStatusDescriptor</Namespace>
+	</PathMilestoneStatusDescriptor>
+	<PathMilestoneStatusDescriptor>
+		<CodeValue>Waiver</CodeValue>
+		<ShortDescription>Student excused from milestone requirements</ShortDescription>
+		<Description>The student has been excused from meeting the requirements for this milestone.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneStatusDescriptor</Namespace>
+	</PathMilestoneStatusDescriptor>
+</InterchangeDescriptors>
