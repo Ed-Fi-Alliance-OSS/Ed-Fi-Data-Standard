@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<StaffClassificationDescriptor>
-		<CodeValue>Pre-Kindergarten Teacher</CodeValue>
-		<ShortDescription>Pre-Kindergarten Teacher</ShortDescription>
-		<Description>Pre-Kindergarten Teacher</Description>
+		<CodeValue>Behavioral Specialist</CodeValue>
+		<ShortDescription>Behavioral Specialist</ShortDescription>
+		<Description>Behavioral Specialist</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>Kindergarten Teacher</CodeValue>
-		<ShortDescription>Kindergarten Teacher</ShortDescription>
-		<Description>Kindergarten Teacher</Description>
+		<CodeValue>Early Learning Assistant Teachers</CodeValue>
+		<ShortDescription>Early Learning Assistant Teachers</ShortDescription>
+		<Description>Assistant Teachers of general level instruction and/or services delivery classified by state and local practice from birth to Kindergarten.</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Early Learning Teachers</CodeValue>
+		<ShortDescription>Early Learning Teachers</ShortDescription>
+		<Description>Teachers of general level instruction and/or services delivery classified by state and local practice from birth to Kindergarten.</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	</StaffClassificationDescriptor>
+		<StaffClassificationDescriptor>
+		<CodeValue>Elementary School Counselor</CodeValue>
+		<ShortDescription>Elementary School Counselor</ShortDescription>
+		<Description>Elementary School Counselor</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -17,44 +30,37 @@
 		<ShortDescription>Elementary Teacher</ShortDescription>
 		<Description>Elementary Teacher</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
-	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>Secondary Teacher</CodeValue>
-		<ShortDescription>Secondary Teacher</ShortDescription>
-		<Description>Secondary Teacher</Description>
+		<CodeValue>Family Service Workers</CodeValue>
+		<ShortDescription>Family Service Workers</ShortDescription>
+		<Description>Professional staff members assigned specific duties related to staff providing in-home and other services (including needs assessment, development of service plans, family advocacy, and coordination of service delivery) to families of children participating in early care and education programs.</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>Ungraded Teacher</CodeValue>
-		<ShortDescription>Ungraded Teacher</ShortDescription>
-		<Description>Ungraded Teacher</Description>
+		<CodeValue>Health Specialists</CodeValue>
+		<ShortDescription>Health Specialists</ShortDescription>
+		<Description>Professional staff members or supervisors assigned specific duties related to providing any Health services that are not specific to mental health.</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>Paraprofessional/Instructional Aide</CodeValue>
-		<ShortDescription>Paraprofessional/Instructional Aide</ShortDescription>
-		<Description>Paraprofessional/Instructional Aide</Description>
+		<CodeValue>Home Visitors</CodeValue>
+		<ShortDescription>Home Visitors</ShortDescription>
+		<Description>Professional staff members assigned specific duties related to visiting a child or pregnant woman's home for the purpose of assisting parents in fostering the growth and development of their child.</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
-		<CodeValue>Elementary School Counselor</CodeValue>
-		<ShortDescription>Elementary School Counselor</ShortDescription>
-		<Description>Elementary School Counselor</Description>
+		<CodeValue>Instr Coordinator and Supervisor to the Staff</CodeValue>
+		<ShortDescription>Instructional Coordinator and Supervisor to the Staff</ShortDescription>
+		<Description>Instructional Coordinator and Supervisor to the Staff</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>	
+		<StaffClassificationDescriptor>
+		<CodeValue>Kindergarten Teacher</CodeValue>
+		<ShortDescription>Kindergarten Teacher</ShortDescription>
+		<Description>Kindergarten Teacher</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
-	<StaffClassificationDescriptor>
-		<CodeValue>Secondary School Counselor</CodeValue>
-		<ShortDescription>Secondary School Counselor</ShortDescription>
-		<Description>Secondary School Counselor</Description>
-		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
-	</StaffClassificationDescriptor>
-	<StaffClassificationDescriptor>
-		<CodeValue>School Counselor</CodeValue>
-		<ShortDescription>School Counselor</ShortDescription>
-		<Description>School Counselor</Description>
-		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
-	</StaffClassificationDescriptor>
-	<StaffClassificationDescriptor>
+		<StaffClassificationDescriptor>
 		<CodeValue>Librarian/Media Specialist</CodeValue>
 		<ShortDescription>Librarian/Media Specialist</ShortDescription>
 		<Description>Librarian/Media Specialist</Description>
@@ -79,6 +85,42 @@
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
+		<CodeValue>Mental Health Specialists</CodeValue>
+		<ShortDescription>Mental Health Specialists</ShortDescription>
+		<Description>Professional staff members assigned specific duties related to Mental Health.</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Nutrition Specialists</CodeValue>
+		<ShortDescription>Nutrition Specialists</ShortDescription>
+		<Description>Professional staff members assigned specific duties related to Nutrition.</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+		<StaffClassificationDescriptor>
+		<CodeValue>Paraprofessional/Instructional Aide</CodeValue>
+		<ShortDescription>Paraprofessional/Instructional Aide</ShortDescription>
+		<Description>Paraprofessional/Instructional Aide</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Part C Early Interventionists</CodeValue>
+		<ShortDescription>Professionals employed to provide Part C early intervention services</ShortDescription>
+		<Description>Professional staff members employed to provide early intervention services to infants and toddlers with disabilities or at-risk of experiencing a substantial developmental delay as defined by Part C of the Individuals with Disabilities Education Act (IDEA): The Early Intervention Program for Infants and Toddlers with Disabilities.</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Part C Service Coordinators</CodeValue>
+		<ShortDescription>Professionals employed to coordinate Part C early intervention services</ShortDescription>
+		<Description>Professional staff members employed to coordinate early intervention services to infants and toddlers with disabilities or at-risk of experiencing a substantial developmental delay as defined by Part C of the Individuals with Disabilities Education Act (IDEA): The Early Intervention Program for Infants and Toddlers with Disabilities.</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Pre-Kindergarten Teacher</CodeValue>
+		<ShortDescription>Pre-Kindergarten Teacher</ShortDescription>
+		<Description>Pre-Kindergarten Teacher</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
 		<CodeValue>School Administrator</CodeValue>
 		<ShortDescription>School Administrator</ShortDescription>
 		<Description>School Administrator</Description>
@@ -89,6 +131,12 @@
 		<ShortDescription>School Administrative Support Staff</ShortDescription>
 		<Description>School Administrative Support Staff</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>School Counselor</CodeValue>
+		<ShortDescription>School Counselor</ShortDescription>
+		<Description>School Counselor</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>	
 	<StaffClassificationDescriptor>
 		<CodeValue>School Psychologist</CodeValue>
@@ -97,9 +145,45 @@
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>	
 	<StaffClassificationDescriptor>
+		<CodeValue>Secondary Teacher</CodeValue>
+		<ShortDescription>Secondary Teacher</ShortDescription>
+		<Description>Secondary Teacher</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Secondary School Counselor</CodeValue>
+		<ShortDescription>Secondary School Counselor</ShortDescription>
+		<Description>Secondary School Counselor</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Social Workers</CodeValue>
+		<ShortDescription>Professionals that assist people with coping and solving everyday issues.</ShortDescription>
+		<Description>Social workers assist people by helping them cope with and solve issues in their everyday lives, such as family and personal problems and dealing with relationships.</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Special Education Teachers</CodeValue>
+		<ShortDescription>Teachers that provide special education to children with disabilities</ShortDescription>
+		<Description>Include teachers employed to provide special education services to children with disabilities, including preschool teachers, itinerant/consulting teachers, and home/hospital teachers. This should include teachers of children with disabilities in separate schools and facilities.</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Special Needs Specialists</CodeValue>
+		<ShortDescription>Special Needs Specialists</ShortDescription>
+		<Description>Professional staff members or supervisors assigned specific duties related to special needs learners.</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
 		<CodeValue>Student Support Services Staff (w/o Psychology)</CodeValue>
 		<ShortDescription>Student Support Services Staff (w/o Psychology)</ShortDescription>
 		<Description>Student Support Services Staff (w/o Psychology)</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Ungraded Teacher</CodeValue>
+		<ShortDescription>Ungraded Teacher</ShortDescription>
+		<Description>Ungraded Teacher</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
@@ -108,12 +192,6 @@
 		<Description>All Other Support Staff</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
-	<StaffClassificationDescriptor>
-		<CodeValue>Instr Coordinator and Supervisor to the Staff</CodeValue>
-		<ShortDescription>Instructional Coordinator and Supervisor to the Staff</ShortDescription>
-		<Description>Instructional Coordinator and Supervisor to the Staff</Description>
-		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
-	</StaffClassificationDescriptor>	
 	<StaffClassificationDescriptor>
 		<CodeValue>Missing</CodeValue>
 		<ShortDescription>Missing</ShortDescription>
