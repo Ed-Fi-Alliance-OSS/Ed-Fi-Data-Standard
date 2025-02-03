@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<DegreeDescriptor>
+		<CodeValue>Associate's degree</CodeValue>
+		<ShortDescription>Certification requires  an Associate's degree.</ShortDescription>
+		<Description>The certification requires at minimum an Associate's degree.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
+	</DegreeDescriptor>
+	<DegreeDescriptor>
+		<CodeValue>Bachelor's degree</CodeValue>
+		<ShortDescription>Certification requires  a Bachelor's degree.</ShortDescription>
+		<Description>The certification requires at minimum a Bachelor's degree.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
+	</DegreeDescriptor>
+	<DegreeDescriptor>
+		<CodeValue>Doctorate degree</CodeValue>
+		<ShortDescription>Certification requires  a Doctorate degree.</ShortDescription>
+		<Description>The certification requires at minimum a Doctorate degree.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
+	</DegreeDescriptor>
+	<DegreeDescriptor>
+		<CodeValue>High school diploma</CodeValue>
+		<ShortDescription>Certification requires  a High school diploma.</ShortDescription>
+		<Description>The certification requires at minimum a High school diploma.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
+	</DegreeDescriptor>	
+	<DegreeDescriptor>
+		<CodeValue>Master's degree</CodeValue>
+		<ShortDescription>Certification requires  a Master's degree.</ShortDescription>
+		<Description>The certification requires at minimum a Master's degree.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
+	</DegreeDescriptor>
+	<DegreeDescriptor>
+		<CodeValue>No degree required</CodeValue>
+		<ShortDescription>Certification doesn't have a degree requirement.</ShortDescription>
+		<Description>The certification doesn't have a degree requirement.</Description>
+		<Namespace>uri://edfi.org/DegreeDescriptor</Namespace>
+	</DegreeDescriptor>	
+</InterchangeDescriptors>
