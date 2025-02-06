@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+    <BackgroundCheckTypeDescriptor>
+		<CodeValue>City</CodeValue>
+		<ShortDescription>City</ShortDescription>
+		<Description>City</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckTypeDescriptor</Namespace>
+	</BackgroundCheckTypeDescriptor>
+	<BackgroundCheckTypeDescriptor>
+		<CodeValue>County</CodeValue>
+		<ShortDescription>County</ShortDescription>
+		<Description>County</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckTypeDescriptor</Namespace>
+	</BackgroundCheckTypeDescriptor>
+	<BackgroundCheckTypeDescriptor>
+		<CodeValue>Federal</CodeValue>
+		<ShortDescription>Federal</ShortDescription>
+		<Description>Federal</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckTypeDescriptor</Namespace>
+	</BackgroundCheckTypeDescriptor>
+	<BackgroundCheckTypeDescriptor>
+		<CodeValue>State</CodeValue>
+		<ShortDescription>State</ShortDescription>
+		<Description>State</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckTypeDescriptor</Namespace>
+	</BackgroundCheckTypeDescriptor>
+    <BackgroundCheckTypeDescriptor>
+		<CodeValue>FP City</CodeValue>
+		<ShortDescription>FP City</ShortDescription>
+		<Description>City</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckTypeDescriptor</Namespace>
+	</BackgroundCheckTypeDescriptor>
+	<BackgroundCheckTypeDescriptor>
+		<CodeValue>FP County</CodeValue>
+		<ShortDescription>FP County</ShortDescription>
+		<Description>County</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckTypeDescriptor</Namespace>
+	</BackgroundCheckTypeDescriptor>
+	<BackgroundCheckTypeDescriptor>
+		<CodeValue>FP Federal</CodeValue>
+		<ShortDescription>FP Federal</ShortDescription>
+		<Description>Federal</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckTypeDescriptor</Namespace>
+	</BackgroundCheckTypeDescriptor>
+	<BackgroundCheckTypeDescriptor>
+		<CodeValue>FP State</CodeValue>
+		<ShortDescription>FP State</ShortDescription>
+		<Description>State</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckTypeDescriptor</Namespace>
+	</BackgroundCheckTypeDescriptor>
+	<BackgroundCheckTypeDescriptor>
+		<CodeValue>Questionnaire</CodeValue>
+		<ShortDescription>Questionnaire</ShortDescription>
+		<Description>Moral Questionnaire</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckTypeDescriptor</Namespace>
+	</BackgroundCheckTypeDescriptor>
+</InterchangeDescriptors>
