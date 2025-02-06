@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+	<SalaryTypeDescriptor>
+		<CodeValue>Contract</CodeValue>
+		<ShortDescription>Staff salary is based on a contract.</ShortDescription>
+		<Description>Staff salary is based on a contract.</Description>
+		<Namespace>uri://ed-fi.org/SalaryTypeDescriptor</Namespace>
+	</SalaryTypeDescriptor>
+	<SalaryTypeDescriptor>
+		<CodeValue>Full Time</CodeValue>
+		<ShortDescription>Staff salary is based on a full-time employment.</ShortDescription>
+		<Description>Staff salary is based on a full-time employment.</Description>
+		<Namespace>uri://ed-fi.org/SalaryTypeDescriptor</Namespace>
+	</SalaryTypeDescriptor>
+	<SalaryTypeDescriptor>
+		<CodeValue>Hourly</CodeValue>
+		<ShortDescription>Staff salary is based on a hourly work.</ShortDescription>
+		<Description>Staff salary is based on a hourly work.</Description>
+		<Namespace>uri://ed-fi.org/SalaryTypeDescriptor</Namespace>
+	</SalaryTypeDescriptor>
+	<SalaryTypeDescriptor>
+		<CodeValue>Part Time</CodeValue>
+		<ShortDescription>Staff salary is based on a part-time employment.</ShortDescription>
+		<Description>Staff salary is based on a part-time employment.</Description>
+		<Namespace>uri://ed-fi.org/SalaryTypeDescriptor</Namespace>
+	</SalaryTypeDescriptor>
+	<SalaryTypeDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Staff salary is based on an other option.</ShortDescription>
+		<Description>Staff salary is based on an other option.</Description>
+		<Namespace>uri://ed-fi.org/SalaryTypeDescriptor</Namespace>
+	</SalaryTypeDescriptor>
+</InterchangeDescriptors>

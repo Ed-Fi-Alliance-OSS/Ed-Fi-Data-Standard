@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+	<AccreditationStatusDescriptor>
+		<CodeValue>Accredited</CodeValue>
+		<ShortDescription>Accredited</ShortDescription>
+		<Description>Accredited</Description>
+		<Namespace>uri://ed-fi.org/AccreditationStatusDescriptor</Namespace>
+	</AccreditationStatusDescriptor>
+	<AccreditationStatusDescriptor>
+		<CodeValue>Accredited - Warned</CodeValue>
+		<ShortDescription>Accredited - Warned</ShortDescription>
+		<Description>Accredited - Warned</Description>
+		<Namespace>uri://ed-fi.org/AccreditationStatusDescriptor</Namespace>
+	</AccreditationStatusDescriptor>
+	<AccreditationStatusDescriptor>
+		<CodeValue>Accredited - Probation</CodeValue>
+		<ShortDescription>Accredited - Probation</ShortDescription>
+		<Description>Accredited - Probation</Description>
+		<Namespace>uri://ed-fi.org/AccreditationStatusDescriptor</Namespace>
+	</AccreditationStatusDescriptor>
+	<AccreditationStatusDescriptor>
+		<CodeValue>Not Accredited</CodeValue>
+		<ShortDescription>Not Accredited</ShortDescription>
+		<Description>Not Accredited</Description>
+		<Namespace>uri://ed-fi.org/AccreditationStatusDescriptor</Namespace>
+	</AccreditationStatusDescriptor>
+<AccreditationStatusDescriptor>
+		<CodeValue>Not Rated</CodeValue>
+		<ShortDescription>Not Rated</ShortDescription>
+		<Description>Not Rated</Description>
+		<Namespace>uri://ed-fi.org/AccreditationStatusDescriptor</Namespace>
+	</AccreditationStatusDescriptor>
+</InterchangeDescriptors>
