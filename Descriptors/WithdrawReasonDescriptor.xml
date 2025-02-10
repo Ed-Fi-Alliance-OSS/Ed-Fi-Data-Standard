@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+	<WithdrawReasonDescriptor>
+		<CodeValue>Displeased</CodeValue>
+		<ShortDescription>Displeased</ShortDescription>
+		<Description>Displeased with the offer or hiring process</Description>
+		<Namespace>uri://ed-fi.org/WithdrawReasonDescriptor</Namespace>
+	</WithdrawReasonDescriptor>
+	<WithdrawReasonDescriptor>
+		<CodeValue>Dropped out</CodeValue>
+		<ShortDescription>Dropped out</ShortDescription>
+		<Description>No longer searching</Description>
+		<Namespace>uri://ed-fi.org/WithdrawReasonDescriptor</Namespace>
+	</WithdrawReasonDescriptor>
+	<WithdrawReasonDescriptor>
+		<CodeValue>Hired Elsewhere</CodeValue>
+		<ShortDescription>Hired Elsewhere</ShortDescription>
+		<Description>Accepted other offer</Description>
+		<Namespace>uri://ed-fi.org/WithdrawReasonDescriptor</Namespace>
+	</WithdrawReasonDescriptor>
+	<WithdrawReasonDescriptor>
+		<CodeValue>Not Eligible</CodeValue>
+		<ShortDescription>Not Eligible</ShortDescription>
+		<Description>Unable to submit required documents</Description>
+		<Namespace>uri://ed-fi.org/WithdrawReasonDescriptor</Namespace>
+	</WithdrawReasonDescriptor>
+	<WithdrawReasonDescriptor>
+		<CodeValue>Unknown</CodeValue>
+		<ShortDescription>Unknown</ShortDescription>
+		<Description>Unknown reason</Description>
+		<Namespace>uri://ed-fi.org/WithdrawReasonDescriptor</Namespace>
+	</WithdrawReasonDescriptor>
+</InterchangeDescriptors>

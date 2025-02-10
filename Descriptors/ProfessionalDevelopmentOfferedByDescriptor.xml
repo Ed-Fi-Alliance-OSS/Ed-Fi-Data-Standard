@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+    <ProfessionalDevelopmentOfferedByDescriptor>
+		<CodeValue>District</CodeValue>
+		<ShortDescription>District</ShortDescription>
+		<Description>District</Description>
+		<Namespace>uri://ed-fi.org/ProfessionalDevelopmentOfferedByDescriptor</Namespace>
+	</ProfessionalDevelopmentOfferedByDescriptor>
+		<ProfessionalDevelopmentOfferedByDescriptor>
+		<CodeValue>Educator Preparation Provider</CodeValue>
+		<ShortDescription>Educator Preparation Provider</ShortDescription>
+		<Description>Educator Preparation Provider</Description>
+		<Namespace>uri://ed-fi.org/ProfessionalDevelopmentOfferedByDescriptor</Namespace>
+	</ProfessionalDevelopmentOfferedByDescriptor>
+	<ProfessionalDevelopmentOfferedByDescriptor>
+		<CodeValue>School</CodeValue>
+		<ShortDescription>School</ShortDescription>
+		<Description>School</Description>
+		<Namespace>uri://ed-fi.org/ProfessionalDevelopmentOfferedByDescriptor</Namespace>
+	</ProfessionalDevelopmentOfferedByDescriptor>
+	<ProfessionalDevelopmentOfferedByDescriptor>
+		<CodeValue>State</CodeValue>
+		<ShortDescription>State</ShortDescription>
+		<Description>State</Description>
+		<Namespace>uri://ed-fi.org/ProfessionalDevelopmentOfferedByDescriptor</Namespace>
+	</ProfessionalDevelopmentOfferedByDescriptor>
+</InterchangeDescriptors>
