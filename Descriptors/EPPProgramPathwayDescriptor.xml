@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+	<EPPProgramPathwayDescriptor>
+		<CodeValue>Fellowship</CodeValue>
+		<ShortDescription>Fellowship</ShortDescription>
+		<Description>Fellowship</Description>
+		<Namespace>uri://ed-fi.org/EPPProgramPathwayDescriptor</Namespace>
+	</EPPProgramPathwayDescriptor>
+	<EPPProgramPathwayDescriptor>
+		<CodeValue>Internship</CodeValue>
+		<ShortDescription>Internship</ShortDescription>
+		<Description>Internship</Description>
+		<Namespace>uri://ed-fi.org/EPPProgramPathwayDescriptor</Namespace>
+	</EPPProgramPathwayDescriptor>
+	<EPPProgramPathwayDescriptor>
+		<CodeValue>Residency</CodeValue>
+		<ShortDescription>Residency</ShortDescription>
+		<Description>Residency</Description>
+		<Namespace>uri://ed-fi.org/EPPProgramPathwayDescriptor</Namespace>
+	</EPPProgramPathwayDescriptor>
+	<EPPProgramPathwayDescriptor>
+		<CodeValue>Traditional</CodeValue>
+		<ShortDescription>Traditional</ShortDescription>
+		<Description>Traditional</Description>
+		<Namespace>uri://ed-fi.org/EPPProgramPathwayDescriptor</Namespace>
+	</EPPProgramPathwayDescriptor>
+	<EPPProgramPathwayDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/EPPProgramPathwayDescriptor</Namespace>
+	</EPPProgramPathwayDescriptor>
+</InterchangeDescriptors>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+	<ApplicationEventResultDescriptor>
+		<CodeValue>Advance</CodeValue>
+		<ShortDescription>Advance</ShortDescription>
+		<Description>Advance to next stage</Description>
+		<Namespace>uri://ed-fi.org/ApplicationEventResultDescriptor</Namespace>
+	</ApplicationEventResultDescriptor>
+	<ApplicationEventResultDescriptor>
+		<CodeValue>Highly Recommend</CodeValue>
+		<ShortDescription>Highly Recommend</ShortDescription>
+		<Description>Advance to next stage, highly recommended</Description>
+		<Namespace>uri://ed-fi.org/ApplicationEventResultDescriptor</Namespace>
+	</ApplicationEventResultDescriptor>
+	<ApplicationEventResultDescriptor>
+		<CodeValue>NA</CodeValue>
+		<ShortDescription>NA</ShortDescription>
+		<Description>Not Available</Description>
+		<Namespace>uri://ed-fi.org/ApplicationEventResultDescriptor</Namespace>
+	</ApplicationEventResultDescriptor>
+	<ApplicationEventResultDescriptor>
+		<CodeValue>Recommend</CodeValue>
+		<ShortDescription>Recommend</ShortDescription>
+		<Description>Advance to next stage, recommended</Description>
+		<Namespace>uri://ed-fi.org/ApplicationEventResultDescriptor</Namespace>
+	</ApplicationEventResultDescriptor>
+	<ApplicationEventResultDescriptor>
+		<CodeValue>Reservations</CodeValue>
+		<ShortDescription>Reservations</ShortDescription>
+		<Description>Advance to next stage with reservations</Description>
+		<Namespace>uri://ed-fi.org/ApplicationEventResultDescriptor</Namespace>
+	</ApplicationEventResultDescriptor>
+	<ApplicationEventResultDescriptor>
+		<CodeValue>Screen out</CodeValue>
+		<ShortDescription>Screen out</ShortDescription>
+		<Description>Screen out</Description>
+		<Namespace>uri://ed-fi.org/ApplicationEventResultDescriptor</Namespace>
+	</ApplicationEventResultDescriptor>
+</InterchangeDescriptors>

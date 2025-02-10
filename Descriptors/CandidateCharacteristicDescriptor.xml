@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/EXTENSION-Interchange-Descriptors-Extension.xsd">
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Asylee</CodeValue>
+		<ShortDescription>Asylee</ShortDescription>
+		<Description>Asylee</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Displaced Homemaker</CodeValue>
+		<ShortDescription>Displaced Homemaker</ShortDescription>
+		<Description>Displaced Homemaker</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>First Generation College Student</CodeValue>
+		<ShortDescription>First Generation College Student</ShortDescription>
+		<Description>First Generation College Student</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Foster Care</CodeValue>
+		<ShortDescription>Foster Care</ShortDescription>
+		<Description>Foster Care</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Homeless</CodeValue>
+		<ShortDescription>Homeless</ShortDescription>
+		<Description>Homeless</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Immigrant</CodeValue>
+		<ShortDescription>Immigrant</ShortDescription>
+		<Description>Immigrant</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Migrant</CodeValue>
+		<ShortDescription>Migrant</ShortDescription>
+		<Description>Migrant</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Neglected or Delinquent</CodeValue>
+		<ShortDescription>Neglected or Delinquent</ShortDescription>
+		<Description>Neglected or Delinquent</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Parent in Military</CodeValue>
+		<ShortDescription>Parent in Military</ShortDescription>
+		<Description>Parent in Military</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Pregnant</CodeValue>
+		<ShortDescription>Pregnant</ShortDescription>
+		<Description>Pregnant</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Refugee</CodeValue>
+		<ShortDescription>Refugee</ShortDescription>
+		<Description>Refugee</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Runaway</CodeValue>
+		<ShortDescription>Runaway</ShortDescription>
+		<Description>Runaway</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Section 504 Handicapped</CodeValue>
+		<ShortDescription>Section 504 Handicapped</ShortDescription>
+		<Description>Section 504 Handicapped</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Single Parent</CodeValue>
+		<ShortDescription>Single Parent</ShortDescription>
+		<Description>Single Parent</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Unaccompanied Youth</CodeValue>
+		<ShortDescription>Unaccompanied Youth</ShortDescription>
+		<Description>Unaccompanied Youth</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+	<CandidateCharacteristicDescriptor>
+		<CodeValue>Veteran</CodeValue>
+		<ShortDescription>Veteran</ShortDescription>
+		<Description>Veteran</Description>
+		<Namespace>uri://ed-fi.org/CandidateCharacteristicDescriptor</Namespace>
+	</CandidateCharacteristicDescriptor>
+</InterchangeDescriptors>
