@@ -19,15 +19,21 @@
 		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
 	</ApplicationStatusDescriptor>
 	<ApplicationStatusDescriptor>
-		<CodeValue>In Progress</CodeValue>
-		<ShortDescription>In Progress</ShortDescription>
-		<Description>In Progress</Description>
+		<CodeValue>Incomplete</CodeValue>
+		<ShortDescription>Incomplete</ShortDescription>
+		<Description>Incomplete</Description>
 		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
 	</ApplicationStatusDescriptor>
-	<ApplicationStatusDescriptor>
+		<ApplicationStatusDescriptor>
 		<CodeValue>Interview</CodeValue>
 		<ShortDescription>Interview</ShortDescription>
 		<Description>In Person Interview</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>In Progress</CodeValue>
+		<ShortDescription>In Progress</ShortDescription>
+		<Description>In Progress</Description>
 		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
 	</ApplicationStatusDescriptor>
 	<ApplicationStatusDescriptor>
@@ -58,12 +64,6 @@
 		<CodeValue>Rejected</CodeValue>
 		<ShortDescription>Rejected</ShortDescription>
 		<Description>Rejected</Description>
-		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
-	</ApplicationStatusDescriptor>
-	<ApplicationStatusDescriptor>
-		<CodeValue>Incomplete</CodeValue>
-		<ShortDescription>Incomplete</ShortDescription>
-		<Description>Incomplete</Description>
 		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
 	</ApplicationStatusDescriptor>
 	<ApplicationStatusDescriptor>

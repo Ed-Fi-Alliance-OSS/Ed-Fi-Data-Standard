@@ -67,12 +67,6 @@
 		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
 	</ApplicationSourceDescriptor>
 	<ApplicationSourceDescriptor>
-		<CodeValue>Other</CodeValue>
-		<ShortDescription>Other</ShortDescription>
-		<Description>Other</Description>
-		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
-	</ApplicationSourceDescriptor>
-	<ApplicationSourceDescriptor>
 		<CodeValue>Print Ad</CodeValue>
 		<ShortDescription>Print Ad</ShortDescription>
 		<Description>Print Advertisement</Description>
@@ -118,6 +112,12 @@
 		<CodeValue>Word of Mouth</CodeValue>
 		<ShortDescription>Word of Mouth</ShortDescription>
 		<Description>Word of Mouth</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+		<ApplicationSourceDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
 		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
 	</ApplicationSourceDescriptor>
 </InterchangeDescriptors>
