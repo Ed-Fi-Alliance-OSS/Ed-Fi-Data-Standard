@@ -43,8 +43,8 @@
 		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
 	</EPPDegreeTypeDescriptor>
 	<EPPDegreeTypeDescriptor>
-		<CodeValue>Master of Science in Education</CodeValue>
-		<ShortDescription>Master of Science in Education</ShortDescription>
+		<CodeValue>Master of Education</CodeValue>
+		<ShortDescription>Master of Education</ShortDescription>
 		<Description>Master of Science in Education</Description>
 		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
 	</EPPDegreeTypeDescriptor>
