@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<ApplicationSourceDescriptor>
+		<CodeValue>Craigslist</CodeValue>
+		<ShortDescription>Craigslist</ShortDescription>
+		<Description>Craigslist</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>District Website</CodeValue>
+		<ShortDescription>District Website</ShortDescription>
+		<Description>District Website</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Email</CodeValue>
+		<ShortDescription>Email</ShortDescription>
+		<Description>Email</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Employee</CodeValue>
+		<ShortDescription>Employee</ShortDescription>
+		<Description>Current Employee</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Facebook</CodeValue>
+		<ShortDescription>Facebook</ShortDescription>
+		<Description>Facebook</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Indeed</CodeValue>
+		<ShortDescription>Indeed</ShortDescription>
+		<Description>Indeed</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Instagram</CodeValue>
+		<ShortDescription>Instagram</ShortDescription>
+		<Description>Instagram</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Job Fair</CodeValue>
+		<ShortDescription>Job Fair</ShortDescription>
+		<Description>Community Job Fair</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>K12jobs.com</CodeValue>
+		<ShortDescription>K12jobs.com</ShortDescription>
+		<Description>K12jobs.com</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>LinkedIn</CodeValue>
+		<ShortDescription>LinkedIn</ShortDescription>
+		<Description>LinkedIn</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Newspaper</CodeValue>
+		<ShortDescription>Newspaper</ShortDescription>
+		<Description>Newspaper</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Print Ad</CodeValue>
+		<ShortDescription>Print Ad</ShortDescription>
+		<Description>Print Advertisement</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Radio</CodeValue>
+		<ShortDescription>Radio</ShortDescription>
+		<Description>Radio</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Teachers-Teachers.com</CodeValue>
+		<ShortDescription>Teachers-Teachers.com</ShortDescription>
+		<Description>Teachers-Teachers.com</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>TFANet</CodeValue>
+		<ShortDescription>TFANet</ShortDescription>
+		<Description>TFANet Job Board</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Twitter</CodeValue>
+		<ShortDescription>Twitter</ShortDescription>
+		<Description>Twitter</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>University</CodeValue>
+		<ShortDescription>University</ShortDescription>
+		<Description>University Job Fair</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>USTeach.com</CodeValue>
+		<ShortDescription>USTeach.com</ShortDescription>
+		<Description>USTeach.com</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+	<ApplicationSourceDescriptor>
+		<CodeValue>Word of Mouth</CodeValue>
+		<ShortDescription>Word of Mouth</ShortDescription>
+		<Description>Word of Mouth</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+		<ApplicationSourceDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/ApplicationSourceDescriptor</Namespace>
+	</ApplicationSourceDescriptor>
+</InterchangeDescriptors>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<HireStatusDescriptor>
+		<CodeValue>Applied</CodeValue>
+		<ShortDescription>Applied</ShortDescription>
+		<Description>Application made</Description>
+		<Namespace>uri://ed-fi.org/HireStatusDescriptor</Namespace>
+	</HireStatusDescriptor>
+	<HireStatusDescriptor>
+		<CodeValue>Hired</CodeValue>
+		<ShortDescription>Hired</ShortDescription>
+		<Description>Applicant was hired</Description>
+		<Namespace>uri://ed-fi.org/HireStatusDescriptor</Namespace>
+	</HireStatusDescriptor>
+	<HireStatusDescriptor>
+		<CodeValue>Not Accepted</CodeValue>
+		<ShortDescription>Not Accepted</ShortDescription>
+		<Description>Offer not accepted</Description>
+		<Namespace>uri://ed-fi.org/HireStatusDescriptor</Namespace>
+	</HireStatusDescriptor>
+	<HireStatusDescriptor>
+		<CodeValue>Offered</CodeValue>
+		<ShortDescription>Offered</ShortDescription>
+		<Description>Offer made for employment</Description>
+		<Namespace>uri://ed-fi.org/HireStatusDescriptor</Namespace>
+	</HireStatusDescriptor>
+	<HireStatusDescriptor>
+		<CodeValue>Recommended</CodeValue>
+		<ShortDescription>Recommended</ShortDescription>
+		<Description>Recommended for hire</Description>
+		<Namespace>uri://ed-fi.org/HireStatusDescriptor</Namespace>
+	</HireStatusDescriptor>
+	<HireStatusDescriptor>
+		<CodeValue>Rejected</CodeValue>
+		<ShortDescription>Rejected</ShortDescription>
+		<Description>Rejected by district</Description>
+		<Namespace>uri://ed-fi.org/HireStatusDescriptor</Namespace>
+	</HireStatusDescriptor>
+	<HireStatusDescriptor>
+		<CodeValue>Withdrawn</CodeValue>
+		<ShortDescription>Withdrawn</ShortDescription>
+		<Description>Application withdrawn by applicant</Description>
+		<Namespace>uri://ed-fi.org/HireStatusDescriptor</Namespace>
+	</HireStatusDescriptor>
+</InterchangeDescriptors>
