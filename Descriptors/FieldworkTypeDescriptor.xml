@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<FieldworkTypeDescriptor>
+		<CodeValue>Clinical Experience</CodeValue>
+		<ShortDescription>Clinical Experience</ShortDescription>
+		<Description>Clinical Experience</Description>
+		<Namespace>uri://ed-fi.org/FieldworkTypeDescriptor</Namespace>
+	</FieldworkTypeDescriptor>
+	<FieldworkTypeDescriptor>
+		<CodeValue>Field Placement</CodeValue>
+		<ShortDescription>Field Placement</ShortDescription>
+		<Description>Field Placement</Description>
+		<Namespace>uri://ed-fi.org/FieldworkTypeDescriptor</Namespace>
+	</FieldworkTypeDescriptor>
+	<FieldworkTypeDescriptor>
+		<CodeValue>Internship</CodeValue>
+		<ShortDescription>Internship</ShortDescription>
+		<Description>Internship</Description>
+		<Namespace>uri://ed-fi.org/FieldworkTypeDescriptor</Namespace>
+	</FieldworkTypeDescriptor>
+	<FieldworkTypeDescriptor>
+		<CodeValue>Residential Program</CodeValue>
+		<ShortDescription>Residential Program</ShortDescription>
+		<Description>Residential Program</Description>
+		<Namespace>uri://ed-fi.org/FieldworkTypeDescriptor</Namespace>
+	</FieldworkTypeDescriptor>
+	<FieldworkTypeDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/FieldworkTypeDescriptor</Namespace>
+	</FieldworkTypeDescriptor>
+</InterchangeDescriptors>

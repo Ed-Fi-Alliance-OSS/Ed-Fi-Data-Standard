@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alternate</CodeValue>
+		<ShortDescription>Alternate</ShortDescription>
+		<Description>Alternate</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+    	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt ACT</CodeValue>
+		<ShortDescription>Alt ACT</ShortDescription>
+		<Description>Alt ACT-Houston @ Dallas</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt AmeriCorps</CodeValue>
+		<ShortDescription>Alt AmeriCorps</ShortDescription>
+		<Description>Alt AmeriCorps</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt ECAP</CodeValue>
+		<ShortDescription>Alt ECAP</ShortDescription>
+		<Description>Alt ECAP</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt iTeach</CodeValue>
+		<ShortDescription>Alt iTeach</ShortDescription>
+		<Description>Alt iTeach Texas</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt Region</CodeValue>
+		<ShortDescription>Alt Region</ShortDescription>
+		<Description>Alt Region 11</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt Texas</CodeValue>
+		<ShortDescription>Alt Texas</ShortDescription>
+		<Description>Alt Texas Teachers</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt TFA</CodeValue>
+		<ShortDescription>Alt TFA</ShortDescription>
+		<Description>Alt TFA</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt TNTP</CodeValue>
+		<ShortDescription>Alt TNTP</ShortDescription>
+		<Description>Alt Teaching Fellow</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt Web</CodeValue>
+		<ShortDescription>Alt Web</ShortDescription>
+		<Description>Alt Web Centric</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+		<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Alt Other</CodeValue>
+		<ShortDescription>Alt Other</ShortDescription>
+		<Description>Alt Other</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Traditional</CodeValue>
+		<ShortDescription>Traditional</ShortDescription>
+		<Description>Traditional Certification Program</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+	<EducatorPreparationProgramTypeDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other certification program</Description>
+		<Namespace>uri://ed-fi.org/EducatorPreparationProgramTypeDescriptor</Namespace>
+	</EducatorPreparationProgramTypeDescriptor>
+</InterchangeDescriptors>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<OpenStaffPositionEventTypeDescriptor>
+		<CodeValue>Closed</CodeValue>
+		<ShortDescription>Closed</ShortDescription>
+		<Description>Closed without being filled by a candidate</Description>
+		<Namespace>uri://ed-fi.org/OpenStaffPositionEventTypeDescriptor</Namespace>
+	</OpenStaffPositionEventTypeDescriptor>
+	<OpenStaffPositionEventTypeDescriptor>
+		<CodeValue>Declared</CodeValue>
+		<ShortDescription>Declared</ShortDescription>
+		<Description>Need has been identified but the request has not been funded and approved</Description>
+		<Namespace>uri://ed-fi.org/OpenStaffPositionEventTypeDescriptor</Namespace>
+	</OpenStaffPositionEventTypeDescriptor>
+		<OpenStaffPositionEventTypeDescriptor>
+		<CodeValue>Filled - forced placement</CodeValue>
+		<ShortDescription>Filled - forced placement</ShortDescription>
+		<Description>Filled by a candidate by forced placement</Description>
+		<Namespace>uri://ed-fi.org/OpenStaffPositionEventTypeDescriptor</Namespace>
+	</OpenStaffPositionEventTypeDescriptor>
+	<OpenStaffPositionEventTypeDescriptor>
+		<CodeValue>Filled - mutual consent</CodeValue>
+		<ShortDescription>Filled - mutual consent</ShortDescription>
+		<Description>Filled by a candidate with mutual consent</Description>
+		<Namespace>uri://ed-fi.org/OpenStaffPositionEventTypeDescriptor</Namespace>
+	</OpenStaffPositionEventTypeDescriptor>
+	<OpenStaffPositionEventTypeDescriptor>
+		<CodeValue>Posted</CodeValue>
+		<ShortDescription>Posted</ShortDescription>
+		<Description>The vacancy request has been funded and approved</Description>
+		<Namespace>uri://ed-fi.org/OpenStaffPositionEventTypeDescriptor</Namespace>
+	</OpenStaffPositionEventTypeDescriptor>
+	<OpenStaffPositionEventTypeDescriptor>
+		<CodeValue>Withdrawn</CodeValue>
+		<ShortDescription>Withdrawn</ShortDescription>
+		<Description>Withdrawn</Description>
+		<Namespace>uri://ed-fi.org/OpenStaffPositionEventTypeDescriptor</Namespace>
+	</OpenStaffPositionEventTypeDescriptor>
+</InterchangeDescriptors>

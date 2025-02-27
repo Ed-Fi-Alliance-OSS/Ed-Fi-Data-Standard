@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<EPPDegreeTypeDescriptor>
+		<CodeValue>Bachelor of Arts</CodeValue>
+		<ShortDescription>Bachelor of Arts</ShortDescription>
+		<Description>Bachelor of Arts</Description>
+		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
+	</EPPDegreeTypeDescriptor>
+	<EPPDegreeTypeDescriptor>
+		<CodeValue>Bachelor of Science</CodeValue>
+		<ShortDescription>Bachelor of Science</ShortDescription>
+		<Description>Bachelor of Science</Description>
+		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
+	</EPPDegreeTypeDescriptor>
+		<EPPDegreeTypeDescriptor>
+		<CodeValue>Doctor of Philosophy</CodeValue>
+		<ShortDescription>Doctor of Philosophy</ShortDescription>
+		<Description>Doctor of Philosophy</Description>
+		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
+	</EPPDegreeTypeDescriptor>
+		<EPPDegreeTypeDescriptor>
+		<CodeValue>Educational Doctorate</CodeValue>
+		<ShortDescription>Educational Doctorate</ShortDescription>
+		<Description>Educational Doctorate</Description>
+		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
+	</EPPDegreeTypeDescriptor>
+	<EPPDegreeTypeDescriptor>
+		<CodeValue>Educational Specialist</CodeValue>
+		<ShortDescription>Educational Specialist</ShortDescription>
+		<Description>Educational Specialist</Description>
+		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
+	</EPPDegreeTypeDescriptor>
+	<EPPDegreeTypeDescriptor>
+		<CodeValue>Master of Arts</CodeValue>
+		<ShortDescription>Master of Arts</ShortDescription>
+		<Description>Master of Arts</Description>
+		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
+	</EPPDegreeTypeDescriptor>
+		<EPPDegreeTypeDescriptor>
+		<CodeValue>Master of Science</CodeValue>
+		<ShortDescription>Master of Science</ShortDescription>
+		<Description>Master of Science</Description>
+		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
+	</EPPDegreeTypeDescriptor>
+	<EPPDegreeTypeDescriptor>
+		<CodeValue>Master of Education</CodeValue>
+		<ShortDescription>Master of Education</ShortDescription>
+		<Description>Master of Science in Education</Description>
+		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
+	</EPPDegreeTypeDescriptor>
+	<EPPDegreeTypeDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/EPPDegreeTypeDescriptor</Namespace>
+	</EPPDegreeTypeDescriptor>
+</InterchangeDescriptors>
