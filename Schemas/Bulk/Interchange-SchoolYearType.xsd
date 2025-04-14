@@ -10,7 +10,7 @@
     </xs:annotation>
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
-        <xs:element name="SchoolYearType" type="SchoolYearType" />
+        <xs:element name="SchoolYearType" type="SchoolYearTypeComplex" />
       </xs:choice>
     </xs:complexType>
   </xs:element>

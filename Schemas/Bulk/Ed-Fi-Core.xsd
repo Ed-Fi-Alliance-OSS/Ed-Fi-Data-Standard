@@ -13274,13 +13274,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="SchoolYearType">
-  <xs:sequence>
-    <xs:element name="SchoolYear" type="xs:gYear" />
-    <xs:element name="SchoolYearDescription" type="xs:string" />
-    <xs:element name="CurrentSchoolYear" type="xs:boolean" />
-  </xs:sequence>
-</xs:complexType>
   <xs:complexType name="ProgramIdentityType">
     <xs:annotation>
       <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of a Program.</xs:documentation>
@@ -23950,4 +23943,11 @@
     </xs:annotation>
     <xs:restriction base="xs:int" />
   </xs:simpleType>
+  <xs:complexType name="SchoolYearTypeComplex">
+    <xs:sequence>
+      <xs:element name="SchoolYear" type="xs:gYear" />
+      <xs:element name="SchoolYearDescription" type="xs:string" />
+      <xs:element name="CurrentSchoolYear" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
 </xs:schema>
