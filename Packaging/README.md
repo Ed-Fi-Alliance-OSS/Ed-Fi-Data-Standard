@@ -6,9 +6,15 @@ loaded into an Ed-Fi API in bulk using the Client Bulk Loader utility from the
 ODS/API Platform. The "partial" directory contains a small sub-set of the files,
 useful for rapid testing of a small but diverse set of endpoints.k
 
+## Developer Instructions
+
+This package is built from files in the [Ed-Fi-Standard
+repository](https://github.com/Ed-Fi-Alliance-OSS/Ed-Fi-Data-Standard). Review
+the `build.ps1` script for details on building and publishing a package.
+
 ## Legal Information
 
-Copyright (c) 2024 Ed-Fi Alliance, LLC and contributors.
+Copyright (c) 2025 Ed-Fi Alliance, LLC and contributors.
 
 Licensed under the [Apache License, Version 2.0](LICENSE) (the "License").
 
