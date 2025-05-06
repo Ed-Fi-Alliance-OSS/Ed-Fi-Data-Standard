@@ -13,16 +13,16 @@ When using Azure, requires either use of the
 setting the `NuGetApiKey` parameter.
 
 .EXAMPLE
-.\build.ps1 -Version "5.2.0" -Configuration "Release"
+.\packaging.ps1 -Version "5.2.0" -Configuration "Release"
 Builds a NuGet package with version 5.2.0 in Release configuration.
 
 .EXAMPLE
-.\build.ps1 -Version "5.2.0" -Push -NuGetApiKey "your-api-key"
+.\packaging.ps1 -Version "5.2.0" -Push -NuGetApiKey "your-api-key"
 Builds a NuGet package with version 5.2.0 and pushes it to the default NuGet
 feed using the provided API key.
 
 .EXAMPLE
-.\build.ps1 -Version "5.2.0" -Push -NuGetApiKey "your-api-key" -EdFiNuGetFeed "https://custom-feed-url"
+.\packaging.ps1 -Version "5.2.0" -Push -NuGetApiKey "your-api-key" -EdFiNuGetFeed "https://custom-feed-url"
 Builds a NuGet package with version 5.2.0 and pushes it to a custom NuGet feed
 using the provided API key.
 
