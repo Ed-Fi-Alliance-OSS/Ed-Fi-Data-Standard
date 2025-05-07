@@ -55,6 +55,7 @@ param (
 
     # The URL of the NuGet feed where the package will be pushed. Defaults to
     # Ed-Fi's official NuGet package feed.
+    [Parameter(Mandatory=$false)]
     [string]
     $EdFiNuGetFeed = "https://pkgs.dev.azure.com/ed-fi-alliance/Ed-Fi-Alliance-OSS/_packaging/EdFi/nuget/v3/index.json",
 
@@ -63,7 +64,14 @@ param (
     # using Azure Artifacts.
     [Parameter(Mandatory=$false)]    
     [string]
-    $NuGetApiKey = "az"
+    $NuGetApiKey = "az",
+
+    # Specifies whether to authenticate with Azure Artifacts using the
+    # artifacts-credprovider. This is optional and defaults to false. Use this
+    # if you previously authenticated but now have an expired token.
+    [Parameter(Mandatory=$false)]
+    [Switch]
+    $AuthenticateWithAzureArtifacts = $false
 )
 
 dotnet pack ./ -c release -p:PackageVersion=$Version --output $PSScriptRoot
@@ -79,5 +87,12 @@ if ($Push) {
 
     $packageFile = "$PSScriptRoot/EdFi.DataStandard.SampleData.$Version.nupkg"
     Write-Output "Pushing the NuGet Package $packageFile to $EdFiNuGetFeed"
-    dotnet nuget push $packageFile --source $EdFiNuGetFeed --api-key $NuGetApiKey
+
+    $interactive = ""
+    if ($AuthenticateWithAzureArtifacts) {
+        $interactive = "--interactive"
+        Write-Output "Using interactive authentication with Azure Artifacts."
+    }
+    
+    dotnet nuget push $packageFile --source $EdFiNuGetFeed --api-key $NuGetApiKey $interactive
 }
