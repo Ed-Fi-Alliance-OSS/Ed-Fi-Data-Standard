@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeStudentAssessment xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-StudentEnrollment.xsd">
+<InterchangeStudentAssessment xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 D:/Werk/Simpat/Projects/Edfi/JIRA/DATASTD-2409/interchanges/Interchange-StudentAssessment.xsd">
 	<StudentAssessment>
 		<StudentAssessmentIdentifier>1142F777-39A3-3445-845E-BA127238D227</StudentAssessmentIdentifier>
 		<AdministrationDate>2011-12-25T00:00:00</AdministrationDate>
@@ -10,9 +10,9 @@
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</ScoreResult>
 		<PerformanceLevel>
-			<PerformanceLevelMet>true</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Fail</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelMet>true</PerformanceLevelMet>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
@@ -26974,9 +26974,9 @@
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
 		</ScoreResult>
 		<PerformanceLevel>
-			<PerformanceLevelMet>false</PerformanceLevelMet>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Minimum</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
+			<PerformanceLevelMet>false</PerformanceLevelMet>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>

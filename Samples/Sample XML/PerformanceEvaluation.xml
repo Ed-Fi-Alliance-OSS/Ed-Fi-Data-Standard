@@ -6,23 +6,23 @@
     <PerformanceEvaluationType>uri://ed-fi.org/PerformanceEvaluationTypeDescriptor#Formal Eval</PerformanceEvaluationType>
     <PerformanceEvaluationRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>0</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>0</MaxNumericRating>
     </PerformanceEvaluationRatingLevel>
     <PerformanceEvaluationRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>1</MinRating>
-      <MaxRating>1</MaxRating>
+      <MinNumericRating>1</MinNumericRating>
+      <MaxNumericRating>1</MaxNumericRating>
     </PerformanceEvaluationRatingLevel>
     <PerformanceEvaluationRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>2</MinRating>
-      <MaxRating>2</MaxRating>
+      <MinNumericRating>2</MinNumericRating>
+      <MaxNumericRating>2</MaxNumericRating>
     </PerformanceEvaluationRatingLevel>
     <PerformanceEvaluationRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>3</MinRating>
-      <MaxRating>3</MaxRating>
+      <MinNumericRating>3</MinNumericRating>
+      <MaxNumericRating>3</MaxNumericRating>
     </PerformanceEvaluationRatingLevel>
     <SchoolYear>2021-2022</SchoolYear>
     <EvaluationPeriod>uri://ed-fi.org/EvaluationPeriodDescriptor#MOY</EvaluationPeriod>
@@ -48,27 +48,27 @@
       </PerformanceEvaluationIdentity>
     </PerformanceEvaluationReference>
     <EvaluationTitle>Formal Observation</EvaluationTitle>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <EvaluationRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </EvaluationRatingLevel>
     <EvaluationRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </EvaluationRatingLevel>
     <EvaluationRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </EvaluationRatingLevel>
     <EvaluationRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </EvaluationRatingLevel>
   </Evaluation>
   <EvaluationObjective>
@@ -93,27 +93,27 @@
     </EvaluationReference>
     <EvaluationObjectiveTitle>ALIGNMENT AND OBJECTIVES</EvaluationObjectiveTitle>
     <SortOrder>1</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ObjectiveRatingLevel>
   </EvaluationObjective>
   <EvaluationObjective>
@@ -138,27 +138,27 @@
     </EvaluationReference>
     <EvaluationObjectiveTitle>INSTRUCTIONAL DELIVERY METHODS</EvaluationObjectiveTitle>
     <SortOrder>2</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ObjectiveRatingLevel>
   </EvaluationObjective>
   <EvaluationObjective>
@@ -183,27 +183,27 @@
     </EvaluationReference>
     <EvaluationObjectiveTitle>ADDRESS MISCONCEPTIONS</EvaluationObjectiveTitle>
     <SortOrder>3</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ObjectiveRatingLevel>
   </EvaluationObjective>
   <EvaluationObjective>
@@ -228,27 +228,27 @@
     </EvaluationReference>
     <EvaluationObjectiveTitle>CLEAR AND CONCISE SPEECH</EvaluationObjectiveTitle>
     <SortOrder>4</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ObjectiveRatingLevel>
   </EvaluationObjective>
   <EvaluationObjective>
@@ -273,27 +273,27 @@
     </EvaluationReference>
     <EvaluationObjectiveTitle>PROFESSIONALISM</EvaluationObjectiveTitle>
     <SortOrder>5</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ObjectiveRatingLevel>
   </EvaluationObjective>
   <EvaluationObjective>
@@ -318,27 +318,27 @@
     </EvaluationReference>
     <EvaluationObjectiveTitle>CLASSROOM MANAGEMENT AND CULTURE</EvaluationObjectiveTitle>
     <SortOrder>6</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ObjectiveRatingLevel>
   </EvaluationObjective>
   <EvaluationObjective>
@@ -363,27 +363,27 @@
     </EvaluationReference>
     <EvaluationObjectiveTitle>OVERALL</EvaluationObjectiveTitle>
     <SortOrder>7</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ObjectiveRatingLevel>
     <ObjectiveRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ObjectiveRatingLevel>
   </EvaluationObjective>
   <EvaluationElement>
@@ -413,27 +413,27 @@
     </EvaluationObjectiveReference>
     <EvaluationElementTitle>ALIGNMENT AND OBJECTIVES</EvaluationElementTitle>
     <SortOrder>1</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ElementRatingLevel>
   </EvaluationElement>
   <EvaluationElement>
@@ -463,27 +463,27 @@
     </EvaluationObjectiveReference>
     <EvaluationElementTitle>INSTRUCTIONAL DELIVERY METHODS</EvaluationElementTitle>
     <SortOrder>2</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ElementRatingLevel>
   </EvaluationElement>
   <EvaluationElement>
@@ -513,27 +513,27 @@
     </EvaluationObjectiveReference>
     <EvaluationElementTitle>ADDRESS MISCONCEPTIONS</EvaluationElementTitle>
     <SortOrder>3</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ElementRatingLevel>
   </EvaluationElement>
   <EvaluationElement>
@@ -563,27 +563,27 @@
     </EvaluationObjectiveReference>
     <EvaluationElementTitle>CLEAR AND CONCISE SPEECH</EvaluationElementTitle>
     <SortOrder>4</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ElementRatingLevel>
   </EvaluationElement>
   <EvaluationElement>
@@ -613,27 +613,27 @@
     </EvaluationObjectiveReference>
     <EvaluationElementTitle>PROFESSIONALISM</EvaluationElementTitle>
     <SortOrder>5</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ElementRatingLevel>
   </EvaluationElement>
   <EvaluationElement>
@@ -663,27 +663,27 @@
     </EvaluationObjectiveReference>
     <EvaluationElementTitle>CLASSROOM MANAGEMENT AND CULTURE</EvaluationElementTitle>
     <SortOrder>6</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ElementRatingLevel>
   </EvaluationElement>
   <EvaluationElement>
@@ -713,27 +713,27 @@
     </EvaluationObjectiveReference>
     <EvaluationElementTitle>OVERALL</EvaluationElementTitle>
     <SortOrder>7</SortOrder>
-    <MaxRating>100</MaxRating>
+    <MaxNumericRating>100</MaxNumericRating>
     <EvaluationType>uri://ed-fi.org/EvaluationTypeDescriptor#Formal Eval</EvaluationType>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Ineffective</EvaluationRatingLevel>
-      <MinRating>0</MinRating>
-      <MaxRating>24</MaxRating>
+      <MinNumericRating>0</MinNumericRating>
+      <MaxNumericRating>24</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Minimally Effective</EvaluationRatingLevel>
-      <MinRating>25</MinRating>
-      <MaxRating>59</MaxRating>
+      <MinNumericRating>25</MinNumericRating>
+      <MaxNumericRating>59</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Effective</EvaluationRatingLevel>
-      <MinRating>60</MinRating>
-      <MaxRating>89</MaxRating>
+      <MinNumericRating>60</MinNumericRating>
+      <MaxNumericRating>89</MaxNumericRating>
     </ElementRatingLevel>
     <ElementRatingLevel>
       <EvaluationRatingLevel>uri://ed-fi.org/EvaluationRatingLevelDescriptor#Highly Effective</EvaluationRatingLevel>
-      <MinRating>90</MinRating>
-      <MaxRating>100</MaxRating>
+      <MinNumericRating>90</MinNumericRating>
+      <MaxNumericRating>100</MaxNumericRating>
     </ElementRatingLevel>
   </EvaluationElement>
   <QuantitativeMeasure>

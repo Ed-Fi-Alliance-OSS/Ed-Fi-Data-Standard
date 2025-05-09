@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeCandidate xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.0.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-Candidate.xsd">
+<InterchangeCandidate xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.0.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation= "http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-Candidate.xsd">
   <StudentSectionAssociation>
     <StudentReference>
       <StudentIdentity>
@@ -315656,73 +315656,73 @@
 		<Term>uri://ed-fi.org/TermDescriptor#Spring Semester</Term>
 	</StudentAcademicRecord>
 	<Credential>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Mathematics</CredentialField>
 		<CredentialIdentifier>91A8F0B088854A8299206D5C8EBD2842</CredentialIdentifier>
-		<IssuanceDate>2001-03-07</IssuanceDate>
-		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
 		<Namespace>uri://ed-fi.org</Namespace>
+		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
+		<IssuanceDate>2001-03-07</IssuanceDate>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Mathematics</CredentialField>
+		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
+    <CertificationTitle>TX Certification</CertificationTitle>
+    <CertificationReference>
+      <CertificationIdentity>
+        <CertificationIdentifier>TX</CertificationIdentifier>
+        <Namespace>uri://ed-fi.org</Namespace>
+      </CertificationIdentity>
+    </CertificationReference>
 		<PersonReference>
 			<PersonIdentity>
 				<PersonId>9EEDEF0B120747EDA31EA30DA8F0997E</PersonId>
 				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#State</SourceSystem>
 			</PersonIdentity>
 		</PersonReference>
-		<CertificationTitle>TX Certification</CertificationTitle>
-		<CertificationReference>
-			<CertificationIdentity>
-				<CertificationIdentifier>TX</CertificationIdentifier>
-				<Namespace>uri://ed-fi.org</Namespace>
-			</CertificationIdentity>
-		</CertificationReference>
 	</Credential>
 	<Credential>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Art</CredentialField>
 		<CredentialIdentifier>654899CE5C79422D8A7835035DB02B04</CredentialIdentifier>
-		<IssuanceDate>1994-03-22</IssuanceDate>
-		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>
 		<Namespace>uri://ed-fi.org</Namespace>
+		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
+		<IssuanceDate>1994-03-22</IssuanceDate>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Art</CredentialField>
+		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
+    <CertificationTitle>TX Certification</CertificationTitle>
+    <CertificationReference>
+      <CertificationIdentity>
+        <CertificationIdentifier>TX</CertificationIdentifier>
+        <Namespace>uri://ed-fi.org</Namespace>
+      </CertificationIdentity>
+    </CertificationReference>
 		<PersonReference>
 			<PersonIdentity>
 				<PersonId>489F540DA7B94105BAD8B32D7EB522A5</PersonId>
 				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#State</SourceSystem>
 			</PersonIdentity>
 		</PersonReference>
-		<CertificationTitle>TX Certification</CertificationTitle>
-		<CertificationReference>
-			<CertificationIdentity>
-				<CertificationIdentifier>TX</CertificationIdentifier>
-				<Namespace>uri://ed-fi.org</Namespace>
-			</CertificationIdentity>
-		</CertificationReference>
 	</Credential>
 	<Credential>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Mathematics</CredentialField>
 		<CredentialIdentifier>64AC6E14B8F943AFBD38DC9EF60A4972</CredentialIdentifier>
-		<IssuanceDate>2000-10-28</IssuanceDate>
-		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
 		<Namespace>uri://ed-fi.org</Namespace>
+		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
+		<IssuanceDate>2000-10-28</IssuanceDate>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Mathematics</CredentialField>
+		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
+    <CertificationTitle>TX Certification</CertificationTitle>
+    <CertificationReference>
+      <CertificationIdentity>
+        <CertificationIdentifier>TX</CertificationIdentifier>
+        <Namespace>uri://ed-fi.org</Namespace>
+      </CertificationIdentity>
+    </CertificationReference>
 		<PersonReference>
 			<PersonIdentity>
 				<PersonId>6B12F9E00A354D64B8F3205CFBA79760</PersonId>
 				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#State</SourceSystem>
 			</PersonIdentity>
 		</PersonReference>
-		<CertificationTitle>TX Certification</CertificationTitle>
-		<CertificationReference>
-			<CertificationIdentity>
-				<CertificationIdentifier>TX</CertificationIdentifier>
-				<Namespace>uri://ed-fi.org</Namespace>
-			</CertificationIdentity>
-		</CertificationReference>
 	</Credential>
 	<Credential>
 		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>

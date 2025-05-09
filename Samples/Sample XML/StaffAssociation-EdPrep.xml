@@ -63202,20 +63202,37 @@
 		<EndDate>2011-05-27</EndDate>
 	</StaffSectionAssociation>
 	<Credential>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Physical Education</CredentialField>
 		<CredentialIdentifier>9E1B1FEFF75649E6A6931CC4E717E5DD</CredentialIdentifier>
-		<IssuanceDate>2010-12-28</IssuanceDate>
-		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</GradeLevel>
 		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Intern</TeachingCredential>
 		<Namespace>uri://ed-fi.org</Namespace>
+		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
+		<IssuanceDate>2010-12-28</IssuanceDate>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Physical Education</CredentialField>
+		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Intern</TeachingCredential>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</GradeLevel>
+		<CertificationTitle>TX Certification</CertificationTitle>
+		<CertificationReference>
+			<CertificationIdentity>
+				<CertificationIdentifier>TX</CertificationIdentifier>
+				<Namespace>uri://ed-fi.org</Namespace>
+			</CertificationIdentity>
+		</CertificationReference>
 		<PersonReference>
 			<PersonIdentity>
 				<PersonId>9EEDEF0B120747EDA31EA30DA8F0997E</PersonId>
 				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#State</SourceSystem>
 			</PersonIdentity>
 		</PersonReference>
+	</Credential>
+	<Credential>
+		<CredentialIdentifier>595A0431B6154EDE8CE0A54E6604FCE6</CredentialIdentifier>
+		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
+		<Namespace>uri://ed-fi.org</Namespace>
+		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
+		<IssuanceDate>1996-11-03</IssuanceDate>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Mathematics</CredentialField>
+		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ungraded</GradeLevel>
 		<CertificationTitle>TX Certification</CertificationTitle>
 		<CertificationReference>
 			<CertificationIdentity>
@@ -63223,22 +63240,22 @@
 				<Namespace>uri://ed-fi.org</Namespace>
 			</CertificationIdentity>
 		</CertificationReference>
-	</Credential>
-	<Credential>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Mathematics</CredentialField>
-		<CredentialIdentifier>595A0431B6154EDE8CE0A54E6604FCE6</CredentialIdentifier>
-		<IssuanceDate>1996-11-03</IssuanceDate>
-		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ungraded</GradeLevel>
-		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
-		<Namespace>uri://ed-fi.org</Namespace>
 		<PersonReference>
 			<PersonIdentity>
 				<PersonId>489F540DA7B94105BAD8B32D7EB522A5</PersonId>
 				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#State</SourceSystem>
 			</PersonIdentity>
 		</PersonReference>
+	</Credential>
+	<Credential>
+		<CredentialIdentifier>65625CE410D346EBA9EBC75403569A40</CredentialIdentifier>
+		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
+		<Namespace>uri://ed-fi.org</Namespace>
+		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
+		<IssuanceDate>2009-07-04</IssuanceDate>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Physical Education</CredentialField>
+		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Infant/toddler</GradeLevel>
 		<CertificationTitle>TX Certification</CertificationTitle>
 		<CertificationReference>
 			<CertificationIdentity>
@@ -63246,22 +63263,22 @@
 				<Namespace>uri://ed-fi.org</Namespace>
 			</CertificationIdentity>
 		</CertificationReference>
-	</Credential>
-	<Credential>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Physical Education</CredentialField>
-		<CredentialIdentifier>65625CE410D346EBA9EBC75403569A40</CredentialIdentifier>
-		<IssuanceDate>2009-07-04</IssuanceDate>
-		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Infant/toddler</GradeLevel>
-		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
-		<Namespace>uri://ed-fi.org</Namespace>
 		<PersonReference>
 			<PersonIdentity>
 				<PersonId>C975279F03844A46BBFE8A124C25D8EE</PersonId>
 				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#State</SourceSystem>
 			</PersonIdentity>
 		</PersonReference>
+	</Credential>
+	<Credential>
+		<CredentialIdentifier>0AD1DFCF8C8D4B18A4CB4529778170B9</CredentialIdentifier>
+		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
+		<Namespace>uri://ed-fi.org</Namespace>
+		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
+		<IssuanceDate>2002-01-10</IssuanceDate>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Generalist</CredentialField>
+		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 		<CertificationTitle>TX Certification</CertificationTitle>
 		<CertificationReference>
 			<CertificationIdentity>
@@ -63269,29 +63286,12 @@
 				<Namespace>uri://ed-fi.org</Namespace>
 			</CertificationIdentity>
 		</CertificationReference>
-	</Credential>
-	<Credential>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Generalist</CredentialField>
-		<CredentialIdentifier>0AD1DFCF8C8D4B18A4CB4529778170B9</CredentialIdentifier>
-		<IssuanceDate>2002-01-10</IssuanceDate>
-		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
-		<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
-		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>
-		<Namespace>uri://ed-fi.org</Namespace>
 		<PersonReference>
 			<PersonIdentity>
 				<PersonId>C2A92997CAF44F38B7BB5614773C0994</PersonId>
 				<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#State</SourceSystem>
 			</PersonIdentity>
 		</PersonReference>
-		<CertificationTitle>TX Certification</CertificationTitle>
-		<CertificationReference>
-			<CertificationIdentity>
-				<CertificationIdentifier>TX</CertificationIdentifier>
-				<Namespace>uri://ed-fi.org</Namespace>
-			</CertificationIdentity>
-		</CertificationReference>
 	</Credential>
 	<Credential>
 		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Health</CredentialField>
