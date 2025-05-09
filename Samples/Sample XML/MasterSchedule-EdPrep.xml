@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeMasterSchedule xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../../Ed-Fi-Standard/Schemas/Bulk/Interchange-MasterSchedule.xsd">
+<InterchangeMasterSchedule xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-MasterSchedule.xsd">
   <CourseOffering>
     <LocalCourseCode>02BM0</LocalCourseCode>
     <LocalCourseTitle>Quantitative Research</LocalCourseTitle>
