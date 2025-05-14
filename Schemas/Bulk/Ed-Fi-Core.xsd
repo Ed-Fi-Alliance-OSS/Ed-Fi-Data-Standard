@@ -10447,14 +10447,24 @@
               <xs:documentation>Indicates whether the student receiving special education and related services is: 1) in the age range of birth to 22 years, and 2) has a serious, ongoing illness or a chronic condition that has lasted or is anticipated to last at least 12 or more months or has required at least one month of hospitalization, and that requires daily, ongoing medical treatments and monitoring by appropriately trained personnel which may include parents or other family members, and 3) requires the routine use of medical device or of assistive technology to compensate for the loss of usefulness of a body function needed to participate in activities of daily living, and 4) lives with ongoing threat to his or her continued well-being. Aligns with federal requirements.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="LastEvaluationDate" type="xs:date" minOccurs="0">
+          <xs:element name="IEPLastEvaluationDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The date of the last special education evaluation.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="IEPReviewDate" type="xs:date" minOccurs="0">
+          <xs:element name="IEPLastReviewDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The date of the last IEP review.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPEvaluationDueDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The due date for the next special education evaluation.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPReviewDueDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The due date for the next IEP review.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="IEPBeginDate" type="xs:date" minOccurs="0">
