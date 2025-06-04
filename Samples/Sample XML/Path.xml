@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangePath xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.0.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-Path.xsd">
+<Path>
+  <EducationOrganizationReference>
+    <EducationOrganizationIdentity>
+      <EducationOrganizationId>6</EducationOrganizationId>
+    </EducationOrganizationIdentity>
+  </EducationOrganizationReference>
+  <PathName>Standard Certification Path</PathName>
+</Path>
+<PathPhase>
+  <PathReference>
+    <PathIdentity>
+      <EducationOrganizationReference>
+        <EducationOrganizationIdentity>
+          <EducationOrganizationId>6</EducationOrganizationId>
+        </EducationOrganizationIdentity>
+      </EducationOrganizationReference>
+      <PathName>Standard Certification Path</PathName>
+    </PathIdentity>
+  </PathReference>
+  <PathPhaseName>SCP - Application</PathPhaseName>
+  <PathPhaseSequence>1</PathPhaseSequence>
+  <PhasePathDescription>Application to the Standard Certification Path</PhasePathDescription>
+  <PathMilestoneReference>
+    <PathMilestoneIdentity>
+      <PathMilestoneName>EDCI 3200</PathMilestoneName>
+      <PathMilestoneType>uri://ed-fi.org/PathMilestoneTypeDescriptor#Anchor Course</PathMilestoneType>
+    </PathMilestoneIdentity>
+  </PathMilestoneReference>
+</PathPhase>
+<PathMilestone>
+  <PathMilestoneName>EDCI 3200</PathMilestoneName>
+  <PathMilestoneType>uri://ed-fi.org/PathMilestoneTypeDescriptor#Anchor Course</PathMilestoneType>
+  <PathMilestoneCode>EDCI 3200</PathMilestoneCode>
+  <PathMilestoneDescription>Suvery of Content Knowledge and Experience</PathMilestoneDescription>
+</PathMilestone>
+<PathMilestone>
+  <PathMilestoneName>Check Up - Midterm</PathMilestoneName>
+  <PathMilestoneType>uri://ed-fi.org/PathMilestoneTypeDescriptor#Endorsement</PathMilestoneType>
+  <PathMilestoneCode>Check Up</PathMilestoneCode>
+  <PathMilestoneDescription>Meeting to discuss progress</PathMilestoneDescription>
+</PathMilestone>
+<PathMilestone>
+  <PathMilestoneName>Checkout - GPA</PathMilestoneName>
+  <PathMilestoneType>uri://ed-fi.org/PathMilestoneTypeDescriptor#Documentation</PathMilestoneType>
+  <PathMilestoneDescription>GPA > 2.75?</PathMilestoneDescription>
+</PathMilestone>
+<PathMilestone>
+  <PathMilestoneName>Checkout - Acceptance Letter</PathMilestoneName>
+  <PathMilestoneType>uri://ed-fi.org/PathMilestoneTypeDescriptor#Documentation</PathMilestoneType>
+  <PathMilestoneDescription>Have they recieved their acceptance letter?</PathMilestoneDescription>
+</PathMilestone>
+<StudentPath>
+  <StudentReference>
+    <StudentIdentity>
+      <StudentUniqueId>604822</StudentUniqueId>
+    </StudentIdentity>
+  </StudentReference>
+  <PathReference>
+    <PathIdentity>
+      <EducationOrganizationReference>
+        <EducationOrganizationIdentity>
+          <EducationOrganizationId>6</EducationOrganizationId>
+        </EducationOrganizationIdentity>
+      </EducationOrganizationReference>
+      <PathName>Standard Certification Path</PathName>
+    </PathIdentity>
+  </PathReference>
+</StudentPath>
+<StudentPathPhaseStatus>
+  <StudentPathReference>
+    <StudentPathIdentity>
+      <StudentReference>
+        <StudentIdentity>
+          <StudentUniqueId>604822</StudentUniqueId>
+        </StudentIdentity>
+      </StudentReference>
+      <PathReference>
+        <PathIdentity>
+          <EducationOrganizationReference>
+            <EducationOrganizationIdentity>
+              <EducationOrganizationId>6</EducationOrganizationId>
+            </EducationOrganizationIdentity>
+          </EducationOrganizationReference>
+          <PathName>Standard Certification Path</PathName>
+        </PathIdentity>
+      </PathReference>
+    </StudentPathIdentity>
+  </StudentPathReference>
+  <PathPhaseReference>
+    <PathPhaseIdentity>
+      <PathReference>
+        <PathIdentity>
+          <EducationOrganizationReference>
+            <EducationOrganizationIdentity>
+              <EducationOrganizationId>6</EducationOrganizationId>
+            </EducationOrganizationIdentity>
+          </EducationOrganizationReference>
+          <PathName>Standard Certification Path</PathName>
+        </PathIdentity>
+      </PathReference>
+      <PathPhaseName>SCP - Application</PathPhaseName>
+    </PathPhaseIdentity>
+  </PathPhaseReference>
+  <CompletionIndicator>true</CompletionIndicator>
+  <PathPhaseStatusEvent>
+    <PathPhaseStatus>uri://ed-fi.org/PathPhaseStatusDescriptor#Complete</PathPhaseStatus>
+    <PathPhaseStatusDate>2023-06-20</PathPhaseStatusDate>
+  </PathPhaseStatusEvent>
+  <Period>
+    <BeginDate>2023-02-01</BeginDate>
+    <EndDate>2023-06-20</EndDate>
+  </Period>
+</StudentPathPhaseStatus>
+<StudentPathMilestoneStatus>
+  <StudentPathReference>
+    <StudentPathIdentity>
+      <StudentReference>
+        <StudentIdentity>
+          <StudentUniqueId>604822</StudentUniqueId>
+        </StudentIdentity>
+      </StudentReference>
+      <PathReference>
+        <PathIdentity>
+          <EducationOrganizationReference>
+            <EducationOrganizationIdentity>
+              <EducationOrganizationId>6</EducationOrganizationId>
+            </EducationOrganizationIdentity>
+          </EducationOrganizationReference>
+          <PathName>Standard Certification Path</PathName>
+        </PathIdentity>
+      </PathReference>
+    </StudentPathIdentity>    
+  </StudentPathReference>
+  <PathMilestoneReference>
+    <PathMilestoneIdentity>
+      <PathMilestoneName>EDCI 3200</PathMilestoneName>
+      <PathMilestoneType>uri://ed-fi.org/PathMilestoneTypeDescriptor#Anchor Course</PathMilestoneType>
+    </PathMilestoneIdentity>
+  </PathMilestoneReference>
+  <CompletionIndicator>true</CompletionIndicator>
+  <PathMilestoneStatusEvent>
+    <PathMilestoneStatus>uri://ed-fi.org/PathMilestoneStatusDescriptor#Complete</PathMilestoneStatus>
+    <PathMilestoneStatusDate>2023-05-15</PathMilestoneStatusDate>
+  </PathMilestoneStatusEvent>
+</StudentPathMilestoneStatus>
+<StudentPathMilestoneStatus>
+  <StudentPathReference>
+    <StudentPathIdentity>
+      <StudentReference>
+        <StudentIdentity>
+          <StudentUniqueId>604822</StudentUniqueId>
+        </StudentIdentity>
+      </StudentReference>
+      <PathReference>
+        <PathIdentity>
+          <EducationOrganizationReference>
+            <EducationOrganizationIdentity>
+              <EducationOrganizationId>6</EducationOrganizationId>
+            </EducationOrganizationIdentity>
+          </EducationOrganizationReference>
+          <PathName>Standard Certification Path</PathName>
+        </PathIdentity>
+      </PathReference>
+    </StudentPathIdentity>    
+  </StudentPathReference>
+  <PathMilestoneReference>
+    <PathMilestoneIdentity>
+      <PathMilestoneName>Checkout - GPA</PathMilestoneName>
+      <PathMilestoneType>uri://ed-fi.org/PathMilestoneTypeDescriptor#Documentation</PathMilestoneType>
+    </PathMilestoneIdentity>
+  </PathMilestoneReference>
+  <CompletionIndicator>true</CompletionIndicator>
+</StudentPathMilestoneStatus>
+<StudentPathMilestoneStatus>
+  <StudentPathReference>
+    <StudentPathIdentity>
+      <StudentReference>
+        <StudentIdentity>
+          <StudentUniqueId>604822</StudentUniqueId>
+        </StudentIdentity>
+      </StudentReference>
+      <PathReference>
+        <PathIdentity>
+          <EducationOrganizationReference>
+            <EducationOrganizationIdentity>
+              <EducationOrganizationId>6</EducationOrganizationId>
+            </EducationOrganizationIdentity>
+          </EducationOrganizationReference>
+          <PathName>Standard Certification Path</PathName>
+        </PathIdentity>
+      </PathReference>
+    </StudentPathIdentity>    
+  </StudentPathReference>
+  <PathMilestoneReference>
+    <PathMilestoneIdentity>
+      <PathMilestoneName>Checkout - Acceptance Letter</PathMilestoneName>
+      <PathMilestoneType>uri://ed-fi.org/PathMilestoneTypeDescriptor#Documentation</PathMilestoneType>
+    </PathMilestoneIdentity>
+  </PathMilestoneReference>
+  <CompletionIndicator>true</CompletionIndicator>
+</StudentPathMilestoneStatus>
+</InterchangePath>
