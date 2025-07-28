@@ -50671,6 +50671,81 @@
 			<OrderOfPriority>1</OrderOfPriority>
 		</Telephone>
 	</Contact>
+	<ContactIdentity>
+		<ContactReference>
+			<ContactIdentity>
+				<ContactUniqueId>778393</ContactUniqueId>
+			</ContactIdentity>
+		</ContactReference>
+		<ContactIdentificationSystem>uri://ed-fi.org/ContactIdentificationSystemDescriptor#Drivers License</ContactIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>TX64144506</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>SCOL_255901</AssigningOrganizationIdentificationCode>
+	</ContactIdentity>
+		<ContactIdentity>
+		<ContactReference>
+			<ContactIdentity>
+				<ContactUniqueId>779017</ContactUniqueId>
+			</ContactIdentity>
+		</ContactReference>
+		<ContactIdentificationSystem>uri://ed-fi.org/ContactIdentificationSystemDescriptor#Other</ContactIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901001</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>41869372</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>SCOL_255901001</AssigningOrganizationIdentificationCode>
+	</ContactIdentity>
+		<ContactIdentity>
+		<ContactReference>
+			<ContactIdentity>
+				<ContactUniqueId>778167</ContactUniqueId>
+			</ContactIdentity>
+		</ContactReference>
+		<ContactIdentificationSystem>uri://ed-fi.org/ContactIdentificationSystemDescriptor#School</ContactIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901044</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>96316115</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>SCOL_255901044</AssigningOrganizationIdentificationCode>
+	</ContactIdentity>
+		<ContactIdentity>
+		<ContactReference>
+			<ContactIdentity>
+				<ContactUniqueId>778791</ContactUniqueId>
+			</ContactIdentity>
+		</ContactReference>
+		<ContactIdentificationSystem>uri://ed-fi.org/ContactIdentificationSystemDescriptor#Other Federal</ContactIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>19255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>06457187</IdentificationCode>
+		<AssigningOrganizationIdentificationCode></AssigningOrganizationIdentificationCode>
+	</ContactIdentity>
+		<ContactIdentity>
+		<ContactReference>
+			<ContactIdentity>
+				<ContactUniqueId>778286</ContactUniqueId>
+			</ContactIdentity>
+		</ContactReference>
+		<ContactIdentificationSystem>uri://ed-fi.org/ContactIdentificationSystemDescriptor#US Visa</ContactIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901107</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>33598065</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>SCOL_255901107</AssigningOrganizationIdentificationCode>
+	</ContactIdentity>
 	<StudentContactAssociation>
 		<StudentReference>
 			<StudentIdentity>
