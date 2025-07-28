@@ -3404,4 +3404,54 @@
 			</EducationOrganizationIdentity>
 		</ParentEducationOrganizationReference>
 	</OrganizationDepartment>
+	<EducationOrganizationIdentity>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>LEAG_255901</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>ESC_255950</AssigningOrganizationIdentificationCode>
+	</EducationOrganizationIdentity>
+	<EducationOrganizationIdentity>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901001</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>SCOL_255901001</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>LEAG_255901</AssigningOrganizationIdentificationCode>
+	</EducationOrganizationIdentity>
+	<EducationOrganizationIdentity>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901044</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>SCOL_255901044</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>LEAG_255901</AssigningOrganizationIdentificationCode>
+	</EducationOrganizationIdentity>
+	<EducationOrganizationIdentity>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>19255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>594835-c</IdentificationCode>
+		<AssigningOrganizationIdentificationCode></AssigningOrganizationIdentificationCode>
+	</EducationOrganizationIdentity>
+	<EducationOrganizationIdentity>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901107</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#Other</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>SCOL_255901107</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>LEAG_255901</AssigningOrganizationIdentificationCode>
+	</EducationOrganizationIdentity>
 </InterchangeEducationOrganization>
