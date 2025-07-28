@@ -11,8 +11,6 @@
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
         <xs:element name="Staff" type="Staff" />
-        <xs:element name="StaffDemographic" type="StaffDemographic" />
-        <xs:element name="StaffDirectory" type="StaffDirectory" />
         <xs:element name="StaffIdentity" type="StaffIdentity" />
         <xs:element name="StaffEducationOrganizationEmploymentAssociation" type="StaffEducationOrganizationEmploymentAssociation" />
         <xs:element name="StaffEducationOrganizationAssignmentAssociation" type="StaffEducationOrganizationAssignmentAssociation" />
@@ -21,6 +19,7 @@
         <xs:element name="StaffLeave" type="StaffLeave" />
         <xs:element name="OpenStaffPosition" type="OpenStaffPosition" />
         <xs:element name="StaffProgramAssociation" type="StaffProgramAssociation" />
+        <xs:element name="StaffEducationOrganizationContactAssociation" type="StaffEducationOrganizationContactAssociation" />
         <xs:element name="StaffAbsenceEvent" type="StaffAbsenceEvent" />
         <xs:element name="Credential" type="Credential" />
         <xs:element name="Person" type="Person" />
