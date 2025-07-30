@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/5.2.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 6.0.0 ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 5.2.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -627,236 +627,6 @@
           <xs:element name="CalendarReference" type="CalendarReferenceType">
             <xs:annotation>
               <xs:documentation>Reference to the calendar associated to the calendar event.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="Certification">
-    <xs:annotation>
-      <xs:documentation>An offering by an official granting authority of a certification or license that qualifies persons to perform specific job functions, such as fulfill a teaching assignment.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="CertificationIdentifier" type="IdentificationCode">
-            <xs:annotation>
-              <xs:documentation>Identifier or serial number assigned to the certification.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Namespace" type="URI">
-            <xs:annotation>
-              <xs:documentation>The namespace for the certification, typically associated with the issuing authority.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationTitle" type="CertificationTitle">
-            <xs:annotation>
-              <xs:documentation>The title of the certification.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The education organization that authorizes the certification, often a state education agency.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationLevel" type="CertificationLevelDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The level or category of the certification.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CertificationLevelDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationField" type="CertificationFieldDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The field of certification.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CertificationFieldDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The grade level(s) certified for teaching.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationRoute" type="CertificationRouteDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The process, program, or pathway used to obtain the certification.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CertificationRouteDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationStandard" type="CertificationStandardDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The standard, law, or policy defining the certification.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CertificationStandardDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="MinimumDegree" type="DegreeDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The minimum level of degree, if any, required for the certification.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>DegreeDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EducatorRole" type="EducatorRoleDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The role authorized by the certification, typically associated with service and administrative certifications.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>EducatorRoleDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PopulationServed" type="PopulationServedDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The type of students that the certification is offered and tailored to.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>PopulationServedDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="InstructionalSetting" type="InstructionalSettingDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The setting authorized by the certification in which a person receives education and related services.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>InstructionalSettingDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationExamReference" type="CertificationExamReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The certification exams required for the certification.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EffectiveDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year on which the certification is offered. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EndDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year on which the certification offering is expected to end. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CertificationExam">
-    <xs:annotation>
-      <xs:documentation>An examination required by one or more certifications.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="CertificationExamIdentifier" type="IdentificationCode">
-            <xs:annotation>
-              <xs:documentation>Identifier or serial number assigned to the certification exam.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Namespace" type="URI">
-            <xs:annotation>
-              <xs:documentation>The namespace for the certification exam.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationExamTitle" type="CertificationExamTitle">
-            <xs:annotation>
-              <xs:documentation>The title of the certification exam.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The education organization associated with the certification exam.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationExamType" type="CertificationExamTypeDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The type or category of the certification exam.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CertificationExamTypeDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EffectiveDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year on which the certification exam is offered. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EndDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year on which the certification exam offering is expected to end. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CertificationExamResult">
-    <xs:annotation>
-      <xs:documentation>The person's result from taking a certification exam.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="CertificationExamReference" type="CertificationExamReferenceType">
-            <xs:annotation>
-              <xs:documentation>The certification exam taken by the person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PersonReference" type="PersonReferenceType">
-            <xs:annotation>
-              <xs:documentation>The person who took the certification exam.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationExamDate" type="xs:date">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year on which the certification exam is taken.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="AttemptNumber" type="xs:int" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The number of the person's attempt for the certification exam.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationExamScore" type="ScoreValue" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The score result for the certification exam attempt.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationExamPassIndicator" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator that the person passed the certification exam.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationExamStatus" type="CertificationExamStatusDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The status of the certification exam attempt.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CertificationExamStatusDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationExamStudentAssessmentReference" type="StudentAssessmentReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Reference to a detailed result for the assessment taken by a person.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -1640,9 +1410,53 @@
     <xs:complexContent>
       <xs:extension base="ComplexObjectType">
         <xs:sequence>
+          <xs:element name="EffectiveDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The year, month and day on which an active credential held by an individual was issued.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CredentialEndorsement" type="CredentialEndorsement" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Endorsements are attachments to teaching certificates and indicate areas of specialization.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ExpirationDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The month, day, and year on which an active credential held by an individual will expire.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CredentialField" type="CredentialFieldDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The field of certification for the certificate (e.g., Mathematics, Music).</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>CredentialFieldDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
           <xs:element name="CredentialIdentifier" type="IdentificationCode">
             <xs:annotation>
               <xs:documentation>Identifier or serial number assigned to the credential.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IssuanceDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The month, day, and year on which an active credential was issued to an individual.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CredentialType" type="CredentialTypeDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>An indication of the category of credential an individual holds.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>CredentialTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="GradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The grade level(s) certified for teaching.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
+              </xs:appinfo>
             </xs:annotation>
           </xs:element>
           <xs:element name="StateOfIssueStateAbbreviation" type="StateAbbreviationDescriptorReferenceType">
@@ -1651,42 +1465,6 @@
               <xs:appinfo>
                 <ann:Descriptor>StateAbbreviationDescriptor</ann:Descriptor>
               </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Namespace" type="URI">
-            <xs:annotation>
-              <xs:documentation>The namespace for the credential.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CredentialType" type="CredentialTypeDescriptorReferenceType">
-            <xs:annotation>
-              <xs:documentation>An indication of the category of the credential a person holds.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CredentialTypeDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="IssuanceDate" type="xs:date">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year on which an active credential was issued to a person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CredentialField" type="CredentialFieldDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The field of certification for the credential.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CredentialFieldDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EffectiveDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year on which an active credential held by a person was issued.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ExpirationDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year on which an active credential held by a person will expire.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="TeachingCredential" type="TeachingCredentialDescriptorReferenceType" minOccurs="0">
@@ -1699,17 +1477,9 @@
           </xs:element>
           <xs:element name="TeachingCredentialBasis" type="TeachingCredentialBasisDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>An indication of the pre-determined criteria for granting the teaching credential that a person holds.</xs:documentation>
+              <xs:documentation>An indication of the pre-determined criteria for granting the teaching credential that an individual holds.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>TeachingCredentialBasisDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The grade level(s) certified for teaching.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
@@ -1721,100 +1491,9 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="CredentialEndorsement" type="CredentialEndorsement" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Namespace" type="URI">
             <xs:annotation>
-              <xs:documentation>The endorsements that are attached to teaching certificates and indicate areas of specialization.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationTitle" type="CertificationTitle" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The title of the certification obtained by the person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationReference" type="CertificationReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Reference to the certification associated with the person's credential.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CertificationRoute" type="CertificationRouteDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The process, program, or pathway used to obtain certification.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CertificationRouteDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="BoardCertificationIndicator" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator that the credential was granted under the authority of a national board certification.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CredentialStatus" type="CredentialStatusDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The current status of the credential.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CredentialStatusDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CredentialStatusDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year on which the credential status was effective. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The person who obtained and is holding the credential.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="StudentAcademicRecordReference" type="StudentAcademicRecordReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Reference to the person's student academic records for the school(s) with which the credential is associated.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EducatorRole" type="EducatorRoleDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The specific roles or positions within an organization that the credential is intended to authorize, typically associated with service and administrative certifications.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>EducatorRoleDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CredentialEvent">
-    <xs:annotation>
-      <xs:documentation>An event associated with a person's credential.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="CredentialEventType" type="CredentialEventTypeDescriptorReferenceType">
-            <xs:annotation>
-              <xs:documentation>The type of event associated with a person's credential.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>CredentialEventTypeDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CredentialEventDate" type="xs:date">
-            <xs:annotation>
-              <xs:documentation>The month, day, and year of the credential event.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CredentialReference" type="CredentialReferenceType">
-            <xs:annotation>
-              <xs:documentation>The credential associated with the credential event.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CredentialEventReason" type="Description" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The reason for the credential event, or any other descriptive text.</xs:documentation>
+              <xs:documentation>Namespace for the credential.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -3645,111 +3324,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="Path">
-    <xs:annotation>
-      <xs:documentation>A scheme for achieving milestones organized by phases for students to follow and be tracked against.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the education organization associated with the path of study.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathName" type="PathName">
-            <xs:annotation>
-              <xs:documentation>The name of the path of study.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GraduationPlanReference" type="GraduationPlanReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The graduation plan associated with the path of study.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="PathMilestone">
-    <xs:annotation>
-      <xs:documentation>A significant event or achievement as part of a path of study.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="PathMilestoneName" type="PathMilestoneName">
-            <xs:annotation>
-              <xs:documentation>The descriptive name of the path milestone.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathMilestoneType" type="PathMilestoneTypeDescriptorReferenceType">
-            <xs:annotation>
-              <xs:documentation>The type of milestone defined for the student's path of study.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>PathMilestoneTypeDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathMilestoneCode" type="PathMilestoneCode" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The code or identifier associated with an element associated with the path milestone.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathMilestoneDescription" type="Description" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Additional information describing the path milestone to be achieved.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="PathPhase">
-    <xs:annotation>
-      <xs:documentation>A stage in the process of a student achieving milestones.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="PathReference" type="PathReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the path of study associated with the phase.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathPhaseName" type="PathPhaseName">
-            <xs:annotation>
-              <xs:documentation>The name of the phase associated with the path of study.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathPhaseSequence" type="xs:int" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicates the number in order, starting with 1, that the phases are organized into.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PhasePathDescription" type="Description" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Additional information describing the path's phase.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathMilestoneReference" type="PathMilestoneReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>A reference to the path milestones associated with this phase.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="Person">
     <xs:annotation>
       <xs:documentation>This entity represents a human being.</xs:documentation>
@@ -5522,113 +5096,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StudentPath">
-    <xs:annotation>
-      <xs:documentation>The entity representing the association or assignment of the student to the path of study being pursued.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="StudentReference" type="StudentReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the student associated with the path of study.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathReference" type="PathReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the path of study associated with or assigned to the student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Period" type="Period" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The time periods for which the student was assigned and pursuing the path of study.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StudentPathMilestoneStatus">
-    <xs:annotation>
-      <xs:documentation>The status of the student's achievement of the path milestone.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="StudentPathReference" type="StudentPathReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the student's path assignment or association.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathMilestoneReference" type="PathMilestoneReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the path milestone against which the status is being recorded.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CompletionIndicator" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator on whether the student has completed the path milestone.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathMilestoneStatusEvent" type="PathMilestoneStatusEvent" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The student's path milestone status and the date of the status change.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathPhaseReference" type="PathPhaseReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The phase in time when the path milestone status was achieved.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StudentPathPhaseStatus">
-    <xs:annotation>
-      <xs:documentation>The status of the student's association with the path's phase.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="StudentPathReference" type="StudentPathReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the student's path assignment or association.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathPhaseReference" type="PathPhaseReferenceType">
-            <xs:annotation>
-              <xs:documentation>A reference to the path phase in time associated with the status.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CompletionIndicator" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator on whether the student has completed the phase associated with the path of study.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PathPhaseStatusEvent" type="PathPhaseStatusEvent" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The student's path phase status and the date of the status change.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Period" type="Period" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The time periods associated with the path phase status.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="StudentProgramAttendanceEvent">
     <xs:annotation>
       <xs:documentation>This event entity represents the recording of whether a student is in attendance to receive or participate in program services.</xs:documentation>
@@ -6466,72 +5933,6 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="CertificationExamStatusDescriptor">
-    <xs:annotation>
-      <xs:documentation>The status of the certification exam.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CertificationExamTypeDescriptor">
-    <xs:annotation>
-      <xs:documentation>Specifies the type of certification exam administered or taken.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CertificationFieldDescriptor">
-    <xs:annotation>
-      <xs:documentation>The field of certification for the credential.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CertificationLevelDescriptor">
-    <xs:annotation>
-      <xs:documentation>The level or category of the certification.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CertificationRouteDescriptor">
-    <xs:annotation>
-      <xs:documentation>The process, program, or pathway used to obtain a certification.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CertificationStandardDescriptor">
-    <xs:annotation>
-      <xs:documentation>The standard, law, or policy defining the certification.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="CharterApprovalAgencyTypeDescriptor">
     <xs:annotation>
       <xs:documentation>The type of agency that approved the establishment or continuation of a charter school.</xs:documentation>
@@ -6741,31 +6142,9 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="CredentialEventTypeDescriptor">
-    <xs:annotation>
-      <xs:documentation>The type of event associated with a person's credential.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="CredentialFieldDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the fields of certification that the state education agency offers to teachers.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CredentialStatusDescriptor">
-    <xs:annotation>
-      <xs:documentation>The current status of the credential.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -6832,17 +6211,6 @@
   <xs:complexType name="CurriculumUsedDescriptor">
     <xs:annotation>
       <xs:documentation>The type of curriculum used in an early learning classroom or group.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="DegreeDescriptor">
-    <xs:annotation>
-      <xs:documentation>The minimum level of degree, if any, required for a certification.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7041,17 +6409,6 @@
   <xs:complexType name="EducationPlanDescriptor">
     <xs:annotation>
       <xs:documentation>The type of education plan(s) the student is following, if appropriate.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="EducatorRoleDescriptor">
-    <xs:annotation>
-      <xs:documentation>The role authorized by the credential or certification, typically associated with service and administrative certifications.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7360,17 +6717,6 @@
   <xs:complexType name="InstitutionTelephoneNumberTypeDescriptor">
     <xs:annotation>
       <xs:documentation>The type of communication number listed for an organization.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="InstructionalSettingDescriptor">
-    <xs:annotation>
-      <xs:documentation>The setting authorized by the certification in which a person receives education and related services.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -7723,39 +7069,6 @@
   <xs:complexType name="ParticipationStatusDescriptor">
     <xs:annotation>
       <xs:documentation>The student's program participation status.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="PathMilestoneStatusDescriptor">
-    <xs:annotation>
-      <xs:documentation>The student's status associated with the path milestone.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="PathMilestoneTypeDescriptor">
-    <xs:annotation>
-      <xs:documentation>The type of milestone defined for the student's path.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="PathPhaseStatusDescriptor">
-    <xs:annotation>
-      <xs:documentation>The student's status associated with entering or completing the path phase.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -10447,24 +9760,14 @@
               <xs:documentation>Indicates whether the student receiving special education and related services is: 1) in the age range of birth to 22 years, and 2) has a serious, ongoing illness or a chronic condition that has lasted or is anticipated to last at least 12 or more months or has required at least one month of hospitalization, and that requires daily, ongoing medical treatments and monitoring by appropriately trained personnel which may include parents or other family members, and 3) requires the routine use of medical device or of assistive technology to compensate for the loss of usefulness of a body function needed to participate in activities of daily living, and 4) lives with ongoing threat to his or her continued well-being. Aligns with federal requirements.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="IEPLastEvaluationDate" type="xs:date" minOccurs="0">
+          <xs:element name="LastEvaluationDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The date of the last special education evaluation.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="IEPLastReviewDate" type="xs:date" minOccurs="0">
+          <xs:element name="IEPReviewDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The date of the last IEP review.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="IEPEvaluationDueDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The due date for the next special education evaluation.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="IEPReviewDueDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The due date for the next IEP review.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="IEPBeginDate" type="xs:date" minOccurs="0">
@@ -11407,128 +10710,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="CertificationExamIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a CertificationExam.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="CertificationExamIdentifier" type="IdentificationCode">
-        <xs:annotation>
-          <xs:documentation>Identifier or serial number assigned to the certification exam.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Namespace" type="URI">
-        <xs:annotation>
-          <xs:documentation>The namespace for the certification exam.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="CertificationExamReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a CertificationExam. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="CertificationExamIdentity" type="CertificationExamIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a CertificationExam.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CertificationExamResultIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a CertificationExamResult.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="CertificationExamReference" type="CertificationExamReferenceType">
-        <xs:annotation>
-          <xs:documentation>The certification exam taken by the person.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PersonReference" type="PersonReferenceType">
-        <xs:annotation>
-          <xs:documentation>The person who took the certification exam.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="CertificationExamDate" type="xs:date">
-        <xs:annotation>
-          <xs:documentation>The month, day, and year on which the certification exam is taken.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="CertificationExamResultReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a CertificationExamResult. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="CertificationExamResultIdentity" type="CertificationExamResultIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a CertificationExamResult.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CertificationIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a Certification.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="CertificationIdentifier" type="IdentificationCode">
-        <xs:annotation>
-          <xs:documentation>Identifier or serial number assigned to the certification.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Namespace" type="URI">
-        <xs:annotation>
-          <xs:documentation>The namespace for the certification, typically associated with the issuing authority.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="CertificationReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a Certification. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="CertificationIdentity" type="CertificationIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a Certification.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="ChartOfAccountIdentityType">
     <xs:annotation>
       <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of a ChartOfAccount.</xs:documentation>
@@ -12003,53 +11184,6 @@
           <xs:element name="CourseTranscriptIdentity" type="CourseTranscriptIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a CourseTranscript.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="CredentialEventIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a CredentialEvent.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="CredentialEventType" type="CredentialEventTypeDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>The type of event associated with a person's credential.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>CredentialEventTypeDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="CredentialEventDate" type="xs:date">
-        <xs:annotation>
-          <xs:documentation>The month, day, and year of the credential event.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="CredentialReference" type="CredentialReferenceType">
-        <xs:annotation>
-          <xs:documentation>The credential associated with the credential event.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="CredentialEventReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a CredentialEvent. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="CredentialEventIdentity" type="CredentialEventIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a CredentialEvent.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -13839,126 +12973,6 @@
           <xs:element name="OrganizationDepartmentIdentity" type="OrganizationDepartmentIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of an OrganizationDepartment.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="PathIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a Path.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the education organization associated with the path of study.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PathName" type="PathName">
-        <xs:annotation>
-          <xs:documentation>The name of the path of study.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="PathMilestoneIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a PathMilestone.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="PathMilestoneName" type="PathMilestoneName">
-        <xs:annotation>
-          <xs:documentation>The descriptive name of the path milestone.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PathMilestoneType" type="PathMilestoneTypeDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>The type of milestone defined for the student's path of study.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>PathMilestoneTypeDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="PathMilestoneReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a PathMilestone. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="PathMilestoneIdentity" type="PathMilestoneIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a PathMilestone.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="PathPhaseIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a PathPhase.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="PathReference" type="PathReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the path of study associated with the phase.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PathPhaseName" type="PathPhaseName">
-        <xs:annotation>
-          <xs:documentation>The name of the phase associated with the path of study.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="PathPhaseReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a PathPhase. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="PathPhaseIdentity" type="PathPhaseIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a PathPhase.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="PathReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a Path. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="PathIdentity" type="PathIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a Path.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -16442,123 +15456,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StudentPathIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a StudentPath.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="StudentReference" type="StudentReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the student associated with the path of study.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PathReference" type="PathReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the path of study associated with or assigned to the student.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="StudentPathMilestoneStatusIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a StudentPathMilestoneStatus.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="StudentPathReference" type="StudentPathReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the student's path assignment or association.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PathMilestoneReference" type="PathMilestoneReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the path milestone against which the status is being recorded.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="StudentPathMilestoneStatusReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a StudentPathMilestoneStatus. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="StudentPathMilestoneStatusIdentity" type="StudentPathMilestoneStatusIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a StudentPathMilestoneStatus.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StudentPathPhaseStatusIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a StudentPathPhaseStatus.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="StudentPathReference" type="StudentPathReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the student's path assignment or association.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PathPhaseReference" type="PathPhaseReferenceType">
-        <xs:annotation>
-          <xs:documentation>A reference to the path phase in time associated with the status.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="StudentPathPhaseStatusReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a StudentPathPhaseStatus. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="StudentPathPhaseStatusIdentity" type="StudentPathPhaseStatusIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a StudentPathPhaseStatus.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StudentPathReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a StudentPath. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="StudentPathIdentity" type="StudentPathIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a StudentPath.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="StudentProgramAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a StudentProgramAssociation.</xs:documentation>
@@ -17974,60 +16871,6 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="CertificationExamStatusDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The status of the certification exam.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="CertificationExamTypeDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>Specifies the type of certification exam administered or taken.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="CertificationFieldDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The field of certification for the credential.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="CertificationLevelDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The level or category of the certification.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="CertificationRouteDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The process, program, or pathway used to obtain a certification.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="CertificationStandardDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The standard, law, or policy defining the certification.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
   <xs:simpleType name="CharterApprovalAgencyTypeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The type of agency that approved the establishment or continuation of a charter school.</xs:documentation>
@@ -18199,27 +17042,9 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="CredentialEventTypeDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The type of event associated with a person's credential.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
   <xs:simpleType name="CredentialFieldDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the fields of certification that the state education agency offers to teachers.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="CredentialStatusDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The current status of the credential.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -18274,15 +17099,6 @@
   <xs:simpleType name="CurriculumUsedDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The type of curriculum used in an early learning classroom or group.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="DegreeDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The minimum level of degree, if any, required for a certification.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -18445,15 +17261,6 @@
   <xs:simpleType name="EducationPlanDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The type of education plan(s) the student is following, if appropriate.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="EducatorRoleDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The role authorized by the credential or certification, typically associated with service and administrative certifications.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -18706,15 +17513,6 @@
   <xs:simpleType name="InstitutionTelephoneNumberTypeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The type of communication number listed for an organization.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="InstructionalSettingDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The setting authorized by the certification in which a person receives education and related services.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -19003,33 +17801,6 @@
   <xs:simpleType name="ParticipationStatusDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The student's program participation status.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="PathMilestoneStatusDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The student's status associated with the path milestone.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="PathMilestoneTypeDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The type of milestone defined for the student's path.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
-  <xs:simpleType name="PathPhaseStatusDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The student's status associated with entering or completing the path phase.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -21962,57 +20733,6 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="PathMilestoneStatusEvent">
-    <xs:annotation>
-      <xs:documentation>An event recongnizing the change in status for the path milestone.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="PathMilestoneStatus" type="PathMilestoneStatusDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>The student's status associated with the path milestone.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>PathMilestoneStatusDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PathMilestoneStatusDate" type="xs:date">
-        <xs:annotation>
-          <xs:documentation>The month, day and year associated with the change in the path milestone status. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Description" type="Description" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>Additional information associated with the path milestone status achieved.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="PathPhaseStatusEvent">
-    <xs:annotation>
-      <xs:documentation>An event recognizing the change in status for the path phase.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="PathPhaseStatus" type="PathPhaseStatusDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>The student's status associated with entering or completing the path phase.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>PathPhaseStatusDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="PathPhaseStatusDate" type="xs:date">
-        <xs:annotation>
-          <xs:documentation>The month, day and year on which the status was achieved for the path phase. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
   <xs:complexType name="PerformanceLevel">
     <xs:annotation>
       <xs:documentation>A performance level value that describes student proficiency, generally a cut score.</xs:documentation>
@@ -23476,30 +22196,6 @@
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="CertificationExamTitle">
-    <xs:annotation>
-      <xs:documentation>The title or name of the certification exam.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
-      <xs:maxLength value="60" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="CertificationTitle">
-    <xs:annotation>
-      <xs:documentation>The title of a certification.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
-      <xs:maxLength value="64" />
-    </xs:restriction>
-  </xs:simpleType>
   <xs:simpleType name="CIPCode">
     <xs:annotation>
       <xs:documentation>Number and description of the CIP Code associated with the student's CTE program.</xs:documentation>
@@ -24296,54 +22992,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="60" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="PathMilestoneCode">
-    <xs:annotation>
-      <xs:documentation>The code or identifier associated with an element that is associated with the path milestone.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
-      <xs:maxLength value="60" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="PathMilestoneName">
-    <xs:annotation>
-      <xs:documentation>The name of the milestone associated with the defined path of study.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:minLength value="0" />
-      <xs:maxLength value="60" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="PathName">
-    <xs:annotation>
-      <xs:documentation>The name of the defined path of study.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:minLength value="0" />
-      <xs:maxLength value="60" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="PathPhaseName">
-    <xs:annotation>
-      <xs:documentation>The name of the phase within a defined path of study.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:minLength value="0" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -25239,18 +23887,6 @@
     <xs:restriction base="xs:decimal">
       <xs:totalDigits value="15" />
       <xs:fractionDigits value="5" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="ScoreValue">
-    <xs:annotation>
-      <xs:documentation>The score value for a performance evaluation metric.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:decimal">
-      <xs:totalDigits value="6" />
-      <xs:fractionDigits value="3" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="SectionRating">
