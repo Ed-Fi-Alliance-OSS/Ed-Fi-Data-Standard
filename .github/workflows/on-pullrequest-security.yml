@@ -21,3 +21,15 @@ jobs:
     uses: ed-fi-alliance-oss/ed-fi-actions/.github/workflows/repository-scanner.yml@main
     with:
       config-file-path: ./.github/workflows/bidi-config.json
+
+
+# TODO
+# Before calling function checkout the appropriate branches in both repos
+
+# Get latest git commit and description from source path's git repo
+# Copy all files from source path to target path
+# Create a git branch consisting of the format 'xsd-sync-shortCommitHash' in the target path's repository
+# Create a commit (signed)
+# Push the branch
+# Create a pull request in Github from the pushed branch; the target branch is 'main'
+# Check if there are other open PRs targeting 'main' with the source branch being 'xsd-sync*' and add a comment to the most recent PR indicating that there's a more recent PR with a link
