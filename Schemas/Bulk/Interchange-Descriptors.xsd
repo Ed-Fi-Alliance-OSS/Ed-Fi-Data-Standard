@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.1.0" targetNamespace="http://ed-fi.org/5.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.0.0" targetNamespace="http://ed-fi.org/6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:include schemaLocation="Ed-Fi-Core.xsd" />
   <xs:annotation>
     <xs:documentation>===== Descriptors Interchange Model =====</xs:documentation>
@@ -16,12 +16,18 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="AcademicSubjectDescriptor" type="AcademicSubjectDescriptor" />
         <xs:element name="AccommodationDescriptor" type="AccommodationDescriptor" />
         <xs:element name="AccountTypeDescriptor" type="AccountTypeDescriptor" />
+        <xs:element name="AccreditationStatusDescriptor" type="AccreditationStatusDescriptor" />
         <xs:element name="AchievementCategoryDescriptor" type="AchievementCategoryDescriptor" />
         <xs:element name="AdditionalCreditTypeDescriptor" type="AdditionalCreditTypeDescriptor" />
         <xs:element name="AddressTypeDescriptor" type="AddressTypeDescriptor" />
         <xs:element name="AdministrationEnvironmentDescriptor" type="AdministrationEnvironmentDescriptor" />
         <xs:element name="AdministrativeFundingControlDescriptor" type="AdministrativeFundingControlDescriptor" />
+        <xs:element name="AidTypeDescriptor" type="AidTypeDescriptor" />
         <xs:element name="AncestryEthnicOriginDescriptor" type="AncestryEthnicOriginDescriptor" />
+        <xs:element name="ApplicationEventResultDescriptor" type="ApplicationEventResultDescriptor" />
+        <xs:element name="ApplicationEventTypeDescriptor" type="ApplicationEventTypeDescriptor" />
+        <xs:element name="ApplicationSourceDescriptor" type="ApplicationSourceDescriptor" />
+        <xs:element name="ApplicationStatusDescriptor" type="ApplicationStatusDescriptor" />
         <xs:element name="AssessmentCategoryDescriptor" type="AssessmentCategoryDescriptor" />
         <xs:element name="AssessmentIdentificationSystemDescriptor" type="AssessmentIdentificationSystemDescriptor" />
         <xs:element name="AssessmentItemCategoryDescriptor" type="AssessmentItemCategoryDescriptor" />
@@ -31,12 +37,23 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="AssignmentLateStatusDescriptor" type="AssignmentLateStatusDescriptor" />
         <xs:element name="AttemptStatusDescriptor" type="AttemptStatusDescriptor" />
         <xs:element name="AttendanceEventCategoryDescriptor" type="AttendanceEventCategoryDescriptor" />
+        <xs:element name="BackgroundCheckStatusDescriptor" type="BackgroundCheckStatusDescriptor" />
+        <xs:element name="BackgroundCheckTypeDescriptor" type="BackgroundCheckTypeDescriptor" />
         <xs:element name="BarrierToInternetAccessInResidenceDescriptor" type="BarrierToInternetAccessInResidenceDescriptor" />
         <xs:element name="BehaviorDescriptor" type="BehaviorDescriptor" />
         <xs:element name="BusRouteDescriptor" type="BusRouteDescriptor" />
+        <xs:element name="CTEProgramServiceDescriptor" type="CTEProgramServiceDescriptor" />
         <xs:element name="CalendarEventDescriptor" type="CalendarEventDescriptor" />
         <xs:element name="CalendarTypeDescriptor" type="CalendarTypeDescriptor" />
+        <xs:element name="CandidateCharacteristicDescriptor" type="CandidateCharacteristicDescriptor" />
+        <xs:element name="CandidateIdentificationSystemDescriptor" type="CandidateIdentificationSystemDescriptor" />
         <xs:element name="CareerPathwayDescriptor" type="CareerPathwayDescriptor" />
+        <xs:element name="CertificationExamStatusDescriptor" type="CertificationExamStatusDescriptor" />
+        <xs:element name="CertificationExamTypeDescriptor" type="CertificationExamTypeDescriptor" />
+        <xs:element name="CertificationFieldDescriptor" type="CertificationFieldDescriptor" />
+        <xs:element name="CertificationLevelDescriptor" type="CertificationLevelDescriptor" />
+        <xs:element name="CertificationRouteDescriptor" type="CertificationRouteDescriptor" />
+        <xs:element name="CertificationStandardDescriptor" type="CertificationStandardDescriptor" />
         <xs:element name="CharterApprovalAgencyTypeDescriptor" type="CharterApprovalAgencyTypeDescriptor" />
         <xs:element name="CharterStatusDescriptor" type="CharterStatusDescriptor" />
         <xs:element name="CitizenshipStatusDescriptor" type="CitizenshipStatusDescriptor" />
@@ -45,10 +62,12 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="CohortTypeDescriptor" type="CohortTypeDescriptor" />
         <xs:element name="CohortYearTypeDescriptor" type="CohortYearTypeDescriptor" />
         <xs:element name="CompetencyLevelDescriptor" type="CompetencyLevelDescriptor" />
+        <xs:element name="ContactIdentificationSystemDescriptor" type="ContactIdentificationSystemDescriptor" />
         <xs:element name="ContactTypeDescriptor" type="ContactTypeDescriptor" />
         <xs:element name="ContentClassDescriptor" type="ContentClassDescriptor" />
         <xs:element name="ContinuationOfServicesReasonDescriptor" type="ContinuationOfServicesReasonDescriptor" />
         <xs:element name="CostRateDescriptor" type="CostRateDescriptor" />
+        <xs:element name="CoteachingStyleObservedDescriptor" type="CoteachingStyleObservedDescriptor" />
         <xs:element name="CountryDescriptor" type="CountryDescriptor" />
         <xs:element name="CourseAttemptResultDescriptor" type="CourseAttemptResultDescriptor" />
         <xs:element name="CourseDefinedByDescriptor" type="CourseDefinedByDescriptor" />
@@ -56,13 +75,15 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="CourseIdentificationSystemDescriptor" type="CourseIdentificationSystemDescriptor" />
         <xs:element name="CourseLevelCharacteristicDescriptor" type="CourseLevelCharacteristicDescriptor" />
         <xs:element name="CourseRepeatCodeDescriptor" type="CourseRepeatCodeDescriptor" />
+        <xs:element name="CredentialEventTypeDescriptor" type="CredentialEventTypeDescriptor" />
         <xs:element name="CredentialFieldDescriptor" type="CredentialFieldDescriptor" />
+        <xs:element name="CredentialStatusDescriptor" type="CredentialStatusDescriptor" />
         <xs:element name="CredentialTypeDescriptor" type="CredentialTypeDescriptor" />
         <xs:element name="CreditCategoryDescriptor" type="CreditCategoryDescriptor" />
         <xs:element name="CreditTypeDescriptor" type="CreditTypeDescriptor" />
         <xs:element name="CrisisTypeDescriptor" type="CrisisTypeDescriptor" />
-        <xs:element name="CTEProgramServiceDescriptor" type="CTEProgramServiceDescriptor" />
         <xs:element name="CurriculumUsedDescriptor" type="CurriculumUsedDescriptor" />
+        <xs:element name="DegreeDescriptor" type="DegreeDescriptor" />
         <xs:element name="DeliveryMethodDescriptor" type="DeliveryMethodDescriptor" />
         <xs:element name="DiagnosisDescriptor" type="DiagnosisDescriptor" />
         <xs:element name="DiplomaLevelDescriptor" type="DiplomaLevelDescriptor" />
@@ -74,29 +95,46 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="DisciplineActionLengthDifferenceReasonDescriptor" type="DisciplineActionLengthDifferenceReasonDescriptor" />
         <xs:element name="DisciplineIncidentParticipationCodeDescriptor" type="DisciplineIncidentParticipationCodeDescriptor" />
         <xs:element name="DisplacedStudentStatusDescriptor" type="DisplacedStudentStatusDescriptor" />
-        <xs:element name="EducationalEnvironmentDescriptor" type="EducationalEnvironmentDescriptor" />
+        <xs:element name="DualCreditInstitutionDescriptor" type="DualCreditInstitutionDescriptor" />
+        <xs:element name="DualCreditTypeDescriptor" type="DualCreditTypeDescriptor" />
+        <xs:element name="EPPDegreeTypeDescriptor" type="EPPDegreeTypeDescriptor" />
+        <xs:element name="EPPProgramPathwayDescriptor" type="EPPProgramPathwayDescriptor" />
         <xs:element name="EducationOrganizationAssociationTypeDescriptor" type="EducationOrganizationAssociationTypeDescriptor" />
         <xs:element name="EducationOrganizationCategoryDescriptor" type="EducationOrganizationCategoryDescriptor" />
         <xs:element name="EducationOrganizationIdentificationSystemDescriptor" type="EducationOrganizationIdentificationSystemDescriptor" />
         <xs:element name="EducationPlanDescriptor" type="EducationPlanDescriptor" />
+        <xs:element name="EducationalEnvironmentDescriptor" type="EducationalEnvironmentDescriptor" />
+        <xs:element name="EducatorRoleDescriptor" type="EducatorRoleDescriptor" />
         <xs:element name="ElectronicMailTypeDescriptor" type="ElectronicMailTypeDescriptor" />
         <xs:element name="EligibilityDelayReasonDescriptor" type="EligibilityDelayReasonDescriptor" />
         <xs:element name="EligibilityEvaluationTypeDescriptor" type="EligibilityEvaluationTypeDescriptor" />
         <xs:element name="EmploymentStatusDescriptor" type="EmploymentStatusDescriptor" />
+        <xs:element name="EnglishLanguageExamDescriptor" type="EnglishLanguageExamDescriptor" />
         <xs:element name="EnrollmentTypeDescriptor" type="EnrollmentTypeDescriptor" />
         <xs:element name="EntryGradeLevelReasonDescriptor" type="EntryGradeLevelReasonDescriptor" />
         <xs:element name="EntryTypeDescriptor" type="EntryTypeDescriptor" />
         <xs:element name="EvaluationDelayReasonDescriptor" type="EvaluationDelayReasonDescriptor" />
+        <xs:element name="EvaluationElementRatingLevelDescriptor" type="EvaluationElementRatingLevelDescriptor" />
+        <xs:element name="EvaluationPeriodDescriptor" type="EvaluationPeriodDescriptor" />
+        <xs:element name="EvaluationRatingLevelDescriptor" type="EvaluationRatingLevelDescriptor" />
+        <xs:element name="EvaluationRatingStatusDescriptor" type="EvaluationRatingStatusDescriptor" />
+        <xs:element name="EvaluationTypeDescriptor" type="EvaluationTypeDescriptor" />
         <xs:element name="EventCircumstanceDescriptor" type="EventCircumstanceDescriptor" />
         <xs:element name="ExitWithdrawTypeDescriptor" type="ExitWithdrawTypeDescriptor" />
+        <xs:element name="FederalLocaleCodeDescriptor" type="FederalLocaleCodeDescriptor" />
+        <xs:element name="FieldworkTypeDescriptor" type="FieldworkTypeDescriptor" />
         <xs:element name="FinancialCollectionDescriptor" type="FinancialCollectionDescriptor" />
-        <xs:element name="GradebookEntryTypeDescriptor" type="GradebookEntryTypeDescriptor" />
+        <xs:element name="FundingSourceDescriptor" type="FundingSourceDescriptor" />
+        <xs:element name="GoalTypeDescriptor" type="GoalTypeDescriptor" />
         <xs:element name="GradeLevelDescriptor" type="GradeLevelDescriptor" />
         <xs:element name="GradePointAverageTypeDescriptor" type="GradePointAverageTypeDescriptor" />
         <xs:element name="GradeTypeDescriptor" type="GradeTypeDescriptor" />
+        <xs:element name="GradebookEntryTypeDescriptor" type="GradebookEntryTypeDescriptor" />
         <xs:element name="GradingPeriodDescriptor" type="GradingPeriodDescriptor" />
         <xs:element name="GraduationPlanTypeDescriptor" type="GraduationPlanTypeDescriptor" />
         <xs:element name="GunFreeSchoolsActReportingStatusDescriptor" type="GunFreeSchoolsActReportingStatusDescriptor" />
+        <xs:element name="HireStatusDescriptor" type="HireStatusDescriptor" />
+        <xs:element name="HiringSourceDescriptor" type="HiringSourceDescriptor" />
         <xs:element name="HomelessPrimaryNighttimeResidenceDescriptor" type="HomelessPrimaryNighttimeResidenceDescriptor" />
         <xs:element name="HomelessProgramServiceDescriptor" type="HomelessProgramServiceDescriptor" />
         <xs:element name="IDEAPartDescriptor" type="IDEAPartDescriptor" />
@@ -107,6 +145,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="IndicatorGroupDescriptor" type="IndicatorGroupDescriptor" />
         <xs:element name="IndicatorLevelDescriptor" type="IndicatorLevelDescriptor" />
         <xs:element name="InstitutionTelephoneNumberTypeDescriptor" type="InstitutionTelephoneNumberTypeDescriptor" />
+        <xs:element name="InstructionalSettingDescriptor" type="InstructionalSettingDescriptor" />
         <xs:element name="InteractivityStyleDescriptor" type="InteractivityStyleDescriptor" />
         <xs:element name="InternetAccessDescriptor" type="InternetAccessDescriptor" />
         <xs:element name="InternetAccessTypeInResidenceDescriptor" type="InternetAccessTypeInResidenceDescriptor" />
@@ -119,12 +158,13 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="LearningStandardCategoryDescriptor" type="LearningStandardCategoryDescriptor" />
         <xs:element name="LearningStandardEquivalenceStrengthDescriptor" type="LearningStandardEquivalenceStrengthDescriptor" />
         <xs:element name="LearningStandardScopeDescriptor" type="LearningStandardScopeDescriptor" />
+        <xs:element name="LengthOfContractDescriptor" type="LengthOfContractDescriptor" />
         <xs:element name="LevelOfEducationDescriptor" type="LevelOfEducationDescriptor" />
         <xs:element name="LicenseStatusDescriptor" type="LicenseStatusDescriptor" />
         <xs:element name="LicenseTypeDescriptor" type="LicenseTypeDescriptor" />
         <xs:element name="LimitedEnglishProficiencyDescriptor" type="LimitedEnglishProficiencyDescriptor" />
-        <xs:element name="LocaleDescriptor" type="LocaleDescriptor" />
         <xs:element name="LocalEducationAgencyCategoryDescriptor" type="LocalEducationAgencyCategoryDescriptor" />
+        <xs:element name="LocaleDescriptor" type="LocaleDescriptor" />
         <xs:element name="MagnetSpecialProgramEmphasisSchoolDescriptor" type="MagnetSpecialProgramEmphasisSchoolDescriptor" />
         <xs:element name="MediumOfInstructionDescriptor" type="MediumOfInstructionDescriptor" />
         <xs:element name="MethodCreditEarnedDescriptor" type="MethodCreditEarnedDescriptor" />
@@ -135,21 +175,32 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="NeglectedOrDelinquentProgramServiceDescriptor" type="NeglectedOrDelinquentProgramServiceDescriptor" />
         <xs:element name="NetworkPurposeDescriptor" type="NetworkPurposeDescriptor" />
         <xs:element name="NonMedicalImmunizationExemptionDescriptor" type="NonMedicalImmunizationExemptionDescriptor" />
+        <xs:element name="ObjectiveRatingLevelDescriptor" type="ObjectiveRatingLevelDescriptor" />
+        <xs:element name="OpenStaffPositionEventStatusDescriptor" type="OpenStaffPositionEventStatusDescriptor" />
+        <xs:element name="OpenStaffPositionEventTypeDescriptor" type="OpenStaffPositionEventTypeDescriptor" />
+        <xs:element name="OpenStaffPositionReasonDescriptor" type="OpenStaffPositionReasonDescriptor" />
         <xs:element name="OperationalStatusDescriptor" type="OperationalStatusDescriptor" />
         <xs:element name="OtherNameTypeDescriptor" type="OtherNameTypeDescriptor" />
         <xs:element name="ParticipationDescriptor" type="ParticipationDescriptor" />
         <xs:element name="ParticipationStatusDescriptor" type="ParticipationStatusDescriptor" />
+        <xs:element name="PathMilestoneStatusDescriptor" type="PathMilestoneStatusDescriptor" />
+        <xs:element name="PathMilestoneTypeDescriptor" type="PathMilestoneTypeDescriptor" />
+        <xs:element name="PathPhaseStatusDescriptor" type="PathPhaseStatusDescriptor" />
         <xs:element name="PerformanceBaseConversionDescriptor" type="PerformanceBaseConversionDescriptor" />
+        <xs:element name="PerformanceEvaluationRatingLevelDescriptor" type="PerformanceEvaluationRatingLevelDescriptor" />
+        <xs:element name="PerformanceEvaluationTypeDescriptor" type="PerformanceEvaluationTypeDescriptor" />
         <xs:element name="PerformanceLevelDescriptor" type="PerformanceLevelDescriptor" />
         <xs:element name="PersonalInformationVerificationDescriptor" type="PersonalInformationVerificationDescriptor" />
         <xs:element name="PlatformTypeDescriptor" type="PlatformTypeDescriptor" />
         <xs:element name="PopulationServedDescriptor" type="PopulationServedDescriptor" />
-        <xs:element name="PostingResultDescriptor" type="PostingResultDescriptor" />
         <xs:element name="PostSecondaryEventCategoryDescriptor" type="PostSecondaryEventCategoryDescriptor" />
         <xs:element name="PostSecondaryInstitutionLevelDescriptor" type="PostSecondaryInstitutionLevelDescriptor" />
+        <xs:element name="PostingResultDescriptor" type="PostingResultDescriptor" />
+        <xs:element name="PreviousCareerDescriptor" type="PreviousCareerDescriptor" />
         <xs:element name="PrimaryLearningDeviceAccessDescriptor" type="PrimaryLearningDeviceAccessDescriptor" />
         <xs:element name="PrimaryLearningDeviceAwayFromSchoolDescriptor" type="PrimaryLearningDeviceAwayFromSchoolDescriptor" />
         <xs:element name="PrimaryLearningDeviceProviderDescriptor" type="PrimaryLearningDeviceProviderDescriptor" />
+        <xs:element name="ProfessionalDevelopmentOfferedByDescriptor" type="ProfessionalDevelopmentOfferedByDescriptor" />
         <xs:element name="ProficiencyDescriptor" type="ProficiencyDescriptor" />
         <xs:element name="ProgramAssignmentDescriptor" type="ProgramAssignmentDescriptor" />
         <xs:element name="ProgramCharacteristicDescriptor" type="ProgramCharacteristicDescriptor" />
@@ -163,12 +214,16 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="ProviderProfitabilityDescriptor" type="ProviderProfitabilityDescriptor" />
         <xs:element name="ProviderStatusDescriptor" type="ProviderStatusDescriptor" />
         <xs:element name="PublicationStatusDescriptor" type="PublicationStatusDescriptor" />
+        <xs:element name="QuantitativeMeasureDatatypeDescriptor" type="QuantitativeMeasureDatatypeDescriptor" />
+        <xs:element name="QuantitativeMeasureTypeDescriptor" type="QuantitativeMeasureTypeDescriptor" />
         <xs:element name="QuestionFormDescriptor" type="QuestionFormDescriptor" />
         <xs:element name="RaceDescriptor" type="RaceDescriptor" />
         <xs:element name="RatingLevelDescriptor" type="RatingLevelDescriptor" />
         <xs:element name="ReasonExitedDescriptor" type="ReasonExitedDescriptor" />
         <xs:element name="ReasonNotTestedDescriptor" type="ReasonNotTestedDescriptor" />
         <xs:element name="RecognitionTypeDescriptor" type="RecognitionTypeDescriptor" />
+        <xs:element name="RecruitmentEventAttendeeTypeDescriptor" type="RecruitmentEventAttendeeTypeDescriptor" />
+        <xs:element name="RecruitmentEventTypeDescriptor" type="RecruitmentEventTypeDescriptor" />
         <xs:element name="RelationDescriptor" type="RelationDescriptor" />
         <xs:element name="RepeatIdentifierDescriptor" type="RepeatIdentifierDescriptor" />
         <xs:element name="ReporterDescriptionDescriptor" type="ReporterDescriptionDescriptor" />
@@ -179,11 +234,14 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="RestraintEventReasonDescriptor" type="RestraintEventReasonDescriptor" />
         <xs:element name="ResultDatatypeTypeDescriptor" type="ResultDatatypeTypeDescriptor" />
         <xs:element name="RetestIndicatorDescriptor" type="RetestIndicatorDescriptor" />
+        <xs:element name="RubricRatingLevelDescriptor" type="RubricRatingLevelDescriptor" />
+        <xs:element name="SalaryTypeDescriptor" type="SalaryTypeDescriptor" />
         <xs:element name="SchoolCategoryDescriptor" type="SchoolCategoryDescriptor" />
         <xs:element name="SchoolChoiceBasisDescriptor" type="SchoolChoiceBasisDescriptor" />
         <xs:element name="SchoolChoiceImplementStatusDescriptor" type="SchoolChoiceImplementStatusDescriptor" />
         <xs:element name="SchoolFoodServiceProgramServiceDescriptor" type="SchoolFoodServiceProgramServiceDescriptor" />
         <xs:element name="SchoolTypeDescriptor" type="SchoolTypeDescriptor" />
+        <xs:element name="Section504DisabilityDescriptor" type="Section504DisabilityDescriptor" />
         <xs:element name="SectionCharacteristicDescriptor" type="SectionCharacteristicDescriptor" />
         <xs:element name="SectionTypeDescriptor" type="SectionTypeDescriptor" />
         <xs:element name="SeparationDescriptor" type="SeparationDescriptor" />
@@ -197,10 +255,10 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="StaffClassificationDescriptor" type="StaffClassificationDescriptor" />
         <xs:element name="StaffIdentificationSystemDescriptor" type="StaffIdentificationSystemDescriptor" />
         <xs:element name="StaffLeaveEventCategoryDescriptor" type="StaffLeaveEventCategoryDescriptor" />
+        <xs:element name="StaffToCandidateRelationshipDescriptor" type="StaffToCandidateRelationshipDescriptor" />
         <xs:element name="StateAbbreviationDescriptor" type="StateAbbreviationDescriptor" />
         <xs:element name="StudentCharacteristicDescriptor" type="StudentCharacteristicDescriptor" />
         <xs:element name="StudentIdentificationSystemDescriptor" type="StudentIdentificationSystemDescriptor" />
-        <xs:element name="StudentParticipationCodeDescriptor" type="StudentParticipationCodeDescriptor" />
         <xs:element name="SubmissionStatusDescriptor" type="SubmissionStatusDescriptor" />
         <xs:element name="SupporterMilitaryConnectionDescriptor" type="SupporterMilitaryConnectionDescriptor" />
         <xs:element name="SurveyCategoryDescriptor" type="SurveyCategoryDescriptor" />
@@ -220,6 +278,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="TribalAffiliationDescriptor" type="TribalAffiliationDescriptor" />
         <xs:element name="VisaDescriptor" type="VisaDescriptor" />
         <xs:element name="WeaponDescriptor" type="WeaponDescriptor" />
+        <xs:element name="WithdrawReasonDescriptor" type="WithdrawReasonDescriptor" />
       </xs:choice>
     </xs:complexType>
   </xs:element>
