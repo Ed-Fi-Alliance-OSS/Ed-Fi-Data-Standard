@@ -50684,7 +50684,7 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<IdentificationCode>TX64144506</IdentificationCode>
-		<AssigningOrganizationIdentificationCode>SCOL_255901</AssigningOrganizationIdentificationCode>
+		<AssigningOrganizationIdentificationCode>State Drivers License</AssigningOrganizationIdentificationCode>
 	</ContactIdentity>
 		<ContactIdentity>
 		<ContactReference>
@@ -50699,7 +50699,7 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<IdentificationCode>41869372</IdentificationCode>
-		<AssigningOrganizationIdentificationCode>SCOL_255901001</AssigningOrganizationIdentificationCode>
+		<AssigningOrganizationIdentificationCode>Other Identification System</AssigningOrganizationIdentificationCode>
 	</ContactIdentity>
 		<ContactIdentity>
 		<ContactReference>
@@ -50714,7 +50714,7 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<IdentificationCode>96316115</IdentificationCode>
-		<AssigningOrganizationIdentificationCode>SCOL_255901044</AssigningOrganizationIdentificationCode>
+		<AssigningOrganizationIdentificationCode>School Identification Number</AssigningOrganizationIdentificationCode>
 	</ContactIdentity>
 		<ContactIdentity>
 		<ContactReference>
@@ -50729,7 +50729,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<IdentificationCode>06457187</IdentificationCode>
-		<AssigningOrganizationIdentificationCode></AssigningOrganizationIdentificationCode>
 	</ContactIdentity>
 		<ContactIdentity>
 		<ContactReference>
@@ -50744,7 +50743,7 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<IdentificationCode>33598065</IdentificationCode>
-		<AssigningOrganizationIdentificationCode>SCOL_255901107</AssigningOrganizationIdentificationCode>
+		<AssigningOrganizationIdentificationCode>United States Visa Documents</AssigningOrganizationIdentificationCode>
 	</ContactIdentity>
 	<StudentContactAssociation>
 		<StudentReference>
