@@ -379497,9 +379497,9 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 	<IdentificationCode>2141949</IdentificationCode>
-	<AssigningOrganizationIdentificationCode>SCOL-255901</AssigningOrganizationIdentificationCode>
+	<AssigningOrganizationIdentificationCode>District Identification Number</AssigningOrganizationIdentificationCode>
   </CandidateIdentity>
-    <CandidateIdentity>
+ <CandidateIdentity>
     <CandidateReference>
 		<CandidateIdentity>
 			<CandidateIdentifier>1001037</CandidateIdentifier>
@@ -379512,9 +379512,9 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 	<IdentificationCode>837381631</IdentificationCode>
-	<AssigningOrganizationIdentificationCode>SCOL_255901001</AssigningOrganizationIdentificationCode>
+	<AssigningOrganizationIdentificationCode>Social Security Number</AssigningOrganizationIdentificationCode>
   </CandidateIdentity>
-    <CandidateIdentity>
+ <CandidateIdentity>
     <CandidateReference>
 		<CandidateIdentity>
 			<CandidateIdentifier>1001038</CandidateIdentifier>
@@ -379527,9 +379527,8 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 	<IdentificationCode>52A56N668P</IdentificationCode>
-	<AssigningOrganizationIdentificationCode></AssigningOrganizationIdentificationCode>
   </CandidateIdentity>
-    <CandidateIdentity>
+ <CandidateIdentity>
     <CandidateReference>
 		<CandidateIdentity>
 			<CandidateIdentifier>1001039</CandidateIdentifier>
@@ -379542,7 +379541,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 	<IdentificationCode>TX288297780</IdentificationCode>
-	<AssigningOrganizationIdentificationCode></AssigningOrganizationIdentificationCode>
   </CandidateIdentity>
       <CandidateIdentity>
     <CandidateReference>
@@ -379557,7 +379555,7 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 	<IdentificationCode>TX41297789</IdentificationCode>
-	<AssigningOrganizationIdentificationCode>SCOL-255901107</AssigningOrganizationIdentificationCode>
+	<AssigningOrganizationIdentificationCode>State Drivers License</AssigningOrganizationIdentificationCode>
   </CandidateIdentity>
 	<Certification>
 		<CertificationIdentifier>TX</CertificationIdentifier>
