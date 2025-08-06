@@ -11133,6 +11133,335 @@
 			<BirthDate>2008-09-09</BirthDate>
 		</BirthData>
 	</Student>
+		<StudentDemographic>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604854</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Spaniard/Spanish/Spanish-American</AncestryEthnicOrigin>
+		<Citizenship>
+			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Non-ResidentAlien</CitizenshipStatus>
+		</Citizenship>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Autism Spectrum Disorders</Disability>
+		</Disability>
+		<GenderIdentity>Male</GenderIdentity>
+		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
+		<Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#Eng</Language>
+			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Other language proficiency</LanguageUse>
+		</Language>
+		<Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#Navajo</Language>
+			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Native language</LanguageUse>
+		</Language>
+		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
+		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
+		<SupporterMilitaryConnection>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor#Not Military Connected</SupporterMilitaryConnection>
+		<TribalAffiliation>uri://ed-fi.org/TribalAffiliationDescriptor#Chalkyitsik</TribalAffiliation>
+	</StudentDemographic>
+	<StudentDemographic>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604822</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901001</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Unknown</AncestryEthnicOrigin>
+			<Citizenship>
+			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Refugee</CitizenshipStatus>
+		</Citizenship>
+		<GenderIdentity>Female</GenderIdentity>
+		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
+		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
+		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
+		<SupporterMilitaryConnection>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor#Active Duty</SupporterMilitaryConnection>
+		<TribalAffiliation>uri://ed-fi.org/TribalAffiliationDescriptor#Confederated Salish</TribalAffiliation>
+	</StudentDemographic>
+	<StudentDemographic>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604823</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901044</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<Citizenship>
+			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#US Citizen</CitizenshipStatus>
+		</Citizenship>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Orthopedic Impairment</Disability>
+		</Disability>
+		<Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
+			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
+		</Language>
+		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
+		<Sex>uri://ed-fi.org/SexDescriptor#Non-binary</Sex>
+		<SupporterMilitaryConnection>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor#Reserve</SupporterMilitaryConnection>
+		<TribalAffiliation>uri://ed-fi.org/TribalAffiliationDescriptor#Northern Arapaho</TribalAffiliation>
+	</StudentDemographic>
+	<StudentDemographic>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604824</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>19255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<Disability>
+			<Disability>uri://ed-fi.org/DisabilityDescriptor#Other</Disability>
+		</Disability>
+		<GenderIdentity>Female</GenderIdentity>
+		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
+		<Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
+			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
+		</Language>
+		<Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#mao</Language>
+			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Written language</LanguageUse>
+		</Language>
+		<Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#cel</Language>
+			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Other</LanguageUse>
+		</Language>
+		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
+		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
+		<SupporterMilitaryConnection>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor#Veteran</SupporterMilitaryConnection>
+	</StudentDemographic>
+	<StudentDemographic>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604825</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901107</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<Citizenship>
+			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#US Citizen</CitizenshipStatus>
+		</Citizenship>
+		<GenderIdentity>Male</GenderIdentity>
+		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
+		<Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
+			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
+		</Language>
+		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
+		<Sex>uri://ed-fi.org/SexDescriptor#Not Selected</Sex>
+		<TribalAffiliation>uri://ed-fi.org/TribalAffiliationDescriptor#Saxman</TribalAffiliation>
+	</StudentDemographic>
+	<StudentDemographic>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604828</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901107</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+	</StudentDemographic>
+	<StudentDirectory>
+	<StudentReference>
+		<StudentIdentity>
+			<StudentUniqueId>604854</StudentUniqueId>
+		</StudentIdentity>
+	</StudentReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Address>
+		<StreetNumberName>2905 San Gabriel St Suite 200</StreetNumberName>
+		<ApartmentRoomSuiteNumber>STE 604</ApartmentRoomSuiteNumber>
+		<BuildingSiteNumber>3</BuildingSiteNumber>
+		<City>Austin</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateAbbreviation>
+		<PostalCode>78705</PostalCode>
+		<NameOfCounty>Travis County</NameOfCounty>
+		<CountyFIPSCode>48453</CountyFIPSCode>
+		<Latitude>30.298045</Latitude>
+		<Longitude>-97.747188</Longitude>
+		<Period>
+			<BeginDate>2005-02-06</BeginDate>
+			<EndDate>2025-08-06</EndDate>
+		</Period>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Billing</AddressType>
+		<DoNotPublishIndicator>false</DoNotPublishIndicator>
+		<CongressionalDistrict>35th congressional district</CongressionalDistrict>
+		<Locale>City-Large</Locale>
+	</Address>
+	<Address>
+		<StreetNumberName>4905 Airport Blvd</StreetNumberName>
+		<City>Austin</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateAbbreviation>
+		<PostalCode>78751</PostalCode>
+		<NameOfCounty>Travis</NameOfCounty>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Mailing</AddressType>
+	</Address>
+	<ElectronicMail>
+		<ElectronicMailAddress>studentdirectoryemail1@sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
+	</ElectronicMail>
+	<ElectronicMail>
+		<ElectronicMailAddress>studentdirectoryemail2@sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
+	</ElectronicMail>
+	<Telephone>
+		<TelephoneNumber>(512) 451-3326</TelephoneNumber>
+		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptorWork</TelephoneNumberType>
+		<OrderOfPriority>1</OrderOfPriority>
+	</Telephone>
+	<Telephone>
+			<TelephoneNumber>(512) 795-8593</TelephoneNumber>
+			<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Fax</TelephoneNumberType>
+	</Telephone>
+</StudentDirectory>
+<StudentDirectory>
+	<StudentReference>
+		<StudentIdentity>
+			<StudentUniqueId>604822</StudentUniqueId>
+		</StudentIdentity>
+	</StudentReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901001</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Address>
+		<StreetNumberName>4701 Priem Ln</StreetNumberName>
+		<ApartmentRoomSuiteNumber>4A</ApartmentRoomSuiteNumber>
+		<City>Pflugerville</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateAbbreviation>
+		<PostalCode>78660</PostalCode>
+		<NameOfCounty>Williamson County</NameOfCounty>
+		<Period>
+			<BeginDate>2023-06-15</BeginDate>
+		</Period>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
+		<DoNotPublishIndicator>true</DoNotPublishIndicator>
+	</Address>
+	<ElectronicMail>
+		<ElectronicMailAddress>studentdirectoryemail3@sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Other</ElectronicMailType>
+	</ElectronicMail>
+	<Telephone>
+		<TelephoneNumber>512-608-4449</TelephoneNumber>
+		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Other</TelephoneNumberType>
+		<OrderOfPriority>1</OrderOfPriority>
+	</Telephone>
+	<Telephone>
+			<TelephoneNumber>(512) 450-0951</TelephoneNumber>
+			<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Work</TelephoneNumberType>
+	</Telephone>
+</StudentDirectory>
+<StudentDirectory>
+	<StudentReference>
+		<StudentIdentity>
+			<StudentUniqueId>604823</StudentUniqueId>
+		</StudentIdentity>
+	</StudentReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901044</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<ElectronicMail>
+		<ElectronicMailAddress>studentdirectoryemail4@sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Home/Personal</ElectronicMailType>
+	</ElectronicMail>
+	<Telephone>
+		<TelephoneNumber>(512) 220-9720</TelephoneNumber>
+		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Home</TelephoneNumberType>
+		<OrderOfPriority>1</OrderOfPriority>
+	</Telephone>
+	<Telephone>
+			<TelephoneNumber>(512) 373-6031</TelephoneNumber>
+			<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Emergency 1</TelephoneNumberType>
+	</Telephone>
+</StudentDirectory>
+<StudentDirectory>
+	<StudentReference>
+		<StudentIdentity>
+			<StudentUniqueId>604824</StudentUniqueId>
+		</StudentIdentity>
+	</StudentReference>
+	<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>19255901</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Address>
+		<StreetNumberName>5015 Duval St</StreetNumberName>
+		<City>Austin</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateAbbreviation>
+		<PostalCode>78751</PostalCode>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Doubled - up (i.e., living with another family)</AddressType>
+	</Address>
+	<ElectronicMail>
+		<ElectronicMailAddress>studentdirectoryemail5@sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Organization</ElectronicMailType>
+	</ElectronicMail>
+</StudentDirectory>
+<StudentDirectory>
+	<StudentReference>
+		<StudentIdentity>
+			<StudentUniqueId>604825</StudentUniqueId>
+		</StudentIdentity>
+	</StudentReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901107</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Address>
+		<StreetNumberName>3944 S Hudson Ave</StreetNumberName>
+		<City>Tulsa</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#OK</StateAbbreviation>
+		<PostalCode>74135</PostalCode>
+		<NameOfCounty>Tulsa County</NameOfCounty>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Unsheltered</AddressType>
+	</Address>
+	<Telephone>
+		<TelephoneNumber>(918) 991-0264</TelephoneNumber>
+		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Mobile</TelephoneNumberType>
+		<OrderOfPriority>1</OrderOfPriority>
+	</Telephone>
+</StudentDirectory>
+<StudentDirectory>
+	<StudentReference>
+		<StudentIdentity>
+			<StudentUniqueId>604828</StudentUniqueId>
+		</StudentIdentity>
+	</StudentReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901107</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+</StudentDirectory>
 	<Person>
 		<PersonId>207286</PersonId>
 		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>

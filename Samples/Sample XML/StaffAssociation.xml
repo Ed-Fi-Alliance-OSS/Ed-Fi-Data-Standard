@@ -1938,6 +1938,357 @@
 			</CredentialIdentity>
 		</CredentialReference>
 	</Staff>
+	<StaffDemographic>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207288</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Citizenship>
+		<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Resident Alien</CitizenshipStatus>
+	</Citizenship>
+	<GenderIdentity>Male</GenderIdentity>
+	<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
+	<Language>
+		<Language>uri://ed-fi.org/LanguageDescriptor#nai</Language>
+		<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Spoken language</LanguageUse>
+	</Language>
+	<Language>
+		<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
+		<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
+	</Language>
+	<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
+	<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
+	<TribalAffiliation>uri://ed-fi.org/TribalAffiliationDescriptor#Nottawaseppi Potawatomi</TribalAffiliation>
+</StaffDemographic>
+<StaffDemographic>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207249</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901044</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Spaniard/Spanish/Spanish-American</AncestryEthnicOrigin>
+		<Citizenship>
+		<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Us Citizen</CitizenshipStatus>
+	</Citizenship>
+	<GenderIdentity>Female</GenderIdentity>
+	<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
+	<Language>
+		<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
+		<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
+	</Language>
+	<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
+</StaffDemographic>
+<StaffDemographic>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207264</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901001</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Citizenship>
+		<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Permanent resident</CitizenshipStatus>
+	</Citizenship>
+	<GenderIdentity>Female</GenderIdentity>
+	<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
+	<Language>
+		<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
+		<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
+	</Language>
+	<Language>
+		<Language>uri://ed-fi.org/LanguageDescriptor#rom</Language>
+		<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Other language proficiency</LanguageUse>
+	</Language>
+	<Language>
+		<Language>uri://ed-fi.org/LanguageDescriptor#tsi</Language>
+		<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Other</LanguageUse>
+	</Language>
+	<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
+	<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
+</StaffDemographic>
+<StaffDemographic>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207265</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901107</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Other Hispanic/Latino</AncestryEthnicOrigin>
+	<GenderIdentity>Male</GenderIdentity>
+	<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
+	<Language>
+		<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
+		<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
+	</Language>
+	<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
+	<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
+</StaffDemographic>
+<StaffDemographic>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207263</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>19255901</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Unknown</AncestryEthnicOrigin>
+	<Citizenship>
+		<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#US Citizen</CitizenshipStatus>
+	</Citizenship>
+	<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
+	<Language>
+		<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
+		<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
+	</Language>
+	<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
+	<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
+	<TribalAffiliation>uri://ed-fi.org/TribalAffiliationDescriptor#Pawnee</TribalAffiliation>
+</StaffDemographic>
+<StaffDemographic>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207247</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>19255901</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+</StaffDemographic>
+<StaffDirectory>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207288</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Address>
+		<StreetNumberName>101 E Central Ave</StreetNumberName>
+		<ApartmentRoomSuiteNumber>STE 901</ApartmentRoomSuiteNumber>
+		<BuildingSiteNumber>4</BuildingSiteNumber>
+		<City>Belton</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateAbbreviation>
+		<PostalCode>76513</PostalCode>
+		<NameOfCounty>Bell County</NameOfCounty>
+		<CountyFIPSCode>48027</CountyFIPSCode>
+		<Latitude>31.055995</Latitude>
+		<Longitude>-97.463524</Longitude>
+		<Period>
+			<BeginDate>2018-01-01</BeginDate>
+			<EndDate>2025-08-05</EndDate>
+		</Period>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Home</AddressType>
+		<DoNotPublishIndicator>true</DoNotPublishIndicator>
+		<CongressionalDistrict>17th congressional district</CongressionalDistrict>
+		<Locale>uri://ed-fi.org/LocaleDescriptor#City-Midsize</Locale>
+	</Address>
+	<ElectronicMail>
+		<ElectronicMailAddress>sampleEmail1#sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Organization</ElectronicMailType>
+	</ElectronicMail>
+	<ElectronicMail>
+		<ElectronicMailAddress>sampleEmail2#sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
+	</ElectronicMail>
+	<InternationalAddress>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Shelter, Transitional housing, Awaiting Foster</AddressType>
+		<AddressLine1>JOYCE BROWNING</AddressLine1>
+		<AddressLine2>1010 CLEAR STREET</AddressLine2>
+		<AddressLine3>OTTAWA ON K1A 0B1</AddressLine3>
+		<AddressLine4>CANADA</AddressLine4>
+		<Country>uri://ed-fi.org/CountryDescriptor#CA</Country>
+		<Latitude>45deg,25min,34sec N</Latitude>
+		<Longitude>75deg,41min,25sec W</Longitude>
+		<BeginDate>2020-01-01</BeginDate>
+		<EndDate>2025-08-05</EndDate>
+	</InternationalAddress>
+	<Telephone>
+		<TelephoneNumber>(555)-555-5555</TelephoneNumber>
+		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Home</TelephoneNumberType>
+		<OrderOfPriority>1</OrderOfPriority>
+	</Telephone>
+	<Telephone>
+			<TelephoneNumber>(950) 262 7797</TelephoneNumber>
+			<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Emergency 2</TelephoneNumberType>
+			<OrderOfPriority>2</OrderOfPriority>
+	</Telephone>
+</StaffDirectory>
+<StaffDirectory>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207249</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901044</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Address>
+		<StreetNumberName>7165 S Mingo Rd</StreetNumberName>
+		<City>Tulsa</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#OK</StateAbbreviation>
+		<PostalCode>74133</PostalCode>
+		<NameOfCounty>Tulsa</NameOfCounty>
+		<Period>
+			<BeginDate>2015-06-30</BeginDate>
+		</Period>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Home</AddressType>
+	</Address>
+	<Address>
+		<StreetNumberName>12222 State Farm Blvd</StreetNumberName>
+		<ApartmentRoomSuiteNumber>736</ApartmentRoomSuiteNumber>
+		<City>Tulsa</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#OK</StateAbbreviation>
+		<PostalCode>74146</PostalCode>
+		<NameOfCounty>Tulsa</NameOfCounty>
+		<Period>
+			<BeginDate>2015-06-30</BeginDate>
+		</Period>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Shipping</AddressType>
+		<DoNotPublishIndicator>false</DoNotPublishIndicator>
+		</Address>
+	<ElectronicMail>
+		<ElectronicMailAddress>sampleEmail3#sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Home/Personal</ElectronicMailType>
+	</ElectronicMail>
+	<InternationalAddress>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Other</AddressType>
+		<AddressLine1>JOYCE BROWNING</AddressLine1>
+		<AddressLine2>2860 MOUNTEE STREET</AddressLine2>
+		<AddressLine3>OTTAWA ON K1A 0B1</AddressLine3>
+		<AddressLine4>CANADA</AddressLine4>
+		<Country>uri://ed-fi.org/CountryDescriptor#</Country>
+		<Latitude>45.4200146</Latitude>
+		<Longitude>-75.6895387</Longitude>
+	</InternationalAddress>
+	<Telephone>
+		<TelephoneNumber>918-641-7111</TelephoneNumber>
+		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Home</TelephoneNumberType>
+		<OrderOfPriority>1</OrderOfPriority>
+	</Telephone>
+	<Telephone>
+			<TelephoneNumber>(950) 262 7797</TelephoneNumber>
+			<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Emergency 1</TelephoneNumberType>
+	</Telephone>
+	<Telephone>
+			<TelephoneNumber>(918) 250 2077</TelephoneNumber>
+			<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Unlisted</TelephoneNumberType>
+	</Telephone>
+</StaffDirectory>
+<StaffDirectory>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207264</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901001</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<ElectronicMail>
+		<ElectronicMailAddress>sampleEmail4#sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
+	</ElectronicMail>
+	<Telephone>
+		<TelephoneNumber>918-488-8866</TelephoneNumber>
+		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Work</TelephoneNumberType>
+		<OrderOfPriority>1</OrderOfPriority>
+	</Telephone>
+</StaffDirectory>
+<StaffDirectory>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207265</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>255901107</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Address>
+		<StreetNumberName>8988 S Sheridan Rd</StreetNumberName>
+		<City>Tulsa</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#OK</StateAbbreviation>
+		<PostalCode>74133</PostalCode>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Home</AddressType>
+	</Address>
+	<ElectronicMail>
+		<ElectronicMailAddress>sampleEmail5#sharklasers.com</ElectronicMailAddress>
+		<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
+	</ElectronicMail>
+	<InternationalAddress>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Hotels/Motels</AddressType>
+		<AddressLine1>HELEN L. SAUNDERS</AddressLine1>
+		<AddressLine2>2045 ROYAL ROAD</AddressLine2>
+		<AddressLine3>06570 ST PAUL</AddressLine3>
+		<Country>uri://ed-fi.org/CountryDescriptor#FR</Country>
+	</InternationalAddress>
+</StaffDirectory>
+<StaffDirectory>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207263</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>19255901</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+	<Address>
+		<StreetNumberName>1400 E 11 Mile Rd</StreetNumberName>
+		<City>Royal Oak</City>
+		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#MI</StateAbbreviation>
+		<PostalCode>48067</PostalCode>
+		<NameOfCounty>Oakland County</NameOfCounty>
+		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Home</AddressType>
+	</Address>
+	<Telephone>
+		<TelephoneNumber>(248) 586-1022</TelephoneNumber>
+		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Home</TelephoneNumberType>
+	</Telephone>
+</StaffDirectory>
+<StaffDirectory>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207247</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
+	<EducationOrganizationReference>
+		<EducationOrganizationIdentity>
+			<EducationOrganizationId>19255901</EducationOrganizationId>
+		</EducationOrganizationIdentity>
+	</EducationOrganizationReference>
+</StaffDirectory>
 	<StaffEducationOrganizationEmploymentAssociation>
 		<StaffReference>
 			<StaffIdentity>
