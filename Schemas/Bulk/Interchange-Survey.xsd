@@ -23,6 +23,8 @@
         <xs:element name="SurveyResponseStaffTargetAssociation" type="SurveyResponseStaffTargetAssociation" />
         <xs:element name="SurveySectionResponseEducationOrganizationTargetAssociation" type="SurveySectionResponseEducationOrganizationTargetAssociation" />
         <xs:element name="SurveySectionResponseStaffTargetAssociation" type="SurveySectionResponseStaffTargetAssociation" />
+        <xs:element name="SurveyResponsePersonTargetAssociation" type="SurveyResponsePersonTargetAssociation" />
+        <xs:element name="SurveySectionResponsePersonTargetAssociation" type="SurveySectionResponsePersonTargetAssociation" />
       </xs:choice>
     </xs:complexType>
   </xs:element>
