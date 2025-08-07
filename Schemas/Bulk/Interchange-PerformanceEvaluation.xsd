@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.0.0" targetNamespace="http://ed-fi.org/6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:include schemaLocation="Ed-Fi-Core.xsd" />
+  <xs:annotation>
+    <xs:documentation>===== Performance Evaluation Interchange Model =====</xs:documentation>
+  </xs:annotation>
+  <xs:element name="InterchangePerformanceEvaluation">
+    <xs:annotation>
+      <xs:documentation>This interchange defines performance evaluations and contains all of their identifying information</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Evaluation" type="Evaluation" />
+        <xs:element name="EvaluationRating" type="EvaluationRating" />
+        <xs:element name="EvaluationElement" type="EvaluationElement" />
+        <xs:element name="EvaluationElementRating" type="EvaluationElementRating" />
+        <xs:element name="EvaluationObjective" type="EvaluationObjective" />
+        <xs:element name="EvaluationObjectiveRating" type="EvaluationObjectiveRating" />
+        <xs:element name="Goal" type="Goal" />
+        <xs:element name="PerformanceEvaluation" type="PerformanceEvaluation" />
+        <xs:element name="PerformanceEvaluationRating" type="PerformanceEvaluationRating" />
+        <xs:element name="QuantitativeMeasure" type="QuantitativeMeasure" />
+        <xs:element name="QuantitativeMeasureScore" type="QuantitativeMeasureScore" />
+        <xs:element name="RubricDimension" type="RubricDimension" />
+        <xs:element name="SurveySection" type="SurveySection" />
+        <xs:element name="SurveySectionAggregateResponse" type="SurveySectionAggregateResponse" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

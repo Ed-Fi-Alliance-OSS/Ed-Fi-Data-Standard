@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.0.0" targetNamespace="http://ed-fi.org/6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:include schemaLocation="Ed-Fi-Core.xsd" />
+  <xs:annotation>
+    <xs:documentation>===== Professional Development Interchange Model =====</xs:documentation>
+  </xs:annotation>
+  <xs:element name="InterchangeProfessionalDevelopment">
+    <xs:annotation>
+      <xs:documentation>This interchange defines professional development events and their associated attendance records.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="ProfessionalDevelopmentEvent" type="ProfessionalDevelopmentEvent" />
+        <xs:element name="ProfessionalDevelopmentEventAttendance" type="ProfessionalDevelopmentEventAttendance" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
