@@ -7338,9 +7338,9 @@
               <xs:documentation>A reference to the expected administration of an assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentEducationOrganizationAssociationReference" type="StudentEducationOrganizationAssociationReferenceType">
+          <xs:element name="StudentDemographicReference" type="StudentDemographicReferenceType">
             <xs:annotation>
-              <xs:documentation>A reference to the attending student education organization association.</xs:documentation>
+              <xs:documentation>The demographic information associated to a student.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StudentSchoolAssociationReference" type="StudentSchoolAssociationReferenceType">
@@ -7348,9 +7348,17 @@
               <xs:documentation>A reference to the attending student school association that is active during the period of administration.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="TestingEducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
+          <xs:element name="AssessmentAccommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation>A reference to the education organization expected to administer the assessment.</xs:documentation>
+              <xs:documentation>The special variation(s) to be used in how assessments (in general) are presented, how it is administered, or how the test taker is allowed to respond. This generally refers to changes that do not substantially alter what the examination measures. The proper use of accommodations does not substantially change academic level or performance criteria.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>AccommodationDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AssessmentCustomization" type="AssessmentCustomization" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Key/value pairs which may be used to facilitate customization of an assessment or to support vendor reporting/analysis.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ReportingEducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
@@ -7358,16 +7366,16 @@
               <xs:documentation>A reference to the education organization which should receive the results of the assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="ScheduledStudentEducationOrganizationAssessmentAccommodationReference" type="StudentEducationOrganizationAssessmentAccommodationReferenceType" minOccurs="0">
+          <xs:element name="TestingEducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>A reference to the accommodations expected for administering the assessment. Student and education organization references must be consistent with StudentEducationOrganizationAssociation and StudentSchoolAssociation.</xs:documentation>
+              <xs:documentation>A reference to the education organization expected to administer the assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="AssessmentAccommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AssessmentGradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The special variation(s) to be used in how assessments (in general) are presented, how it is administered, or how the test taker is allowed to respond. This generally refers to changes that do not substantially alter what the examination measures. The proper use of accommodations does not substantially change academic level or performance criteria.</xs:documentation>
+              <xs:documentation>The grade level or primary instructional level at which the student is to be assessed.</xs:documentation>
               <xs:appinfo>
-                <ann:Descriptor>AccommodationDescriptor</ann:Descriptor>
+                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
@@ -7379,17 +7387,9 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="AssessmentGradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0">
+          <xs:element name="ScheduledStudentEducationOrganizationAssessmentAccommodationReference" type="StudentEducationOrganizationAssessmentAccommodationReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The grade level or primary instructional level at which the student is to be assessed.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="AssessmentCustomization" type="AssessmentCustomization" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Key/value pairs which may be used to facilitate customization of an assessment or to support vendor reporting/analysis.</xs:documentation>
+              <xs:documentation>A reference to the accommodations expected for administering the assessment. Student and education organization references must be consistent with StudentDemographics and StudentSchoolAssociation.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -20144,9 +20144,9 @@
           <xs:documentation>A reference to the expected administration of an assessment.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="StudentEducationOrganizationAssociationReference" type="StudentEducationOrganizationAssociationReferenceType">
+      <xs:element name="StudentDemographicReference" type="StudentDemographicReferenceType">
         <xs:annotation>
-          <xs:documentation>A reference to the attending student education organization association.</xs:documentation>
+          <xs:documentation>The demographic information associated to a student.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>

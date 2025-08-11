@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.0.0" targetNamespace="http://ed-fi.org/6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:include schemaLocation="Ed-Fi-Core.xsd" />
+  <xs:annotation>
+    <xs:documentation>===== Recruitment and Staffing Interchange Model =====</xs:documentation>
+  </xs:annotation>
+  <xs:element name="InterchangeRecruitmentAndStaffing">
+    <xs:annotation>
+      <xs:documentation>This interchange facilitates the exchange of information related to all aspects of the teacher recruitment and application process.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="ApplicantProfile" type="ApplicantProfile" />
+        <xs:element name="Application" type="Application" />
+        <xs:element name="ApplicationEvent" type="ApplicationEvent" />
+        <xs:element name="ProfessionalDevelopmentEvent" type="ProfessionalDevelopmentEvent" />
+        <xs:element name="ProfessionalDevelopmentEventAttendance" type="ProfessionalDevelopmentEventAttendance" />
+        <xs:element name="Credential" type="Credential" />
+        <xs:element name="RecruitmentEventAttendance" type="RecruitmentEventAttendance" />
+        <xs:element name="RecruitmentEvent" type="RecruitmentEvent" />
+        <xs:element name="Person" type="Person" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
