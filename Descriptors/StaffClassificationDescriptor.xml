@@ -19,7 +19,6 @@
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
 	</StaffClassificationDescriptor>
 	</StaffClassificationDescriptor>
-		<StaffClassificationDescriptor>
 		<CodeValue>Elementary School Counselor</CodeValue>
 		<ShortDescription>Elementary School Counselor</ShortDescription>
 		<Description>Elementary School Counselor</Description>
