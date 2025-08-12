@@ -29,6 +29,7 @@
 		<ShortDescription>Elementary Teacher</ShortDescription>
 		<Description>Elementary Teacher</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Family Service Workers</CodeValue>
 		<ShortDescription>Family Service Workers</ShortDescription>
