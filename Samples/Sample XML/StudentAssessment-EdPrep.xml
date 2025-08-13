@@ -1416,7 +1416,7 @@
 		<PerformanceLevel>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Fail</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score</AssessmentReportingMethod>
-			<PerformanceLevelIndicatorName>true</PerformanceLevelIndicatorName> 
+			<PerformanceLevelIndicatorName>true</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
 		<StudentReference>
 			<StudentIdentity>
