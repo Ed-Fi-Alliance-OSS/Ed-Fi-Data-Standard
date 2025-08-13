@@ -29270,7 +29270,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="100" />
+      <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="BellScheduleName">
@@ -29551,7 +29551,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="75" />
+      <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ContentStandardVersion">
@@ -29630,7 +29630,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="100" />
+      <xs:maxLength value="120" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="CredentialEndorsement">
@@ -30080,7 +30080,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="60" />
+      <xs:maxLength value="120" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ImmunizationName">
