@@ -48,4 +48,10 @@
 		<Description>An organizational unit of another education organization, often devoted to a particular academic discipline, area of study, or organization function.</Description>
 		<Namespace>uri://ed-fi.org/EducationOrganizationCategoryDescriptor</Namespace>
 	</EducationOrganizationCategoryDescriptor>
+		<EducationOrganizationCategoryDescriptor>
+		<CodeValue>Educator Preparation Provider</CodeValue>
+		<ShortDescription>Educator Preparation Provider</ShortDescription>
+		<Description>Educator Preparation Provider</Description>
+		<Namespace>uri://ed-fi.org/EducationOrganizationCategoryDescriptor</Namespace>
+	</EducationOrganizationCategoryDescriptor>
 </InterchangeDescriptors>
