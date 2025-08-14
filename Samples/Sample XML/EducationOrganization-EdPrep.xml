@@ -56,7 +56,7 @@
       <IdentificationCode>ARAB1311</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#CSSC course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Beginning Arabic I</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -216,7 +216,7 @@
       <IdentificationCode>COMD2310</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#LEA course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Intro to Speech-Language</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -296,7 +296,7 @@
       <IdentificationCode>CSHR1001</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#University course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Coached Study Hour BMED M1-M4</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -504,7 +504,7 @@
       <IdentificationCode>ENST1301</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Intermediate agency course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Intro to ENST</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -520,7 +520,7 @@
       <IdentificationCode>ENVR1401</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Intro to Envr Sci I</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -552,7 +552,7 @@
       <IdentificationCode>EXAR3325</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#University course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Expressive Arts Theories</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -568,7 +568,7 @@
       <IdentificationCode>FINA3380</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#SCED course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Introduction to Finance</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -712,7 +712,7 @@
       <IdentificationCode>KINE1216</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Jogging</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -792,7 +792,7 @@
       <IdentificationCode>MATH1314</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#CSSC course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>College Algebra</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -888,7 +888,7 @@
       <IdentificationCode>NURS2301</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#CSSC course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Wellness</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -936,7 +936,7 @@
       <IdentificationCode>PHYS1401</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Intermediate agency course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>General Physics I</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -1208,7 +1208,7 @@
       <IdentificationCode>TRSP3343</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Adv English to Spanish Transl</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -1256,7 +1256,7 @@
       <IdentificationCode>WRLS2301</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Intermediate agency course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Multilingual Writing</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -1336,7 +1336,7 @@
       <IdentificationCode>ALAW3312</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Evidence</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -1432,7 +1432,7 @@
       <IdentificationCode>ARAB1311</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#School course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Beginning Arabic I</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -1704,7 +1704,7 @@
       <IdentificationCode>BLAW3337</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Intermediate agency course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Business Law I</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -1928,7 +1928,7 @@
       <IdentificationCode>COMD2310</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#School course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Intro to Speech-Language</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -2008,7 +2008,7 @@
       <IdentificationCode>COUN6313</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#University course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Personal/Social Development</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -2152,7 +2152,7 @@
       <IdentificationCode>CSHR1001</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#NCES Pilot SNCCS course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Coached Study Hour BMED M1-M4</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -2184,7 +2184,7 @@
       <IdentificationCode>ECEC4311</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Intermediate agency course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Behavior of Children</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -2312,7 +2312,7 @@
       <IdentificationCode>ECON2302</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#School course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Principles of Microeconomics</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -2568,7 +2568,7 @@
       <IdentificationCode>EDTC3310</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#LEA course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Intro Educational Technology</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -2792,7 +2792,7 @@
       <IdentificationCode>ENST1301</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Other</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Intro to ENST</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -2888,7 +2888,7 @@
       <IdentificationCode>EPSY6350</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Intro to Statistics</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -3096,7 +3096,7 @@
       <IdentificationCode>HIST4399</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#CSSC course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Senior Research Seminar</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -3224,7 +3224,7 @@
       <IdentificationCode>HONR2387</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#University course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>HON Humanities I</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -3272,7 +3272,7 @@
       <IdentificationCode>HPRS4334</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Intermediate agency course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Issues and Trends in Health</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -3544,7 +3544,7 @@
       <IdentificationCode>MASC2301</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#School course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Intro to Mex Am Studies</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -3672,7 +3672,7 @@
       <IdentificationCode>MECE4350</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#NCES Pilot SNCCS course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Machine Elements</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -3720,7 +3720,7 @@
       <IdentificationCode>MGMT1301</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#NCES Pilot SNCCS course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Intro to Business</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -3832,7 +3832,7 @@
       <IdentificationCode>MUEN1121</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#NCES Pilot SNCCS course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Wind Ensemble</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4040,7 +4040,7 @@
       <IdentificationCode>PHIL1310</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Intermediate agency course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Ethics  Happiness  &amp; Good Life</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4088,7 +4088,7 @@
       <IdentificationCode>PHYS1401</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#NCES Pilot SNCCS course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>General Physics I</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4184,7 +4184,7 @@
       <IdentificationCode>PORT1311</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#SCED course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Beginning Portuguese I</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4200,7 +4200,7 @@
       <IdentificationCode>PSCI1421</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#CSSC course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Phys Sci I</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4248,7 +4248,7 @@
       <IdentificationCode>PSYC2301</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>General Psychology</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4280,7 +4280,7 @@
       <IdentificationCode>PSYC2301</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Intermediate agency course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>General Psychology</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4424,7 +4424,7 @@
       <IdentificationCode>REHS2301</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#LEA course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Intro to Rehabilitation</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4504,7 +4504,7 @@
       <IdentificationCode>ROTC1201</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Other</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Intro to Army</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4696,7 +4696,7 @@
       <IdentificationCode>SPED4330</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#NCES Pilot SNCCS course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Language &amp; Literacy Except Lea</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4728,7 +4728,7 @@
       <IdentificationCode>STAT2334</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Applied Statistics for Health</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4744,7 +4744,7 @@
       <IdentificationCode>STAT2334</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#NCES Pilot SNCCS course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Multiple Subjects</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
     <CourseDescription>Applied Statistics for Health</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4760,7 +4760,7 @@
       <IdentificationCode>STAT2334</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#Other</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Special Education</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
     <CourseDescription>Applied Statistics for Health</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -4824,7 +4824,7 @@
       <IdentificationCode>THTF2366</IdentificationCode>
       <CourseIdentificationSystem>uri://ed-fi.org/CourseIdentificationSystemDescriptor#CSSC course code</CourseIdentificationSystem>
     </CourseIdentificationCode>
-    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#ELL</AcademicSubject>
+    <AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Learners</AcademicSubject>
     <CourseDescription>Cinema Appreciation</CourseDescription>
     <EducationOrganizationReference>
       <EducationOrganizationIdentity>
@@ -5057,7 +5057,7 @@
     </EducationOrganizationReference>
   </Course>
   <School>
-		<NameOfInstitution>TU Collge of Education Graduate</NameOfInstitution>
+		<NameOfInstitution>TU College of Education Graduate</NameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#School</EducationOrganizationCategory>
 		<Address>
 			<StreetNumberName>19463 West Way</StreetNumberName>
@@ -5068,7 +5068,7 @@
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
 		</Address>
 		<SchoolId>50</SchoolId>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's</GradeLevel>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program Program</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Professional Certification</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Undergraduate</GradeLevel>
 		<SchoolType>uri://ed-fi.org/SchoolTypeDescriptor#Regular</SchoolType>
@@ -5090,7 +5090,7 @@
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
 		</Address>
 		<SchoolId>60</SchoolId>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's</GradeLevel>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Professional Certification</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Undergraduate</GradeLevel>
 		<SchoolType>uri://ed-fi.org/SchoolTypeDescriptor#Regular</SchoolType>
@@ -5112,7 +5112,7 @@
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
 		</Address>
 		<SchoolId>70</SchoolId>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's</GradeLevel>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Professional Certification</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Undergraduate</GradeLevel>
 		<SchoolType>uri://ed-fi.org/SchoolTypeDescriptor#Regular</SchoolType>
@@ -5184,7 +5184,7 @@
 	</School>
 	<PostSecondaryInstitution>
 		<NameOfInstitution>Texas University</NameOfInstitution>
-		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#University</EducationOrganizationCategory>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Post Secondary Institution</EducationOrganizationCategory>
 		<Address>
 			<StreetNumberName>19463 West Way</StreetNumberName>
 			<City>Northridge</City>
@@ -5197,7 +5197,7 @@
 	</PostSecondaryInstitution>
 	<PostSecondaryInstitution>
 		<NameOfInstitution>New Mexico University</NameOfInstitution>
-		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#University</EducationOrganizationCategory>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Post Secondary Institution</EducationOrganizationCategory>
 		<Address>
 			<StreetNumberName>789 Austin Trail</StreetNumberName>
 			<City>Santa Fe</City>
@@ -5210,10 +5210,10 @@
 	</PostSecondaryInstitution>
 	<PostSecondaryInstitution>
 		<NameOfInstitution>Pennsylvania University</NameOfInstitution>
-		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#University</EducationOrganizationCategory>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Post Secondary Institution</EducationOrganizationCategory>
 		<Address>
 			<StreetNumberName>456 Philly Rd.</StreetNumberName>
-			<City>Philidelphia</City>
+			<City>Philadelphia</City>
 			<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#PA</StateAbbreviation>
 			<PostalCode>25896</PostalCode>
 			<NameOfCounty>Philly</NameOfCounty>
@@ -5223,7 +5223,7 @@
 	</PostSecondaryInstitution>
 	<PostSecondaryInstitution>
 		<NameOfInstitution>New York University</NameOfInstitution>
-		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#University</EducationOrganizationCategory>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Post Secondary Institution</EducationOrganizationCategory>
 		<Address>
 			<StreetNumberName>258 New Yorker Drive</StreetNumberName>
 			<City>New York</City>
