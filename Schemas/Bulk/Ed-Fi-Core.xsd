@@ -7535,6 +7535,11 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
+          <xs:element name="StudentCharacteristic" type="StudentCharacteristic" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Reflects important characteristics of a student. If a student has a characteristic present, that characteristic is considered true or active for that student. If a characteristic is not present, no assumption is made as to the applicability of the characteristic, but local policy may dictate otherwise.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
           <xs:element name="SupporterMilitaryConnection" type="SupporterMilitaryConnectionDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Military connection of the person/people whom the student is a dependent of.</xs:documentation>
@@ -12692,11 +12697,6 @@
               <xs:appinfo>
                 <ann:Descriptor>TribalAffiliationDescriptor</ann:Descriptor>
               </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="StudentCharacteristic" type="StudentCharacteristic" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Reflects important characteristics of a student. If a student has a characteristic present, that characteristic is considered true or active for that student. If a characteristic is not present, no assumption is made as to the applicability of the characteristic, but local policy may dictate otherwise.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="LimitedEnglishProficiency" type="LimitedEnglishProficiencyDescriptorReferenceType" minOccurs="0">
