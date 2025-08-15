@@ -515046,9 +515046,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#rus</Language>
@@ -515270,12 +515267,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#tur</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -515358,9 +515349,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#swe</Language>
@@ -520130,12 +520118,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#rum</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -521278,12 +521260,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -522209,9 +522185,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -527821,9 +527794,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -527902,9 +527872,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -528113,9 +528080,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -528928,12 +528892,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -530511,12 +530469,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -532445,12 +532397,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#sin</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -532904,12 +532850,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#kor</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -535181,9 +535121,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -536171,9 +536108,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#urd</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -537224,9 +537158,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -543380,15 +543311,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Homeless</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorName>At Risk</IndicatorName>
 			<Indicator>True</Indicator>
@@ -544884,12 +544806,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#heb</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -545866,12 +545782,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -545948,9 +545858,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#per</Language>
@@ -548242,12 +548149,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Homeless</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -552834,12 +552735,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Foster Care</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -555748,12 +555643,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#kmb</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -556202,9 +556091,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -556952,9 +556838,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -558395,15 +558278,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Runaway</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -558856,12 +558730,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#hun</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -566055,9 +565923,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -569610,9 +569475,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#tso</Language>
@@ -572848,12 +572710,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
-		</StudentCharacteristic>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#sin</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -573326,9 +573182,6 @@
 		</ElectronicMail>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
 		<LimitedEnglishProficiency>uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited</LimitedEnglishProficiency>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#lao</Language>
