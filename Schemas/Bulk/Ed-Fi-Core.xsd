@@ -12001,58 +12001,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StaffEducationOrganizationContactAssociation">
-    <xs:annotation>
-      <xs:documentation>This association provides the contact information of the staff associated with the education organization.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Association</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ComplexObjectType">
-        <xs:sequence>
-          <xs:element name="StaffReference" type="StaffReferenceType">
-            <xs:annotation>
-              <xs:documentation>The staff assigned to the education organization.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
-            <xs:annotation>
-              <xs:documentation>The education organization to which the staff member provides services.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Address" type="Address" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The optional address for the contact associated with the education organization.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ContactTitle" type="ContactTitle">
-            <xs:annotation>
-              <xs:documentation>The title of the contact in the context of the education organization.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ContactType" type="ContactTypeDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicates the type for the contact information.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>ContactTypeDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ElectronicMailAddress" type="ElectronicMailAddress">
-            <xs:annotation>
-              <xs:documentation>The email for the contact associated with the education organization.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Telephone" type="Telephone" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The optional telephone for the contact associated with the education organization.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="StaffEducationOrganizationEmploymentAssociation">
     <xs:annotation>
       <xs:documentation>This association indicates the education organization an employee, contractor, volunteer, or other service provider is formally associated with typically indicated by which organization the staff member has a services contract with or receives compensation from.</xs:documentation>
@@ -19397,50 +19345,6 @@
           <xs:element name="StaffEducationOrganizationAssignmentAssociationIdentity" type="StaffEducationOrganizationAssignmentAssociationIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a StaffEducationOrganizationAssignmentAssociation.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="StaffEducationOrganizationContactAssociationIdentityType">
-    <xs:annotation>
-      <xs:documentation>Identity of a StaffEducationOrganizationContactAssociation.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Identity</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="StaffReference" type="StaffReferenceType">
-        <xs:annotation>
-          <xs:documentation>The staff assigned to the education organization.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
-        <xs:annotation>
-          <xs:documentation>The education organization to which the staff member provides services.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="ContactTitle" type="ContactTitle">
-        <xs:annotation>
-          <xs:documentation>The title of the contact in the context of the education organization.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="StaffEducationOrganizationContactAssociationReferenceType">
-    <xs:annotation>
-      <xs:documentation>Provides alternative references for a StaffEducationOrganizationContactAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="ReferenceType">
-        <xs:sequence>
-          <xs:element name="StaffEducationOrganizationContactAssociationIdentity" type="StaffEducationOrganizationContactAssociationIdentityType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identity of a StaffEducationOrganizationContactAssociation.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -29270,7 +29174,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="100" />
+      <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="BellScheduleName">
@@ -29551,7 +29455,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="75" />
+      <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ContentStandardVersion">
@@ -29630,7 +29534,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="100" />
+      <xs:maxLength value="120" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="CredentialEndorsement">
@@ -30080,7 +29984,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="60" />
+      <xs:maxLength value="120" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ImmunizationName">
