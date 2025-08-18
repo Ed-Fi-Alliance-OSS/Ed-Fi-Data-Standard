@@ -314,9 +314,33 @@ def main():
     
     # Convert relative paths to absolute paths based on script location
     script_dir = Path(__file__).parent.parent  # Go up one level from eng/ to root
-    samples_dir = script_dir / args.samples_dir
-    schemas_dir = script_dir / args.schemas_dir  
-    descriptors_dir = script_dir / args.descriptors_dir
+    
+    # Handle both relative and absolute paths
+    if Path(args.samples_dir).is_absolute():
+        samples_dir = Path(args.samples_dir)
+    else:
+        # For relative paths, resolve from the current working directory 
+        # if it looks like a relative path starting with ../, otherwise from script dir
+        if args.samples_dir.startswith('../'):
+            samples_dir = (Path.cwd() / args.samples_dir).resolve()
+        else:
+            samples_dir = script_dir / args.samples_dir
+        
+    if Path(args.schemas_dir).is_absolute():
+        schemas_dir = Path(args.schemas_dir)
+    else:
+        if args.schemas_dir.startswith('../'):
+            schemas_dir = (Path.cwd() / args.schemas_dir).resolve()
+        else:
+            schemas_dir = script_dir / args.schemas_dir
+        
+    if Path(args.descriptors_dir).is_absolute():
+        descriptors_dir = Path(args.descriptors_dir)
+    else:
+        if args.descriptors_dir.startswith('../'):
+            descriptors_dir = (Path.cwd() / args.descriptors_dir).resolve()
+        else:
+            descriptors_dir = script_dir / args.descriptors_dir
     
     try:
         validator = XMLValidator(
