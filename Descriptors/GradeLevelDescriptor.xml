@@ -133,6 +133,60 @@
 		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
 	</GradeLevelDescriptor>
 	<GradeLevelDescriptor>
+		<CodeValue>Master's Program</CodeValue>
+		<ShortDescription>Master's Program</ShortDescription>
+		<Description>Master's Program</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Professional Certification</CodeValue>
+		<ShortDescription>Professional Certification</ShortDescription>
+		<Description>Professional Certification</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Undergraduate</CodeValue>
+		<ShortDescription>Undergraduate</ShortDescription>
+		<Description>Undergraduate</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Freshman</CodeValue>
+		<ShortDescription>Freshman</ShortDescription>
+		<Description>Freshman</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Sophomore</CodeValue>
+		<ShortDescription>Sophomore</ShortDescription>
+		<Description>Sophomore</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Junior</CodeValue>
+		<ShortDescription>Junior</ShortDescription>
+		<Description>Junior</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Senior</CodeValue>
+		<ShortDescription>Senior</ShortDescription>
+		<Description>Senior</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Postbaccalaureate</CodeValue>
+		<ShortDescription>Postbaccalaureate</ShortDescription>
+		<Description>Postbaccalaureate</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
+		<CodeValue>Doctoral Program</CodeValue>
+		<ShortDescription>Doctoral Program</ShortDescription>
+		<Description>Doctoral Program</Description>
+		<Namespace>uri://ed-fi.org/GradeLevelDescriptor</Namespace>
+	</GradeLevelDescriptor>
+	<GradeLevelDescriptor>
 		<CodeValue>Adult Education</CodeValue>
 		<ShortDescription>DEPRECATED: Adult Education</ShortDescription>
 		<Description>DEPRECATED: Adult Education</Description>

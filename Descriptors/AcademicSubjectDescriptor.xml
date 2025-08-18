@@ -114,4 +114,16 @@
 		<Description>Writing</Description>
 		<Namespace>uri://ed-fi.org/AcademicSubjectDescriptor</Namespace>
 	</AcademicSubjectDescriptor>
+	<AcademicSubjectDescriptor>
+		<CodeValue>Bilingual</CodeValue>
+		<ShortDescription>Bilingual</ShortDescription>
+		<Description>Bilingual</Description>
+		<Namespace>uri://ed-fi.org/AcademicSubjectDescriptor</Namespace>
+	</AcademicSubjectDescriptor>
+	<AcademicSubjectDescriptor>
+		<CodeValue>English Language Learners</CodeValue>
+		<ShortDescription>English Language Learners</ShortDescription>
+		<Description>English Language Learners</Description>
+		<Namespace>uri://ed-fi.org/AcademicSubjectDescriptor</Namespace>
+	</AcademicSubjectDescriptor>
 </InterchangeDescriptors>
