@@ -111,7 +111,7 @@
 		</AssessmentIdentificationCode>
 		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#Other</AssessmentCategory>
 		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Science</AcademicSubject>
-		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's</AssessedGradeLevel>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>100</MaxRawScore>
 		<Namespace>uri://ed-fi.org</Namespace>
@@ -428,7 +428,7 @@
 		</AssessmentIdentificationCode>
 		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
 		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Writing</AcademicSubject>
-		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's</AssessedGradeLevel>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>

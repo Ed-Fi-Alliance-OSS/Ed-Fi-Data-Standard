@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<GoalTypeDescriptor>
+		<CodeValue>Assessment</CodeValue>
+		<ShortDescription>Assessment</ShortDescription>
+		<Description>Assessment</Description>
+		<Namespace>uri://ed-fi.org/GoalTypeDescriptor</Namespace>
+	</GoalTypeDescriptor>
+	<GoalTypeDescriptor>
+		<CodeValue>Classroom Environment</CodeValue>
+		<ShortDescription>Classroom Environment</ShortDescription>
+		<Description>Classroom Environment</Description>
+		<Namespace>uri://ed-fi.org/GoalTypeDescriptor</Namespace>
+	</GoalTypeDescriptor>
+	<GoalTypeDescriptor>
+		<CodeValue>Content</CodeValue>
+		<ShortDescription>Content</ShortDescription>
+		<Description>Content</Description>
+		<Namespace>uri://ed-fi.org/GoalTypeDescriptor</Namespace>
+	</GoalTypeDescriptor>
+	<GoalTypeDescriptor>
+		<CodeValue>Instruction</CodeValue>
+		<ShortDescription>Instruction</ShortDescription>
+		<Description>Instruction</Description>
+		<Namespace>uri://ed-fi.org/GoalTypeDescriptor</Namespace>
+	</GoalTypeDescriptor>
+	<GoalTypeDescriptor>
+		<CodeValue>Leadership</CodeValue>
+		<ShortDescription>Leadership</ShortDescription>
+		<Description>Leadership</Description>
+		<Namespace>uri://ed-fi.org/GoalTypeDescriptor</Namespace>
+	</GoalTypeDescriptor>
+	<GoalTypeDescriptor>
+		<CodeValue>Planning and Preparation</CodeValue>
+		<ShortDescription>Planning and Preparation</ShortDescription>
+		<Description>Planning and Preparation</Description>
+		<Namespace>uri://ed-fi.org/GoalTypeDescriptor</Namespace>
+	</GoalTypeDescriptor>
+	<GoalTypeDescriptor>
+		<CodeValue>Professional Responsibilities</CodeValue>
+		<ShortDescription>Professional Responsibilities</ShortDescription>
+		<Description>Professional Responsibilities</Description>
+		<Namespace>uri://ed-fi.org/GoalTypeDescriptor</Namespace>
+	</GoalTypeDescriptor>
+	<GoalTypeDescriptor>
+		<CodeValue>Student Engagement</CodeValue>
+		<ShortDescription>Student Engagement</ShortDescription>
+		<Description>Student Engagement</Description>
+		<Namespace>uri://ed-fi.org/GoalTypeDescriptor</Namespace>
+	</GoalTypeDescriptor>
+	<GoalTypeDescriptor>
+		<CodeValue>Time Management</CodeValue>
+		<ShortDescription>Time Management</ShortDescription>
+		<Description>Time Management</Description>
+		<Namespace>uri://ed-fi.org/GoalTypeDescriptor</Namespace>
+	</GoalTypeDescriptor>
+</InterchangeDescriptors>

@@ -5068,7 +5068,7 @@
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
 		</Address>
 		<SchoolId>50</SchoolId>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</GradeLevel>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program Program</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Professional Certification</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Undergraduate</GradeLevel>
 		<SchoolType>uri://ed-fi.org/SchoolTypeDescriptor#Regular</SchoolType>
@@ -5090,7 +5090,7 @@
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
 		</Address>
 		<SchoolId>60</SchoolId>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</GradeLevel>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program Program</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Professional Certification</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Undergraduate</GradeLevel>
 		<SchoolType>uri://ed-fi.org/SchoolTypeDescriptor#Regular</SchoolType>
@@ -5112,7 +5112,7 @@
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
 		</Address>
 		<SchoolId>70</SchoolId>
-		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</GradeLevel>
+		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program Program</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Professional Certification</GradeLevel>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Undergraduate</GradeLevel>
 		<SchoolType>uri://ed-fi.org/SchoolTypeDescriptor#Regular</SchoolType>
@@ -5234,4 +5234,4 @@
 		</Address>
 		<PostSecondaryInstitutionId>4</PostSecondaryInstitutionId>
 	</PostSecondaryInstitution>
-</InterchangeEducationOrganization> 
+</InterchangeEducationOrganization>

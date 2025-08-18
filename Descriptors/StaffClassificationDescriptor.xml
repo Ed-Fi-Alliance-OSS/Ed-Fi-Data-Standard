@@ -53,7 +53,7 @@
 		<ShortDescription>Instructional Coordinator and Supervisor to the Staff</ShortDescription>
 		<Description>Instructional Coordinator and Supervisor to the Staff</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
-	</StaffClassificationDescriptor>	
+	</StaffClassificationDescriptor>
 		<StaffClassificationDescriptor>
 		<CodeValue>Kindergarten Teacher</CodeValue>
 		<ShortDescription>Kindergarten Teacher</ShortDescription>
@@ -125,7 +125,7 @@
 		<ShortDescription>School Administrator</ShortDescription>
 		<Description>School Administrator</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
-	</StaffClassificationDescriptor>	
+	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>School Administrative Support Staff</CodeValue>
 		<ShortDescription>School Administrative Support Staff</ShortDescription>
@@ -137,13 +137,13 @@
 		<ShortDescription>School Counselor</ShortDescription>
 		<Description>School Counselor</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
-	</StaffClassificationDescriptor>	
+	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>School Psychologist</CodeValue>
 		<ShortDescription>School Psychologist</ShortDescription>
 		<Description>School Psychologist</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
-	</StaffClassificationDescriptor>	
+	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Secondary Teacher</CodeValue>
 		<ShortDescription>Secondary Teacher</ShortDescription>
@@ -197,7 +197,19 @@
 		<ShortDescription>Missing</ShortDescription>
 		<Description>Missing</Description>
 		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
-	</StaffClassificationDescriptor>	
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Mentor Teacher</CodeValue>
+		<ShortDescription>Mentor Teacher</ShortDescription>
+		<Description>Mentor Teacher</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
+	<StaffClassificationDescriptor>
+		<CodeValue>Site Coordinator</CodeValue>
+		<ShortDescription>Site Coordinator</ShortDescription>
+		<Description>Site Coordinator</Description>
+		<Namespace>uri://ed-fi.org/StaffClassificationDescriptor</Namespace>
+	</StaffClassificationDescriptor>
 	<StaffClassificationDescriptor>
 		<CodeValue>Assistant Principal</CodeValue>
 		<ShortDescription>DEPRECATED: Assistant Principal</ShortDescription>
