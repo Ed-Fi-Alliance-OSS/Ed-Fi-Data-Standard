@@ -1,0 +1,105 @@
+name: XML Validation
+
+on:
+  pull_request:
+    branches:
+      - v6.0.01
+    paths:
+      - '**/*.xml'
+      - '**/*.xsd'
+
+jobs:
+  validate-xml:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+    
+    - name: Install dependencies
+      run: |
+        cd eng/
+        pip install -r requirements.txt
+    
+    - name: Run XML validation
+      id: validation
+      run: |
+        cd eng/
+        python validate_xml.py > validation_output.txt 2>&1
+        echo "exit_code=$?" >> $GITHUB_OUTPUT
+      continue-on-error: true
+    
+    - name: Read validation output
+      id: read_output
+      run: |
+        if [ -f eng/validation_output.txt ]; then
+          {
+            echo 'validation_output<<EOF'
+            cat eng/validation_output.txt
+            echo EOF
+          } >> $GITHUB_OUTPUT
+        else
+          echo 'validation_output=No output file found' >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Comment on PR
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const output = `${{ steps.read_output.outputs.validation_output }}`;
+          const exitCode = '${{ steps.validation.outputs.exit_code }}';
+          
+          let commentBody;
+          if (exitCode === '0') {
+            commentBody = `## ✅ XML Validation Passed
+            
+All XML files have been validated successfully against their schemas and descriptor definitions.
+
+<details>
+<summary>Validation Output</summary>
+
+\`\`\`
+${output}
+\`\`\`
+
+</details>`;
+          } else {
+            commentBody = `## ❌ XML Validation Failed
+            
+XML validation found errors. Please review and fix the issues below:
+
+<details>
+<summary>Validation Errors</summary>
+
+\`\`\`
+${output}
+\`\`\`
+
+</details>
+
+### Error Format
+Errors are formatted as: \`[file name]\t[line number]\t[validation error]\`
+
+### Next Steps
+1. Review the validation errors above
+2. Fix the XML schema validation errors and/or descriptor reference errors
+3. Push your changes to trigger validation again`;
+          }
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: commentBody
+          });
+    
+    - name: Fail if validation errors found
+      if: steps.validation.outputs.exit_code != '0'
+      run: |
+        echo "XML validation failed with exit code ${{ steps.validation.outputs.exit_code }}"
+        exit 1
