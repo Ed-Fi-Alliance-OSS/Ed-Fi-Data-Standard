@@ -11,8 +11,8 @@ The validation script performs two types of validation:
 
 ## Requirements
 
-- Python 3.10 or higher
-- Required packages listed in `requirements.txt`
+- Python 3.12 or higher
+- Poetry package manager
 
 ## Installation
 
@@ -21,9 +21,14 @@ The validation script performs two types of validation:
    cd eng/
    ```
 
-2. Install the required dependencies:
+2. Install Poetry if not already installed:
    ```bash
-   pip install -r requirements.txt
+   curl -sSL https://install.python-poetry.org | python3 -
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   poetry install
    ```
 
 ## Usage
@@ -33,7 +38,7 @@ The validation script performs two types of validation:
 Run the validation script from the `eng/` directory:
 
 ```bash
-python validate_xml.py
+poetry run python validate_xml.py
 ```
 
 This will validate all XML files in the default directories:
@@ -46,7 +51,7 @@ This will validate all XML files in the default directories:
 You can specify custom directories:
 
 ```bash
-python validate_xml.py --samples-dir "/path/to/samples" --schemas-dir "/path/to/schemas" --descriptors-dir "/path/to/descriptors"
+poetry run python validate_xml.py --samples-dir "/path/to/samples" --schemas-dir "/path/to/schemas" --descriptors-dir "/path/to/descriptors"
 ```
 
 ### Command Line Options

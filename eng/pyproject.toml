@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ed-fi-xml-validator"
+version = "1.0.0"
+description = "XML validation script for Ed-Fi Data Standard"
+authors = ["Ed-Fi Alliance"]
+readme = "README.md"
+packages = [{include = "validate_xml.py"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+xmlschema = "^3.0.0"
+lxml = "^4.9.0"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
