@@ -1,3 +1,7 @@
+---
+applyTo: "**/*.py, **/pyproject.toml"
+---
+
 # GitHub Copilot Instructions for Python Files
 
 ## Purpose

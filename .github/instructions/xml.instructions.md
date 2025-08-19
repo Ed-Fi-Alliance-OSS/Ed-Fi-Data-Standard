@@ -1,3 +1,7 @@
+---
+applyTo: "**/*.xml, **/*.xsd"
+---
+
 # GitHub Copilot Instructions for XML Files
 
 ## Purpose
