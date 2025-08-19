@@ -101,6 +101,7 @@
       <xs:enumeration value="DisplacedStudentStatusDescriptor" />
       <xs:enumeration value="DualCreditInstitutionDescriptor" />
       <xs:enumeration value="DualCreditTypeDescriptor" />
+      <xs:enumeration value="EconomicDisadvantageDescriptor" />
       <xs:enumeration value="EducationalEnvironmentDescriptor" />
       <xs:enumeration value="EducationOrganizationAssociationTypeDescriptor" />
       <xs:enumeration value="EducationOrganizationCategoryDescriptor" />
