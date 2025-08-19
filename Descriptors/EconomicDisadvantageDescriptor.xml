@@ -22,8 +22,7 @@
 		<CodeValue>Other Economic Disadvantage</CodeValue>
 		<ShortDescription>Other Economic Disadvantage</ShortDescription>
 		<Description>Other Economic Disadvantage, Including:
-
-a) from a family with an annual income at or below the official federal poverty line, b) eligible for Temporary Assistance to Needy Families (TANF) or other public assistance, c) received a comparable state program of need-based financial assistance, d) eligible for programs assisted under Title II of the Job Training Partnership Act (JTPA), or e) eligible for benefits under the Food Stamp Act of 1977</Description>
+			a) from a family with an annual income at or below the official federal poverty line, b) eligible for Temporary Assistance to Needy Families (TANF) or other public assistance, c) received a comparable state program of need-based financial assistance, d) eligible for programs assisted under Title II of the Job Training Partnership Act (JTPA), or e) eligible for benefits under the Food Stamp Act of 1977</Description>
 		<Namespace>uri://ed-fi.org/EconomicDisadvantageDescriptor</Namespace>
 	</EconomicDisadvantageDescriptor>
 	<EconomicDisadvantageDescriptor>

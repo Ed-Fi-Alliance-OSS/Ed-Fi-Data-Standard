@@ -11151,6 +11151,7 @@
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Autism Spectrum Disorders</Disability>
 		</Disability>
+		<EconomicDisadvantage>uri://ed-fi.org/EconomicDisadvantageDescriptor#Other Economic Disadvantage</EconomicDisadvantage>
 		<GenderIdentity>Male</GenderIdentity>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
 		<Language>
@@ -11181,6 +11182,7 @@
 			<Citizenship>
 			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Refugee</CitizenshipStatus>
 		</Citizenship>
+		<EconomicDisadvantage>uri://ed-fi.org/EconomicDisadvantageDescriptor#Not Qualified As Economically Disadvantaged</EconomicDisadvantage>
 		<GenderIdentity>Female</GenderIdentity>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
@@ -11205,6 +11207,7 @@
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Orthopedic Impairment</Disability>
 		</Disability>
+		<EconomicDisadvantage>uri://ed-fi.org/EconomicDisadvantageDescriptor#Eligible for Reduced-Price Meals</EconomicDisadvantage>
 		<Language>
 			<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Home language</LanguageUse>
@@ -11228,6 +11231,7 @@
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Other</Disability>
 		</Disability>
+		<EconomicDisadvantage>uri://ed-fi.org/EconomicDisadvantageDescriptor#Eligible for Free Meals</EconomicDisadvantage>
 		<GenderIdentity>Female</GenderIdentity>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
 		<Language>
