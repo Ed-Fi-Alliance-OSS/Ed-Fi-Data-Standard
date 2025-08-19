@@ -78,4 +78,10 @@
 		<Description>Displaced</Description>
 		<Namespace>uri://ed-fi.org/StudentCharacteristicDescriptor</Namespace>
 	</StudentCharacteristicDescriptor>
+	<StudentCharacteristicDescriptor>
+		<CodeValue>Economic Disadvantaged</CodeValue>
+		<ShortDescription>DEPRECATED: Economic Disadvantaged</ShortDescription>
+		<Description>DEPRECATED: Economic Disadvantaged</Description>
+		<Namespace>uri://ed-fi.org/StudentCharacteristicDescriptor</Namespace>
+	</StudentCharacteristicDescriptor>
 </InterchangeDescriptors>
