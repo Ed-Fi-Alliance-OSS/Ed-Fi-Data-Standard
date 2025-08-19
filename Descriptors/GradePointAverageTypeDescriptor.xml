@@ -12,4 +12,22 @@
 		<Description>Unweighted</Description>
 		<Namespace>uri://ed-fi.org/GradePointAverageTypeDescriptor</Namespace>
 	</GradePointAverageTypeDescriptor>
+	<GradePointAverageTypeDescriptor>
+		<CodeValue>Pre-Program</CodeValue>
+		<ShortDescription>Pre-Program</ShortDescription>
+		<Description>Pre-Program</Description>
+		<Namespace>uri://ed-fi.org/GradePointAverageTypeDescriptor</Namespace>
+	</GradePointAverageTypeDescriptor>
+	<GradePointAverageTypeDescriptor>
+		<CodeValue>Program</CodeValue>
+		<ShortDescription>Program</ShortDescription>
+		<Description>Program</Description>
+		<Namespace>uri://ed-fi.org/GradePointAverageTypeDescriptor</Namespace>
+	</GradePointAverageTypeDescriptor>
+	<GradePointAverageTypeDescriptor>
+		<CodeValue>Overall</CodeValue>
+		<ShortDescription>Overall</ShortDescription>
+		<Description>Overall</Description>
+		<Namespace>uri://ed-fi.org/GradePointAverageTypeDescriptor</Namespace>
+	</GradePointAverageTypeDescriptor>
 </InterchangeDescriptors>
