@@ -11146,7 +11146,7 @@
 		</EducationOrganizationReference>
 		<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Spaniard/Spanish/Spanish-American</AncestryEthnicOrigin>
 		<Citizenship>
-			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Non-ResidentAlien</CitizenshipStatus>
+			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Non-residentAlien</CitizenshipStatus>
 		</Citizenship>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Autism Spectrum Disorders</Disability>
@@ -11158,7 +11158,7 @@
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Other language proficiency</LanguageUse>
 		</Language>
 		<Language>
-			<Language>uri://ed-fi.org/LanguageDescriptor#Navajo</Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#Nav</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Native language</LanguageUse>
 		</Language>
 		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
@@ -11791,7 +11791,7 @@
 		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Billing</AddressType>
 		<DoNotPublishIndicator>false</DoNotPublishIndicator>
 		<CongressionalDistrict>35th congressional district</CongressionalDistrict>
-		<Locale>City-Large</Locale>
+		<Locale>uri://ed-fi.org/LocaleDescriptor#City-Large</Locale>
 	</Address>
 	<Address>
 		<StreetNumberName>4905 Airport Blvd</StreetNumberName>
@@ -11811,7 +11811,7 @@
 	</ElectronicMail>
 	<Telephone>
 		<TelephoneNumber>(512) 451-3326</TelephoneNumber>
-		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptorWork</TelephoneNumberType>
+		<TelephoneNumberType>uri://ed-fi.org/TelephoneNumberTypeDescriptor#Work</TelephoneNumberType>
 		<OrderOfPriority>1</OrderOfPriority>
 	</Telephone>
 	<Telephone>
