@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<InterchangeStaffAssociation xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-StaffAssociation.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<InterchangeStaffAssociation xmlns="http://ed-fi.org/6.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-StaffAssociation.xsd">
 	<Staff>
 		<StaffUniqueId>1000709</StaffUniqueId>
 		<StaffIdentificationCode>
@@ -351,19 +351,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207263</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207263</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Margaret</FirstName>
-			<LastSurname>Massey</LastSurname>
-		</Name>
-		<BirthDate>1962-10-26</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000193</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000193</IdentificationCode>
@@ -526,19 +513,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207239</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207239</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Christina</FirstName>
-			<LastSurname>Bishop</LastSurname>
-		</Name>
-		<BirthDate>1982-04-30</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000630</StaffUniqueId>
@@ -729,32 +703,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207285</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207285</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>David</FirstName>
-			<LastSurname>Wilson</LastSurname>
-		</Name>
-		<BirthDate>1958-05-02</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207222</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207222</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Terrell</FirstName>
-			<LastSurname>Bright</LastSurname>
-		</Name>
-		<BirthDate>1955-11-03</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>5228</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>5228</IdentificationCode>
@@ -881,19 +829,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207275</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207275</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Steven</FirstName>
-			<LastSurname>Weeks</LastSurname>
-		</Name>
-		<BirthDate>1971-06-28</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000583</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000583</IdentificationCode>
@@ -951,19 +886,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207226</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207226</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Anitra</FirstName>
-			<LastSurname>Snyder</LastSurname>
-		</Name>
-		<BirthDate>1984-05-05</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>5235</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>5235</IdentificationCode>
@@ -1012,19 +934,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207280</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207280</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Patricia</FirstName>
-			<LastSurname>Moran</LastSurname>
-		</Name>
-		<BirthDate>1977-04-12</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000242</StaffUniqueId>
@@ -1424,19 +1333,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207241</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207241</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Edwin</FirstName>
-			<LastSurname>Cordova</LastSurname>
-		</Name>
-		<BirthDate>1986-11-02</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000670</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000670</IdentificationCode>
@@ -1492,19 +1388,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207221</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207221</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Fred</FirstName>
-			<LastSurname>Lloyd</LastSurname>
-		</Name>
-		<BirthDate>1984-06-04</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000804</StaffUniqueId>
@@ -1918,19 +1801,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207238</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207238</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Danielle</FirstName>
-			<LastSurname>Erickson</LastSurname>
-		</Name>
-		<BirthDate>1966-11-04</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000723</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000723</IdentificationCode>
@@ -2007,19 +1877,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207270</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207270</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Kelley</FirstName>
-			<LastSurname>Christian</LastSurname>
-		</Name>
-		<BirthDate>1968-11-01</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000380</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000380</IdentificationCode>
@@ -2075,19 +1932,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207229</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207229</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Meredith</FirstName>
-			<LastSurname>Whitaker</LastSurname>
-		</Name>
-		<BirthDate>1964-08-16</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000521</StaffUniqueId>
@@ -2214,19 +2058,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207282</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207282</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Kisha</FirstName>
-			<LastSurname>Kelly</LastSurname>
-		</Name>
-		<BirthDate>1984-09-08</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000198</StaffUniqueId>
@@ -2728,19 +2559,6 @@
 		<BirthDate>1958-10-24</BirthDate>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207258</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207258</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Ismael</FirstName>
-			<LastSurname>Stafford</LastSurname>
-		</Name>
-		<BirthDate>1978-05-29</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000798</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000798</IdentificationCode>
@@ -2898,19 +2716,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207252</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207252</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Melisa</FirstName>
-			<LastSurname>Giles</LastSurname>
-		</Name>
-		<BirthDate>1985-08-03</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000609</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000609</IdentificationCode>
@@ -2987,19 +2792,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207254</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207254</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Angelique</FirstName>
-			<LastSurname>Avila</LastSurname>
-		</Name>
-		<BirthDate>1983-08-12</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000354</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000354</IdentificationCode>
@@ -3019,19 +2811,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207265</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207265</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Alvin</FirstName>
-			<LastSurname>Lee</LastSurname>
-		</Name>
-		<BirthDate>1985-09-04</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000381</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000381</IdentificationCode>
@@ -3049,19 +2828,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207240</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207240</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Amie</FirstName>
-			<LastSurname>Knapp</LastSurname>
-		</Name>
-		<BirthDate>1983-05-05</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000267</StaffUniqueId>
@@ -3359,19 +3125,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207248</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207248</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Diana</FirstName>
-			<LastSurname>Tanner</LastSurname>
-		</Name>
-		<BirthDate>1986-09-24</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000423</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000423</IdentificationCode>
@@ -3444,19 +3197,6 @@
 			<LastSurname>Cuenca</LastSurname>
 		</Name>
 		<BirthDate>1957-05-10</BirthDate>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207249</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207249</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Tamika</FirstName>
-			<LastSurname>Mcpherson</LastSurname>
-		</Name>
-		<BirthDate>1972-05-25</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000987</StaffUniqueId>
@@ -3554,19 +3294,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207278</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207278</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Dewayne</FirstName>
-			<LastSurname>Hickman</LastSurname>
-		</Name>
-		<BirthDate>1967-07-18</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000470</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000470</IdentificationCode>
@@ -3636,19 +3363,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207234</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207234</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Maribel</FirstName>
-			<LastSurname>Mckinney</LastSurname>
-		</Name>
-		<BirthDate>1975-11-17</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000115</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000115</IdentificationCode>
@@ -3704,19 +3418,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207223</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207223</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Priscilla</FirstName>
-			<LastSurname>Kane</LastSurname>
-		</Name>
-		<BirthDate>1985-11-27</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000601</StaffUniqueId>
@@ -3776,19 +3477,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207274</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207274</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Jon</FirstName>
-			<LastSurname>Kaiser</LastSurname>
-		</Name>
-		<BirthDate>1970-05-12</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000324</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000324</IdentificationCode>
@@ -3844,19 +3532,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207276</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207276</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Darrin</FirstName>
-			<LastSurname>Gallegos</LastSurname>
-		</Name>
-		<BirthDate>1967-05-14</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000543</StaffUniqueId>
@@ -3926,19 +3601,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207266</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207266</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Cody</FirstName>
-			<LastSurname>West</LastSurname>
-		</Name>
-		<BirthDate>1962-04-16</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000365</StaffUniqueId>
@@ -4093,32 +3755,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207272</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207272</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Russell</FirstName>
-			<LastSurname>Gomez</LastSurname>
-		</Name>
-		<BirthDate>1957-02-17</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207230</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207230</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Alexander</FirstName>
-			<LastSurname>Kim</LastSurname>
-		</Name>
-		<BirthDate>1953-08-09</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000823</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000823</IdentificationCode>
@@ -4136,19 +3772,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207277</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207277</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>David</FirstName>
-			<LastSurname>Young</LastSurname>
-		</Name>
-		<BirthDate>1982-03-12</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000820</StaffUniqueId>
@@ -4199,19 +3822,6 @@
 			<LastSurname>Crain</LastSurname>
 		</Name>
 		<BirthDate>1954-02-13</BirthDate>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207232</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207232</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Janet</FirstName>
-			<LastSurname>Reid</LastSurname>
-		</Name>
-		<BirthDate>1985-07-04</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000114</StaffUniqueId>
@@ -5177,19 +4787,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207256</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207256</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Bradley</FirstName>
-			<LastSurname>Shaffer</LastSurname>
-		</Name>
-		<BirthDate>1982-10-27</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>5209</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>5209</IdentificationCode>
@@ -5397,32 +4994,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207268</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207268</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Sara</FirstName>
-			<LastSurname>Preston</LastSurname>
-		</Name>
-		<BirthDate>1969-06-18</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207283</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207283</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Efrain</FirstName>
-			<LastSurname>Rodriguez</LastSurname>
-		</Name>
-		<BirthDate>1953-04-23</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000520</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000520</IdentificationCode>
@@ -5459,19 +5030,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207220</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207220</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Gene</FirstName>
-			<LastSurname>Macias</LastSurname>
-		</Name>
-		<BirthDate>1959-04-30</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1001007</StaffUniqueId>
@@ -5607,19 +5165,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207260</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207260</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Forrest</FirstName>
-			<LastSurname>Foster</LastSurname>
-		</Name>
-		<BirthDate>1975-10-30</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000187</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000187</IdentificationCode>
@@ -5715,19 +5260,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207257</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207257</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Julius</FirstName>
-			<LastSurname>Barrera</LastSurname>
-		</Name>
-		<BirthDate>1980-05-03</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>5239</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>5239</IdentificationCode>
@@ -5738,19 +5270,6 @@
 			<LastSurname>Fox</LastSurname>
 		</Name>
 		<BirthDate>1989-02-10</BirthDate>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207236</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207236</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Linda</FirstName>
-			<LastSurname>Dean</LastSurname>
-		</Name>
-		<BirthDate>1969-10-30</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000407</StaffUniqueId>
@@ -5810,19 +5329,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207259</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207259</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Josephine</FirstName>
-			<LastSurname>Stephens</LastSurname>
-		</Name>
-		<BirthDate>1953-12-07</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000327</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000327</IdentificationCode>
@@ -5878,19 +5384,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207264</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207264</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Marjorie</FirstName>
-			<LastSurname>Montoya</LastSurname>
-		</Name>
-		<BirthDate>1962-08-14</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>5197</StaffUniqueId>
@@ -6050,32 +5543,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207237</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207237</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Ruby</FirstName>
-			<LastSurname>Crawford</LastSurname>
-		</Name>
-		<BirthDate>1966-07-08</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207231</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207231</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Lauren</FirstName>
-			<LastSurname>Key</LastSurname>
-		</Name>
-		<BirthDate>1973-12-09</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000745</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000745</IdentificationCode>
@@ -6162,19 +5629,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207243</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207243</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Marjorie</FirstName>
-			<LastSurname>Hinton</LastSurname>
-		</Name>
-		<BirthDate>1974-08-25</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000524</StaffUniqueId>
@@ -6341,19 +5795,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207279</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207279</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Mark</FirstName>
-			<LastSurname>Woods</LastSurname>
-		</Name>
-		<BirthDate>1962-10-14</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000805</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000805</IdentificationCode>
@@ -6506,32 +5947,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207224</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207224</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Lakesha</FirstName>
-			<LastSurname>Salas</LastSurname>
-		</Name>
-		<BirthDate>1953-08-15</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207262</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207262</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Jenna</FirstName>
-			<LastSurname>Graham</LastSurname>
-		</Name>
-		<BirthDate>1985-05-03</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000615</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000615</IdentificationCode>
@@ -6651,19 +6066,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207284</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207284</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Sheldon</FirstName>
-			<LastSurname>Dickson</LastSurname>
-		</Name>
-		<BirthDate>1966-06-24</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000169</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000169</IdentificationCode>
@@ -6681,19 +6083,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207281</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207281</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Mike</FirstName>
-			<LastSurname>Villa</LastSurname>
-		</Name>
-		<BirthDate>1958-04-13</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000593</StaffUniqueId>
@@ -6715,32 +6104,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207242</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207242</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Leah</FirstName>
-			<LastSurname>Mcgrath</LastSurname>
-		</Name>
-		<BirthDate>1986-01-23</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207255</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207255</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Gerard</FirstName>
-			<LastSurname>Sexton</LastSurname>
-		</Name>
-		<BirthDate>1981-08-11</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000811</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000811</IdentificationCode>
@@ -6758,19 +6121,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207253</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207253</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Esther</FirstName>
-			<LastSurname>Gallegos</LastSurname>
-		</Name>
-		<BirthDate>1967-04-10</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000061</StaffUniqueId>
@@ -6828,19 +6178,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207228</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207228</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Eric</FirstName>
-			<LastSurname>Cherry</LastSurname>
-		</Name>
-		<BirthDate>1965-09-14</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000096</StaffUniqueId>
@@ -7074,19 +6411,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207250</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207250</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Karin</FirstName>
-			<LastSurname>Marks</LastSurname>
-		</Name>
-		<BirthDate>1972-02-24</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000597</StaffUniqueId>
@@ -7555,32 +6879,6 @@
 		<BirthDate>1974-03-08</BirthDate>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207261</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207261</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Naomi</FirstName>
-			<LastSurname>Zavala</LastSurname>
-		</Name>
-		<BirthDate>1985-04-24</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207235</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207235</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Jose</FirstName>
-			<LastSurname>Lutz</LastSurname>
-		</Name>
-		<BirthDate>1957-09-05</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000942</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000942</IdentificationCode>
@@ -7636,19 +6934,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207246</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207246</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Chadwick</FirstName>
-			<LastSurname>Garner</LastSurname>
-		</Name>
-		<BirthDate>1977-01-25</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1001009</StaffUniqueId>
@@ -7765,32 +7050,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207267</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207267</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Alisa</FirstName>
-			<LastSurname>Cameron</LastSurname>
-		</Name>
-		<BirthDate>1956-03-13</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207288</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207288</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Barry</FirstName>
-			<LastSurname>Tanner</LastSurname>
-		</Name>
-		<BirthDate>1965-08-19</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000881</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000881</IdentificationCode>
@@ -7865,32 +7124,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207271</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207271</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Trent</FirstName>
-			<LastSurname>Newton</LastSurname>
-		</Name>
-		<BirthDate>1954-09-02</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207233</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207233</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Bryant</FirstName>
-			<LastSurname>Gomez</LastSurname>
-		</Name>
-		<BirthDate>1980-03-26</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000310</StaffUniqueId>
@@ -8233,19 +7466,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207273</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207273</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Charlie</FirstName>
-			<LastSurname>Conley</LastSurname>
-		</Name>
-		<BirthDate>1980-01-25</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000364</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000364</IdentificationCode>
@@ -8391,19 +7611,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207269</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207269</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Roger</FirstName>
-			<LastSurname>Tucker</LastSurname>
-		</Name>
-		<BirthDate>1983-08-01</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000250</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000250</IdentificationCode>
@@ -8483,32 +7690,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207244</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207244</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Ashley</FirstName>
-			<LastSurname>Best</LastSurname>
-		</Name>
-		<BirthDate>1956-05-12</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207251</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207251</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Raul</FirstName>
-			<LastSurname>Larsen</LastSurname>
-		</Name>
-		<BirthDate>1980-12-23</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000229</StaffUniqueId>
@@ -8673,19 +7854,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207247</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207247</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Kurt</FirstName>
-			<LastSurname>McCarthy</LastSurname>
-		</Name>
-		<BirthDate>1988-01-24</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000696</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000696</IdentificationCode>
@@ -8760,19 +7928,6 @@
 				<StateOfIssueStateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateOfIssueStateAbbreviation>
 			</CredentialIdentity>
 		</CredentialReference>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207245</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207245</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Kerri</FirstName>
-			<LastSurname>Stokes</LastSurname>
-		</Name>
-		<BirthDate>1984-11-03</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000673</StaffUniqueId>
@@ -8920,19 +8075,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207227</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207227</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Debra</FirstName>
-			<LastSurname>Rocha</LastSurname>
-		</Name>
-		<BirthDate>1970-06-02</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000227</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000227</IdentificationCode>
@@ -8981,19 +8123,6 @@
 			<LastSurname>Whitt</LastSurname>
 		</Name>
 		<BirthDate>1954-12-16</BirthDate>
-	</Staff>
-	<Staff>
-		<StaffUniqueId>207219</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207219</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Earnest</FirstName>
-			<LastSurname>Buck</LastSurname>
-		</Name>
-		<BirthDate>1969-09-13</BirthDate>
-		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>1000624</StaffUniqueId>
@@ -9459,96 +8588,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207230</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>3rd Grade teacher</PositionTitle>
-		<BeginDate>1981-12-30</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207230</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1981-12-30</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207267</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Principal</StaffClassification>
-		<PositionTitle>High School Principal</PositionTitle>
-		<BeginDate>1984-11-14</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207283</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Counselor</StaffClassification>
-		<PositionTitle>High School Counselor</PositionTitle>
-		<BeginDate>1986-10-17</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207271</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Math teacher</PositionTitle>
-		<BeginDate>1989-10-03</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207271</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1989-10-03</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5209</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -9654,66 +8693,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207244</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Elementary Music teacher</PositionTitle>
-		<BeginDate>1991-03-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207244</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1991-03-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207279</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Electronic Arts teacher</PositionTitle>
-		<BeginDate>1992-02-23</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207279</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1992-02-23</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5191</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -9740,21 +8719,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>1992-07-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207263</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#School Administrator</StaffClassification>
-		<PositionTitle>Middle School School Administrator</PositionTitle>
-		<BeginDate>1992-08-01</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -9804,36 +8768,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207222</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>1st Grade teacher</PositionTitle>
-		<BeginDate>1993-07-04</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207222</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1993-07-04</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5235</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -9875,36 +8809,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>1994-07-13</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207237</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>5th Grade teacher</PositionTitle>
-		<BeginDate>1994-11-06</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207237</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1994-11-06</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -10089,66 +8993,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207272</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Science teacher</PositionTitle>
-		<BeginDate>1997-01-20</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207272</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1997-01-20</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207224</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>2nd Grade teacher</PositionTitle>
-		<BeginDate>1997-02-26</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207224</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1997-02-26</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5192</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -10224,66 +9068,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207235</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>5th Grade teacher</PositionTitle>
-		<BeginDate>1997-12-22</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207235</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1997-12-22</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207228</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>3rd Grade teacher</PositionTitle>
-		<BeginDate>1998-01-14</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207228</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1998-01-14</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5203</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -10329,36 +9113,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207238</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>5th Grade teacher</PositionTitle>
-		<BeginDate>1999-06-09</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207238</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1999-06-09</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5197</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -10370,36 +9124,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>1999-06-21</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207278</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Electronic Arts teacher</PositionTitle>
-		<BeginDate>1999-11-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207278</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>1999-11-28</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -10430,96 +9154,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>2000-03-09</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207276</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Health teacher</PositionTitle>
-		<BeginDate>2000-03-10</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207276</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2000-03-10</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207253</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Math teacher</PositionTitle>
-		<BeginDate>2000-03-12</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207253</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2000-03-12</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207226</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>2nd Grade teacher</PositionTitle>
-		<BeginDate>2000-08-16</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207226</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2000-08-16</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -10584,36 +9218,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207282</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Social Studies - Economics Teacher</PositionTitle>
-		<BeginDate>2001-05-06</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207282</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2001-05-06</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5251</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -10674,66 +9278,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207223</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>2nd Grade teacher</PositionTitle>
-		<BeginDate>2002-05-15</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207223</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2002-05-15</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207259</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Health teacher</PositionTitle>
-		<BeginDate>2002-09-05</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207259</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2002-09-05</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5219</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -10745,66 +9289,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>2002-09-17</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207227</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>3rd Grade teacher</PositionTitle>
-		<BeginDate>2003-11-21</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207227</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2003-11-21</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207232</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>4th Grade teacher</PositionTitle>
-		<BeginDate>2003-12-15</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207232</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2003-12-15</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -10824,21 +9308,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207285</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Superintendent</StaffClassification>
-		<PositionTitle>Superintendent</PositionTitle>
-		<BeginDate>2004-02-10</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5255</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -10854,141 +9323,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207288</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#LEA System Administrator</StaffClassification>
-		<PositionTitle>LEA System Administrator</PositionTitle>
-		<BeginDate>2005-01-25</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207247</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#LEA System Administrator</StaffClassification>
-		<PositionTitle>LEA System Administrator</PositionTitle>
-		<BeginDate>2005-03-18</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207260</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Art teacher</PositionTitle>
-		<BeginDate>2005-07-09</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207260</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2005-07-09</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207280</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Spanish Teacher</PositionTitle>
-		<BeginDate>2005-10-26</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207280</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2005-10-26</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207221</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>1st Grade teacher</PositionTitle>
-		<BeginDate>2005-11-19</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207221</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2005-11-19</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207284</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Other</StaffClassification>
-		<PositionTitle>High School Clerk</PositionTitle>
-		<BeginDate>2006-02-18</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5254</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -11000,51 +9334,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>2006-05-13</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207264</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Principal</StaffClassification>
-		<PositionTitle>Middle School Principal</PositionTitle>
-		<BeginDate>2006-06-17</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207277</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Humanities/Writing teacher</PositionTitle>
-		<BeginDate>2006-06-26</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207277</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2006-06-26</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -11094,201 +9383,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207220</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>1st Grade teacher</PositionTitle>
-		<BeginDate>2006-12-12</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207220</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2006-12-12</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207266</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#School Administrator</StaffClassification>
-		<PositionTitle>High School School Administrator</PositionTitle>
-		<BeginDate>2006-12-14</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207270</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Math teacher</PositionTitle>
-		<BeginDate>2007-01-26</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207270</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2007-01-26</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207262</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Physical Education teacher</PositionTitle>
-		<BeginDate>2007-01-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207262</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2007-01-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207219</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>1st Grade teacher</PositionTitle>
-		<BeginDate>2007-02-09</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207219</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2007-02-09</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207268</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School ELA teacher</PositionTitle>
-		<BeginDate>2007-04-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207268</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2007-04-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207258</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Music teacher</PositionTitle>
-		<BeginDate>2007-05-26</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207258</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2007-05-26</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5225</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -11304,36 +9398,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207274</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Social Studies teacher</PositionTitle>
-		<BeginDate>2007-09-11</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207274</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2007-09-11</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5250</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -11345,276 +9409,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>2007-10-02</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207281</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Spanish Teacher</PositionTitle>
-		<BeginDate>2007-11-01</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207281</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2007-11-01</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207236</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>5th Grade teacher</PositionTitle>
-		<BeginDate>2007-11-12</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207236</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2007-11-12</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207261</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Physical Education teacher</PositionTitle>
-		<BeginDate>2007-12-18</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207261</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2007-12-18</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207249</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Other</StaffClassification>
-		<PositionTitle>Elementary School Clerk</PositionTitle>
-		<BeginDate>2007-12-29</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207231</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>4th Grade teacher</PositionTitle>
-		<BeginDate>2008-01-06</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207231</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-01-06</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207252</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Math teacher</PositionTitle>
-		<BeginDate>2008-01-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207252</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-01-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207255</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Science teacher</PositionTitle>
-		<BeginDate>2008-03-06</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207255</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-03-06</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207254</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Science teacher</PositionTitle>
-		<BeginDate>2008-04-13</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207254</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-04-13</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207265</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Other</StaffClassification>
-		<PositionTitle>Middle School Clerk</PositionTitle>
-		<BeginDate>2008-04-17</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207273</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Science teacher</PositionTitle>
-		<BeginDate>2008-05-14</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207273</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-05-14</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -11649,186 +9443,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207241</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Elementary Art teacher</PositionTitle>
-		<BeginDate>2008-07-30</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207241</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-07-30</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207269</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School ELA teacher</PositionTitle>
-		<BeginDate>2008-08-23</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207269</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-08-23</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207251</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School ELA teacher</PositionTitle>
-		<BeginDate>2008-08-24</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207251</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-08-24</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207275</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>High School Social Studies teacher</PositionTitle>
-		<BeginDate>2008-09-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207275</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901001</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-09-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207257</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Social Studies teacher</PositionTitle>
-		<BeginDate>2008-11-21</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207257</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2008-11-21</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207233</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>4th Grade teacher</PositionTitle>
-		<BeginDate>2009-01-30</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207233</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2009-01-30</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5241</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -11855,51 +9469,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>2009-02-23</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207248</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#School Administrator</StaffClassification>
-		<PositionTitle>Elementary School Administrator</PositionTitle>
-		<BeginDate>2009-09-01</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207234</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>4th Grade teacher</PositionTitle>
-		<BeginDate>2009-09-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207234</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2009-09-28</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -11934,66 +9503,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207240</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Elementary Art teacher</PositionTitle>
-		<BeginDate>2009-12-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207240</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2009-12-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207229</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>3rd Grade teacher</PositionTitle>
-		<BeginDate>2010-02-08</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207229</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2010-02-08</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5206</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -12005,51 +9514,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>2010-08-01</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207245</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Elementary Physical Education teacher</PositionTitle>
-		<BeginDate>2010-08-27</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207245</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2010-08-27</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207246</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Principal</StaffClassification>
-		<PositionTitle>Elementary School Principal</PositionTitle>
-		<BeginDate>2010-09-02</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -12084,36 +9548,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207242</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Elementary Music teacher</PositionTitle>
-		<BeginDate>2010-11-12</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207242</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2010-11-12</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5220</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -12140,36 +9574,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>2010-12-09</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207239</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Elementary Art teacher</PositionTitle>
-		<BeginDate>2010-12-14</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207239</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2010-12-14</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -12264,36 +9668,6 @@
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
 			<StaffIdentity>
-				<StaffUniqueId>207256</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School Social Studies teacher</PositionTitle>
-		<BeginDate>2011-09-16</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207256</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2011-09-16</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
 				<StaffUniqueId>5216</StaffUniqueId>
 			</StaffIdentity>
 		</StaffReference>
@@ -12305,36 +9679,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Site Coordinator</StaffClassification>
 		<PositionTitle>Site Coordinator</PositionTitle>
 		<BeginDate>2011-12-20</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207243</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Elementary Music teacher</PositionTitle>
-		<BeginDate>2012-07-11</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207243</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901107</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2012-07-11</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffEducationOrganizationAssignmentAssociation>
 		<StaffReference>
@@ -18440,36 +15784,6 @@
 		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
 		<PositionTitle>Teacher</PositionTitle>
 		<BeginDate>2013-05-20</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207250</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
-		<PositionTitle>Middle School ELA teacher</PositionTitle>
-		<BeginDate>2018-09-28</BeginDate>
-	</StaffEducationOrganizationAssignmentAssociation>
-	<StaffEducationOrganizationAssignmentAssociation>
-		<StaffReference>
-			<StaffIdentity>
-				<StaffUniqueId>207250</StaffUniqueId>
-			</StaffIdentity>
-		</StaffReference>
-		<EducationOrganizationReference>
-			<EducationOrganizationIdentity>
-				<EducationOrganizationId>255901044</EducationOrganizationId>
-			</EducationOrganizationIdentity>
-		</EducationOrganizationReference>
-		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Mentor Teacher</StaffClassification>
-		<PositionTitle>Mentor Teacher</PositionTitle>
-		<BeginDate>2018-09-28</BeginDate>
 	</StaffEducationOrganizationAssignmentAssociation>
 	<StaffSchoolAssociation>
 		<StaffReference>
@@ -63332,8 +60646,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>2003-04-04</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -63494,8 +60807,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>1999-07-12</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -63541,8 +60853,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>2006-03-02</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Infant/toddler</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -63634,8 +60945,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>1997-01-29</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -63727,8 +61037,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>2008-05-10</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -63843,8 +61152,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>2003-03-17</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -64212,8 +61520,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2013-06-10</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Master</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -64466,8 +61773,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2013-04-14</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -64674,8 +61980,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>1998-11-13</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -64721,8 +62026,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>2009-07-28</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Provisional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -64768,8 +62072,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>2011-09-21</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -64792,8 +62095,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2010-12-28</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Kindergarten</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -64885,8 +62187,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>1980-09-21</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -65070,8 +62371,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>1985-01-21</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -65508,8 +62808,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>2009-07-04</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Master</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Kindergarten</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -65601,8 +62900,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2001-03-07</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Provisional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -65625,8 +62923,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2002-01-10</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Second grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -65672,8 +62969,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>2005-09-15</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -65926,8 +63222,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>2014-03-20</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Master</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -65973,8 +63268,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>1998-10-16</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -65997,8 +63291,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>1998-11-13</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fifth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66067,8 +63360,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2003-03-17</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66114,8 +63406,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>1999-06-28</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eighth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66138,8 +63429,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2005-09-15</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Provisional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66346,8 +63636,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>2012-01-25</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66416,8 +63705,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>2009-07-28</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Master</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66463,8 +63751,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>2005-09-15</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66533,8 +63820,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>1997-01-29</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66626,8 +63912,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2003-01-07</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66696,8 +63981,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>2010-09-20</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66720,8 +64004,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>1994-03-22</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Provisional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66744,8 +64027,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2013-06-10</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66837,8 +64119,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>1999-07-12</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ungraded</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -66907,8 +64188,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>2010-09-20</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -67276,8 +64556,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>2002-01-10</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -67622,8 +64901,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>2003-01-07</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -67945,8 +65223,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>1997-10-18</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -67969,8 +65246,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>1997-03-17</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -68016,8 +65292,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>1997-10-18</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -68040,8 +65315,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>1999-07-21</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -68064,8 +65338,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2003-01-07</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -68341,8 +65614,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>1998-11-13</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Intern</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Second grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -69055,8 +66327,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>2010-12-28</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -69102,8 +66373,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2002-01-10</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -69494,8 +66764,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>2013-04-14</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -69564,8 +66833,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 	<IssuanceDate>2013-04-14</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -69795,8 +67063,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>1994-09-29</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -69911,8 +67178,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>1984-07-05</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Third grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -70142,8 +67408,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>1980-12-31</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Infant/toddler</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -70212,8 +67477,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>2008-12-27</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fifth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -70397,8 +67661,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>2010-02-18</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -70536,8 +67799,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>1983-03-21</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -70882,8 +68144,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>2007-06-12</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -71113,8 +68374,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>2010-09-20</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Third grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -71252,8 +68512,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>1999-06-28</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Probationary/Initial</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -71414,8 +68673,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>1996-11-03</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Master</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -71599,8 +68857,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>2007-03-02</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Regular/Standard</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fifth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -71669,8 +68926,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 	<IssuanceDate>1994-09-29</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -71716,8 +68972,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Other</CredentialType>
 	<IssuanceDate>1999-07-12</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -71855,8 +69110,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>2002-01-10</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Emergency</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -71879,8 +69133,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>1996-05-20</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -72386,8 +69639,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 	<IssuanceDate>2003-03-17</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Nonrenewable</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
@@ -72502,8 +69754,7 @@
 	<Namespace>uri://ed-fi.org</Namespace>
 	<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 	<IssuanceDate>1998-07-01</IssuanceDate>
-	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-		Technology</CredentialField>
+	<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 	<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Paraprofessional</TeachingCredential>
 	<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</GradeLevel>
 	<CertificationTitle>TX Certification</CertificationTitle>
