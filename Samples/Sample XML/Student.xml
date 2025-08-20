@@ -11146,7 +11146,7 @@
 		</EducationOrganizationReference>
 		<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Spaniard/Spanish/Spanish-American</AncestryEthnicOrigin>
 		<Citizenship>
-			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Non-residentAlien</CitizenshipStatus>
+			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Non-resident alien</CitizenshipStatus>
 		</Citizenship>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Autism Spectrum Disorders</Disability>
@@ -11158,7 +11158,7 @@
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Other language proficiency</LanguageUse>
 		</Language>
 		<Language>
-			<Language>uri://ed-fi.org/LanguageDescriptor#Nav</Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#nav</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Native language</LanguageUse>
 		</Language>
 		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
