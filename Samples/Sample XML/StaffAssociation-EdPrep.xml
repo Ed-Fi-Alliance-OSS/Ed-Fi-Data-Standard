@@ -8265,19 +8265,6 @@
 		</CredentialReference>
 	</Staff>
 	<Staff>
-		<StaffUniqueId>207225</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207225</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
-		<Name>
-			<FirstName>Marsha</FirstName>
-			<LastSurname>McLean</LastSurname>
-		</Name>
-		<BirthDate>1953-05-06</BirthDate>
-		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-	</Staff>
-	<Staff>
 		<StaffUniqueId>1000366</StaffUniqueId>
 		<StaffIdentificationCode>
 			<IdentificationCode>1000366</IdentificationCode>

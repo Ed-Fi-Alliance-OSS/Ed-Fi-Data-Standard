@@ -927,7 +927,7 @@
 			<FirstName>Christina</FirstName>
 			<LastSurname>Bishop</LastSurname>
 			<PreferredFirstName>Underwood</PreferredFirstName>
-			<PreferredLastSurname>Hamilton</PreferredLastSurname>	
+			<PreferredLastSurname>Hamilton</PreferredLastSurname>
 		</Name>
 		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1993-04-30</BirthDate>
@@ -25072,8 +25072,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 		<IssuanceDate>1980-12-31</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</GradeLevel>
 	</Credential>
@@ -25091,8 +25090,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 		<IssuanceDate>2000-10-28</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<ExpirationDate>2003-01-06</ExpirationDate>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fifth grade</GradeLevel>
@@ -25124,8 +25122,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 		<IssuanceDate>1999-06-28</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Second grade</GradeLevel>
 	</Credential>
@@ -25135,8 +25132,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 		<IssuanceDate>1983-03-21</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</GradeLevel>
 	</Credential>
@@ -25292,8 +25288,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Registration</CredentialType>
 		<IssuanceDate>2021-12-28</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<ExpirationDate>2013-01-16</ExpirationDate>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</GradeLevel>
@@ -25451,8 +25446,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 		<IssuanceDate>2008-12-27</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</GradeLevel>
 	</Credential>
@@ -25541,8 +25535,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 		<IssuanceDate>2007-06-12</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<ExpirationDate>2008-06-11</ExpirationDate>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Nonrenewable</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</GradeLevel>
@@ -25553,8 +25546,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Licensure</CredentialType>
 		<IssuanceDate>1984-07-05</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Temporary</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</GradeLevel>
 	</Credential>
@@ -25628,8 +25620,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Endorsement</CredentialType>
 		<IssuanceDate>1994-03-22</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Other</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ungraded</GradeLevel>
 	</Credential>
