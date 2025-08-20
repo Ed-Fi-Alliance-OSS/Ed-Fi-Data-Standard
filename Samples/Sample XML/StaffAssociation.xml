@@ -927,7 +927,7 @@
 			<FirstName>Christina</FirstName>
 			<LastSurname>Bishop</LastSurname>
 			<PreferredFirstName>Underwood</PreferredFirstName>
-			<PreferredLastSurname>Hamilton</PreferredLastSurname>	
+			<PreferredLastSurname>Hamilton</PreferredLastSurname>
 		</Name>
 		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1993-04-30</BirthDate>
@@ -25072,8 +25072,7 @@
 		<Namespace>uri://ed-fi.org</Namespace>
 		<CredentialType>uri://ed-fi.org/CredentialTypeDescriptor#Certification</CredentialType>
 		<IssuanceDate>1980-12-31</IssuanceDate>
-		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and
-			Technology</CredentialField>
+		<CredentialField>uri://ed-fi.org/CredentialFieldDescriptor#Agricultural Science and Technology</CredentialField>
 		<TeachingCredential>uri://ed-fi.org/TeachingCredentialDescriptor#Professional</TeachingCredential>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</GradeLevel>
 	</Credential>
