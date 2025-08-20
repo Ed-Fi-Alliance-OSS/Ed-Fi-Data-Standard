@@ -11222,7 +11222,7 @@
 		</StudentReference>
 		<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
-				<EducationOrganizationId>19255901</EducationOrganizationId>
+				<EducationOrganizationId>255901001</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<Disability>
@@ -11890,7 +11890,7 @@
 	</StudentReference>
 	<EducationOrganizationReference>
 			<EducationOrganizationIdentity>
-				<EducationOrganizationId>19255901</EducationOrganizationId>
+				<EducationOrganizationId>255901001</EducationOrganizationId>
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<Address>
