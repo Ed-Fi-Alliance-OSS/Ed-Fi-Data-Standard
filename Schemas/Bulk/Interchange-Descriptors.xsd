@@ -99,6 +99,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="DualCreditTypeDescriptor" type="DualCreditTypeDescriptor" />
         <xs:element name="EPPDegreeTypeDescriptor" type="EPPDegreeTypeDescriptor" />
         <xs:element name="EPPProgramPathwayDescriptor" type="EPPProgramPathwayDescriptor" />
+        <xs:element name="EconomicDisadvantageDescriptor" type="EconomicDisadvantageDescriptor" />
         <xs:element name="EducationOrganizationAssociationTypeDescriptor" type="EducationOrganizationAssociationTypeDescriptor" />
         <xs:element name="EducationOrganizationCategoryDescriptor" type="EducationOrganizationCategoryDescriptor" />
         <xs:element name="EducationOrganizationIdentificationSystemDescriptor" type="EducationOrganizationIdentificationSystemDescriptor" />
