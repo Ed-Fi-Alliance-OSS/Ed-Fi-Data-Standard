@@ -2184,7 +2184,7 @@
 		<AddressLine2>2860 MOUNTEE STREET</AddressLine2>
 		<AddressLine3>OTTAWA ON K1A 0B1</AddressLine3>
 		<AddressLine4>CANADA</AddressLine4>
-		<Country>uri://ed-fi.org/CountryDescriptor#</Country>
+		<Country>uri://ed-fi.org/CountryDescriptor#CA</Country>
 		<Latitude>45.4200146</Latitude>
 		<Longitude>-75.6895387</Longitude>
 	</InternationalAddress>
