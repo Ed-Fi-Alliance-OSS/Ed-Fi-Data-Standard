@@ -79,7 +79,7 @@ class XMLValidator:
             if not schema_file:
                 self.add_error(
                     ValidationError(
-                        str(xml_file), 1, "No corresponding schema file found"
+                        str(xml_file), 1, f"No corresponding schema file found"
                     )
                 )
                 return
@@ -140,67 +140,34 @@ class XMLValidator:
             self.add_error(ValidationError(str(xml_file), 1, str(e)))
 
     def _find_schema_file(self, xml_file: Path) -> Path:
-        """Find the corresponding XSD schema file for an XML file and return its absolute path."""
-        xml_name = xml_file.stem
+        """Find the corresponding XSD schema file by extracting the path from xsi:schemaLocation attribute."""
+        try:
+            # Parse the XML file to get the root element
+            with open(xml_file, 'rb') as f:
+                xml_doc = etree.parse(f)
+            root = xml_doc.getroot()
 
-        # For descriptor files, they all use the Descriptors schema (quick check first)
-        if xml_name.endswith("Descriptor"):
-            schema_file = self.schemas_dir / "Descriptors.xsd"
-            if schema_file.exists():
-                return schema_file.resolve()
+            # Get the xsi:schemaLocation attribute
+            schema_location = root.get('{http://www.w3.org/2001/XMLSchema-instance}schemaLocation')
 
-        # Special mappings for complex file names (as instance variable for better performance)
-        if not hasattr(self, "_special_mappings"):
-            self._special_mappings = {
-                "AssessmentMetadata-SAT": "AssessmentMetadata",
-                "AssessmentMetadata-ACT": "AssessmentMetadata",
-                "AssessmentMetadata-Benchmarks-3rdGradeMath": "AssessmentMetadata",
-                "AssessmentMetadata-Benchmarks-3rdGradeMathModified": "AssessmentMetadata",
-                "AssessmentMetadata-Benchmarks-3rdGradeReading": "AssessmentMetadata",
-                "AssessmentMetadata-Benchmarks-3rdGradeReadingModified": "AssessmentMetadata",
-                "AssessmentMetadata-Benchmarks-3rdGradeReadingSpanish": "AssessmentMetadata",
-                "AssessmentMetadata-EdPrep": "AssessmentMetadata",
-                "AssessmentMetadata-LearningStandardsMastery": "AssessmentMetadata",
-                "AssessmentMetadata-StateAssessment": "AssessmentMetadata",
-                "StudentAssessment-ACT": "StudentAssessment",
-                "StudentAssessment-Benchmarks-3rdGradeMath": "StudentAssessment",
-                "StudentAssessment-Benchmarks-3rdGradeMathModified": "StudentAssessment",
-                "StudentAssessment-Benchmarks-3rdGradeReading": "StudentAssessment",
-                "StudentAssessment-Benchmarks-3rdGradeReadingModified": "StudentAssessment",
-                "StudentAssessment-Benchmarks-3rdGradeReadingSpanish": "StudentAssessment",
-                "StudentAssessment-EdPrep": "StudentAssessment",
-                "StudentAssessment-LearningStandardsMastery": "StudentAssessment",
-                "StudentAssessment-SAT": "StudentAssessment",
-                "StudentAssessment-StateAssessment": "StudentAssessment",
-                "EducationOrgCalendar-EdPrep": "EducationOrgCalendar",
-                "EducationOrganization-EdPrep": "EducationOrganization",
-                "MasterSchedule-EdPrep": "MasterSchedule",
-                "StaffAssociation-EdPrep": "StaffAssociation",
-                "StudentGrade-1stSixWeeks": "StudentGrade",
-                "StudentGrade-2ndSixWeeks": "StudentGrade",
-                "StudentGrade-3rdSixWeeks": "StudentGrade",
-                "StudentGrade-4thSixWeeks": "StudentGrade",
-                "StudentGrade-5thSixWeeks": "StudentGrade",
-                "StudentGrade-6thSixWeeks": "StudentGrade",
-                "StudentGradebook-EdPrep": "StudentGradebook",
-                "StudentSectionAttendance-Tardy": "StudentAttendance",
-                "Survey-EdPrep": "Survey",
-            }
+            if schema_location:
+                # The schemaLocation attribute contains pairs of namespace URI and schema location
+                # Split by whitespace and get the schema location (second part)
+                parts = schema_location.split()
+                if len(parts) >= 2:
+                    schema_path = parts[1]  # The schema file path
 
-        # Check if there's a special mapping
-        base_name = self._special_mappings.get(xml_name, xml_name)
+                    # Resolve relative path from the XML file's directory
+                    xml_dir = xml_file.parent
+                    absolute_schema_path = (xml_dir / schema_path).resolve()
 
-        # Try direct mapping (e.g., Student.xml -> Interchange-Student.xsd)
-        schema_candidates = [
-            self.schemas_dir / f"Interchange-{base_name}.xsd",
-            self.schemas_dir / f"{base_name}.xsd",
-        ]
+                    if absolute_schema_path.exists():
+                        return absolute_schema_path
 
-        for candidate in schema_candidates:
-            if candidate.exists():
-                return candidate.resolve()
+            return None
 
-        return None
+        except Exception:
+            return None
 
     def validate_descriptors(self, xml_file: Path) -> None:
         """Validate descriptor URIs in an XML file against descriptor definitions."""
@@ -209,7 +176,7 @@ class XMLValidator:
             # Parse XML file
             with open(xml_file, "rb") as f:
                 xml_doc = etree.parse(f)
-            
+
             # Recursively iterate through all elements in the XML
             self._validate_element_descriptors(xml_doc.getroot(), xml_file, 1)
 
@@ -231,16 +198,16 @@ class XMLValidator:
         # Check element text for descriptor URIs
         if element.text:
             self._validate_text_for_descriptors(element.text, xml_file, line_number)
-        
+
         # Check element tail text for descriptor URIs
         if element.tail:
             self._validate_text_for_descriptors(element.tail, xml_file, line_number)
-            
+
         # Check attribute values for descriptor URIs
         for attr_name, attr_value in element.attrib.items():
             if attr_value:
                 self._validate_text_for_descriptors(attr_value, xml_file, line_number)
-        
+
         # Recursively process child elements
         for child in element:
             # Get approximate line number (lxml provides this)
