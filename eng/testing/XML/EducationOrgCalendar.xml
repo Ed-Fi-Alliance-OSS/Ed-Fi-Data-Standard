@@ -25,7 +25,7 @@
 		<WeekIdentifier>Week 1</WeekIdentifier>
 		<TotalInstructionalDays>5</TotalInstructionalDays>
 	</AcademicWeek>
-	<AcademicWeekTypo>
+	<!-- <AcademicWeekTypo>
 		<SchoolReference>
 			<SchoolIdentity>
 				<SchoolIdTyp>255901001</SchoolIdTyp>
@@ -33,5 +33,5 @@
 		</SchoolReference>
 		<WeekIdentifier>Week 1</WeekIdentifier>
 		<TotalInstructionalDays>5</TotalInstructionalDays>
-	</AcademicWeek>
+	</AcademicWeek> -->
 </InterchangeEducationOrgCalendar>
