@@ -204,37 +204,60 @@ class XMLValidator:
 
     def validate_descriptors(self, xml_file: Path) -> None:
         """Validate descriptor URIs in an XML file against descriptor definitions."""
-        content = None
+        xml_doc = None
         try:
-            # Read file content once
-            with open(xml_file, "r", encoding="utf-8") as f:
-                content = f.read()
-
-            # Find all descriptor URIs using finditer for better performance
-            for match in self.DESCRIPTOR_PATTERN.finditer(content):
-                # Calculate line number by counting newlines up to match position
-                line_number = content[: match.start()].count("\n") + 1
-
-                namespace = match.group("namespace")
-                descriptor = match.group("descriptor")
-                code_value = match.group("codeValue").strip()
-
-                # Validate the descriptor
-                self._validate_descriptor_reference(
-                    xml_file, line_number, namespace, descriptor, code_value
-                )
+            # Parse XML file
+            with open(xml_file, "rb") as f:
+                xml_doc = etree.parse(f)
+            
+            # Recursively iterate through all elements in the XML
+            self._validate_element_descriptors(xml_doc.getroot(), xml_file, 1)
 
         except Exception as e:
             self.add_error(
                 ValidationError(
                     str(xml_file),
                     1,
-                    f"Error reading file for descriptor validation: {str(e)}",
+                    f"Error parsing XML file for descriptor validation: {str(e)}",
                 )
             )
         finally:
-            # Explicitly clear content to free memory
-            content = None
+            # Explicitly clear XML document to free memory
+            if xml_doc is not None:
+                xml_doc = None
+
+    def _validate_element_descriptors(self, element, xml_file: Path, line_number: int) -> None:
+        """Recursively validate descriptor URIs in XML elements."""
+        # Check element text for descriptor URIs
+        if element.text:
+            self._validate_text_for_descriptors(element.text, xml_file, line_number)
+        
+        # Check element tail text for descriptor URIs
+        if element.tail:
+            self._validate_text_for_descriptors(element.tail, xml_file, line_number)
+            
+        # Check attribute values for descriptor URIs
+        for attr_name, attr_value in element.attrib.items():
+            if attr_value:
+                self._validate_text_for_descriptors(attr_value, xml_file, line_number)
+        
+        # Recursively process child elements
+        for child in element:
+            # Get approximate line number (lxml provides this)
+            child_line = getattr(child, 'sourceline', line_number)
+            self._validate_element_descriptors(child, xml_file, child_line)
+
+    def _validate_text_for_descriptors(self, text: str, xml_file: Path, line_number: int) -> None:
+        """Validate descriptor URIs found in text content."""
+        for match in self.DESCRIPTOR_PATTERN.finditer(text):
+            namespace = match.group("namespace")
+            descriptor = match.group("descriptor")
+            code_value = match.group("codeValue").strip()
+
+            # Validate the descriptor
+            self._validate_descriptor_reference(
+                xml_file, line_number, namespace, descriptor, code_value
+            )
 
     def _validate_descriptor_reference(
         self,
