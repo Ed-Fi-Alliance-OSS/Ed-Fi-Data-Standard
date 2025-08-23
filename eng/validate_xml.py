@@ -71,11 +71,11 @@ class XMLValidator:
             self.errors[file_key] = []
         self.errors[file_key].append(error)
 
-    def validate_schema(self, xml_file: Path) -> None:
+    def validate_schema(self, xml_file: Path, xml_doc: etree._ElementTree) -> None:
         """Validate an XML file against its corresponding XSD schema."""
         try:
             # Find corresponding schema file
-            schema_file = self._find_schema_file(xml_file)
+            schema_file = self._find_schema_file(xml_file, xml_doc)
             if not schema_file:
                 self.add_error(
                     ValidationError(
@@ -102,24 +102,16 @@ class XMLValidator:
                     os.chdir(cwd)
 
             # Parse and validate XML - use context manager to ensure cleanup
-            xml_doc = None
-            try:
-                with open(xml_file, "rb") as xml_f:
-                    xml_doc = etree.parse(xml_f)
 
-                if not schema.validate(xml_doc):
-                    for error in schema.error_log:
-                        self.add_error(
-                            ValidationError(
-                                str(xml_file),
-                                error.line,
-                                error.message,
-                            )
+            if not schema.validate(xml_doc):
+                for error in schema.error_log:
+                    self.add_error(
+                        ValidationError(
+                            str(xml_file),
+                            error.line,
+                            error.message,
                         )
-            finally:
-                # Explicitly clean up XML document
-                if xml_doc is not None:
-                    xml_doc = None
+                    )
 
         except (etree.XMLSchemaError, etree.DocumentInvalid) as e:
             # Extract line number from error string if available
@@ -139,12 +131,9 @@ class XMLValidator:
         except Exception as e:
             self.add_error(ValidationError(str(xml_file), 1, str(e)))
 
-    def _find_schema_file(self, xml_file: Path) -> Path:
+    def _find_schema_file(self, xml_file: Path, xml_doc: etree._ElementTree) -> Path:
         """Find the corresponding XSD schema file by extracting the path from xsi:schemaLocation attribute."""
         try:
-            # Parse the XML file to get the root element
-            with open(xml_file, 'rb') as f:
-                xml_doc = etree.parse(f)
             root = xml_doc.getroot()
 
             # Get the xsi:schemaLocation attribute
@@ -169,14 +158,9 @@ class XMLValidator:
         except Exception:
             return None
 
-    def validate_descriptors(self, xml_file: Path) -> None:
+    def validate_descriptors(self, xml_file: Path, xml_doc: etree._ElementTree) -> None:
         """Validate descriptor URIs in an XML file against descriptor definitions."""
-        xml_doc = None
         try:
-            # Parse XML file
-            with open(xml_file, "rb") as f:
-                xml_doc = etree.parse(f)
-
             # Recursively iterate through all elements in the XML
             self._validate_element_descriptors(xml_doc.getroot(), xml_file, 1)
 
@@ -188,10 +172,6 @@ class XMLValidator:
                     f"Error parsing XML file for descriptor validation: {str(e)}",
                 )
             )
-        finally:
-            # Explicitly clear XML document to free memory
-            if xml_doc is not None:
-                xml_doc = None
 
     def _validate_element_descriptors(self, element, xml_file: Path, line_number: int) -> None:
         """Recursively validate descriptor URIs in XML elements."""
@@ -351,6 +331,7 @@ class XMLValidator:
 
         def process_file(xml_file):
             temp_validator = None
+            xml_doc = None
             try:
                 # Create a temporary validator for thread safety
                 temp_validator = XMLValidator(
@@ -364,15 +345,19 @@ class XMLValidator:
                 )  # Share descriptor cache
 
                 # Perform validation
-                temp_validator.validate_schema(xml_file)
-                temp_validator.validate_descriptors(xml_file)
 
-                # Merge errors thread-safely
-                with error_lock:
-                    for file_key, errors in temp_validator.errors.items():
-                        if file_key not in self.errors:
-                            self.errors[file_key] = []
-                        self.errors[file_key].extend(errors)
+                with open(xml_file, "rb") as xml_f:
+                    xml_doc = etree.parse(xml_f)
+
+                    temp_validator.validate_schema(xml_file, xml_doc)
+                    temp_validator.validate_descriptors(xml_file, xml_doc)
+
+                    # Merge errors thread-safely
+                    with error_lock:
+                        for file_key, errors in temp_validator.errors.items():
+                            if file_key not in self.errors:
+                                self.errors[file_key] = []
+                            self.errors[file_key].extend(errors)
 
             except Exception as e:
                 with error_lock:
@@ -383,6 +368,8 @@ class XMLValidator:
                         ValidationError(str(xml_file), 1, f"Processing error: {str(e)}")
                     )
             finally:
+                xml_doc = None
+
                 # Explicitly clean up temp validator to prevent memory leaks
                 if temp_validator is not None:
                     temp_validator.errors.clear()
