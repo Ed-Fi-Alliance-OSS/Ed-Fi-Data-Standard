@@ -53,6 +53,10 @@ class XMLValidator:
 
         # Cache for loaded descriptor data
         self._descriptor_cache: Dict[str, Set[Tuple[str, str]]] = {}
+        # Cache for loaded schema objects to avoid reloading
+        self._schema_cache: Dict[str, etree.XMLSchema] = {}
+        # Precompiled regex for line number extraction
+        self._line_pattern = re.compile(r", line (\d+)")
 
     def add_error(self, error: ValidationError):
         """Add a validation error to the error collection."""
@@ -74,104 +78,109 @@ class XMLValidator:
                 )
                 return
 
-            cwd = os.getcwd()
+            schema_path_str = str(schema_file)
+            
+            # Use cached schema if available
+            if schema_path_str in self._schema_cache:
+                schema = self._schema_cache[schema_path_str]
+            else:
+                # Change to schemas directory to resolve includes
+                cwd = os.getcwd()
+                try:
+                    os.chdir(self.schemas_dir)
+                    with open(schema_file, "rb") as xsd_f:
+                        schema_root = etree.XML(xsd_f.read())
+                        schema = etree.XMLSchema(schema_root)
+                    self._schema_cache[schema_path_str] = schema
+                finally:
+                    os.chdir(cwd)
 
-            # Load and validate
-            try:
-                os.chdir(self.schemas_dir)
-                with open(schema_file, "rb") as xsd_f:
-                    schema_root = etree.XML(xsd_f.read())
-                    schema = etree.XMLSchema(schema_root)
-                with open(xml_file, "rb") as xml_f:
-                    xml_doc = etree.parse(xml_f)
+            # Parse and validate XML
+            with open(xml_file, "rb") as xml_f:
+                xml_doc = etree.parse(xml_f)
 
-                if not schema.validate(xml_doc):
-                    for error in schema.error_log:
-                        self.add_error(
-                            ValidationError(
-                                str(xml_file),
-                                error.line,
-                                error.message,
-                            )
+            if not schema.validate(xml_doc):
+                for error in schema.error_log:
+                    self.add_error(
+                        ValidationError(
+                            str(xml_file),
+                            error.line,
+                            error.message,
                         )
-
-            except (etree.XMLSchemaError, etree.DocumentInvalid) as e:
-                # Extract line number from error string if available
-
-                error_str = str(e)
-                match = re.search(r", line (\d+)", error_str)
-                if match:
-                    line_number = int(match.group(1))
-                else:
-                    line_number = 0
-                self.add_error(
-                    ValidationError(
-                        str(xml_file),
-                        line_number,
-                        str(e),
                     )
-                )
-            except Exception as e:
-                self.add_error(
-                    ValidationError(
-                        str(xml_file), 1, str(e)
-                    )
-                )
-            finally:
-                os.chdir(cwd)
 
+        except (etree.XMLSchemaError, etree.DocumentInvalid) as e:
+            # Extract line number from error string if available
+            error_str = str(e)
+            match = self._line_pattern.search(error_str)
+            if match:
+                line_number = int(match.group(1))
+            else:
+                line_number = 0
+            self.add_error(
+                ValidationError(
+                    str(xml_file),
+                    line_number,
+                    str(e),
+                )
+            )
         except Exception as e:
             self.add_error(
-                ValidationError(str(xml_file), 1, f"Error processing file: {str(e)}")
+                ValidationError(
+                    str(xml_file), 1, str(e)
+                )
             )
 
     def _find_schema_file(self, xml_file: Path) -> Path:
         """Find the corresponding XSD schema file for an XML file and return its absolute path."""
         xml_name = xml_file.stem
 
-        # Special mappings for complex file names
-        special_mappings = {
-            "AssessmentMetadata-SAT": "AssessmentMetadata",
-            "AssessmentMetadata-ACT": "AssessmentMetadata",
-            "AssessmentMetadata-Benchmarks-3rdGradeMath": "AssessmentMetadata",
-            "AssessmentMetadata-Benchmarks-3rdGradeMathModified": "AssessmentMetadata",
-            "AssessmentMetadata-Benchmarks-3rdGradeReading": "AssessmentMetadata",
-            "AssessmentMetadata-Benchmarks-3rdGradeReadingModified": "AssessmentMetadata",
-            "AssessmentMetadata-Benchmarks-3rdGradeReadingSpanish": "AssessmentMetadata",
-            "AssessmentMetadata-EdPrep": "AssessmentMetadata",
-            "AssessmentMetadata-LearningStandardsMastery": "AssessmentMetadata",
-            "AssessmentMetadata-StateAssessment": "AssessmentMetadata",
-            "StudentAssessment-ACT": "StudentAssessment",
-            "StudentAssessment-Benchmarks-3rdGradeMath": "StudentAssessment",
-            "StudentAssessment-Benchmarks-3rdGradeMathModified": "StudentAssessment",
-            "StudentAssessment-Benchmarks-3rdGradeReading": "StudentAssessment",
-            "StudentAssessment-Benchmarks-3rdGradeReadingModified": "StudentAssessment",
-            "StudentAssessment-Benchmarks-3rdGradeReadingSpanish": "StudentAssessment",
-            "StudentAssessment-EdPrep": "StudentAssessment",
-            "StudentAssessment-LearningStandardsMastery": "StudentAssessment",
-            "StudentAssessment-SAT": "StudentAssessment",
-            "StudentAssessment-StateAssessment": "StudentAssessment",
-            "EducationOrgCalendar-EdPrep": "EducationOrgCalendar",
-            "EducationOrganization-EdPrep": "EducationOrganization",
-            "MasterSchedule-EdPrep": "MasterSchedule",
-            "StaffAssociation-EdPrep": "StaffAssociation",
-            "StudentGrade-1stSixWeeks": "StudentGrade",
-            "StudentGrade-2ndSixWeeks": "StudentGrade",
-            "StudentGrade-3rdSixWeeks": "StudentGrade",
-            "StudentGrade-4thSixWeeks": "StudentGrade",
-            "StudentGrade-5thSixWeeks": "StudentGrade",
-            "StudentGrade-6thSixWeeks": "StudentGrade",
-            "StudentGradebook-EdPrep": "StudentGradebook",
-            "StudentSectionAttendance-Tardy": "StudentAttendance",
-            "Survey-EdPrep": "Survey",
-        }
+        # For descriptor files, they all use the Descriptors schema (quick check first)
+        if xml_name.endswith("Descriptor"):
+            schema_file = self.schemas_dir / "Descriptors.xsd"
+            if schema_file.exists():
+                return schema_file.resolve()
+
+        # Special mappings for complex file names (as instance variable for better performance)
+        if not hasattr(self, '_special_mappings'):
+            self._special_mappings = {
+                "AssessmentMetadata-SAT": "AssessmentMetadata",
+                "AssessmentMetadata-ACT": "AssessmentMetadata",
+                "AssessmentMetadata-Benchmarks-3rdGradeMath": "AssessmentMetadata",
+                "AssessmentMetadata-Benchmarks-3rdGradeMathModified": "AssessmentMetadata",
+                "AssessmentMetadata-Benchmarks-3rdGradeReading": "AssessmentMetadata",
+                "AssessmentMetadata-Benchmarks-3rdGradeReadingModified": "AssessmentMetadata",
+                "AssessmentMetadata-Benchmarks-3rdGradeReadingSpanish": "AssessmentMetadata",
+                "AssessmentMetadata-EdPrep": "AssessmentMetadata",
+                "AssessmentMetadata-LearningStandardsMastery": "AssessmentMetadata",
+                "AssessmentMetadata-StateAssessment": "AssessmentMetadata",
+                "StudentAssessment-ACT": "StudentAssessment",
+                "StudentAssessment-Benchmarks-3rdGradeMath": "StudentAssessment",
+                "StudentAssessment-Benchmarks-3rdGradeMathModified": "StudentAssessment",
+                "StudentAssessment-Benchmarks-3rdGradeReading": "StudentAssessment",
+                "StudentAssessment-Benchmarks-3rdGradeReadingModified": "StudentAssessment",
+                "StudentAssessment-Benchmarks-3rdGradeReadingSpanish": "StudentAssessment",
+                "StudentAssessment-EdPrep": "StudentAssessment",
+                "StudentAssessment-LearningStandardsMastery": "StudentAssessment",
+                "StudentAssessment-SAT": "StudentAssessment",
+                "StudentAssessment-StateAssessment": "StudentAssessment",
+                "EducationOrgCalendar-EdPrep": "EducationOrgCalendar",
+                "EducationOrganization-EdPrep": "EducationOrganization",
+                "MasterSchedule-EdPrep": "MasterSchedule",
+                "StaffAssociation-EdPrep": "StaffAssociation",
+                "StudentGrade-1stSixWeeks": "StudentGrade",
+                "StudentGrade-2ndSixWeeks": "StudentGrade",
+                "StudentGrade-3rdSixWeeks": "StudentGrade",
+                "StudentGrade-4thSixWeeks": "StudentGrade",
+                "StudentGrade-5thSixWeeks": "StudentGrade",
+                "StudentGrade-6thSixWeeks": "StudentGrade",
+                "StudentGradebook-EdPrep": "StudentGradebook",
+                "StudentSectionAttendance-Tardy": "StudentAttendance",
+                "Survey-EdPrep": "Survey",
+            }
 
         # Check if there's a special mapping
-        base_name = special_mappings.get(xml_name, xml_name)
-
-        # For descriptor files, they all use the Descriptors schema
-        if xml_name.endswith("Descriptor"):
-            base_name = "Descriptors"
+        base_name = self._special_mappings.get(xml_name, xml_name)
 
         # Try direct mapping (e.g., Student.xml -> Interchange-Student.xsd)
         schema_candidates = [
@@ -188,24 +197,23 @@ class XMLValidator:
     def validate_descriptors(self, xml_file: Path) -> None:
         """Validate descriptor URIs in an XML file against descriptor definitions."""
         try:
-            # Read file content to get line numbers
+            # Read file content once
             with open(xml_file, "r", encoding="utf-8") as f:
                 content = f.read()
 
-            lines = content.split("\n")
+            # Find all descriptor URIs using finditer for better performance
+            for match in self.DESCRIPTOR_PATTERN.finditer(content):
+                # Calculate line number by counting newlines up to match position
+                line_number = content[:match.start()].count('\n') + 1
+                
+                namespace = match.group("namespace")
+                descriptor = match.group("descriptor")
+                code_value = match.group("codeValue").strip()
 
-            # Find all descriptor URIs in the file
-            for line_num, line in enumerate(lines, 1):
-                matches = self.DESCRIPTOR_PATTERN.finditer(line)
-                for match in matches:
-                    namespace = match.group("namespace")
-                    descriptor = match.group("descriptor")
-                    code_value = match.group("codeValue").strip()
-
-                    # Validate the descriptor
-                    self._validate_descriptor_reference(
-                        xml_file, line_num, namespace, descriptor, code_value
-                    )
+                # Validate the descriptor
+                self._validate_descriptor_reference(
+                    xml_file, line_number, namespace, descriptor, code_value
+                )
 
         except Exception as e:
             self.add_error(
@@ -327,14 +335,50 @@ class XMLValidator:
 
         print(f"Validating {len(xml_files)} XML files...")
 
-        for xml_file in xml_files:
-            print(f"Processing {xml_file.name}...")
+        # Use parallel processing for better performance
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+        import threading
+        
+        # Thread-safe error collection
+        error_lock = threading.Lock()
+        
+        def process_file(xml_file):
+            try:
+                # Create a temporary validator for thread safety
+                temp_validator = XMLValidator(str(self.samples_dir), str(self.schemas_dir), str(self.descriptors_dir))
+                temp_validator._schema_cache = self._schema_cache  # Share schema cache
+                temp_validator._descriptor_cache = self._descriptor_cache  # Share descriptor cache
+                
+                # Perform validation
+                temp_validator.validate_schema(xml_file)
+                temp_validator.validate_descriptors(xml_file)
+                
+                # Merge errors thread-safely
+                with error_lock:
+                    for file_key, errors in temp_validator.errors.items():
+                        if file_key not in self.errors:
+                            self.errors[file_key] = []
+                        self.errors[file_key].extend(errors)
+                        
+            except Exception as e:
+                with error_lock:
+                    file_key = os.path.basename(str(xml_file))
+                    if file_key not in self.errors:
+                        self.errors[file_key] = []
+                    self.errors[file_key].append(
+                        ValidationError(str(xml_file), 1, f"Processing error: {str(e)}")
+                    )
 
-            # Perform schema validation
-            self.validate_schema(xml_file)
-
-            # Perform descriptor validation
-            self.validate_descriptors(xml_file)
+        # Process files in parallel
+        with ThreadPoolExecutor(max_workers=min(4, len(xml_files))) as executor:
+            futures = [executor.submit(process_file, xml_file) for xml_file in xml_files]
+            
+            for i, future in enumerate(as_completed(futures)):
+                print(f"Completed {i+1}/{len(xml_files)} files...")
+                try:
+                    future.result()  # This will raise any exceptions that occurred
+                except Exception as e:
+                    print(f"Error processing file: {e}", file=sys.stderr)
 
         return len(self.errors) == 0
 
