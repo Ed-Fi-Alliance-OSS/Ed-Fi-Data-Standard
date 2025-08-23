@@ -18,11 +18,11 @@ Exit codes:
 import argparse
 import os
 import re
+from lxml import etree
 import sys
 from pathlib import Path
 from typing import Dict, List, Tuple, Set
 import xml.etree.ElementTree as ET
-import xmlschema
 
 
 class ValidationError:
@@ -69,29 +69,39 @@ class XMLValidator:
             if not schema_file:
                 self.add_error(
                     ValidationError(
-                        str(xml_file), 1, f"No corresponding schema file found"
+                        str(xml_file), 1, "No corresponding schema file found"
                     )
                 )
                 return
 
+            import os
+            cwd = os.getcwd()
+
             # Load and validate
             try:
-                schema = xmlschema.XMLSchema(str(schema_file))
-                schema.validate(str(xml_file))
-            except xmlschema.XMLSchemaException as e:
+                os.chdir(self.schemas_dir)
+                with open(schema_file, 'rb') as xsd_f:
+                    schema_root = etree.XML(xsd_f.read())
+                    schema = etree.XMLSchema(schema_root)
+                with open(xml_file, 'rb') as xml_f:
+                    xml_doc = etree.parse(xml_f)
+                schema.assertValid(xml_doc)
+            except (etree.XMLSchemaError, etree.DocumentInvalid) as e:
                 # Extract line number from error if available
-                line_number = getattr(e, "lineno", 1) or 1
+                line_number = getattr(e, "line", 0) or 0
                 self.add_error(
                     ValidationError(
-                        str(xml_file), line_number, f"Schema validation error: {str(e)}"
+                        str(xml_file), line_number, f"Schema validation error 1: {str(e)}"
                     )
                 )
             except Exception as e:
                 self.add_error(
                     ValidationError(
-                        str(xml_file), 1, f"Schema validation error: {str(e)}"
+                        str(xml_file), 1, f"Schema validation error 2: {str(e)}"
                     )
                 )
+            finally:
+                os.chdir(cwd)
 
         except Exception as e:
             self.add_error(
@@ -99,7 +109,7 @@ class XMLValidator:
             )
 
     def _find_schema_file(self, xml_file: Path) -> Path:
-        """Find the corresponding XSD schema file for an XML file."""
+        """Find the corresponding XSD schema file for an XML file and return its absolute path."""
         xml_name = xml_file.stem
 
         # Special mappings for complex file names
@@ -154,7 +164,7 @@ class XMLValidator:
 
         for candidate in schema_candidates:
             if candidate.exists():
-                return candidate
+                return candidate.resolve()
 
         return None
 
