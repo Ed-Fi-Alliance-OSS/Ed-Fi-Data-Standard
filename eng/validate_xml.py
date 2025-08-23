@@ -58,6 +58,12 @@ class XMLValidator:
         # Precompiled regex for line number extraction
         self._line_pattern = re.compile(r", line (\d+)")
 
+    def clear_caches(self):
+        """Clear all caches to free memory."""
+        self._descriptor_cache.clear()
+        self._schema_cache.clear()
+        self.errors.clear()
+
     def add_error(self, error: ValidationError):
         """Add a validation error to the error collection."""
         file_key = os.path.basename(error.file_path)
@@ -95,19 +101,25 @@ class XMLValidator:
                 finally:
                     os.chdir(cwd)
 
-            # Parse and validate XML
-            with open(xml_file, "rb") as xml_f:
-                xml_doc = etree.parse(xml_f)
+            # Parse and validate XML - use context manager to ensure cleanup
+            xml_doc = None
+            try:
+                with open(xml_file, "rb") as xml_f:
+                    xml_doc = etree.parse(xml_f)
 
-            if not schema.validate(xml_doc):
-                for error in schema.error_log:
-                    self.add_error(
-                        ValidationError(
-                            str(xml_file),
-                            error.line,
-                            error.message,
+                if not schema.validate(xml_doc):
+                    for error in schema.error_log:
+                        self.add_error(
+                            ValidationError(
+                                str(xml_file),
+                                error.line,
+                                error.message,
+                            )
                         )
-                    )
+            finally:
+                # Explicitly clean up XML document
+                if xml_doc is not None:
+                    xml_doc = None
 
         except (etree.XMLSchemaError, etree.DocumentInvalid) as e:
             # Extract line number from error string if available
@@ -192,6 +204,7 @@ class XMLValidator:
 
     def validate_descriptors(self, xml_file: Path) -> None:
         """Validate descriptor URIs in an XML file against descriptor definitions."""
+        content = None
         try:
             # Read file content once
             with open(xml_file, "r", encoding="utf-8") as f:
@@ -219,6 +232,9 @@ class XMLValidator:
                     f"Error reading file for descriptor validation: {str(e)}",
                 )
             )
+        finally:
+            # Explicitly clear content to free memory
+            content = None
 
     def _validate_descriptor_reference(
         self,
@@ -260,6 +276,7 @@ class XMLValidator:
 
     def _load_descriptor_data(self, descriptor_file: Path, descriptor: str) -> None:
         """Load descriptor data from XML file into cache."""
+        tree = None
         try:
             tree = ET.parse(str(descriptor_file))
             root = tree.getroot()
@@ -298,6 +315,10 @@ class XMLValidator:
                 file=sys.stderr,
             )
             self._descriptor_cache[descriptor] = set()
+        finally:
+            # Explicitly clean up the tree to prevent memory leaks
+            if tree is not None:
+                tree = None
 
     def validate_all(self) -> bool:
         """Validate all XML files in the samples directory."""
@@ -339,6 +360,7 @@ class XMLValidator:
         error_lock = threading.Lock()
 
         def process_file(xml_file):
+            temp_validator = None
             try:
                 # Create a temporary validator for thread safety
                 temp_validator = XMLValidator(
@@ -370,6 +392,11 @@ class XMLValidator:
                     self.errors[file_key].append(
                         ValidationError(str(xml_file), 1, f"Processing error: {str(e)}")
                     )
+            finally:
+                # Explicitly clean up temp validator to prevent memory leaks
+                if temp_validator is not None:
+                    temp_validator.errors.clear()
+                    temp_validator = None
 
         # Process files in parallel
         with ThreadPoolExecutor(max_workers=min(4, len(xml_files))) as executor:
@@ -461,11 +488,15 @@ def main():
 
         if success:
             print("\nValidation completed successfully!")
+            # Clear caches before exit to free memory
+            validator.clear_caches()
             sys.exit(0)
         else:
             print(
                 f"\nValidation failed with {len(validator.errors)} files containing errors."
             )
+            # Clear caches before exit to free memory
+            validator.clear_caches()
             sys.exit(1)
 
     except KeyboardInterrupt:
