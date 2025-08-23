@@ -9,6 +9,12 @@ The validation script performs two types of validation:
 1. **Schema Validation**: Validates Sample XML files against XSD schema definitions in the `Schemas/Bulk/` folder
 2. **Descriptor Validation**: Validates descriptor URI strings in sample data against descriptor definitions in the `Descriptors/` folder
 
+> [!NOTE]
+> Some schema validation errors cause the validator to stop processing immediately. For example, the validator
+> throws and exception and stops when there are mismatched tags (ex: `<tag></taggggg>`). Do not be lulled into
+> thinking that is the only error in the file - when you fix an issue, you should run the validator again to
+> ensure that the file is truly clean.
+
 ## Requirements
 
 - Python 3.12 or higher
