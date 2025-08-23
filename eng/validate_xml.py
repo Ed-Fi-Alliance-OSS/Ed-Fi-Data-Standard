@@ -84,7 +84,17 @@ class XMLValidator:
                     schema = etree.XMLSchema(schema_root)
                 with open(xml_file, "rb") as xml_f:
                     xml_doc = etree.parse(xml_f)
-                schema.assertValid(xml_doc)
+
+                if not schema.validate(xml_doc):
+                    for error in schema.error_log:
+                        self.add_error(
+                            ValidationError(
+                                str(xml_file),
+                                error.line,
+                                error.message,
+                            )
+                        )
+
             except (etree.XMLSchemaError, etree.DocumentInvalid) as e:
                 # Extract line number from error string if available
 
@@ -98,13 +108,13 @@ class XMLValidator:
                     ValidationError(
                         str(xml_file),
                         line_number,
-                        f"Schema validation error 1: {str(e)}",
+                        str(e),
                     )
                 )
             except Exception as e:
                 self.add_error(
                     ValidationError(
-                        str(xml_file), 1, f"Schema validation error 2: {str(e)}"
+                        str(xml_file), 1, str(e)
                     )
                 )
             finally:
