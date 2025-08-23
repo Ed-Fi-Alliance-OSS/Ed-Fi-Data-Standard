@@ -79,7 +79,7 @@ class XMLValidator:
                 return
 
             schema_path_str = str(schema_file)
-            
+
             # Use cached schema if available
             if schema_path_str in self._schema_cache:
                 schema = self._schema_cache[schema_path_str]
@@ -125,11 +125,7 @@ class XMLValidator:
                 )
             )
         except Exception as e:
-            self.add_error(
-                ValidationError(
-                    str(xml_file), 1, str(e)
-                )
-            )
+            self.add_error(ValidationError(str(xml_file), 1, str(e)))
 
     def _find_schema_file(self, xml_file: Path) -> Path:
         """Find the corresponding XSD schema file for an XML file and return its absolute path."""
@@ -142,7 +138,7 @@ class XMLValidator:
                 return schema_file.resolve()
 
         # Special mappings for complex file names (as instance variable for better performance)
-        if not hasattr(self, '_special_mappings'):
+        if not hasattr(self, "_special_mappings"):
             self._special_mappings = {
                 "AssessmentMetadata-SAT": "AssessmentMetadata",
                 "AssessmentMetadata-ACT": "AssessmentMetadata",
@@ -204,8 +200,8 @@ class XMLValidator:
             # Find all descriptor URIs using finditer for better performance
             for match in self.DESCRIPTOR_PATTERN.finditer(content):
                 # Calculate line number by counting newlines up to match position
-                line_number = content[:match.start()].count('\n') + 1
-                
+                line_number = content[: match.start()].count("\n") + 1
+
                 namespace = match.group("namespace")
                 descriptor = match.group("descriptor")
                 code_value = match.group("codeValue").strip()
@@ -338,28 +334,34 @@ class XMLValidator:
         # Use parallel processing for better performance
         from concurrent.futures import ThreadPoolExecutor, as_completed
         import threading
-        
+
         # Thread-safe error collection
         error_lock = threading.Lock()
-        
+
         def process_file(xml_file):
             try:
                 # Create a temporary validator for thread safety
-                temp_validator = XMLValidator(str(self.samples_dir), str(self.schemas_dir), str(self.descriptors_dir))
+                temp_validator = XMLValidator(
+                    str(self.samples_dir),
+                    str(self.schemas_dir),
+                    str(self.descriptors_dir),
+                )
                 temp_validator._schema_cache = self._schema_cache  # Share schema cache
-                temp_validator._descriptor_cache = self._descriptor_cache  # Share descriptor cache
-                
+                temp_validator._descriptor_cache = (
+                    self._descriptor_cache
+                )  # Share descriptor cache
+
                 # Perform validation
                 temp_validator.validate_schema(xml_file)
                 temp_validator.validate_descriptors(xml_file)
-                
+
                 # Merge errors thread-safely
                 with error_lock:
                     for file_key, errors in temp_validator.errors.items():
                         if file_key not in self.errors:
                             self.errors[file_key] = []
                         self.errors[file_key].extend(errors)
-                        
+
             except Exception as e:
                 with error_lock:
                     file_key = os.path.basename(str(xml_file))
@@ -371,8 +373,10 @@ class XMLValidator:
 
         # Process files in parallel
         with ThreadPoolExecutor(max_workers=min(4, len(xml_files))) as executor:
-            futures = [executor.submit(process_file, xml_file) for xml_file in xml_files]
-            
+            futures = [
+                executor.submit(process_file, xml_file) for xml_file in xml_files
+            ]
+
             for i, future in enumerate(as_completed(futures)):
                 print(f"Completed {i+1}/{len(xml_files)} files...")
                 try:
