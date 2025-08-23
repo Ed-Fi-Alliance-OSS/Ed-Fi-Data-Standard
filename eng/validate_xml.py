@@ -22,13 +22,7 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Tuple, Set
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
-
-try:
-    import xmlschema
-except ImportError:
-    print("Error: xmlschema package not found. Please install with: pip install xmlschema", file=sys.stderr)
-    sys.exit(2)
+import xmlschema
 
 
 class ValidationError:
