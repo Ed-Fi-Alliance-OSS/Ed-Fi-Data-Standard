@@ -11154,7 +11154,7 @@
 		<GenderIdentity>Male</GenderIdentity>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
 		<Language>
-			<Language>uri://ed-fi.org/LanguageDescriptor#Eng</Language>
+			<Language>uri://ed-fi.org/LanguageDescriptor#eng</Language>
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Other language proficiency</LanguageUse>
 		</Language>
 		<Language>

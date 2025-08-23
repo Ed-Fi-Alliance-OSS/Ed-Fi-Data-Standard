@@ -1950,7 +1950,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<Citizenship>
-		<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Resident Alien</CitizenshipStatus>
+		<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Resident alien</CitizenshipStatus>
 	</Citizenship>
 	<GenderIdentity>Male</GenderIdentity>
 	<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
@@ -1979,7 +1979,7 @@
 	</EducationOrganizationReference>
 	<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Spaniard/Spanish/Spanish-American</AncestryEthnicOrigin>
 		<Citizenship>
-		<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Us Citizen</CitizenshipStatus>
+		<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#US Citizen</CitizenshipStatus>
 	</Citizenship>
 	<GenderIdentity>Female</GenderIdentity>
 	<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
