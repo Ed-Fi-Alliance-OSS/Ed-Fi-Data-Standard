@@ -12,4 +12,16 @@
 		<Description>DEPRECATED: Low Attendance</Description>
 		<Namespace>uri://ed-fi.org/DiagnosisDescriptor</Namespace>
 	</DiagnosisDescriptor>
+	<DiagnosisDescriptor>
+		<CodeValue>Low Attendance</CodeValue>
+		<ShortDescription>Low Attendance</ShortDescription>
+		<Description>Low Attendance</Description>
+		<Namespace>uri://gbisd.edu/DiagnosisDescriptor</Namespace>
+	</DiagnosisDescriptor>
+	<DiagnosisDescriptor>
+		<CodeValue>Dropout Risk</CodeValue>
+		<ShortDescription>Dropout Risk</ShortDescription>
+		<Description>Dropout Risk</Description>
+		<Namespace>uri://gbisd.edu/DiagnosisDescriptor</Namespace>
+	</DiagnosisDescriptor>
 </InterchangeDescriptors>
