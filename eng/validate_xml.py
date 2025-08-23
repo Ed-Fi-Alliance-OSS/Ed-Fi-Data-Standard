@@ -74,24 +74,31 @@ class XMLValidator:
                 )
                 return
 
-            import os
             cwd = os.getcwd()
 
             # Load and validate
             try:
                 os.chdir(self.schemas_dir)
-                with open(schema_file, 'rb') as xsd_f:
+                with open(schema_file, "rb") as xsd_f:
                     schema_root = etree.XML(xsd_f.read())
                     schema = etree.XMLSchema(schema_root)
-                with open(xml_file, 'rb') as xml_f:
+                with open(xml_file, "rb") as xml_f:
                     xml_doc = etree.parse(xml_f)
                 schema.assertValid(xml_doc)
             except (etree.XMLSchemaError, etree.DocumentInvalid) as e:
-                # Extract line number from error if available
-                line_number = getattr(e, "line", 0) or 0
+                # Extract line number from error string if available
+
+                error_str = str(e)
+                match = re.search(r", line (\d+)", error_str)
+                if match:
+                    line_number = int(match.group(1))
+                else:
+                    line_number = 0
                 self.add_error(
                     ValidationError(
-                        str(xml_file), line_number, f"Schema validation error 1: {str(e)}"
+                        str(xml_file),
+                        line_number,
+                        f"Schema validation error 1: {str(e)}",
                     )
                 )
             except Exception as e:
