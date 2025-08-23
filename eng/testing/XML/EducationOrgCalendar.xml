@@ -23,8 +23,15 @@
 			</SchoolIdentity>
 		</SchoolReference>
 		<WeekIdentifier>Week 1</WeekIdentifier>
-		<BeginDate>2023-09-04</BeginDate>
-		<EndDate>2023-09-08</EndDate>
+		<TotalInstructionalDays>5</TotalInstructionalDays>
+	</AcademicWeek>
+	<AcademicWeekTypo>
+		<SchoolReference>
+			<SchoolIdentity>
+				<SchoolIdTyp>255901001</SchoolIdTyp>
+			</SchoolIdentity>
+		</SchoolReference>
+		<WeekIdentifier>Week 1</WeekIdentifier>
 		<TotalInstructionalDays>5</TotalInstructionalDays>
 	</AcademicWeek>
 </InterchangeEducationOrgCalendar>
