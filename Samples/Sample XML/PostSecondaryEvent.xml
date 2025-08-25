@@ -2,11 +2,11 @@
 <InterchangePostSecondaryEvent xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-PostSecondaryEvent.xsd">
 	<PostSecondaryEvent>
 		<EventDate>2022-02-03</EventDate>
-		<PostSecondaryEventCategory>uri://ed-fi.org/PostSecondaryEventCategoryDescriptor#College Acceptance</PostSecondaryEventCategory>
+		<PostSecondaryEventCategory>uri://ed-fi.org/PostSecondaryEventCategoryDescriptor#College Acceptance****</PostSecondaryEventCategory>
 		<PostSecondaryInstitutionReference>
-			<PostSecondaryInstitutionIdentity>
+			<PostSecondaryInstitutionIdentity88>
 				<PostSecondaryInstitutionId>6000203</PostSecondaryInstitutionId>
-			</PostSecondaryInstitutionIdentity>
+			</PostSecondaryInstitutionIdentity88>
 		</PostSecondaryInstitutionReference>
 		<StudentReference>
 			<StudentIdentity>
