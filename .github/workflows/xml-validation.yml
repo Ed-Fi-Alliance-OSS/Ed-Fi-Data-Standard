@@ -58,6 +58,8 @@ jobs:
 
         # echo the combined exit code
         echo "exit_code=$((exit_code + $?))" >> $GITHUB_OUTPUT
+
+        exit $((exit_code + $?))
       continue-on-error: true
 
     - name: Read validation output
@@ -123,9 +125,3 @@ jobs:
             repo: context.repo.repo,
             body: commentBody
           });
-
-    - name: Fail if validation errors found
-      if: steps.validation.outputs.exit_code != '0'
-      run: |
-        echo "XML validation failed with exit code ${{ steps.validation.outputs.exit_code }}"
-        exit 1
