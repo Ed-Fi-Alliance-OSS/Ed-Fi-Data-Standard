@@ -50,7 +50,7 @@ jobs:
         exit_code=$?
 
         # validate the Descriptors directory
-        poetry run python validate_xml.py --samples-dir eng/testing/Descriptors
+        poetry run python validate_xml.py --samples-dir Descriptors
 
         # echo the combined exit code
         exit_code=$((exit_code + $?))
