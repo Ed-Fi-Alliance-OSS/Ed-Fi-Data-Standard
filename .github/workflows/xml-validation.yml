@@ -12,10 +12,6 @@ on:
     paths:
       - '**/*.xml'
       - '**/*.xsd'
-    types:
-      - opened
-      - reopened
-      - edited
 
 permissions:
   contents: read
