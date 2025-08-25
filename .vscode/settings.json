@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "*.metaed": "csharp"
+        "*.metaed": "csharp",
+        "*.yml": "yaml"
     },
     "psi-header.config": {
         "forceToTop": true,
@@ -67,7 +68,8 @@
     ],
     "psi-header.changes-tracking": {
         "autoHeader": "autoSave",
-        "exclude": ["css", "json", "xml", "config", "plaintext", "markdown", "batch"]
+        "exclude": ["css", "json", "xml", "config", "plaintext", "markdown", "batch"],
+        "excludeGlob": [ "./**/*.lock", "./**/*.toml" ]
     },
     "dotnet.defaultSolution": "Application/Ed-Fi-ODS-AdminApi.sln",
     "markdownlint.config": {
