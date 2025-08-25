@@ -12,7 +12,10 @@ on:
     paths:
       - '**/*.xml'
       - '**/*.xsd'
-  workflow_dispatch:
+    types:
+      - opened
+      - reopened
+      - edited
 
 permissions:
   contents: read
