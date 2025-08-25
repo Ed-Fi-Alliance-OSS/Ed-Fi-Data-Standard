@@ -221,26 +221,29 @@ class XMLValidator:
         code_value: str,
     ) -> None:
         """Validate a single descriptor reference."""
-        # Check if descriptor file exists
+
+        # There could be a file in both locations.
         descriptor_file = self.descriptors_dir / f"{descriptor}.xml"
-        if not descriptor_file.exists():
-            # Also check in the sample XML files
-            sample_descriptor_file = self.samples_dir / f"{descriptor}.xml"
-            if sample_descriptor_file.exists():
-                descriptor_file = sample_descriptor_file
-            else:
-                self.add_error(
-                    ValidationError(
-                        str(xml_file),
-                        line_number,
-                        f"No matching descriptor file for {descriptor}",
-                    )
+        sample_descriptor_file = self.samples_dir / f"{descriptor}.xml"
+
+        # Check if descriptor file exists
+        if not descriptor_file.exists() and not sample_descriptor_file.exists():
+            self.add_error(
+                ValidationError(
+                    str(xml_file),
+                    line_number,
+                    f"No matching descriptor file for {descriptor}",
                 )
-                return
+            )
+            return
 
         # Load descriptor data if not cached
         if descriptor not in self._descriptor_cache:
-            self._load_descriptor_data(descriptor_file, descriptor)
+            if descriptor_file.exists():
+                self._load_descriptor_data(descriptor_file, descriptor)
+
+            if sample_descriptor_file.exists():
+                self._load_descriptor_data(sample_descriptor_file, descriptor)
 
         # Check if the specific code value and namespace combination exists
         expected_namespace = f"uri://{namespace}/{descriptor}"
