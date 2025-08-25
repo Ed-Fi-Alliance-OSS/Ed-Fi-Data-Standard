@@ -12,6 +12,7 @@ on:
     paths:
       - '**/*.xml'
       - '**/*.xsd'
+  workflow_dispatch:
 
 jobs:
   validate-xml:
