@@ -224,14 +224,19 @@ class XMLValidator:
         # Check if descriptor file exists
         descriptor_file = self.descriptors_dir / f"{descriptor}.xml"
         if not descriptor_file.exists():
-            self.add_error(
-                ValidationError(
-                    str(xml_file),
-                    line_number,
-                    f"No matching descriptor file for {descriptor}",
+            # Also check in the sample XML files
+            sample_descriptor_file = self.samples_dir / f"{descriptor}.xml"
+            if sample_descriptor_file.exists():
+                descriptor_file = sample_descriptor_file
+            else:
+                self.add_error(
+                    ValidationError(
+                        str(xml_file),
+                        line_number,
+                        f"No matching descriptor file for {descriptor}",
+                    )
                 )
-            )
-            return
+                return
 
         # Load descriptor data if not cached
         if descriptor not in self._descriptor_cache:
