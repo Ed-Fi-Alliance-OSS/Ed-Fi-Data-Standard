@@ -8,7 +8,6 @@ packages = [{include = "validate_xml.py"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
-xmlschema = "^3.0.0"
 lxml = "^4.9.0"
 
 [tool.poetry.group.dev.dependencies]

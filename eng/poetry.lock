@@ -74,21 +74,6 @@ files = [
 ]
 
 [[package]]
-name = "elementpath"
-version = "4.8.0"
-description = "XPath 1.0/2.0/3.0/3.1 parsers and selectors for ElementTree and lxml"
-optional = false
-python-versions = ">=3.8"
-groups = ["main"]
-files = [
-    {file = "elementpath-4.8.0-py3-none-any.whl", hash = "sha256:5393191f84969bcf8033b05ec4593ef940e58622ea13cefe60ecefbbf09d58d9"},
-    {file = "elementpath-4.8.0.tar.gz", hash = "sha256:5822a2560d99e2633d95f78694c7ff9646adaa187db520da200a8e9479dc46ae"},
-]
-
-[package.extras]
-dev = ["Sphinx", "coverage", "flake8", "lxml", "lxml-stubs", "memory-profiler", "memray", "mypy", "tox", "xmlschema (>=3.3.2)"]
-
-[[package]]
 name = "flake8"
 version = "7.3.0"
 description = "the modular source code checker: pep8 pyflakes and co"
@@ -303,27 +288,7 @@ files = [
     {file = "pyflakes-3.4.0.tar.gz", hash = "sha256:b24f96fafb7d2ab0ec5075b7350b3d2d2218eab42003821c06344973d3ea2f58"},
 ]
 
-[[package]]
-name = "xmlschema"
-version = "3.4.5"
-description = "An XML Schema validator and decoder"
-optional = false
-python-versions = ">=3.8"
-groups = ["main"]
-files = [
-    {file = "xmlschema-3.4.5-py3-none-any.whl", hash = "sha256:c91a2fca387dc4e8a2f2cb4a411ed23bef9da539968e5d858a3fe7f76a65464e"},
-    {file = "xmlschema-3.4.5.tar.gz", hash = "sha256:243244743f151ec859ec0bbf1368fa3f70e5f29e977b77f72e1c9b8f8ae670f6"},
-]
-
-[package.dependencies]
-elementpath = ">=4.4.0,<5.0.0"
-
-[package.extras]
-codegen = ["jinja2"]
-dev = ["coverage", "flake8", "lxml", "lxml-stubs", "memory_profiler", "mypy", "tox", "xmlschema[docs]"]
-docs = ["jinja2", "sphinx", "sphinx_rtd_theme"]
-
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "6b248904fd52eda412b88084dc4a6858b7268099820c02cccddad34f07fe2422"
+content-hash = "fb327b39d30c774ae6fcddfbe166e37402815726a51a9f05a451faf513d7fd3e"
