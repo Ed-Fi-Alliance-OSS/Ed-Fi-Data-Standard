@@ -49,15 +49,20 @@ jobs:
         # save exit code to a variable
         exit_code=$?
 
-        # validate the Descriptors directory
-        poetry run python validate_xml.py --samples-dir eng/testing/Descriptors > validation_output.txt 2>&1
+        # validate the Descriptors directory (append to output)
+        poetry run python validate_xml.py --samples-dir eng/testing/Descriptors >> validation_output.txt 2>&1
 
         # echo the combined exit code
         exit_code=$((exit_code + $?))
 
-        echo "exit_code=$(exit_code)" >> $GITHUB_OUTPUT
+        echo "exit_code=$exit_code" >> $GITHUB_OUTPUT
 
-        echo "validation_output=$(cat validation_output.txt)" >> $GITHUB_OUTPUT
+        # Use heredoc to safely capture multiline output
+        {
+          echo 'validation_output<<EOF'
+          cat validation_output.txt
+          echo EOF
+        } >> $GITHUB_OUTPUT
 
         exit $exit_code
 
