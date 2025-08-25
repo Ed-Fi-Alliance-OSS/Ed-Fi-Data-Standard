@@ -1,0 +1,96 @@
+{
+    "files.associations": {
+        "*.metaed": "csharp"
+    },
+    "psi-header.config": {
+        "forceToTop": true,
+        "blankLinesAfter": 1,
+        "license": "Custom"
+    },
+    "psi-header.templates": [
+        {
+            "language": "*",
+            "template": [
+                "SPDX-License-Identifier: Apache-2.0",
+                "Licensed to the Ed-Fi Alliance under one or more agreements.",
+                "The Ed-Fi Alliance licenses this file to you under the Apache License, Version 2.0.",
+                "See the LICENSE and NOTICES files in the project root for more information."
+            ]
+        }
+    ],
+    "psi-header.lang-config": [
+        {
+            "_": "Apply double slash-based comments",
+            "language": "csharp",
+            "begin": "",
+            "end": "",
+            "prefix": "// "
+        },
+        {
+            "language": "javascript",
+            "mapTo": "csharp"
+        },
+        {
+            "language": "typescript",
+            "mapTo": "csharp"
+        },
+        {
+            "language": "metaed",
+            "mapTo": "csharp"
+        },
+        {
+            "_": "Apply hash-based comments",
+            "language": "python",
+            "begin": "",
+            "end": "",
+            "prefix": "# "
+        },
+        {
+            "language": "powershell",
+            "mapTo": "python"
+        },
+        {
+            "language": "dockerfile",
+            "mapTo": "python"
+        },
+        {
+            "_": "Apply double dash-based comments",
+            "language": "sql",
+            "begin": "",
+            "end": "",
+            "prefix": "-- "
+        },
+        {
+            "language": "yaml",
+            "mapTo": "python"
+        }
+    ],
+    "psi-header.changes-tracking": {
+        "autoHeader": "autoSave",
+        "exclude": ["css", "json", "xml", "config", "plaintext", "markdown", "batch"]
+    },
+    "dotnet.defaultSolution": "Application/Ed-Fi-ODS-AdminApi.sln",
+    "markdownlint.config": {
+        "default": true,
+        "line-length": false,
+        "no-inline-html": {
+            "allowed_elements": ["kbd", "details", "summary", "br", "iframe", "sup"]
+        },
+        "emphasis-style": {
+            "style": "underscore"
+        },
+        "ul-style": {
+            "style": "asterisk"
+        }
+    },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": "explicit"
+    },
+    "cSpell.words": [
+    ]
+}
