@@ -61,15 +61,7 @@ jobs:
 
         echo "exit_code=$(exit_code)" >> $GITHUB_OUTPUT
 
-        if [ -f validation_output.txt ]; then
-          {
-            echo 'validation_output<<EOF'
-            cat validation_output.txt
-            echo EOF
-          } >> $GITHUB_OUTPUT
-        else
-          echo 'validation_output=No output file found' >> $GITHUB_OUTPUT
-        fi
+        echo "validation_output=$(cat validation_output.txt)" >> $GITHUB_OUTPUT
 
         exit $exit_code
 
@@ -78,11 +70,11 @@ jobs:
       if: always()
       with:
         script: |
-          const output = `${{ steps.validation.outputs.validation_output }}`;
-          const exitCode = '${{ steps.validation.outputs.exit_code }}';
+          const output = "${{ steps.validation.outputs.validation_output }}";
+          const exitCode = "${{ steps.validation.outputs.exit_code }}";
 
           let commentBody;
-          if (exitCode === '0') {
+          if (exitCode === "0") {
             commentBody = `## ✅ XML Validation Passed
 
           All XML files have been validated successfully against their schemas and descriptor definitions.
