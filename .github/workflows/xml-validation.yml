@@ -44,25 +44,18 @@ jobs:
       id: validation
       run: |
         # Validate the samples directory
-        poetry run python validate_xml.py > validation_output.txt 2>&1
+        poetry run python validate_xml.py
 
         # save exit code to a variable
         exit_code=$?
 
-        # validate the Descriptors directory (append to output)
-        poetry run python validate_xml.py --samples-dir eng/testing/Descriptors >> validation_output.txt 2>&1
+        # validate the Descriptors directory
+        poetry run python validate_xml.py --samples-dir eng/testing/Descriptors
 
         # echo the combined exit code
         exit_code=$((exit_code + $?))
 
         echo "exit_code=$exit_code" >> $GITHUB_OUTPUT
-
-        # Use heredoc to safely capture multiline output
-        {
-          echo 'validation_output<<EOF'
-          cat validation_output.txt
-          echo EOF
-        } >> $GITHUB_OUTPUT
 
         exit $exit_code
 
@@ -71,36 +64,17 @@ jobs:
       if: always()
       with:
         script: |
-          const output = "${{ steps.validation.outputs.validation_output }}";
           const exitCode = "${{ steps.validation.outputs.exit_code }}";
 
           let commentBody;
           if (exitCode === "0") {
             commentBody = `## ✅ XML Validation Passed
 
-          All XML files have been validated successfully against their schemas and descriptor definitions.
-
-          <details>
-          <summary>Validation Output</summary>
-
-          \`\`\`
-          ${output}
-          \`\`\`
-
-          </details>`;
+          All XML files have been validated successfully against their schemas and descriptor definitions.`;
           } else {
             commentBody = `## ❌ XML Validation Failed
 
-          XML validation found errors. Please review and fix the issues below:
-
-          <details>
-          <summary>Validation Errors</summary>
-
-          \`\`\`
-          ${output}
-          \`\`\`
-
-          </details>
+          XML validation found errors. Please review and fix the issues listed in the build log.
 
           ### Error Format
           Errors are formatted as: \`[file name]\t[line number]\t[validation error]\`
