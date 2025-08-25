@@ -40,8 +40,17 @@ jobs:
     - name: Run XML validation
       id: validation
       run: |
+        # Validate the samples directory
         poetry run python validate_xml.py > validation_output.txt 2>&1
-        echo "exit_code=$?" >> $GITHUB_OUTPUT
+
+        # save exit code to a variable
+        exit_code=$?
+
+        # validate the Descriptors directory
+        poetry run python validate_xml.py --samples-dir eng/testing/Descriptors > validation_output.txt 2>&1
+
+        # echo the combined exit code
+        echo "exit_code=$((exit_code + $?))" >> $GITHUB_OUTPUT
       continue-on-error: true
 
     - name: Read validation output
