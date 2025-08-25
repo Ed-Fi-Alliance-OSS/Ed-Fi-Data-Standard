@@ -10,7 +10,7 @@
 		<CodeValue>Composite</CodeValue>
 		<ShortDescription>Composite</ShortDescription>
 		<Description>Composite</Description>
-		<Namespace>uri://ed-fi.org/AcademicSubjectDescriptor</Namespace>
+		<Namespace>uri://ed-fi.org
 	</AcademicSubjectDescriptor>
 	<AcademicSubjectDescriptor>
 		<CodeValue>Critical Reading</CodeValue>
