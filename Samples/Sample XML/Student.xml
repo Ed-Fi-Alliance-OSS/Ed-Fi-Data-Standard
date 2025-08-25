@@ -11946,6 +11946,80 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 </StudentDirectory>
+	<StudentIdentity>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604854</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<StudentIdentificationSystem>uri://ed-fi.org/StudentIdentificationSystemDescriptor#State</StudentIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>56099828</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>State Identifcation Number</AssigningOrganizationIdentificationCode>
+	</StudentIdentity>
+	<StudentIdentity>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604822</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<StudentIdentificationSystem>uri://ed-fi.org/StudentIdentificationSystemDescriptor#School</StudentIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901001</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>42232266</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>School Identification Number</AssigningOrganizationIdentificationCode>
+	</StudentIdentity>
+	<StudentIdentity>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604823</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<StudentIdentificationSystem>uri://ed-fi.org/StudentIdentificationSystemDescriptor#School</StudentIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901044</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>71810909</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>School Identification Number</AssigningOrganizationIdentificationCode>
+	</StudentIdentity>
+	<StudentIdentity>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604824</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<StudentIdentificationSystem>uri://ed-fi.org/StudentIdentificationSystemDescriptor#SSN</StudentIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>19255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>640301834</IdentificationCode>
+	</StudentIdentity>
+	<StudentIdentity>
+		<StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604825</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<StudentIdentificationSystem>uri://ed-fi.org/StudentIdentificationSystemDescriptor#Other</StudentIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901107</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>181106679</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>Other Identification Number</AssigningOrganizationIdentificationCode>
+	</StudentIdentity>
 	<Person>
 		<PersonId>207286</PersonId>
 		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
