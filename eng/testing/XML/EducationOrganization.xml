@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeEducationOrganization
+	xmlns="http://ed-fi.org/6.0.0"
+	xmlns:ann="http://ed-fi.org/annotation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://ed-fi.org/6.0.0 ../XSD/Interchange-EducationOrganization.xsd"
+>
+	<School id="SCOL_255901001">
+		<NameOfInstitution>Valid school</NameOfInstitution>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#School</EducationOrganizationCategory>
+		<SchoolId>255901001</SchoolId>
+	</School>
+	<School id="SCOL_255901002">
+		<NameOfInstitution>invalid descriptor type</NameOfInstitution>
+		<EducationOrganizationCategory>uri://ed-fi.org/INVALID#School</EducationOrganizationCategory>
+		<SchoolId>255901002</SchoolId>
+	</School>
+	<School id="SCOL_255901003">
+		<NameOfInstitution>invalid descriptor code value</NameOfInstitution>
+		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#INVALID</EducationOrganizationCategory>
+		<SchoolId>255901003</SchoolId>
+	</School>
+</InterchangeEducationOrganization>
