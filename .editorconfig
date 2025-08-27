@@ -1,5 +1,18 @@
 root = true
 
+[**/*.py]
+file_header_template = SPDX-License-Identifier: Apache-2.0\nLicensed to the Ed-Fi Alliance under one or more agreements.\nThe Ed-Fi Alliance licenses this file to you under the Apache License, Version 2.0.\nSee the LICENSE and NOTICES files in the project root for more information.
+indent_style=space
+indent_size=4
+tab_width=2
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+max_line_length = 110
+
+[**/*.md]
+trim_trailing_whitespace = false
 [*.{js,json,yml}]
 charset = utf-8
 end_of_line = lf

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
+  <xs:complexType name="ComplexObjectType" abstract="true">
+    <xs:annotation>
+      <xs:documentation>This is the base type from which all entity elements are extended.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Base</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:attribute name="id" type="xs:ID">
+      <xs:annotation>
+        <xs:documentation>The XML ID associated with the complex object.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="ReferenceType">
+    <xs:annotation>
+      <xs:documentation>This is the base type for association references.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Base</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:attribute name="id" type="xs:ID">
+      <xs:annotation>
+        <xs:documentation>The XML ID associated with this complex object.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="ref" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation>The XML IDREF that references the object associated with this object.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="SchoolIdentityType">
+    <xs:annotation>
+      <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of a School.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="SchoolId" type="xs:long">
+        <xs:annotation>
+          <xs:documentation>The identifier assigned to a school. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SchoolLookupType">
+    <xs:annotation>
+      <xs:documentation>Encapsulates alternative attributes that can be used to look up the identity of a School.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Lookup</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+  </xs:complexType>
+  <xs:complexType name="SchoolReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a School. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="SchoolIdentity" type="SchoolIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Encapsulates primary attributes that can be used to look up the identity of a School.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SchoolLookup" type="SchoolLookupType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Encapsulates alternative attributes that can be used to look up the identity of a School.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="WeekIdentifier">
+    <xs:annotation>
+      <xs:documentation>The school label for the academic week.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="5" />
+      <xs:maxLength value="80" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TotalInstructionalDays">
+    <xs:annotation>
+      <xs:documentation>Total days available for educational instruction during the grading period.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EducationOrganizationCategoryDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The classification of the education agency within the geographic boundaries of a state according to the level of administrative and operational control granted by the state.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="DescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides references for descriptors represented by the full URI format.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="NameOfInstitution">
+    <xs:annotation>
+      <xs:documentation>The full, legally accepted name of the institution.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="75" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="URI">
+    <xs:annotation>
+      <xs:documentation>The public web site address (URL), file, or ftp locator.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="5" />
+      <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ShortDescription">
+    <xs:annotation>
+      <xs:documentation>A shortened description for reference.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="75" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="CodeValue">
+    <xs:annotation>
+      <xs:documentation>A code or abbreviation for an element.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Description">
+    <xs:annotation>
+      <xs:documentation>A detailed description of the entity.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="DescriptorType" abstract="true">
+    <xs:annotation>
+      <xs:documentation>This is the base for the Descriptor type.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Base</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="CodeValue" type="CodeValue">
+            <xs:annotation>
+              <xs:documentation>A code or abbreviation that is used to refer to the descriptor.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ShortDescription" type="ShortDescription">
+            <xs:annotation>
+              <xs:documentation>A shortened description for the descriptor.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Description" type="Description" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The description of the descriptor.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Namespace" type="URI">
+            <xs:annotation>
+              <xs:documentation>A globally unique identifier for this descriptor.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EducationOrganizationCategoryDescriptor">
+    <xs:annotation>
+      <xs:documentation>The classification of the education agency within the geographic boundaries of a state according to the level of administrative and operational control granted by the state.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:annotation>
+    <xs:documentation>===== Ed-Fi-Core Version 6.0.0 ====</xs:documentation>
+  </xs:annotation>
+  <xs:annotation>
+    <xs:documentation>===== Domain Entities =====</xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="AcademicWeek">
+    <xs:annotation>
+      <xs:documentation>This entity represents the academic weeks for a school year, optionally captured to support analyses.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="SchoolReference" type="SchoolReferenceType">
+            <xs:annotation>
+              <xs:documentation>Relates the academic week to an existing school.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="WeekIdentifier" type="WeekIdentifier">
+            <xs:annotation>
+              <xs:documentation>The school label for the week.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="BeginDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The start date for the academic week.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EndDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The end date for the academic week.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TotalInstructionalDays" type="TotalInstructionalDays">
+            <xs:annotation>
+              <xs:documentation>The total instructional days during the academic week.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EducationOrganization" abstract="true">
+    <xs:annotation>
+      <xs:documentation>This entity represents any public or private institution, organization, or agency that provides instructional or support services to students or staff at any level.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="NameOfInstitution" type="NameOfInstitution">
+            <xs:annotation>
+              <xs:documentation>The full, legally accepted name of the institution.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationCategory" type="EducationOrganizationCategoryDescriptorReferenceType" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The classification of the education agency within the geographic boundaries of a state according to the level of administrative and operational control granted by the state.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EducationOrganizationCategoryDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="School">
+    <xs:annotation>
+      <xs:documentation>This entity represents an educational organization that includes staff, students and candidates who participate in classes and educational activity groups, inclusive of school in a post secondary institution.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="EducationOrganization">
+        <xs:sequence>
+          <xs:element name="SchoolId" type="xs:long">
+            <xs:annotation>
+              <xs:documentation>The identifier assigned to a school. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
