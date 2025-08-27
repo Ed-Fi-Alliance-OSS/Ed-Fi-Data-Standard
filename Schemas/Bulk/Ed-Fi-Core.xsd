@@ -7488,6 +7488,14 @@
               <xs:documentation>The disability condition(s) that best describes an individual's impairment, as determined by evaluation(s) conducted by the education organization.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="EconomicDisadvantage" type="EconomicDisadvantageDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The indication of an inadequate financial condition of an individual's family, as determined by family income, number of family members/dependents, participation in public assistance programs, and/or other characteristics considered relevant by federal, state, and local policy.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EconomicDisadvantageDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
           <xs:element name="GenderIdentity" type="GenderIdentity" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The student's gender as last reported to the education organization.</xs:documentation>
@@ -9474,6 +9482,17 @@
   <xs:complexType name="DualCreditTypeDescriptor">
     <xs:annotation>
       <xs:documentation>Indicates the type of the dual credit program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EconomicDisadvantageDescriptor">
+    <xs:annotation>
+      <xs:documentation>This descriptor defines the type of economic disadvantage experienced by an individual.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -23193,6 +23212,15 @@
   <xs:simpleType name="DualCreditTypeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>Indicates the type of the dual credit program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="EconomicDisadvantageDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>This descriptor defines the type of economic disadvantage experienced by an individual.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
