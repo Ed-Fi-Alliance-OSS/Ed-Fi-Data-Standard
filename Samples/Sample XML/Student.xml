@@ -11164,6 +11164,9 @@
 		</Language>
 		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
 		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
+		<StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Refugee</StudentCharacteristic>
+		</StudentCharacteristic>
 		<SupporterMilitaryConnection>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor#Not Military Connected</SupporterMilitaryConnection>
 		<TribalAffiliation>uri://ed-fi.org/TribalAffiliationDescriptor#Chalkyitsik</TribalAffiliation>
 	</StudentDemographic>
@@ -11187,6 +11190,12 @@
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
 		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
 		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
+		<StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
+		</StudentCharacteristic>
+		<StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
+		</StudentCharacteristic>
 		<SupporterMilitaryConnection>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor#Active Duty</SupporterMilitaryConnection>
 		<TribalAffiliation>uri://ed-fi.org/TribalAffiliationDescriptor#Confederated Salish</TribalAffiliation>
 	</StudentDemographic>
@@ -11214,6 +11223,9 @@
 		</Language>
 		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
 		<Sex>uri://ed-fi.org/SexDescriptor#Non-binary</Sex>
+		<StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Single Parent</StudentCharacteristic>
+		</StudentCharacteristic>
 		<SupporterMilitaryConnection>uri://ed-fi.org/SupporterMilitaryConnectionDescriptor#Reserve</SupporterMilitaryConnection>
 		<TribalAffiliation>uri://ed-fi.org/TribalAffiliationDescriptor#Northern Arapaho</TribalAffiliation>
 	</StudentDemographic>
