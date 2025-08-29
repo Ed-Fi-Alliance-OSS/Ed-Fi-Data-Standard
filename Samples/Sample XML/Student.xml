@@ -11231,7 +11231,7 @@
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Other</Disability>
 		</Disability>
-		<EconomicDisadvantage>uri://ed-fi.org/EconomicDisadvantageDescriptor#Eligible for Free Meals</EconomicDisadvantage>
+		<EconomicDisadvantage>uri://ed-fi.org/EconomicDisadvantageDescriptor#Eligible For Free Meals</EconomicDisadvantage>
 		<GenderIdentity>Female</GenderIdentity>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
 		<Language>
