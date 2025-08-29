@@ -1808,6 +1808,80 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 </StaffDirectory>
+	<StaffIdentificationCode>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207288</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>	
+		<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>1181083418</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>State Identification Number</AssigningOrganizationIdentificationCode>
+	</StaffIdentificationCode>
+	<StaffIdentificationCode>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207249</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>	
+		<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#District</StaffIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901044</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>2622232730</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>District Identification Number</AssigningOrganizationIdentificationCode>
+	</StaffIdentificationCode>
+	<StaffIdentificationCode>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207264</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>	
+		<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#School</StaffIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901001</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>0305289958</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>School Identification Number</AssigningOrganizationIdentificationCode>
+	</StaffIdentificationCode>
+		<StaffIdentificationCode>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207265</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>	
+		<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#SSN</StaffIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901107</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>574944654</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>Social Security Number</AssigningOrganizationIdentificationCode>
+	</StaffIdentificationCode>
+	<StaffIdentificationCode>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207263</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>	
+		<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#Drivers License</StaffIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<IdentificationCode>TX63617817</IdentificationCode>
+	</StaffIdentificationCode>
 	<StaffEducationOrganizationEmploymentAssociation>
 		<StaffReference>
 			<StaffIdentity>
