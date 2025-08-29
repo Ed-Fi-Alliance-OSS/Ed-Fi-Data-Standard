@@ -50671,7 +50671,7 @@
 			<OrderOfPriority>1</OrderOfPriority>
 		</Telephone>
 	</Contact>
-	<ContactIdentity>
+	<ContactIdentificationCode>
 		<ContactReference>
 			<ContactIdentity>
 				<ContactUniqueId>778393</ContactUniqueId>
@@ -50685,8 +50685,8 @@
 		</EducationOrganizationReference>
 		<IdentificationCode>TX64144506</IdentificationCode>
 		<AssigningOrganizationIdentificationCode>State Drivers License</AssigningOrganizationIdentificationCode>
-	</ContactIdentity>
-		<ContactIdentity>
+	</ContactIdentificationCode>
+	<ContactIdentificationCode>
 		<ContactReference>
 			<ContactIdentity>
 				<ContactUniqueId>779017</ContactUniqueId>
@@ -50700,8 +50700,8 @@
 		</EducationOrganizationReference>
 		<IdentificationCode>41869372</IdentificationCode>
 		<AssigningOrganizationIdentificationCode>Other Identification System</AssigningOrganizationIdentificationCode>
-	</ContactIdentity>
-		<ContactIdentity>
+	</ContactIdentificationCode>
+	<ContactIdentificationCode>
 		<ContactReference>
 			<ContactIdentity>
 				<ContactUniqueId>778167</ContactUniqueId>
@@ -50715,8 +50715,8 @@
 		</EducationOrganizationReference>
 		<IdentificationCode>96316115</IdentificationCode>
 		<AssigningOrganizationIdentificationCode>School Identification Number</AssigningOrganizationIdentificationCode>
-	</ContactIdentity>
-		<ContactIdentity>
+	</ContactIdentificationCode>
+	<ContactIdentificationCode>
 		<ContactReference>
 			<ContactIdentity>
 				<ContactUniqueId>778791</ContactUniqueId>
@@ -50729,8 +50729,8 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<IdentificationCode>06457187</IdentificationCode>
-	</ContactIdentity>
-		<ContactIdentity>
+	</ContactIdentificationCode>
+	<ContactIdentificationCode>
 		<ContactReference>
 			<ContactIdentity>
 				<ContactUniqueId>778286</ContactUniqueId>
@@ -50744,7 +50744,7 @@
 		</EducationOrganizationReference>
 		<IdentificationCode>33598065</IdentificationCode>
 		<AssigningOrganizationIdentificationCode>United States Visa Documents</AssigningOrganizationIdentificationCode>
-	</ContactIdentity>
+	</ContactIdentificationCode>
 	<StudentContactAssociation>
 		<StudentReference>
 			<StudentIdentity>

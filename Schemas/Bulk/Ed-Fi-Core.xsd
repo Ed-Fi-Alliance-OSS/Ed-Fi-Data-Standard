@@ -1000,11 +1000,6 @@
               <xs:documentation>A unique alphanumeric code assigned to a candidate.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="CandidateIdentificationCode" type="CandidateIdentificationCode" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services, or other agencies to refer to a candidate.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="Name" type="Name">
             <xs:annotation>
               <xs:documentation>Full legal name of the person.</xs:documentation>
@@ -1164,7 +1159,7 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="CandidateIdentity">
+  <xs:complexType name="CandidateIdentificationCode">
     <xs:annotation>
       <xs:documentation>This entity holds different identity codes for a candidate.</xs:documentation>
       <xs:appinfo>
@@ -1848,7 +1843,7 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="ContactIdentity">
+  <xs:complexType name="ContactIdentificationCode">
     <xs:annotation>
       <xs:documentation>This entity holds different identity codes for a contact.</xs:documentation>
       <xs:appinfo>
@@ -2757,11 +2752,6 @@
     <xs:complexContent>
       <xs:extension base="ComplexObjectType">
         <xs:sequence>
-          <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>A unique number or alphanumeric code assigned to an education organization by a school, school system, a state, or other agency or entity.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="NameOfInstitution" type="NameOfInstitution">
             <xs:annotation>
               <xs:documentation>The full, legally accepted name of the institution.</xs:documentation>
@@ -2817,7 +2807,7 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="EducationOrganizationIdentity">
+  <xs:complexType name="EducationOrganizationIdentificationCode">
     <xs:annotation>
       <xs:documentation>This entity holds different identity codes for an education organization.</xs:documentation>
       <xs:appinfo>
@@ -6579,11 +6569,6 @@
               <xs:documentation>A unique alphanumeric code assigned to a staff.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StaffIdentificationCode" type="StaffIdentificationCode" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>A unique number or alphanumeric code assigned to a staff member by a school, school system, a state, or other agency or entity.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="Name" type="Name">
             <xs:annotation>
               <xs:documentation>Full legal name of the person.</xs:documentation>
@@ -6594,65 +6579,14 @@
               <xs:documentation>Other names associated with a person.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The birth sex of the staff member.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>SexDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GenderIdentity" type="GenderIdentity" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The gender the staff member identifies themselves as.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="BirthDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The month, day, and year on which an individual was born.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Address" type="Address" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The set of elements that describes an address, including the street address, city, state, and ZIP code.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="InternationalAddress" type="InternationalAddress" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The set of elements that describes an international address.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Telephone" type="Telephone" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The 10-digit telephone number, including the area code, for the person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ElectronicMail" type="ElectronicMail" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The numbers, letters, and symbols used to identify an electronic mail (e-mail) user within the network to which the individual or organization belongs.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="HispanicLatinoEthnicity" type="xs:boolean" minOccurs="0">
             <xs:annotation>
               <xs:documentation>An indication that the individual traces his or her origin or descent to Mexico, Puerto Rico, Cuba, Central, and South America, and other Spanish cultures, regardless of race. The term, "Spanish origin," can be used in addition to "Hispanic or Latino."</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Race" type="RaceDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The general racial category which most clearly reflects the individual's recognition of his or her community or with which the individual most identifies. The way this data element is listed, it must allow for multiple entries so that each individual can specify all appropriate races.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>RaceDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Citizenship" type="Citizenship" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Contains information relative to U.S. citizenship status and its associated probationary documentation.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Language" type="Language" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The language(s) the individual uses to communicate. It is strongly recommended that entries use only ISO 639-2 language codes.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="HighestCompletedLevelOfEducation" type="LevelOfEducationDescriptorReferenceType" minOccurs="0">
@@ -6693,25 +6627,9 @@
               <xs:documentation>The legal document giving authorization to perform teaching assignment services.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="TribalAffiliation" type="TribalAffiliationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>An American Indian tribe with which the staff member is affiliated.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>TribalAffiliationDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Relates the staff to a generic person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="AncestryEthnicOrigin" type="AncestryEthnicOriginDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The original peoples or cultures with which the individual identifies.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>AncestryEthnicOriginDescriptor</ann:Descriptor>
-              </xs:appinfo>
             </xs:annotation>
           </xs:element>
           <xs:element name="HighlyQualifiedAcademicSubject" type="AcademicSubjectDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
@@ -6903,7 +6821,7 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StaffIdentity">
+  <xs:complexType name="StaffIdentificationCode">
     <xs:annotation>
       <xs:documentation>This entity holds different identity codes for staff member.</xs:documentation>
       <xs:appinfo>
@@ -7057,11 +6975,6 @@
           <xs:element name="BirthData" type="BirthData">
             <xs:annotation>
               <xs:documentation>The set of elements that capture relevant data regarding a person's birth, including birth date and place of birth.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Citizenship" type="Citizenship" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Contains information relative to U.S. citizenship status and its associated probationary documentation.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="PersonReference" type="PersonReferenceType" minOccurs="0">
@@ -7771,7 +7684,7 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StudentIdentity">
+  <xs:complexType name="StudentIdentificationCode">
     <xs:annotation>
       <xs:documentation>This entity holds different identity codes for a student</xs:documentation>
       <xs:appinfo>
@@ -12630,11 +12543,6 @@
               <xs:documentation>A reference to the education organization representing the context of the student information.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentIdentificationCode" type="StudentIdentificationCode" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services, or other agencies to refer to a student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The student's birth sex as reported to the education organization.</xs:documentation>
@@ -14643,9 +14551,9 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="CandidateIdentityIdentityType">
+  <xs:complexType name="CandidateIdentificationCodeIdentityType">
     <xs:annotation>
-      <xs:documentation>Identity of a CandidateIdentity.</xs:documentation>
+      <xs:documentation>Identity of a CandidateIdentificationCode.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Identity</ann:TypeGroup>
       </xs:appinfo>
@@ -14671,9 +14579,9 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="CandidateIdentityReferenceType">
+  <xs:complexType name="CandidateIdentificationCodeReferenceType">
     <xs:annotation>
-      <xs:documentation>Provides alternative references for a CandidateIdentity. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:documentation>Provides alternative references for a CandidateIdentificationCode. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -14681,9 +14589,9 @@
     <xs:complexContent>
       <xs:extension base="ReferenceType">
         <xs:sequence>
-          <xs:element name="CandidateIdentityIdentity" type="CandidateIdentityIdentityType" minOccurs="0">
+          <xs:element name="CandidateIdentificationCodeIdentity" type="CandidateIdentificationCodeIdentityType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Identity of a CandidateIdentity.</xs:documentation>
+              <xs:documentation>Identity of a CandidateIdentificationCode.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -15166,9 +15074,9 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="ContactIdentityIdentityType">
+  <xs:complexType name="ContactIdentificationCodeIdentityType">
     <xs:annotation>
-      <xs:documentation>Identity of a ContactIdentity.</xs:documentation>
+      <xs:documentation>Identity of a ContactIdentificationCode.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Identity</ann:TypeGroup>
       </xs:appinfo>
@@ -15194,9 +15102,9 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="ContactIdentityReferenceType">
+  <xs:complexType name="ContactIdentificationCodeReferenceType">
     <xs:annotation>
-      <xs:documentation>Provides alternative references for a ContactIdentity. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:documentation>Provides alternative references for a ContactIdentificationCode. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -15204,9 +15112,9 @@
     <xs:complexContent>
       <xs:extension base="ReferenceType">
         <xs:sequence>
-          <xs:element name="ContactIdentityIdentity" type="ContactIdentityIdentityType" minOccurs="0">
+          <xs:element name="ContactIdentificationCodeIdentity" type="ContactIdentificationCodeIdentityType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Identity of a ContactIdentity.</xs:documentation>
+              <xs:documentation>Identity of a ContactIdentificationCode.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -15701,9 +15609,9 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="EducationOrganizationIdentityIdentityType">
+  <xs:complexType name="EducationOrganizationIdentificationCodeIdentityType">
     <xs:annotation>
-      <xs:documentation>Identity of an EducationOrganizationIdentity.</xs:documentation>
+      <xs:documentation>Identity of an EducationOrganizationIdentificationCode.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Identity</ann:TypeGroup>
       </xs:appinfo>
@@ -15724,9 +15632,9 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="EducationOrganizationIdentityReferenceType">
+  <xs:complexType name="EducationOrganizationIdentificationCodeReferenceType">
     <xs:annotation>
-      <xs:documentation>Provides alternative references for an EducationOrganizationIdentity. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:documentation>Provides alternative references for an EducationOrganizationIdentificationCode. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -15734,9 +15642,9 @@
     <xs:complexContent>
       <xs:extension base="ReferenceType">
         <xs:sequence>
-          <xs:element name="EducationOrganizationIdentityIdentity" type="EducationOrganizationIdentityIdentityType" minOccurs="0">
+          <xs:element name="EducationOrganizationIdentificationCodeIdentity" type="EducationOrganizationIdentificationCodeIdentityType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Identity of an EducationOrganizationIdentity.</xs:documentation>
+              <xs:documentation>Identity of an EducationOrganizationIdentificationCode.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -15808,11 +15716,6 @@
       <xs:element name="EducationOrganizationId" type="xs:long" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The identifier assigned to an education organization.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to an education organization by a school, school system, a state, or other agency or entity.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="NameOfInstitution" type="NameOfInstitution" minOccurs="0">
@@ -15895,11 +15798,6 @@
       <xs:element name="EducationOrganizationNetworkId" type="xs:long" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The identifier assigned to a network of education organizations. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to an education organization by a school, school system, a state, or other agency or entity.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="NameOfInstitution" type="NameOfInstitution" minOccurs="0">
@@ -16030,11 +15928,6 @@
       <xs:element name="EducationServiceCenterId" type="xs:long" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The identifier assigned to an education service center. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to an education organization by a school, school system, a state, or other agency or entity.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="NameOfInstitution" type="NameOfInstitution" minOccurs="0">
@@ -17392,11 +17285,6 @@
       <xs:element name="LocalEducationAgencyId" type="xs:long" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The identifier assigned to a local education agency. It must be distinct from any other identifier assigned to educational organizations, such as a SchoolId, to prevent duplication.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to an education organization by a school, school system, a state, or other agency or entity.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="NameOfInstitution" type="NameOfInstitution" minOccurs="0">
@@ -18842,11 +18730,6 @@
           <xs:documentation>The identifier assigned to a school. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to an education organization by a school, school system, a state, or other agency or entity.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
       <xs:element name="NameOfInstitution" type="NameOfInstitution" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The full, legally accepted name of the institution.</xs:documentation>
@@ -19461,9 +19344,9 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StaffIdentityIdentityType">
+  <xs:complexType name="StaffIdentificationCodeIdentityType">
     <xs:annotation>
-      <xs:documentation>Identity of a StaffIdentity.</xs:documentation>
+      <xs:documentation>Identity of a StaffIdentificationCode.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Identity</ann:TypeGroup>
       </xs:appinfo>
@@ -19489,9 +19372,9 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="StaffIdentityReferenceType">
+  <xs:complexType name="StaffIdentificationCodeReferenceType">
     <xs:annotation>
-      <xs:documentation>Provides alternative references for a StaffIdentity. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:documentation>Provides alternative references for a StaffIdentificationCode. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -19499,9 +19382,9 @@
     <xs:complexContent>
       <xs:extension base="ReferenceType">
         <xs:sequence>
-          <xs:element name="StaffIdentityIdentity" type="StaffIdentityIdentityType" minOccurs="0">
+          <xs:element name="StaffIdentificationCodeIdentity" type="StaffIdentificationCodeIdentityType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Identity of a StaffIdentity.</xs:documentation>
+              <xs:documentation>Identity of a StaffIdentificationCode.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -19583,11 +19466,6 @@
           <xs:documentation>A unique alphanumeric code assigned to a staff.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="StaffIdentificationCode" type="StaffIdentificationCode" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to a staff member by a school, school system, a state, or other agency or entity.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
       <xs:element name="Name" type="Name" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Full legal name of the person.</xs:documentation>
@@ -19598,40 +19476,14 @@
           <xs:documentation>Other names associated with a person.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The birth sex of the staff member.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>SexDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
       <xs:element name="BirthDate" type="xs:date" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The month, day, and year on which an individual was born.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="Telephone" type="Telephone" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The 10-digit telephone number, including the area code, for the person.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="ElectronicMail" type="ElectronicMail" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The numbers, letters, and symbols used to identify an electronic mail (e-mail) user within the network to which the individual or organization belongs.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
       <xs:element name="HispanicLatinoEthnicity" type="xs:boolean" minOccurs="0">
         <xs:annotation>
           <xs:documentation>An indication that the individual traces his or her origin or descent to Mexico, Puerto Rico, Cuba, Central, and South America, and other Spanish cultures, regardless of race. The term, "Spanish origin," can be used in addition to "Hispanic or Latino."</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Race" type="RaceDescriptorReferenceType" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The general racial category which most clearly reflects the individual's recognition of his or her community or with which the individual most identifies. The way this data element is listed, it must allow for multiple entries so that each individual can specify all appropriate races.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>RaceDescriptor</ann:Descriptor>
-          </xs:appinfo>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
@@ -19826,11 +19678,6 @@
       <xs:element name="StateEducationAgencyId" type="xs:long" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The identifier assigned to a state education agency. It must be distinct from any other identifier assigned to educational organizations, such as a LocalEducationAgencyId, to prevent duplication.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EducationOrganizationIdentificationCode" type="EducationOrganizationIdentificationCode" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to an education organization by a school, school system, a state, or other agency or entity.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="NameOfInstitution" type="NameOfInstitution" minOccurs="0">
@@ -20690,9 +20537,9 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="StudentIdentityIdentityType">
+  <xs:complexType name="StudentIdentificationCodeIdentityType">
     <xs:annotation>
-      <xs:documentation>Identity of a StudentIdentity.</xs:documentation>
+      <xs:documentation>Identity of a StudentIdentificationCode.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Identity</ann:TypeGroup>
       </xs:appinfo>
@@ -20718,9 +20565,9 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="StudentIdentityReferenceType">
+  <xs:complexType name="StudentIdentificationCodeReferenceType">
     <xs:annotation>
-      <xs:documentation>Provides alternative references for a StudentIdentity. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:documentation>Provides alternative references for a StudentIdentificationCode. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -20728,9 +20575,9 @@
     <xs:complexContent>
       <xs:extension base="ReferenceType">
         <xs:sequence>
-          <xs:element name="StudentIdentityIdentity" type="StudentIdentityIdentityType" minOccurs="0">
+          <xs:element name="StudentIdentificationCodeIdentity" type="StudentIdentificationCodeIdentityType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Identity of a StudentIdentity.</xs:documentation>
+              <xs:documentation>Identity of a StudentIdentificationCode.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -25564,34 +25411,6 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="CandidateIdentificationCode">
-    <xs:annotation>
-      <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services or other agencies to refer to a candidate.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="IdentificationCode" type="IdentificationCode">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to a person by a school, school system, a state, or other agency or entity.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="StudentIdentificationSystem" type="StudentIdentificationSystemDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services, or other agencies to refer to a candidate.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>StudentIdentificationSystemDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="AssigningOrganizationIdentificationCode" type="IdentificationCode">
-        <xs:annotation>
-          <xs:documentation>The organization code or name assigning the StudentIdentificationCode.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
   <xs:complexType name="CandidateIndicator">
     <xs:annotation>
       <xs:documentation>An indicator or metric computed for the student to influence more effective education or direct specific interventions.</xs:documentation>
@@ -26282,29 +26101,6 @@
       <xs:element name="URI" type="URI" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>The URI (typical a URL) pointing to an education content item.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="EducationOrganizationIdentificationCode">
-    <xs:annotation>
-      <xs:documentation>A unique number or alphanumeric code that is assigned to an education organization by a school, school system, state, or other agency or entity.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="IdentificationCode" type="IdentificationCode">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code that is assigned to an education organization by a school, school system, state, or other agency or entity.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EducationOrganizationIdentificationSystem" type="EducationOrganizationIdentificationSystemDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>The school system, state, or agency assigning the identification code.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>EducationOrganizationIdentificationSystemDescriptor</ann:Descriptor>
-          </xs:appinfo>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -28154,34 +27950,6 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="StaffIdentificationCode">
-    <xs:annotation>
-      <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services or other agencies to refer to a staff member.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="IdentificationCode" type="IdentificationCode">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to a staff member by a school, school system, a state, or other agency or entity.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="StaffIdentificationSystem" type="StaffIdentificationSystemDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services, or other agencies to refer to a staff member.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>StaffIdentificationSystemDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="AssigningOrganizationIdentificationCode" type="IdentificationCode" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The organization code or name assigning the staff Identification Code.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
   <xs:complexType name="StateEducationAgencyAccountability">
     <xs:annotation>
       <xs:documentation>This entity maintains information about federal reporting and accountability for StateEducationAgency(s).</xs:documentation>
@@ -28402,34 +28170,6 @@
           <xs:appinfo>
             <ann:Descriptor>RatingLevelDescriptor</ann:Descriptor>
           </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="StudentIdentificationCode">
-    <xs:annotation>
-      <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services or other agencies to refer to a student.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="IdentificationCode" type="IdentificationCode">
-        <xs:annotation>
-          <xs:documentation>A unique number or alphanumeric code assigned to a student by a school, school system, a state, or other agency or entity.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="StudentIdentificationSystem" type="StudentIdentificationSystemDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services, or other agencies to refer to a student.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>StudentIdentificationSystemDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="AssigningOrganizationIdentificationCode" type="IdentificationCode">
-        <xs:annotation>
-          <xs:documentation>The organization code or name assigning the StudentIdentificationCode.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
