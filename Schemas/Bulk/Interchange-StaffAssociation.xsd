@@ -13,7 +13,7 @@
         <xs:element name="Staff" type="Staff" />
         <xs:element name="StaffDemographic" type="StaffDemographic" />
         <xs:element name="StaffDirectory" type="StaffDirectory" />
-        <xs:element name="StaffIdentity" type="StaffIdentity" />
+        <xs:element name="StaffIdentificationCode" type="StaffIdentificationCode" />
         <xs:element name="StaffEducationOrganizationEmploymentAssociation" type="StaffEducationOrganizationEmploymentAssociation" />
         <xs:element name="StaffEducationOrganizationAssignmentAssociation" type="StaffEducationOrganizationAssignmentAssociation" />
         <xs:element name="StaffSchoolAssociation" type="StaffSchoolAssociation" />

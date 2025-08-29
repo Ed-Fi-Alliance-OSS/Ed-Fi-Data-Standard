@@ -3094,9 +3094,6 @@
 		<BirthData>
 			<BirthDate>2016-10-16</BirthDate>
 		</BirthData>
-		<Citizenship>
-			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Permanent resident</CitizenshipStatus>
-		</Citizenship>
 	</Student>
 	<Student>
 		<StudentUniqueId>605087</StudentUniqueId>
@@ -7475,10 +7472,6 @@
 			<BirthDate>2005-02-27</BirthDate>
 			<BirthSex>uri://ed-fi.org/SexDescriptor#Male</BirthSex>
 		</BirthData>
-		<Citizenship>
-			<CitizenshipStatus>uri://ed-fi.org/CitizenshipStatusDescriptor#Non-resident alien</CitizenshipStatus>
-			<Visa>uri://ed-fi.org/VisaDescriptor#F1 - Foreign Student Visa</Visa>
-		</Citizenship>
 	</Student>
 	<Student>
 		<StudentUniqueId>605465</StudentUniqueId>
@@ -11958,7 +11951,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 </StudentDirectory>
-	<StudentIdentity>
+	<StudentIdentificationCode>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>604854</StudentUniqueId>
@@ -11972,8 +11965,8 @@
 		</EducationOrganizationReference>
 		<IdentificationCode>56099828</IdentificationCode>
 		<AssigningOrganizationIdentificationCode>State Identifcation Number</AssigningOrganizationIdentificationCode>
-	</StudentIdentity>
-	<StudentIdentity>
+	</StudentIdentificationCode>
+	<StudentIdentificationCode>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>604822</StudentUniqueId>
@@ -11987,8 +11980,8 @@
 		</EducationOrganizationReference>
 		<IdentificationCode>42232266</IdentificationCode>
 		<AssigningOrganizationIdentificationCode>School Identification Number</AssigningOrganizationIdentificationCode>
-	</StudentIdentity>
-	<StudentIdentity>
+	</StudentIdentificationCode>
+	<StudentIdentificationCode>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>604823</StudentUniqueId>
@@ -12002,8 +11995,8 @@
 		</EducationOrganizationReference>
 		<IdentificationCode>71810909</IdentificationCode>
 		<AssigningOrganizationIdentificationCode>School Identification Number</AssigningOrganizationIdentificationCode>
-	</StudentIdentity>
-	<StudentIdentity>
+	</StudentIdentificationCode>
+	<StudentIdentificationCode>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>604824</StudentUniqueId>
@@ -12016,8 +12009,8 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<IdentificationCode>640301834</IdentificationCode>
-	</StudentIdentity>
-	<StudentIdentity>
+	</StudentIdentificationCode>
+	<StudentIdentificationCode>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>604825</StudentUniqueId>
@@ -12031,7 +12024,7 @@
 		</EducationOrganizationReference>
 		<IdentificationCode>181106679</IdentificationCode>
 		<AssigningOrganizationIdentificationCode>Other Identification Number</AssigningOrganizationIdentificationCode>
-	</StudentIdentity>
+	</StudentIdentificationCode>
 	<Person>
 		<PersonId>207286</PersonId>
 		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>

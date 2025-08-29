@@ -2,10 +2,6 @@
 <InterchangeStaffAssociation xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-StaffAssociation.xsd">
 	<Staff>
 		<StaffUniqueId>207288</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207288</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Mr</PersonalTitlePrefix>
 			<FirstName>Barry</FirstName>
@@ -17,24 +13,14 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1976-08-19</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>BarryTanner@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>30.00</YearsOfPriorProfessionalExperience>
 		<LoginId>btanner</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207249</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207249</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Ms</PersonalTitlePrefix>
 			<FirstName>Tamika</FirstName>
@@ -46,24 +32,14 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1983-05-25</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>TamikaMcpherson@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>30.00</YearsOfPriorProfessionalExperience>
 		<LoginId>tmcpherson</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207264</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207264</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Ms</PersonalTitlePrefix>
 			<FirstName>Marjorie</FirstName>
@@ -76,24 +52,14 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1973-08-14</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>MarjorieMontoya@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>34.00</YearsOfPriorProfessionalExperience>
 		<LoginId>mmontoya</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207265</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207265</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Mr</PersonalTitlePrefix>
 			<FirstName>Alvin</FirstName>
@@ -106,23 +72,13 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1996-09-04</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>AlvinLee@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
 		<YearsOfPriorProfessionalExperience>14.00</YearsOfPriorProfessionalExperience>
 		<LoginId>alee</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207263</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207263</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Mrs</PersonalTitlePrefix>
 			<FirstName>Margaret</FirstName>
@@ -135,25 +91,14 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1973-10-26</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>MargaretMassey@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>10.00</YearsOfPriorProfessionalExperience>
 		<LoginId>mmassey</LoginId>
-		<AncestryEthnicOrigin>uri://gbisd.edu/AncestryEthnicOriginDescriptor#Spaniard/Spanish/Spanish-American</AncestryEthnicOrigin>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207247</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207247</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Mr</PersonalTitlePrefix>
 			<FirstName>Kurt</FirstName>
@@ -164,24 +109,14 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1999-01-24</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>KurtMcCarthy@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>24.00</YearsOfPriorProfessionalExperience>
 		<LoginId>kmccarthy</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207266</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207266</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Mr</PersonalTitlePrefix>
 			<FirstName>Cody</FirstName>
@@ -192,24 +127,14 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1973-04-16</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>CodyWest@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>17.00</YearsOfPriorProfessionalExperience>
 		<LoginId>cwest</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207248</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207248</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Ms</PersonalTitlePrefix>
 			<FirstName>Diana</FirstName>
@@ -220,24 +145,14 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1997-09-24</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>DianaTanner@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>5.00</YearsOfPriorProfessionalExperience>
 		<LoginId>dtanner</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207284</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207284</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Mr</PersonalTitlePrefix>
 			<FirstName>Sheldon</FirstName>
@@ -247,14 +162,8 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1977-06-24</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>SheldonDickson@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>1.00</YearsOfPriorProfessionalExperience>
 		<LoginId>sdickson</LoginId>
@@ -267,10 +176,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207285</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207285</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Mr</PersonalTitlePrefix>
 			<FirstName>David</FirstName>
@@ -280,24 +185,14 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1969-05-02</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>DavidWilson@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>18.00</YearsOfPriorProfessionalExperience>
 		<LoginId>dwilson</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207267</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207267</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Mrs</PersonalTitlePrefix>
 			<FirstName>Alisa</FirstName>
@@ -308,24 +203,14 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1967-03-13</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>AlisaCameron@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>11.00</YearsOfPriorProfessionalExperience>
 		<LoginId>acameron</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207283</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207283</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<PersonalTitlePrefix>Mr</PersonalTitlePrefix>
 			<FirstName>Efrain</FirstName>
@@ -337,34 +222,22 @@
 				<IdentificationDocumentUse>uri://ed-fi.org/IdentificationDocumentUseDescriptor#Personal Information Verification</IdentificationDocumentUse>
 			</PersonalIdentificationDocument>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1964-04-23</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>EfrainRodriguez@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>11.00</YearsOfPriorProfessionalExperience>
 		<LoginId>erodriguez</LoginId>
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207225</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207225</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Marsha</FirstName>
 			<LastSurname>McLean</LastSurname>
 			<PreferredFirstName>Mashey</PreferredFirstName>
 			<PreferredLastSurname>Kellie</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1964-05-06</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>10.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>28.00</YearsOfPriorTeachingExperience>
@@ -379,20 +252,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207220</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207220</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Gene</FirstName>
 			<LastSurname>Macias</LastSurname>
 			<PreferredFirstName>April</PreferredFirstName>
 			<PreferredLastSurname>Mcpherson</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1970-04-30</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>24.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>36.00</YearsOfPriorTeachingExperience>
@@ -407,18 +274,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207222</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207222</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Terrell</FirstName>
 			<LastSurname>Bright</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1966-11-03</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>6.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>14.00</YearsOfPriorTeachingExperience>
@@ -433,20 +294,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207221</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207221</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Fred</FirstName>
 			<LastSurname>Lloyd</LastSurname>
 			<PreferredFirstName>Freddy</PreferredFirstName>
 			<PreferredLastSurname>DavidWilson</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1995-06-04</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>20.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>8.00</YearsOfPriorTeachingExperience>
@@ -461,10 +316,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207224</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207224</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Lakesha</FirstName>
 			<MiddleName>Lucy</MiddleName>
@@ -472,10 +323,8 @@
 			<PreferredFirstName>Mayluck</PreferredFirstName>
 			<PreferredLastSurname>Sal</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1964-08-15</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>16.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>11.00</YearsOfPriorTeachingExperience>
@@ -490,20 +339,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207219</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207219</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Earnest</FirstName>
 			<LastSurname>Buck</LastSurname>
 			<PreferredFirstName>Godwin</PreferredFirstName>
 			<PreferredLastSurname>Bauer</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1980-09-13</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>39.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>20.00</YearsOfPriorTeachingExperience>
@@ -518,19 +361,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207226</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207226</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Anitra</FirstName>
 			<MiddleName>Debbie</MiddleName>
 			<LastSurname>Snyder</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1995-05-05</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>7.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>27.00</YearsOfPriorTeachingExperience>
@@ -545,18 +382,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207223</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207223</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Priscilla</FirstName>
 			<LastSurname>Kane</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1996-11-27</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>7.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>25.00</YearsOfPriorTeachingExperience>
@@ -571,18 +402,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207230</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207230</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Alexander</FirstName>
 			<LastSurname>Kim</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1964-08-09</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>37.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>28.00</YearsOfPriorTeachingExperience>
@@ -597,20 +422,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207228</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207228</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Eric</FirstName>
 			<LastSurname>Cherry</LastSurname>
 			<PreferredFirstName>Johnny</PreferredFirstName>
 			<PreferredLastSurname>Charltson</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1976-09-14</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>25.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>40.00</YearsOfPriorTeachingExperience>
@@ -625,10 +444,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207229</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207229</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Meredith</FirstName>
 			<MiddleName>Jacquelyn</MiddleName>
@@ -636,10 +451,8 @@
 			<PreferredFirstName>Magg</PreferredFirstName>
 			<PreferredLastSurname>Amy</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1975-08-16</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>38.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>27.00</YearsOfPriorTeachingExperience>
@@ -654,10 +467,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207227</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207227</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Debra</FirstName>
 			<MiddleName>Vicky</MiddleName>
@@ -665,10 +474,8 @@
 			<PreferredFirstName>Deb</PreferredFirstName>
 			<PreferredLastSurname>Rochy</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1981-06-02</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>40.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>5.00</YearsOfPriorTeachingExperience>
@@ -689,20 +496,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207231</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207231</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Lauren</FirstName>
 			<LastSurname>Key</LastSurname>
 			<PreferredFirstName>Hilary</PreferredFirstName>
 			<PreferredLastSurname>Hill</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1984-12-09</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>35.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>23.00</YearsOfPriorTeachingExperience>
@@ -717,20 +518,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207233</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207233</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Bryant</FirstName>
 			<LastSurname>Gomez</LastSurname>
 			<PreferredFirstName>Cody</PreferredFirstName>
 			<PreferredLastSurname>Bean</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1991-03-26</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>3.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>31.00</YearsOfPriorTeachingExperience>
@@ -745,20 +540,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207234</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207234</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Maribel</FirstName>
 			<LastSurname>Mckinney</LastSurname>
 			<PreferredFirstName>Marie</PreferredFirstName>
 			<PreferredLastSurname>Sonya</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1986-11-17</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>24.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>9.00</YearsOfPriorTeachingExperience>
@@ -773,10 +562,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207232</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207232</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Janet</FirstName>
 			<MiddleName>Annette</MiddleName>
@@ -784,14 +569,8 @@
 			<PreferredFirstName>Janie</PreferredFirstName>
 			<PreferredLastSurname>Yates</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1996-07-04</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>JanetReid@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>19.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>40.00</YearsOfPriorTeachingExperience>
@@ -806,20 +585,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207235</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207235</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Jose</FirstName>
 			<LastSurname>Lutz</LastSurname>
 			<PreferredFirstName>Joseph</PreferredFirstName>
 			<PreferredLastSurname>Bourne</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1968-09-05</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>5.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>25.00</YearsOfPriorTeachingExperience>
@@ -834,10 +607,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207236</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207236</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Linda</FirstName>
 			<MiddleName>Stephanie</MiddleName>
@@ -845,10 +614,8 @@
 			<PreferredFirstName>Cindy</PreferredFirstName>
 			<PreferredLastSurname>Smith</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1980-10-30</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>8.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>3.00</YearsOfPriorTeachingExperience>
@@ -863,20 +630,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207238</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207238</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Danielle</FirstName>
 			<LastSurname>Erickson</LastSurname>
 			<PreferredFirstName>Dan</PreferredFirstName>
 			<PreferredLastSurname>Johnson</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1977-11-04</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>17.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>25.00</YearsOfPriorTeachingExperience>
@@ -891,20 +652,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207237</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207237</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Ruby</FirstName>
 			<LastSurname>Crawford</LastSurname>
 			<PreferredFirstName>Rose</PreferredFirstName>
 			<PreferredLastSurname>Jaime</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1977-07-08</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>19.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>18.00</YearsOfPriorTeachingExperience>
@@ -919,20 +674,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207239</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207239</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Christina</FirstName>
 			<LastSurname>Bishop</LastSurname>
 			<PreferredFirstName>Underwood</PreferredFirstName>
 			<PreferredLastSurname>Hamilton</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1993-04-30</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>9.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>28.00</YearsOfPriorTeachingExperience>
@@ -947,19 +696,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207240</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207240</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Amie</FirstName>
 			<MiddleName>Tony</MiddleName>
 			<LastSurname>Knapp</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1994-05-05</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>23.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>19.00</YearsOfPriorTeachingExperience>
@@ -974,19 +717,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207241</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207241</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Edwin</FirstName>
 			<MiddleName>Herman</MiddleName>
 			<LastSurname>Cordova</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1997-11-02</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>9.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>31.00</YearsOfPriorTeachingExperience>
@@ -1001,18 +738,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207242</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207242</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Leah</FirstName>
 			<LastSurname>Mcgrath</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1997-01-23</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>24.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>32.00</YearsOfPriorTeachingExperience>
@@ -1027,18 +758,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207245</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207245</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Kerri</FirstName>
 			<LastSurname>Stokes</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1995-11-03</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>12.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>39.00</YearsOfPriorTeachingExperience>
@@ -1053,20 +778,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207244</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207244</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Ashley</FirstName>
 			<LastSurname>Best</LastSurname>
 			<PreferredFirstName>Adam</PreferredFirstName>
 			<PreferredLastSurname>George</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1967-05-12</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>38.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>38.00</YearsOfPriorTeachingExperience>
@@ -1081,10 +800,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207250</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207250</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Karin</FirstName>
 			<MiddleName>Angela</MiddleName>
@@ -1092,10 +807,8 @@
 			<PreferredFirstName>Kathryn</PreferredFirstName>
 			<PreferredLastSurname>Jackson</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1983-02-24</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>25.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>22.00</YearsOfPriorTeachingExperience>
@@ -1110,20 +823,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207243</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207243</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Marjorie</FirstName>
 			<LastSurname>Hinton</LastSurname>
 			<PreferredFirstName>Stacie</PreferredFirstName>
 			<PreferredLastSurname>Clifton</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1985-08-25</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>18.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>2.00</YearsOfPriorTeachingExperience>
@@ -1138,10 +845,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207246</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207246</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Chadwick</FirstName>
 			<MiddleName>Sam</MiddleName>
@@ -1149,14 +852,8 @@
 			<PreferredFirstName>Baueman</PreferredFirstName>
 			<PreferredLastSurname>Vance</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1988-01-25</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>ChadwickGarner@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>5.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>9.00</YearsOfPriorTeachingExperience>
@@ -1171,10 +868,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207252</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207252</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Melisa</FirstName>
 			<MiddleName>Loren</MiddleName>
@@ -1182,10 +875,8 @@
 			<PreferredFirstName>Lisa</PreferredFirstName>
 			<PreferredLastSurname>Daniels</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1996-08-03</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>24.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>40.00</YearsOfPriorTeachingExperience>
@@ -1200,10 +891,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207251</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207251</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Raul</FirstName>
 			<MiddleName>Jose</MiddleName>
@@ -1211,10 +898,8 @@
 			<PreferredFirstName>Rodriguez</PreferredFirstName>
 			<PreferredLastSurname>Moe</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1991-12-23</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>12.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>5.00</YearsOfPriorTeachingExperience>
@@ -1229,23 +914,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207253</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207253</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Esther</FirstName>
 			<MiddleName>Wendy</MiddleName>
 			<LastSurname>Hartman</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1978-04-10</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>EstherGallegos@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>3.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>4.00</YearsOfPriorTeachingExperience>
@@ -1266,19 +941,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207255</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207255</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Gerard</FirstName>
 			<MiddleName>Bill</MiddleName>
 			<LastSurname>Sexton</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1992-08-11</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>35.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>36.00</YearsOfPriorTeachingExperience>
@@ -1293,19 +962,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207257</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207257</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Julius</FirstName>
 			<MiddleName>Marcos</MiddleName>
 			<LastSurname>Barrera</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1991-05-03</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>13.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>1.00</YearsOfPriorTeachingExperience>
@@ -1320,18 +983,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207256</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207256</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Bradley</FirstName>
 			<LastSurname>Shaffer</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1993-10-27</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>2.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>35.00</YearsOfPriorTeachingExperience>
@@ -1346,19 +1003,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207254</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207254</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Angelique</FirstName>
 			<MiddleName>Z</MiddleName>
 			<LastSurname>Avila</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1994-08-12</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>2.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>16.00</YearsOfPriorTeachingExperience>
@@ -1373,18 +1024,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207258</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207258</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Ismael</FirstName>
 			<LastSurname>Stafford</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1989-05-29</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>18.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>24.00</YearsOfPriorTeachingExperience>
@@ -1399,19 +1044,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207259</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207259</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Josephine</FirstName>
 			<MiddleName>Marissa</MiddleName>
 			<LastSurname>Stephens</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1964-12-07</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>15.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>38.00</YearsOfPriorTeachingExperience>
@@ -1426,18 +1065,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207260</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207260</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Forrest</FirstName>
 			<LastSurname>Foster</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1986-10-30</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>35.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>26.00</YearsOfPriorTeachingExperience>
@@ -1452,18 +1085,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207261</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207261</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Naomi</FirstName>
 			<LastSurname>Zavala</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1996-04-24</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>35.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>6.00</YearsOfPriorTeachingExperience>
@@ -1478,18 +1105,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207269</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207269</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Roger</FirstName>
 			<LastSurname>Tucker</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1994-08-01</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>1.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>6.00</YearsOfPriorTeachingExperience>
@@ -1510,18 +1131,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207262</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207262</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Jenna</FirstName>
 			<LastSurname>Graham</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1996-05-03</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>27.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>10.00</YearsOfPriorTeachingExperience>
@@ -1536,10 +1151,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207270</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207270</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Kelley</FirstName>
 			<MiddleName>Heidi</MiddleName>
@@ -1547,10 +1158,8 @@
 			<PreferredFirstName>Kelly</PreferredFirstName>
 			<PreferredLastSurname>Wood</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1979-11-01</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>13.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>17.00</YearsOfPriorTeachingExperience>
@@ -1565,10 +1174,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207268</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207268</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Sara</FirstName>
 			<MiddleName>Stacy</MiddleName>
@@ -1576,14 +1181,8 @@
 			<PreferredFirstName>Sally</PreferredFirstName>
 			<PreferredLastSurname>Davies</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1980-06-18</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>SaraPreston@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>23.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>27.00</YearsOfPriorTeachingExperience>
@@ -1598,24 +1197,14 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207272</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207272</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Russell</FirstName>
 			<LastSurname>Gomez</LastSurname>
 			<PreferredFirstName>Russ</PreferredFirstName>
 			<PreferredLastSurname>Wilson</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1968-02-17</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>RussellGomez@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Bachelor's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>27.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>16.00</YearsOfPriorTeachingExperience>
@@ -1630,10 +1219,6 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207271</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207271</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Trent</FirstName>
 			<MiddleName>Mark</MiddleName>
@@ -1641,14 +1226,8 @@
 			<PreferredFirstName>Alex</PreferredFirstName>
 			<PreferredLastSurname>Owens</PreferredLastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1965-09-02</BirthDate>
-		<ElectronicMail>
-			<ElectronicMailAddress>TrentNewton@edfi.org</ElectronicMailAddress>
-			<ElectronicMailType>uri://ed-fi.org/ElectronicMailTypeDescriptor#Work</ElectronicMailType>
-		</ElectronicMail>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>5.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>23.00</YearsOfPriorTeachingExperience>
@@ -1663,19 +1242,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207274</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207274</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Jon</FirstName>
 			<MiddleName>Austin</MiddleName>
 			<LastSurname>Kaiser</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1981-05-12</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>23.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>31.00</YearsOfPriorTeachingExperience>
@@ -1690,19 +1263,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207273</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207273</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Charlie</FirstName>
 			<MiddleName>Floyd</MiddleName>
 			<LastSurname>Conley</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1991-01-25</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#White</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>5.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>13.00</YearsOfPriorTeachingExperience>
@@ -1717,19 +1284,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207276</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207276</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Darrin</FirstName>
 			<MiddleName>Paul</MiddleName>
 			<LastSurname>Gallegos</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1978-05-14</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>1.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>6.00</YearsOfPriorTeachingExperience>
@@ -1744,18 +1305,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207277</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207277</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>David</FirstName>
 			<LastSurname>Young</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1993-03-12</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Middle Eastern or North African</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>2.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>16.00</YearsOfPriorTeachingExperience>
@@ -1770,18 +1325,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207275</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207275</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Seth</FirstName>
 			<LastSurname>Weeks</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1982-06-28</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#American Indian or Alaska Native</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>30.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>1.00</YearsOfPriorTeachingExperience>
@@ -1802,19 +1351,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207278</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207278</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Dewayne</FirstName>
 			<MiddleName>David</MiddleName>
 			<LastSurname>Hickman</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1978-07-18</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>8.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>13.00</YearsOfPriorTeachingExperience>
@@ -1829,18 +1372,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207279</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207279</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Mark</FirstName>
 			<LastSurname>Woods</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1973-10-14</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Black or African American</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Master's</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>35.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>27.00</YearsOfPriorTeachingExperience>
@@ -1861,19 +1398,13 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207281</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207281</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Mike</FirstName>
 			<MiddleName>Dexter</MiddleName>
 			<LastSurname>Villa</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<BirthDate>1969-04-13</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Choose Not to Respond</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>26.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>20.00</YearsOfPriorTeachingExperience>
@@ -1888,18 +1419,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207280</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207280</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Patricia</FirstName>
 			<LastSurname>Moran</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1988-04-12</BirthDate>
 		<HispanicLatinoEthnicity>0</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Native Hawaiian or Pacific Islander</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Some College No Degree</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>11.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>12.00</YearsOfPriorTeachingExperience>
@@ -1914,18 +1439,12 @@
 	</Staff>
 	<Staff>
 		<StaffUniqueId>207282</StaffUniqueId>
-		<StaffIdentificationCode>
-			<IdentificationCode>207282</IdentificationCode>
-			<StaffIdentificationSystem>uri://ed-fi.org/StaffIdentificationSystemDescriptor#State</StaffIdentificationSystem>
-		</StaffIdentificationCode>
 		<Name>
 			<FirstName>Kisha</FirstName>
 			<LastSurname>Kelly</LastSurname>
 		</Name>
-		<Sex>uri://ed-fi.org/SexDescriptor#Female</Sex>
 		<BirthDate>1995-09-08</BirthDate>
 		<HispanicLatinoEthnicity>1</HispanicLatinoEthnicity>
-		<Race>uri://ed-fi.org/RaceDescriptor#Other</Race>
 		<HighestCompletedLevelOfEducation>uri://ed-fi.org/LevelOfEducationDescriptor#Doctorate</HighestCompletedLevelOfEducation>
 		<YearsOfPriorProfessionalExperience>2.00</YearsOfPriorProfessionalExperience>
 		<YearsOfPriorTeachingExperience>12.00</YearsOfPriorTeachingExperience>

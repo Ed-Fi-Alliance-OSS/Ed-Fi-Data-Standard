@@ -379484,7 +379484,7 @@
 			<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ungraded</GradeLevel>
 		</EPPProgramDegree>
 	</Candidate>
-  <CandidateIdentity>
+  <CandidateIdentificationCode>
     <CandidateReference>
 		<CandidateIdentity>
 			<CandidateIdentifier>1001036</CandidateIdentifier>
@@ -379498,8 +379498,8 @@
 		</EducationOrganizationReference>
 	<IdentificationCode>2141949</IdentificationCode>
 	<AssigningOrganizationIdentificationCode>District Identification Number</AssigningOrganizationIdentificationCode>
-  </CandidateIdentity>
- <CandidateIdentity>
+  </CandidateIdentificationCode>
+ <CandidateIdentificationCode>
     <CandidateReference>
 		<CandidateIdentity>
 			<CandidateIdentifier>1001037</CandidateIdentifier>
@@ -379513,8 +379513,8 @@
 		</EducationOrganizationReference>
 	<IdentificationCode>837381631</IdentificationCode>
 	<AssigningOrganizationIdentificationCode>Social Security Number</AssigningOrganizationIdentificationCode>
-  </CandidateIdentity>
- <CandidateIdentity>
+  </CandidateIdentificationCode>
+ <CandidateIdentificationCode>
     <CandidateReference>
 		<CandidateIdentity>
 			<CandidateIdentifier>1001038</CandidateIdentifier>
@@ -379527,8 +379527,8 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 	<IdentificationCode>52A56N668P</IdentificationCode>
-  </CandidateIdentity>
- <CandidateIdentity>
+  </CandidateIdentificationCode>
+ <CandidateIdentificationCode>
     <CandidateReference>
 		<CandidateIdentity>
 			<CandidateIdentifier>1001039</CandidateIdentifier>
@@ -379541,8 +379541,8 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 	<IdentificationCode>TX288297780</IdentificationCode>
-  </CandidateIdentity>
-      <CandidateIdentity>
+  </CandidateIdentificationCode>
+  <CandidateIdentificationCode>
     <CandidateReference>
 		<CandidateIdentity>
 			<CandidateIdentifier>1001040</CandidateIdentifier>
@@ -379556,7 +379556,7 @@
 		</EducationOrganizationReference>
 	<IdentificationCode>TX41297789</IdentificationCode>
 	<AssigningOrganizationIdentificationCode>State Drivers License</AssigningOrganizationIdentificationCode>
-  </CandidateIdentity>
+  </CandidateIdentificationCode>
 	<Certification>
 		<CertificationIdentifier>TX</CertificationIdentifier>
 		<Namespace>uri://ed-fi.org</Namespace>

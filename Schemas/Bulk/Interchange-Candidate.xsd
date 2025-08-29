@@ -13,7 +13,7 @@
         <xs:element name="Credential" type="Credential" />
         <xs:element name="Student" type="Student" />
         <xs:element name="Candidate" type="Candidate" />
-        <xs:element name="CandidateIdentity" type="CandidateIdentity" />
+        <xs:element name="CandidateIdentificationCode" type="CandidateIdentificationCode" />
         <xs:element name="StudentAcademicRecord" type="StudentAcademicRecord" />
         <xs:element name="CourseTranscript" type="CourseTranscript" />
         <xs:element name="FieldworkExperience" type="FieldworkExperience" />
