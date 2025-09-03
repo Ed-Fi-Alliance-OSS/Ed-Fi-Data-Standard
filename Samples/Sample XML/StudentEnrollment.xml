@@ -509254,7 +509254,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -511985,7 +511985,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -512630,7 +512630,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -516317,7 +516317,7 @@
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -516369,7 +516369,7 @@
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -516968,7 +516968,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -517870,7 +517870,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -518982,7 +518982,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -519240,7 +519240,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -520520,7 +520520,7 @@
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -521076,7 +521076,7 @@
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -525113,7 +525113,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorName>At Risk</IndicatorName>
@@ -525975,7 +525975,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -526528,7 +526528,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -527852,7 +527852,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Homeless</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -530451,7 +530451,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Foster Care</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -532104,7 +532104,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -533606,7 +533606,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Runaway</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -533870,7 +533870,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -537898,7 +537898,7 @@
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
@@ -541723,7 +541723,7 @@
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Economic Disadvantaged</StudentCharacteristic>
+			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
 		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
