@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<EconomicDisadvantageDescriptor>
+		<CodeValue>Not Qualified As Economically Disadvantaged</CodeValue>
+		<ShortDescription>Did Not Qualified As Economically Disadvantaged</ShortDescription>
+		<Description>Did Not Qualified As Economically Disadvantaged</Description>
+		<Namespace>uri://ed-fi.org/EconomicDisadvantageDescriptor</Namespace>
+	</EconomicDisadvantageDescriptor>
+	<EconomicDisadvantageDescriptor>
+		<CodeValue>Eligible For Free Meals</CodeValue>
+		<ShortDescription>Eligible For Free Meals</ShortDescription>
+		<Description>Under The National School Lunch And Child Nutrition Program</Description>
+		<Namespace>uri://ed-fi.org/EconomicDisadvantageDescriptor</Namespace>
+	</EconomicDisadvantageDescriptor>
+	<EconomicDisadvantageDescriptor>
+		<CodeValue>Eligible for Reduced-Price Meals</CodeValue>
+		<ShortDescription>Eligible for Reduced-Price Meals</ShortDescription>
+		<Description>Eligible For Reduced-price Meals Under The National School Lunch And Child Nutrition Program</Description>
+		<Namespace>uri://ed-fi.org/EconomicDisadvantageDescriptor</Namespace>
+	</EconomicDisadvantageDescriptor>
+	<EconomicDisadvantageDescriptor>
+		<CodeValue>Other Economic Disadvantage</CodeValue>
+		<ShortDescription>Other Economic Disadvantage</ShortDescription>
+		<Description>Other Economic Disadvantage, Including:
+			a) from a family with an annual income at or below the official federal poverty line, b) eligible for Temporary Assistance to Needy Families (TANF) or other public assistance, c) received a comparable state program of need-based financial assistance, d) eligible for programs assisted under Title II of the Job Training Partnership Act (JTPA), or e) eligible for benefits under the Food Stamp Act of 1977</Description>
+		<Namespace>uri://ed-fi.org/EconomicDisadvantageDescriptor</Namespace>
+	</EconomicDisadvantageDescriptor>
+	<EconomicDisadvantageDescriptor>
+		<CodeValue>Unknown</CodeValue>
+		<ShortDescription>Unknown</ShortDescription>
+		<Description>The Economic Disadvantage status is unknown</Description>
+		<Namespace>uri://ed-fi.org/EconomicDisadvantageDescriptor</Namespace>
+	</EconomicDisadvantageDescriptor>
+</InterchangeDescriptors>
