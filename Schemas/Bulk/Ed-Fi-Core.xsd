@@ -12630,44 +12630,6 @@
               <xs:documentation>A reference to the education organization representing the context of the student information.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentIdentificationCode" type="StudentIdentificationCode" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>A coding scheme that is used for identification and record-keeping purposes by schools, social services, or other agencies to refer to a student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Sex" type="SexDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The student's birth sex as reported to the education organization.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>SexDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GenderIdentity" type="GenderIdentity" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The student's gender as last reported to the education organization.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Address" type="Address" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The set of elements that describes an address, including the street address, city, state, and ZIP code.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="InternationalAddress" type="InternationalAddress" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The set of elements that describes an international address.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Telephone" type="Telephone" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The 10-digit telephone number, including the area code, for the person.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ElectronicMail" type="ElectronicMail" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The numbers, letters, and symbols used to identify an electronic mail (e-mail) user within the network to which the individual or organization belongs.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="ProfileThumbnail" type="ProfileThumbnail" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Locator reference for the student photo. The specification for that reference is left to local definition.</xs:documentation>
@@ -12678,43 +12640,9 @@
               <xs:documentation>An indication that the individual traces his or her origin or descent to Mexico, Puerto Rico, Cuba, Central, and South America, and other Spanish cultures, regardless of race, as last reported to the education organization. The term, "Spanish origin," can be used in addition to "Hispanic or Latino."</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Race" type="RaceDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The general racial category which most clearly reflects the individual's recognition of his or her community or with which the individual most identifies as last reported to the education organization. The data model allows for multiple entries so that each individual can specify all appropriate races.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>RaceDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="TribalAffiliation" type="TribalAffiliationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>An American Indian tribe with which the student is affiliated as last reported to the education organization.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>TribalAffiliationDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="StudentCharacteristic" type="StudentCharacteristic" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Reflects important characteristics of a student. If a student has a characteristic present, that characteristic is considered true or active for that student. If a characteristic is not present, no assumption is made as to the applicability of the characteristic, but local policy may dictate otherwise.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="LimitedEnglishProficiency" type="LimitedEnglishProficiencyDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>An indication that the student has been identified as limited English proficient by the Language Proficiency Assessment Committee (LPAC), or English proficient.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>LimitedEnglishProficiencyDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Language" type="Language" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The language(s) the individual uses to communicate. It is strongly recommended that entries use only ISO 639-3 language codes.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Disability" type="Disability" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The disability condition(s) that best describes an individual's impairment, as determined by evaluation(s) conducted by the education organization.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="CohortYear" type="CohortYear" minOccurs="0" maxOccurs="unbounded">
@@ -12730,14 +12658,6 @@
           <xs:element name="LoginId" type="IdentificationCode" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The login ID for the user; used for security access control interface.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="AncestryEthnicOrigin" type="AncestryEthnicOriginDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The original peoples or cultures with which the individual identifies.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>AncestryEthnicOriginDescriptor</ann:Descriptor>
-              </xs:appinfo>
             </xs:annotation>
           </xs:element>
           <xs:element name="PrimaryLearningDeviceAwayFromSchool" type="PrimaryLearningDeviceAwayFromSchoolDescriptorReferenceType" minOccurs="0">
@@ -12790,14 +12710,6 @@
               <xs:documentation>An indication of whether the student can complete the full range of learning activities, including video streaming and assignment upload, without interruptions caused by poor internet performance in their primary place of residence.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>InternetPerformanceInResidenceDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="SupporterMilitaryConnection" type="SupporterMilitaryConnectionDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Military connection of the person/people whom the student is a dependent of.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>SupporterMilitaryConnectionDescriptor</ann:Descriptor>
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
