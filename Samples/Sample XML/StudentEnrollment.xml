@@ -509130,9 +509130,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -509250,12 +509247,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -509305,9 +509296,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -511981,12 +511969,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -512626,12 +512608,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -513136,9 +513112,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -516316,9 +516289,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -516368,9 +516338,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -516488,9 +516455,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -516964,12 +516928,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -517866,12 +517824,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -518978,12 +518930,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -519236,12 +519182,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -520519,9 +520459,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -521075,9 +521012,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -521668,9 +521602,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -525106,15 +525037,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Homeless</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorName>At Risk</IndicatorName>
 			<Indicator>True</Indicator>
@@ -525971,12 +525893,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -526524,12 +526440,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -526573,9 +526483,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -527848,12 +527755,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Homeless</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -530447,12 +530348,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Foster Care</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -532100,12 +531995,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -532364,9 +532253,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -532791,9 +532677,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -533599,15 +533482,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Runaway</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -533866,12 +533740,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Immigrant</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -537897,9 +537765,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -539897,9 +539762,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -541719,12 +541581,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>false</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Other</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
@@ -541983,9 +541839,6 @@
 			</EducationOrganizationIdentity>
 		</EducationOrganizationReference>
 		<HispanicLatinoEthnicity>true</HispanicLatinoEthnicity>
-		<StudentCharacteristic>
-			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Parent in Military</StudentCharacteristic>
-		</StudentCharacteristic>
 		<StudentIndicator>
 			<IndicatorGroup>Digital Equity</IndicatorGroup>
 			<IndicatorName>Primary Learning Device Away From School</IndicatorName>
