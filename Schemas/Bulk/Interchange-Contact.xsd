@@ -11,7 +11,7 @@
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
         <xs:element name="Contact" type="Contact" />
-        <xs:element name="ContactIdentity" type="ContactIdentity" />
+        <xs:element name="ContactIdentificationCode" type="ContactIdentificationCode" />
         <xs:element name="StudentContactAssociation" type="StudentContactAssociation" />
         <xs:element name="Person" type="Person" />
       </xs:choice>
