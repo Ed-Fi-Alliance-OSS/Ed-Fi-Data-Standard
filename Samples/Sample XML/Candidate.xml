@@ -379484,6 +379484,79 @@
 			<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ungraded</GradeLevel>
 		</EPPProgramDegree>
 	</Candidate>
+  <CandidateIdentificationCode>
+    <CandidateReference>
+		<CandidateIdentity>
+			<CandidateIdentifier>1001036</CandidateIdentifier>
+		</CandidateIdentity>
+	</CandidateReference>
+	<CandidateIdentificationSystem>uri://ed-fi.org/CandidateIdentificationSystemDescriptor#District</CandidateIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+	<IdentificationCode>2141949</IdentificationCode>
+	<AssigningOrganizationIdentificationCode>District Identification Number</AssigningOrganizationIdentificationCode>
+  </CandidateIdentificationCode>
+ <CandidateIdentificationCode>
+    <CandidateReference>
+		<CandidateIdentity>
+			<CandidateIdentifier>1001037</CandidateIdentifier>
+		</CandidateIdentity>
+	</CandidateReference>
+	<CandidateIdentificationSystem>uri://ed-fi.org/CandidateIdentificationSystemDescriptor#SSN</CandidateIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901001</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+	<IdentificationCode>837381631</IdentificationCode>
+	<AssigningOrganizationIdentificationCode>Social Security Number</AssigningOrganizationIdentificationCode>
+  </CandidateIdentificationCode>
+ <CandidateIdentificationCode>
+    <CandidateReference>
+		<CandidateIdentity>
+			<CandidateIdentifier>1001038</CandidateIdentifier>
+		</CandidateIdentity>
+	</CandidateReference>
+	<CandidateIdentificationSystem>uri://ed-fi.org/CandidateIdentificationSystemDescriptor#Other</CandidateIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901044</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+	<IdentificationCode>52A56N668P</IdentificationCode>
+  </CandidateIdentificationCode>
+ <CandidateIdentificationCode>
+    <CandidateReference>
+		<CandidateIdentity>
+			<CandidateIdentifier>1001039</CandidateIdentifier>
+		</CandidateIdentity>
+	</CandidateReference>
+	<CandidateIdentificationSystem>uri://ed-fi.org/CandidateIdentificationSystemDescriptor#Drivers License</CandidateIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>19255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+	<IdentificationCode>TX288297780</IdentificationCode>
+  </CandidateIdentificationCode>
+  <CandidateIdentificationCode>
+    <CandidateReference>
+		<CandidateIdentity>
+			<CandidateIdentifier>1001040</CandidateIdentifier>
+		</CandidateIdentity>
+	</CandidateReference>
+	<CandidateIdentificationSystem>uri://ed-fi.org/CandidateIdentificationSystemDescriptor#Drivers License</CandidateIdentificationSystem>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901107</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+	<IdentificationCode>TX41297789</IdentificationCode>
+	<AssigningOrganizationIdentificationCode>State Drivers License</AssigningOrganizationIdentificationCode>
+  </CandidateIdentificationCode>
 	<Certification>
 		<CertificationIdentifier>TX</CertificationIdentifier>
 		<Namespace>uri://ed-fi.org</Namespace>
