@@ -13782,9 +13782,9 @@
 		<AssessedMinutes>98</AssessedMinutes>
 		<ReportedSchoolIdentifier>8d64de14-7307-4f34-8e84-22493fec01d0</ReportedSchoolIdentifier>
 		<StudentAssessmentIndicator>
-			<AssessmentIndicator>At-Risk</AssessmentIndicator>
-			<AssessmentIndicatorName>At-Risk</AssessmentIndicatorName>
-			<AssessmentIndicatorGroup>At-Risk</AssessmentIndicatorGroup>
+			<Indicator>At-Risk</Indicator>
+			<IndicatorName>At-Risk</IndicatorName>
+			<IndicatorGroup>At-Risk</IndicatorGroup>
 		</StudentAssessmentIndicator>
 	</StudentAssessment>
 	<StudentAssessment>
@@ -13835,8 +13835,8 @@
 		</AssessmentPeriod>
 		<AssessedMinutes>76</AssessedMinutes>
 		<StudentAssessmentIndicator>
-			<AssessmentIndicator>At-Risk</AssessmentIndicator>
-			<AssessmentIndicatorName>At-Risk</AssessmentIndicatorName>
+			<Indicator>At-Risk</Indicator>
+			<IndicatorName>At-Risk</IndicatorName>
 		</StudentAssessmentIndicator>
 	</StudentAssessment>
 </InterchangeStudentAssessment>
