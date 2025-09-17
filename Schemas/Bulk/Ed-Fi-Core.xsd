@@ -27919,19 +27919,19 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="AssessmentIndicator" type="AssessmentIndicator">
+      <xs:element name="Indicator" type="Indicator">
         <xs:annotation>
-          <xs:documentation>This represents an indicator or metric for non-score attributes being sent current Assessment, for example for at-risk name.</xs:documentation>
+          <xs:documentation>The value of the indicator or metric.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="AssessmentIndicatorName" type="AssessmentIndicatorName">
+      <xs:element name="IndicatorName" type="IndicatorName">
         <xs:annotation>
-          <xs:documentation>This represents an indicator or metric for non-score attributes being sent current Assessment, for example for at-risk name.</xs:documentation>
+          <xs:documentation>The name of the indicator or metric.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="AssessmentIndicatorGroup" type="AssessmentIndicatorGroup" minOccurs="0">
+      <xs:element name="IndicatorGroup" type="IndicatorName" minOccurs="0">
         <xs:annotation>
-          <xs:documentation>This represents an indicator or metric for non-score attributes being sent current Assessment, for example for at-risk name.</xs:documentation>
+          <xs:documentation>The name for a group of indicators.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -28834,39 +28834,6 @@
     <xs:restriction base="xs:string">
       <xs:minLength value="1" />
       <xs:maxLength value="60" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="AssessmentIndicator">
-    <xs:annotation>
-      <xs:documentation>This represents an indicator or metric for non-score attributes being sent current Assessment, for example for at-risk name.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="100" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="AssessmentIndicatorGroup">
-    <xs:annotation>
-      <xs:documentation>This represents an indicator or metric for non-score attributes being sent current Assessment, for example for at-risk name.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="100" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="AssessmentIndicatorName">
-    <xs:annotation>
-      <xs:documentation>This represents an indicator or metric for non-score attributes being sent current Assessment, for example for at-risk name.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="AssessmentResponse">
