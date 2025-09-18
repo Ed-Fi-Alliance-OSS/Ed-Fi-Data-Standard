@@ -13838,5 +13838,10 @@
 			<Indicator>At-Risk</Indicator>
 			<IndicatorName>At-Risk</IndicatorName>
 		</StudentAssessmentIndicator>
+		<StudentAssessmentIndicator>
+			<Indicator>Sample Indicator</Indicator>
+			<IndicatorName>SampleIndicator</IndicatorName>
+			<IndicatorGroup>SampleGrouping</IndicatorGroup>
+		</StudentAssessmentIndicator>
 	</StudentAssessment>
 </InterchangeStudentAssessment>

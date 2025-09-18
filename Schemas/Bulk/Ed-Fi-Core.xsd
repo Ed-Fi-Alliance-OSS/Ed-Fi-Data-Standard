@@ -7241,7 +7241,7 @@
               <xs:documentation>A reported school identifier for the school the enrollment at the time of the assessment used when the assigned SchoolId is not known by the assessment vendor.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentAssessmentIndicator" type="StudentAssessmentIndicator" minOccurs="0">
+          <xs:element name="StudentAssessmentIndicator" type="StudentAssessmentIndicator" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>An indicator or metric for non-score attributes being sent current Assessment, for example for at-risk name.</xs:documentation>
             </xs:annotation>
