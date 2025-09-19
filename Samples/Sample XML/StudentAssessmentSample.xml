@@ -188,8 +188,8 @@
 		<StudentAssessmentIdentifier>/OYwqot8L1KQOuf5mVud8r7GALJNLxkZKOjsRN71</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-09-28T15:00:00</AdministrationDate>
 		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
-		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
-		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#Primary Administration</RetestIndicator>
+		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Remote</AdministrationEnvironment>
+		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#1st Retest</RetestIndicator>
 		<ScoreResult>
 			<Result>4</Result>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
@@ -629,7 +629,7 @@
 		<StudentAssessmentIdentifier>2qGCu377jZw7NTGO9r6cCFZP2hW1Byq+jLOOQYEl</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-09-28T15:00:00</AdministrationDate>
 		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
-		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
+		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Remote</AdministrationEnvironment>
 		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#Primary Administration</RetestIndicator>
 		<ScoreResult>
 			<Result>8</Result>
@@ -1070,7 +1070,7 @@
 		<StudentAssessmentIdentifier>5aBfRDECST+hNqMjl4/pWsfq07AYxqUmzk2Jp9ix</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-09-28T15:00:00</AdministrationDate>
 		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
-		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
+		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Classroom</AdministrationEnvironment>
 		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#Primary Administration</RetestIndicator>
 		<ScoreResult>
 			<Result>5</Result>
@@ -1512,7 +1512,7 @@
 		<StudentAssessmentIdentifier>0N/FPW+KSXQTia4gplz5D2XMILes9gr0XCxASAvX</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-09-28T15:00:00</AdministrationDate>
 		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
-		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
+		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#School</AdministrationEnvironment>
 		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#Primary Administration</RetestIndicator>
 		<ScoreResult>
 			<Result>7</Result>
@@ -2645,7 +2645,7 @@
 		<AdministrationDate>2021-09-28T15:00:00</AdministrationDate>
 		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
-		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#Primary Administration</RetestIndicator>
+		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#3rd or more Retest</RetestIndicator>
 		<ScoreResult>
 			<Result>3</Result>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
@@ -4508,7 +4508,7 @@
 		<AdministrationDate>2021-10-29T15:00:00</AdministrationDate>
 		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
-		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#Primary Administration</RetestIndicator>
+		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#2nd Retest</RetestIndicator>
 		<ScoreResult>
 			<Result>4</Result>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
@@ -5432,7 +5432,7 @@
 		<AdministrationDate>2021-10-29T15:00:00</AdministrationDate>
 		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#spa</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
-		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#Primary Administration</RetestIndicator>
+		<RetestIndicator>uri://ed-fi.org/RetestIndicatorDescriptor#3rd or more Retest</RetestIndicator>
 		<ScoreResult>
 			<Result>5</Result>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
@@ -10564,7 +10564,7 @@
 		<StudentAssessmentIdentifier>YeOuQhzwd3RBkYLXtTrQ++fGQxNg1gluRHPnv+VJ</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-04-08T21:00:00</AdministrationDate>
 		<SerialNumber>6151413</SerialNumber>
-		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
+		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#nav</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Classroom</AdministrationEnvironment>
 		<ScoreResult>
 			<Result>8</Result>
@@ -11186,7 +11186,7 @@
 		<StudentAssessmentIdentifier>YwM5tn85aUGJBnnKM9AlC44eLsqKWyTTMbeqtmaE</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-04-08T21:00:00</AdministrationDate>
 		<SerialNumber>6151402</SerialNumber>
-		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
+		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#gsw</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Classroom</AdministrationEnvironment>
 		<ScoreResult>
 			<Result>12</Result>
@@ -11808,7 +11808,7 @@
 		<StudentAssessmentIdentifier>1YOGV0cm24SP4bh1mizCMUwkcVpqBwfb8hYYAZgr</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-04-08T21:00:00</AdministrationDate>
 		<SerialNumber>6151399</SerialNumber>
-		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
+		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#mis</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Classroom</AdministrationEnvironment>
 		<ScoreResult>
 			<Result>8</Result>
@@ -12431,7 +12431,7 @@
 		<StudentAssessmentIdentifier>0CR2jJB43489mQDoOsxHJh7qGfZ8x4OUuyIm+/IK</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-05-01T16:00:00</AdministrationDate>
 		<SerialNumber>678602</SerialNumber>
-		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
+		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#rus</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
 		<ScoreResult>
 			<Result>89</Result>
@@ -12508,7 +12508,7 @@
 		<StudentAssessmentIdentifier>9Yy/TDRuWUObau4Bbuev/g3QLONndrybbIAa9pyK</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-05-01T16:00:00</AdministrationDate>
 		<SerialNumber>701089</SerialNumber>
-		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
+		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#swe</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
 		<ScoreResult>
 			<Result>70</Result>
@@ -12590,7 +12590,7 @@
 		<StudentAssessmentIdentifier>sy0qOxwtMf+BY0B3S/rO9m/4sFeBX3TvrrMSSLBE</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-05-01T16:00:00</AdministrationDate>
 		<SerialNumber>167774</SerialNumber>
-		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
+		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#fre</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Testing Center</AdministrationEnvironment>
 		<ScoreResult>
 			<Result>61</Result>
@@ -12841,7 +12841,7 @@
 		<StudentAssessmentIdentifier>8emk8lF81W9MvxdWW2g2H/oY0p0rm5x/49ATbTdj</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-04-01T16:00:00</AdministrationDate>
 		<SerialNumber>513901476</SerialNumber>
-		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
+		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#hrv</AdministrationLanguage>
 		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#School</AdministrationEnvironment>
 		<ScoreResult>
 			<Result>1325</Result>
@@ -13105,8 +13105,8 @@
 		<StudentAssessmentIdentifier>ICM7q/555keg+UWHP0zKysAhgQo7gd8KFvvz89Tw</StudentAssessmentIdentifier>
 		<AdministrationDate>2021-04-01T16:00:00</AdministrationDate>
 		<SerialNumber>513900828</SerialNumber>
-		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
-		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#School</AdministrationEnvironment>
+		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#kor</AdministrationLanguage>
+		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Classroom</AdministrationEnvironment>
 		<ScoreResult>
 			<Result>1090</Result>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
@@ -13238,7 +13238,7 @@
 		<AdministrationDate>2021-04-01T16:00:00</AdministrationDate>
 		<SerialNumber>513903240</SerialNumber>
 		<AdministrationLanguage>uri://ed-fi.org/LanguageDescriptor#eng</AdministrationLanguage>
-		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#School</AdministrationEnvironment>
+		<AdministrationEnvironment>uri://ed-fi.org/AdministrationEnvironmentDescriptor#Classroom</AdministrationEnvironment>
 		<ScoreResult>
 			<Result>34</Result>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
@@ -13612,6 +13612,8 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Level</ResultDatatypeType>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Mastery level</AssessmentReportingMethod>
 		</ScoreResult>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sophomore</AssessedGradeLevel>
+		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Other</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Pass</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Mastery level</AssessmentReportingMethod>
@@ -13750,7 +13752,7 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Decimal</ResultDatatypeType>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Proficiency level</AssessmentReportingMethod>
 		</ScoreResult>
-		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessedGradeLevel>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Postbaccalaureate</AssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Satisfactory</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Proficiency level</AssessmentReportingMethod>
@@ -13803,8 +13805,8 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Range</ResultDatatypeType>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Ranking</AssessmentReportingMethod>
 		</ScoreResult>
-		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessedGradeLevel>
-		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</WhenAssessedGradeLevel>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ungraded</AssessedGradeLevel>
+		<WhenAssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Out of School</WhenAssessedGradeLevel>
 		<PerformanceLevel>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Commended Performance</PerformanceLevel>
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Ranking</AssessmentReportingMethod>
