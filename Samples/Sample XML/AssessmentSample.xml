@@ -9,13 +9,7 @@
 			<AssigningOrganizationIdentificationCode>CollegeBoard</AssigningOrganizationIdentificationCode>
 		</AssessmentIdentificationCode>
 		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#College entrance exam</AssessmentCategory>
-		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Reading</AcademicSubject>
-		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
-		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Science</AcademicSubject>
-		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Writing</AcademicSubject>
-		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English Language Arts</AcademicSubject>
-		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Social Studies</AcademicSubject>
-		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English</AcademicSubject>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</AssessedGradeLevel>
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessedGradeLevel>
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</AssessedGradeLevel>
