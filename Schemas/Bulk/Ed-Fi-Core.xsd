@@ -483,9 +483,9 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" maxOccurs="unbounded">
+          <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType">
             <xs:annotation>
-              <xs:documentation>The description of the content or subject area (e.g., arts, mathematics, reading, stenography, or a foreign language) of an assessment.</xs:documentation>
+              <xs:documentation>The description of the content or subject area (e.g., arts, mathematics, reading, stenography, a foreign language, or composite if multi-subject) of an assessment.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>AcademicSubjectDescriptor</ann:Descriptor>
               </xs:appinfo>
@@ -4702,7 +4702,7 @@
               <xs:documentation>Learning standard tested by this objective assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="ParentObjectiveAssessmentReference" type="ObjectiveAssessmentReferenceType" minOccurs="0">
+          <xs:element name="ParentObjectiveAssessmentReference" type="ObjectiveAssessmentReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Provide user information to lookup and link to the parent objective assessment containing this objective assessment.</xs:documentation>
             </xs:annotation>
@@ -7154,6 +7154,14 @@
               <xs:documentation>A meaningful score or statistical expression of the performance of an individual. The results can be expressed as a number, percentile, range, level, etc.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="AssessedGradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The grade level for which the assessment form was evaluated for the student on this administration.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
           <xs:element name="WhenAssessedGradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The grade level of a student when assessed.</xs:documentation>
@@ -7200,7 +7208,7 @@
               <xs:documentation>The student's score and/or performance levels earned for an objective assessment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="SchoolYear" type="SchoolYearType" minOccurs="0">
+          <xs:element name="SchoolYear" type="SchoolYearType">
             <xs:annotation>
               <xs:documentation>The school year for which the assessment was administered to a student. Among other uses, handles cases in which a student takes a prior-year exam in a subsequent school year during an exam re-test.</xs:documentation>
             </xs:annotation>
@@ -7231,6 +7239,11 @@
           <xs:element name="ReportedSchoolIdentifier" type="SchoolIdentifier" minOccurs="0">
             <xs:annotation>
               <xs:documentation>A reported school identifier for the school the enrollment at the time of the assessment used when the assigned SchoolId is not known by the assessment vendor.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentAssessmentIndicator" type="StudentAssessmentIndicator" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>An indicator or metric for non-score attributes being sent for the current Assessment, for example for at-risk name.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -24956,7 +24969,7 @@
   </xs:complexType>
   <xs:complexType name="AssessmentCustomization">
     <xs:annotation>
-      <xs:documentation>An untyped key and value pair that is used to provide additional information needed for vendor regisration, administration, or reporting.</xs:documentation>
+      <xs:documentation>An untyped key and value pair that is used to provide additional information needed for vendor registration, administration, or reporting.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Common</ann:TypeGroup>
       </xs:appinfo>
@@ -27894,6 +27907,31 @@
       <xs:element name="FederalProgramsFundingAllocation" type="Currency" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The amount of federal dollars distributed to Local Education Agencies (LEAs), retained by the State Education Agency (SEA) for program administration or other approved state-level activities (including unallocated, transferred to another state agency, or distributed to entities other than LEAs).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentAssessmentIndicator">
+    <xs:annotation>
+      <xs:documentation>This entity represents an indicator or metric for non-score attributes being sent current Assessment, for example for at-risk name.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Indicator" type="Indicator">
+        <xs:annotation>
+          <xs:documentation>The value of the indicator or metric.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IndicatorName" type="IndicatorName">
+        <xs:annotation>
+          <xs:documentation>The name of the indicator or metric.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IndicatorGroup" type="IndicatorName" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The name for a group of indicators.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
