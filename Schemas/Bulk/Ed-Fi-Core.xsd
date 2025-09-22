@@ -186,9 +186,12 @@
               <xs:documentation>The disability condition(s) that best describes an individual's impairment.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="EconomicDisadvantaged" type="xs:boolean" minOccurs="0">
+          <xs:element name="EconomicDisadvantage" type="EconomicDisadvantageDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>An indication of inadequate financial condition of an individual's family, as determined by family income, number of family members/dependents, participation in public assistance programs, and/or other characteristics considered relevant by federal, state, and local policy.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EconomicDisadvantageDescriptor</ann:Descriptor>
+              </xs:appinfo>
             </xs:annotation>
           </xs:element>
           <xs:element name="FirstGenerationStudent" type="xs:boolean" minOccurs="0">
@@ -1071,9 +1074,12 @@
               <xs:documentation>Contains information relative to citizenship status and its associated probationary documentation.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="EconomicDisadvantaged" type="xs:boolean" minOccurs="0">
+          <xs:element name="EconomicDisadvantage" type="EconomicDisadvantageDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>An indication of inadequate financial condition of an individual's family, as determined by family income, number of family members/dependents, participation in public assistance programs, and/or other characteristics considered relevant by federal, state, and local policy.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EconomicDisadvantageDescriptor</ann:Descriptor>
+              </xs:appinfo>
             </xs:annotation>
           </xs:element>
           <xs:element name="CandidateCharacteristic" type="CandidateCharacteristic" minOccurs="0" maxOccurs="unbounded">
