@@ -38,76 +38,6 @@
 		</AssessmentScore>
 	</ObjectiveAssessment>
 	<ObjectiveAssessment>
-		<IdentificationCode>ACT-ABW-E-CSE</IdentificationCode>
-		<AssessmentPerformanceLevel>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
-			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
-			<MinimumScore>18</MinimumScore>
-			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
-			<PerformanceLevelIndicatorName>Met Standard</PerformanceLevelIndicatorName>
-		</AssessmentPerformanceLevel>
-		<AssessmentPerformanceLevel>
-			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Did Not Meet Standard</PerformanceLevel>
-			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
-			<MinimumScore>0</MinimumScore>
-			<MaximumScore>17</MaximumScore>
-			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
-			<PerformanceLevelIndicatorName>Did Not Meet Standard</PerformanceLevelIndicatorName>
-		</AssessmentPerformanceLevel>
-		<Description>The ACT with Writing - English - Conventions of Standard English</Description>
-		<ParentObjectiveAssessmentReference>
-			<ObjectiveAssessmentIdentity>
-				<IdentificationCode>ACT-ABW-E</IdentificationCode>
-				<AssessmentReference>
-					<AssessmentIdentity>
-						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
-						<Namespace>uri://ed-fi.org/Assessment</Namespace>
-					</AssessmentIdentity>
-				</AssessmentReference>
-			</ObjectiveAssessmentIdentity>
-		</ParentObjectiveAssessmentReference>
-		<ParentObjectiveAssessmentReference>
-			<ObjectiveAssessmentIdentity>
-				<IdentificationCode>ACT-ABW-S-EMIER</IdentificationCode>
-				<AssessmentReference>
-					<AssessmentIdentity>
-						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
-						<Namespace>uri://ed-fi.org/Assessment</Namespace>
-					</AssessmentIdentity>
-				</AssessmentReference>
-			</ObjectiveAssessmentIdentity>
-		</ParentObjectiveAssessmentReference>
-		<ParentObjectiveAssessmentReference>
-			<ObjectiveAssessmentIdentity>
-				<IdentificationCode>ACT-ABW-E-KL</IdentificationCode>
-				<AssessmentReference>
-					<AssessmentIdentity>
-						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
-						<Namespace>uri://ed-fi.org/Assessment</Namespace>
-					</AssessmentIdentity>
-				</AssessmentReference>
-			</ObjectiveAssessmentIdentity>
-		</ParentObjectiveAssessmentReference>
-		<AssessmentReference>
-			<AssessmentIdentity>
-				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
-				<Namespace>uri://ed-fi.org/Assessment</Namespace>
-			</AssessmentIdentity>
-		</AssessmentReference>
-		<AssessmentScore>
-			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Ranking</AssessmentReportingMethod>
-			<MinimumScore>0</MinimumScore>
-			<MaximumScore>100</MaximumScore>
-			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
-		</AssessmentScore>
-		<AssessmentScore>
-			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Composite Score</AssessmentReportingMethod>
-			<MinimumScore>0</MinimumScore>
-			<MaximumScore>100</MaximumScore>
-			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
-		</AssessmentScore>
-	</ObjectiveAssessment>
-	<ObjectiveAssessment>
 		<IdentificationCode>ACT-ABW-E-KL</IdentificationCode>
 		<AssessmentPerformanceLevel>
 			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
@@ -1036,6 +966,76 @@
 		<ParentObjectiveAssessmentReference>
 			<ObjectiveAssessmentIdentity>
 				<IdentificationCode>ACT-ABW-W</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://ed-fi.org/Assessment</Namespace>
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<AssessmentReference>
+			<AssessmentIdentity>
+				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+				<Namespace>uri://ed-fi.org/Assessment</Namespace>
+			</AssessmentIdentity>
+		</AssessmentReference>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Ranking</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+		<AssessmentScore>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Composite Score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>100</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+		</AssessmentScore>
+	</ObjectiveAssessment>
+	<ObjectiveAssessment>
+		<IdentificationCode>ACT-ABW-E-CSE</IdentificationCode>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Met Standard</PerformanceLevel>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
+			<MinimumScore>18</MinimumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Met Standard</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<AssessmentPerformanceLevel>
+			<PerformanceLevel>uri://ed-fi.org/PerformanceLevelDescriptor#Did Not Meet Standard</PerformanceLevel>
+			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Scale score</AssessmentReportingMethod>
+			<MinimumScore>0</MinimumScore>
+			<MaximumScore>17</MaximumScore>
+			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
+			<PerformanceLevelIndicatorName>Did Not Meet Standard</PerformanceLevelIndicatorName>
+		</AssessmentPerformanceLevel>
+		<Description>The ACT with Writing - English - Conventions of Standard English</Description>
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-E</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://ed-fi.org/Assessment</Namespace>
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-S-EMIER</IdentificationCode>
+				<AssessmentReference>
+					<AssessmentIdentity>
+						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+						<Namespace>uri://ed-fi.org/Assessment</Namespace>
+					</AssessmentIdentity>
+				</AssessmentReference>
+			</ObjectiveAssessmentIdentity>
+		</ParentObjectiveAssessmentReference>
+		<ParentObjectiveAssessmentReference>
+			<ObjectiveAssessmentIdentity>
+				<IdentificationCode>ACT-ABW-E-KL</IdentificationCode>
 				<AssessmentReference>
 					<AssessmentIdentity>
 						<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
