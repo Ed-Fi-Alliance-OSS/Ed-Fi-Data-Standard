@@ -13624,7 +13624,7 @@
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Number score</AssessmentReportingMethod>
 			<PerformanceLevelIndicatorName>Satisfactory</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
-		<EventCircumstance>Event 1</EventCircumstance>
+		<EventCircumstance>uri://ed-fi.org/EventCircumstanceDescriptor#Earlier truancy</EventCircumstance>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605168</StudentUniqueId>
@@ -13648,7 +13648,7 @@
 		<AdministrationEndDate>2023-04-23T11:04:00</AdministrationEndDate>
 		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Other</Accommodation>
 		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test response accommodation</Accommodation>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Other</Accommodation>
+		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Test administration accommodation</Accommodation>
 		<ScoreResult>
 			<Result>62</Result>
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Percentile</ResultDatatypeType>
@@ -13669,7 +13669,7 @@
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#National College-Bound Percentile</AssessmentReportingMethod>
 			<PerformanceLevelIndicatorName>Advanced</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
-		<EventCircumstance>Event 2</EventCircumstance>
+		<EventCircumstance>uri://ed-fi.org/EventCircumstanceDescriptor#Cross-enrolled</EventCircumstance>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605752</StudentUniqueId>
@@ -13692,7 +13692,7 @@
 	<StudentAssessment>
 		<StudentAssessmentIdentifier>a338b025-342f-4c99-8bdf-409ea735192d</StudentAssessmentIdentifier>
 		<AdministrationEndDate>2025-09-15T09:45:45</AdministrationEndDate>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Other</Accommodation>
+		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#504 accommodation</Accommodation>
 		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Settings accommodation</Accommodation>
 		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Other</Accommodation>
 		<ScoreResult>
@@ -13715,7 +13715,7 @@
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Mastery level</AssessmentReportingMethod>
 			<PerformanceLevelIndicatorName>Basic</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
-		<EventCircumstance>Event 3</EventCircumstance>
+		<EventCircumstance>uri://ed-fi.org/EventCircumstanceDescriptor#Foreign exchange student</EventCircumstance>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605555</StudentUniqueId>
@@ -13763,7 +13763,7 @@
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Growth/value-added/indexing</AssessmentReportingMethod>
 			<PerformanceLevelIndicatorName>Met Standard</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
-		<EventCircumstance>Event 4</EventCircumstance>
+		<EventCircumstance>uri://ed-fi.org/EventCircumstanceDescriptor#Home schooled for assessed subjects</EventCircumstance>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605467</StudentUniqueId>
@@ -13817,7 +13817,7 @@
 			<AssessmentReportingMethod>uri://ed-fi.org/AssessmentReportingMethodDescriptor#Achievement/proficiency level</AssessmentReportingMethod>
 			<PerformanceLevelIndicatorName>Above Benchmark</PerformanceLevelIndicatorName>
 		</PerformanceLevel>
-		<EventCircumstance>Event 5</EventCircumstance>
+		<EventCircumstance>uri://ed-fi.org/EventCircumstanceDescriptor#Long-term suspension - non-special education</EventCircumstance>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>605298</StudentUniqueId>
