@@ -77,17 +77,6 @@
 				</AssessmentReference>
 			</ObjectiveAssessmentIdentity>
 		</ParentObjectiveAssessmentReference>
-		<ParentObjectiveAssessmentReference>
-			<ObjectiveAssessmentIdentity>
-				<IdentificationCode>ACT-ABW-S-EMIER</IdentificationCode>
-				<AssessmentReference>
-					<AssessmentIdentity>
-						<AssessmentIdentifier>ACT-ABW-M</AssessmentIdentifier>
-						<Namespace>uri://ed-fi.org/Assessment</Namespace>
-					</AssessmentIdentity>
-				</AssessmentReference>
-			</ObjectiveAssessmentIdentity>
-		</ParentObjectiveAssessmentReference>
 		<AssessmentReference>
 			<AssessmentIdentity>
 				<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
