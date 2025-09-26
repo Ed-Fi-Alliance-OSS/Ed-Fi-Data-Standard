@@ -485,7 +485,7 @@
           </xs:element>
           <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType">
             <xs:annotation>
-              <xs:documentation>The description of the content or subject area (e.g., arts, mathematics, reading, stenography, or a foreign language) of an assessment.</xs:documentation>
+              <xs:documentation>The description of the content or subject area (e.g., arts, mathematics, reading, stenography, a foreign language, or composite if multi-subject) of an assessment.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>AcademicSubjectDescriptor</ann:Descriptor>
               </xs:appinfo>
@@ -7156,7 +7156,7 @@
           </xs:element>
           <xs:element name="AssessedGradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The grade level for which the test form was assessed for the student on this administration.</xs:documentation>
+              <xs:documentation>The grade level for which the assessment form was evaluated for the student on this administration.</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
               </xs:appinfo>
@@ -7243,7 +7243,7 @@
           </xs:element>
           <xs:element name="StudentAssessmentIndicator" type="StudentAssessmentIndicator" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation>An indicator or metric for non-score attributes being sent current Assessment, for example for at-risk name.</xs:documentation>
+              <xs:documentation>An indicator or metric for non-score attributes being sent for the current Assessment, for example for at-risk name.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>

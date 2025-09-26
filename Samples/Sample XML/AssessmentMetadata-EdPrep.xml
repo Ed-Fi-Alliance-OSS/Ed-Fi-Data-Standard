@@ -36,7 +36,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>100</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -75,7 +75,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Adult Education</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -114,7 +114,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>100</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -154,7 +154,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -193,7 +193,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Kindergarten</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -233,7 +233,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -273,7 +273,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2016-05-30</RevisionDate>
 		<MaxRawScore>1520</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -312,7 +312,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>75</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -352,7 +352,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -392,7 +392,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -432,7 +432,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -472,7 +472,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -512,7 +512,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -552,7 +552,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -592,7 +592,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -632,7 +632,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -672,7 +672,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -712,7 +712,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -752,7 +752,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -792,7 +792,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -832,7 +832,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -871,7 +871,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>90</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -910,7 +910,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -950,7 +950,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -989,7 +989,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>30</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1029,7 +1029,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1069,7 +1069,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1109,7 +1109,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1148,7 +1148,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>1520</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1188,7 +1188,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1228,7 +1228,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1268,7 +1268,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1308,7 +1308,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1348,7 +1348,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1388,7 +1388,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1428,7 +1428,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2016-05-30</RevisionDate>
 		<MaxRawScore>1600</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1468,7 +1468,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>200</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1508,7 +1508,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1548,7 +1548,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1587,7 +1587,7 @@
 		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Second grade</AssessedGradeLevel>
 		<AssessmentVersion>0</AssessmentVersion>
 		<MaxRawScore>65</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>true</AdaptiveAssessment>
 	</Assessment>
 	<Assessment>
@@ -1627,7 +1627,7 @@
 		<AssessmentVersion>0</AssessmentVersion>
 		<RevisionDate>2014-06-01</RevisionDate>
 		<MaxRawScore>99</MaxRawScore>
-		<Namespace>uri://ed-fi.org</Namespace>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		<AdaptiveAssessment>false</AdaptiveAssessment>
 	</Assessment>
 </InterchangeAssessmentMetadata>
