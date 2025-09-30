@@ -1041,4 +1041,74 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
 		</AssessmentScore>
 	</ObjectiveAssessment>
+	<ObjectiveAssessment>
+	<IdentificationCode>ACT-CombinedChemistry-Test</IdentificationCode>
+	<MaxRawScore>1.00</MaxRawScore>
+	<PercentOfAssessment>.5</PercentOfAssessment>
+	<Nomenclature>IUPAC</Nomenclature>
+	<Description>The ACT With Chemistry And Other Subjects - Composite</Description>
+	<LearningStandardReference>
+		<LearningStandardIdentity>
+			<LearningStandardId>112.35.1.A</LearningStandardId>
+		</LearningStandardIdentity>
+	</LearningStandardReference>
+	<LearningStandardReference>
+		<LearningStandardIdentity>
+			<LearningStandardId>112.35.1.B</LearningStandardId>
+		</LearningStandardIdentity>
+	</LearningStandardReference>
+	<ParentObjectiveAssessmentReference>
+		<ObjectiveAssessmentIdentity>
+			<IdentificationCode>ACT-ABW-M-PHM</IdentificationCode>
+			<AssessmentReference>
+				<AssessmentIdentity>
+					<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+					<Namespace>uri://ed-fi.org/Assessment</Namespace>
+				</AssessmentIdentity>
+			</AssessmentReference>
+		</ObjectiveAssessmentIdentity>
+	</ParentObjectiveAssessmentReference>
+	<ParentObjectiveAssessmentReference>
+		<ObjectiveAssessmentIdentity>
+			<IdentificationCode>ACT-ABW-M-PHM-F</IdentificationCode>
+			<AssessmentReference>
+				<AssessmentIdentity>
+					<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+					<Namespace>uri://ed-fi.org/Assessment</Namespace>
+				</AssessmentIdentity>
+			</AssessmentReference>
+		</ObjectiveAssessmentIdentity>
+	</ParentObjectiveAssessmentReference>
+	<AssessmentReference>
+		<AssessmentIdentity>
+			<AssessmentIdentifier>ACT-ABW</AssessmentIdentifier>
+			<Namespace>uri://ed-fi.org/Assessment</Namespace>
+		</AssessmentIdentity>
+	</AssessmentReference>
+	<AcademicSubject>Chemistry and Math</AcademicSubject>
+	</ObjectiveAssessment>
+	<ObjectiveAssessment>
+	<IdentificationCode>ACT-English-Chemistry-Test</IdentificationCode>
+	<MaxRawScore>1.25</MaxRawScore>
+	<PercentOfAssessment>.45</PercentOfAssessment>
+	<Nomenclature>IUPAC</Nomenclature>
+	<Description>ACT-English-Chemistry-Composite</Description>
+	<LearningStandardReference>
+		<LearningStandardIdentity>
+			<LearningStandardId>112.35.2.B</LearningStandardId>
+		</LearningStandardIdentity>
+	</LearningStandardReference>
+	<LearningStandardReference>
+		<LearningStandardIdentity>
+			<LearningStandardId>112.35.10.B</LearningStandardId>
+		</LearningStandardIdentity>
+	</LearningStandardReference>
+	<AssessmentReference>
+		<AssessmentIdentity>
+			<AssessmentIdentifier>ACT Composite</AssessmentIdentifier>
+			<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		</AssessmentIdentity>
+	</AssessmentReference>
+	<AcademicSubject>English and Chemistry</AcademicSubject>
+	</ObjectiveAssessment>
 </InterchangeAssessmentMetadata>
