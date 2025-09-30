@@ -1041,6 +1041,7 @@
 			<ResultDatatypeType>uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer</ResultDatatypeType>
 		</AssessmentScore>
 	</ObjectiveAssessment>
+	<!--CustomObjectiveAssessment-->
 	<ObjectiveAssessment>
 	<IdentificationCode>ACT-CombinedChemistry-Test</IdentificationCode>
 	<MaxRawScore>1.00</MaxRawScore>
@@ -1085,7 +1086,7 @@
 			<Namespace>uri://ed-fi.org/Assessment</Namespace>
 		</AssessmentIdentity>
 	</AssessmentReference>
-	<AcademicSubject>Chemistry and Math</AcademicSubject>
+	<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
 	</ObjectiveAssessment>
 	<ObjectiveAssessment>
 	<IdentificationCode>ACT-English-Chemistry-Test</IdentificationCode>
@@ -1109,6 +1110,6 @@
 			<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
 		</AssessmentIdentity>
 	</AssessmentReference>
-	<AcademicSubject>English and Chemistry</AcademicSubject>
+	<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
 	</ObjectiveAssessment>
 </InterchangeAssessmentMetadata>
