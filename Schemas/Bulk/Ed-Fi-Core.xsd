@@ -9037,17 +9037,6 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="ContactTypeDescriptor">
-    <xs:annotation>
-      <xs:documentation>This descriptor defines the set of contact types.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="ContentClassDescriptor">
     <xs:annotation>
       <xs:documentation>The predominate type or kind characterizing the learning resource.</xs:documentation>
@@ -22671,15 +22660,6 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="ContactTypeDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>This descriptor defines the set of contact types.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
   <xs:simpleType name="ContentClassDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The predominate type or kind characterizing the learning resource.</xs:documentation>
@@ -24900,36 +24880,6 @@
       <xs:element name="LoginId" type="IdentificationCode" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The login ID for the user; used for security access control interface.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="AggregatedSurveyQuestionMatrixElementResponse">
-    <xs:annotation>
-      <xs:documentation>Matrix element response survey data provided at the aggregate level.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="AggregatedMatrixElement" type="AggregatedMatrixElement">
-        <xs:annotation>
-          <xs:documentation>For aggregated matrix questions, the text identifying each row of the matrix.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="AverageNumericResponse" type="AverageNumericResponse">
-        <xs:annotation>
-          <xs:documentation>The average numeric response for the survey.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="NumericResponseNCount" type="xs:int" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The total number of data values in set of data that makes up the average numeric grade for a group.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="NumericResponseStandardDeviation" type="xs:int" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>A measure used to quantify the amount of variation or dispersion of a set of data values, in this case specific to the average numeric grade for a group of students.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -27808,31 +27758,6 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="SiteCoordinator">
-    <xs:annotation>
-      <xs:documentation>The education site coordinator, acting on behalf of a community or educational board, providing on-site administrative coordination for an organization.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="BeginDate" type="xs:date">
-        <xs:annotation>
-          <xs:documentation>The month, day, and year of the start or effective date of a staff member's site coordinator position for an education organization. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="EndDate" type="xs:date" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The month, day, and year of the end or termination date of a staff member's employment, contract, or relationship with the local education agency. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="SiteCoordinator" type="xs:boolean" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>An indication that a staff is a site coordinator.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
   <xs:complexType name="SpecialEducationProgramService">
     <xs:annotation>
       <xs:documentation>The student's special education program service information.</xs:documentation>
@@ -28733,18 +28658,6 @@
       <xs:maxLength value="255" />
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="AggregatedMatrixElement">
-    <xs:annotation>
-      <xs:documentation>For aggregated matrix questions, the text identifying each row of the matrix.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
-      <xs:maxLength value="50" />
-    </xs:restriction>
-  </xs:simpleType>
   <xs:simpleType name="AlternateDayName">
     <xs:annotation>
       <xs:documentation>used for the bell schedule, another name for day (e.g., Blue day, Red day).</xs:documentation>
@@ -28821,18 +28734,6 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:maxLength value="60" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="AssessmentIdentifier">
-    <xs:annotation>
-      <xs:documentation>An identifier that uniquely identifies the assessment to which the student results are associated.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:minLength value="1" />
       <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
@@ -29126,17 +29027,6 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:maxLength value="250" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="ContactTitle">
-    <xs:annotation>
-      <xs:documentation>The title of the contact in the context of the EducationOrganization.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ContentIdentifier">
@@ -29544,17 +29434,6 @@
       <xs:maxLength value="150" />
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="ExternalTerm">
-    <xs:annotation>
-      <xs:documentation>Defines the external term of a session during the school year (e.g., Fall Semester) of an ExternalEducationOrganization.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="75" />
-    </xs:restriction>
-  </xs:simpleType>
   <xs:simpleType name="Feedback">
     <xs:annotation>
       <xs:documentation>Any feedback to be captured.</xs:documentation>
@@ -29887,18 +29766,6 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:maxLength value="75" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="MilestoneStatusDescription">
-    <xs:annotation>
-      <xs:documentation>Additional information associated with the milestone status achieved.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:string">
-      <xs:minLength value="0" />
-      <xs:maxLength value="60" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="NameOfCounty">
@@ -30701,18 +30568,6 @@
       <xs:maxInclusive value="1440" />
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="AverageNumericResponse">
-    <xs:annotation>
-      <xs:documentation>The average numeric response for the survey.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:decimal">
-      <xs:totalDigits value="18" />
-      <xs:fractionDigits value="4" />
-    </xs:restriction>
-  </xs:simpleType>
   <xs:simpleType name="Capacity">
     <xs:annotation>
       <xs:documentation>The maximum number that can be contained or accommodated at any given time.</xs:documentation>
@@ -30871,20 +30726,6 @@
     </xs:annotation>
     <xs:restriction base="xs:decimal">
       <xs:totalDigits value="5" />
-      <xs:fractionDigits value="2" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="HoursPerDay">
-    <xs:annotation>
-      <xs:documentation>The number of working hours per day (based on an 8 hour workday).</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:decimal">
-      <xs:minInclusive value="0" />
-      <xs:maxInclusive value="8" />
-      <xs:totalDigits value="3" />
       <xs:fractionDigits value="2" />
     </xs:restriction>
   </xs:simpleType>
@@ -31126,18 +30967,6 @@
     </xs:annotation>
     <xs:restriction base="xs:decimal">
       <xs:totalDigits value="19" />
-      <xs:fractionDigits value="4" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="ScoreResultAverage">
-    <xs:annotation>
-      <xs:documentation>A meaningful average score or statistical expression of the performance of a group. The results can be expressed as a number, percentile, range, level, etc.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Simple</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="xs:decimal">
-      <xs:totalDigits value="18" />
       <xs:fractionDigits value="4" />
     </xs:restriction>
   </xs:simpleType>
