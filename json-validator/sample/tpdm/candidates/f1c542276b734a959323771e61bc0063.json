@@ -1,0 +1,50 @@
+ {
+    "id": "f1c542276b734a959323771e61bc0063",
+    "candidateIdentifier": "1000042",
+    "birthDate": "2005-10-03",
+    "economicDisadvantaged": false,
+    "firstGenerationStudent": false,
+    "firstName": "Bryce",
+    "hispanicLatinoEthnicity": false,
+    "lastSurname": "Beatty",
+    "personalTitlePrefix": "M",
+    "sexDescriptor": "uri://ed-fi.org/SexDescriptor#Not Selected",
+    "addresses": [
+      {
+        "addressTypeDescriptor": "uri://ed-fi.org/AddressTypeDescriptor#Physical",
+        "city": "Madison",
+        "postalCode": "37598",
+        "stateAbbreviationDescriptor": "uri://ed-fi.org/StateAbbreviationDescriptor#AA",
+        "streetNumberName": "124 North Old Drive",
+        "apartmentRoomSuiteNumber": "922",
+        "buildingSiteNumber": "53",
+        "doNotPublishIndicator": false,
+        "periods": []
+      }
+    ],
+    "disabilities": [],
+    "electronicMails": [
+      {
+        "electronicMailAddress": "iolvjf.cyxbopcol@example.com",
+        "electronicMailTypeDescriptor": "uri://ed-fi.org/ElectronicMailTypeDescriptor#Other",
+        "doNotPublishIndicator": false,
+        "primaryEmailAddressIndicator": true
+      }
+    ],
+    "languages": [],
+    "otherNames": [],
+    "personalIdentificationDocuments": [],
+    "races": [
+      {
+        "raceDescriptor": "uri://ed-fi.org/RaceDescriptor#Black or African American"
+      }
+    ],
+    "telephones": [
+      {
+        "telephoneNumber": "088-8244532",
+        "telephoneNumberTypeDescriptor": "uri://ed-fi.org/TelephoneNumberTypeDescriptor#Home",
+        "doNotPublishIndicator": true,
+        "textMessageCapabilityIndicator": true
+      }
+    ]
+  }

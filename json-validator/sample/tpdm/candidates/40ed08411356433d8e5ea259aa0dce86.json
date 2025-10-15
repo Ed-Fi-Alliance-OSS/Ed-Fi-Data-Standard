@@ -1,0 +1,45 @@
+ {
+    "id": "40ed08411356433d8e5ea259aa0dce86",
+    "candidateIdentifier": "1000043",
+    "birthDate": 1974,
+    "economicDisadvantaged": "yes",
+    "firstGenerationStudent": false,
+    "firstName": "Lia",
+    "hispanicLatinoEthnicity": false,
+    "lastSurname": "Branch",
+    "personalTitlePrefix": "Mrs",
+    "sexDescriptor": "uri://ed-fi.org/SexDescriptor#Not Selected",
+    "addresses": [
+      {
+        "addressTypeDescriptor": "uri://ed-fi.org/AddressTypeDescriptor#Home",
+        "city": "Columbus",
+        "postalCode": "06182",
+        "stateAbbreviationDescriptor": "uri://ed-fi.org/StateAbbreviationDescriptor#AA",
+        "streetNumberName": "47 East Cowley Street",
+        "buildingSiteNumber": "50",
+        "doNotPublishIndicator": false,
+        "periods": [1,2,3]
+      }
+    ],
+    "disabilities": "none",
+    "electronicMails": [
+      {
+        "electronicMailAddress": "wgzvcyc.kllcg@example.com",
+        "electronicMailTypeDescriptor": "uri://ed-fi.org/ElectronicMailTypeDescriptor#Work",
+        "doNotPublishIndicator": false,
+        "primaryEmailAddressIndicator": true
+      }
+    ],
+    "races": [
+      {
+        "raceDescriptor": "uri://ed-fi.org/RaceDescriptor#White"
+      }
+    ],
+    "telephones": [
+      {
+        "telephoneNumber": "1589124366",
+        "telephoneNumberTypeDescriptor": "uri://ed-fi.org/TelephoneNumberTypeDescriptor#Work",
+        "textMessageCapabilityIndicator": true
+      }
+    ]
+  }

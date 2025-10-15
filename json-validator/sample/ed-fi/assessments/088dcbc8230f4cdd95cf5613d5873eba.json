@@ -1,0 +1,42 @@
+  {
+    "id": "088dcbc8230f4cdd95cf5613d5873eba",
+    "assessmentIdentifier": "f3115910-9d0d-451c-b94f-e617657660f9",
+    "namespace": "uri://ed-fi.org/Assessment/Assessment.xml",
+    "assessmentCategoryDescriptor": "uri://ed-fi.org/AssessmentCategoryDescriptor#Benchmark test",
+    "assessmentTitle": "3rd Grade Math 2nd Six Weeks 2021-2022",
+    "assessmentVersion": 2021,
+    "maxRawScore": 10,
+    "revisionDate": "2021-10-21",
+    "contentStandard": {
+      "title": "State Essential Knowledge and Skills"
+    },
+    "academicSubjects": [
+      {
+        "academicSubjectDescriptor": "uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics"
+      }
+    ],
+    "assessedGradeLevels": [
+      {
+        "gradeLevelDescriptor": "uri://ed-fi.org/GradeLevelDescriptor#Third grade"
+      }
+    ],
+    "identificationCodes": [
+      {
+        "assessmentIdentificationSystemDescriptor": "uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor",
+        "identificationCode": "f3115910-9d0d-451c-b94f-e617657660f9"
+      }
+    ],
+    "languages": [
+      {
+        "languageDescriptor": "uri://ed-fi.org/LanguageDescriptor#eng"
+      }
+    ],
+    "scores": [
+      {
+        "assessmentReportingMethodDescriptor": "uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score",
+        "maximumScore": "10",
+        "minimumScore": "0",
+        "resultDatatypeTypeDescriptor": "uri://ed-fi.org/ResultDatatypeTypeDescriptor#Integer"
+      }
+    ]
+  }
