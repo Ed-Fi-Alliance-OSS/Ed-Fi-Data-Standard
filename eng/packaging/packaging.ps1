@@ -85,7 +85,7 @@ if ($Push) {
         throw "Cannot push a NuGet package without providing a feed in the `EdFiNuGetFeed` argument."
     }
 
-    $packageFile = "$PSScriptRoot/EdFi.DataStandard.SampleData.$Version.nupkg"
+    $packageFile = "$PSScriptRoot/EdFi.DataStandard.$Version.nupkg"
     Write-Output "Pushing the NuGet Package $packageFile to $EdFiNuGetFeed"
 
     $interactive = ""
