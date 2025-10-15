@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <RootNamespace>EdFi.DataStandard</RootNamespace>
+    <NoWarn>NU5110,NU5111</NoWarn>
+    <PackageReadmeFile>docs\README.md</PackageReadmeFile>
+    <Version>$(Version)</Version>
+    <NuspecProperties>version=$(PackageVersion)</NuspecProperties>
+    <id>EdFi.DataStandard</id>
+    <title>Ed-Fi Data Standard</title>
+    <authors>Ed-Fi Alliance</authors>
+    <projectUrl>https://github.com/Ed-Fi-Alliance-OSS</projectUrl>
+    <copyright>Copyright © 2025, Ed-Fi Alliance, LLC and contributors.</copyright>
+    <summary>Ed-Fi Data Standard schema (XML, Open API) and sample data files (XML)</summary>
+    <description>Contains XSD and OpenAPI specification files for Ed-Fi Data Standard v6.0.0, along with a compliant "Grand Bend" fake data set in XML format for loading into an Ed-Fi API using the Client Side Bulk Loader utility.</description>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="docs\README.md" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="docs\" />
+    <None Include="../../Descriptors/*" Pack="true" PackagePath="Bootstrap\" />
+    <None Include="../../Samples/Sample XML/*" Pack="true" PackagePath="Sample XML\" />
+    <None
+      Include="../../Samples/Sample XML/EducationOrganization.xml"
+      Pack="true"
+      PackagePath="Partial\"
+    />
+    <None
+      Include="../../Samples/Sample XML/EducationOrgCalendar.xml"
+      Pack="true"
+      PackagePath="Partial\"
+    />
+    <None Include="../../Samples/Sample XML/Standards.xml" Pack="true" PackagePath="Partial\" />
+    <None Include="../../Schemas/Bulk/*" Pack="true" PackagePath="XSD\" />
+    <None Include="../../Schemas/OpenAPI/*" Pack="true" PackagePath="OpenAPI\" />
+  </ItemGroup>
+</Project>
