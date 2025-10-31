@@ -4,18 +4,18 @@
 		<CodeValue>National</CodeValue>
 		<ShortDescription>Exam is for a nationally recognized certification.</ShortDescription>
 		<Description>The exam is for a nationally recognized certification.</Description>
-		<Namespace>uri://edfi.org/CertificationExamTypeDescriptor</Namespace>
+		<Namespace>uri://ed-fi.org/CertificationExamTypeDescriptor</Namespace>
 	</CertificationExamTypeDescriptor>
 	<CertificationExamTypeDescriptor>
 		<CodeValue>Other</CodeValue>
 		<ShortDescription>Exam for other level of recognition.</ShortDescription>
 		<Description>A certification exam for recognition other than state or national level.</Description>
-		<Namespace>uri://edfi.org/CertificationExamTypeDescriptor</Namespace>
+		<Namespace>uri://ed-fi.org/CertificationExamTypeDescriptor</Namespace>
 	</CertificationExamTypeDescriptor>
 	<CertificationExamTypeDescriptor>
 		<CodeValue>State</CodeValue>
 		<ShortDescription>Exam is for a state-wide recognized certification.</ShortDescription>
 		<Description>The exam is for a state-wide recognized certification.</Description>
-		<Namespace>uri://edfi.org/CertificationExamTypeDescriptor</Namespace>
+		<Namespace>uri://ed-fi.org/CertificationExamTypeDescriptor</Namespace>
 	</CertificationExamTypeDescriptor>	
 </InterchangeDescriptors>

@@ -4,30 +4,30 @@
 		<CodeValue>Classroom</CodeValue>
 		<ShortDescription>An instruction in Classroom setting is authorized.</ShortDescription>
 		<Description>The certification authorize the instruction to be delivered in Classroom setting.</Description>
-		<Namespace>uri://edfi.org/InstructionalSettingDescriptor</Namespace>
+		<Namespace>uri://ed-fi.org/InstructionalSettingDescriptor</Namespace>
 	</InstructionalSettingDescriptor>
 	<InstructionalSettingDescriptor>
 		<CodeValue>Co-Op</CodeValue>
 		<ShortDescription>An instruction in Co-op setting authorized.</ShortDescription>
 		<Description>The certification authorize the instruction to be delivered in Co-op setting.</Description>
-		<Namespace>uri://edfi.org/InstructionalSettingDescriptor</Namespace>
+		<Namespace>uri://ed-fi.org/InstructionalSettingDescriptor</Namespace>
 	</InstructionalSettingDescriptor>
 	<InstructionalSettingDescriptor>
 		<CodeValue>Regular</CodeValue>
 		<ShortDescription>An instruction in Regular setting authorized.</ShortDescription>
 		<Description>The certification authorize the instruction to be delivered in Regular setting.</Description>
-		<Namespace>uri://edfi.org/InstructionalSettingDescriptor</Namespace>
+		<Namespace>uri://ed-fi.org/InstructionalSettingDescriptor</Namespace>
 	</InstructionalSettingDescriptor>
 	<InstructionalSettingDescriptor>
 		<CodeValue>Virtual</CodeValue>
 		<ShortDescription>An instruction in Virtual setting authorized.</ShortDescription>
 		<Description>The certification authorize the instruction to be delivered in Virtual setting.</Description>
-		<Namespace>uri://edfi.org/InstructionalSettingDescriptor</Namespace>
+		<Namespace>uri://ed-fi.org/InstructionalSettingDescriptor</Namespace>
 	</InstructionalSettingDescriptor>
 	<InstructionalSettingDescriptor>
 		<CodeValue>Vocational Experience</CodeValue>
 		<ShortDescription>Instruction in Vocational  setting authorized.</ShortDescription>
 		<Description>The certification authorize the instruction to be delivered in Vocational Experience setting.</Description>
-		<Namespace>uri://edfi.org/InstructionalSettingDescriptor</Namespace>
+		<Namespace>uri://ed-fi.org/InstructionalSettingDescriptor</Namespace>
 	</InstructionalSettingDescriptor>
 </InterchangeDescriptors>
