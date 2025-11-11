@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 from typing import List
 
-from .validator import DataLakeValidator, ValidationResult
+from json_validator.validator import DataLakeValidator, ValidationResult
 
 
 def setup_logging(log_level: str) -> None:
