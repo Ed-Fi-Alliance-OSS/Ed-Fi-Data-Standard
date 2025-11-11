@@ -74,11 +74,21 @@ class DataLakeValidator:
                     f"Loading OpenAPI spec from file: {self.openapi_spec_path}"
                 )
                 with open(self.openapi_spec_path, "r", encoding="utf-8") as f:
-                    spec_content = f.read()            # Try JSON first, then YAML
+                    spec_content = f.read()
+
+            # Try JSON first, then YAML
             try:
                 openapi_spec = json.loads(spec_content)
+                logger.debug("Successfully parsed OpenAPI spec as JSON")
             except json.JSONDecodeError:
-                openapi_spec = yaml.safe_load(spec_content)
+                try:
+                    openapi_spec = yaml.safe_load(spec_content)
+                    logger.debug("Successfully parsed OpenAPI spec as YAML")
+                except yaml.YAMLError as yaml_err:
+                    raise ValueError(
+                        f"Failed to parse OpenAPI spec as either JSON or YAML. "
+                        f"YAML error: {yaml_err}"
+                    )
 
             # Extract schemas from components section
             components = openapi_spec.get("components", {})
