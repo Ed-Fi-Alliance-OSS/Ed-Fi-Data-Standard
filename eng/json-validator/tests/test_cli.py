@@ -7,15 +7,11 @@
 Tests for the CLI module.
 """
 
-import json
-import sys
-from io import StringIO
-from pathlib import Path
 from unittest.mock import Mock, patch
 
 import pytest
 
-from json_validator.cli import main, print_summary, print_validation_results
+from json_validator.__main__ import main, print_summary, print_validation_results
 from json_validator.validator import ValidationResult
 
 

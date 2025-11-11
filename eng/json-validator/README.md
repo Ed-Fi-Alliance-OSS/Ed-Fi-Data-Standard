@@ -18,7 +18,7 @@ poetry install
 ### Command Line
 
 ```bash
-poetry run validate-json --data-lake-root /path/to/data/lake --openapi-spec /path/to/openapi.json
+poetry run python json_validator --data-lake-root /path/to/data/lake --openapi-spec /path/to/openapi.json
 ```
 
 ### Python API
@@ -65,3 +65,19 @@ root/
 * Detailed validation error reporting
 * Configurable logging levels
 * Performance metrics and summary reporting
+
+## Testing
+
+This directory contains `sample/` with sample JSON files for demonstration purposes.
+
+Example 1: running the validation using a `swagger.json` file from a running instance of the Ed-Fi ODS/API, using Data Standard 5.2 with the TPDM extension.
+
+```shell
+poetry run python json_validator --data-lake-root ./sample --openapi-spec https://api.ed-fi.org/v7.2/api/metadata/data/v3/resources/swagger.json
+```
+
+Example 2: running with a `.yaml` file in this repository, using Data Standard 6. Note that the TPDM extension no longer exists, and the Assessment data model has a breaking change compared to Data Standard 5.2. Therefore all files have a failure when compared to Data Standard 6.
+
+```shell
+poetry run python json_validator --data-lake-root ./sample --openapi-spec ../../Schemas/OpenAPI/Ed-Fi-Resource-API-Specification.yaml
+```

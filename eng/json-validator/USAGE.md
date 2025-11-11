@@ -19,7 +19,7 @@
 ### Validate all files in a data lake
 
 ```bash
-poetry run validate-json \
+poetry run python json_validator \
   --data-lake-root /path/to/your/data/lake \
   --openapi-spec /path/to/openapi/specification.json
 ```
@@ -27,7 +27,7 @@ poetry run validate-json \
 ### Validate a single file
 
 ```bash
-poetry run validate-json \
+poetry run python json_validator \
   --data-lake-root /path/to/your/data/lake \
   --openapi-spec /path/to/openapi/specification.json \
   --file student-1.json
@@ -36,7 +36,7 @@ poetry run validate-json \
 ### Use a remote OpenAPI specification
 
 ```bash
-poetry run validate-json \
+poetry run python json_validator \
   --data-lake-root /path/to/your/data/lake \
   --openapi-spec https://api.ed-fi.org/v6.0.0/api/metadata/data/v3/openapi.json
 ```
@@ -44,7 +44,7 @@ poetry run validate-json \
 ### List available schemas
 
 ```bash
-poetry run validate-json \
+poetry run python json_validator \
   --data-lake-root /path/to/your/data/lake \
   --openapi-spec /path/to/openapi/specification.json \
   --list-schemas
@@ -53,7 +53,7 @@ poetry run validate-json \
 ### Quiet mode (summary only)
 
 ```bash
-poetry run validate-json \
+poetry run python json_validator \
   --data-lake-root /path/to/your/data/lake \
   --openapi-spec /path/to/openapi/specification.json \
   --quiet
@@ -61,7 +61,7 @@ poetry run validate-json \
 
 ## Expected Data Lake Structure
 
-```
+```none
 root/
 ├── ed-fi/
 │   ├── academicWeeks/
