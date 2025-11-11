@@ -440,7 +440,7 @@ def main():
     args = parser.parse_args()
 
     # Convert relative paths to absolute paths based on script location
-    script_dir = Path(__file__).parent.parent  # Go up one level from eng/ to root
+    script_dir = Path(__file__).parent.parent.parent  # Go up two levels from eng/xml-validator to root
 
     # Handle both relative and absolute paths
     if Path(args.samples_dir).is_absolute():

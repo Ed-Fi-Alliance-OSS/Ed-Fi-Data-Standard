@@ -1,2 +1,8 @@
 
 Schemas/Bulk/SchemaAnnotation.xsd
+
+# For packaging
+*.nupkg
+obj/
+bin/
+*.sln

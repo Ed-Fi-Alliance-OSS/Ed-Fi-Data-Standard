@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Check if user has repository access
         id: check-repo-access
-        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
         with:
           script: |
             try {
@@ -29,7 +29,7 @@ jobs:
                 repo: context.repo.repo,
                 username: context.payload.issue.user.login
               });
-              
+
               console.log(`User ${context.payload.issue.user.login} repository permission: ${permission.permission}`);
               return ['admin', 'maintain', 'write', 'triage'].includes(permission.permission);
             } catch (error) {
@@ -39,10 +39,10 @@ jobs:
 
       - name: Close community issue with helpful message
         if: steps.check-repo-access.outputs.result == 'false'
-        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
         with:
           script: |
-            const message = `Thank you for your interest in Ed-Fi! 
+            const message = `Thank you for your interest in Ed-Fi!
 
             This GitHub repository is maintained by the Ed-Fi engineering team for internal issue tracking and development coordination.
 
