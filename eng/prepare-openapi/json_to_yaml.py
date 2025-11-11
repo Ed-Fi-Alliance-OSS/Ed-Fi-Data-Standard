@@ -5,6 +5,10 @@ JSON to YAML Converter
 Converts JSON files to YAML format with proper formatting and validation.
 Supports both single file conversion and batch processing of directories.
 
+For OpenAPI specifications, the output is filtered to include only the
+'openapi', 'info', and 'components' top-level sections. Other sections
+like 'paths', 'servers', 'security', etc. are excluded from the output.
+
 Usage:
     python json_to_yaml.py input.json output.yaml
     python json_to_yaml.py input.json  # Creates input.yaml
@@ -52,6 +56,35 @@ def load_json_file(file_path: Path) -> Dict[str, Any]:
     except FileNotFoundError:
         logging.error(f"File not found: {file_path}")
         raise
+
+
+def filter_openapi_data(data: Dict[str, Any]) -> Dict[str, Any]:
+    """Filter OpenAPI data to include only specified top-level elements.
+
+    Args:
+        data: Full OpenAPI specification data
+
+    Returns:
+        Filtered dictionary with only openapi, info, and components sections
+    """
+    allowed_keys = {"openapi", "info", "components"}
+    filtered_data = {}
+
+    for key in allowed_keys:
+        if key in data:
+            filtered_data[key] = data[key]
+            logging.debug(f"Including '{key}' section in output")
+        else:
+            logging.warning(f"'{key}' section not found in input data")
+
+    excluded_keys = set(data.keys()) - allowed_keys
+    if excluded_keys:
+        logging.info(f"Excluding sections from output: {', '.join(sorted(excluded_keys))}")
+
+    # Remove the query parameters object
+    filtered_data["components"].pop("parameters", None)
+
+    return filtered_data
 
 
 def save_yaml_file(data: Dict[str, Any], file_path: Path) -> None:
@@ -103,8 +136,11 @@ def convert_single_file(input_path: Path, output_path: Optional[Path] = None) ->
     # Load JSON data
     json_data = load_json_file(input_path)
 
+    # Filter to include only openapi, info, and components sections
+    filtered_data = filter_openapi_data(json_data)
+
     # Save as YAML
-    save_yaml_file(json_data, output_path)
+    save_yaml_file(filtered_data, output_path)
 
     print(f"✓ Converted {input_path.name} → {output_path.name}")
 

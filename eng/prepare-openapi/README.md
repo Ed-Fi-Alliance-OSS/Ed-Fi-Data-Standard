@@ -10,6 +10,7 @@ A Python script for converting JSON files to YAML format with proper formatting 
 * Comprehensive error handling and logging
 * Preserves JSON structure and formatting
 * Unicode support
+* **OpenAPI Filtering**: Automatically filters OpenAPI specifications to include only `openapi`, `info`, and `components` sections
 
 ## Installation
 
@@ -82,6 +83,24 @@ The script generates YAML files with:
 * Preserved key order
 * Unicode support
 * No YAML references for better readability
+
+## OpenAPI Filtering
+
+When processing OpenAPI specification files, the converter automatically filters the output to include only these top-level sections:
+
+* `openapi` - The OpenAPI version
+* `info` - API metadata (title, version, description, etc.)
+* `components` - Reusable schemas, parameters, responses, etc.
+
+The following sections are **excluded** from the output:
+
+* `paths` - API endpoints and operations
+* `servers` - Server configuration
+* `security` - Security scheme definitions
+* `tags` - Tag metadata
+* `externalDocs` - External documentation
+
+This filtering is designed to create cleaner, more focused YAML files suitable for schema-only use cases.
 
 ## Error Handling
 
