@@ -65,8 +65,10 @@ def filter_openapi_data(data: Dict[str, Any]) -> Dict[str, Any]:
         data: Full OpenAPI specification data
 
     Returns:
-        Filtered dictionary with only openapi, info, and components sections
+        Filtered dictionary with only openapi, info, and components sections, and unnecessary fields removed from each $.component.schemas component.
     """
+
+    # Filter to only include 'openapi', 'info', and 'components' sections
     allowed_keys = {"openapi", "info", "components"}
     filtered_data = {}
 
@@ -77,12 +79,27 @@ def filter_openapi_data(data: Dict[str, Any]) -> Dict[str, Any]:
         else:
             logging.warning(f"'{key}' section not found in input data")
 
-    excluded_keys = set(data.keys()) - allowed_keys
-    if excluded_keys:
-        logging.info(f"Excluding sections from output: {', '.join(sorted(excluded_keys))}")
+    if "components" not in filtered_data:
+        return filtered_data
 
-    # Remove the query parameters object
+    # Remove several unnecessary components if they exist
     filtered_data["components"].pop("parameters", None)
+    filtered_data["components"].pop("securitySchemes", None)
+    filtered_data["components"].pop("responses", None)
+
+    if "schemas" not in filtered_data["components"]:
+        return filtered_data
+
+    for _, schema in filtered_data["components"]["schemas"].items():
+        if "properties" not in schema:
+            continue
+
+        # Remove all _etag and _lastModifiedDate fields from components.schemas
+        schema["properties"].pop("_etag", None)
+        schema["properties"].pop("_lastModifiedDate", None)
+
+        # Remove the domains extension
+        schema.pop("x-Ed-Fi-domains", None)
 
     return filtered_data
 
