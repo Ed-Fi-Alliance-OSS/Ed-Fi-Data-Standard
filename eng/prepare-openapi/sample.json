@@ -1,0 +1,105 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Ed-Fi Sample API",
+    "version": "6.0.0",
+    "description": "Sample OpenAPI specification for testing JSON to YAML conversion"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:54746/data/v3"
+    }
+  ],
+  "paths":{
+    "/ed-fi/students": {
+      "get": {
+        "summary": "Retrieve a list of students",
+        "responses": {
+          "200": {
+            "description": "A list of students.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/edfi_Student"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "name": "studentUniqueId",
+            "in": "query",
+            "description": "A unique alphanumeric code assigned to a student.",
+            "schema": {
+              "maxLength": 32,
+              "type": "string"
+            },
+            "x-Ed-Fi-isIdentity": true
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "edfi_Student": {
+        "type": "object",
+        "required": ["studentUniqueId", "firstName", "lastSurname"],
+        "properties": {
+          "studentUniqueId": {
+            "type": "string",
+            "maxLength": 32,
+            "description": "A unique alphanumeric code assigned to a student."
+          },
+          "firstName": {
+            "type": "string",
+            "maxLength": 75,
+            "description": "A name given to an individual at birth, baptism, or during another naming ceremony, or through legal change."
+          },
+          "lastSurname": {
+            "type": "string",
+            "maxLength": 75,
+            "description": "The name borne in common by members of a family."
+          },
+          "_etag": {
+            "type": "string",
+            "description": "A unique system-generated value that identifies the version of the resource."
+          },
+          "_lastModifiedDate": {
+            "type": "string",
+            "description": "The date and time the resource was last modified.",
+            "format": "date-time"
+          }
+        },
+        "x-Ed-Fi-domains": [
+          "AlternativeAndSupplementalServices"
+        ]
+      }
+    },
+    "parameters": {
+      "offset": {
+        "name": "offset",
+        "in": "query",
+        "description": "Indicates how many items should be skipped before returning results.",
+        "required": false,
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": 0
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "oauth2_client_credentials": [ ]
+    }
+  ]
+}

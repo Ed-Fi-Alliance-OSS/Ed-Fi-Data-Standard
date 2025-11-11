@@ -21,9 +21,6 @@ wheels/
 *.egg
 MANIFEST
 
-# Poetry
-poetry.lock
-
 # Virtual environments
 .venv
 venv/
@@ -44,5 +41,4 @@ Thumbs.db
 *.log
 
 # Test files
-sample*.json
-sample*.yaml
+sample.yaml
