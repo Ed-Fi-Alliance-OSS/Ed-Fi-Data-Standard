@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<InterchangePerformanceEvaluation xmlns="http://ed-fi.org/6.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-PerformanceEvaluation.xsd">
+<InterchangePerformanceEvaluation xmlns="http://ed-fi.org/6.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-PerformanceEvaluation.xsd">
   <PerformanceEvaluation>
     <PerformanceEvaluationTitle>Formal Evaluation</PerformanceEvaluationTitle>
     <Term>uri://ed-fi.org/TermDescriptor#Fall Semester</Term>

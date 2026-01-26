@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeEducationOrgCalendar
-	xmlns="http://ed-fi.org/6.0.0"
+	xmlns="http://ed-fi.org/6.1.0"
 	xmlns:ann="http://ed-fi.org/annotation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://ed-fi.org/6.0.0 ../XSD/Interchange-EducationOrgCalendar.xsd"
+	xsi:schemaLocation="http://ed-fi.org/6.1.0 ../XSD/Interchange-EducationOrgCalendar.xsd"
 >
 	<AcademicWeek>
 		<SchoolReference>

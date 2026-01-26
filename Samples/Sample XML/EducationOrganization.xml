@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeEducationOrganization xmlns="http://ed-fi.org/6.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
+<InterchangeEducationOrganization xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
 	<EducationServiceCenter id="ESC_255950">
 		<NameOfInstitution>Region 99 Education Service Center</NameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Education Service Center</EducationOrganizationCategory>
