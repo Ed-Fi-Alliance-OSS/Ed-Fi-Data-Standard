@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeAssessmentMetadata xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.0.0 ../../Schemas/Bulk/Interchange-AssessmentMetadata.xsd">
+<InterchangeAssessmentMetadata xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-AssessmentMetadata.xsd">
 	<Assessment>
 		<AssessmentIdentifier>00FBEB26-4A3A-03C2-5BCA-FAE9DE8A808F</AssessmentIdentifier>
 		<AssessmentTitle>State Assessment</AssessmentTitle>
