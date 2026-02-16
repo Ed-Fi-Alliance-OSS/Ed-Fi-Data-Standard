@@ -19,6 +19,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="AccreditationStatusDescriptor" type="AccreditationStatusDescriptor" />
         <xs:element name="AchievementCategoryDescriptor" type="AchievementCategoryDescriptor" />
         <xs:element name="AdditionalCreditTypeDescriptor" type="AdditionalCreditTypeDescriptor" />
+        <xs:element name="AddressCharacteristicDescriptor" type="AddressCharacteristicDescriptor" />
         <xs:element name="AddressTypeDescriptor" type="AddressTypeDescriptor" />
         <xs:element name="AdministrationEnvironmentDescriptor" type="AdministrationEnvironmentDescriptor" />
         <xs:element name="AdministrativeFundingControlDescriptor" type="AdministrativeFundingControlDescriptor" />

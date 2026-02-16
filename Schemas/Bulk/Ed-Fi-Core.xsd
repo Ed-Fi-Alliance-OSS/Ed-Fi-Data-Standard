@@ -8560,6 +8560,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="AddressCharacteristicDescriptor">
+    <xs:annotation>
+      <xs:documentation>The characteristic that defines the type of address.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="AddressTypeDescriptor">
     <xs:annotation>
       <xs:documentation>The type of address listed for an individual or organization.</xs:documentation>
