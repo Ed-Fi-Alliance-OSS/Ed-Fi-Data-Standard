@@ -1553,6 +1553,8 @@
 		<DoNotPublishIndicator>true</DoNotPublishIndicator>
 		<CongressionalDistrict>17th congressional district</CongressionalDistrict>
 		<Locale>uri://ed-fi.org/LocaleDescriptor#City-Midsize</Locale>
+		<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Primary</AddressCharacteristic>
+		<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 	</Address>
 	<ElectronicMail>
 		<ElectronicMailAddress>sampleEmail1#sharklasers.com</ElectronicMailAddress>
@@ -1606,6 +1608,7 @@
 			<BeginDate>2015-06-30</BeginDate>
 		</Period>
 		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Home</AddressType>
+		<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 	</Address>
 	<Address>
 		<StreetNumberName>12222 State Farm Blvd</StreetNumberName>

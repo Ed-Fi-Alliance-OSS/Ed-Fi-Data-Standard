@@ -24,6 +24,8 @@
 				<BeginDate>2001-04-20</BeginDate>
 			</Period>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Home</AddressType>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 		</Address>
 		<Telephone>
 			<TelephoneNumber>(950) 342 7522</TelephoneNumber>
@@ -53,6 +55,7 @@
 			<PostalCode>78834</PostalCode>
 			<NameOfCounty>WILLISTON</NameOfCounty>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Home</AddressType>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 		</Address>
 		<Telephone>
 			<TelephoneNumber>(950) 978 3450</TelephoneNumber>

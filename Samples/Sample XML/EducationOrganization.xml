@@ -10,6 +10,7 @@
 			<PostalCode>75217</PostalCode>
 			<NameOfCounty>Dallas</NameOfCounty>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 		</Address>
 		<Address>
 			<StreetNumberName>P.O. Box 898</StreetNumberName>
@@ -18,6 +19,8 @@
 			<PostalCode>75217</PostalCode>
 			<NameOfCounty>Dallas</NameOfCounty>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Mailing</AddressType>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Primary</AddressCharacteristic>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 		</Address>
 		<InstitutionTelephone>
 			<TelephoneNumber>(214) 876-8290</TelephoneNumber>

@@ -5066,6 +5066,7 @@
 			<PostalCode>77535</PostalCode>
 			<NameOfCounty>Travis</NameOfCounty>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
+      <AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Primary</AddressCharacteristic>
 		</Address>
 		<SchoolId>50</SchoolId>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</GradeLevel>
@@ -5088,6 +5089,8 @@
 			<PostalCode>77536</PostalCode>
 			<NameOfCounty>Travis</NameOfCounty>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
+      <AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
+      <AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Primary</AddressCharacteristic>
 		</Address>
 		<SchoolId>60</SchoolId>
 		<GradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</GradeLevel>
