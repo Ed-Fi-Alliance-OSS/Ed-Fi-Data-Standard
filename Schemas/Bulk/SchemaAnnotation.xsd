@@ -23,6 +23,7 @@
       <xs:enumeration value="AccreditationStatusDescriptor" />
       <xs:enumeration value="AchievementCategoryDescriptor" />
       <xs:enumeration value="AdditionalCreditTypeDescriptor" />
+      <xs:enumeration value="AddressCharacteristicDescriptor" />
       <xs:enumeration value="AddressTypeDescriptor" />
       <xs:enumeration value="AdministrationEnvironmentDescriptor" />
       <xs:enumeration value="AdministrativeFundingControlDescriptor" />
