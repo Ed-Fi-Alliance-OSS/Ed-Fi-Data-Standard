@@ -24,7 +24,7 @@
 				<BeginDate>2001-04-20</BeginDate>
 			</Period>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Home</AddressType>
-			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Primary</AddressCharacteristic>
 			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 		</Address>
 		<Telephone>
