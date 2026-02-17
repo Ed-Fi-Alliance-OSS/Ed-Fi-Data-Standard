@@ -334652,6 +334652,8 @@
 			<PostalCode>37598</PostalCode>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
 			<DoNotPublishIndicator>false</DoNotPublishIndicator>
+      <AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
+      <AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Primary</AddressCharacteristic>
 		</Address>
 		<Telephone>
 			<TelephoneNumber>088-8244532</TelephoneNumber>
@@ -334696,6 +334698,7 @@
 			<PostalCode>06182</PostalCode>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Home</AddressType>
 			<DoNotPublishIndicator>false</DoNotPublishIndicator>
+      <AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 		</Address>
 		<Telephone>
 			<TelephoneNumber>1589124366</TelephoneNumber>

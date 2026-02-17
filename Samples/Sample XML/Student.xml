@@ -11156,6 +11156,7 @@
 			<LanguageUse>uri://ed-fi.org/LanguageUseDescriptor#Native language</LanguageUse>
 		</Language>
 		<Race>uri://ed-fi.org/RaceDescriptor#Hispanic or Latino</Race>
+		<Race>uri://ed-fi.org/RaceDescriptor#Asian</Race>
 		<Sex>uri://ed-fi.org/SexDescriptor#Male</Sex>
 		<StudentCharacteristic>
 			<StudentCharacteristic>uri://ed-fi.org/StudentCharacteristicDescriptor#Refugee</StudentCharacteristic>
@@ -11908,6 +11909,7 @@
 		<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateAbbreviation>
 		<PostalCode>78751</PostalCode>
 		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Doubled - up (i.e., living with another family)</AddressType>
+		<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 	</Address>
 	<ElectronicMail>
 		<ElectronicMailAddress>studentdirectoryemail5@sharklasers.com</ElectronicMailAddress>
@@ -11932,6 +11934,8 @@
 		<PostalCode>74135</PostalCode>
 		<NameOfCounty>Tulsa County</NameOfCounty>
 		<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Unsheltered</AddressType>
+		<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Primary</AddressCharacteristic>
+		<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 	</Address>
 	<Telephone>
 		<TelephoneNumber>(918) 991-0264</TelephoneNumber>

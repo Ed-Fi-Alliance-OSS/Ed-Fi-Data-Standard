@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/6.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 6.1.0 ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 6.0.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -8552,6 +8552,17 @@
   <xs:complexType name="AdditionalCreditTypeDescriptor">
     <xs:annotation>
       <xs:documentation>The type of additional credits or units of value awarded for the completion of a course.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AddressCharacteristicDescriptor">
+    <xs:annotation>
+      <xs:documentation>The address characteristic mainly to reflect if Primary and type of communication to be received, e.g.: Primary, Validated, Gets Copy of Report, Discipline Correspondence.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -22269,6 +22280,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="AddressCharacteristicDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The address characteristic mainly to reflect if Primary and type of communication to be received, e.g.: Primary, Validated, Gets Copy of Report, Discipline Correspondence.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="AddressTypeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The type of address listed for an individual or organization.</xs:documentation>
@@ -24844,6 +24864,14 @@
           <xs:documentation>A general geographic indicator that categorizes U.S. territory (e.g., City, Suburban).</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>LocaleDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AddressCharacteristic" type="AddressCharacteristicDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>The address characteristic mainly to reflect if Primary and type of communication to be received, e.g.: Primary, Validated, Gets Copy of Report, Discipline Correspondence.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>AddressCharacteristicDescriptor</ann:Descriptor>
           </xs:appinfo>
         </xs:annotation>
       </xs:element>
