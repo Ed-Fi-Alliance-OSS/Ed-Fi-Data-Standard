@@ -101,6 +101,7 @@
       <xs:enumeration value="DisplacedStudentStatusDescriptor" />
       <xs:enumeration value="DualCreditInstitutionDescriptor" />
       <xs:enumeration value="DualCreditTypeDescriptor" />
+      <xs:enumeration value="DurationIntervalDescriptor" />
       <xs:enumeration value="EconomicDisadvantageDescriptor" />
       <xs:enumeration value="EducationalEnvironmentDescriptor" />
       <xs:enumeration value="EducationOrganizationAssociationTypeDescriptor" />
@@ -125,10 +126,13 @@
       <xs:enumeration value="EvaluationRatingStatusDescriptor" />
       <xs:enumeration value="EvaluationTypeDescriptor" />
       <xs:enumeration value="EventCircumstanceDescriptor" />
+      <xs:enumeration value="EventComplianceDescriptor" />
+      <xs:enumeration value="EventReasonDescriptor" />
       <xs:enumeration value="ExitWithdrawTypeDescriptor" />
       <xs:enumeration value="FederalLocaleCodeDescriptor" />
       <xs:enumeration value="FieldworkTypeDescriptor" />
       <xs:enumeration value="FinancialCollectionDescriptor" />
+      <xs:enumeration value="FrequencyIntervalDescriptor" />
       <xs:enumeration value="FundingSourceDescriptor" />
       <xs:enumeration value="GoalTypeDescriptor" />
       <xs:enumeration value="GradebookEntryTypeDescriptor" />
@@ -142,8 +146,10 @@
       <xs:enumeration value="HiringSourceDescriptor" />
       <xs:enumeration value="HomelessPrimaryNighttimeResidenceDescriptor" />
       <xs:enumeration value="HomelessProgramServiceDescriptor" />
+      <xs:enumeration value="IDEAEventDescriptor" />
       <xs:enumeration value="IDEAPartDescriptor" />
       <xs:enumeration value="IdentificationDocumentUseDescriptor" />
+      <xs:enumeration value="IEPStatusDescriptor" />
       <xs:enumeration value="ImmunizationTypeDescriptor" />
       <xs:enumeration value="IncidentLocationDescriptor" />
       <xs:enumeration value="IndicatorDescriptor" />
@@ -251,7 +257,11 @@
       <xs:enumeration value="SectionTypeDescriptor" />
       <xs:enumeration value="SeparationDescriptor" />
       <xs:enumeration value="SeparationReasonDescriptor" />
+      <xs:enumeration value="ServiceDeliveryDescriptor" />
       <xs:enumeration value="ServiceDescriptor" />
+      <xs:enumeration value="ServiceLocationTypeDescriptor" />
+      <xs:enumeration value="ServicePrescriptionDescriptor" />
+      <xs:enumeration value="ServiceProviderTypeDescriptor" />
       <xs:enumeration value="SexDescriptor" />
       <xs:enumeration value="SourceSystemDescriptor" />
       <xs:enumeration value="SpecialEducationExitReasonDescriptor" />
