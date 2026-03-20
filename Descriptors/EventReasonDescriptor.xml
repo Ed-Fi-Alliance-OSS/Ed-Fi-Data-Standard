@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <EventReasonDescriptor>
+		<CodeValue>InitialEvaluationRequired</CodeValue>
+		<ShortDescription>InitialEvaluationRequired</ShortDescription>
+		<Description>An initial special education evaluation was required for the student.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>ParentalConsentReceived</CodeValue>
+		<ShortDescription>ParentalConsentReceived</ShortDescription>
+		<Description>Parent or guardian consent was received to proceed with evaluation or services.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>EvaluationCompleted</CodeValue>
+		<ShortDescription>EvaluationCompleted</ShortDescription>
+		<Description>The evaluation process was completed.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>EligibilityDetermined</CodeValue>
+		<ShortDescription>EligibilityDetermined</ShortDescription>
+		<Description>A determination of eligibility was made.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>InitialIEPDeveloped</CodeValue>
+		<ShortDescription>InitialIEPDeveloped</ShortDescription>
+		<Description>The student’s first IEP was developed following eligibility.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>AnnualIEPReview</CodeValue>
+		<ShortDescription>AnnualIEPReview</ShortDescription>
+		<Description>A required annual IEP review occurred.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>IEPAmended</CodeValue>
+		<ShortDescription>IEPAmended</ShortDescription>
+		<Description>The IEP was amended without a full rewrite.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>IEPApproved</CodeValue>
+		<ShortDescription>IEPApproved</ShortDescription>
+		<Description>The IEP was finalized and approved</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>ServicesInitiated</CodeValue>
+		<ShortDescription>ServicesInitiated</ShortDescription>
+		<Description>Special education or related services began.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>ServicesModified</CodeValue>
+		<ShortDescription>ServicesModified</ShortDescription>
+		<Description>Services were changed in type, frequency, or duration.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>ServiceInterruption</CodeValue>
+		<ShortDescription>ServiceInterruption</ShortDescription>
+		<Description>Services were interrupted or not delivered as prescribed.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>PlacementChange</CodeValue>
+		<ShortDescription>PlacementChange</ShortDescription>
+		<Description>The student’s educational placement changed.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>LeastRestrictiveEnvironmentReview</CodeValue>
+		<ShortDescription>LeastRestrictiveEnvironmentReview</ShortDescription>
+		<Description>An LRE determination or review was conducted.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>SecondaryTransitionPlanning</CodeValue>
+		<ShortDescription>SecondaryTransitionPlanning</ShortDescription>
+		<Description>Postsecondary transition planning activities occurred.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+    <EventReasonDescriptor>
+		<CodeValue>ComplianceDocumentation</CodeValue>
+		<ShortDescription>ComplianceDocumentation</ShortDescription>
+		<Description>The event exists to document IDEA compliance or justification.</Description>
+		<Namespace>uri://ed-fi.org/EventReasonDescriptor</Namespace>
+	</EventReasonDescriptor>
+</InterchangeDescriptors>

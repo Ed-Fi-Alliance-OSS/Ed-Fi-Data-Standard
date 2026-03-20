@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <IDEAEventDescriptor>
+		<CodeValue>Parental Consent for Evaluation Give</CodeValue>
+		<ShortDescription>Parental Consent for Evaluation Give</ShortDescription>
+		<Description>The parent or guardian has provided written consent authorizing the school district to conduct a formal evaluation to determine whether the student is eligible for special education services. This event starts the federally mandated evaluation timeline.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Evaluation Complete</CodeValue>
+		<ShortDescription>Evaluation Complete</ShortDescription>
+		<Description>The multidisciplinary team has finished assessing the student across all areas of suspected disability. Results are compiled into an evaluation report, which must be shared with the parent prior to the eligibility determination meeting.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Specific Disability Eligibility Determination</CodeValue>
+		<ShortDescription>Specific Disability Eligibility Determination</ShortDescription>
+		<Description>The IEP team has formally determined whether the student qualifies for special education services under one or more of IDEA's 13 disability categories. The outcome — eligible or not eligible — is documented and shared with the parent, along with their procedural rights.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Parental Consent for Implementing IEP Given</CodeValue>
+		<ShortDescription>Parental Consent for Implementing IEP Given</ShortDescription>
+		<Description>The parent or guardian has provided written consent authorizing the school to begin delivering the special education services and supports outlined in the student's IEP. Services may not begin until this consent is received.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Parental Consent for Implementing IEP Declined</CodeValue>
+		<ShortDescription>Parental Consent for Implementing IEP Declined</ShortDescription>
+		<Description>The parent or guardian has formally declined consent for the school to implement the student's IEP. The district is not considered in violation of FAPE as a result, and is not required to pursue services through due process.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Service Begins</CodeValue>
+		<ShortDescription>Service Begins</ShortDescription>
+		<Description>Special education and related services outlined in the student's IEP have commenced. This event marks the start of service delivery and initiates tracking of service minutes and progress toward annual goals.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Incident</CodeValue>
+		<ShortDescription>Incident</ShortDescription>
+		<Description>A significant behavioral or safety event involving the student has been documented. Incidents may trigger additional review, a functional behavioral assessment (FBA), or a manifestation determination depending on the nature and frequency of the behavior.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Removed from Least Restrictive Environment</CodeValue>
+		<ShortDescription>Removed from Least Restrictive Environment</ShortDescription>
+		<Description>The IEP team has determined that the student's needs cannot be met in a less restrictive setting, and a more restrictive placement has been authorized. The rationale and justification must be documented in the IEP.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Manifestation Determination</CodeValue>
+		<ShortDescription>Manifestation Determination</ShortDescription>
+		<Description>Following a disciplinary action that constitutes or may constitute a change of placement, the IEP team has convened to determine whether the student's behavior was caused by, or substantially related to, their disability or the school's failure to implement the IEP.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Manifestation Determination</CodeValue>
+		<ShortDescription>Manifestation Determination</ShortDescription>
+		<Description>Following a disciplinary action that constitutes or may constitute a change of placement, the IEP team has convened to determine whether the student's behavior was caused by, or substantially related to, their disability or the school's failure to implement the IEP.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Parent Complaint</CodeValue>
+		<ShortDescription>Parent Complaint</ShortDescription>
+		<Description>A parent or guardian has filed a formal complaint with the state educational agency (SEA) or local educational agency (LEA) alleging a violation of IDEA. The complaint initiates a required investigation and resolution process, typically within 60 calendar days.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Surrogate Need Identification</CodeValue>
+		<ShortDescription>Surrogate Need Identification</ShortDescription>
+		<Description>The district has determined that the student does not have a parent or guardian available to act on their behalf in the special education process. A surrogate parent must be appointed to protect the student's educational rights under IDEA.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Surrogate Assignment</CodeValue>
+		<ShortDescription>Surrogate Assignment</ShortDescription>
+		<Description>A qualified surrogate parent has been formally assigned to represent the student's interests in all matters relating to identification, evaluation, IEP development, and placement under IDEA.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Hearing Officer Assigned</CodeValue>
+		<ShortDescription>Hearing Officer Assigned</ShortDescription>
+		<Description>An impartial hearing officer has been appointed to oversee a due process proceeding. The hearing officer must be qualified, unbiased, and have no personal or professional conflict of interest with any party involved.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Hearing Conducted</CodeValue>
+		<ShortDescription>Hearing Conducted</ShortDescription>
+		<Description>A due process hearing has taken place, during which both the parent and the school district have had the opportunity to present evidence, testimony, and arguments before the impartial hearing officer.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Written Decision (SEA/LEA)</CodeValue>
+		<ShortDescription>Written Decision (SEA/LEA)</ShortDescription>
+		<Description>The hearing officer or state educational agency has issued a formal written decision based on the findings of the due process hearing or state complaint investigation. The decision is binding and subject to appeal through state or federal court.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Action Taken</CodeValue>
+		<ShortDescription>Action Taken</ShortDescription>
+		<Description>The district or agency has implemented a specific action in response to a complaint finding, hearing decision, or corrective action plan. This event documents that required steps have been carried out and compliance has been addressed.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>IEP Review Due</CodeValue>
+		<ShortDescription>IEP Review Due</ShortDescription>
+		<Description>The student's IEP is approaching or has reached its annual review deadline. Federal law requires that each IEP be reviewed at least once per year to assess progress and update goals, services, and placement as needed.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>IEP Review Complete</CodeValue>
+		<ShortDescription>IEP Review Complete</ShortDescription>
+		<Description>The annual IEP review meeting has been held, the student's progress has been assessed, and the IEP has been updated as appropriate. All required team members participated and the updated plan is ready for implementation.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Transfer Report Complete</CodeValue>
+		<ShortDescription>Transfer Report Complete</ShortDescription>
+		<Description>For a student transferring from another district or state, the receiving district has compiled available special education records and documented the student's current eligibility status, services, and IEP information.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>Transfer Student IEP Adoption</CodeValue>
+		<ShortDescription>Transfer Student IEP Adoption</ShortDescription>
+		<Description>The receiving district has formally adopted, or agreed to provide comparable services to, the transferring student's existing IEP while a new IEP is developed. This ensures continuity of services during the transition period.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>IEP Parent Consent Withdrawn</CodeValue>
+		<ShortDescription>IEP Parent Consent Withdrawn</ShortDescription>
+		<Description>The parent or guardian has revoked their previously given consent for the provision of special education services. Upon receiving written revocation, the district must cease services and is not required to hold an IEP meeting or pursue services through due process.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+    <IDEAEventDescriptor>
+		<CodeValue>IEP Complete</CodeValue>
+		<ShortDescription>IEP Complete</ShortDescription>
+		<Description>A new or revised IEP document has been finalized following a team meeting. The plan is legally in effect and must be implemented as written, with services delivered in accordance with the frequency, duration, and location specified.</Description>
+		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
+	</IDEAEventDescriptor>
+</InterchangeDescriptors>

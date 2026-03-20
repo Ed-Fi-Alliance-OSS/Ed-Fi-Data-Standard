@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <IEPGoalTypeDescriptor>
+		<CodeValue>Academic Achievement</CodeValue>
+		<ShortDescription>Academic Achievement</ShortDescription>
+		<Description>Academic Achievement</Description>
+		<Namespace>uri://ed-fi.org/IEPGoalTypeDescriptor</Namespace>
+	</IEPGoalTypeDescriptor>
+    <IEPGoalTypeDescriptor>
+		<CodeValue>Functional Performance</CodeValue>
+		<ShortDescription>Functional Performance</ShortDescription>
+		<Description>Functional Performance</Description>
+		<Namespace>uri://ed-fi.org/IEPGoalTypeDescriptor</Namespace>
+	</IEPGoalTypeDescriptor>
+    <IEPGoalTypeDescriptor>
+		<CodeValue>Transition - Functional Performance</CodeValue>
+		<ShortDescription>Transition - Functional Performance</ShortDescription>
+		<Description>Transition - Functional Performance</Description>
+		<Namespace>uri://ed-fi.org/IEPGoalTypeDescriptor</Namespace>
+	</IEPGoalTypeDescriptor>
+    <IEPGoalTypeDescriptor>
+		<CodeValue>Transition - Academic Achievement</CodeValue>
+		<ShortDescription>Transition - Academic Achievement</ShortDescription>
+		<Description>Transition - Academic Achievement</Description>
+		<Namespace>uri://ed-fi.org/IEPGoalTypeDescriptor</Namespace>
+	</IEPGoalTypeDescriptor>
+</InterchangeDescriptors>
