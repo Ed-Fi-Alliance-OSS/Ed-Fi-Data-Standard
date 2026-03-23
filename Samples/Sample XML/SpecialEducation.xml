@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeSpecialEducationDataModel xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-SpecialEducationDataModel.xsd">
+    <IDEAEvent>	
+        <StudentReference>
+			<StudentIdentity>
+				<StudentUniqueId>604854</StudentUniqueId>
+			</StudentIdentity>
+		</StudentReference>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+    </IDEAEvent>	
+</InterchangeSpecialEducationDataModel>
