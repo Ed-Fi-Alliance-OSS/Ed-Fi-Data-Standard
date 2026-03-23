@@ -97,6 +97,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="DisplacedStudentStatusDescriptor" type="DisplacedStudentStatusDescriptor" />
         <xs:element name="DualCreditInstitutionDescriptor" type="DualCreditInstitutionDescriptor" />
         <xs:element name="DualCreditTypeDescriptor" type="DualCreditTypeDescriptor" />
+        <xs:element name="DurationIntervalDescriptor" type="DurationIntervalDescriptor" />
         <xs:element name="EconomicDisadvantageDescriptor" type="EconomicDisadvantageDescriptor" />
         <xs:element name="EducationalEnvironmentDescriptor" type="EducationalEnvironmentDescriptor" />
         <xs:element name="EducationOrganizationAssociationTypeDescriptor" type="EducationOrganizationAssociationTypeDescriptor" />
@@ -121,10 +122,13 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="EvaluationRatingStatusDescriptor" type="EvaluationRatingStatusDescriptor" />
         <xs:element name="EvaluationTypeDescriptor" type="EvaluationTypeDescriptor" />
         <xs:element name="EventCircumstanceDescriptor" type="EventCircumstanceDescriptor" />
+        <xs:element name="EventComplianceDescriptor" type="EventComplianceDescriptor" />
+        <xs:element name="EventReasonDescriptor" type="EventReasonDescriptor" />
         <xs:element name="ExitWithdrawTypeDescriptor" type="ExitWithdrawTypeDescriptor" />
         <xs:element name="FederalLocaleCodeDescriptor" type="FederalLocaleCodeDescriptor" />
         <xs:element name="FieldworkTypeDescriptor" type="FieldworkTypeDescriptor" />
         <xs:element name="FinancialCollectionDescriptor" type="FinancialCollectionDescriptor" />
+        <xs:element name="FrequencyIntervalDescriptor" type="FrequencyIntervalDescriptor" />
         <xs:element name="FundingSourceDescriptor" type="FundingSourceDescriptor" />
         <xs:element name="GoalTypeDescriptor" type="GoalTypeDescriptor" />
         <xs:element name="GradebookEntryTypeDescriptor" type="GradebookEntryTypeDescriptor" />
@@ -138,8 +142,10 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="HiringSourceDescriptor" type="HiringSourceDescriptor" />
         <xs:element name="HomelessPrimaryNighttimeResidenceDescriptor" type="HomelessPrimaryNighttimeResidenceDescriptor" />
         <xs:element name="HomelessProgramServiceDescriptor" type="HomelessProgramServiceDescriptor" />
+        <xs:element name="IDEAEventDescriptor" type="IDEAEventDescriptor" />
         <xs:element name="IDEAPartDescriptor" type="IDEAPartDescriptor" />
         <xs:element name="IdentificationDocumentUseDescriptor" type="IdentificationDocumentUseDescriptor" />
+        <xs:element name="IEPStatusDescriptor" type="IEPStatusDescriptor" />
         <xs:element name="ImmunizationTypeDescriptor" type="ImmunizationTypeDescriptor" />
         <xs:element name="IncidentLocationDescriptor" type="IncidentLocationDescriptor" />
         <xs:element name="IndicatorDescriptor" type="IndicatorDescriptor" />
@@ -248,6 +254,10 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="SeparationDescriptor" type="SeparationDescriptor" />
         <xs:element name="SeparationReasonDescriptor" type="SeparationReasonDescriptor" />
         <xs:element name="ServiceDescriptor" type="ServiceDescriptor" />
+        <xs:element name="ServiceDeliveryDescriptor" type="ServiceDeliveryDescriptor" />
+        <xs:element name="ServiceLocationTypeDescriptor" type="ServiceLocationTypeDescriptor" />
+        <xs:element name="ServicePrescriptionDescriptor" type="ServicePrescriptionDescriptor" />
+        <xs:element name="ServiceProviderTypeDescriptor" type="ServiceProviderTypeDescriptor" />
         <xs:element name="SexDescriptor" type="SexDescriptor" />
         <xs:element name="SourceSystemDescriptor" type="SourceSystemDescriptor" />
         <xs:element name="SpecialEducationExitReasonDescriptor" type="SpecialEducationExitReasonDescriptor" />

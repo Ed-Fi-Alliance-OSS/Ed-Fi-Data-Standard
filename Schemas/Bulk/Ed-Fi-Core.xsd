@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/6.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 6.0.0 ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 6.1.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -3877,6 +3877,74 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="IDEAEvent">
+    <xs:annotation>
+      <xs:documentation>An IDEA related student event describing status, dates and narrative.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>A reference to the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The identifier assigned to the education organization (usually District/LEA) providing IDEA Services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IDEAEventIdentifier" type="IdentificationCode">
+            <xs:annotation>
+              <xs:documentation>	A unique identifier for the event record as assigned by the provider of IEP services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IDEAEvent" type="IDEAEventDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The IDEA event recorded for the student.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>IDEAEventDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="BeginDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The date when the IDEA related event started. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EndDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The date when the IDEA related event concluded. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EventCompliance" type="EventComplianceDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The type of compliance represented by this event.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EventComplianceDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EventNarrative" type="TextResponse" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Detailed and summary notes recorded during the event.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EventReason" type="EventReasonDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The reason why the IDEA event occurred.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EventReasonDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="Intervention">
     <xs:annotation>
       <xs:documentation>An implementation of an instructional approach focusing on the specific techniques and materials used to teach a given subject.</xs:documentation>
@@ -6997,56 +7065,6 @@
     <xs:complexContent>
       <xs:extension base="ComplexObjectType">
         <xs:sequence>
-          <xs:element name="CumulativeEarnedCredits" type="Credits" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The cumulative number of credits an individual earns by completing courses or examinations during his or her enrollment in the current school as well as those credits transferred from schools in which the individual had been previously enrolled.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="CumulativeAttemptedCredits" type="Credits" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The total number of credits a student has earned plus the total number of credits the student has attempted but not earned from distinct courses. This includes credits attempted and earned from all schools the student has been enrolled.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ClassRanking" type="ClassRanking" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The academic rank information of a student in relation to his or her graduating class.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="AcademicHonor" type="AcademicHonor" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Academic distinctions earned by or awarded to the student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Recognition" type="Recognition" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Recognitions given to the student for accomplishments in a co-curricular or extracurricular activity.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="ProjectedGraduationDate" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The month and year the student is projected to graduate.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="SessionEarnedCredits" type="Credits" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The number of credits an individual earned in this session.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="SessionAttemptedCredits" type="Credits" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The number of credits an individual attempted to earn in this session.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="GradePointAverage" type="GradePointAverage" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The grade point average for an individual computed as the grade points earned divided by the number of credits attempted.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="Diploma" type="Diploma" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Diploma(s) earned by the student.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="StudentReference" type="StudentReferenceType">
             <xs:annotation>
               <xs:documentation>Identifies the student who is associated with the student academic record.</xs:documentation>
@@ -7068,6 +7086,61 @@
               <xs:appinfo>
                 <ann:Descriptor>TermDescriptor</ann:Descriptor>
               </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="AcademicHonor" type="AcademicHonor" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Academic distinctions earned by or awarded to the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ClassRanking" type="ClassRanking" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The academic rank information of a student in relation to his or her graduating class.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CumulativeAttemptedCredits" type="Credits" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The total number of credits a student has earned plus the total number of credits the student has attempted but not earned from distinct courses. This includes credits attempted and earned from all schools the student has been enrolled.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="CumulativeEarnedCredits" type="Credits" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The cumulative number of credits an individual earns by completing courses or examinations during his or her enrollment in the current school as well as those credits transferred from schools in which the individual had been previously enrolled.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SessionAttemptedCredits" type="Credits" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The number of credits an individual attempted to earn in this session.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SessionEarnedCredits" type="Credits" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The number of credits an individual earned in this session.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Diploma" type="Diploma" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Diploma(s) earned by the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Recognition" type="Recognition" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Recognitions given to the student for accomplishments in a co-curricular or extracurricular activity.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="GradePointAverage" type="GradePointAverage" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The grade point average for an individual computed as the grade points earned divided by the number of credits attempted.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="GraduationStatusOptIn" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates whether the student wishes to share their graduation status information with requesters.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ProjectedGraduationDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The month and year the student is projected to graduate.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ReportCardReference" type="ReportCardReferenceType" minOccurs="0" maxOccurs="unbounded">
@@ -7739,6 +7812,255 @@
           <xs:element name="AssigningOrganizationIdentificationCode" type="AssigningOrganizationIdentificationCode" minOccurs="0">
             <xs:annotation>
               <xs:documentation>the organization code or name assigning the IdentificationCode.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentIEP">
+    <xs:annotation>
+      <xs:documentation>This entity represents an Individualized Education Program (IEP) for a student receiving special education services. The IEP is a legally required document that outlines a student's special education services.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentReference" type="StudentReferenceType">
+            <xs:annotation>
+              <xs:documentation>A reference to the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The identifier assigned to the education organization (usually District/LEA) providing IEP Services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentIEPIdentifier" type="IdentificationCode">
+            <xs:annotation>
+              <xs:documentation>A unique identifier assigned by the provider or source system of IEP services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPFinalizedDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The date the IEP was finalized. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPBeginDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The projected date for the beginning of special education and related services. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPEndDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The effective end date of the IEP. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPStatus" type="IEPStatusDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The current status of the IEP.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>IEPStatusDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Accommodation" type="AccommodationDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The special variation(s) to be used in how various services (in general) are presented, how they are administered, or how the student is allowed to respond. This generally refers to changes that do not substantially alter the content that the service renders. The proper use of accommodations does not substantially change academic level or performance criteria.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>AccommodationDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Disability" type="Disability" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The disability condition(s) that best describes an individual's impairment, as determined by evaluation(s) conducted by the education organization.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IDEAEventReference" type="IDEAEventReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A reference to the IDEA events associated with the student's IEP.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPAmendedDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The date when the IEP was last amended, if any. When amended, a new StudentIEP should be created with the amended data recorded. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="MedicallyFragile" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates whether the student receiving special education and related services is: 1) in the age range of birth to 22 years, and 2) has a serious, ongoing illness or a chronic condition that has lasted or is anticipated to last at least 12 or more months or has required at least one month of hospitalization, and that requires daily, ongoing medical treatments and monitoring by appropriately trained personnel which may include parents or other family members, and 3) requires the routine use of medical device or of assistive technology to compensate for the loss of usefulness of a body function needed to participate in activities of daily living, and 4) lives with ongoing threat to his or her continued well-being. Aligns with federal requirements.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="MultiplyDisabled" type="xs:boolean" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates whether the student receiving special education and related services has been designated as multiply disabled by the admission, review, and dismissal committee as aligned with federal requirements.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ReasonExited" type="ReasonExitedDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The reason why a person stops receiving special education services.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>ReasonExitedDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SchoolHoursPerWeek" type="HoursPerWeek" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicate the total number of hours of instructional time per week for the school that the student attends.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SpecialEducationHoursPerWeek" type="HoursPerWeek" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Indicates the total number of hours of time per week specific to special education related services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SpecialEducationSetting" type="SpecialEducationSettingDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The major instructional setting (more than 50 percent of a student's special education program).</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SpecialEducationSettingDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPServiceDelivery">
+    <xs:annotation>
+      <xs:documentation>Services delivered to a student as prescribed by their Individual Education Program (IEP).</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentIEPReference" type="StudentIEPReferenceType">
+            <xs:annotation>
+              <xs:documentation>The student and IEP associated with the delivery of prescribed services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPServiceDeliveryIdentifier" type="IdentificationCode">
+            <xs:annotation>
+              <xs:documentation>A unique identifier assigned by the provider of IEP services for the delivery record.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ServiceDelivery" type="ServiceDeliveryDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The type of services delivered to the student.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>ServiceDeliveryDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ServiceDeliveryDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The date when prescribed services were delivered for a student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IDEAEventReference" type="IDEAEventReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A reference to one or more student IDEA events.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Provider" type="Provider" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The service provider that delivered the prescribed service to the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StudentIEPServicePrescriptionReference" type="StudentIEPServicePrescriptionReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identifies the service prescribed for the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPServicePrescription">
+    <xs:annotation>
+      <xs:documentation>The service prescribed to a student as part of their Individual Education Program (IEP).</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentIEPReference" type="StudentIEPReferenceType">
+            <xs:annotation>
+              <xs:documentation>The IEP for which the service is prescribed.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ServicePrescription" type="ServicePrescriptionDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The type of service prescribed. Examples include: Auditory Specialist, Vocational Therapy.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>ServicePrescriptionDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ServicePrescriptionDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The date the service was prescribed.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="BeginDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The effective date when service is to begin. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Duration" type="Duration">
+            <xs:annotation>
+              <xs:documentation>The length of time for the prescribed service in minutes.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="DurationInterval" type="DurationIntervalDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>How often the prescribed service is to be provided within the specified duration period. Examples include: Per Session, Per Week, Per Month.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>DurationIntervalDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EndDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The effective date when the prescribed service ended. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Frequency" type="Frequency">
+            <xs:annotation>
+              <xs:documentation>The number of times the prescribed service is to be provided within the specified duration period.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="FrequencyInterval" type="FrequencyIntervalDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>How often the frequency should repeat for the prescribed service. Examples include: Per Session, Weekly, Monthly.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>FrequencyIntervalDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IDEAEventReference" type="IDEAEventReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A reference to one or more IDEA events associated with a student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ServiceLocationType" type="ServiceLocationTypeDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>The type of location where the prescribed service is to be provided. Examples include: Home, Hospital, School</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>ServiceLocationTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StaffReference" type="StaffReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A reference to the staff member(s) assigned to provide the prescribed service.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -9422,6 +9744,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="DurationIntervalDescriptor">
+    <xs:annotation>
+      <xs:documentation>The frequency period for the prescribed service duration. Examples include: Per Session, Per Week, Per Month.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="EconomicDisadvantageDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the type of economic disadvantage experienced by an individual.</xs:documentation>
@@ -9686,6 +10019,28 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="EventComplianceDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type of compliance represented by this event.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EventReasonDescriptor">
+    <xs:annotation>
+      <xs:documentation>The reason why the IDEA event occurred.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="ExitWithdrawTypeDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the circumstances under which the student exited from membership in an educational institution.</xs:documentation>
@@ -9722,6 +10077,17 @@
   <xs:complexType name="FinancialCollectionDescriptor">
     <xs:annotation>
       <xs:documentation>The accounting period or grouping for which financial information is collected.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="FrequencyIntervalDescriptor">
+    <xs:annotation>
+      <xs:documentation>The frequency period for the prescribed service. Examples include: Session, Week, Month.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -9873,6 +10239,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="IDEAEventDescriptor">
+    <xs:annotation>
+      <xs:documentation>The IDEA event recorded for the student.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="IDEAPartDescriptor">
     <xs:annotation>
       <xs:documentation>Indicates if the evaluation is done under Part B IDEA or Part C IDEA.</xs:documentation>
@@ -9887,6 +10264,17 @@
   <xs:complexType name="IdentificationDocumentUseDescriptor">
     <xs:annotation>
       <xs:documentation>Identifies the type of use given to an identification document.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="IEPStatusDescriptor">
+    <xs:annotation>
+      <xs:documentation>The current status of the IEP.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -11072,9 +11460,53 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="ServiceDeliveryDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type of service provided to a student.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="ServiceDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ServiceLocationTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>The location type where the prescribed service is to be provided. Examples include: Home, Hospital, School.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ServicePrescriptionDescriptor">
+    <xs:annotation>
+      <xs:documentation>The type of service prescribed.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ServiceProviderTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>Indicates service provider type, including specialist, internal staff, external staff, etc.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -16778,6 +17210,58 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="IDEAEventIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of an IDEAEvent.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>A reference to the student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The identifier assigned to the education organization (usually District/LEA) providing IDEA Services.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IDEAEventIdentifier" type="IdentificationCode">
+        <xs:annotation>
+          <xs:documentation>	A unique identifier for the event record as assigned by the provider of IEP services.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IDEAEvent" type="IDEAEventDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The IDEA event recorded for the student.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>IDEAEventDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IDEAEventReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for an IDEAEvent. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="IDEAEventIdentity" type="IDEAEventIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of an IDEAEvent.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="InterventionIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of an Intervention.</xs:documentation>
@@ -20520,6 +21004,154 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="StudentIEPIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentIEP.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentReference" type="StudentReferenceType">
+        <xs:annotation>
+          <xs:documentation>A reference to the student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The identifier assigned to the education organization (usually District/LEA) providing IEP Services.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="StudentIEPIdentifier" type="IdentificationCode">
+        <xs:annotation>
+          <xs:documentation>A unique identifier assigned by the provider or source system of IEP services.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IEPFinalizedDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>The date the IEP was finalized. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentIEP. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentIEPIdentity" type="StudentIEPIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentIEP.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPServiceDeliveryIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentIEPServiceDelivery.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentIEPReference" type="StudentIEPReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student and IEP associated with the delivery of prescribed services.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IEPServiceDeliveryIdentifier" type="IdentificationCode">
+        <xs:annotation>
+          <xs:documentation>A unique identifier assigned by the provider of IEP services for the delivery record.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ServiceDelivery" type="ServiceDeliveryDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The type of services delivered to the student.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>ServiceDeliveryDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ServiceDeliveryDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>The date when prescribed services were delivered for a student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPServiceDeliveryReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentIEPServiceDelivery. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentIEPServiceDeliveryIdentity" type="StudentIEPServiceDeliveryIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentIEPServiceDelivery.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPServicePrescriptionIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentIEPServicePrescription.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentIEPReference" type="StudentIEPReferenceType">
+        <xs:annotation>
+          <xs:documentation>The IEP for which the service is prescribed.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ServicePrescription" type="ServicePrescriptionDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>The type of service prescribed. Examples include: Auditory Specialist, Vocational Therapy.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>ServicePrescriptionDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ServicePrescriptionDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>The date the service was prescribed.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPServicePrescriptionReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentIEPServicePrescription. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentIEPServicePrescriptionIdentity" type="StudentIEPServicePrescriptionIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentIEPServicePrescription.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentInterventionAssociationIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a StudentInterventionAssociation.</xs:documentation>
@@ -22986,6 +23618,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="DurationIntervalDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The frequency period for the prescribed service duration. Examples include: Per Session, Per Week, Per Month.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="EconomicDisadvantageDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the type of economic disadvantage experienced by an individual.</xs:documentation>
@@ -23202,6 +23843,24 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="EventComplianceDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type of compliance represented by this event.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="EventReasonDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The reason why the IDEA event occurred.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="ExitWithdrawTypeDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the circumstances under which the student exited from membership in an educational institution.</xs:documentation>
@@ -23232,6 +23891,15 @@
   <xs:simpleType name="FinancialCollectionDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The accounting period or grouping for which financial information is collected.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="FrequencyIntervalDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The frequency period for the prescribed service. Examples include: Session, Week, Month.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -23355,6 +24023,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="IDEAEventDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The IDEA event recorded for the student.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="IDEAPartDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>Indicates if the evaluation is done under Part B IDEA or Part C IDEA.</xs:documentation>
@@ -23367,6 +24044,15 @@
   <xs:simpleType name="IdentificationDocumentUseDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>Identifies the type of use given to an identification document.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="IEPStatusDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The current status of the IEP.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -24336,9 +25022,45 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="ServiceDeliveryDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type of service provided to a student.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="ServiceDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor defines the services provided by an education organization to populations of students associated with a program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="ServiceLocationTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The location type where the prescribed service is to be provided. Examples include: Home, Hospital, School.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="ServicePrescriptionDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The type of service prescribed.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="ServiceProviderTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Indicates service provider type, including specialist, internal staff, external staff, etc.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -24843,7 +25565,7 @@
       </xs:element>
       <xs:element name="AddressType" type="AddressTypeDescriptorReferenceType">
         <xs:annotation>
-          <xs:documentation>The type of address listed for an individual or organization.    For example:  Physical Address, Mailing Address, Home Address, etc.)</xs:documentation>
+          <xs:documentation>The type of address listed for an individual or organization. (For example:  Physical Address, Mailing Address, Home Address, etc.)</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>AddressTypeDescriptor</ann:Descriptor>
           </xs:appinfo>
@@ -26381,7 +27103,7 @@
     <xs:sequence>
       <xs:element name="AddressType" type="AddressTypeDescriptorReferenceType">
         <xs:annotation>
-          <xs:documentation>The type of address listed for an individual or organization. For example:  Physical Address, Mailing Address, Home Address, etc.)</xs:documentation>
+          <xs:documentation>The type of address listed for an individual or organization. (For example:  Physical Address, Mailing Address, Home Address, etc.)</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>AddressTypeDescriptor</ann:Descriptor>
           </xs:appinfo>
@@ -27296,6 +28018,54 @@
       <xs:element name="DesignatedBy" type="DesignatedBy" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The person, organization, or department that designated the participation status.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Provider">
+    <xs:annotation>
+      <xs:documentation>The student's special education service provider, either internal or external.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="FirstName" type="FirstName">
+        <xs:annotation>
+          <xs:documentation>A name given to an individual at birth, baptism, or during another naming ceremony, or through legal change.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="LastSurname" type="LastSurname">
+        <xs:annotation>
+          <xs:documentation>The name borne in common by members of a family.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="MiddleName" type="MiddleName" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>A secondary name given to an individual at birth, baptism, or during another naming ceremony.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PrimaryProvider" type="xs:boolean" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Indicates that this provider was the Primary Service Provider.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ProviderCode" type="Code" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>A code assigned to the service provider.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ServiceProviderType" type="ServiceProviderTypeDescriptorReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Indicates service provider type, including specialist, internal staff, external staff, etc.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>ServiceProviderTypeDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="StaffReference" type="StaffReferenceType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The staff member providing the service, if applicable.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -30704,6 +31474,18 @@
       <xs:minInclusive value="0" />
       <xs:maxInclusive value="1" />
       <xs:totalDigits value="3" />
+      <xs:fractionDigits value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Frequency">
+    <xs:annotation>
+      <xs:documentation>The number of times the prescribed service is to be provided within the specified duration period.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="9" />
       <xs:fractionDigits value="2" />
     </xs:restriction>
   </xs:simpleType>
