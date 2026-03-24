@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
     <IDEAEventDescriptor>
-		<CodeValue>Parental Consent for Evaluation Give</CodeValue>
-		<ShortDescription>Parental Consent for Evaluation Give</ShortDescription>
+		<CodeValue>Parental Consent for Evaluation Given</CodeValue>
+		<ShortDescription>Parental Consent for Evaluation Given</ShortDescription>
 		<Description>The parent or guardian has provided written consent authorizing the school district to conduct a formal evaluation to determine whether the student is eligible for special education services. This event starts the federally mandated evaluation timeline.</Description>
 		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
 	</IDEAEventDescriptor>
@@ -46,12 +46,6 @@
 		<CodeValue>Removed from Least Restrictive Environment</CodeValue>
 		<ShortDescription>Removed from Least Restrictive Environment</ShortDescription>
 		<Description>The IEP team has determined that the student's needs cannot be met in a less restrictive setting, and a more restrictive placement has been authorized. The rationale and justification must be documented in the IEP.</Description>
-		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
-	</IDEAEventDescriptor>
-    <IDEAEventDescriptor>
-		<CodeValue>Manifestation Determination</CodeValue>
-		<ShortDescription>Manifestation Determination</ShortDescription>
-		<Description>Following a disciplinary action that constitutes or may constitute a change of placement, the IEP team has convened to determine whether the student's behavior was caused by, or substantially related to, their disability or the school's failure to implement the IEP.</Description>
 		<Namespace>uri://ed-fi.org/IDEAEventDescriptor</Namespace>
 	</IDEAEventDescriptor>
     <IDEAEventDescriptor>
