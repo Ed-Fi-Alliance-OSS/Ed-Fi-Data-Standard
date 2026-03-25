@@ -13093,12 +13093,12 @@
           </xs:element>
           <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
             <xs:annotation>
-              <xs:documentation>A reference to the education organization.</xs:documentation>
+              <xs:documentation>A reference to the education organization that reports this record.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="Responsibility" type="ResponsibilityDescriptorReferenceType">
             <xs:annotation>
-              <xs:documentation>Indications of an education organization's responsibility for a student, such as accountability, attendance, funding, etc.</xs:documentation>
+              <xs:documentation>The type of responsibility that the responsible education organization has for the student (for example, accountability, residency, funding).</xs:documentation>
               <xs:appinfo>
                 <ann:Descriptor>ResponsibilityDescriptor</ann:Descriptor>
               </xs:appinfo>
@@ -13112,6 +13112,11 @@
           <xs:element name="EndDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Month, day, and year of the end date of an education organization's responsibility for a student.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ResponsibleEducationOrganizationReference" type="EducationOrganizationReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The organization for which the responsibility relationship to the student exists.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -13487,7 +13492,7 @@
           </xs:element>
           <xs:element name="FullTimeEquivalency" type="FullTimeEquivalency" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The full-time equivalent ratio for the student’s assignment to a school for services or instruction. For example, a full-time student would have an FTE value of 1 while a half-time student would have an FTE value of 0.5.</xs:documentation>
+              <xs:documentation>The full-time equivalent ratio for the student's assignment to a school for services or instruction. For example, a full-time student would have an FTE value of 1 while a half-time student would have an FTE value of 0.5.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="TermCompletionIndicator" type="xs:boolean" minOccurs="0">
@@ -20778,12 +20783,12 @@
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
         <xs:annotation>
-          <xs:documentation>A reference to the education organization.</xs:documentation>
+          <xs:documentation>A reference to the education organization that reports this record.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="Responsibility" type="ResponsibilityDescriptorReferenceType">
         <xs:annotation>
-          <xs:documentation>Indications of an education organization's responsibility for a student, such as accountability, attendance, funding, etc.</xs:documentation>
+          <xs:documentation>The type of responsibility that the responsible education organization has for the student (for example, accountability, residency, funding).</xs:documentation>
           <xs:appinfo>
             <ann:Descriptor>ResponsibilityDescriptor</ann:Descriptor>
           </xs:appinfo>

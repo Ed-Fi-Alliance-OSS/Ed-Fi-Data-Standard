@@ -541427,6 +541427,11 @@
 		</EducationOrganizationReference>
 		<Responsibility>uri://ed-fi.org/ResponsibilityDescriptor#Residency</Responsibility>
 		<BeginDate>2021-08-23</BeginDate>
+		<ResponsibleEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</ResponsibleEducationOrganizationReference>
 	</StudentEducationOrganizationResponsibilityAssociation>
 	<StudentEducationOrganizationResponsibilityAssociation>
 		<StudentReference>
@@ -541441,6 +541446,11 @@
 		</EducationOrganizationReference>
 		<Responsibility>uri://ed-fi.org/ResponsibilityDescriptor#Residency</Responsibility>
 		<BeginDate>2021-08-23</BeginDate>
+		<ResponsibleEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</ResponsibleEducationOrganizationReference>
 	</StudentEducationOrganizationResponsibilityAssociation>
 	<StudentEducationOrganizationResponsibilityAssociation>
 		<StudentReference>
