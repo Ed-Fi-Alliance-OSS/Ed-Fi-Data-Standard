@@ -2823,7 +2823,7 @@
 			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
-	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Teletherapy (Small Group Virtual)</ServiceLocationType>
+	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Teletherapy(Small Group Virtual)</ServiceLocationType>
 	<StaffReference>
 		<StaffIdentity>
 			<StaffUniqueId>207231</StaffUniqueId>
