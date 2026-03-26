@@ -7123,24 +7123,19 @@
               <xs:documentation>Diploma(s) earned by the student.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="Recognition" type="Recognition" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>Recognitions given to the student for accomplishments in a co-curricular or extracurricular activity.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="GradePointAverage" type="GradePointAverage" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The grade point average for an individual computed as the grade points earned divided by the number of credits attempted.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="GraduationStatusOptIn" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicates whether the student wishes to share their graduation status information with requesters.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
           <xs:element name="ProjectedGraduationDate" type="xs:date" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The month and year the student is projected to graduate.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Recognition" type="Recognition" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Recognitions given to the student for accomplishments in a co-curricular or extracurricular activity.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="ReportCardReference" type="ReportCardReferenceType" minOccurs="0" maxOccurs="unbounded">
@@ -7923,6 +7918,53 @@
               <xs:appinfo>
                 <ann:Descriptor>SpecialEducationSettingDescriptor</ann:Descriptor>
               </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPGoal">
+    <xs:annotation>
+      <xs:documentation>A goal prescribed to a student as part of their Individual Education Program (IEP).</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentIEPReference" type="StudentIEPReferenceType">
+            <xs:annotation>
+              <xs:documentation>The student IEP for which the goal is prescribed.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPGoalIdentifier" type="IdentificationCode">
+            <xs:annotation>
+              <xs:documentation>A unique identifier assigned by the provider of IEP services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPGoalDetails" type="TextResponse">
+            <xs:annotation>
+              <xs:documentation>Instructions or other details specific to the student and/or provider for achieving the stated goal.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IEPGoalType" type="IEPGoalTypeDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>A focused goal prescribed as part of the IEP. Examples include Academic Goal, Behavioral Goal, Attendance Goal.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>IEPGoalTypeDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="GoalAchievementPeriod" type="Period" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The time period for which the goal is applicable or effective.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="IDEAEventReference" type="IDEAEventReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A reference to one or more IDEA events associated with a student.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -10264,6 +10306,17 @@
   <xs:complexType name="IdentificationDocumentUseDescriptor">
     <xs:annotation>
       <xs:documentation>Identifies the type of use given to an identification document.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="IEPGoalTypeDescriptor">
+    <xs:annotation>
+      <xs:documentation>A focused goal for an Individualized Education Program (IEP).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -21009,6 +21062,45 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="StudentIEPGoalIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentIEPGoal.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentIEPReference" type="StudentIEPReferenceType">
+        <xs:annotation>
+          <xs:documentation>The student IEP for which the goal is prescribed.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IEPGoalIdentifier" type="IdentificationCode">
+        <xs:annotation>
+          <xs:documentation>A unique identifier assigned by the provider of IEP services.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPGoalReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentIEPGoal. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentIEPGoalIdentity" type="StudentIEPGoalIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentIEPGoal.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="StudentIEPIdentityType">
     <xs:annotation>
       <xs:documentation>Identity of a StudentIEP.</xs:documentation>
@@ -24049,6 +24141,15 @@
   <xs:simpleType name="IdentificationDocumentUseDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>Identifies the type of use given to an identification document.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="IEPGoalTypeDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>A focused goal for an Individualized Education Program (IEP).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>

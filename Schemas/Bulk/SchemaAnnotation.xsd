@@ -149,6 +149,7 @@
       <xs:enumeration value="IDEAEventDescriptor" />
       <xs:enumeration value="IDEAPartDescriptor" />
       <xs:enumeration value="IdentificationDocumentUseDescriptor" />
+      <xs:enumeration value="IEPGoalTypeDescriptor" />
       <xs:enumeration value="IEPStatusDescriptor" />
       <xs:enumeration value="ImmunizationTypeDescriptor" />
       <xs:enumeration value="IncidentLocationDescriptor" />

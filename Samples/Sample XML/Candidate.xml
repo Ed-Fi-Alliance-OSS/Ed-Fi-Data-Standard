@@ -271727,7 +271727,6 @@
 			<IsCumulative>true</IsCumulative>
 			<GradePointAverageValue>3</GradePointAverageValue>
 		</GradePointAverage>
-    <GraduationStatusOptIn>true</GraduationStatusOptIn>
 		<ProjectedGraduationDate>2018-06-22</ProjectedGraduationDate>
 </StudentAcademicRecord>
 	<StudentAcademicRecord>
@@ -271748,7 +271747,6 @@
 			<IsCumulative>true</IsCumulative>
 			<GradePointAverageValue>3.5</GradePointAverageValue>
 		</GradePointAverage>
-    <GraduationStatusOptIn>false</GraduationStatusOptIn>
 		<ProjectedGraduationDate>2017-01-11</ProjectedGraduationDate>
 </StudentAcademicRecord>
 	<StudentAcademicRecord>
@@ -271769,7 +271767,6 @@
 			<IsCumulative>true</IsCumulative>
 			<GradePointAverageValue>3</GradePointAverageValue>
 		</GradePointAverage>
-    <GraduationStatusOptIn>true</GraduationStatusOptIn>
 		<ProjectedGraduationDate>2017-06-30</ProjectedGraduationDate>
 </StudentAcademicRecord>
 	<StudentAcademicRecord>
@@ -271790,7 +271787,6 @@
 			<IsCumulative>true</IsCumulative>
 			<GradePointAverageValue>2.5</GradePointAverageValue>
 		</GradePointAverage>
-    <GraduationStatusOptIn>true</GraduationStatusOptIn>
 		<ProjectedGraduationDate>2018-08-06</ProjectedGraduationDate>
 </StudentAcademicRecord>
 	<StudentAcademicRecord>
