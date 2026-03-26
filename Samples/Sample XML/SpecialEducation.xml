@@ -975,7 +975,7 @@
 		<ReasonExited>uri://ed-fi.org/ReasonExitedDescriptor#Received certificate of completion or equivalent</ReasonExited>
 		<SchoolHoursPerWeek>8.34</SchoolHoursPerWeek>
 		<SpecialEducationHoursPerWeek>8.34</SpecialEducationHoursPerWeek>
-		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Other early childhood location (less than 10 hours)</SpecialEducationSetting>
+		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Regular early childhood program (less than 10 hrs)</SpecialEducationSetting>
     </StudentIEP>
     <StudentIEP>
 		<StudentReference>
@@ -1997,7 +1997,7 @@
 		<ReasonExited>uri://ed-fi.org/ReasonExitedDescriptor#Transferred to regular education</ReasonExited>
 		<SchoolHoursPerWeek>24.88</SchoolHoursPerWeek>
 		<SpecialEducationHoursPerWeek>24.88</SpecialEducationHoursPerWeek>
-		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Other early childhood location (less than 10 hours)</SpecialEducationSetting>
+		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Other early childhood location (10+ hrs)</SpecialEducationSetting>
     </StudentIEP>
     <StudentIEP>
 		<StudentReference>

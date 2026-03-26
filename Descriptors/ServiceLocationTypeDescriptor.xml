@@ -61,9 +61,9 @@
 		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
 	</ServiceLocationTypeDescriptor>
     <ServiceLocationTypeDescriptor>
-		<CodeValue>Special Education Teletherapy(Small Group Virt)</CodeValue>
-		<ShortDescription>Special Education Teletherapy(Small Group Virt)</ShortDescription>
-		<Description>Special Education Teletherapy(Small Group Virt)</Description>
+		<CodeValue>Special Education Teletherapy(Small Group Virtual)</CodeValue>
+		<ShortDescription>Special Education Teletherapy(Small Group Virtual)</ShortDescription>
+		<Description>Special Education Teletherapy(Small Group Virtual)</Description>
 		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
 	</ServiceLocationTypeDescriptor>
     <ServiceLocationTypeDescriptor>
