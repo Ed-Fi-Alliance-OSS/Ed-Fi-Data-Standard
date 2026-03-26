@@ -145,6 +145,7 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="IDEAEventDescriptor" type="IDEAEventDescriptor" />
         <xs:element name="IDEAPartDescriptor" type="IDEAPartDescriptor" />
         <xs:element name="IdentificationDocumentUseDescriptor" type="IdentificationDocumentUseDescriptor" />
+        <xs:element name="IEPGoalTypeDescriptor" type="IEPGoalTypeDescriptor" />
         <xs:element name="IEPStatusDescriptor" type="IEPStatusDescriptor" />
         <xs:element name="ImmunizationTypeDescriptor" type="ImmunizationTypeDescriptor" />
         <xs:element name="IncidentLocationDescriptor" type="IncidentLocationDescriptor" />
