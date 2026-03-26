@@ -17,7 +17,6 @@
         <EndDate>2024-01-29</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAInitialEvaluationTimeline</EventCompliance>
         <EventNarrative>Parent provided written consent for initial evaluation of student.</EventNarrative>
-        <EventReason>uri://ed-fi.org/EventReasonDescriptor#InitialEvaluationRequired</EventReason>
     </IDEAEvent>
     <IDEAEvent>
         <StudentReference>
@@ -35,7 +34,6 @@
         <BeginDate>2024-02-28</BeginDate>
         <EndDate>2024-03-20</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAReevaluationTimeline</EventCompliance>
-        <EventNarrative>Comprehensive evaluation completed by the multidisciplinary team.</EventNarrative>
         <EventReason>uri://ed-fi.org/EventReasonDescriptor#ParentalConsentReceived</EventReason>
     </IDEAEvent>
     <IDEAEvent>
@@ -53,7 +51,6 @@
         <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
         <BeginDate>2024-03-10</BeginDate>
         <EndDate>2024-04-09</EndDate>
-        <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAEligibilityDetermination</EventCompliance>
         <EventNarrative>Team determined student eligibility for special education services.</EventNarrative>
         <EventReason>uri://ed-fi.org/EventReasonDescriptor#EvaluationCompleted</EventReason>
     </IDEAEvent>
@@ -71,10 +68,6 @@
         <IDEAEventIdentifier>EVT-004</IDEAEventIdentifier>
         <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
         <BeginDate>2024-04-22</BeginDate>
-        <EndDate>2024-06-06</EndDate>
-        <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPDevelopment</EventCompliance>
-        <EventNarrative>Parent provided written consent to implement the developed IEP.</EventNarrative>
-        <EventReason>uri://ed-fi.org/EventReasonDescriptor#EligibilityDetermined</EventReason>
     </IDEAEvent>
     <IDEAEvent>
         <StudentReference>
@@ -513,7 +506,7 @@
         <EventNarrative>Secondary transition plan reviewed and updated for student.</EventNarrative>
         <EventReason>uri://ed-fi.org/EventReasonDescriptor#PlacementChange</EventReason>
     </IDEAEvent>
-	    <StudentIEP>
+	<StudentIEP>
 		<StudentReference>
 			<StudentIdentity>
 				<StudentUniqueId>604854</StudentUniqueId>
@@ -590,7 +583,6 @@
 		<ReasonExited>uri://ed-fi.org/ReasonExitedDescriptor#Died or is permanently incapacitated</ReasonExited>
 		<SchoolHoursPerWeek>1.23</SchoolHoursPerWeek>
 		<SpecialEducationHoursPerWeek>1.23</SpecialEducationHoursPerWeek>
-		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Correctional facilities</SpecialEducationSetting>
     </StudentIEP>
     <StudentIEP>
 		<StudentReference>
@@ -640,7 +632,6 @@
 		<MultiplyDisabled>true</MultiplyDisabled>
 		<ReasonExited>uri://ed-fi.org/ReasonExitedDescriptor#Discontinued schooling</ReasonExited>
 		<SchoolHoursPerWeek>2.87</SchoolHoursPerWeek>
-		<SpecialEducationHoursPerWeek>2.87</SpecialEducationHoursPerWeek>
 		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Home</SpecialEducationSetting>
     </StudentIEP>
     <StudentIEP>
@@ -662,46 +653,6 @@
 		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Other</Accommodation>
 		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Scheduling accommodation</Accommodation>
 		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Settings accommodation</Accommodation>
-		<Disability>
-			<Disability>uri://ed-fi.org/DisabilityDescriptor#Hearing Impairment, including Deafness</Disability>
-		</Disability>
-		<IDEAEventReference>
-			<IDEAEventIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>604823</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<EducationOrganizationReference>
-					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901</EducationOrganizationId>
-					</EducationOrganizationIdentity>
-				</EducationOrganizationReference>
-				<IDEAEventIdentifier>EVT-003</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
-			</IDEAEventIdentity>
-		</IDEAEventReference>
-		<IDEAEventReference>
-			<IDEAEventIdentity>
-				<StudentReference>
-					<StudentIdentity>
-						<StudentUniqueId>604823</StudentUniqueId>
-					</StudentIdentity>
-				</StudentReference>
-				<EducationOrganizationReference>
-					<EducationOrganizationIdentity>
-						<EducationOrganizationId>255901</EducationOrganizationId>
-					</EducationOrganizationIdentity>
-				</EducationOrganizationReference>
-				<IDEAEventIdentifier>EVT-004</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
-			</IDEAEventIdentity>
-		</IDEAEventReference>
-		<IEPAmendedDate>2024-04-19</IEPAmendedDate>
-		<MedicallyFragile>false</MedicallyFragile>
-		<MultiplyDisabled>false</MultiplyDisabled>
-		<ReasonExited>uri://ed-fi.org/ReasonExitedDescriptor#Graduated with a high school diploma</ReasonExited>
-		<SchoolHoursPerWeek>3.45</SchoolHoursPerWeek>
 		<SpecialEducationHoursPerWeek>3.45</SpecialEducationHoursPerWeek>
 		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Homebound/Hospital</SpecialEducationSetting>
     </StudentIEP>
@@ -721,7 +672,6 @@
 		<IEPBeginDate>2024-04-22</IEPBeginDate>
 		<IEPEndDate>2024-11-03</IEPEndDate>
 		<IEPStatus>uri://ed-fi.org/IEPStatusDescriptor#Inactive</IEPStatus>
-		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#Scheduling accommodation</Accommodation>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Intellectual Disability</Disability>
 		</Disability>
@@ -2283,11 +2233,6 @@
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Bus/District Transportation</ServiceLocationType>
-	<StaffReference>
-		<StaffIdentity>
-			<StaffUniqueId>207258</StaffUniqueId>
-		</StaffIdentity>
-	</StaffReference>
 </StudentIEPServicePrescription>
 <StudentIEPServicePrescription>
 	<StudentIEPReference>
@@ -2352,6 +2297,11 @@
 			<StaffUniqueId>207220</StaffUniqueId>
 		</StaffIdentity>
 	</StaffReference>
+	<StaffReference>
+		<StaffIdentity>
+			<StaffUniqueId>207258</StaffUniqueId>
+		</StaffIdentity>
+	</StaffReference>
 </StudentIEPServicePrescription>
 <StudentIEPServicePrescription>
 	<StudentIEPReference>
@@ -2375,57 +2325,8 @@
 	<BeginDate>2024-03-10</BeginDate>
 	<Duration>12</Duration>
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</DurationInterval>
-	<EndDate>2024-09-16</EndDate>
 	<Frequency>3.45</Frequency>
 	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</FrequencyInterval>
-	<IDEAEventReference>
-		<IDEAEventIdentity>
-			<StudentReference>
-				<StudentIdentity>
-					<StudentUniqueId>604823</StudentUniqueId>
-				</StudentIdentity>
-			</StudentReference>
-			<EducationOrganizationReference>
-				<EducationOrganizationIdentity>
-					<EducationOrganizationId>255901</EducationOrganizationId>
-				</EducationOrganizationIdentity>
-			</EducationOrganizationReference>
-			<IDEAEventIdentifier>EVT-003</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
-		</IDEAEventIdentity>
-	</IDEAEventReference>
-	<IDEAEventReference>
-		<IDEAEventIdentity>
-			<StudentReference>
-				<StudentIdentity>
-					<StudentUniqueId>604823</StudentUniqueId>
-				</StudentIdentity>
-			</StudentReference>
-			<EducationOrganizationReference>
-				<EducationOrganizationIdentity>
-					<EducationOrganizationId>255901</EducationOrganizationId>
-				</EducationOrganizationIdentity>
-			</EducationOrganizationReference>
-			<IDEAEventIdentifier>EVT-004</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
-		</IDEAEventIdentity>
-	</IDEAEventReference>
-	<IDEAEventReference>
-		<IDEAEventIdentity>
-			<StudentReference>
-				<StudentIdentity>
-					<StudentUniqueId>604823</StudentUniqueId>
-				</StudentIdentity>
-			</StudentReference>
-			<EducationOrganizationReference>
-				<EducationOrganizationIdentity>
-					<EducationOrganizationId>255901</EducationOrganizationId>
-				</EducationOrganizationIdentity>
-			</EducationOrganizationReference>
-			<IDEAEventIdentifier>EVT-005</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
-		</IDEAEventIdentity>
-	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Classroom</ServiceLocationType>
 	<StaffReference>
 		<StaffIdentity>
@@ -4017,28 +3918,6 @@
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-001</ProviderCode>
 	</Provider>
-	<StudentIEPServicePrescriptionReference>
-		<StudentIEPServicePrescriptionIdentity>
-			<StudentIEPReference>
-				<StudentIEPIdentity>
-					<StudentReference>
-						<StudentIdentity>
-							<StudentUniqueId>604854</StudentUniqueId>
-						</StudentIdentity>
-					</StudentReference>
-					<EducationOrganizationReference>
-						<EducationOrganizationIdentity>
-							<EducationOrganizationId>255901</EducationOrganizationId>
-						</EducationOrganizationIdentity>
-					</EducationOrganizationReference>
-					<StudentIEPIdentifier>IEP-001</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-01-05</IEPFinalizedDate>
-				</StudentIEPIdentity>
-			</StudentIEPReference>
-			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Transportation</ServicePrescription>
-			<ServicePrescriptionDate>2024-01-08</ServicePrescriptionDate>
-		</StudentIEPServicePrescriptionIdentity>
-	</StudentIEPServicePrescriptionReference>
 </StudentIEPServiceDelivery>
 <StudentIEPServiceDelivery>
 	<StudentIEPReference>
@@ -4092,13 +3971,6 @@
 			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
-	<Provider>
-		<FirstName>Olivia</FirstName>
-		<LastSurname>Johnson</LastSurname>
-		<MiddleName>Nora</MiddleName>
-		<PrimaryProvider>false</PrimaryProvider>
-		<ProviderCode>PROV-002</ProviderCode>
-	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
 			<StudentIEPReference>
@@ -4197,6 +4069,13 @@
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-003</ProviderCode>
 	</Provider>
+	<Provider>
+		<FirstName>Olivia</FirstName>
+		<LastSurname>Johnson</LastSurname>
+		<MiddleName>Nora</MiddleName>
+		<PrimaryProvider>false</PrimaryProvider>
+		<ProviderCode>PROV-003</ProviderCode>
+	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
 			<StudentIEPReference>
@@ -4240,28 +4119,16 @@
 	<IEPServiceDeliveryIdentifier>SRV-004</IEPServiceDeliveryIdentifier>
 	<ServiceDelivery>uri://ed-fi.org/ServiceDeliveryDescriptor#Functional Academics</ServiceDelivery>
 	<ServiceDeliveryDate>2024-05-22</ServiceDeliveryDate>
-	<IDEAEventReference>
-		<IDEAEventIdentity>
-			<StudentReference>
-				<StudentIdentity>
-					<StudentUniqueId>604824</StudentUniqueId>
-				</StudentIdentity>
-			</StudentReference>
-			<EducationOrganizationReference>
-				<EducationOrganizationIdentity>
-					<EducationOrganizationId>255901</EducationOrganizationId>
-				</EducationOrganizationIdentity>
-			</EducationOrganizationReference>
-			<IDEAEventIdentifier>EVT-004</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
-		</IDEAEventIdentity>
-	</IDEAEventReference>
 	<Provider>
-		<FirstName>Emma</FirstName>
-		<LastSurname>Brown</LastSurname>
-		<MiddleName>Luna</MiddleName>
+		<FirstName>Gene</FirstName>
+		<LastSurname>Macias</LastSurname>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-004</ProviderCode>
+		<StaffReference>
+			<StaffIdentity>
+				<StaffUniqueId>207220</StaffUniqueId>
+			</StaffIdentity>
+		</StaffReference>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4338,13 +4205,6 @@
 			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
-	<Provider>
-		<FirstName>Ava</FirstName>
-		<LastSurname>Jones</LastSurname>
-		<MiddleName>Wyatt</MiddleName>
-		<PrimaryProvider>false</PrimaryProvider>
-		<ProviderCode>PROV-005</ProviderCode>
-	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
 			<StudentIEPReference>
@@ -6208,26 +6068,6 @@
 	<IEPGoalIdentifier>GOAL-001</IEPGoalIdentifier>
 	<IEPGoalDetails>Student will demonstrate grade-level reading comprehension skills by correctly answering inferential and literal questions with 80% accuracy across 4 consecutive sessions.</IEPGoalDetails>
 	<IEPGoalType>uri://ed-fi.org/IEPGoalTypeDescriptor#Academic Achievement</IEPGoalType>
-	<GoalAchievementPeriod>
-		<BeginDate>2024-01-15</BeginDate>
-		<EndDate>2024-07-13</EndDate>
-	</GoalAchievementPeriod>
-	<IDEAEventReference>
-		<IDEAEventIdentity>
-			<StudentReference>
-				<StudentIdentity>
-					<StudentUniqueId>604854</StudentUniqueId>
-				</StudentIdentity>
-			</StudentReference>
-			<EducationOrganizationReference>
-				<EducationOrganizationIdentity>
-					<EducationOrganizationId>255901</EducationOrganizationId>
-				</EducationOrganizationIdentity>
-			</EducationOrganizationReference>
-			<IDEAEventIdentifier>EVT-001</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
-		</IDEAEventIdentity>
-	</IDEAEventReference>
 </StudentIEPGoal>
 <StudentIEPGoal>
 	<StudentIEPReference>
