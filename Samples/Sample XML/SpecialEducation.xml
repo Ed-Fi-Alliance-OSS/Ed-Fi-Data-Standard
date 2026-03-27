@@ -525,9 +525,15 @@
 		<Accommodation>uri://ed-fi.org/AccommodationDescriptor#504 accommodation</Accommodation>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Autism Spectrum Disorders</Disability>
+			<DisabilityDiagnosis>Diagnosed with Autism</DisabilityDiagnosis>
+			<OrderOfDisability>1</OrderOfDisability>
+			<DisabilityDeterminationSourceType>uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor#By physician</DisabilityDeterminationSourceType>
+			<DisabilityDesignation>uri://ed-fi.org/DisabilityDesignationDescriptor#Individuals with Disabilities Education Act</DisabilityDesignation>
 		</Disability>
 		<Disability>
 			<Disability>uri://ed-fi.org/DisabilityDescriptor#Intellectual Disability</Disability>
+			<DisabilityDiagnosis>Diagnosed with Intellectual Disability</DisabilityDiagnosis>
+			<OrderOfDisability>2</OrderOfDisability>
 		</Disability>
 		<IDEAEventReference>
 			<IDEAEventIdentity>
@@ -924,7 +930,7 @@
 		<ReasonExited>uri://ed-fi.org/ReasonExitedDescriptor#Reached maximum age</ReasonExited>
 		<SchoolHoursPerWeek>7.99</SchoolHoursPerWeek>
 		<SpecialEducationHoursPerWeek>7.99</SpecialEducationHoursPerWeek>
-		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Other early childhood location (10+ hrs)</SpecialEducationSetting>
+		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Other early childhood location (&lt; 10 hrs)</SpecialEducationSetting>
     </StudentIEP>
     <StudentIEP>
 		<StudentReference>
@@ -2205,7 +2211,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-001</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-01-05</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-01-10</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Transportation</ServicePrescription>
@@ -2215,7 +2221,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</DurationInterval>
 	<EndDate>2024-07-13</EndDate>
 	<Frequency>1.23</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Day</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2248,7 +2254,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-002</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-02-20</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-02-21</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Speech and Language (Special Education)</ServicePrescription>
@@ -2258,7 +2264,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</DurationInterval>
 	<EndDate>2024-08-31</EndDate>
 	<Frequency>2.87</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2317,7 +2323,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-003</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-02-27</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-02-29</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Reading</ServicePrescription>
@@ -2326,7 +2332,7 @@
 	<Duration>12</Duration>
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</DurationInterval>
 	<Frequency>3.45</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Classroom</ServiceLocationType>
 	<StaffReference>
 		<StaffIdentity>
@@ -2348,7 +2354,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-004</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-04-17</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-04-19</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Functional Academics</ServicePrescription>
@@ -2358,7 +2364,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Semester</DurationInterval>
 	<EndDate>2024-11-03</EndDate>
 	<Frequency>4.91</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2396,7 +2402,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-005</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-04-26</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-04-27</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Written Expression</ServicePrescription>
@@ -2406,7 +2412,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Year</DurationInterval>
 	<EndDate>2024-11-21</EndDate>
 	<Frequency>5.68</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Semester</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2460,7 +2466,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-006</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-06-11</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-06-12</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Nursing</ServicePrescription>
@@ -2470,7 +2476,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</DurationInterval>
 	<EndDate>2024-12-15</EndDate>
 	<Frequency>6.12</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Year</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2540,7 +2546,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-007</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-07-24</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-07-26</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Math</ServicePrescription>
@@ -2550,7 +2556,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</DurationInterval>
 	<EndDate>2025-01-31</EndDate>
 	<Frequency>7.99</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2588,7 +2594,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-008</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-08-03</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-08-05</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Functional Communication</ServicePrescription>
@@ -2598,7 +2604,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</DurationInterval>
 	<EndDate>2025-02-20</EndDate>
 	<Frequency>8.34</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2652,7 +2658,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-009</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-08-26</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-08-28</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Occupational Therapy</ServicePrescription>
@@ -2662,7 +2668,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Semester</DurationInterval>
 	<EndDate>2025-03-23</EndDate>
 	<Frequency>9.76</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2732,7 +2738,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-010</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-10-23</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-10-26</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Social/Emotional</ServicePrescription>
@@ -2742,7 +2748,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Year</DurationInterval>
 	<EndDate>2025-05-19</EndDate>
 	<Frequency>10.5</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2780,7 +2786,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-011</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-11-02</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-11-05</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Daily Living</ServicePrescription>
@@ -2790,7 +2796,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</DurationInterval>
 	<EndDate>2025-05-11</EndDate>
 	<Frequency>11.29</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Semester</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2844,7 +2850,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-012</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-12-12</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-12-15</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Transition</ServicePrescription>
@@ -2854,7 +2860,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</DurationInterval>
 	<EndDate>2025-06-28</EndDate>
 	<Frequency>12.83</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Year</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2924,7 +2930,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-013</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-01-03</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-01-05</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Organization/Study Skills</ServicePrescription>
@@ -2934,7 +2940,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</DurationInterval>
 	<EndDate>2025-07-17</EndDate>
 	<Frequency>13.67</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -2972,7 +2978,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-014</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-02-10</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-02-11</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Speech and Language (Related Service)</ServicePrescription>
@@ -2982,7 +2988,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Semester</DurationInterval>
 	<EndDate>2025-09-02</EndDate>
 	<Frequency>14.08</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3036,7 +3042,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-015</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-03-19</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-03-21</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Hearing Services</ServicePrescription>
@@ -3046,7 +3052,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Year</DurationInterval>
 	<EndDate>2025-10-13</EndDate>
 	<Frequency>15.92</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3116,7 +3122,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-016</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-04-10</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-04-12</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Pre-Academic Readiness</ServicePrescription>
@@ -3126,7 +3132,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</DurationInterval>
 	<EndDate>2025-10-13</EndDate>
 	<Frequency>16.44</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3164,7 +3170,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-017</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-05-18</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-05-20</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Counseling</ServicePrescription>
@@ -3174,7 +3180,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</DurationInterval>
 	<EndDate>2025-11-30</EndDate>
 	<Frequency>17.75</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Semester</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3228,7 +3234,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-018</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-05-24</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-05-26</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Behavior</ServicePrescription>
@@ -3238,7 +3244,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</DurationInterval>
 	<EndDate>2025-12-14</EndDate>
 	<Frequency>18.36</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Year</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3308,7 +3314,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-019</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-07-14</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-07-16</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Adapted Physical Education</ServicePrescription>
@@ -3318,7 +3324,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Semester</DurationInterval>
 	<EndDate>2026-02-01</EndDate>
 	<Frequency>19.58</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3356,7 +3362,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-020</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-07-25</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-07-27</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Physical Therapy</ServicePrescription>
@@ -3366,7 +3372,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Year</DurationInterval>
 	<EndDate>2026-02-19</EndDate>
 	<Frequency>20.11</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3420,7 +3426,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-021</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-09-05</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-09-07</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Audiological Services</ServicePrescription>
@@ -3430,7 +3436,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</DurationInterval>
 	<EndDate>2026-03-16</EndDate>
 	<Frequency>21.94</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3500,7 +3506,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-022</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-01-06</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-01-08</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Nursing Services</ServicePrescription>
@@ -3510,7 +3516,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</DurationInterval>
 	<EndDate>2026-07-15</EndDate>
 	<Frequency>22.67</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Year</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3548,7 +3554,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-023</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-02-14</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-02-16</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Sensory</ServicePrescription>
@@ -3558,7 +3564,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Quarter</DurationInterval>
 	<EndDate>2026-09-02</EndDate>
 	<Frequency>23.05</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Semester</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Semester</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3612,7 +3618,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-024</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-02-25</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-02-27</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Medication Administration</ServicePrescription>
@@ -3622,7 +3628,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Semester</DurationInterval>
 	<EndDate>2026-09-16</EndDate>
 	<Frequency>24.88</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Year</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Quarter</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3692,7 +3698,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-025</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-04-13</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-04-15</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Hearing</ServicePrescription>
@@ -3702,7 +3708,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Year</DurationInterval>
 	<EndDate>2026-11-05</EndDate>
 	<Frequency>25.31</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Month</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3740,7 +3746,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-026</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-05-17</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-05-19</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Vision (Special Education)</ServicePrescription>
@@ -3750,7 +3756,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</DurationInterval>
 	<EndDate>2026-11-24</EndDate>
 	<Frequency>26.79</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Week</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3809,7 +3815,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-027</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-06-21</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-06-18</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Orientation and Mobility</ServicePrescription>
@@ -3819,7 +3825,7 @@
 	<DurationInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</DurationInterval>
 	<EndDate>2027-01-01</EndDate>
 	<Frequency>27.46</Frequency>
-	<FrequencyInterval>uri://ed-fi.org/DurationIntervalDescriptor#Month</FrequencyInterval>
+	<FrequencyInterval>uri://ed-fi.org/FrequencyIntervalDescriptor#Week</FrequencyInterval>
 	<IDEAEventReference>
 		<IDEAEventIdentity>
 			<StudentReference>
@@ -3889,7 +3895,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-001</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-01-05</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-01-10</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-001</IEPServiceDeliveryIdentifier>
@@ -3918,6 +3924,13 @@
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-001</ProviderCode>
 	</Provider>
+		<Provider>
+		<FirstName>Liam</FirstName>
+		<LastSurname>Smith</LastSurname>
+		<MiddleName>Caleb</MiddleName>
+		<PrimaryProvider>true</PrimaryProvider>
+		<ProviderCode>PROV-001</ProviderCode>
+	</Provider>
 </StudentIEPServiceDelivery>
 <StudentIEPServiceDelivery>
 	<StudentIEPReference>
@@ -3933,7 +3946,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-002</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-02-20</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-02-21</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-002</IEPServiceDeliveryIdentifier>
@@ -3986,7 +3999,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-002</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-02-20</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-02-21</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Speech and Language (Special Education)</ServicePrescription>
@@ -4008,7 +4021,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-003</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-02-27</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-02-29</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-003</IEPServiceDeliveryIdentifier>
@@ -4091,7 +4104,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-003</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-02-27</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-02-29</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Reading</ServicePrescription>
@@ -4113,7 +4126,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-004</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-04-17</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-04-19</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-004</IEPServiceDeliveryIdentifier>
@@ -4124,6 +4137,7 @@
 		<LastSurname>Macias</LastSurname>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-004</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#School Nurse</ServiceProviderType>
 		<StaffReference>
 			<StaffIdentity>
 				<StaffUniqueId>207220</StaffUniqueId>
@@ -4145,7 +4159,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-004</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-04-17</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-04-19</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Functional Academics</ServicePrescription>
@@ -4167,7 +4181,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-005</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-04-26</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-04-27</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-005</IEPServiceDeliveryIdentifier>
@@ -4220,7 +4234,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-005</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-04-26</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-04-27</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Written Expression</ServicePrescription>
@@ -4242,7 +4256,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-006</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-06-11</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-06-12</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-006</IEPServiceDeliveryIdentifier>
@@ -4302,6 +4316,7 @@
 		<MiddleName>Hazel</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-006</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Team Lead/Case Manager</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4318,7 +4333,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-006</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-06-11</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-06-12</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Nursing</ServicePrescription>
@@ -4340,7 +4355,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-007</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-07-24</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-07-26</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-007</IEPServiceDeliveryIdentifier>
@@ -4368,6 +4383,14 @@
 		<MiddleName>Julian</MiddleName>
 		<PrimaryProvider>false</PrimaryProvider>
 		<ProviderCode>PROV-007</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Occupational Therapist</ServiceProviderType>
+	</Provider>
+		<Provider>
+		<FirstName>Sophia</FirstName>
+		<LastSurname>Miller</LastSurname>
+		<MiddleName>Julian</MiddleName>
+		<PrimaryProvider>false</PrimaryProvider>
+		<ProviderCode>PROV-007</ProviderCode>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4384,7 +4407,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-007</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-07-24</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-07-26</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Math</ServicePrescription>
@@ -4406,7 +4429,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-008</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-08-03</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-08-05</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-008</IEPServiceDeliveryIdentifier>
@@ -4450,6 +4473,7 @@
 		<MiddleName>Violet</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-008</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Audiologist</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4466,7 +4490,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-008</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-08-03</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-08-05</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Functional Communication</ServicePrescription>
@@ -4488,7 +4512,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-009</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-08-26</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-08-28</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-009</IEPServiceDeliveryIdentifier>
@@ -4548,6 +4572,7 @@
 		<MiddleName>Levi</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-009</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Physical Therapist</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4564,7 +4589,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-009</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-08-26</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-08-28</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Occupational Therapy</ServicePrescription>
@@ -4586,7 +4611,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-010</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-10-23</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-10-26</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-010</IEPServiceDeliveryIdentifier>
@@ -4614,6 +4639,7 @@
 		<MiddleName>Aurora</MiddleName>
 		<PrimaryProvider>false</PrimaryProvider>
 		<ProviderCode>PROV-010</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Team Lead/Case Manager</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4630,7 +4656,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-010</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-10-23</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-10-26</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Social/Emotional</ServicePrescription>
@@ -4652,7 +4678,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-011</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-11-02</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-11-05</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-011</IEPServiceDeliveryIdentifier>
@@ -4696,6 +4722,7 @@
 		<MiddleName>Owen</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-011</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Speech-Language Pathologist</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4712,7 +4739,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-011</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-11-02</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-11-05</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Daily Living</ServicePrescription>
@@ -4734,7 +4761,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-012</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-12-12</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-12-15</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-012</IEPServiceDeliveryIdentifier>
@@ -4794,6 +4821,7 @@
 		<MiddleName>Stella</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-012</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Other Service Provider</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4810,7 +4838,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-012</StudentIEPIdentifier>
-					<IEPFinalizedDate>2024-12-12</IEPFinalizedDate>
+					<IEPFinalizedDate>2024-12-15</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Transition</ServicePrescription>
@@ -4832,7 +4860,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-013</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-01-03</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-01-05</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-013</IEPServiceDeliveryIdentifier>
@@ -4860,6 +4888,7 @@
 		<MiddleName>Asher</MiddleName>
 		<PrimaryProvider>false</PrimaryProvider>
 		<ProviderCode>PROV-013</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Special Education Teacher</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4876,7 +4905,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-013</StudentIEPIdentifier>
-					<IEPFinalizedDate>2025-01-03</IEPFinalizedDate>
+					<IEPFinalizedDate>2025-01-05</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Organization/Study Skills</ServicePrescription>
@@ -4898,7 +4927,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-014</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-02-10</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-02-11</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-014</IEPServiceDeliveryIdentifier>
@@ -4942,6 +4971,7 @@
 		<MiddleName>Ivy</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-014</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#General Education Teacher</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -4958,7 +4988,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-014</StudentIEPIdentifier>
-					<IEPFinalizedDate>2025-02-10</IEPFinalizedDate>
+					<IEPFinalizedDate>2025-02-11</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Speech and Language (Related Service)</ServicePrescription>
@@ -4980,7 +5010,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-015</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-03-19</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-03-21</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-015</IEPServiceDeliveryIdentifier>
@@ -5040,6 +5070,7 @@
 		<MiddleName>Ezra</MiddleName>
 		<PrimaryProvider>false</PrimaryProvider>
 		<ProviderCode>PROV-015</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#School Psychologist</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -5056,7 +5087,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-015</StudentIEPIdentifier>
-					<IEPFinalizedDate>2025-03-19</IEPFinalizedDate>
+					<IEPFinalizedDate>2025-03-21</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Hearing Services</ServicePrescription>
@@ -5078,7 +5109,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-016</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-04-10</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-04-12</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-016</IEPServiceDeliveryIdentifier>
@@ -5106,6 +5137,7 @@
 		<MiddleName>Naomi</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-016</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Behavior Specialist</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -5122,7 +5154,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-016</StudentIEPIdentifier>
-					<IEPFinalizedDate>2025-04-10</IEPFinalizedDate>
+					<IEPFinalizedDate>2025-04-12</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Pre-Academic Readiness</ServicePrescription>
@@ -5144,7 +5176,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-017</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-05-18</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-05-20</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-017</IEPServiceDeliveryIdentifier>
@@ -5188,6 +5220,7 @@
 		<MiddleName>Theo</MiddleName>
 		<PrimaryProvider>false</PrimaryProvider>
 		<ProviderCode>PROV-017</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#School Social Worker</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -5204,7 +5237,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-017</StudentIEPIdentifier>
-					<IEPFinalizedDate>2025-05-18</IEPFinalizedDate>
+					<IEPFinalizedDate>2025-05-20</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Counseling</ServicePrescription>
@@ -5226,7 +5259,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-018</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-05-24</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-05-26</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-018</IEPServiceDeliveryIdentifier>
@@ -5286,6 +5319,7 @@
 		<MiddleName>Elena</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-018</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Orientation Mobility Specialist</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -5302,7 +5336,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-018</StudentIEPIdentifier>
-					<IEPFinalizedDate>2025-05-24</IEPFinalizedDate>
+					<IEPFinalizedDate>2025-05-26</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Behavior</ServicePrescription>
@@ -5324,7 +5358,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-019</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-07-14</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-07-16</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-019</IEPServiceDeliveryIdentifier>
@@ -5352,6 +5386,7 @@
 		<MiddleName>Silas</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-019</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Paraprofessional / Instructional Aide</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -5368,7 +5403,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-019</StudentIEPIdentifier>
-					<IEPFinalizedDate>2025-07-14</IEPFinalizedDate>
+					<IEPFinalizedDate>2025-07-16</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Adapted Physical Education</ServicePrescription>
@@ -5390,7 +5425,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-020</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-07-25</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-07-27</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-020</IEPServiceDeliveryIdentifier>
@@ -5434,6 +5469,7 @@
 		<MiddleName>Clara</MiddleName>
 		<PrimaryProvider>false</PrimaryProvider>
 		<ProviderCode>PROV-020</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Transition Specialist</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -5450,7 +5486,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-020</StudentIEPIdentifier>
-					<IEPFinalizedDate>2025-07-25</IEPFinalizedDate>
+					<IEPFinalizedDate>2025-07-27</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Physical Therapy</ServicePrescription>
@@ -5472,7 +5508,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-021</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-09-05</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-09-07</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-021</IEPServiceDeliveryIdentifier>
@@ -5532,6 +5568,7 @@
 		<MiddleName>Miles</MiddleName>
 		<PrimaryProvider>true</PrimaryProvider>
 		<ProviderCode>PROV-021</ProviderCode>
+		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Vision Specialist</ServiceProviderType>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -5548,7 +5585,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-021</StudentIEPIdentifier>
-					<IEPFinalizedDate>2025-09-05</IEPFinalizedDate>
+					<IEPFinalizedDate>2025-09-07</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Audiological Services</ServicePrescription>
@@ -5570,7 +5607,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-022</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-01-06</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-01-08</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-022</IEPServiceDeliveryIdentifier>
@@ -5614,7 +5651,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-022</StudentIEPIdentifier>
-					<IEPFinalizedDate>2026-01-06</IEPFinalizedDate>
+					<IEPFinalizedDate>2026-01-08</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Nursing Services</ServicePrescription>
@@ -5636,7 +5673,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-023</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-02-14</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-02-16</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-023</IEPServiceDeliveryIdentifier>
@@ -5696,7 +5733,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-023</StudentIEPIdentifier>
-					<IEPFinalizedDate>2026-02-14</IEPFinalizedDate>
+					<IEPFinalizedDate>2026-02-16</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Sensory</ServicePrescription>
@@ -5718,7 +5755,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-024</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-02-25</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-02-27</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-024</IEPServiceDeliveryIdentifier>
@@ -5794,7 +5831,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-024</StudentIEPIdentifier>
-					<IEPFinalizedDate>2026-02-25</IEPFinalizedDate>
+					<IEPFinalizedDate>2026-02-27</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Medication Administration</ServicePrescription>
@@ -5816,7 +5853,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-025</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-04-13</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-04-15</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-025</IEPServiceDeliveryIdentifier>
@@ -5860,7 +5897,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-025</StudentIEPIdentifier>
-					<IEPFinalizedDate>2026-04-13</IEPFinalizedDate>
+					<IEPFinalizedDate>2026-04-15</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Hearing</ServicePrescription>
@@ -5882,7 +5919,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-026</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-05-17</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-05-19</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-026</IEPServiceDeliveryIdentifier>
@@ -5942,7 +5979,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-026</StudentIEPIdentifier>
-					<IEPFinalizedDate>2026-05-17</IEPFinalizedDate>
+					<IEPFinalizedDate>2026-05-19</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Vision (Special Education)</ServicePrescription>
@@ -5964,7 +6001,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-027</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-06-21</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-06-18</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPServiceDeliveryIdentifier>SRV-027</IEPServiceDeliveryIdentifier>
@@ -6040,7 +6077,7 @@
 						</EducationOrganizationIdentity>
 					</EducationOrganizationReference>
 					<StudentIEPIdentifier>IEP-027</StudentIEPIdentifier>
-					<IEPFinalizedDate>2026-06-21</IEPFinalizedDate>
+					<IEPFinalizedDate>2026-06-18</IEPFinalizedDate>
 				</StudentIEPIdentity>
 			</StudentIEPReference>
 			<ServicePrescription>uri://ed-fi.org/ServicePrescriptionDescriptor#Orientation and Mobility</ServicePrescription>
@@ -6062,7 +6099,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-001</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-01-05</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-01-10</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-001</IEPGoalIdentifier>
@@ -6083,7 +6120,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-002</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-02-20</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-02-21</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-002</IEPGoalIdentifier>
@@ -6140,7 +6177,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-003</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-02-27</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-02-29</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-003</IEPGoalIdentifier>
@@ -6213,7 +6250,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-004</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-04-17</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-04-19</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-004</IEPGoalIdentifier>
@@ -6254,7 +6291,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-005</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-04-26</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-04-27</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-005</IEPGoalIdentifier>
@@ -6311,7 +6348,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-006</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-06-11</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-06-12</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-006</IEPGoalIdentifier>
@@ -6384,7 +6421,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-007</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-07-24</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-07-26</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-007</IEPGoalIdentifier>
@@ -6425,7 +6462,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-008</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-08-03</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-08-05</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-008</IEPGoalIdentifier>
@@ -6482,7 +6519,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-009</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-08-26</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-08-28</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-009</IEPGoalIdentifier>
@@ -6555,7 +6592,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-010</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-10-23</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-10-26</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-010</IEPGoalIdentifier>
@@ -6596,7 +6633,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-011</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-11-02</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-11-05</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-011</IEPGoalIdentifier>
@@ -6653,7 +6690,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-012</StudentIEPIdentifier>
-			<IEPFinalizedDate>2024-12-12</IEPFinalizedDate>
+			<IEPFinalizedDate>2024-12-15</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-012</IEPGoalIdentifier>
@@ -6726,7 +6763,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-013</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-01-03</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-01-05</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-013</IEPGoalIdentifier>
@@ -6767,7 +6804,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-014</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-02-10</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-02-11</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-014</IEPGoalIdentifier>
@@ -6824,7 +6861,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-015</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-03-19</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-03-21</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-015</IEPGoalIdentifier>
@@ -6897,7 +6934,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-016</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-04-10</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-04-12</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-016</IEPGoalIdentifier>
@@ -6938,7 +6975,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-017</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-05-18</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-05-20</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-017</IEPGoalIdentifier>
@@ -6995,7 +7032,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-018</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-05-24</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-05-26</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-018</IEPGoalIdentifier>
@@ -7068,7 +7105,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-019</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-07-14</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-07-16</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-019</IEPGoalIdentifier>
@@ -7109,7 +7146,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-020</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-07-25</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-07-27</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-020</IEPGoalIdentifier>
@@ -7166,7 +7203,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-021</StudentIEPIdentifier>
-			<IEPFinalizedDate>2025-09-05</IEPFinalizedDate>
+			<IEPFinalizedDate>2025-09-07</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-021</IEPGoalIdentifier>
@@ -7239,7 +7276,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-022</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-01-06</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-01-08</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-022</IEPGoalIdentifier>
@@ -7280,7 +7317,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-023</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-02-14</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-02-16</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-023</IEPGoalIdentifier>
@@ -7337,7 +7374,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-024</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-02-25</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-02-27</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-024</IEPGoalIdentifier>
@@ -7410,7 +7447,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-025</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-04-13</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-04-15</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-025</IEPGoalIdentifier>
@@ -7451,7 +7488,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-026</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-05-17</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-05-19</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-026</IEPGoalIdentifier>
@@ -7508,7 +7545,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<StudentIEPIdentifier>IEP-027</StudentIEPIdentifier>
-			<IEPFinalizedDate>2026-06-21</IEPFinalizedDate>
+			<IEPFinalizedDate>2026-06-18</IEPFinalizedDate>
 		</StudentIEPIdentity>
 	</StudentIEPReference>
 	<IEPGoalIdentifier>GOAL-027</IEPGoalIdentifier>
