@@ -3879,7 +3879,7 @@
   </xs:complexType>
   <xs:complexType name="IDEAEvent">
     <xs:annotation>
-      <xs:documentation>An IDEA related student event describing status, dates and narrative.</xs:documentation>
+      <xs:documentation>EARLY ACCESS: An IDEA related student event describing status, dates and narrative.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Domain Entity</ann:TypeGroup>
       </xs:appinfo>
@@ -7815,7 +7815,7 @@
   </xs:complexType>
   <xs:complexType name="StudentIEP">
     <xs:annotation>
-      <xs:documentation>This entity represents an Individualized Education Program (IEP) for a student receiving special education services. The IEP is a legally required document that outlines a student's special education services.</xs:documentation>
+      <xs:documentation>EARLY ACCESS: This entity represents an Individualized Education Program (IEP) for a student receiving special education services. The IEP is a legally required document that outlines a student's special education services.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Domain Entity</ann:TypeGroup>
       </xs:appinfo>
@@ -7926,7 +7926,7 @@
   </xs:complexType>
   <xs:complexType name="StudentIEPGoal">
     <xs:annotation>
-      <xs:documentation>A goal prescribed to a student as part of their Individual Education Program (IEP).</xs:documentation>
+      <xs:documentation>EARLY ACCESS: A goal prescribed to a student as part of their Individual Education Program (IEP).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Domain Entity</ann:TypeGroup>
       </xs:appinfo>
@@ -7973,7 +7973,7 @@
   </xs:complexType>
   <xs:complexType name="StudentIEPServiceDelivery">
     <xs:annotation>
-      <xs:documentation>Services delivered to a student as prescribed by their Individual Education Program (IEP).</xs:documentation>
+      <xs:documentation>EARLY ACCESS: Services delivered to a student as prescribed by their Individual Education Program (IEP).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Domain Entity</ann:TypeGroup>
       </xs:appinfo>
@@ -8025,7 +8025,7 @@
   </xs:complexType>
   <xs:complexType name="StudentIEPServicePrescription">
     <xs:annotation>
-      <xs:documentation>The service prescribed to a student as part of their Individual Education Program (IEP).</xs:documentation>
+      <xs:documentation>EARLY ACCESS: The service prescribed to a student as part of their Individual Education Program (IEP).</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Domain Entity</ann:TypeGroup>
       </xs:appinfo>
