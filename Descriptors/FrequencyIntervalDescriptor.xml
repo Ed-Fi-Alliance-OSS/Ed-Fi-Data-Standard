@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <FrequencyIntervalDescriptor>
+		<CodeValue>Day</CodeValue>
+		<ShortDescription>Day</ShortDescription>
+		<Description>Day</Description>
+		<Namespace>uri://ed-fi.org/FrequencyIntervalDescriptor</Namespace>
+	</FrequencyIntervalDescriptor>
+        <FrequencyIntervalDescriptor>
+		<CodeValue>Week</CodeValue>
+		<ShortDescription>Week</ShortDescription>
+		<Description>Week</Description>
+		<Namespace>uri://ed-fi.org/FrequencyIntervalDescriptor</Namespace>
+	</FrequencyIntervalDescriptor>
+        <FrequencyIntervalDescriptor>
+		<CodeValue>Month</CodeValue>
+		<ShortDescription>Month</ShortDescription>
+		<Description>Month</Description>
+		<Namespace>uri://ed-fi.org/FrequencyIntervalDescriptor</Namespace>
+	</FrequencyIntervalDescriptor>
+        <FrequencyIntervalDescriptor>
+		<CodeValue>Quarter</CodeValue>
+		<ShortDescription>Quarter</ShortDescription>
+		<Description>Quarter</Description>
+		<Namespace>uri://ed-fi.org/FrequencyIntervalDescriptor</Namespace>
+	</FrequencyIntervalDescriptor>
+        <FrequencyIntervalDescriptor>
+		<CodeValue>Semester</CodeValue>
+		<ShortDescription>Semester</ShortDescription>
+		<Description>Semester</Description>
+		<Namespace>uri://ed-fi.org/FrequencyIntervalDescriptor</Namespace>
+	</FrequencyIntervalDescriptor>
+        <FrequencyIntervalDescriptor>
+		<CodeValue>Year</CodeValue>
+		<ShortDescription>Year</ShortDescription>
+		<Description>Year</Description>
+		<Namespace>uri://ed-fi.org/FrequencyIntervalDescriptor</Namespace>
+	</FrequencyIntervalDescriptor>
+</InterchangeDescriptors>

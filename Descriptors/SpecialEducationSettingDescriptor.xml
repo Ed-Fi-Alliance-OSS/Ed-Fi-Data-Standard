@@ -43,9 +43,9 @@
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>
-		<CodeValue>Other early childhood location (&lt; 10 hours)</CodeValue>
-		<ShortDescription>Other early childhood location (&lt; 10 hours)</ShortDescription>
-		<Description>Other early childhood location (&lt; 10 hours)</Description>
+		<CodeValue>Other early childhood location 10 or less hours</CodeValue>
+		<ShortDescription>Other early childhood location 10 or less hours</ShortDescription>
+		<Description>Other early childhood location 10 or less hours</Description>
 		<Namespace>uri://ed-fi.org/SpecialEducationSettingDescriptor</Namespace>
 	</SpecialEducationSettingDescriptor>
 	<SpecialEducationSettingDescriptor>

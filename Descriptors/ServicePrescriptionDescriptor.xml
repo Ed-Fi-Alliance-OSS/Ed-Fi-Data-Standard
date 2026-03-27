@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Transportation</CodeValue>
+		<ShortDescription>Transportation</ShortDescription>
+		<Description>Transportation</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Speech and Language (Special Education)</CodeValue>
+		<ShortDescription>Speech and Language (Special Education)</ShortDescription>
+		<Description>Speech and Language (Special Education)</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Reading</CodeValue>
+		<ShortDescription>Reading</ShortDescription>
+		<Description>Reading</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Functional Academics</CodeValue>
+		<ShortDescription>Functional Academics</ShortDescription>
+		<Description>Functional Academics</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Written Expression</CodeValue>
+		<ShortDescription>Written Expression</ShortDescription>
+		<Description>Written Expression</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Nursing</CodeValue>
+		<ShortDescription>Nursing</ShortDescription>
+		<Description>Nursing</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Math</CodeValue>
+		<ShortDescription>Math</ShortDescription>
+		<Description>Math</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Functional Communication</CodeValue>
+		<ShortDescription>Functional Communication</ShortDescription>
+		<Description>Functional Communication</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Occupational Therapy</CodeValue>
+		<ShortDescription>Occupational Therapy</ShortDescription>
+		<Description>Occupational Therapy</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Social/Emotional</CodeValue>
+		<ShortDescription>Social/Emotional</ShortDescription>
+		<Description>Social/Emotional</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Daily Living</CodeValue>
+		<ShortDescription>Daily Living</ShortDescription>
+		<Description>Daily Living</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Transition</CodeValue>
+		<ShortDescription>Transition</ShortDescription>
+		<Description>Transition</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Organization/Study Skills</CodeValue>
+		<ShortDescription>Organization/Study Skills</ShortDescription>
+		<Description>Organization/Study Skills</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Speech and Language (Related Service)</CodeValue>
+		<ShortDescription>Speech and Language (Related Service)</ShortDescription>
+		<Description>Speech and Language (Related Service)</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Hearing Services</CodeValue>
+		<ShortDescription>Hearing Services</ShortDescription>
+		<Description>Hearing Services</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Pre-Academic Readiness</CodeValue>
+		<ShortDescription>Pre-Academic Readiness</ShortDescription>
+		<Description>Pre-Academic Readiness</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Counseling</CodeValue>
+		<ShortDescription>Counseling</ShortDescription>
+		<Description>Counseling</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Behavior</CodeValue>
+		<ShortDescription>Behavior</ShortDescription>
+		<Description>Behavior</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Adapted Physical Education</CodeValue>
+		<ShortDescription>Adapted Physical Education</ShortDescription>
+		<Description>Adapted Physical Education</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Physical Therapy</CodeValue>
+		<ShortDescription>Physical Therapy</ShortDescription>
+		<Description>Physical Therapy</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Audiological Services</CodeValue>
+		<ShortDescription>Audiological Services</ShortDescription>
+		<Description>Audiological Services</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Nursing Services</CodeValue>
+		<ShortDescription>Nursing Services</ShortDescription>
+		<Description>Nursing Services</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Sensory</CodeValue>
+		<ShortDescription>Sensory</ShortDescription>
+		<Description>Sensory</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Medication Administration</CodeValue>
+		<ShortDescription>Medication Administration</ShortDescription>
+		<Description>Medication Administration</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Hearing</CodeValue>
+		<ShortDescription>Hearing</ShortDescription>
+		<Description>Hearing</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Vision (Special Education)</CodeValue>
+		<ShortDescription>Vision (Special Education)</ShortDescription>
+		<Description>Vision (Special Education)</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Orientation and Mobility</CodeValue>
+		<ShortDescription>Orientation and Mobility</ShortDescription>
+		<Description>Orientation and Mobility</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Adaptive Physical</CodeValue>
+		<ShortDescription>Adaptive Physical</ShortDescription>
+		<Description>Adaptive Physical</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Behavior Services</CodeValue>
+		<ShortDescription>Behavior Services</ShortDescription>
+		<Description>Behavior Services</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Occupational Therapy Services</CodeValue>
+		<ShortDescription>Occupational Therapy Services</ShortDescription>
+		<Description>Occupational Therapy Services</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Assistive Technology</CodeValue>
+		<ShortDescription>Assistive Technology</ShortDescription>
+		<Description>Assistive Technology</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Fine Motor</CodeValue>
+		<ShortDescription>Fine Motor</ShortDescription>
+		<Description>Fine Motor</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Orientation and Mobility Services</CodeValue>
+		<ShortDescription>Orientation and Mobility Services</ShortDescription>
+		<Description>Orientation and Mobility Services</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Interpreter</CodeValue>
+		<ShortDescription>Interpreter</ShortDescription>
+		<Description>Interpreter</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Day</CodeValue>
+		<ShortDescription>Day</ShortDescription>
+		<Description>Day</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Gross Motor</CodeValue>
+		<ShortDescription>Gross Motor</ShortDescription>
+		<Description>Gross Motor</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Non-Emergency Transportation Services - Daily</CodeValue>
+		<ShortDescription>Non-Emergency Transportation Services - Daily</ShortDescription>
+		<Description>Non-Emergency Transportation Services - Daily</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Audiological Services (Special Education)</CodeValue>
+		<ShortDescription>Audiological Services (Special Education)</ShortDescription>
+		<Description>Audiological Services (Special Education)</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Non-Emergency Transportation Services - Weekly</CodeValue>
+		<ShortDescription>Non-Emergency Transportation Services - Weekly</ShortDescription>
+		<Description>Non-Emergency Transportation Services - Weekly</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Physical Therapy Services</CodeValue>
+		<ShortDescription>Physical Therapy Services</ShortDescription>
+		<Description>Physical Therapy Services</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Speech and Language Services</CodeValue>
+		<ShortDescription>Speech and Language Services</ShortDescription>
+		<Description>Speech and Language Services</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+    <ServicePrescriptionDescriptor>
+		<CodeValue>Enrichment</CodeValue>
+		<ShortDescription>Enrichment</ShortDescription>
+		<Description>Enrichment</Description>
+		<Namespace>uri://ed-fi.org/ServicePrescriptionDescriptor</Namespace>
+	</ServicePrescriptionDescriptor>
+</InterchangeDescriptors>

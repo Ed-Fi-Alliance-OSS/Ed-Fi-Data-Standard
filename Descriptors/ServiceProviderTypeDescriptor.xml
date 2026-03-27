@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Occupational Therapist</CodeValue>
+		<ShortDescription>Occupational Therapist</ShortDescription>
+		<Description>Occupational Therapist</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Audiologist</CodeValue>
+		<ShortDescription>Audiologist</ShortDescription>
+		<Description>Audiologist</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Physical Therapist</CodeValue>
+		<ShortDescription>Physical Therapist</ShortDescription>
+		<Description>Physical Therapist</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>School Nurse</CodeValue>
+		<ShortDescription>School Nurse</ShortDescription>
+		<Description>School Nurse</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Team Lead/Case Manager</CodeValue>
+		<ShortDescription>Team Lead/Case Manager</ShortDescription>
+		<Description>Team Lead/Case Manager</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Speech-Language Pathologist</CodeValue>
+		<ShortDescription>Speech-Language Pathologist</ShortDescription>
+		<Description>Speech-Language Pathologist</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Other Service Provider</CodeValue>
+		<ShortDescription>Other Service Provider</ShortDescription>
+		<Description>Other Service Provider</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Special Education Teacher</CodeValue>
+		<ShortDescription>Special Education Teacher</ShortDescription>
+		<Description>Special Education Teacher</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>General Education Teacher</CodeValue>
+		<ShortDescription>General Education Teacher</ShortDescription>
+		<Description>General Education Teacher</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>School Psychologist</CodeValue>
+		<ShortDescription>School Psychologist</ShortDescription>
+		<Description>School Psychologist</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Behavior Specialist</CodeValue>
+		<ShortDescription>Behavior Specialist</ShortDescription>
+		<Description>Behavior Specialist</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>School Social Worker</CodeValue>
+		<ShortDescription>School Social Worker</ShortDescription>
+		<Description>School Social Worker</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Orientation Mobility Specialist</CodeValue>
+		<ShortDescription>Orientation Mobility Specialist</ShortDescription>
+		<Description>Orientation Mobility Specialist</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Paraprofessional / Instructional Aide</CodeValue>
+		<ShortDescription>Paraprofessional / Instructional Aide</ShortDescription>
+		<Description>Paraprofessional / Instructional Aide</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Transition Specialist</CodeValue>
+		<ShortDescription>Transition Specialist</ShortDescription>
+		<Description>Transition Specialist</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+    <ServiceProviderTypeDescriptor>
+		<CodeValue>Vision Specialist</CodeValue>
+		<ShortDescription>Vision Specialist</ShortDescription>
+		<Description>Vision Specialist</Description>
+		<Namespace>uri://ed-fi.org/ServiceProviderTypeDescriptor</Namespace>
+	</ServiceProviderTypeDescriptor>
+</InterchangeDescriptors>

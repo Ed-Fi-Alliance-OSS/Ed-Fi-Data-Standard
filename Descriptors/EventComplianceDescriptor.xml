@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAInitialEvaluationTimeline</CodeValue>
+		<ShortDescription>IDEAInitialEvaluationTimeline</ShortDescription>
+		<Description>Compliance with IDEA statutory timelines for conducting an initial evaluation.</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAReevaluationTimeline</CodeValue>
+		<ShortDescription>IDEAReevaluationTimeline</ShortDescription>
+		<Description>Compliance with IDEA timelines for reevaluations.</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAEligibilityDetermination</CodeValue>
+		<ShortDescription>IDEAEligibilityDetermination</ShortDescription>
+		<Description>Compliance with IDEA requirements for determining special education eligibility.</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAIEPDevelopment</CodeValue>
+		<ShortDescription>IDEAIEPDevelopment</ShortDescription>
+		<Description>Compliance with IDEA requirements for developing an Individualized Education Program.</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAIEPAnnualReview</CodeValue>
+		<ShortDescription>IDEAIEPAnnualReview</ShortDescription>
+		<Description>Compliance with IDEA requirements for conducting an annual IEP review</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAIEPImplementation</CodeValue>
+		<ShortDescription>IDEAIEPImplementation</ShortDescription>
+		<Description>Compliance with IDEA requirements to implement an IEP as written.</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAServicesProvision</CodeValue>
+		<ShortDescription>IDEAServicesProvision</ShortDescription>
+		<Description>Compliance with IDEA requirements for providing special education and related services.</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAExtendedSchoolYear</CodeValue>
+		<ShortDescription>IDEAExtendedSchoolYear</ShortDescription>
+		<Description>Compliance with IDEA requirements related to ESY determination and services.</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAPlacementAndLRE</CodeValue>
+		<ShortDescription>IDEAPlacementAndLRE</ShortDescription>
+		<Description>Compliance with IDEA placement requirements, including Least Restrictive Environment determinations.</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEASecondaryTransition</CodeValue>
+		<ShortDescription>IDEASecondaryTransition</ShortDescription>
+		<Description>Compliance with IDEA requirements for secondary transition planning and services.</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+    <EventComplianceDescriptor>
+		<CodeValue>IDEAProceduralSafeguards</CodeValue>
+		<ShortDescription>IDEAProceduralSafeguards</ShortDescription>
+		<Description>Compliance with IDEA procedural safeguard requirements (notice, consent, participation).</Description>
+		<Namespace>uri://ed-fi.org/EventComplianceDescriptor</Namespace>
+	</EventComplianceDescriptor>
+</InterchangeDescriptors>
