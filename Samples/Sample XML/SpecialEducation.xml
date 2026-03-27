@@ -930,7 +930,7 @@
 		<ReasonExited>uri://ed-fi.org/ReasonExitedDescriptor#Reached maximum age</ReasonExited>
 		<SchoolHoursPerWeek>7.99</SchoolHoursPerWeek>
 		<SpecialEducationHoursPerWeek>7.99</SpecialEducationHoursPerWeek>
-		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Other early childhood location (&lt; 10 hours)</SpecialEducationSetting>
+		<SpecialEducationSetting>uri://ed-fi.org/SpecialEducationSettingDescriptor#Other early childhood location(&lt; 10 hours)</SpecialEducationSetting>
     </StudentIEP>
     <StudentIEP>
 		<StudentReference>
