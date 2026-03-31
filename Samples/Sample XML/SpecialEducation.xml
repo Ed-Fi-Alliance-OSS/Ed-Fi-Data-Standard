@@ -1708,7 +1708,7 @@
 			<IDEAEventIdentity>
 				<StudentReference>
 					<StudentIdentity>
-						<StudentUniqueId>604824</StudentUniqueId>
+						<StudentUniqueId>604828</StudentUniqueId>
 					</StudentIdentity>
 				</StudentReference>
 				<EducationOrganizationReference>
@@ -2756,7 +2756,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-063</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2772,7 +2772,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-064</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-02-15</IEPAmendedDate>
@@ -2823,7 +2823,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-023</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-04-05</IEPAmendedDate>
@@ -2869,7 +2869,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-024</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2885,7 +2885,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-066</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-04-19</IEPAmendedDate>
@@ -2932,7 +2932,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-025</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2948,7 +2948,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-069</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2964,7 +2964,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-068</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-06-08</IEPAmendedDate>
@@ -3015,7 +3015,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-026</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-06-27</IEPAmendedDate>
@@ -3061,7 +3061,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-027</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -3077,7 +3077,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-072</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-08-04</IEPAmendedDate>
@@ -4373,7 +4373,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-062</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Hospital/Medical Homebound</ServiceLocationType>
@@ -4469,7 +4469,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-023</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4485,7 +4485,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-065</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Physical Therapy Room (Individual)</ServiceLocationType>
@@ -4533,7 +4533,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-024</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4549,7 +4549,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-066</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4565,7 +4565,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-067</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Speech Therapy Room (Small Group)</ServiceLocationType>
@@ -4613,7 +4613,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-025</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Bus/District Transportation</ServiceLocationType>
@@ -4661,7 +4661,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-026</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4677,7 +4677,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-070</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Therapy Room (Small Group)</ServiceLocationType>
@@ -4730,7 +4730,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-027</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4746,7 +4746,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-072</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4762,7 +4762,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-071</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Classroom</ServiceLocationType>
@@ -4809,13 +4809,6 @@
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
-		<FirstName>Liam</FirstName>
-		<LastSurname>Smith</LastSurname>
-		<MiddleName>Caleb</MiddleName>
-		<PrimaryProvider>true</PrimaryProvider>
-		<ProviderCode>PROV-001</ProviderCode>
-	</Provider>
-		<Provider>
 		<FirstName>Liam</FirstName>
 		<LastSurname>Smith</LastSurname>
 		<MiddleName>Caleb</MiddleName>
@@ -5275,13 +5268,6 @@
 		<PrimaryProvider>false</PrimaryProvider>
 		<ProviderCode>PROV-007</ProviderCode>
 		<ServiceProviderType>uri://ed-fi.org/ServiceProviderTypeDescriptor#Occupational Therapist</ServiceProviderType>
-	</Provider>
-		<Provider>
-		<FirstName>Sophia</FirstName>
-		<LastSurname>Miller</LastSurname>
-		<MiddleName>Julian</MiddleName>
-		<PrimaryProvider>false</PrimaryProvider>
-		<ProviderCode>PROV-007</ProviderCode>
 	</Provider>
 	<StudentIEPServicePrescriptionReference>
 		<StudentIEPServicePrescriptionIdentity>
@@ -6450,7 +6436,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-062</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6583,7 +6569,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-023</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6599,7 +6585,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-065</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6665,7 +6651,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-024</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6681,7 +6667,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-066</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6697,7 +6683,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-067</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6763,7 +6749,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-025</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6829,7 +6815,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-026</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6845,7 +6831,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-070</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6911,7 +6897,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-027</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6927,7 +6913,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-072</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6943,7 +6929,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-071</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -8149,7 +8135,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-062</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8231,7 +8217,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-023</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8247,7 +8233,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-065</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8288,7 +8274,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-024</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8304,7 +8290,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-066</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8320,7 +8306,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-067</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8361,7 +8347,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-025</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8402,7 +8388,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-026</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8418,7 +8404,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-070</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8459,7 +8445,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-027</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8475,7 +8461,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-072</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8491,7 +8477,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-071</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
