@@ -12,7 +12,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-001</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
         <BeginDate>2024-01-15</BeginDate>
         <EndDate>2024-01-29</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAInitialEvaluationTimeline</EventCompliance>
@@ -30,7 +30,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-002</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
         <BeginDate>2024-02-28</BeginDate>
         <EndDate>2024-03-20</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAReevaluationTimeline</EventCompliance>
@@ -48,7 +48,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-003</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
         <BeginDate>2024-03-10</BeginDate>
         <EndDate>2024-04-09</EndDate>
         <EventNarrative>Team determined student eligibility for special education services.</EventNarrative>
@@ -66,7 +66,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-004</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
         <BeginDate>2024-04-22</BeginDate>
     </IDEAEvent>
     <IDEAEvent>
@@ -81,7 +81,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-005</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
         <BeginDate>2024-05-05</BeginDate>
         <EndDate>2024-06-02</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPAnnualReview</EventCompliance>
@@ -100,7 +100,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-006</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
         <BeginDate>2024-06-18</BeginDate>
         <EndDate>2024-07-23</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPImplementation</EventCompliance>
@@ -119,7 +119,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-007</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
         <BeginDate>2024-07-30</BeginDate>
         <EndDate>2024-08-13</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAServicesProvision</EventCompliance>
@@ -138,7 +138,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-008</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
         <BeginDate>2024-08-14</BeginDate>
         <EndDate>2024-09-04</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAExtendedSchoolYear</EventCompliance>
@@ -157,7 +157,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-009</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
         <BeginDate>2024-09-09</BeginDate>
         <EndDate>2024-10-09</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAPlacementAndLRE</EventCompliance>
@@ -176,7 +176,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-010</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
         <BeginDate>2024-10-31</BeginDate>
         <EndDate>2024-12-15</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEASecondaryTransition</EventCompliance>
@@ -195,7 +195,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-011</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
         <BeginDate>2024-11-12</BeginDate>
         <EndDate>2024-12-10</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAProceduralSafeguards</EventCompliance>
@@ -214,7 +214,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-012</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
         <BeginDate>2024-12-25</BeginDate>
         <EndDate>2025-01-29</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAInitialEvaluationTimeline</EventCompliance>
@@ -233,7 +233,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-013</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
         <BeginDate>2025-01-08</BeginDate>
         <EndDate>2025-01-22</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAReevaluationTimeline</EventCompliance>
@@ -252,7 +252,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-014</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
         <BeginDate>2025-02-19</BeginDate>
         <EndDate>2025-03-12</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAEligibilityDetermination</EventCompliance>
@@ -271,7 +271,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-015</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
         <BeginDate>2025-03-27</BeginDate>
         <EndDate>2025-04-26</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPDevelopment</EventCompliance>
@@ -290,7 +290,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-016</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
         <BeginDate>2025-04-16</BeginDate>
         <EndDate>2025-05-31</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPAnnualReview</EventCompliance>
@@ -309,7 +309,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-017</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
         <BeginDate>2025-05-29</BeginDate>
         <EndDate>2025-06-26</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPImplementation</EventCompliance>
@@ -328,7 +328,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-018</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
         <BeginDate>2025-06-07</BeginDate>
         <EndDate>2025-07-12</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAServicesProvision</EventCompliance>
@@ -347,7 +347,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-019</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
         <BeginDate>2025-07-21</BeginDate>
         <EndDate>2025-08-04</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAExtendedSchoolYear</EventCompliance>
@@ -366,7 +366,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-020</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
         <BeginDate>2025-08-03</BeginDate>
         <EndDate>2025-08-24</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAPlacementAndLRE</EventCompliance>
@@ -385,7 +385,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-021</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
         <BeginDate>2025-09-17</BeginDate>
         <EndDate>2025-10-17</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEASecondaryTransition</EventCompliance>
@@ -404,7 +404,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-022</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
         <BeginDate>2026-01-11</BeginDate>
         <EndDate>2026-02-25</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAProceduralSafeguards</EventCompliance>
@@ -423,7 +423,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-023</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
         <BeginDate>2026-02-24</BeginDate>
         <EndDate>2026-03-24</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAInitialEvaluationTimeline</EventCompliance>
@@ -442,7 +442,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-024</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
         <BeginDate>2026-03-05</BeginDate>
         <EndDate>2026-04-09</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAReevaluationTimeline</EventCompliance>
@@ -461,7 +461,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-025</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
         <BeginDate>2026-04-19</BeginDate>
         <EndDate>2026-05-03</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAEligibilityDetermination</EventCompliance>
@@ -480,7 +480,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-026</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
         <BeginDate>2026-05-28</BeginDate>
         <EndDate>2026-06-18</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPDevelopment</EventCompliance>
@@ -499,7 +499,7 @@
             </EducationOrganizationIdentity>
         </EducationOrganizationReference>
         <IDEAEventIdentifier>EVT-027</IDEAEventIdentifier>
-        <IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+        <IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
         <BeginDate>2026-06-30</BeginDate>
         <EndDate>2026-07-30</EndDate>
         <EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPAnnualReview</EventCompliance>
@@ -519,7 +519,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-028</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 	<BeginDate>2024-03-10</BeginDate>
 	<EndDate>2024-04-09</EndDate>
 	<EventNarrative>Team determined student eligibility for special education services.</EventNarrative>
@@ -538,7 +538,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-029</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
 	<BeginDate>2024-05-05</BeginDate>
 	<EndDate>2024-06-02</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPAnnualReview</EventCompliance>
@@ -558,7 +558,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-030</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 	<BeginDate>2024-04-22</BeginDate>
 	</IDEAEvent>
 	<IDEAEvent>
@@ -574,7 +574,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-031</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
 	<BeginDate>2024-05-05</BeginDate>
 	<EndDate>2024-06-02</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPAnnualReview</EventCompliance>
@@ -594,7 +594,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-032</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 	<BeginDate>2024-06-18</BeginDate>
 	<EndDate>2024-07-23</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPImplementation</EventCompliance>
@@ -614,7 +614,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-033</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 	<BeginDate>2024-06-18</BeginDate>
 	<EndDate>2024-07-23</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPImplementation</EventCompliance>
@@ -634,7 +634,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-034</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 	<BeginDate>2024-09-09</BeginDate>
 	<EndDate>2024-10-09</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAPlacementAndLRE</EventCompliance>
@@ -654,7 +654,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-035</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 	<BeginDate>2024-08-14</BeginDate>
 	<EndDate>2024-09-04</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAExtendedSchoolYear</EventCompliance>
@@ -674,7 +674,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-036</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
 	<BeginDate>2024-07-30</BeginDate>
 	<EndDate>2024-08-13</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAServicesProvision</EventCompliance>
@@ -694,7 +694,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-037</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 	<BeginDate>2024-08-14</BeginDate>
 	<EndDate>2024-09-04</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAExtendedSchoolYear</EventCompliance>
@@ -714,7 +714,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-038</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 	<BeginDate>2024-09-09</BeginDate>
 	<EndDate>2024-10-09</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAPlacementAndLRE</EventCompliance>
@@ -734,7 +734,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-039</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 	<BeginDate>2024-02-28</BeginDate>
 	<EndDate>2024-03-20</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAReevaluationTimeline</EventCompliance>
@@ -753,7 +753,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-040</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 	<BeginDate>2024-03-10</BeginDate>
 	<EndDate>2024-04-09</EndDate>
 	<EventNarrative>Team determined student eligibility for special education services.</EventNarrative>
@@ -772,7 +772,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-041</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
 	<BeginDate>2024-10-31</BeginDate>
 	<EndDate>2024-12-15</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEASecondaryTransition</EventCompliance>
@@ -792,7 +792,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-042</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 	<BeginDate>2024-11-12</BeginDate>
 	<EndDate>2024-12-10</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAProceduralSafeguards</EventCompliance>
@@ -812,7 +812,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-043</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 	<BeginDate>2024-12-25</BeginDate>
 	<EndDate>2025-01-29</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAInitialEvaluationTimeline</EventCompliance>
@@ -832,7 +832,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-044</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 	<BeginDate>2024-11-12</BeginDate>
 	<EndDate>2024-12-10</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAProceduralSafeguards</EventCompliance>
@@ -852,7 +852,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-045</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 	<BeginDate>2024-12-25</BeginDate>
 	<EndDate>2025-01-29</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAInitialEvaluationTimeline</EventCompliance>
@@ -872,7 +872,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-046</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 	<BeginDate>2025-02-19</BeginDate>
 	<EndDate>2025-03-12</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAEligibilityDetermination</EventCompliance>
@@ -892,7 +892,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-047</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
 	<BeginDate>2025-01-08</BeginDate>
 	<EndDate>2025-01-22</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAReevaluationTimeline</EventCompliance>
@@ -912,7 +912,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-048</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 	<BeginDate>2025-02-19</BeginDate>
 	<EndDate>2025-03-12</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAEligibilityDetermination</EventCompliance>
@@ -932,7 +932,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-049</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 	<BeginDate>2025-03-27</BeginDate>
 	<EndDate>2025-04-26</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPDevelopment</EventCompliance>
@@ -952,7 +952,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-050</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 	<BeginDate>2025-03-27</BeginDate>
 	<EndDate>2025-04-26</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPDevelopment</EventCompliance>
@@ -972,7 +972,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-051</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
 	<BeginDate>2025-04-16</BeginDate>
 	<EndDate>2025-05-31</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPAnnualReview</EventCompliance>
@@ -992,7 +992,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-052</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 	<BeginDate>2025-05-29</BeginDate>
 	<EndDate>2025-06-26</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPImplementation</EventCompliance>
@@ -1012,7 +1012,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-053</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 	<BeginDate>2025-06-07</BeginDate>
 	<EndDate>2025-07-12</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAServicesProvision</EventCompliance>
@@ -1032,7 +1032,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-054</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 	<BeginDate>2025-05-29</BeginDate>
 	<EndDate>2025-06-26</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPImplementation</EventCompliance>
@@ -1052,7 +1052,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-055</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 	<BeginDate>2025-06-07</BeginDate>
 	<EndDate>2025-07-12</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAServicesProvision</EventCompliance>
@@ -1072,7 +1072,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-056</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
 	<BeginDate>2025-07-21</BeginDate>
 	<EndDate>2025-08-04</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAExtendedSchoolYear</EventCompliance>
@@ -1092,7 +1092,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-057</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 	<BeginDate>2025-08-03</BeginDate>
 	<EndDate>2025-08-24</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAPlacementAndLRE</EventCompliance>
@@ -1112,7 +1112,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-058</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 	<BeginDate>2025-09-17</BeginDate>
 	<EndDate>2025-10-17</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEASecondaryTransition</EventCompliance>
@@ -1132,7 +1132,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-059</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 	<BeginDate>2025-09-17</BeginDate>
 	<EndDate>2025-10-17</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEASecondaryTransition</EventCompliance>
@@ -1152,7 +1152,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-060</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 	<BeginDate>2025-08-03</BeginDate>
 	<EndDate>2025-08-24</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAPlacementAndLRE</EventCompliance>
@@ -1172,7 +1172,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-061</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
 	<BeginDate>2026-01-11</BeginDate>
 	<EndDate>2026-02-25</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAProceduralSafeguards</EventCompliance>
@@ -1192,7 +1192,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-062</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 	<BeginDate>2026-02-24</BeginDate>
 	<EndDate>2026-03-24</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAInitialEvaluationTimeline</EventCompliance>
@@ -1212,7 +1212,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-063</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 	<BeginDate>2026-02-24</BeginDate>
 	<EndDate>2026-03-24</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAInitialEvaluationTimeline</EventCompliance>
@@ -1232,7 +1232,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-064</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 	<BeginDate>2026-03-05</BeginDate>
 	<EndDate>2026-04-09</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAReevaluationTimeline</EventCompliance>
@@ -1252,7 +1252,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-065</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 	<BeginDate>2026-03-05</BeginDate>
 	<EndDate>2026-04-09</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAReevaluationTimeline</EventCompliance>
@@ -1272,7 +1272,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-066</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 	<BeginDate>2026-04-19</BeginDate>
 	<EndDate>2026-05-03</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAEligibilityDetermination</EventCompliance>
@@ -1292,7 +1292,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-067</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 	<BeginDate>2026-05-28</BeginDate>
 	<EndDate>2026-06-18</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPDevelopment</EventCompliance>
@@ -1312,7 +1312,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-068</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 	<BeginDate>2026-06-30</BeginDate>
 	<EndDate>2026-07-30</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPAnnualReview</EventCompliance>
@@ -1332,7 +1332,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-069</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 	<BeginDate>2026-05-28</BeginDate>
 	<EndDate>2026-06-18</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPDevelopment</EventCompliance>
@@ -1352,7 +1352,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-070</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 	<BeginDate>2026-06-30</BeginDate>
 	<EndDate>2026-07-30</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAIEPAnnualReview</EventCompliance>
@@ -1372,7 +1372,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-071</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 	<BeginDate>2024-02-28</BeginDate>
 	<EndDate>2024-03-20</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAReevaluationTimeline</EventCompliance>
@@ -1391,7 +1391,7 @@
 		</EducationOrganizationIdentity>
 	</EducationOrganizationReference>
 	<IDEAEventIdentifier>EVT-072</IDEAEventIdentifier>
-	<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+	<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 	<BeginDate>2024-01-15</BeginDate>
 	<EndDate>2024-01-29</EndDate>
 	<EventCompliance>uri://ed-fi.org/EventComplianceDescriptor#IDEAInitialEvaluationTimeline</EventCompliance>
@@ -1439,7 +1439,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-001</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -1455,7 +1455,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-039</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -1471,7 +1471,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-040</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-02-14</IEPAmendedDate>
@@ -1521,7 +1521,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-002</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-04-03</IEPAmendedDate>
@@ -1588,7 +1588,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-004</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -1604,7 +1604,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-031</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -1620,7 +1620,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-032</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-06-06</IEPAmendedDate>
@@ -1671,7 +1671,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-005</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-06-24</IEPAmendedDate>
@@ -1717,7 +1717,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-006</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -1733,7 +1733,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-036</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-07-18</IEPAmendedDate>
@@ -1780,7 +1780,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-007</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -1796,7 +1796,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-035</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -1812,7 +1812,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-034</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-09-03</IEPAmendedDate>
@@ -1863,7 +1863,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-008</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-09-23</IEPAmendedDate>
@@ -1909,7 +1909,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-009</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -1925,7 +1925,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-041</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-10-24</IEPAmendedDate>
@@ -1972,7 +1972,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-010</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -1988,7 +1988,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-044</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2004,7 +2004,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-043</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-12-20</IEPAmendedDate>
@@ -2055,7 +2055,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-011</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2024-12-12</IEPAmendedDate>
@@ -2101,7 +2101,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-012</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2117,7 +2117,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-047</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-01-29</IEPAmendedDate>
@@ -2164,7 +2164,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-013</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2180,7 +2180,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-048</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2196,7 +2196,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-049</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-02-17</IEPAmendedDate>
@@ -2247,7 +2247,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-014</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-04-05</IEPAmendedDate>
@@ -2293,7 +2293,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-015</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2309,7 +2309,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-051</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-05-16</IEPAmendedDate>
@@ -2356,7 +2356,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-016</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2372,7 +2372,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-054</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2388,7 +2388,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-053</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-05-16</IEPAmendedDate>
@@ -2439,7 +2439,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-017</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-07-03</IEPAmendedDate>
@@ -2485,7 +2485,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-018</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2501,7 +2501,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-056</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-07-17</IEPAmendedDate>
@@ -2548,7 +2548,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-019</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2564,7 +2564,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-060</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2580,7 +2580,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-059</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-09-04</IEPAmendedDate>
@@ -2631,7 +2631,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-020</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-09-22</IEPAmendedDate>
@@ -2677,7 +2677,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-021</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2693,7 +2693,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-061</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2025-10-17</IEPAmendedDate>
@@ -2740,7 +2740,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-022</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2756,7 +2756,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-063</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2772,7 +2772,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-064</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-02-15</IEPAmendedDate>
@@ -2823,7 +2823,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-023</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-04-05</IEPAmendedDate>
@@ -2869,7 +2869,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-024</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2885,7 +2885,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-066</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-04-19</IEPAmendedDate>
@@ -2932,7 +2932,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-025</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2948,7 +2948,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-069</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -2964,7 +2964,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-068</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-06-08</IEPAmendedDate>
@@ -3015,7 +3015,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-026</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-06-27</IEPAmendedDate>
@@ -3061,7 +3061,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-027</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IDEAEventReference>
@@ -3077,7 +3077,7 @@
 					</EducationOrganizationIdentity>
 				</EducationOrganizationReference>
 				<IDEAEventIdentifier>EVT-072</IDEAEventIdentifier>
-				<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+				<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 			</IDEAEventIdentity>
 		</IDEAEventReference>
 		<IEPAmendedDate>2026-08-04</IEPAmendedDate>
@@ -3126,7 +3126,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-001</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Bus/District Transportation</ServiceLocationType>
@@ -3169,7 +3169,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-002</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3185,7 +3185,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-028</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Therapy Room (Small Group)</ServiceLocationType>
@@ -3269,7 +3269,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-004</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#School Environment</ServiceLocationType>
@@ -3317,7 +3317,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-005</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3333,7 +3333,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-033</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#General Education Classroom</ServiceLocationType>
@@ -3381,7 +3381,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-006</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3397,7 +3397,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-036</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3413,7 +3413,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-037</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#General Education Classroom (Virtual)</ServiceLocationType>
@@ -3461,7 +3461,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-007</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education (Home)</ServiceLocationType>
@@ -3509,7 +3509,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-008</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3525,7 +3525,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-038</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Classroom (Virtual)</ServiceLocationType>
@@ -3573,7 +3573,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-009</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3589,7 +3589,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-041</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3605,7 +3605,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-042</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#School Counselor's Office</ServiceLocationType>
@@ -3653,7 +3653,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-010</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Therapy Room (Individual)</ServiceLocationType>
@@ -3701,7 +3701,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-011</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3717,7 +3717,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-045</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Teletherapy(Small Group Virtual)</ServiceLocationType>
@@ -3765,7 +3765,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-012</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3781,7 +3781,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-047</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3797,7 +3797,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-046</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Nurse's Office</ServiceLocationType>
@@ -3845,7 +3845,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-013</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Teletherapy (Individual Virtual)</ServiceLocationType>
@@ -3893,7 +3893,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-014</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3909,7 +3909,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-050</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Community</ServiceLocationType>
@@ -3957,7 +3957,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-015</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3973,7 +3973,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-051</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -3989,7 +3989,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-052</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education School Counselor's Office</ServiceLocationType>
@@ -4037,7 +4037,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-016</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#General Education Cafeteria</ServiceLocationType>
@@ -4085,7 +4085,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-017</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4101,7 +4101,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-055</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Home</ServiceLocationType>
@@ -4149,7 +4149,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-018</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4165,7 +4165,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-056</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4181,7 +4181,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-057</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Community</ServiceLocationType>
@@ -4229,7 +4229,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-019</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Support Room</ServiceLocationType>
@@ -4277,7 +4277,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-020</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4293,7 +4293,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-058</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Nurse's Office</ServiceLocationType>
@@ -4341,7 +4341,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-021</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4357,7 +4357,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-061</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4373,7 +4373,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-062</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Hospital/Medical Homebound</ServiceLocationType>
@@ -4421,7 +4421,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-022</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Occupational Therapy Room (Individual)</ServiceLocationType>
@@ -4469,7 +4469,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-023</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4485,7 +4485,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-065</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Physical Therapy Room (Individual)</ServiceLocationType>
@@ -4533,7 +4533,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-024</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4549,7 +4549,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-066</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4565,7 +4565,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-067</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Speech Therapy Room (Small Group)</ServiceLocationType>
@@ -4613,7 +4613,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-025</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Bus/District Transportation</ServiceLocationType>
@@ -4661,7 +4661,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-026</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4677,7 +4677,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-070</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Therapy Room (Small Group)</ServiceLocationType>
@@ -4730,7 +4730,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-027</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4746,7 +4746,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-072</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4762,7 +4762,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-071</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<ServiceLocationType>uri://ed-fi.org/ServiceLocationTypeDescriptor#Special Education Classroom</ServiceLocationType>
@@ -4805,7 +4805,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-001</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -4849,7 +4849,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-002</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4865,7 +4865,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-028</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<StudentIEPServicePrescriptionReference>
@@ -4924,7 +4924,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-003</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4940,7 +4940,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-030</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -4956,7 +4956,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-029</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5084,7 +5084,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-005</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5100,7 +5100,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-033</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<StudentIEPServicePrescriptionReference>
@@ -5159,7 +5159,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-006</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5175,7 +5175,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-036</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5191,7 +5191,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-037</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5258,7 +5258,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-007</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5325,7 +5325,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-008</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5341,7 +5341,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-038</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5408,7 +5408,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-009</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5424,7 +5424,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-041</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5440,7 +5440,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-042</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5507,7 +5507,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-010</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5574,7 +5574,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-011</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5590,7 +5590,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-045</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5657,7 +5657,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-012</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5673,7 +5673,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-047</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5689,7 +5689,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-046</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5756,7 +5756,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-013</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5823,7 +5823,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-014</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5839,7 +5839,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-050</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -5906,7 +5906,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-015</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5922,7 +5922,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-051</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -5938,7 +5938,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-052</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6005,7 +6005,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-016</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6072,7 +6072,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-017</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6088,7 +6088,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-055</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6155,7 +6155,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-018</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6171,7 +6171,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-056</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6187,7 +6187,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-057</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6254,7 +6254,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-019</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6321,7 +6321,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-020</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6337,7 +6337,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-058</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6404,7 +6404,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-021</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6420,7 +6420,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-061</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6436,7 +6436,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-062</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6503,7 +6503,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-022</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6569,7 +6569,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-023</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6585,7 +6585,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-065</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6651,7 +6651,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-024</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6667,7 +6667,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-066</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6683,7 +6683,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-067</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6749,7 +6749,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-025</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6815,7 +6815,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-026</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6831,7 +6831,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-070</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -6897,7 +6897,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-027</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6913,7 +6913,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-072</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -6929,7 +6929,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-071</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<Provider>
@@ -7020,7 +7020,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-002</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7036,7 +7036,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-028</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7077,7 +7077,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-003</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7093,7 +7093,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-030</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7109,7 +7109,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-029</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7150,7 +7150,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-004</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7191,7 +7191,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-005</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Declined</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Declined</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7207,7 +7207,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-033</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7248,7 +7248,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-006</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Service Begins</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Service Begins</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7264,7 +7264,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-036</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7280,7 +7280,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-037</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7321,7 +7321,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-007</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Incident</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Incident</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7362,7 +7362,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-008</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Removed from Least Restrictive Environment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Removed from Least Restrictive Environment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7378,7 +7378,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-038</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7419,7 +7419,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-009</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7435,7 +7435,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-041</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7451,7 +7451,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-042</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7492,7 +7492,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-010</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parent Complaint</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parent Complaint</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7533,7 +7533,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-011</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Need Identification</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Need Identification</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7549,7 +7549,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-045</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7590,7 +7590,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-012</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Surrogate Assignment</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Surrogate Assignment</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7606,7 +7606,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-047</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7622,7 +7622,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-046</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7663,7 +7663,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-013</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Officer Assigned</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Officer Assigned</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7704,7 +7704,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-014</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Hearing Conducted</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Hearing Conducted</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7720,7 +7720,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-050</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7761,7 +7761,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-015</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Written Decision (SEA/LEA)</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Written Decision (SEA/LEA)</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7777,7 +7777,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-051</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7793,7 +7793,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-052</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7834,7 +7834,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-016</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Action Taken</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Action Taken</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7875,7 +7875,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-017</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Due</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Due</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7891,7 +7891,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-055</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -7932,7 +7932,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-018</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Review Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Review Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7948,7 +7948,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-056</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -7964,7 +7964,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-057</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8005,7 +8005,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-019</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Report Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Report Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8046,7 +8046,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-020</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Transfer Student IEP Adoption</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Transfer Student IEP Adoption</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8062,7 +8062,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-058</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8103,7 +8103,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-021</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Parent Consent Withdrawn</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Parent Consent Withdrawn</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8119,7 +8119,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-061</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8135,7 +8135,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-062</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8176,7 +8176,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-022</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#IEP Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#IEP Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8217,7 +8217,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-023</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Manifestation Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Manifestation Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8233,7 +8233,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-065</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8274,7 +8274,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-024</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8290,7 +8290,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-066</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8306,7 +8306,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-067</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8347,7 +8347,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-025</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8388,7 +8388,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-026</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Specific Disability Eligibility Determination</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Specific Disability Eligibility Determination</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8404,7 +8404,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-070</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>
@@ -8445,7 +8445,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-027</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Implementing IEP Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Implementing IEP Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8461,7 +8461,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-072</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Parental Consent for Evaluation Given</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Parental Consent for Evaluation Given</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 	<IDEAEventReference>
@@ -8477,7 +8477,7 @@
 				</EducationOrganizationIdentity>
 			</EducationOrganizationReference>
 			<IDEAEventIdentifier>EVT-071</IDEAEventIdentifier>
-			<IDEAEvent>uri://ed-fi.org/IDEAEventDescriptor#Evaluation Complete</IDEAEvent>
+			<IDEAEventType>uri://ed-fi.org/IDEAEventTypeDescriptor#Evaluation Complete</IDEAEventType>
 		</IDEAEventIdentity>
 	</IDEAEventReference>
 </StudentIEPGoal>

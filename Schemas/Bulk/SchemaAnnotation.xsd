@@ -146,7 +146,7 @@
       <xs:enumeration value="HiringSourceDescriptor" />
       <xs:enumeration value="HomelessPrimaryNighttimeResidenceDescriptor" />
       <xs:enumeration value="HomelessProgramServiceDescriptor" />
-      <xs:enumeration value="IDEAEventDescriptor" />
+      <xs:enumeration value="IDEAEventTypeDescriptor" />
       <xs:enumeration value="IDEAPartDescriptor" />
       <xs:enumeration value="IdentificationDocumentUseDescriptor" />
       <xs:enumeration value="IEPGoalTypeDescriptor" />

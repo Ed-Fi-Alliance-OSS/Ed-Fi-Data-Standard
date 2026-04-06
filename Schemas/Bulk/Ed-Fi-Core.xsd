@@ -3902,11 +3902,11 @@
               <xs:documentation>	A unique identifier for the event record as assigned by the provider of IEP services.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="IDEAEvent" type="IDEAEventDescriptorReferenceType">
+          <xs:element name="IDEAEventType" type="IDEAEventTypeDescriptorReferenceType">
             <xs:annotation>
-              <xs:documentation>The IDEA event recorded for the student.</xs:documentation>
+              <xs:documentation>The specific legal step, procedure, or standard event milestone captured as part of IDEA compliance requirements.</xs:documentation>
               <xs:appinfo>
-                <ann:Descriptor>IDEAEventDescriptor</ann:Descriptor>
+                <ann:Descriptor>IDEAEventTypeDescriptor</ann:Descriptor>
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
@@ -10281,9 +10281,9 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="IDEAEventDescriptor">
+  <xs:complexType name="IDEAEventTypeDescriptor">
     <xs:annotation>
-      <xs:documentation>The IDEA event recorded for the student.</xs:documentation>
+      <xs:documentation>The specific legal step, procedure, or standard event milestone captured as part of IDEA compliance requirements.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -17291,11 +17291,11 @@
           <xs:documentation>	A unique identifier for the event record as assigned by the provider of IEP services.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="IDEAEvent" type="IDEAEventDescriptorReferenceType">
+      <xs:element name="IDEAEventType" type="IDEAEventTypeDescriptorReferenceType">
         <xs:annotation>
-          <xs:documentation>The IDEA event recorded for the student.</xs:documentation>
+          <xs:documentation>The specific legal step, procedure, or standard event milestone captured as part of IDEA compliance requirements.</xs:documentation>
           <xs:appinfo>
-            <ann:Descriptor>IDEAEventDescriptor</ann:Descriptor>
+            <ann:Descriptor>IDEAEventTypeDescriptor</ann:Descriptor>
           </xs:appinfo>
         </xs:annotation>
       </xs:element>
@@ -24120,9 +24120,9 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="IDEAEventDescriptorReferenceType">
+  <xs:simpleType name="IDEAEventTypeDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>The IDEA event recorded for the student.</xs:documentation>
+      <xs:documentation>The specific legal step, procedure, or standard event milestone captured as part of IDEA compliance requirements.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
