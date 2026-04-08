@@ -13422,7 +13422,7 @@
   </xs:complexType>
   <xs:complexType name="StudentSchoolAssociation">
     <xs:annotation>
-      <xs:documentation>This association represents the school in which a student is enrolled. The semantics of enrollment may differ slightly by state. Non-enrollment relationships between a student and an education organization may be described using the StudentEducationOrganizationAssociation.</xs:documentation>
+      <xs:documentation>This association represents the school in which a student is enrolled. The semantics of enrollment may differ slightly by state. Non-enrollment relationships between a student and an education organization may be described using the StudentEducationOrganizationAssociation, StudentDemographic and StudentDirectory.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Association</ann:TypeGroup>
       </xs:appinfo>
@@ -13550,7 +13550,7 @@
           </xs:element>
           <xs:element name="TermCompletionIndicator" type="xs:boolean" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>Idicates whether or not a student completed the most recent school term.</xs:documentation>
+              <xs:documentation>Indicates whether or not a student completed the most recent school term.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="NextYearSchoolReference" type="SchoolReferenceType" minOccurs="0">
