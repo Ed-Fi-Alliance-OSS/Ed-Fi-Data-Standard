@@ -1,0 +1,36 @@
+﻿---
+title: StudentHealth
+config:
+  layout: elk
+---
+erDiagram
+    Student {
+        string StudentUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        common BirthData "R"
+        reference Person "O"
+    }
+    StudentHealth {
+        reference Student "I"
+        reference EducationOrganization "I"
+        date AsOfDate "R"
+        common RequiredImmunization "OC"
+        common AdditionalImmunization "OC"
+        descriptor NonMedicalImmunizationExemption "O"
+        date NonMedicalImmunizationExemptionDate "O"
+    }
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    StudentHealth ||--o{ Student : "has associated"
+    StudentHealth ||--o{ EducationOrganization : "has associated"

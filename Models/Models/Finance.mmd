@@ -1,0 +1,161 @@
+﻿---
+title: Finance
+config:
+  layout: elk
+---
+erDiagram
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    LocalAccount {
+        string AccountIdentifier "I"
+        reference EducationOrganization "I"
+        integer FiscalYear "I"
+        string AccountName "O"
+        reference ChartOfAccount "R"
+        common ReportingTag "OC"
+    }
+    ChartOfAccount {
+        string AccountIdentifier "I"
+        integer FiscalYear "I"
+        reference EducationOrganization "I"
+        descriptor AccountType "R"
+        string AccountName "O"
+        reference BalanceSheetBalanceSheetDimension "O"
+        reference FunctionFunctionDimension "O"
+        reference FundFundDimension "O"
+        reference ObjectObjectDimension "O"
+        reference OperationalUnitOperationalUnitDimension "O"
+        reference ProgramProgramDimension "O"
+        reference ProjectProjectDimension "O"
+        reference SourceSourceDimension "O"
+        common ReportingTag "OC"
+    }
+    LocalBudget {
+        reference LocalAccount "I"
+        date AsOfDate "I"
+        currency Amount "R"
+        descriptor FinancialCollection "O"
+    }
+    LocalActual {
+        reference LocalAccount "I"
+        date AsOfDate "I"
+        currency Amount "R"
+        descriptor FinancialCollection "O"
+    }
+    LocalEncumbrance {
+        reference LocalAccount "I"
+        date AsOfDate "I"
+        currency Amount "R"
+        descriptor FinancialCollection "O"
+    }
+    LocalContractedStaff {
+        reference Staff "I"
+        reference LocalAccount "I"
+        date AsOfDate "I"
+        currency Amount "R"
+        descriptor FinancialCollection "O"
+    }
+    LocalPayroll {
+        reference Staff "I"
+        reference LocalAccount "I"
+        date AsOfDate "I"
+        currency Amount "R"
+        descriptor FinancialCollection "O"
+    }
+    FundDimension {
+        string Code "I"
+        integer FiscalYear "I"
+        string CodeName "O"
+        descriptor ReportingTag "OC"
+    }
+    ProgramDimension {
+        string Code "I"
+        integer FiscalYear "I"
+        string CodeName "O"
+        descriptor ReportingTag "OC"
+    }
+    FunctionDimension {
+        string Code "I"
+        integer FiscalYear "I"
+        string CodeName "O"
+        descriptor ReportingTag "OC"
+    }
+    ObjectDimension {
+        string Code "I"
+        integer FiscalYear "I"
+        string CodeName "O"
+        descriptor ReportingTag "OC"
+    }
+    ProjectDimension {
+        string Code "I"
+        integer FiscalYear "I"
+        string CodeName "O"
+        descriptor ReportingTag "OC"
+    }
+    BalanceSheetDimension {
+        string Code "I"
+        integer FiscalYear "I"
+        string CodeName "O"
+        descriptor ReportingTag "OC"
+    }
+    OperationalUnitDimension {
+        string Code "I"
+        integer FiscalYear "I"
+        string CodeName "O"
+        descriptor ReportingTag "OC"
+    }
+    SourceDimension {
+        string Code "I"
+        integer FiscalYear "I"
+        string CodeName "O"
+        descriptor ReportingTag "OC"
+    }
+    NewDimension {
+    }
+    Staff {
+        string StaffUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        date BirthDate "O"
+        descriptor HighestCompletedLevelOfEducation "O"
+        decimal YearsOfPriorProfessionalExperience "O"
+        decimal YearsOfPriorTeachingExperience "O"
+        string LoginId "O"
+        bool HighlyQualifiedTeacher "O"
+        common Recognition "OC"
+        reference Credential "OC"
+        reference Person "O"
+        descriptor HighlyQualifiedAcademicSubject "OC"
+        common EducatorResearch "O"
+        reference EducatorPreparationProgram "OC"
+        reference OpenStaffPosition "O"
+    }
+    LocalAccount ||--o{ EducationOrganization : "has associated"
+    LocalAccount ||--o{ ChartOfAccount : "has associated"
+    ChartOfAccount ||--o{ EducationOrganization : "has associated"
+    ChartOfAccount ||--o{ FundDimension : "has associated"
+    ChartOfAccount ||--o{ ProgramDimension : "has associated"
+    ChartOfAccount ||--o{ FunctionDimension : "has associated"
+    ChartOfAccount ||--o{ ObjectDimension : "has associated"
+    ChartOfAccount ||--o{ ProjectDimension : "has associated"
+    ChartOfAccount ||--o{ OperationalUnitDimension : "has associated"
+    ChartOfAccount ||--o{ SourceDimension : "has associated"
+    ChartOfAccount ||--o{ BalanceSheetDimension : "has associated"
+    ChartOfAccount ||--o{ NewDimension : "has associated"
+    LocalBudget ||--o{ LocalAccount : "has associated"
+    LocalActual ||--o{ LocalAccount : "has associated"
+    LocalEncumbrance ||--o{ LocalAccount : "has associated"
+    LocalContractedStaff ||--o{ LocalAccount : "has associated"
+    LocalContractedStaff ||--o{ Staff : "has associated"
+    LocalPayroll ||--o{ LocalAccount : "has associated"
+    LocalPayroll ||--o{ Staff : "has associated"

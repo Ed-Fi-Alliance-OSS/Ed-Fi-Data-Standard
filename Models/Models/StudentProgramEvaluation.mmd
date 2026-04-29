@@ -1,0 +1,169 @@
+﻿---
+title: StudentProgramEvaluation
+config:
+  layout: elk
+---
+erDiagram
+    ProgramEvaluation {
+        reference Program "I"
+        string ProgramEvaluationTitle "I"
+        descriptor ProgramEvaluationType "I"
+        descriptor ProgramEvaluationPeriod "I"
+        string ProgramEvaluationDescription "O"
+        common ProgramEvaluationLevel "OC"
+        decimal EvaluationMaxNumericRating "O"
+        decimal EvaluationMinNumericRating "O"
+    }
+    ProgramEvaluationObjective {
+        reference ProgramEvaluation "I"
+        string ProgramEvaluationObjectiveTitle "I"
+        string ProgramEvaluationObjectiveDescription "O"
+        common ObjectiveProgramEvaluationLevel "OC"
+        decimal ObjectiveMaxNumericRating "O"
+        decimal ObjectiveMinNumericRating "O"
+        integer ObjectiveSortOrder "O"
+    }
+    ProgramEvaluationElement {
+        reference ProgramEvaluation "I"
+        reference ProgramEvaluationObjective "O"
+        string ProgramEvaluationElementTitle "I"
+        string ProgramEvaluationElementDescription "O"
+        common ElementProgramEvaluationLevel "OC"
+        decimal ElementMaxNumericRating "O"
+        decimal ElementMinNumericRating "O"
+        integer ElementSortOrder "O"
+    }
+    EvaluationRubricDimension {
+        reference ProgramEvaluationElement "I"
+        integer EvaluationRubricRating "I"
+        string EvaluationCriterionDescription "R"
+        descriptor EvaluationRubricRatingLevel "O"
+        integer RubricDimensionSortOrder "O"
+    }
+    StudentProgramEvaluation {
+        reference ProgramEvaluation "I"
+        reference Student "I"
+        date EvaluationDate "I"
+        reference EducationOrganization "O"
+        integer EvaluationDuration "O"
+        decimal SummaryEvaluationNumericRating "O"
+        descriptor SummaryEvaluationRatingLevel "O"
+        string SummaryEvaluationComment "O"
+        reference StaffEvaluatorStaff "O"
+        string ExternalEvaluator "OC"
+        common StudentEvaluationObjective "OC"
+        common StudentEvaluationElement "OC"
+    }
+    StudentEvaluationObjective {
+        reference ProgramEvaluationObjective "I"
+        decimal EvaluationObjectiveNumericRating "O"
+        descriptor EvaluationObjectiveRatingLevel "O"
+    }
+    StudentEvaluationElement {
+        reference ProgramEvaluationElement "I"
+        decimal EvaluationElementNumericRating "O"
+        descriptor EvaluationElementRatingLevel "O"
+    }
+    GeneralStudentProgramAssociation {
+        reference Student "I"
+        reference Program "I"
+        date BeginDate "I"
+        date EndDate "O"
+        descriptor ReasonExited "O"
+        reference EducationOrganization "I"
+        bool ServedOutsideOfRegularSession "O"
+        common ProgramParticipationStatus "OC"
+    }
+    StaffProgramAssociation {
+        reference Staff "I"
+        reference Program "I"
+        date BeginDate "I"
+        date EndDate "O"
+        bool StudentRecordAccess "O"
+    }
+    Program {
+        reference EducationOrganization "I"
+        string ProgramId "O"
+        string ProgramName "I"
+        descriptor ProgramType "I"
+        descriptor ProgramCharacteristic "OC"
+        descriptor ProgramSponsor "OC"
+        reference LearningStandard "OC"
+    }
+    Student {
+        string StudentUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        common BirthData "R"
+        reference Person "O"
+    }
+    Staff {
+        string StaffUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        date BirthDate "O"
+        descriptor HighestCompletedLevelOfEducation "O"
+        decimal YearsOfPriorProfessionalExperience "O"
+        decimal YearsOfPriorTeachingExperience "O"
+        string LoginId "O"
+        bool HighlyQualifiedTeacher "O"
+        common Recognition "OC"
+        reference Credential "OC"
+        reference Person "O"
+        descriptor HighlyQualifiedAcademicSubject "OC"
+        common EducatorResearch "O"
+        reference EducatorPreparationProgram "OC"
+        reference OpenStaffPosition "O"
+    }
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    School {
+        integer SchoolId "I"
+        descriptor GradeLevel "RC"
+        descriptor SchoolCategory "OC"
+        descriptor SchoolType "O"
+        descriptor CharterStatus "O"
+        descriptor TitleIPartASchoolDesignation "O"
+        descriptor MagnetSpecialProgramEmphasisSchool "O"
+        descriptor AdministrativeFundingControl "O"
+        descriptor InternetAccess "O"
+        reference LocalEducationAgency "O"
+        descriptor CharterApprovalAgencyType "O"
+        enumeration CharterApprovalSchoolYear "O"
+        descriptor FederalLocaleCode "O"
+        reference PostSecondaryInstitution "O"
+        bool ImprovingSchool "O"
+        descriptor AccreditationStatus "O"
+    }
+    ProgramEvaluation ||--o{ Program : "has associated"
+    ProgramEvaluationObjective ||--o{ ProgramEvaluation : "has associated"
+    ProgramEvaluationElement ||--o{ ProgramEvaluationObjective : "has associated"
+    ProgramEvaluationElement ||--o{ ProgramEvaluation : "has associated"
+    EvaluationRubricDimension ||--o{ ProgramEvaluationElement : "has associated"
+    StudentProgramEvaluation ||--o{ Student : "has associated"
+    StudentProgramEvaluation ||--o{ Staff : "has associated"
+    StudentProgramEvaluation ||--o{ ProgramEvaluation : "has associated"
+    StudentProgramEvaluation ||--o{ EducationOrganization : "has associated"
+    StudentProgramEvaluation ||--o{ StudentEvaluationElement : "has associated"
+    StudentProgramEvaluation ||--o{ StudentEvaluationObjective : "has associated"
+    StudentEvaluationObjective ||--o{ ProgramEvaluationObjective : "has associated"
+    StudentEvaluationElement ||--o{ ProgramEvaluationElement : "has associated"
+    GeneralStudentProgramAssociation ||--o{ EducationOrganization : "has associated"
+    GeneralStudentProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    Program ||--o{ EducationOrganization : "has associated"
+    Program ||--o{ Staff : "has associated"
+    Program ||--o{ StaffProgramAssociation : "has associated"
+    EducationOrganization ||--o{ Program : "has associated"
+    School ||--o{ EducationOrganization : "has associated"
+    Student ||--o{ Program : "has associated"
+    Student ||--o{ School : "has associated"

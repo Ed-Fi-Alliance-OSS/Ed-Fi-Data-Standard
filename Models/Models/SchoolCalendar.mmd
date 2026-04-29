@@ -1,0 +1,122 @@
+﻿---
+title: SchoolCalendar
+config:
+  layout: elk
+---
+erDiagram
+    Session {
+        string SessionName "I"
+        enumeration SchoolYear "I"
+        date BeginDate "R"
+        date EndDate "R"
+        descriptor Term "R"
+        integer TotalInstructionalDays "R"
+        reference School "I"
+        reference GradingPeriod "OC"
+        reference AcademicWeek "OC"
+    }
+    GradingPeriod {
+        reference School "I"
+        descriptor GradingPeriod "I"
+        string GradingPeriodName "I"
+        integer PeriodSequence "O"
+        enumeration SchoolYear "I"
+        date BeginDate "R"
+        date EndDate "R"
+        integer TotalInstructionalDays "R"
+    }
+    AcademicWeek {
+        reference School "I"
+        string WeekIdentifier "I"
+        date BeginDate "R"
+        date EndDate "R"
+        integer TotalInstructionalDays "R"
+    }
+    Calendar {
+        string CalendarCode "I"
+        descriptor CalendarType "R"
+        descriptor GradeLevel "OC"
+        reference School "I"
+        enumeration SchoolYear "I"
+    }
+    CalendarDate {
+        date Date "I"
+        descriptor CalendarEvent "RC"
+        reference Calendar "I"
+    }
+    StudentSchoolAssociation {
+        reference Student "I"
+        reference School "I"
+        bool PrimarySchool "O"
+        enumeration SchoolYear "O"
+        date EntryDate "I"
+        descriptor EntryGradeLevel "R"
+        descriptor EntryGradeLevelReason "O"
+        descriptor EntryType "O"
+        bool RepeatGradeIndicator "O"
+        enumeration ClassOfSchoolYear "O"
+        bool SchoolChoiceTransfer "O"
+        date ExitWithdrawDate "O"
+        descriptor ExitWithdrawType "O"
+        descriptor EducationPlan "OC"
+        descriptor ResidencyStatus "O"
+        reference GraduationPlan "O"
+        reference AlternativeGraduationPlan "OC"
+        bool EmployedWhileEnrolled "O"
+        reference Calendar "O"
+        decimal FullTimeEquivalency "O"
+        bool TermCompletionIndicator "O"
+        reference NextYearSchool "O"
+        descriptor NextYearGradeLevel "O"
+        bool SchoolChoice "O"
+        descriptor SchoolChoiceBasis "O"
+        descriptor EnrollmentType "O"
+    }
+    Student {
+        string StudentUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        common BirthData "R"
+        reference Person "O"
+    }
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    School {
+        integer SchoolId "I"
+        descriptor GradeLevel "RC"
+        descriptor SchoolCategory "OC"
+        descriptor SchoolType "O"
+        descriptor CharterStatus "O"
+        descriptor TitleIPartASchoolDesignation "O"
+        descriptor MagnetSpecialProgramEmphasisSchool "O"
+        descriptor AdministrativeFundingControl "O"
+        descriptor InternetAccess "O"
+        reference LocalEducationAgency "O"
+        descriptor CharterApprovalAgencyType "O"
+        enumeration CharterApprovalSchoolYear "O"
+        descriptor FederalLocaleCode "O"
+        reference PostSecondaryInstitution "O"
+        bool ImprovingSchool "O"
+        descriptor AccreditationStatus "O"
+    }
+    Session ||--o{ School : "has associated"
+    Session ||--o{ AcademicWeek : "has associated"
+    Session ||--o{ GradingPeriod : "has associated"
+    GradingPeriod ||--o{ School : "has associated"
+    Calendar ||--o{ School : "has associated"
+    CalendarDate ||--o{ Calendar : "has associated"
+    StudentSchoolAssociation ||--o{ Calendar : "has associated"
+    StudentSchoolAssociation ||--o{ Student : "has associated"
+    School ||--o{ StudentSchoolAssociation : "has associated"
+    School ||--o{ EducationOrganization : "has associated"
+    Student ||--o{ School : "has associated"
