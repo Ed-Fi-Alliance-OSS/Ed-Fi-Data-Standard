@@ -8,7 +8,7 @@ packages = [{include = "validate_xml.py"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
-lxml = "^4.9.0"
+lxml = ">=4.9,<7.0"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.3.0"
