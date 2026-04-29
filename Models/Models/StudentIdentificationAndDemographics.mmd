@@ -1,0 +1,136 @@
+﻿---
+title: StudentIdentificationAndDemographics
+config:
+  layout: elk
+---
+erDiagram
+    Student {
+        string StudentUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        common BirthData "R"
+        reference Person "O"
+    }
+    StudentIdentificationCode {
+        reference Student "I"
+        descriptor StudentIdentificationSystem "I"
+        reference EducationOrganization "I"
+        string IdentificationCode "R"
+        string AssigningOrganizationIdentificationCode "O"
+    }
+    StudentDirectory {
+        reference Student "I"
+        reference EducationOrganization "I"
+        common Address "OC"
+        common ElectronicMail "OC"
+        common InternationalAddress "OC"
+        common Telephone "OC"
+    }
+    StudentDemographic {
+        reference Student "I"
+        reference EducationOrganization "I"
+        descriptor AncestryEthnicOrigin "OC"
+        common Citizenship "O"
+        common Disability "OC"
+        descriptor EconomicDisadvantage "O"
+        string GenderIdentity "O"
+        bool HispanicLatinoEthnicity "O"
+        common Language "OC"
+        descriptor LimitedEnglishProficiency "O"
+        descriptor Race "OC"
+        descriptor Sex "O"
+        common StudentCharacteristic "OC"
+        descriptor SupporterMilitaryConnection "O"
+        descriptor TribalAffiliation "OC"
+    }
+    StudentEducationOrganizationAssociation {
+        reference Student "I"
+        reference EducationOrganization "I"
+        string ProfileThumbnail "O"
+        common CohortYear "OC"
+        common StudentIndicator "OC"
+        string LoginId "O"
+        descriptor PrimaryLearningDeviceAwayFromSchool "O"
+        descriptor PrimaryLearningDeviceAccess "O"
+        descriptor PrimaryLearningDeviceProvider "O"
+        bool InternetAccessInResidence "O"
+        descriptor BarrierToInternetAccessInResidence "O"
+        descriptor InternetAccessTypeInResidence "O"
+        descriptor InternetPerformanceInResidence "O"
+        common DisplacedStudent "OC"
+    }
+    StudentContactAssociation {
+        reference Student "I"
+        reference Contact "I"
+        descriptor Relation "O"
+        bool PrimaryContactStatus "O"
+        bool LivesWith "O"
+        bool EmergencyContactStatus "O"
+        integer ContactPriority "O"
+        string ContactRestrictions "O"
+        bool LegalGuardian "O"
+    }
+    Contact {
+        string ContactUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        descriptor Sex "O"
+        string GenderIdentity "O"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common Telephone "OC"
+        common ElectronicMail "OC"
+        string LoginId "O"
+        common Language "OC"
+        reference Person "O"
+        descriptor HighestCompletedLevelOfEducation "O"
+    }
+    ContactIdentificationCode {
+        reference Contact "I"
+        descriptor ContactIdentificationSystem "I"
+        reference EducationOrganization "I"
+        string IdentificationCode "R"
+        string AssigningOrganizationIdentificationCode "O"
+    }
+    FinancialAid {
+        reference Student "I"
+        date BeginDate "I"
+        date EndDate "O"
+        string AidConditionDescription "O"
+        descriptor AidType "I"
+        decimal AidAmount "O"
+        bool PellGrantRecipient "O"
+    }
+    Person {
+        string PersonId "I"
+        descriptor SourceSystem "I"
+    }
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    Student ||--o{ Contact : "has associated"
+    Student ||--o{ EducationOrganization : "has associated"
+    Student ||--o{ Person : "has associated"
+    StudentContactAssociation ||--o{ StudentContactAssociation : "has associated"
+    StudentContactAssociation ||--o{ StudentEducationOrganizationAssociation : "has associated"
+    StudentIdentificationCode ||--o{ Student : "has associated"
+    StudentIdentificationCode ||--o{ StudentDemographic : "has associated"
+    StudentDemographic ||--o{ Student : "has associated"
+    StudentDemographic ||--o{ StudentDirectory : "has associated"
+    StudentDirectory ||--o{ Student : "has associated"
+    EducationOrganization ||--o{ StudentDemographic : "has associated"
+    EducationOrganization ||--o{ StudentIdentificationCode : "has associated"
+    EducationOrganization ||--o{ Contact : "has associated"
+    EducationOrganization ||--o{ ContactIdentificationCode : "has associated"
+    ContactIdentificationCode ||--o{ EducationOrganization : "has associated"
+    Contact ||--o{ Person : "has associated"
+    FinancialAid ||--o{ Student : "has associated"

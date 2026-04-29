@@ -1,0 +1,110 @@
+﻿---
+title: Discipline
+config:
+  layout: elk
+---
+erDiagram
+    DisciplineIncident {
+        string IncidentIdentifier "I"
+        date IncidentDate "R"
+        time IncidentTime "O"
+        descriptor IncidentLocation "O"
+        string IncidentDescription "O"
+        descriptor ReporterDescription "O"
+        string ReporterName "O"
+        common Behavior "OC"
+        descriptor Weapon "OC"
+        bool ReportedToLawEnforcement "O"
+        string CaseNumber "O"
+        currency IncidentCost "O"
+        reference School "I"
+        common DisciplineIncidentExternalParticipant "OC"
+    }
+    DisciplineAction {
+        string DisciplineActionIdentifier "I"
+        descriptor Discipline "RC"
+        date DisciplineDate "I"
+        decimal DisciplineActionLength "O"
+        decimal ActualDisciplineActionLength "O"
+        descriptor DisciplineActionLengthDifferenceReason "O"
+        bool RelatedToZeroTolerancePolicy "O"
+        reference Student "I"
+        reference Staff "OC"
+        reference ResponsibilitySchool "R"
+        reference AssignmentSchool "O"
+        bool IEPPlacementMeetingIndicator "O"
+        reference StudentDisciplineIncidentBehaviorAssociation "RC"
+    }
+    StaffDisciplineIncidentAssociation {
+        reference Staff "I"
+        reference DisciplineIncident "I"
+        descriptor DisciplineIncidentParticipationCode "RC"
+    }
+    StudentDisciplineIncidentBehaviorAssociation {
+        reference Student "I"
+        reference DisciplineIncident "I"
+        descriptor Behavior "I"
+        string BehaviorDetailedDescription "O"
+        descriptor DisciplineIncidentParticipationCode "OC"
+        descriptor Weapon "OC"
+    }
+    StudentDisciplineIncidentNonOffenderAssociation {
+        reference Student "I"
+        reference DisciplineIncident "I"
+        descriptor DisciplineIncidentParticipationCode "OC"
+    }
+    Student {
+        string StudentUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        common BirthData "R"
+        reference Person "O"
+    }
+    Staff {
+        string StaffUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        date BirthDate "O"
+        descriptor HighestCompletedLevelOfEducation "O"
+        decimal YearsOfPriorProfessionalExperience "O"
+        decimal YearsOfPriorTeachingExperience "O"
+        string LoginId "O"
+        bool HighlyQualifiedTeacher "O"
+        common Recognition "OC"
+        reference Credential "OC"
+        reference Person "O"
+        descriptor HighlyQualifiedAcademicSubject "OC"
+        common EducatorResearch "O"
+        reference EducatorPreparationProgram "OC"
+        reference OpenStaffPosition "O"
+    }
+    School {
+        integer SchoolId "I"
+        descriptor GradeLevel "RC"
+        descriptor SchoolCategory "OC"
+        descriptor SchoolType "O"
+        descriptor CharterStatus "O"
+        descriptor TitleIPartASchoolDesignation "O"
+        descriptor MagnetSpecialProgramEmphasisSchool "O"
+        descriptor AdministrativeFundingControl "O"
+        descriptor InternetAccess "O"
+        reference LocalEducationAgency "O"
+        descriptor CharterApprovalAgencyType "O"
+        enumeration CharterApprovalSchoolYear "O"
+        descriptor FederalLocaleCode "O"
+        reference PostSecondaryInstitution "O"
+        bool ImprovingSchool "O"
+        descriptor AccreditationStatus "O"
+    }
+    Student ||--o{ School : "has associated"
+    Student ||--o{ DisciplineIncident : "has associated"
+    DisciplineAction ||--o{ Student : "has associated"
+    DisciplineAction ||--o{ StudentDisciplineIncidentBehaviorAssociation : "has associated"
+    DisciplineAction ||--o{ Staff : "has associated"
+    DisciplineAction ||--o{ School : "has associated"
+    DisciplineIncident ||--o{ School : "has associated"
+    DisciplineIncident ||--o{ StaffDisciplineIncidentAssociation : "has associated"
+    StaffDisciplineIncidentAssociation ||--o{ DisciplineIncident : "has associated"
+    StudentDisciplineIncidentBehaviorAssociation ||--o{ DisciplineIncident : "has associated"
+    StudentDisciplineIncidentNonOffenderAssociation ||--o{ DisciplineIncident : "has associated"
+    Staff ||--o{ School : "has associated"

@@ -1,0 +1,90 @@
+﻿---
+title: BellSchedule
+config:
+  layout: elk
+---
+erDiagram
+    BellSchedule {
+        string BellScheduleName "I"
+        descriptor GradeLevel "OC"
+        reference School "I"
+        reference ClassPeriod "RC"
+        date Date "OC"
+        string AlternateDayName "O"
+        time StartTime "O"
+        time EndTime "O"
+        integer TotalInstructionalTime "O"
+    }
+    ClassPeriod {
+        reference School "I"
+        string ClassPeriodName "I"
+        common MeetingTime "OC"
+        bool OfficialAttendancePeriod "O"
+    }
+    Session {
+        string SessionName "I"
+        enumeration SchoolYear "I"
+        date BeginDate "R"
+        date EndDate "R"
+        descriptor Term "R"
+        integer TotalInstructionalDays "R"
+        reference School "I"
+        reference GradingPeriod "OC"
+        reference AcademicWeek "OC"
+    }
+    Section {
+        string SectionIdentifier "I"
+        descriptor SectionType "O"
+        integer SequenceOfCourse "O"
+        descriptor EducationalEnvironment "O"
+        descriptor MediumOfInstruction "O"
+        descriptor PopulationServed "O"
+        common AvailableCredits "O"
+        descriptor SectionCharacteristic "OC"
+        descriptor InstructionLanguage "O"
+        reference CourseOffering "I"
+        reference LocationSchool "O"
+        reference Location "O"
+        reference ClassPeriod "OC"
+        reference Program "OC"
+        descriptor CourseLevelCharacteristic "OC"
+        descriptor OfferedGradeLevel "OC"
+        bool OfficialAttendancePeriod "O"
+        string SectionName "O"
+    }
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    School {
+        integer SchoolId "I"
+        descriptor GradeLevel "RC"
+        descriptor SchoolCategory "OC"
+        descriptor SchoolType "O"
+        descriptor CharterStatus "O"
+        descriptor TitleIPartASchoolDesignation "O"
+        descriptor MagnetSpecialProgramEmphasisSchool "O"
+        descriptor AdministrativeFundingControl "O"
+        descriptor InternetAccess "O"
+        reference LocalEducationAgency "O"
+        descriptor CharterApprovalAgencyType "O"
+        enumeration CharterApprovalSchoolYear "O"
+        descriptor FederalLocaleCode "O"
+        reference PostSecondaryInstitution "O"
+        bool ImprovingSchool "O"
+        descriptor AccreditationStatus "O"
+    }
+    School ||--o{ EducationOrganization : "has associated"
+    BellSchedule ||--o{ School : "has associated"
+    BellSchedule ||--o{ ClassPeriod : "has associated"
+    ClassPeriod ||--o{ School : "has associated"
+    Session ||--o{ School : "has associated"
+    Section ||--o{ ClassPeriod : "has associated"

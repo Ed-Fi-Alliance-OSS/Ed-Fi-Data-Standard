@@ -1,0 +1,133 @@
+﻿---
+title: EducationOrganization
+config:
+  layout: elk
+---
+erDiagram
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    EducationOrganizationIdentificationCode {
+        reference EducationOrganization "I"
+        descriptor EducationOrganizationIdentificationSystem "I"
+        string IdentificationCode "R"
+        string AssigningOrganizationIdentificationCode "O"
+    }
+    StateEducationAgency {
+        integer StateEducationAgencyId "I"
+        common StateEducationAgencyAccountability "OC"
+        common StateEducationAgencyFederalFunds "OC"
+        descriptor FederalLocaleCode "O"
+    }
+    LocalEducationAgency {
+        integer LocalEducationAgencyId "I"
+        descriptor LocalEducationAgencyCategory "R"
+        descriptor CharterStatus "O"
+        common LocalEducationAgencyAccountability "OC"
+        common LocalEducationAgencyFederalFunds "OC"
+        reference ParentLocalEducationAgency "O"
+        reference EducationServiceCenter "O"
+        reference StateEducationAgency "O"
+        descriptor FederalLocaleCode "O"
+    }
+    EducationServiceCenter {
+        integer EducationServiceCenterId "I"
+        reference StateEducationAgency "O"
+    }
+    School {
+        integer SchoolId "I"
+        descriptor GradeLevel "RC"
+        descriptor SchoolCategory "OC"
+        descriptor SchoolType "O"
+        descriptor CharterStatus "O"
+        descriptor TitleIPartASchoolDesignation "O"
+        descriptor MagnetSpecialProgramEmphasisSchool "O"
+        descriptor AdministrativeFundingControl "O"
+        descriptor InternetAccess "O"
+        reference LocalEducationAgency "O"
+        descriptor CharterApprovalAgencyType "O"
+        enumeration CharterApprovalSchoolYear "O"
+        descriptor FederalLocaleCode "O"
+        reference PostSecondaryInstitution "O"
+        bool ImprovingSchool "O"
+        descriptor AccreditationStatus "O"
+    }
+    PostSecondaryInstitution {
+        integer PostSecondaryInstitutionId "I"
+        descriptor MediumOfInstruction "OC"
+        descriptor PostSecondaryInstitutionLevel "O"
+        descriptor AdministrativeFundingControl "O"
+        descriptor FederalLocaleCode "O"
+    }
+    AccountabilityRating {
+        reference EducationOrganization "I"
+        string RatingTitle "I"
+        string Rating "R"
+        date RatingDate "O"
+        enumeration SchoolYear "I"
+        string RatingOrganization "O"
+        string RatingProgram "O"
+    }
+    EducationOrganizationNetwork {
+        integer EducationOrganizationNetworkId "I"
+        descriptor NetworkPurpose "R"
+    }
+    EducationOrganizationNetworkAssociation {"
+    }
+    FeederSchoolAssociation {
+        reference FeederSchool "I"
+        reference School "I"
+        date BeginDate "I"
+        date EndDate "O"
+        string FeederRelationshipDescription "O"
+    }
+    CommunityOrganization {
+        integer CommunityOrganizationId "I"
+    }
+    CommunityProvider {
+        integer CommunityProviderId "I"
+        reference CommunityOrganization "O"
+        descriptor ProviderProfitability "O"
+        descriptor ProviderStatus "R"
+        descriptor ProviderCategory "R"
+        bool SchoolIndicator "O"
+        bool LicenseExemptIndicator "O"
+    }
+    CommunityProviderLicense {
+        reference CommunityProvider "I"
+        common License "R"
+    }
+    OrganizationDepartment {
+        integer OrganizationDepartmentId "I"
+        descriptor AcademicSubject "O"
+        reference ParentEducationOrganization "O"
+    }
+    StateEducationAgency ||--o{ EducationOrganization : "has associated"
+    EducationServiceCenter ||--o{ EducationOrganization : "has associated"
+    School ||--o{ EducationOrganization : "has associated"
+    PostSecondaryInstitution ||--o{ EducationOrganization : "has associated"
+    CommunityOrganization ||--o{ EducationOrganization : "has associated"
+    OrganizationDepartment ||--o{ EducationOrganization : "has associated"
+    EducationOrganization ||--o{ EducationOrganization : "has associated"
+    EducationOrganization ||--o{ EducationOrganizationNetwork : "has associated"
+    EducationOrganizationNetwork ||--o{ EducationOrganization : "has associated"
+    AccountabilityRating ||--o{ EducationOrganization : "has associated"
+    EducationOrganizationNetworkAssociation ||--o{ EducationOrganizationNetwork : "has associated"
+    School ||--o{ LocalEducationAgency : "has associated"
+    LocalEducationAgency ||--o{ EducationServiceCenter : "has associated"
+    LocalEducationAgency ||--o{ LocalEducationAgency : "has associated"
+    EducationServiceCenter ||--o{ StateEducationAgency : "has associated"
+    LocalEducationAgency ||--o{ StateEducationAgency : "has associated"
+    FeederSchoolAssociation ||--o{ School : "has associated"
+    CommunityProvider ||--o{ CommunityOrganization : "has associated"
+    CommunityProviderLicense ||--o{ CommunityProvider : "has associated"
+    EducationOrganizationIdentificationCode ||--o{ EducationOrganization : "has associated"

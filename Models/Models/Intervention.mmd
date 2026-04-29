@@ -1,0 +1,154 @@
+﻿---
+title: Intervention
+config:
+  layout: elk
+---
+erDiagram
+    InterventionStudy {
+        common EducationContentSource "O"
+        reference InterventionPrescription "R"
+        common InterventionEffectiveness "OC"
+        integer Participants "R"
+        descriptor DeliveryMethod "R"
+        descriptor InterventionClass "R"
+        descriptor AppropriateGradeLevel "OC"
+        descriptor PopulationServed "OC"
+        descriptor AppropriateSex "OC"
+        descriptor StateAbbreviation "OC"
+        reference EducationOrganization "I"
+        string InterventionStudyIdentificationCode "I"
+    }
+    EducationContent {
+        string ContentIdentifier "I"
+        choice LearningResourceChoice "R"
+        currency Cost "O"
+        descriptor CostRate "O"
+        string Namespace "R"
+    }
+    InterventionPrescription {
+        common EducationContentSource "R"
+        descriptor InterventionClass "R"
+        descriptor Diagnosis "OC"
+        descriptor PopulationServed "OC"
+        descriptor AppropriateSex "OC"
+        descriptor AppropriateGradeLevel "OC"
+        descriptor DeliveryMethod "R"
+        reference EducationOrganization "I"
+        string InterventionPrescriptionIdentificationCode "I"
+        integer MinDosage "O"
+        integer MaxDosage "O"
+        string Namespace "O"
+    }
+    Intervention {
+        common EducationContentSource "R"
+        descriptor InterventionClass "R"
+        descriptor Diagnosis "OC"
+        descriptor PopulationServed "OC"
+        descriptor AppropriateSex "OC"
+        descriptor AppropriateGradeLevel "OC"
+        descriptor DeliveryMethod "R"
+        reference InterventionPrescription "OC"
+        date BeginDate "R"
+        date EndDate "O"
+        common MeetingTime "OC"
+        reference Staff "OC"
+        reference EducationOrganization "I"
+        string InterventionIdentificationCode "I"
+        integer MinDosage "O"
+        integer MaxDosage "O"
+        string Namespace "O"
+    }
+    EducationOrganizationInterventionPrescriptionAssociation {
+        reference EducationOrganization "I"
+        reference InterventionPrescription "I"
+        date BeginDate "O"
+        date EndDate "O"
+    }
+    StudentInterventionAssociation {
+        reference Student "I"
+        reference Intervention "I"
+        reference Cohort "O"
+        common InterventionEffectiveness "OC"
+        string DiagnosticStatement "O"
+        integer Dosage "O"
+    }
+    StudentInterventionAttendanceEvent {
+        common AttendanceEvent "R"
+        reference Student "I"
+        reference Intervention "I"
+        integer InterventionDuration "O"
+    }
+    StudentCohortAssociation {
+        reference Student "I"
+        reference Cohort "I"
+        date BeginDate "I"
+        date EndDate "O"
+        reference Section "OC"
+    }
+    Cohort {
+        string CohortIdentifier "I"
+        string CohortDescription "O"
+        descriptor CohortType "R"
+        descriptor CohortScope "O"
+        descriptor AcademicSubject "O"
+        reference EducationOrganization "I"
+        reference Program "OC"
+    }
+    Student {
+        string StudentUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        common BirthData "R"
+        reference Person "O"
+    }
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    Staff {
+        string StaffUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        date BirthDate "O"
+        descriptor HighestCompletedLevelOfEducation "O"
+        decimal YearsOfPriorProfessionalExperience "O"
+        decimal YearsOfPriorTeachingExperience "O"
+        string LoginId "O"
+        bool HighlyQualifiedTeacher "O"
+        common Recognition "OC"
+        reference Credential "OC"
+        reference Person "O"
+        descriptor HighlyQualifiedAcademicSubject "OC"
+        common EducatorResearch "O"
+        reference EducatorPreparationProgram "OC"
+        reference OpenStaffPosition "O"
+    }
+    Intervention ||--o{ InterventionPrescription : "has associated"
+    Intervention ||--o{ EducationContent : "has associated"
+    Intervention ||--o{ EducationOrganization : "has associated"
+    Intervention ||--o{ Staff : "has associated"
+    InterventionPrescription ||--o{ EducationContent : "has associated"
+    InterventionPrescription ||--o{ EducationOrganization : "has associated"
+    InterventionStudy ||--o{ InterventionPrescription : "has associated"
+    InterventionStudy ||--o{ EducationOrganization : "has associated"
+    EducationOrganization ||--o{ EducationOrganizationInterventionPrescriptionAssociation : "has associated"
+    EducationOrganizationInterventionPrescriptionAssociation ||--o{ InterventionPrescription : "has associated"
+    Student ||--o{ Intervention : "has associated"
+    StudentInterventionAssociation ||--o{ Student : "has associated"
+    StudentInterventionAssociation ||--o{ Cohort : "has associated"
+    StudentInterventionAttendanceEvent ||--o{ Student : "has associated"
+    StudentInterventionAttendanceEvent ||--o{ Intervention : "has associated"
+    StudentCohortAssociation ||--o{ Student : "has associated"
+    StudentCohortAssociation ||--o{ Cohort : "has associated"
+    Cohort ||--o{ EducationOrganization : "has associated"
+    Cohort ||--o{ Student : "has associated"
+    Cohort ||--o{ Staff : "has associated"
+    Staff ||--o{ EducationOrganization : "has associated"

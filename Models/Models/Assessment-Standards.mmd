@@ -1,0 +1,32 @@
+﻿---
+title: Assessment-Standards
+config:
+  layout: elk
+---
+erDiagram
+    LearningStandard {
+        string LearningStandardId "I"
+        common LearningStandardIdentificationCode "OC"
+        string Description "R"
+        string LearningStandardItemCode "O"
+        common ContentStandard "R"
+        string URI "O"
+        descriptor GradeLevel "RC"
+        descriptor AcademicSubject "RC"
+        string CourseTitle "O"
+        string SuccessCriteria "O"
+        reference ParentLearningStandard "O"
+        string Namespace "R"
+        descriptor LearningStandardCategory "O"
+        descriptor LearningStandardScope "O"
+    }
+    LearningStandardEquivalenceAssociation {
+        reference SourceLearningStandard "I"
+        reference TargetLearningStandard "I"
+        string Namespace "I"
+        date EffectiveDate "O"
+        descriptor LearningStandardEquivalenceStrength "O"
+        string LearningStandardEquivalenceStrengthDescription "O"
+    }
+    LearningStandard ||--o{ LearningStandard : "has associated"
+    LearningStandardEquivalenceAssociation ||--o{ LearningStandard : "has associated"

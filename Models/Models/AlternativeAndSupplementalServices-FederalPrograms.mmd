@@ -1,0 +1,155 @@
+﻿---
+title: AlternativeAndSupplementalServices-FederalPrograms
+config:
+  layout: elk
+---
+erDiagram
+    Program {
+        reference EducationOrganization "I"
+        string ProgramId "O"
+        string ProgramName "I"
+        descriptor ProgramType "I"
+        descriptor ProgramCharacteristic "OC"
+        descriptor ProgramSponsor "OC"
+        reference LearningStandard "OC"
+    }
+    Student {
+        string StudentUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        common BirthData "R"
+        reference Person "O"
+    }
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    GeneralStudentProgramAssociation {
+        reference Student "I"
+        reference Program "I"
+        date BeginDate "I"
+        date EndDate "O"
+        descriptor ReasonExited "O"
+        reference EducationOrganization "I"
+        bool ServedOutsideOfRegularSession "O"
+        common ProgramParticipationStatus "OC"
+    }
+    StudentCTEProgramAssociation {
+        bool NonTraditionalGenderStatus "O"
+        bool PrivateCTEProgram "O"
+        descriptor TechnicalSkillsAssessment "O"
+        common CTEProgramService "OC"
+    }
+    StudentHomelessProgramAssociation {
+        descriptor HomelessPrimaryNighttimeResidence "O"
+        bool AwaitingFosterCare "O"
+        bool HomelessUnaccompaniedYouth "O"
+        common HomelessProgramService "OC"
+    }
+    StudentLanguageInstructionProgramAssociation {
+        common EnglishLanguageProficiencyAssessment "OC"
+        bool EnglishLearnerParticipation "O"
+        common LanguageInstructionProgramService "OC"
+        integer Dosage "O"
+    }
+    StudentMigrantEducationProgramAssociation {
+        bool PriorityForServices "R"
+        date LastQualifyingMove "R"
+        descriptor ContinuationOfServicesReason "O"
+        date USInitialEntry "O"
+        date USMostRecentEntry "O"
+        date USInitialSchoolEntry "O"
+        date QualifyingArrivalDate "O"
+        date StateResidencyDate "O"
+        date EligibilityExpirationDate "O"
+        common MigrantEducationProgramService "OC"
+    }
+    StudentNeglectedOrDelinquentProgramAssociation {
+        descriptor NeglectedOrDelinquentProgram "O"
+        descriptor ELAProgressLevel "O"
+        descriptor MathematicsProgressLevel "O"
+        common NeglectedOrDelinquentProgramService "OC"
+    }
+    StudentProgramAssociation {
+        common Service "OC"
+    }
+    StudentSchoolFoodServiceProgramAssociation {
+        bool DirectCertification "O"
+        common SchoolFoodServiceProgramService "OC"
+    }
+    StudentSpecialEducationProgramAssociation {
+        bool IdeaEligibility "O"
+        descriptor SpecialEducationSetting "O"
+        common ServiceProvider "OC"
+        decimal SpecialEducationHoursPerWeek "O"
+        decimal SchoolHoursPerWeek "O"
+        bool ShortenedSchoolDayIndicator "O"
+        decimal ReductionInHoursPerWeekComparedToPeers "O"
+        bool MultiplyDisabled "O"
+        bool MedicallyFragile "O"
+        date IEPLastEvaluationDate "O"
+        date IEPLastReviewDate "O"
+        date IEPEvaluationDueDate "O"
+        date IEPReviewDueDate "O"
+        date IEPBeginDate "O"
+        date IEPEndDate "O"
+        common Disability "OC"
+        common SpecialEducationProgramService "OC"
+        date SpecialEducationExitDate "O"
+        descriptor SpecialEducationExitReason "O"
+        string SpecialEducationExitExplained "O"
+    }
+    StudentTitleIPartAProgramAssociation {
+        descriptor TitleIPartAParticipant "R"
+        common TitleIPartAProgramService "OC"
+    }
+    StudentSpecialEducationProgramEligibilityAssociation {
+        reference EducationOrganization "I"
+        reference Student "I"
+        reference Program "I"
+        date ConsentToEvaluationReceivedDate "I"
+        date OriginalECIServicesDate "O"
+        descriptor IDEAPart "R"
+        date ConsentToEvaluationDate "O"
+        bool EvaluationCompleteIndicator "O"
+        date EligibilityEvaluationDate "O"
+        descriptor EligibilityEvaluationType "O"
+        descriptor EvaluationDelayReason "O"
+        string EvaluationLateReason "O"
+        integer EvaluationDelayDays "O"
+        date EligibilityDeterminationDate "O"
+        bool IDEAIndicator "O"
+        descriptor EligibilityDelayReason "O"
+        date TransitionNotificationDate "O"
+        date TransitionConferenceDate "O"
+        date EligibilityConferenceDate "O"
+    }
+    StudentSection504ProgramAssociation {
+        bool Section504Eligibility "R"
+        bool AccommodationPlan "O"
+        descriptor Section504Disability "O"
+        date Section504MeetingDate "O"
+        date Section504EligibilityDecisionDate "O"
+    }
+    EducationOrganization ||--o{ Program : "has associated"
+    Student ||--o{ Program : "has associated"
+    GeneralStudentProgramAssociation ||--o{ EducationOrganization : "has associated"
+    StudentSpecialEducationProgramEligibilityAssociation ||--o{ EducationOrganization : "has associated"
+    StudentCTEProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    StudentHomelessProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    StudentLanguageInstructionProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    StudentMigrantEducationProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    StudentNeglectedOrDelinquentProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    StudentProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    StudentSchoolFoodServiceProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    StudentSpecialEducationProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    StudentTitleIPartAProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"
+    StudentSection504ProgramAssociation ||--o{ GeneralStudentProgramAssociation : "has associated"

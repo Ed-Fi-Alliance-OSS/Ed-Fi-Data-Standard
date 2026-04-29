@@ -1,0 +1,42 @@
+﻿---
+title: Assessment-StudentAssessment
+config:
+  layout: elk
+---
+erDiagram
+    Student {
+        string StudentUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        common BirthData "R"
+        reference Person "O"
+    }
+    StudentAssessment {
+        string StudentAssessmentIdentifier "I"
+        datetime AdministrationDate "O"
+        datetime AdministrationEndDate "O"
+        string SerialNumber "O"
+        descriptor AdministrationLanguage "O"
+        descriptor AdministrationEnvironment "O"
+        descriptor Accommodation "OC"
+        descriptor RetestIndicator "O"
+        descriptor ReasonNotTested "O"
+        common ScoreResult "OC"
+        descriptor AssessedGradeLevel "O"
+        descriptor WhenAssessedGradeLevel "O"
+        common PerformanceLevel "OC"
+        descriptor EventCircumstance "O"
+        string EventDescription "O"
+        reference Student "I"
+        reference Assessment "I"
+        common StudentAssessmentItem "OC"
+        common StudentObjectiveAssessment "OC"
+        enumeration SchoolYear "R"
+        descriptor PlatformType "O"
+        common AssessmentPeriod "O"
+        integer AssessedMinutes "O"
+        reference ReportedSchool "O"
+        string ReportedSchoolIdentifier "O"
+        common StudentAssessmentIndicator "OC"
+    }
+    StudentAssessment ||--o{ Student : "has associated"
