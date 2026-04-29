@@ -140,8 +140,11 @@ erDiagram
         date Section504EligibilityDecisionDate "O"
     }
     EducationOrganization ||--o{ Program : "has associated"
-    Student ||--o{ Program : "participates in, is evaluated"
+    Student ||--o{ GeneralStudentProgramAssociation : "participates in"
+    Program ||--o{ GeneralStudentProgramAssociation : "participates in"
     GeneralStudentProgramAssociation ||--o{ EducationOrganization : "has associated"
+    Student ||--o{ StudentSpecialEducationProgramEligibilityAssociation : "is evaluated"
+    Program ||--o{ StudentSpecialEducationProgramEligibilityAssociation : "is evaluated"
     StudentSpecialEducationProgramEligibilityAssociation ||--o{ EducationOrganization : "has associated"
     StudentCTEProgramAssociation ||--o{ GeneralStudentProgramAssociation : "is a"
     StudentHomelessProgramAssociation ||--o{ GeneralStudentProgramAssociation : "is a"

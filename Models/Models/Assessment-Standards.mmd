@@ -28,5 +28,7 @@ erDiagram
         descriptor LearningStandardEquivalenceStrength "O"
         string LearningStandardEquivalenceStrengthDescription "O"
     }
-    LearningStandard ||--o{ LearningStandard : "has associated"
+    LearningStandard ||--o{ LearningStandard : "has functional component"
+    LearningStandardEquivalenceAssociation }o--|| LearningStandard : "has associated"
     LearningStandardEquivalenceAssociation ||--o{ LearningStandard : "has associated"
+    LearningStandard }o--o{ LearningStandard : "has associated equivalence"
