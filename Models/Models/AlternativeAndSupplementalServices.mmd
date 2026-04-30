@@ -2,6 +2,7 @@
 title: AlternativeAndSupplementalServices
 config:
   layout: elk
+  
 ---
 erDiagram
     Program {
@@ -163,21 +164,25 @@ erDiagram
         bool ImprovingSchool "O"
         descriptor AccreditationStatus "O"
     }
-    EducationOrganization ||--o{ Program : "is direct provider of"
-    Student ||--o{ Program : "participates in"
-    Program ||--o{ Staff : "has associated"
-    Section ||--o{ Program : "has associated"
-    Student ||--o{ School : "has associated"
-    Student ||--o{ GeneralStudentProgramAssociation : "has associated"
-    Student ||--o{ StaffProgramAssociation : "has associated"
-    Staff ||--o{ StaffProgramAssociation : "has associated"
+    EducationOrganization }o--o{ Program : "is direct provider of"
+    EducationOrganization ||--o{ Program : "has associated"
+    EducationOrganization ||..o{ GeneralStudentProgramAssociation : "has associated"
+    EducationOrganization ||..|| School : "is a"
+    Student }o--o{ Program : "participates in"
+    Program }o--o{ Staff : "has associated"
+    Section }o--o{ Program : "has associated"
+    Section ||--|| School : "has associated"
+    Student }o--o{ School : "has associated"
+    Staff }o--o{ School : "has associated"
+    Program ||..o{ GeneralStudentProgramAssociation : "has associated"
+    Program ||..o{ StaffProgramAssociation : "has associated"
     Staff }o--o{ Section : "has associated"
-    Student ||--o{ StudentSectionAssociation : "has associated"
-    Section ||--o{ StudentSectionAssociation : "has associated"
-    Student ||--o{ StudentSpecialEducationProgramEligibilityAssociation : "has associated"
-    StudentSectionAttendanceEvent ||--o{ Student : "has associated"
-    StudentSectionAttendanceEvent ||--o{ Section : "has associated"
-    StudentSchoolAttendanceEvent ||--o{ School : "has associated"
-    StudentSchoolAttendanceEvent ||--o{ Student : "has associated"
-    StudentProgramAttendanceEvent ||--o{ EducationOrganization : "has associated"
-    StudentProgramAttendanceEvent ||--o{ Program : "has associated"
+    Student ||--o{ StudentSectionAssociation : "participates in"
+    Section ||--o{ StudentSectionAssociation : "participates in"
+    Student ||..o{ StudentSpecialEducationProgramEligibilityAssociation : "has associated"
+    StudentSectionAttendanceEvent }o--|| Student : "has associated"
+    StudentSectionAttendanceEvent }o--|| Section : "has associated"
+    StudentSchoolAttendanceEvent }o--|| School : "has associated"
+    StudentSchoolAttendanceEvent }o--|| Student : "has associated"
+    StudentProgramAttendanceEvent }o--|| EducationOrganization : "has associated"
+    StudentProgramAttendanceEvent }o--|| Program : "has associated"
