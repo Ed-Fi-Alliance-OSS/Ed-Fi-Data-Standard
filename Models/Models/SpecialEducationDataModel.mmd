@@ -113,25 +113,21 @@ erDiagram
      reference IDEAEvent "OC"
  }
 
- Student}o..o{EducationOrganization:"has associated"
- Student}o--||StudentIEP:"has"
- Student||--o{IDEAEvent:"has"
- IDEAEvent||--o{EducationOrganization:"has associated"
- IDEAEvent}o..o{StudentIEP:"includes"
- StudentIEPGoal}o--o{IDEAEvent:"has associated"
- StudentIEP||--o{EducationOrganization:"  "
- StudentIEP||--o{StudentIEPServicePrescription:"includes"
- StudentIEP||--o{StudentIEPServiceDelivery:"includes"
- StudentIEP||..o{StudentIEPGoal:"includes"
- StudentIEPServicePrescription||..o{StudentIEPServiceDelivery:"implements"
- StudentIEPServiceDelivery}o..o{Staff:"provides service"
- StudentIEPServiceDelivery}o..o{IDEAEvent:"includes"
- StudentIEPServicePrescription}o..||Staff:"  "
- StudentIEPServicePrescription}o..o{IDEAEvent:"includes"
- 
- style StudentIEP fill:#E1BEE7,stroke:#AA00FF,color:#000000
- style IDEAEvent fill:#E1BEE7,stroke:#AA00FF,color:#000000
- style StudentIEPServicePrescription fill:#E1BEE7,stroke:#AA00FF,color:#000000
- style StudentIEPServiceDelivery fill:#E1BEE7,stroke:#AA00FF,color:#000000
- style StudentIEPGoal fill:#E1BEE7,stroke:#AA00FF,color:#000000
- 
+    IDEAEvent }o--|| EducationOrganization : "HasAssociated"
+    StudentIEPServicePerscription }o--|| StudentIEP : "HasAssociated"
+    StudentIEP ||--o{ StudentGoal : "HasAssociated"
+    StudentIEPServiceDelivery }o--|| StudentIEPServicePerscription : "HasAssociated"
+    Student }|--o{ EducationOrganization : "HasAssociated"
+    Student ||--o{ IDEAEvent : "HasAssociated"
+    Student ||--o{ StudentIEP : "HasAssociated"
+    StudentIEP }o--o{ IDEAEvent : "HasAssociated"
+    Staff }o--|| StudentIEPServicePerscription : "HasAssociated"
+    StudentGoal }o--o{ IDEAEvent : "HasAssociated"
+    StudentIEP ||--o{ StudentIEPServiceDelivery : "HasAssociated"
+    EducationOrganization ||--o{ StudentIEP : "HasAssociated"
+
+    style StudentIEP fill:#E1BEE7,stroke:#AA00FF,color:#000000
+    style IDEAEvent fill:#E1BEE7,stroke:#AA00FF,color:#000000
+    style StudentIEPServicePrescription fill:#E1BEE7,stroke:#AA00FF,color:#000000
+    style StudentIEPServiceDelivery fill:#E1BEE7,stroke:#AA00FF,color:#000000
+    style StudentIEPGoal fill:#E1BEE7,stroke:#AA00FF,color:#000000
