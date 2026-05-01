@@ -2,6 +2,7 @@
 title: AlternativeAndSupplementalServices
 config:
   layout: elk
+ 
 ---
 erDiagram
     Program {
@@ -163,20 +164,28 @@ erDiagram
         bool ImprovingSchool "O"
         descriptor AccreditationStatus "O"
     }
-    EducationOrganization ||--o{ Program : "has associated"
-    Student ||--o{ Program : "has associated"
-    Program ||--o{ Staff : "has associated"
-    Section ||--o{ Program : "has associated"
-    Student ||--o{ School : "has associated"
-    Student ||--o{ GeneralStudentProgramAssociation : "has associated"
-    Student ||--o{ StaffProgramAssociation : "has associated"
-    Staff ||--o{ StaffProgramAssociation : "has associated"
-    Student ||--o{ StudentSectionAssociation : "has associated"
-    Section ||--o{ StudentSectionAssociation : "has associated"
-    Student ||--o{ StudentSpecialEducationProgramEligibilityAssociation : "has associated"
-    StudentSectionAttendanceEvent ||--o{ Student : "has associated"
-    StudentSectionAttendanceEvent ||--o{ Section : "has associated"
-    StudentSchoolAttendanceEvent ||--o{ School : "has associated"
-    StudentSchoolAttendanceEvent ||--o{ Student : "has associated"
-    StudentProgramAttendanceEvent ||--o{ EducationOrganization : "has associated"
-    StudentProgramAttendanceEvent ||--o{ Program : "has associated"
+    EducationOrganization }o--o{ Program : "IsDirectProviderOf"
+    EducationOrganization ||--o{ Program : "HasAssociated"
+    EducationOrganization ||..o{ GeneralStudentProgramAssociation : "HasAssociated"
+    EducationOrganization ||..|| School : "IsA"
+    Student }o--o{ Program : "ParticipatesIn"
+    Program }o--o{ Staff : "HasAssociated"
+    Section }o--o{ Program : "HasAssociated"
+    Section ||--|| School : "HasAssociated"
+    Student }o--o{ School : "HasAssociated"
+    Staff }o--o{ School : "HasAssociated"
+    Program ||..o{ GeneralStudentProgramAssociation : "HasAssociated"
+    Program ||..o{ StaffProgramAssociation : "HasAssociated"
+    Staff ||..o{ StaffProgramAssociation : "HasAssociated"
+    Staff }o--o{ Section : "HasAssociated"
+    Student ||..o{ StudentSectionAssociation : "ParticipatesIn"
+    Section ||..o{ StudentSectionAssociation : "ParticipatesIn"
+    Student }o--o{ Section : "ParticipatesIn"
+    Student ||..o{ StudentSpecialEducationProgramEligibilityAssociation : "HasAssociated"
+    StudentSectionAttendanceEvent }o--|| Student : "HasAssociated"
+    StudentSectionAttendanceEvent }o--|| Section : "HasAssociated"
+    StudentSchoolAttendanceEvent }o--|| School : "HasAssociated"
+    StudentSchoolAttendanceEvent }o--|| Student : "HasAssociated"
+    StudentProgramAttendanceEvent }o--|| EducationOrganization : "HasAssociated"
+    StudentProgramAttendanceEvent }o--|| Program : "HasAssociated"
+    StudentProgramAttendanceEvent }o--|| Student : "HasAssociated"

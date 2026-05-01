@@ -95,12 +95,13 @@ erDiagram
         descriptor LearningStandardScope "O"
     }
 
-    School ||--o{ EducationOrganization : "extends"
-    EducationOrganization ||--o{ Course : "has associated"
-    School ||--o{ Session : "has associated"
-    School ||--o{ CourseOffering : "has associated"
-    Session ||--o{ CourseOffering : "has associated"
-    Course ||--o{ CourseOffering : "has associated"
-    Course ||--o{ LearningStandard : "has associated"
-    LearningStandard ||--o{ LearningStandard : "has functional component"
-    LearningStandard ||--o{ LearningStandard : "has associated equivalence"
+    Session }o--|| School : "HasAssociated"
+    CourseOffering }o--|| School : "HasAssociated"
+    CourseOffering }o--|| Session : "HasAssociated"
+    CourseOffering }o--|| Course : "HasAssociated"
+    Course }o--|| EducationOrganization : "HasAssociated"
+    Course }o--o{ LearningStandard : "HasAssociated"
+    LearningStandard }o--o| LearningStandard : "HasFunctionalComponent"
+    LearningStandard }o--o{ LearningStandard : "HasAssociatedEquivalence"
+    School ||--|| EducationOrganization : "IsA"
+    
