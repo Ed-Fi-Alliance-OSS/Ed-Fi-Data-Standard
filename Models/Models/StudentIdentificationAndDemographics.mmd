@@ -130,3 +130,7 @@ erDiagram
     ContactIdentificationCode }o--|| EducationOrganization : "HasAssociated"
     ContactIdentificationCode }o--|| Contact : "HasAssociated"
     FinancialAid }o--|| Student : "HasAssociated"
+    StudentContactAssociation }o..|| Student : "HasAssociated"
+    StudentContactAssociation }o..|| Contact : "HasAssociated"
+    StudentEducationOrganizationAssociation }o--|| Student : "HasAssociated"
+    StudentEducationOrganizationAssociation }o--|| EducationOrganization : "HasAssociated"

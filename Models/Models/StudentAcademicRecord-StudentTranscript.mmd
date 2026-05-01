@@ -89,8 +89,8 @@ erDiagram
         common EducationOrganizationIndicator "OC"
     }
     CourseTranscript }o--|| StudentAcademicRecord : "HasAssociated"
-    StudentAcademicRecord }o--|| Student : "HasAssociated"
-    CourseTranscript }o--|| Course : "HasAssociated"
-    Course }o--|| EducationOrganization : "HasAssociated"
-    StudentAcademicRecord }o--|| EducationOrganization : "HasAssociated"
     CourseTranscript }o--o| EducationOrganization : "HasAssociatedExternal"
+    CourseTranscript }o--|| Course : "HasAssociated"
+    StudentAcademicRecord }o--|| Student : "HasAssociated"
+    StudentAcademicRecord }o--|| EducationOrganization : "HasAssociated"
+    Course }o--|| EducationOrganization : "HasAssociated"
