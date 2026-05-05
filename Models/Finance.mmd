@@ -120,8 +120,6 @@ erDiagram
         string CodeName "O"
         descriptor ReportingTag "OC"
     }
-    NewDimension {
-    }
     Staff {
         string StaffUniqueId "I"
         common Name "R"
@@ -141,7 +139,7 @@ erDiagram
         reference OpenStaffPosition "O"
     }
     LocalAccount }o--|| EducationOrganization : "HasAssociated"
-    LocalAccount }o--o| ChartOfAccount : "HasAssociated"
+    LocalAccount }o--|| ChartOfAccount : "HasAssociated"
     ChartOfAccount }o--|| EducationOrganization : "HasAssociated"
     ChartOfAccount }o--o| FundDimension : "HasAssociated"
     ChartOfAccount }o--o| ProgramDimension : "HasAssociated"
@@ -151,7 +149,6 @@ erDiagram
     ChartOfAccount }o--o| OperationalUnitDimension : "HasAssociated"
     ChartOfAccount }o--o| SourceDimension : "HasAssociated"
     ChartOfAccount }o--o| BalanceSheetDimension : "HasAssociated"
-    ChartOfAccount }o--o{ NewDimension : "HasAssociated"
     LocalBudget }o--|| LocalAccount : "HasAssociated"
     LocalActual }o--|| LocalAccount : "HasAssociated"
     LocalEncumbrance }o--|| LocalAccount : "HasAssociated"

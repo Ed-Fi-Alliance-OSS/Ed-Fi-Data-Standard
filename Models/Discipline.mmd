@@ -98,11 +98,11 @@ erDiagram
     }
     Student }o--o{ School : "HasAssociated"
     Student }o--o{ DisciplineIncident : "ParticipatesIn"
-    DisciplineAction }o--o{ Student : "HasAssociated"
+    DisciplineAction }o--|| Student : "HasAssociated"
     DisciplineAction }o--o{ StudentDisciplineIncidentBehaviorAssociation : "HasAssociated"
     DisciplineAction }o--o{ Staff : "HasAssociated"
     DisciplineAction }o--|| School : "HasAssociated"
-    DisciplineAction }o--|| School : "HasCasualRelationship"
+    DisciplineAction }o--o| School : "HasCausalRelationship"
     DisciplineIncident }o--|| School : "HasAssociated"
     DisciplineIncident ||..o{ StaffDisciplineIncidentAssociation : "ParticipatesIn"
     Staff ||..o{ StaffDisciplineIncidentAssociation : "ParticipatesIn"

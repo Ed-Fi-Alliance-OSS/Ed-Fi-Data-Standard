@@ -188,7 +188,7 @@ erDiagram
     StudentAssessmentRegistration }o--|| AssessmentAdministration : "HasAssociated"
     StudentAssessmentRegistration }o--|| StudentSchoolAssociation : "HasAssociated"
     StudentAssessmentRegistration }o--|| EducationOrganization : "HasAssociated"
-    StudentAssessmentRegistration }o--|| StudentEducationOrganizationAssessmentAccommodation : "HasAssociated"
+    StudentAssessmentRegistration }o--o| StudentEducationOrganizationAssessmentAccommodation : "HasAssociated"
     StudentAssessmentRegistrationBatteryPartAssociation }o--|| StudentAssessmentRegistration : "HasAssociated"
     StudentAssessmentRegistrationBatteryPartAssociation }o--|| AssessmentBatteryPart : "HasAssociated"
     StudentEducationOrganizationAssessmentAccommodation }o--|| Student : "HasAssociated"

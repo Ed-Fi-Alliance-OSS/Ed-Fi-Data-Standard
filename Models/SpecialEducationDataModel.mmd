@@ -114,15 +114,15 @@ erDiagram
  }
 
     IDEAEvent }o--|| EducationOrganization : "HasAssociated"
-    StudentIEPServicePerscription }o--|| StudentIEP : "HasAssociated"
-    StudentIEP ||--o{ StudentGoal : "HasAssociated"
-    StudentIEPServiceDelivery }o--|| StudentIEPServicePerscription : "HasAssociated"
+    StudentIEPServicePrescription }o--|| StudentIEP : "HasAssociated"
+    StudentIEP ||--o{ StudentIEPGoal : "HasAssociated"
+    StudentIEPServiceDelivery }o--|| StudentIEPServicePrescription : "HasAssociated"
     Student }|--o{ EducationOrganization : "HasAssociated"
     Student ||--o{ IDEAEvent : "HasAssociated"
     Student ||--o{ StudentIEP : "HasAssociated"
     StudentIEP }o--o{ IDEAEvent : "HasAssociated"
-    Staff }o--|| StudentIEPServicePerscription : "HasAssociated"
-    StudentGoal }o--o{ IDEAEvent : "HasAssociated"
+    Staff }o--o{ StudentIEPServicePrescription : "HasAssociated"
+    StudentIEPGoal }o--o{ IDEAEvent : "HasAssociated"
     StudentIEP ||--o{ StudentIEPServiceDelivery : "HasAssociated"
     EducationOrganization ||--o{ StudentIEP : "HasAssociated"
 

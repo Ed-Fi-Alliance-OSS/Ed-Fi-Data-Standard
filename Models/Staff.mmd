@@ -210,7 +210,7 @@ erDiagram
     }
     EducationServiceCenter }o--o| StateEducationAgency : "IsOrganizationComponentOf"
     LocalEducationAgency }o--o| EducationServiceCenter : "IsOrganizationComponentOf"
-    LocalEducationAgency }o--o| LocalEducationAgency : "IsOrganization ComponentOf"
+    LocalEducationAgency }o--o| LocalEducationAgency : "IsOrganizationComponentOf"
     School }o--o| LocalEducationAgency : "IsOrganizationComponentOf"
     Staff }o--o{ School : "HasAssociated"
     Staff }o--o{ Credential : "HasAssociated"
@@ -227,7 +227,7 @@ erDiagram
     StaffEducationOrganizationEmploymentAssociation }o--o| Credential : "IsBasedOn"
     EducationOrganization ||--o{ StaffDirectory : "HasAssociated"
     EducationOrganization ||--o{ StaffDemographic : "HasAssociated"
-    EducationOrganization ||--o{ StaffIdentificationCode
+    EducationOrganization ||--o{ StaffIdentificationCode : "HasAssociated"
     StaffDirectory }o--|| Staff : "HasAssociated"
     StaffIdentificationCode }o--|| Staff : "HasAssociated"
     StaffDemographic }o--|| Staff : "HasAssociated"
