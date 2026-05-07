@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<ReasonNotTestedDescriptor>
 		<CodeValue>Absent</CodeValue>
 		<ShortDescription>Absent</ShortDescription>
@@ -40,6 +40,12 @@
 		<CodeValue>Medical waiver</CodeValue>
 		<ShortDescription>Medical waiver</ShortDescription>
 		<Description>Medical waiver</Description>
+		<Namespace>uri://ed-fi.org/ReasonNotTestedDescriptor</Namespace>
+	</ReasonNotTestedDescriptor>
+	<ReasonNotTestedDescriptor>
+		<CodeValue>Moved</CodeValue>
+		<ShortDescription>Moved as primary reason for not testing</ShortDescription>
+		<Description>Moved is specified as the primary reason a participant did not complete an assessment.</Description>
 		<Namespace>uri://ed-fi.org/ReasonNotTestedDescriptor</Namespace>
 	</ReasonNotTestedDescriptor>
 	<ReasonNotTestedDescriptor>

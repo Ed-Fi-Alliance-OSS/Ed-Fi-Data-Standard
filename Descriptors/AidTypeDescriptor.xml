@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<AidTypeDescriptor>
+		<CodeValue>Assistantships</CodeValue>
+		<ShortDescription>Assistantships</ShortDescription>
+		<Description>Assistantships</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Federal Scholarships</CodeValue>
+		<ShortDescription>Federal Scholarships</ShortDescription>
+		<Description>Federal Scholarships</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Federal Subsidized Loans</CodeValue>
+		<ShortDescription>Federal Subsidized Loans</ShortDescription>
+		<Description>Federal Subsidized Loans</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Federal Unsubsidized Loans</CodeValue>
+		<ShortDescription>Federal Unsubsidized Loans</ShortDescription>
+		<Description>Federal Unsubsidized Loans</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Federal Work Study</CodeValue>
+		<ShortDescription>Federal Work Study</ShortDescription>
+		<Description>Federal Work Study</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Institutional Grants</CodeValue>
+		<ShortDescription>Institutional Grants</ShortDescription>
+		<Description>Institutional Grants</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Institutional Loans</CodeValue>
+		<ShortDescription>Institutional Loans</ShortDescription>
+		<Description>Institutional Loans</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Institutional Scholarships</CodeValue>
+		<ShortDescription>Institutional Scholarships</ShortDescription>
+		<Description>Institutional Scholarships</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Loan Forgiveness</CodeValue>
+		<ShortDescription>Loan Forgiveness</ShortDescription>
+		<Description>Loan Forgiveness</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Parent PLUS Loans</CodeValue>
+		<ShortDescription>Parent PLUS Loans</ShortDescription>
+		<Description>Parent PLUS Loans</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Pell Grants</CodeValue>
+		<ShortDescription>Pell Grants</ShortDescription>
+		<Description>Pell Grants</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Private Grants</CodeValue>
+		<ShortDescription>Private Grants</ShortDescription>
+		<Description>Private Grants</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Private Loans</CodeValue>
+		<ShortDescription>Private Loans</ShortDescription>
+		<Description>Private Loans</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Private Scholarships</CodeValue>
+		<ShortDescription>Private Scholarships</ShortDescription>
+		<Description>Private Scholarships</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>State and Local Grants</CodeValue>
+		<ShortDescription>State and Local Grants</ShortDescription>
+		<Description>State and Local Grants</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>State and Local Scholarships</CodeValue>
+		<ShortDescription>State and Local Scholarships</ShortDescription>
+		<Description>State and Local Scholarships</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>State Loans</CodeValue>
+		<ShortDescription>State Loans</ShortDescription>
+		<Description>State Loans</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>State Work</CodeValue>
+		<ShortDescription>State Work</ShortDescription>
+		<Description>State Work</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Teach Grants</CodeValue>
+		<ShortDescription>Teach Grants</ShortDescription>
+		<Description>Teach Grants</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Tuition Reimbursements</CodeValue>
+		<ShortDescription>Tuition Reimbursements</ShortDescription>
+		<Description>Tuition Reimbursements</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+		<AidTypeDescriptor>
+		<CodeValue>Other Federal Grants</CodeValue>
+		<ShortDescription>Other Federal Grants</ShortDescription>
+		<Description>Other Federal Grants</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Other Grants</CodeValue>
+		<ShortDescription>Other Grants</ShortDescription>
+		<Description>Other Grants</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Other On-Campus Work</CodeValue>
+		<ShortDescription>Other On-Campus Work</ShortDescription>
+		<Description>Other On-Campus Work</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+	<AidTypeDescriptor>
+		<CodeValue>Other Scholarships</CodeValue>
+		<ShortDescription>Other Scholarships</ShortDescription>
+		<Description>Other Scholarships</Description>
+		<Namespace>uri://ed-fi.org/AidTypeDescriptor</Namespace>
+	</AidTypeDescriptor>
+</InterchangeDescriptors>

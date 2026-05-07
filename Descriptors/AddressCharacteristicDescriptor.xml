@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<AddressCharacteristicDescriptor>
+		<CodeValue>Primary</CodeValue>
+		<ShortDescription>Primary</ShortDescription>
+		<Description>Primary</Description>
+		<Namespace>uri://ed-fi.org/AddressCharacteristicDescriptor</Namespace>
+	</AddressCharacteristicDescriptor>
+		<AddressCharacteristicDescriptor>
+		<CodeValue>Validated</CodeValue>
+		<ShortDescription>Validated</ShortDescription>
+		<Description>Validated</Description>
+		<Namespace>uri://ed-fi.org/AddressCharacteristicDescriptor</Namespace>
+	</AddressCharacteristicDescriptor>
+</InterchangeDescriptors>

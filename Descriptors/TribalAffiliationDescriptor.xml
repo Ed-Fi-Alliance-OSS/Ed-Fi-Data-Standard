@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeDescriptors xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
 	<TribalAffiliationDescriptor>
 		<CodeValue>Absentee-Shawnee</CodeValue>
 		<ShortDescription>Absentee-Shawnee</ShortDescription>
@@ -1567,8 +1567,8 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Little Shell Tribe </CodeValue>
-		<ShortDescription>Little Shell Tribe </ShortDescription>
+		<CodeValue>Little Shell Tribe</CodeValue>
+		<ShortDescription>Little Shell Tribe</ShortDescription>
 		<Description>Little Shell Tribe of Chippewa Indians of Montana</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
@@ -2215,8 +2215,8 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Pechanga Band of Indians </CodeValue>
-		<ShortDescription>Pechanga Band of Indians </ShortDescription>
+		<CodeValue>Pechanga Band of Indians</CodeValue>
+		<ShortDescription>Pechanga Band of Indians</ShortDescription>
 		<Description>Pechanga Band of Indians</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
@@ -3069,7 +3069,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Table Mountain</CodeValue>
 		<ShortDescription>Table Mountain</ShortDescription>
-		<Description>Table Mountain Rancheria </Description>
+		<Description>Table Mountain Rancheria</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3093,7 +3093,7 @@
 	<TribalAffiliationDescriptor>
 		<CodeValue>Tangirnaq</CodeValue>
 		<ShortDescription>Tangirnaq</ShortDescription>
-		<Description>Tangirnaq Native Village </Description>
+		<Description>Tangirnaq Native Village</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
@@ -3511,9 +3511,9 @@
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>
-		<CodeValue>Yuhaaviatam of San Manuel Nation </CodeValue>
-		<ShortDescription>Yuhaaviatam of San Manuel Nation </ShortDescription>
-		<Description>Yuhaaviatam of San Manuel Nation </Description>
+		<CodeValue>Yuhaaviatam of San Manuel Nation</CodeValue>
+		<ShortDescription>Yuhaaviatam of San Manuel Nation</ShortDescription>
+		<Description>Yuhaaviatam of San Manuel Nation</Description>
 		<Namespace>uri://ed-fi.org/TribalAffiliationDescriptor</Namespace>
 	</TribalAffiliationDescriptor>
 	<TribalAffiliationDescriptor>

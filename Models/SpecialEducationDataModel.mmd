@@ -1,0 +1,133 @@
+﻿---
+title: SpecialEducationDataModel
+
+config:
+  layout: elk
+---
+
+erDiagram
+ direction TB
+ StudentIEP {
+     reference Student "I"
+     reference EducationOrganization "I"
+     string StudentIEPIdentifier "I"
+     date IEPFinalizedDate "I"
+     date IEPBeginDate "R"
+     date IEPEndDate "R"
+     descriptor IEPStatus "R"
+     descriptor Accommodation "OC"
+     common Disability "OC"
+     reference IDEAEvent "OC"
+     date IEPAmendedDate "O"
+     bool MedicallyFragile "O"
+     bool MultiplyDisabled "O"
+     descriptor ReasonExited "O"
+     decimal SchoolHoursPerWeek "O"
+     decimal SpecialEducationHoursPerWeek "O"
+     descriptor SpecialEducationSetting "O"
+ }
+
+ IDEAEvent {
+     reference Student "I"
+     reference EducationOrganization "I"
+     string IDEAEventIdentifier "I"
+     descriptor IDEAEventType "I"
+     date BeginDate "R"
+     date EndDate "O"
+     descriptor EventCompliance "O"
+     string EventNarrative "O"
+     descriptor EventReason "O"
+ }
+
+ EducationOrganization {
+     integer EducationOrganizationId "I"
+     string NameOfInstitution "R"
+     string ShortNameOfInstitution "O"
+     descriptor EducationOrganizationCategory "RC"
+     common Address "OC"
+     common InternationalAddress "OC"
+     common InstitutionTelephone "OC"
+     string WebSite "O"
+     descriptor OperationalStatus "O"
+     common EducationOrganizationIndicator "OC"
+ }
+
+ StudentIEPServicePrescription["StudentIEP<br/>ServicePrescription"] {
+     reference StudentIEP "I"
+     descriptor ServicePrescription "I"
+     date ServicePrescriptionDate "I"
+     date BeginDate "R"
+     integer Duration "R"
+     descriptor DurationInterval "R"
+     date EndDate "O"
+     decimal Frequency "R"
+     descriptor FrequencyInterval "R"
+     reference IDEAEvent "OC"
+     descriptor ServiceLocationType "R"
+     reference Staff "OC"
+ }
+
+ StudentIEPServiceDelivery {
+     reference StudentIEP "I"
+     string IEPServiceDeliveryIdentifier "I"
+     descriptor ServiceDelivery "I"
+     date ServiceDeliveryDate "I"
+     reference IDEAEvent "OC"
+     common Provider "OC"
+     reference StudentIEPServicePrescription "O"
+ }
+
+ Student {
+     string StudentUniqueId "I"
+     common Name "R"
+     common OtherName "OC"
+     common BirthData "R"
+     reference Person "O"
+ }
+
+ Staff {
+     string StaffUniqueId "I"
+     common Name "R"
+     common OtherName "OC"
+     date BirthDate "O"
+     descriptor HighestCompletedLevelOfEducation "O"
+     decimal YearsOfPriorProfessionalExperience "O"
+     decimal YearsOfPriorTeachingExperience "O"
+     string LoginId "O"
+     bool HighlyQualifiedTeacher "O"
+     common Recognition "OC"
+     reference Credential "OC"
+     reference Person "O"
+     descriptor HighlyQualifiedAcademicSubject "OC"
+     common EducatorResearch "O"
+     reference EducatorPreparationProgram "OC"
+     reference OpenStaffPosition "O"
+ }
+
+ StudentIEPGoal {
+     reference StudentIEP "I"
+     string IEPGoalIdentifier "I"
+     string IEPGoalDetails "R"
+     descriptor IEPGoalType "R"
+     common GoalAchievementPeriod "O"
+     reference IDEAEvent "OC"
+ }
+
+    IDEAEvent }o--|| EducationOrganization : "HasAssociated"
+    StudentIEPServicePrescription }o--|| StudentIEP : "HasAssociated"
+    StudentIEP ||--o{ StudentIEPGoal : "HasAssociated"
+    StudentIEPServiceDelivery }o--|| StudentIEPServicePrescription : "HasAssociated"
+    Student }|--o{ EducationOrganization : "HasAssociated"
+    Student ||--o{ IDEAEvent : "HasAssociated"
+    Student ||--o{ StudentIEP : "HasAssociated"
+    StudentIEP }o--o{ IDEAEvent : "HasAssociated"
+    Staff }o--o{ StudentIEPServicePrescription : "HasAssociated"
+    StudentIEPGoal }o--o{ IDEAEvent : "HasAssociated"
+    StudentIEP ||--o{ StudentIEPServiceDelivery : "HasAssociated"
+    EducationOrganization ||--o{ StudentIEP : "HasAssociated"
+
+    style StudentIEP fill:#E1BEE7,stroke:#AA00FF,color:#000000
+    style IDEAEvent fill:#E1BEE7,stroke:#AA00FF,color:#000000
+    style StudentIEPServicePrescription fill:#E1BEE7,stroke:#AA00FF,color:#000000
+    style StudentIEPServiceDelivery fill:#E1BEE7,stroke:#AA00FF,color:#000000
+    style StudentIEPGoal fill:#E1BEE7,stroke:#AA00FF,color:#000000

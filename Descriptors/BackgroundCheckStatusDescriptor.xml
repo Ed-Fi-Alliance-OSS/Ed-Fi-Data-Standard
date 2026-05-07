@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <BackgroundCheckStatusDescriptor>
+		<CodeValue>Eligible</CodeValue>
+		<ShortDescription>Eligible</ShortDescription>
+		<Description>Eligible</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckStatusDescriptor</Namespace>
+	</BackgroundCheckStatusDescriptor>
+	<BackgroundCheckStatusDescriptor>
+		<CodeValue>Employer Review</CodeValue>
+		<ShortDescription>Employer Review</ShortDescription>
+		<Description>Employer processing results</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckStatusDescriptor</Namespace>
+	</BackgroundCheckStatusDescriptor>
+	<BackgroundCheckStatusDescriptor>
+		<CodeValue>Not Eligible</CodeValue>
+		<ShortDescription>Not Eligible</ShortDescription>
+		<Description>Not Eligible</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckStatusDescriptor</Namespace>
+	</BackgroundCheckStatusDescriptor>
+	<BackgroundCheckStatusDescriptor>
+		<CodeValue>Started</CodeValue>
+		<ShortDescription>Started</ShortDescription>
+		<Description>Some requirements submitted for review</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckStatusDescriptor</Namespace>
+	</BackgroundCheckStatusDescriptor>
+	<BackgroundCheckStatusDescriptor>
+		<CodeValue>Submitted</CodeValue>
+		<ShortDescription>Submitted</ShortDescription>
+		<Description>All requirements submitted for review</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckStatusDescriptor</Namespace>
+	</BackgroundCheckStatusDescriptor>
+	<BackgroundCheckStatusDescriptor>
+		<CodeValue>Waiting</CodeValue>
+		<ShortDescription>Waiting</ShortDescription>
+		<Description>Awaiting response from authorities</Description>
+		<Namespace>uri://ed-fi.org/BackgroundCheckStatusDescriptor</Namespace>
+	</BackgroundCheckStatusDescriptor>
+</InterchangeDescriptors>

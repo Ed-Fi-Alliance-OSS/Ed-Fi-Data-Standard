@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <FundingSourceDescriptor>
+		<CodeValue>District</CodeValue>
+		<ShortDescription>District funds.</ShortDescription>
+		<Description>Funding source is the district.</Description>
+		<Namespace>uri://ed-fi.org/FundingSourceDescriptor</Namespace>
+	</FundingSourceDescriptor>
+	<FundingSourceDescriptor>
+		<CodeValue>Federal</CodeValue>
+		<ShortDescription>Federal grant</ShortDescription>
+		<Description>Funding source is a federal authority.</Description>
+		<Namespace>uri://ed-fi.org/FundingSourceDescriptor</Namespace>
+	</FundingSourceDescriptor>
+	<FundingSourceDescriptor>
+		<CodeValue>State</CodeValue>
+		<ShortDescription>State grant</ShortDescription>
+		<Description>Funding source is the state.</Description>
+		<Namespace>uri://ed-fi.org/FundingSourceDescriptor</Namespace>
+	</FundingSourceDescriptor>
+	<FundingSourceDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other source provides funding.</ShortDescription>
+		<Description>Other source provides funding.</Description>
+		<Namespace>uri://ed-fi.org/FundingSourceDescriptor</Namespace>
+	</FundingSourceDescriptor>
+</InterchangeDescriptors>

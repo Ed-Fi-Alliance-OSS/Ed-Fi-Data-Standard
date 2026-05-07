@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Anchor Course</CodeValue>
+		<ShortDescription>Foundational course for the chosen field of study</ShortDescription>
+		<Description>A core course that provides a foundation for the educator candidate's knowledge and skills in the chosen field of study.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Apprenticeship</CodeValue>
+		<ShortDescription>Work-based learning with an experienced educator</ShortDescription>
+		<Description>A structured learning experience where the educator candidate works alongside an experienced educator in a real-world classroom setting, applying theoretical knowledge and developing practical teaching skills.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Assessment</CodeValue>
+		<ShortDescription>Assessment evaluation of knowledge and teaching skills</ShortDescription>
+		<Description>An assessment evaluation of the educator candidate's knowledge, skills, and understanding of specific subject matter or teaching competencies, such as licensure exams, program assessments, or performance-based assessments.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Certification</CodeValue>
+		<ShortDescription>Professional certification in a specific area of education</ShortDescription>
+		<Description>A credential or certification obtained by the educator candidate that demonstrates specific knowledge and skills in a particular area of education, such as special education, early childhood education, or English as a Second Language (ESL).</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Certification Exam</CodeValue>
+		<ShortDescription>Standardized test for licensure or certification</ShortDescription>
+		<Description>A standardized exam administered by a state or national agency to assess the educator candidate's knowledge and skills required for licensure or certification in the field of education.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Clinical Teaching</CodeValue>
+		<ShortDescription>Supervised teaching experience in a classroom</ShortDescription>
+		<Description>A supervised teaching experience in a real-world classroom setting where the educator candidate applies theoretical knowledge and skills under the guidance of a mentor teacher. This experience is a critical component of the teacher preparation program.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>	
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Course</CodeValue>
+		<ShortDescription>Required coursework in the education program</ShortDescription>
+		<Description>A specific course within the educator preparation program, covering a range of topics relevant to the field of education, such as pedagogy, curriculum development, classroom management, and special education.
+</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>CPE (Continuing Professional Education)</CodeValue>
+		<ShortDescription>Continuing professional education course for educators</ShortDescription>
+		<Description>Continuing professional education courses or workshops designed to enhance the educator candidate's knowledge and skills beyond the initial teacher preparation program, such as specialized training in instructional technology, differentiated instruction, or culturally responsive teaching.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Diploma</CodeValue>
+		<ShortDescription>Document awarded upon program completion</ShortDescription>
+		<Description>The official document awarded to the educator candidate upon successful completion of all the requirements of the teacher preparation program, signifying their readiness to enter the teaching profession.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Documentation</CodeValue>
+		<ShortDescription>Required documents for the program</ShortDescription>
+		<Description>Specific documents or files that the educator candidate must submit as part of the teacher preparation program, such as transcripts, background checks, licensure applications, or professional portfolios.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Employment</CodeValue>
+		<ShortDescription>Relevant work experience for educators</ShortDescription>
+		<Description>Prior work experience in a relevant field, such as tutoring, mentoring, or working with youth, that can enhance the educator candidate's understanding of diverse learners and classroom dynamics.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Endorsement</CodeValue>
+		<ShortDescription>Endorsement to teach a specific subject</ShortDescription>
+		<Description>An endorsement or authorization to teach a specific subject area or grade level, which may be added to the educator candidate's teaching license upon successful completion of additional coursework or assessments.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Fieldwork</CodeValue>
+		<ShortDescription>Practical experience in an educational setting</ShortDescription>
+		<Description>Practical experience in a real-world educational setting, such as observing classrooms, assisting teachers, or participating in school-based activities, providing the educator candidate with valuable insights into the teaching profession.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Honor</CodeValue>
+		<ShortDescription>Recognition of academic achievement</ShortDescription>
+		<Description>Recognition of outstanding academic achievement or professional accomplishments by the educator candidate.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Project</CodeValue>
+		<ShortDescription>Culminating project demonstrating skills and knowledge</ShortDescription>
+		<Description>A culminating project undertaken by the educator candidate that demonstrates their ability to apply knowledge and skills learned throughout the teacher preparation program, such as developing a curriculum unit, conducting research, or creating a professional portfolio.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Service</CodeValue>
+		<ShortDescription>Community service activities for educators</ShortDescription>
+		<Description>Community service activities undertaken by the educator candidate, such as tutoring, mentoring, or volunteering in schools or community organizations, which provide valuable experience in working with diverse populations and fostering a sense of social responsibility.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+	<PathMilestoneTypeDescriptor>
+		<CodeValue>Training</CodeValue>
+		<ShortDescription>Specialized training on teaching skills or areas</ShortDescription>
+		<Description>Training sessions or workshops focused on specific teaching skills or areas of expertise, such as technology integration, classroom management strategies, or special education instructional methods.</Description>
+		<Namespace>uri://ed-fi.org/PathMilestoneTypeDescriptor</Namespace>
+	</PathMilestoneTypeDescriptor>
+</InterchangeDescriptors>

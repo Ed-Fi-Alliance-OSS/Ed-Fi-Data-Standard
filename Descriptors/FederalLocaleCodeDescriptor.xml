@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<FederalLocaleCodeDescriptor>
+		<CodeValue>City</CodeValue>
+		<ShortDescription>Territory inside an urbanized area and inside a principal city.</ShortDescription>
+		<Description>Territory inside an urbanized area and inside a principal city.</Description>
+		<Namespace>uri://ed-fi.org/FederalLocaleCodeDescriptor</Namespace>
+	</FederalLocaleCodeDescriptor>
+	<FederalLocaleCodeDescriptor>
+		<CodeValue>Rural</CodeValue>
+		<ShortDescription>Census-defined rural territory.</ShortDescription>
+		<Description>Census-defined rural territory.</Description>
+		<Namespace>uri://ed-fi.org/FederalLocaleCodeDescriptor</Namespace>
+	</FederalLocaleCodeDescriptor>
+	<FederalLocaleCodeDescriptor>
+		<CodeValue>Suburb</CodeValue>
+		<ShortDescription>Territory outside a principal city and inside an urbanized area.</ShortDescription>
+		<Description>Territory outside a principal city and inside an urbanized area.</Description>
+		<Namespace>uri://ed-fi.org/FederalLocaleCodeDescriptor</Namespace>
+	</FederalLocaleCodeDescriptor>
+	<FederalLocaleCodeDescriptor>
+		<CodeValue>Town</CodeValue>
+		<ShortDescription>Territory inside an urban cluster.</ShortDescription>
+		<Description>Territory inside an urban cluster.</Description>
+		<Namespace>uri://ed-fi.org/FederalLocaleCodeDescriptor</Namespace>
+	</FederalLocaleCodeDescriptor>
+</InterchangeDescriptors>

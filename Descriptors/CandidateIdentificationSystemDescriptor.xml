@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>Canadian SIN</CodeValue>
+		<ShortDescription>Canadian SIN</ShortDescription>
+		<Description>Canadian SIN</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>District</CodeValue>
+		<ShortDescription>District</ShortDescription>
+		<Description>District</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>Drivers License</CodeValue>
+		<ShortDescription>Drivers License</ShortDescription>
+		<Description>Drivers License</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>Federal</CodeValue>
+		<ShortDescription>Federal</ShortDescription>
+		<Description>Federal</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>Health Record</CodeValue>
+		<ShortDescription>Health Record</ShortDescription>
+		<Description>Health Record</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>Medicaid</CodeValue>
+		<ShortDescription>Medicaid</ShortDescription>
+		<Description>Medicaid</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>Other Federal</CodeValue>
+		<ShortDescription>Other Federal</ShortDescription>
+		<Description>Other Federal</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>PIN</CodeValue>
+		<ShortDescription>PIN</ShortDescription>
+		<Description>PIN</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>Professional Certificate</CodeValue>
+		<ShortDescription>Professional Certificate</ShortDescription>
+		<Description>Professional Certificate</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>School</CodeValue>
+		<ShortDescription>School</ShortDescription>
+		<Description>School</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>Selective Service</CodeValue>
+		<ShortDescription>Selective Service</ShortDescription>
+		<Description>Selective Service</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>SSN</CodeValue>
+		<ShortDescription>SSN</ShortDescription>
+		<Description>SSN</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>State</CodeValue>
+		<ShortDescription>State</ShortDescription>
+		<Description>State</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+	<CandidateIdentificationSystemDescriptor>
+		<CodeValue>US Visa</CodeValue>
+		<ShortDescription>US Visa</ShortDescription>
+		<Description>US Visa</Description>
+		<Namespace>uri://ed-fi.org/CandidateIdentificationSystemDescriptor</Namespace>
+	</CandidateIdentificationSystemDescriptor>
+</InterchangeDescriptors>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/5.2.0" targetNamespace="http://ed-fi.org/5.2.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.1.0" targetNamespace="http://ed-fi.org/6.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:include schemaLocation="Ed-Fi-Core.xsd" />
   <xs:annotation>
     <xs:documentation>===== Staff Association Interchange Model =====</xs:documentation>
@@ -11,6 +11,9 @@
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
         <xs:element name="Staff" type="Staff" />
+        <xs:element name="StaffDemographic" type="StaffDemographic" />
+        <xs:element name="StaffDirectory" type="StaffDirectory" />
+        <xs:element name="StaffIdentificationCode" type="StaffIdentificationCode" />
         <xs:element name="StaffEducationOrganizationEmploymentAssociation" type="StaffEducationOrganizationEmploymentAssociation" />
         <xs:element name="StaffEducationOrganizationAssignmentAssociation" type="StaffEducationOrganizationAssignmentAssociation" />
         <xs:element name="StaffSchoolAssociation" type="StaffSchoolAssociation" />
@@ -18,10 +21,11 @@
         <xs:element name="StaffLeave" type="StaffLeave" />
         <xs:element name="OpenStaffPosition" type="OpenStaffPosition" />
         <xs:element name="StaffProgramAssociation" type="StaffProgramAssociation" />
-        <xs:element name="StaffEducationOrganizationContactAssociation" type="StaffEducationOrganizationContactAssociation" />
         <xs:element name="StaffAbsenceEvent" type="StaffAbsenceEvent" />
         <xs:element name="Credential" type="Credential" />
         <xs:element name="Person" type="Person" />
+        <xs:element name="OpenStaffPositionEvent" type="OpenStaffPositionEvent" />
+        <xs:element name="StaffEducatorPreparationProgramAssociation" type="StaffEducatorPreparationProgramAssociation" />
       </xs:choice>
     </xs:complexType>
   </xs:element>

@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeAssessmentMetadata xmlns:ann="http://ed-fi.org/annotation" xmlns="http://ed-fi.org/6.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-AssessmentMetadata.xsd">
+	<Assessment>
+		<AssessmentIdentifier>00FBEB26-4A3A-03C2-5BCA-FAE9DE8A808F</AssessmentIdentifier>
+		<AssessmentTitle>State Assessment</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>01531</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>26756</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>71380</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>83146</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>09828</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>89910</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>38864</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>100</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>1142F777-39A3-3445-845E-BA127238D227</AssessmentIdentifier>
+		<AssessmentTitle>Praxis I - Writing</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>17687</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>43655</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>01766</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>17567</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>19069</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>38356</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>40431</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#Other</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Writing</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Adult Education</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>1D3E0874-B13D-EB23-F5AD-E8CFCFB5DC2A</AssessmentIdentifier>
+		<AssessmentTitle>Science Content Assessment</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>67682</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>11636</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>54307</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>56775</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>06910</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>25203</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>97334</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#Other</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Science</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>100</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>269256B6-2499-F8C3-0940-1D12095248BD</AssessmentIdentifier>
+		<AssessmentTitle>STATE Science</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>17137</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>24289</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>41778</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>08350</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>33270</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>07091</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>88561</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Science</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>2972EC23-3EF2-2D74-6F78-13341776EAE1</AssessmentIdentifier>
+		<AssessmentTitle>Praxis I - Reading</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>18646</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>50651</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>56603</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>18749</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>77773</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>69503</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>70380</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#Other</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Reading</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Kindergarten</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>2B23D957-CE92-390F-2F76-6ADBF12D0009</AssessmentIdentifier>
+		<AssessmentTitle>STATE Math</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>06894</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>27342</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>81560</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>23032</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>02075</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>13601</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>62481</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Second grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>2D537DBA-6669-872E-7A35-6E85430DA8B4</AssessmentIdentifier>
+		<AssessmentTitle>PSAT</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>36635</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>35035</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>37772</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>20618</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>34609</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>41692</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>95051</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#College entrance exam</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Early Education</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2016-05-30</RevisionDate>
+		<MaxRawScore>1520</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>30EE0FDD-6965-029F-1FB3-76266E890F13</AssessmentIdentifier>
+		<AssessmentTitle>edTPA - Professional Performance Standard</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>31919</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>62363</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>99525</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>80316</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>65081</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>51118</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>11974</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#Other</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ninth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>75</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>4570F8D3-3893-374B-5A33-5B705996CF1F</AssessmentIdentifier>
+		<AssessmentTitle>STATE English II</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>87745</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>02613</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>72007</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>53559</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>53713</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>12645</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>99764</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>45CFA7D7-1369-4985-048F-1D4E7DF3F827</AssessmentIdentifier>
+		<AssessmentTitle>STATE Reading</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>04521</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>83300</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>91320</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>87507</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>94198</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>93931</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>53584</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Reading</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>4DF9D191-7105-84CB-2EC7-5E150D2224D6</AssessmentIdentifier>
+		<AssessmentTitle>STATE Writing</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>36394</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>17164</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>61192</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>70020</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>06933</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>83338</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>50767</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Writing</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Master's Program</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>53F331D9-D9B9-1BF6-EC57-C52433BE826A</AssessmentIdentifier>
+		<AssessmentTitle>STATE World History</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>45763</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>34015</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>60501</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>32660</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>38712</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>10180</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>79933</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Social Sciences and History</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Postsecondary</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>562B8049-58D8-1B2C-0664-4E856159E95B</AssessmentIdentifier>
+		<AssessmentTitle>STATE Algebra I</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>79170</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>57552</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>35599</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>81421</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>64583</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>00654</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>78945</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Third grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>56A0CFCB-853B-5F6A-DC1F-47B664862F46</AssessmentIdentifier>
+		<AssessmentTitle>STATE Physics</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>39599</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>56820</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>22744</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>69794</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>92713</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>64483</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>11836</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Science</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Undergraduate</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>5DCD2E68-2114-1EBA-891A-A24A6974C17B</AssessmentIdentifier>
+		<AssessmentTitle>STATE Math</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>26049</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>41678</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>83480</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>19397</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>72017</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>44241</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>13349</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Preschool/Prekindergarten</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>699C7F64-CD77-C07C-A473-D768811520D0</AssessmentIdentifier>
+		<AssessmentTitle>STATE Math</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>44252</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>87814</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>08684</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>94846</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>01521</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>11170</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>04066</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Professional Certification</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>6D929961-A88A-768A-8549-388D33D907A8</AssessmentIdentifier>
+		<AssessmentTitle>STATE Reading</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>60623</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>90717</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>65618</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>68008</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>47660</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>47899</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>91696</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Reading</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Infant/toddler</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>6D948B71-E4F0-FE4B-DB5C-CDE86D239707</AssessmentIdentifier>
+		<AssessmentTitle>STATE Reading</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>05338</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>27262</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>02798</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>19451</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>50798</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>06718</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>57961</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Reading</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Grade 13</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>6D9C3414-F35E-1B4B-8FCC-60F3FB8090B2</AssessmentIdentifier>
+		<AssessmentTitle>STATE Reading</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>49078</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>14221</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>26550</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>28358</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>76617</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>34028</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>34713</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Reading</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Kindergarten</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>73220C87-C9E7-9D41-A251-984351EDAFD5</AssessmentIdentifier>
+		<AssessmentTitle>STATE Math</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>91131</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>68732</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>72095</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>97921</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>31884</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>36297</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>56677</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eighth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>75532854-8509-A1BC-7275-48260B5A40A1</AssessmentIdentifier>
+		<AssessmentTitle>STATE Algebra II</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>57167</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>00922</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>77110</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>50695</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>96269</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>52784</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>32054</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Other</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>7A88D70F-13D1-5C26-025B-16AF4D8DC626</AssessmentIdentifier>
+		<AssessmentTitle>edTPA - Elementary Education</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>41945</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>89778</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>15266</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>58396</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>26921</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>20331</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>64340</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#Other</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fourth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>90</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>7D10EF9A-0001-8960-7FC6-967CF3BC4F43</AssessmentIdentifier>
+		<AssessmentTitle>Praxis I - Math</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>12036</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>44296</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>48239</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>98369</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>05828</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>00245</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>72771</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#Other</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>9049AF3D-024A-5755-91FB-DA9312187B11</AssessmentIdentifier>
+		<AssessmentTitle>STATE Chemistry</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>22155</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>16208</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>13317</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>93718</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>51926</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>96367</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>44342</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Science</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Professional Certification</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>922C6CB4-D9F8-4676-B541-709593C7C8D3</AssessmentIdentifier>
+		<AssessmentTitle>ACT</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>11916</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>75953</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>30866</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>58680</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>64400</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>18668</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>25525</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#College entrance exam</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Eleventh grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>30</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>95A2709E-58BF-D369-66F8-55682698BB90</AssessmentIdentifier>
+		<AssessmentTitle>STATE Math</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>81270</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>64417</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>77494</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>02861</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>49039</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>34786</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>68218</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>99ED352E-E18E-3DBB-4060-078066DDF042</AssessmentIdentifier>
+		<AssessmentTitle>STATE Reading</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>45143</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>84714</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>03015</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>49134</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>59731</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>94865</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>33727</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Reading</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#First grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>9C15DB04-5E73-C1F6-BA73-FBD82C5BE3E7</AssessmentIdentifier>
+		<AssessmentTitle>STATE Social Studies</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>19843</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>34599</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>97733</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>30376</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>18967</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>43354</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>88153</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Social Studies</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Other</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>9D4C0DBD-568A-86BC-3FC1-43D86DE4B77B</AssessmentIdentifier>
+		<AssessmentTitle>SAT</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>14443</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>59938</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>62809</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>86598</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>85245</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>29307</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>88828</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#College entrance exam</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Twelfth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>1520</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>A0C83FE7-5FEF-2BD3-6254-EF356482F408</AssessmentIdentifier>
+		<AssessmentTitle>STATE US History</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>57367</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>68028</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>93246</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>49759</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>87789</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>32688</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>12006</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Social Sciences and History</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Infant/toddler</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>A5005432-13E5-AE68-708C-CD31A05FE4F5</AssessmentIdentifier>
+		<AssessmentTitle>STATE English III</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>71953</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>49407</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>03291</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>22125</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>92847</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>13276</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>73801</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fifth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>AE872D14-7914-073C-B245-F5B1BC81132E</AssessmentIdentifier>
+		<AssessmentTitle>STATE Geometry</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>86714</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>00442</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>17317</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>44402</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>06456</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>70620</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>89665</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Postsecondary</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>B65E7EE4-2602-951C-9FA3-DBF6D403B2E5</AssessmentIdentifier>
+		<AssessmentTitle>STATE World Geography</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>87232</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>65388</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>10762</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>76080</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>03835</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>78707</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>10410</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Social Sciences and History</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Ungraded</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>C65650FC-88A2-C650-B98A-DBCB68111619</AssessmentIdentifier>
+		<AssessmentTitle>STATE Reading</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>02188</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>19992</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>48066</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>15896</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>53051</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>59753</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>90139</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Reading</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Seventh grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>CA9F08A6-E9D5-3CBD-8201-CC5961CB6971</AssessmentIdentifier>
+		<AssessmentTitle>STATE Biology</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>41488</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>94401</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>19593</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>90040</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>62865</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>19665</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>47127</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Science</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Fifth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>D47F65E7-98EA-48A8-6239-885D74E6506D</AssessmentIdentifier>
+		<AssessmentTitle>rSAT-MostRecent</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>50591</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>21004</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>42267</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>09798</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>51240</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>00503</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>66397</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#College entrance exam</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Composite</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Tenth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2016-05-30</RevisionDate>
+		<MaxRawScore>1600</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>D4F3A07B-0E74-4093-6E88-CF97D81CC3CD</AssessmentIdentifier>
+		<AssessmentTitle>STATE English I</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>55854</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>61894</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>24423</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>95616</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>89037</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>61432</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>61176</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State high school course assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#English</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Adult Education</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>200</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>D73646A6-E38B-5079-F62D-A523DA6EF096</AssessmentIdentifier>
+		<AssessmentTitle>STATE Science</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>77841</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>11121</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>63483</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>30256</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>23121</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>99215</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>35823</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Science</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Sixth grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>E1AF703C-EC5D-1B54-CB4F-7D9E769B6E93</AssessmentIdentifier>
+		<AssessmentTitle>STATE Writing</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>22240</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>68245</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>80816</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>86953</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>75032</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>86625</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>86510</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Writing</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#No grade level</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>E61F7CE6-DDD3-BA76-9C50-B6F17D831590</AssessmentIdentifier>
+		<AssessmentTitle>edTPA - World Language and Classical Languages</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>26117</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>96928</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>32346</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>74092</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>77853</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>60223</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>20116</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#Other</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Other</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Second grade</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<MaxRawScore>65</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>true</AdaptiveAssessment>
+	</Assessment>
+	<Assessment>
+		<AssessmentIdentifier>FD2DEDF3-CE9A-40D9-130E-2BFE9F566D54</AssessmentIdentifier>
+		<AssessmentTitle>STATE Math</AssessmentTitle>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>71640</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#District</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>24179</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>75697</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>04743</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Other Federal</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>21838</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#School</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>20234</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#State</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentIdentificationCode>
+			<IdentificationCode>10453</IdentificationCode>
+			<AssessmentIdentificationSystem>uri://ed-fi.org/AssessmentIdentificationSystemDescriptor#Test Contractor</AssessmentIdentificationSystem>
+		</AssessmentIdentificationCode>
+		<AssessmentCategory>uri://ed-fi.org/AssessmentCategoryDescriptor#State assessment</AssessmentCategory>
+		<AcademicSubject>uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics</AcademicSubject>
+		<AssessedGradeLevel>uri://ed-fi.org/GradeLevelDescriptor#Undergraduate</AssessedGradeLevel>
+		<AssessmentVersion>0</AssessmentVersion>
+		<RevisionDate>2014-06-01</RevisionDate>
+		<MaxRawScore>99</MaxRawScore>
+		<Namespace>uri://ed-fi.org/Assessment/Assessment.xml</Namespace>
+		<AdaptiveAssessment>false</AdaptiveAssessment>
+	</Assessment>
+</InterchangeAssessmentMetadata>

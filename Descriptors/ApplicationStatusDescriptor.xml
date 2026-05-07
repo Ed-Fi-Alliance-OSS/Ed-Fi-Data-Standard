@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<ApplicationStatusDescriptor>
+		<CodeValue>Accepted</CodeValue>
+		<ShortDescription>Accepted</ShortDescription>
+		<Description>Offer accepted</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Candidate Pool</CodeValue>
+		<ShortDescription>Candidate Pool</ShortDescription>
+		<Description>Candidate Pool</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Extended</CodeValue>
+		<ShortDescription>Extended</ShortDescription>
+		<Description>Offer extended</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Incomplete</CodeValue>
+		<ShortDescription>Incomplete</ShortDescription>
+		<Description>Incomplete</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+		<ApplicationStatusDescriptor>
+		<CodeValue>Interview</CodeValue>
+		<ShortDescription>Interview</ShortDescription>
+		<Description>In Person Interview</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>In Progress</CodeValue>
+		<ShortDescription>In Progress</ShortDescription>
+		<Description>In Progress</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>No response</CodeValue>
+		<ShortDescription>No response</ShortDescription>
+		<Description>No response from applicant</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Phone Interview</CodeValue>
+		<ShortDescription>Phone Interview</ShortDescription>
+		<Description>Phone Interview</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Pre-screened</CodeValue>
+		<ShortDescription>Pre-screened</ShortDescription>
+		<Description>Pre-screened</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Recommendations</CodeValue>
+		<ShortDescription>Recommendations</ShortDescription>
+		<Description>Recommendations submitted</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Rejected</CodeValue>
+		<ShortDescription>Rejected</ShortDescription>
+		<Description>Rejected</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Sample Lesson</CodeValue>
+		<ShortDescription>Sample Lesson</ShortDescription>
+		<Description>Sample Lesson</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>School Visit</CodeValue>
+		<ShortDescription>School Visit</ShortDescription>
+		<Description>School Visit</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Selected</CodeValue>
+		<ShortDescription>Selected</ShortDescription>
+		<Description>Selected</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Submitted</CodeValue>
+		<ShortDescription>Submitted</ShortDescription>
+		<Description>Submitted</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Video</CodeValue>
+		<ShortDescription>Video</ShortDescription>
+		<Description>Video Submitted</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+	<ApplicationStatusDescriptor>
+		<CodeValue>Withdrawn</CodeValue>
+		<ShortDescription>Withdrawn</ShortDescription>
+		<Description>Withdrawn</Description>
+		<Namespace>uri://ed-fi.org/ApplicationStatusDescriptor</Namespace>
+	</ApplicationStatusDescriptor>
+</InterchangeDescriptors>

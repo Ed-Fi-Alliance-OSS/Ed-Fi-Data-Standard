@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<RecruitmentEventTypeDescriptor>
+		<CodeValue>Career Fair</CodeValue>
+		<ShortDescription>Career Fair</ShortDescription>
+		<Description>Career Fair</Description>
+		<Namespace>uri://ed-fi.org/RecruitmentEventTypeDescriptor</Namespace>
+	</RecruitmentEventTypeDescriptor>
+	<RecruitmentEventTypeDescriptor>
+		<CodeValue>Community College Recruitment</CodeValue>
+		<ShortDescription>Community College Recruitment</ShortDescription>
+		<Description>Community College Recruitment</Description>
+		<Namespace>uri://ed-fi.org/RecruitmentEventTypeDescriptor</Namespace>
+	</RecruitmentEventTypeDescriptor>
+	<RecruitmentEventTypeDescriptor>
+		<CodeValue>Community Service Event</CodeValue>
+		<ShortDescription>Community Service Event</ShortDescription>
+		<Description>Community Service Event</Description>
+		<Namespace>uri://ed-fi.org/RecruitmentEventTypeDescriptor</Namespace>
+	</RecruitmentEventTypeDescriptor>
+	<RecruitmentEventTypeDescriptor>
+		<CodeValue>Conference</CodeValue>
+		<ShortDescription>Conference</ShortDescription>
+		<Description>Conference</Description>
+		<Namespace>uri://ed-fi.org/RecruitmentEventTypeDescriptor</Namespace>
+	</RecruitmentEventTypeDescriptor>
+	<RecruitmentEventTypeDescriptor>
+		<CodeValue>High School Recruitment</CodeValue>
+		<ShortDescription>High School Recruitment</ShortDescription>
+		<Description>High School Recruitment</Description>
+		<Namespace>uri://ed-fi.org/RecruitmentEventTypeDescriptor</Namespace>
+	</RecruitmentEventTypeDescriptor>
+	<RecruitmentEventTypeDescriptor>
+		<CodeValue>University Event</CodeValue>
+		<ShortDescription>University Event</ShortDescription>
+		<Description>University Event</Description>
+		<Namespace>uri://ed-fi.org/RecruitmentEventTypeDescriptor</Namespace>
+	</RecruitmentEventTypeDescriptor>
+	<RecruitmentEventTypeDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/RecruitmentEventTypeDescriptor</Namespace>
+	</RecruitmentEventTypeDescriptor>
+</InterchangeDescriptors>

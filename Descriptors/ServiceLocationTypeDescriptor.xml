@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Bus/District Transportation</CodeValue>
+		<ShortDescription>Bus/District Transportation</ShortDescription>
+		<Description>Bus/District Transportation</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Therapy Room (Small Group)</CodeValue>
+		<ShortDescription>Special Education Therapy Room (Small Group)</ShortDescription>
+		<Description>Special Education Therapy Room (Small Group)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Classroom</CodeValue>
+		<ShortDescription>Special Education Classroom</ShortDescription>
+		<Description>Special Education Classroom</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>School Environment</CodeValue>
+		<ShortDescription>School Environment</ShortDescription>
+		<Description>School Environment</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>General Education Classroom</CodeValue>
+		<ShortDescription>General Education Classroom</ShortDescription>
+		<Description>General Education Classroom</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>General Education Classroom (Virtual)</CodeValue>
+		<ShortDescription>General Education Classroom (Virtual)</ShortDescription>
+		<Description>General Education Classroom (Virtual)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education (Home)</CodeValue>
+		<ShortDescription>Special Education (Home)</ShortDescription>
+		<Description>Special Education (Home)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Classroom (Virtual)</CodeValue>
+		<ShortDescription>Special Education Classroom (Virtual)</ShortDescription>
+		<Description>Special Education Classroom (Virtual)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>School Counselor's Office</CodeValue>
+		<ShortDescription>School Counselor's Office</ShortDescription>
+		<Description>School Counselor's Office</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Therapy Room (Individual)</CodeValue>
+		<ShortDescription>Special Education Therapy Room (Individual)</ShortDescription>
+		<Description>Special Education Therapy Room (Individual)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Teletherapy(Small Group Virtual)</CodeValue>
+		<ShortDescription>Special Education Teletherapy(Small Group Virtual)</ShortDescription>
+		<Description>Special Education Teletherapy(Small Group Virtual)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Nurse's Office</CodeValue>
+		<ShortDescription>Nurse's Office</ShortDescription>
+		<Description>Nurse's Office</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Teletherapy (Individual Virtual)</CodeValue>
+		<ShortDescription>Special Education Teletherapy (Individual Virtual)</ShortDescription>
+		<Description>Special Education Teletherapy (Individual Virtual)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Community</CodeValue>
+		<ShortDescription>Community</ShortDescription>
+		<Description>Community</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education School Counselor's Office</CodeValue>
+		<ShortDescription>Special Education School Counselor's Office</ShortDescription>
+		<Description>Special Education School Counselor's Office</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>General Education Cafeteria</CodeValue>
+		<ShortDescription>General Education Cafeteria</ShortDescription>
+		<Description>General Education Cafeteria</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Home</CodeValue>
+		<ShortDescription>Home</ShortDescription>
+		<Description>Home</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Community</CodeValue>
+		<ShortDescription>Special Education Community</ShortDescription>
+		<Description>Special Education Community</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Support Room</CodeValue>
+		<ShortDescription>Special Education Support Room</ShortDescription>
+		<Description>Special Education Support Room</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Nurse's Office</CodeValue>
+		<ShortDescription>Special Education Nurse's Office</ShortDescription>
+		<Description>Special Education Nurse's Office</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Special Education Hospital/Medical Homebound</CodeValue>
+		<ShortDescription>Special Education Hospital/Medical Homebound</ShortDescription>
+		<Description>Special Education Hospital/Medical Homebound</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Occupational Therapy Room (Individual)</CodeValue>
+		<ShortDescription>Occupational Therapy Room (Individual)</ShortDescription>
+		<Description>Occupational Therapy Room (Individual)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+        <ServiceLocationTypeDescriptor>
+		<CodeValue>Physical Therapy Room (Individual)</CodeValue>
+		<ShortDescription>Physical Therapy Room (Individual)</ShortDescription>
+		<Description>Physical Therapy Room (Individual)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+    <ServiceLocationTypeDescriptor>
+		<CodeValue>Speech Therapy Room (Small Group)</CodeValue>
+		<ShortDescription>Speech Therapy Room (Small Group)</ShortDescription>
+		<Description>Speech Therapy Room (Small Group)</Description>
+		<Namespace>uri://ed-fi.org/ServiceLocationTypeDescriptor</Namespace>
+	</ServiceLocationTypeDescriptor>
+</InterchangeDescriptors>

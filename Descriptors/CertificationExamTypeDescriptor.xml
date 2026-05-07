@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<CertificationExamTypeDescriptor>
+		<CodeValue>National</CodeValue>
+		<ShortDescription>Exam is for a nationally recognized certification.</ShortDescription>
+		<Description>The exam is for a nationally recognized certification.</Description>
+		<Namespace>uri://ed-fi.org/CertificationExamTypeDescriptor</Namespace>
+	</CertificationExamTypeDescriptor>
+	<CertificationExamTypeDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Exam for other level of recognition.</ShortDescription>
+		<Description>A certification exam for recognition other than state or national level.</Description>
+		<Namespace>uri://ed-fi.org/CertificationExamTypeDescriptor</Namespace>
+	</CertificationExamTypeDescriptor>
+	<CertificationExamTypeDescriptor>
+		<CodeValue>State</CodeValue>
+		<ShortDescription>Exam is for a state-wide recognized certification.</ShortDescription>
+		<Description>The exam is for a state-wide recognized certification.</Description>
+		<Namespace>uri://ed-fi.org/CertificationExamTypeDescriptor</Namespace>
+	</CertificationExamTypeDescriptor>	
+</InterchangeDescriptors>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeEducationOrganization xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
+<InterchangeEducationOrganization xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
 	<EducationServiceCenter id="ESC_255950">
-		<EducationOrganizationIdentificationCode>
-			<IdentificationCode>255950</IdentificationCode>
-			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#NCES</EducationOrganizationIdentificationSystem>
-		</EducationOrganizationIdentificationCode>
 		<NameOfInstitution>Region 99 Education Service Center</NameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Education Service Center</EducationOrganizationCategory>
 		<Address>
@@ -14,6 +10,7 @@
 			<PostalCode>75217</PostalCode>
 			<NameOfCounty>Dallas</NameOfCounty>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 		</Address>
 		<Address>
 			<StreetNumberName>P.O. Box 898</StreetNumberName>
@@ -22,6 +19,8 @@
 			<PostalCode>75217</PostalCode>
 			<NameOfCounty>Dallas</NameOfCounty>
 			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Mailing</AddressType>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Primary</AddressCharacteristic>
+			<AddressCharacteristic>uri://ed-fi.org/AddressCharacteristicDescriptor#Validated</AddressCharacteristic>
 		</Address>
 		<InstitutionTelephone>
 			<TelephoneNumber>(214) 876-8290</TelephoneNumber>
@@ -34,10 +33,6 @@
 		<EducationServiceCenterId>255950</EducationServiceCenterId>
 	</EducationServiceCenter>
 	<LocalEducationAgency id="LEAG_255901">
-		<EducationOrganizationIdentificationCode>
-			<IdentificationCode>255901</IdentificationCode>
-			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
-		</EducationOrganizationIdentificationCode>
 		<NameOfInstitution>Grand Bend ISD</NameOfInstitution>
 		<ShortNameOfInstitution>GBISD</ShortNameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Local Education Agency</EducationOrganizationCategory>
@@ -72,10 +67,7 @@
 		</EducationServiceCenterReference>
 	</LocalEducationAgency>
 	<School id="SCOL_255901001">
-		<EducationOrganizationIdentificationCode>
-			<IdentificationCode>255901001</IdentificationCode>
-			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
-		</EducationOrganizationIdentificationCode>
+
 		<NameOfInstitution>Grand Bend High School</NameOfInstitution>
 		<ShortNameOfInstitution>GBHS</ShortNameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#School</EducationOrganizationCategory>
@@ -129,10 +121,6 @@
 		</LocalEducationAgencyReference>
 	</School>
 	<School id="SCOL_255901044">
-		<EducationOrganizationIdentificationCode>
-			<IdentificationCode>255901044</IdentificationCode>
-			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
-		</EducationOrganizationIdentificationCode>
 		<NameOfInstitution>Grand Bend Middle School</NameOfInstitution>
 		<ShortNameOfInstitution>GBMS</ShortNameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#School</EducationOrganizationCategory>
@@ -185,10 +173,6 @@
 		</LocalEducationAgencyReference>
 	</School>
 	<School id="SCOL_255901107">
-		<EducationOrganizationIdentificationCode>
-			<IdentificationCode>255901107</IdentificationCode>
-			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
-		</EducationOrganizationIdentificationCode>
 		<NameOfInstitution>Grand Bend Elementary School</NameOfInstitution>
 		<ShortNameOfInstitution>GBES</ShortNameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#School</EducationOrganizationCategory>
@@ -243,10 +227,6 @@
 		</LocalEducationAgencyReference>
 	</School>
 	<CommunityOrganization>
-		<EducationOrganizationIdentificationCode>
-			<IdentificationCode>19</IdentificationCode>
-			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
-		</EducationOrganizationIdentificationCode>
 		<NameOfInstitution>Communities in Schools</NameOfInstitution>
 		<ShortNameOfInstitution>CIS</ShortNameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Other</EducationOrganizationCategory>
@@ -3404,4 +3384,53 @@
 			</EducationOrganizationIdentity>
 		</ParentEducationOrganizationReference>
 	</OrganizationDepartment>
+	<EducationOrganizationIdentificationCode>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>LEAG_255901</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>State Agency Identification Number</AssigningOrganizationIdentificationCode>
+	</EducationOrganizationIdentificationCode>
+	<EducationOrganizationIdentificationCode>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901001</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>SCOL_255901001</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>State Agency Identification Number</AssigningOrganizationIdentificationCode>
+	</EducationOrganizationIdentificationCode>
+	<EducationOrganizationIdentificationCode>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901044</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>SCOL_255901044</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>State Agency Identification Number</AssigningOrganizationIdentificationCode>
+	</EducationOrganizationIdentificationCode>
+	<EducationOrganizationIdentificationCode>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>19255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>594835-c</IdentificationCode>
+	</EducationOrganizationIdentificationCode>
+	<EducationOrganizationIdentificationCode>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+					<EducationOrganizationId>255901107</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#Other</EducationOrganizationIdentificationSystem>
+		<IdentificationCode>SCOL_255901107</IdentificationCode>
+		<AssigningOrganizationIdentificationCode>Other Identification Number</AssigningOrganizationIdentificationCode>
+	</EducationOrganizationIdentificationCode>	
 </InterchangeEducationOrganization>

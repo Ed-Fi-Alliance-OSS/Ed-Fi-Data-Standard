@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<EducatorRoleDescriptor>
+		<CodeValue>Administrative</CodeValue>
+		<ShortDescription>The educator is an Administrative.</ShortDescription>
+		<Description>The educator is an Administrative.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Assistant Principal</CodeValue>
+		<ShortDescription>The educator is an Assistant Principal.</ShortDescription>
+		<Description>The educator is an Assistant Principal.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Associate School Psychologist</CodeValue>
+		<ShortDescription>The educator is an Associate School Psychologist.</ShortDescription>
+		<Description>The educator is an Associate School Psychologist.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Counselor</CodeValue>
+		<ShortDescription>The educator is a Counselor.</ShortDescription>
+		<Description>The educator is a Counselor.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>	
+	<EducatorRoleDescriptor>
+		<CodeValue>Educational Aide</CodeValue>
+		<ShortDescription>The educator is an Educational Aide.</ShortDescription>
+		<Description>The educator is an Educational Aide.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Educational Diagnostician</CodeValue>
+		<ShortDescription>The educator is an Educational Diagnostician.</ShortDescription>
+		<Description>The educator is an Educational Diagnostician.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Educational Secretary</CodeValue>
+		<ShortDescription>The educator is an Educational Secretary.</ShortDescription>
+		<Description>The educator is an Educational Secretary.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Generalist</CodeValue>
+		<ShortDescription>The educator is a Generalist.</ShortDescription>
+		<Description>The educator is a Generalist.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Instructional Officer</CodeValue>
+		<ShortDescription>The educator is an Instructional Officer.</ShortDescription>
+		<Description>The educator is an Instructional Officer.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Librarian</CodeValue>
+		<ShortDescription>The educator is a Librarian.</ShortDescription>
+		<Description>The educator is a Librarian.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Physician</CodeValue>
+		<ShortDescription>The educator is a Physician.</ShortDescription>
+		<Description>The educator is a Physician.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Principal</CodeValue>
+		<ShortDescription>The educator is a Principal.</ShortDescription>
+		<Description>The educator is a Principal.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>School Nurse</CodeValue>
+		<ShortDescription>The educator is a School Nurse.</ShortDescription>
+		<Description>The educator is a School Nurse.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>School Psychologist</CodeValue>
+		<ShortDescription>The educator is a School Psychologist.</ShortDescription>
+		<Description>The educator is a School Psychologist.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Special Education</CodeValue>
+		<ShortDescription>The educator is a Special Education.</ShortDescription>
+		<Description>The educator is a Special Education.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Superintendent</CodeValue>
+		<ShortDescription>The educator is a Superintendent.</ShortDescription>
+		<Description>The educator is a Superintendent.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>	
+	<EducatorRoleDescriptor>
+		<CodeValue>Teacher</CodeValue>
+		<ShortDescription>The educator is a Teacher.</ShortDescription>
+		<Description>The educator is a Teacher.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Teacher Supervisor</CodeValue>
+		<ShortDescription>The educator is a Teacher Supervisor.</ShortDescription>
+		<Description>The educator is a Teacher Supervisor.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>
+	<EducatorRoleDescriptor>
+		<CodeValue>Visiting Teacher</CodeValue>
+		<ShortDescription>The educator is a Visiting Teacher.</ShortDescription>
+		<Description>The educator is a Visiting Teacher.</Description>
+		<Namespace>uri://ed-fi.org/EducatorRoleDescriptor</Namespace>
+	</EducatorRoleDescriptor>	
+</InterchangeDescriptors>

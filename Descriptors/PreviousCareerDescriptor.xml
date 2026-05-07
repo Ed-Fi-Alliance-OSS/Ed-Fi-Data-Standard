@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<PreviousCareerDescriptor>
+		<CodeValue>Accounting</CodeValue>
+		<ShortDescription>Accounting</ShortDescription>
+		<Description>Accounting</Description>
+		<Namespace>uri://ed-fi.org/PreviousCareerDescriptor</Namespace>
+	</PreviousCareerDescriptor>
+	<PreviousCareerDescriptor>
+		<CodeValue>Consulting</CodeValue>
+		<ShortDescription>Consulting</ShortDescription>
+		<Description>Consulting</Description>
+		<Namespace>uri://ed-fi.org/PreviousCareerDescriptor</Namespace>
+	</PreviousCareerDescriptor>
+	<PreviousCareerDescriptor>
+		<CodeValue>Education</CodeValue>
+		<ShortDescription>Education</ShortDescription>
+		<Description>Education</Description>
+		<Namespace>uri://ed-fi.org/PreviousCareerDescriptor</Namespace>
+	</PreviousCareerDescriptor>
+	<PreviousCareerDescriptor>
+		<CodeValue>Maintenance</CodeValue>
+		<ShortDescription>Maintenance</ShortDescription>
+		<Description>Maintenance</Description>
+		<Namespace>uri://ed-fi.org/PreviousCareerDescriptor</Namespace>
+	</PreviousCareerDescriptor>
+	<PreviousCareerDescriptor>
+		<CodeValue>Medical</CodeValue>
+		<ShortDescription>Medical</ShortDescription>
+		<Description>Medical</Description>
+		<Namespace>uri://ed-fi.org/PreviousCareerDescriptor</Namespace>
+	</PreviousCareerDescriptor>
+	<PreviousCareerDescriptor>
+		<CodeValue>Science and Technology</CodeValue>
+		<ShortDescription>Science and Technology</ShortDescription>
+		<Description>Science and Technology</Description>
+		<Namespace>uri://ed-fi.org/PreviousCareerDescriptor</Namespace>
+	</PreviousCareerDescriptor>
+	<PreviousCareerDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/PreviousCareerDescriptor</Namespace>
+	</PreviousCareerDescriptor>
+</InterchangeDescriptors>

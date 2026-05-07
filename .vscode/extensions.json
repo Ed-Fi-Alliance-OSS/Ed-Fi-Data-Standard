@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+      "psioniq.psi-header",
+      "ms-python.vscode-pylance",
+      "streetsidesoftware.code-spell-checker",
+      "EditorConfig.EditorConfig"
+    ]
+}

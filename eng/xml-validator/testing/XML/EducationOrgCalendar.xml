@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeEducationOrgCalendar
+	xmlns="http://ed-fi.org/6.1.0"
+	xmlns:ann="http://ed-fi.org/annotation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://ed-fi.org/6.1.0 ../XSD/Interchange-EducationOrgCalendar.xsd"
+>
+	<AcademicWeek>
+		<SchoolReference>
+			<SchoolIdentity>
+				<SchoolId>255901001</SchoolId>
+			</SchoolIdentity>
+		</SchoolReference>
+		<WeekIdentifier>Week 1</WeekIdentifier>
+		<BeginDate>2023-09-04</BeginDate>
+		<EndDate>2023-09-08</EndDate>
+		<TotalInstructionalDays>5</TotalInstructionalDays>
+	</AcademicWeek>
+	<AcademicWeek>
+		<SchoolReference>
+			<SchoolIdentity>
+				<SchoolIdTypo>255901001</SchoolIdTypo>
+			</SchoolIdentity>
+		</SchoolReference>
+		<WeekIdentifier>Week 1</WeekIdentifier>
+		<TotalInstructionalDays>5</TotalInstructionalDays>
+	</AcademicWeek>
+	<!-- <AcademicWeekTypo>
+		<SchoolReference>
+			<SchoolIdentity>
+				<SchoolIdTyp>255901001</SchoolIdTyp>
+			</SchoolIdentity>
+		</SchoolReference>
+		<WeekIdentifier>Week 1</WeekIdentifier>
+		<TotalInstructionalDays>5</TotalInstructionalDays>
+	</AcademicWeek> -->
+</InterchangeEducationOrgCalendar>

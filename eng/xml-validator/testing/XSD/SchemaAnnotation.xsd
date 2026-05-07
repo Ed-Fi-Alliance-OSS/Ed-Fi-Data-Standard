@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/annotation" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.1.00">
+  <xs:simpleType name="DatabaseKey">
+    <xs:annotation>
+      <xs:documentation>Identifies participation in the primary key for the specified data model.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="Operational Data Store" />
+      <xs:enumeration value="Data Warehouse" />
+      <xs:enumeration value="Data Mart" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Descriptor">
+    <xs:annotation>
+      <xs:documentation>Identifies the descriptor being referenced by a DescriptorReferenceType element.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="EducationOrganizationCategoryDescriptor" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TypeGroup">
+    <xs:annotation>
+      <xs:documentation>Identifies the schema section of which the type is a member.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="Association" />
+      <xs:enumeration value="Base" />
+      <xs:enumeration value="Common" />
+      <xs:enumeration value="Descriptor" />
+      <xs:enumeration value="Domain Entity" />
+      <xs:enumeration value="Enumeration" />
+      <xs:enumeration value="Extended Descriptor Reference" />
+      <xs:enumeration value="Extended Reference" />
+      <xs:enumeration value="Identity" />
+      <xs:enumeration value="Simple" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

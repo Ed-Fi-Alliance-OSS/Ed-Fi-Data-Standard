@@ -1,0 +1,85 @@
+﻿---
+title: Path
+config:
+  layout: elk
+---
+erDiagram
+    Student {
+        string StudentUniqueId "I"
+        common Name "R"
+        common OtherName "OC"
+        common BirthData "R"
+        reference Person "O"
+    }
+    EducationOrganization {
+        integer EducationOrganizationId "I"
+        string NameOfInstitution "R"
+        string ShortNameOfInstitution "O"
+        descriptor EducationOrganizationCategory "RC"
+        common Address "OC"
+        common InternationalAddress "OC"
+        common InstitutionTelephone "OC"
+        string WebSite "O"
+        descriptor OperationalStatus "O"
+        common EducationOrganizationIndicator "OC"
+    }
+    GraduationPlan {
+        descriptor GraduationPlanType "I"
+        bool IndividualPlan "O"
+        common TotalRequiredCredits "R"
+        common CreditsBySubject "OC"
+        common CreditsByCourse "OC"
+        common CreditsByCreditCategory "OC"
+        reference EducationOrganization "I"
+        enumeration GraduationSchoolYear "I"
+        common RequiredAssessment "OC"
+        common RequiredCertification "OC"
+    }
+    Path {
+        reference EducationOrganization "I"
+        string PathName "I"
+        reference GraduationPlan "O"
+    }
+    PathPhase {
+        reference Path "I"
+        string PathPhaseName "I"
+        integer PathPhaseSequence "O"
+        string PhasePathDescription "O"
+        reference PathMilestone "OC"
+    }
+    PathMilestone {
+        string PathMilestoneName "I"
+        descriptor PathMilestoneType "I"
+        string PathMilestoneCode "O"
+        string PathMilestoneDescription "O"
+    }
+    StudentPath {
+        reference Student "I"
+        reference Path "I"
+        common Period "OC"
+    }
+    StudentPathPhaseStatus {
+        reference StudentPath "I"
+        reference PathPhase "I"
+        bool CompletionIndicator "O"
+        common PathPhaseStatusEvent "OC"
+        common Period "OC"
+    }
+    StudentPathMilestoneStatus {
+        reference StudentPath "I"
+        reference PathMilestone "I"
+        bool CompletionIndicator "O"
+        common PathMilestoneStatusEvent "O"
+        reference PathPhase "O"
+    }
+    Path }o--|| EducationOrganization : "HasAssociated"
+    Path }o--o| GraduationPlan : "HasAssociated"
+    Path ||--o{ PathPhase : "HasAssociated"
+    PathPhase }o--o{ PathMilestone : "HasAssociated"
+    StudentPath }o--|| Student : "HasAssociated"
+    StudentPath }o--|| Path : "HasAssociated"
+    StudentPathPhaseStatus }o--|| StudentPath : "HasAssociated"
+    StudentPathPhaseStatus }o--|| PathPhase : "HasAssociated"
+    StudentPathMilestoneStatus }o--|| StudentPath : "HasAssociated"
+    StudentPathMilestoneStatus }o--o| PathPhase : "HasAssociated"
+    StudentPathMilestoneStatus }o--|| PathMilestone : "HasAssociated"

@@ -1,0 +1,26 @@
+openapi: 3.0.0
+info:
+  title: Ed-Fi Sample API
+  version: 6.0.0
+  description: Sample OpenAPI specification for testing JSON to YAML conversion
+components:
+  schemas:
+    edfi_Student:
+      type: object
+      required:
+      - studentUniqueId
+      - firstName
+      - lastSurname
+      properties:
+        studentUniqueId:
+          type: string
+          maxLength: 32
+          description: A unique alphanumeric code assigned to a student.
+        firstName:
+          type: string
+          maxLength: 75
+          description: A name given to an individual at birth, baptism, or during another naming ceremony, or through legal change.
+        lastSurname:
+          type: string
+          maxLength: 75
+          description: The name borne in common by members of a family.
