@@ -111,7 +111,7 @@ erDiagram
     }
     Session }o--o{ AcademicWeek : "HasAssociated"
     Session }o--|| School : "HasAssociated"
-    Session }|--o{ GradingPeriod : "HasAssociated"
+    Session }o--o{ GradingPeriod : "HasAssociated"
     GradingPeriod }o--|| School : "HasAssociated"
     CalendarDate }o--|| Calendar : "HasAssociated"
     Calendar }o--|| School : "HasAssociated"

@@ -189,7 +189,7 @@ erDiagram
     StudentSchoolAttendanceEvent }o--|| Student : "HasAssociated"
     RestraintEvent }o--|| School : "HasAssociated"
     RestraintEvent }o--|| Student : "HasAssociated"
-    RestraintEvent }o--|| Program : "HasAssociated"
+    RestraintEvent }o--o{ Program : "HasAssociated"
     StudentProgramAttendanceEvent }o--|| Student : "HasAssociated"
     StudentProgramAttendanceEvent }o--|| Program : "HasAssociated"
     Program }o--|| EducationOrganization : "HasAssociated"

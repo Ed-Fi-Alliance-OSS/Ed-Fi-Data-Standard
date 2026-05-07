@@ -95,11 +95,11 @@ erDiagram
         descriptor ProgramSponsor "OC"
         reference LearningStandard "OC"
     }
-    ObjectiveAssessment ||--o{ ObjectiveAssessment : "HasFunctionalComponent"
+    ObjectiveAssessment }o--o{ ObjectiveAssessment : "HasFunctionalComponent"
     ObjectiveAssessment }o--o{ AssessmentItem : "HasFunctionalComponent"
     Assessment ||--o{ ObjectiveAssessment : "HasAssociated"
     Assessment ||--o{ AssessmentItem : "HasAssociated"
-    Assessment ||--o| EducationOrganization : "HasAssociated"
+    Assessment }o--o| EducationOrganization : "HasAssociated"
     Assessment }o--o{ Section : "HasAssociated"
     Assessment }o--o{ Program : "HasAssociated"
     Section }o--o{ Program : "HasAssociated"

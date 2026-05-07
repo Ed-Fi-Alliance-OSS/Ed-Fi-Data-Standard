@@ -84,7 +84,7 @@ erDiagram
     }
     School ||--|| EducationOrganization : "IsA"
     BellSchedule }o--|| School : "HasAssociated"
-    BellSchedule ||--o| ClassPeriod : "HasAssociated"
+    BellSchedule ||--|{ ClassPeriod : "HasAssociated"
     ClassPeriod }o--|| School : "HasAssociated"
-    Session }|--o| School : "HasAssociated"
+    Session }|--|| School : "HasAssociated"
     Section ||--o{ ClassPeriod : "HasAssociated"

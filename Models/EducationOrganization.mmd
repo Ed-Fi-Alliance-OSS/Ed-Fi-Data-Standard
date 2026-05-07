@@ -118,7 +118,7 @@ erDiagram
     CommunityOrganization ||--|| EducationOrganization : "IsA"
     OrganizationDepartment }o--o| EducationOrganization : "IsOrganizationComponentOf"
     OrganizationDepartment ||--|| EducationOrganization : "IsA"
-    EducationOrganization }o--o{ EducationOrganization : "hasAssociatedPeer"
+    EducationOrganization }o--o{ EducationOrganizationPeerAssociation : "hasAssociatedPeer"
      EducationOrganizationNetwork ||--|| EducationOrganization : "IsA"
     EducationOrganizationNetwork }o--o{ EducationOrganization : "HasAssociated"
     EducationOrganization ||..o{ EducationOrganizationNetworkAssociation : "HasAssociated"
