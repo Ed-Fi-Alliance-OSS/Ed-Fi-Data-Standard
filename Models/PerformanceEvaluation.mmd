@@ -165,7 +165,7 @@ erDiagram
     Evaluation ||--o{ EvaluationObjective : "HasAssociated"
     EvaluationObjective ||--o{ EvaluationElement : "HasAssociated"
     EvaluationObjectiveRating }o--|| EvaluationObjective : "HasAssociated"
-    EvaluationObjectiveRating }o--|| EvaluationElementRating : "HasAssociated"
+    EvaluationObjectiveRating ||--o{ EvaluationElementRating : "HasAssociated"
     EvaluationElementRating }o--|| EvaluationElement : "HasAssociated"
     EvaluationElementRating ||--o{ QuantitativeMeasureScore : "HasAssociated"
     EvaluationElement ||--o{ QuantitativeMeasure : "HasAssociated"

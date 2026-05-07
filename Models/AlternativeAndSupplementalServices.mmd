@@ -171,7 +171,7 @@ erDiagram
     Student }o--o{ Program : "ParticipatesIn"
     Program }o--o{ Staff : "HasAssociated"
     Section }o--o{ Program : "HasAssociated"
-    Section ||--|| School : "HasAssociated"
+    Section }|--|| School : "HasAssociated"
     Student }o--o{ School : "HasAssociated"
     Staff }o--o{ School : "HasAssociated"
     Program ||..o{ GeneralStudentProgramAssociation : "HasAssociated"
