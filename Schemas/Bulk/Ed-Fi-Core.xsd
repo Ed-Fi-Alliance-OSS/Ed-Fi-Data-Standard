@@ -8505,7 +8505,7 @@
               <xs:documentation>Specific requirements needed to accommodate a student's physical needs which may include special equipment installed in a vehicle or a special arrangement for transportation.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentBusDetails" type="StudentBusDetails" minOccurs="0">
+          <xs:element name="StudentBusDetails" type="StudentBusDetails" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Stores details associated with student-bus assignment within a transportation system.</xs:documentation>
             </xs:annotation>
