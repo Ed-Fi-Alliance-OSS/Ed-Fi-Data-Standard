@@ -20,8 +20,23 @@
 			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
 			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
 			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
 			<Mileage>7.20</Mileage>
+		</StudentBusDetails>
+		<StudentBusDetails>
+			<BusNumber>Bus 303</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
+			<Mileage>8.15</Mileage>
+		</StudentBusDetails>
+		<StudentBusDetails>
+			<BusNumber>Bus 404</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
+			<Mileage>6.50</Mileage>
 		</StudentBusDetails>
 	</StudentTransportation>
 	<StudentTransportation>
@@ -112,6 +127,14 @@
 			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
 			<Mileage>5.29</Mileage>
 		</StudentBusDetails>
+		<StudentBusDetails>
+			<BusNumber>Bus 202</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
+			<Mileage>5.62</Mileage>
+		</StudentBusDetails>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -132,6 +155,12 @@
 			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
 			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
 			<Mileage>15.43</Mileage>
+		</StudentBusDetails>
+		<StudentBusDetails>
+			<BusNumber>Bus 202</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
+			<Mileage>14.80</Mileage>
 		</StudentBusDetails>
 	</StudentTransportation>
 	<StudentTransportation>
@@ -226,6 +255,15 @@
 			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
 			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
 		</StudentBusDetails>
+		<StudentBusDetails>
+			<BusNumber>Bus 303</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>11.25</Mileage>
+		</StudentBusDetails>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -284,6 +322,13 @@
 			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
 			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
 			<Mileage>9.15</Mileage>
+		</StudentBusDetails>
+		<StudentBusDetails>
+			<BusNumber>Bus 404</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+			<Mileage>10.60</Mileage>
 		</StudentBusDetails>
 	</StudentTransportation>
 	<StudentTransportation>
@@ -471,6 +516,17 @@
 			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
 			<Mileage>9.87</Mileage>
 		</StudentBusDetails>
+		<StudentBusDetails>
+			<BusNumber>Bus 101</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
+			<Mileage>10.24</Mileage>
+		</StudentBusDetails>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -492,6 +548,15 @@
 			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
 			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
 			<Mileage>20.39</Mileage>
+		</StudentBusDetails>
+		<StudentBusDetails>
+			<BusNumber>Bus 202</BusNumber>
+			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
+			<Mileage>19.75</Mileage>
 		</StudentBusDetails>
 	</StudentTransportation>
 	<StudentTransportation>
