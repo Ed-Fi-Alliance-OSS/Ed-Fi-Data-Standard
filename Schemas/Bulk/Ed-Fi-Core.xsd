@@ -911,6 +911,100 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="BusRoute">
+    <xs:annotation>
+      <xs:documentation>The route that a bus traverses in order to pick up and deliver students.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="BusRouteId" type="BusRouteId">
+            <xs:annotation>
+              <xs:documentation>The unique identifier assigned to the bus route.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransportationEducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The education organization that operates or assigns the bus route.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="BusNumber" type="BusNumber" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The number of the bus assigned to the route</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="BusRouteStop" type="BusRouteStop" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The stops along the bus route and their scheduled arrival times.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TravelDayofWeek" type="TravelDayofWeekDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Specifies the day(s) of the week on which the bus route operates.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>TravelDayofWeekDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TravelDirection" type="TravelDirectionDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Indicates the direction of travel of the bus route (e.g., to school, from school).</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>TravelDirectionDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Mileage" type="Mileage" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The total distance, typically measured in miles, of the bus route.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="BusStop">
+    <xs:annotation>
+      <xs:documentation>This entity represents a designated location where students board or exit a bus.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="BusStopId" type="BusStopId">
+            <xs:annotation>
+              <xs:documentation>The unique identifier assigned to the bus stop.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TransportationEducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The education organization that operates or assigns the bus stop.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="BusStopName" type="BusStopName">
+            <xs:annotation>
+              <xs:documentation>The name assigned to the bus stop.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Latitude" type="Coordinate" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The geographic latitude of the bus stop.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Longitude" type="Coordinate" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The geographic longitude of the bus stop.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="Calendar">
     <xs:annotation>
       <xs:documentation>A set of dates associated with an organization.</xs:documentation>
@@ -8505,9 +8599,14 @@
               <xs:documentation>Specific requirements needed to accommodate a student's physical needs which may include special equipment installed in a vehicle or a special arrangement for transportation.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="StudentBusDetails" type="StudentBusDetails" minOccurs="0">
+          <xs:element name="BusRouteReference" type="BusRouteReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation>Stores details associated with student-bus assignment within a transportation system.</xs:documentation>
+              <xs:documentation>The bus routes assigned to the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="HomeBusStopReference" type="BusStopReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The home stop assigned to the student.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -9173,17 +9272,6 @@
   <xs:complexType name="BehaviorDescriptor">
     <xs:annotation>
       <xs:documentation>This descriptor holds the categories of behavior describing a discipline incident.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="BusRouteDescriptor">
-    <xs:annotation>
-      <xs:documentation>Identifies the specific route taken by a bus for student transportation.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -14834,6 +14922,84 @@
           <xs:element name="BellScheduleIdentity" type="BellScheduleIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a BellSchedule.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="BusRouteIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a BusRoute.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="BusRouteId" type="BusRouteId">
+        <xs:annotation>
+          <xs:documentation>The unique identifier assigned to the bus route.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TransportationEducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The education organization that operates or assigns the bus route.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="BusRouteReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a BusRoute. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="BusRouteIdentity" type="BusRouteIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a BusRoute.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="BusStopIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a BusStop.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="BusStopId" type="BusStopId">
+        <xs:annotation>
+          <xs:documentation>The unique identifier assigned to the bus stop.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TransportationEducationOrganizationReference" type="EducationOrganizationReferenceType">
+        <xs:annotation>
+          <xs:documentation>The education organization that operates or assigns the bus stop.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="BusStopReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a BusStop. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="BusStopIdentity" type="BusStopIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a BusStop.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -23220,15 +23386,6 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="BusRouteDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>Identifies the specific route taken by a bus for student transportation.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
   <xs:simpleType name="CalendarEventDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>This descriptor holds the types of scheduled or unscheduled event for the day (e.g., Instructional day, Teacher only day, Holiday, Make-up day, Weather day, Student late arrival/early dismissal day).</xs:documentation>
@@ -26105,6 +26262,26 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="BusRouteStop">
+    <xs:annotation>
+      <xs:documentation>A stop along a bus route and its scheduled arrival time.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="BusStopReference" type="BusStopReferenceType">
+        <xs:annotation>
+          <xs:documentation>The bus stop served by the route.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ScheduledArrivalTime" type="xs:time" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The time the bus is scheduled to arrive at the stop on this route.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
   <xs:complexType name="CandidateCharacteristic">
     <xs:annotation>
       <xs:documentation>Reflects important charactersitics of the candidate.</xs:documentation>
@@ -28821,50 +28998,6 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="StudentBusDetails">
-    <xs:annotation>
-      <xs:documentation>Stores details associated with student-bus assignment within a transportation system.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Common</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:sequence>
-      <xs:element name="BusNumber" type="BusNumber">
-        <xs:annotation>
-          <xs:documentation>The unique identifier assigned to the bus used for transporting the student.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="BusRoute" type="BusRouteDescriptorReferenceType">
-        <xs:annotation>
-          <xs:documentation>Identifies the specific route taken by a bus for student transportation.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>BusRouteDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="TravelDayofWeek" type="TravelDayofWeekDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-        <xs:annotation>
-          <xs:documentation>Specifies the day(s) of the week on which student transportation occurs.</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>TravelDayofWeekDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="TravelDirection" type="TravelDirectionDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-        <xs:annotation>
-          <xs:documentation>Indicates the direction of travel for the student transportation route (e.g., to school, from school).</xs:documentation>
-          <xs:appinfo>
-            <ann:Descriptor>TravelDirectionDescriptor</ann:Descriptor>
-          </xs:appinfo>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="Mileage" type="Mileage" minOccurs="0">
-        <xs:annotation>
-          <xs:documentation>The distance, typically measured in miles, that a student was transported along the route of the bus during a single trip.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
   <xs:complexType name="StudentCharacteristic">
     <xs:annotation>
       <xs:documentation>Reflects important characteristics of a student. If a student has a characteristic present, that characteristic is considered true or active for that student. If a characteristic is not present, no assumption is made as to the applicability of the characteristic, but local policy may dictate otherwise.</xs:documentation>
@@ -29738,6 +29871,39 @@
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:maxLength value="36" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BusRouteId">
+    <xs:annotation>
+      <xs:documentation>The unique identifier assigned to the bus route.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="36" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BusStopId">
+    <xs:annotation>
+      <xs:documentation>The unique identifier assigned to the bus stop.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="36" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BusStopName">
+    <xs:annotation>
+      <xs:documentation>The name assigned to the bus stop.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="CandidateIdentifier">

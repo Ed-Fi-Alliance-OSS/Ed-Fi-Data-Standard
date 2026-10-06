@@ -1,5 +1,482 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InterchangeStudentEnrollment xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-StudentEnrollment.xsd">
+	<BusStop>
+		<BusStopId>1001</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Main Street</BusStopName>
+		<Latitude>33.9137</Latitude>
+		<Longitude>-98.4934</Longitude>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1002</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Park Avenue</BusStopName>
+		<Latitude>33.9205</Latitude>
+		<Longitude>-98.4871</Longitude>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1003</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Town Hall</BusStopName>
+		<Latitude>33.9118</Latitude>
+		<Longitude>-98.4802</Longitude>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1004</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Library</BusStopName>
+		<Latitude>33.9066</Latitude>
+		<Longitude>-98.4915</Longitude>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1005</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Community Center</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1006</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Shopping Mall</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1007</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Sports Complex</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1008</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Public Park</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1009</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Residential Area</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1010</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Downtown Square</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1011</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Public Library</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1012</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Community Park</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1013</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Residential Complex</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1014</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Shopping Center</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1015</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>City Hall</BusStopName>
+	</BusStop>
+	<BusStop>
+		<BusStopId>1016</BusStopId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusStopName>Public Pool</BusStopName>
+	</BusStop>
+	<BusRoute>
+		<BusRouteId>101-AM</BusRouteId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusNumber>Bus 101</BusNumber>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1001</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>07:35:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1002</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>07:45:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1003</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>07:55:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1004</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:05:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+		<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
+		<Mileage>12.50</Mileage>
+	</BusRoute>
+	<BusRoute>
+		<BusRouteId>101-PM</BusRouteId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusNumber>Bus 101</BusNumber>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1001</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>15:35:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1002</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>15:45:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1003</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>15:55:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1004</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>16:05:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
+		<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
+		<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
+		<Mileage>12.50</Mileage>
+	</BusRoute>
+	<BusRoute>
+		<BusRouteId>202</BusRouteId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusNumber>Bus 202</BusNumber>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1005</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:05:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1006</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:15:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1007</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:25:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1008</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:35:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+		<Mileage>9.80</Mileage>
+	</BusRoute>
+	<BusRoute>
+		<BusRouteId>303</BusRouteId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusNumber>Bus 303</BusNumber>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1009</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>07:50:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1010</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:00:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1011</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:10:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1012</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:20:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+		<Mileage>15.20</Mileage>
+	</BusRoute>
+	<BusRoute>
+		<BusRouteId>404</BusRouteId>
+		<TransportationEducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</TransportationEducationOrganizationReference>
+		<BusNumber>Bus 404</BusNumber>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1013</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:20:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1014</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:30:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1015</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:40:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<BusRouteStop>
+			<BusStopReference>
+				<BusStopIdentity>
+					<BusStopId>1016</BusStopId>
+					<TransportationEducationOrganizationReference>
+						<EducationOrganizationIdentity>
+							<EducationOrganizationId>255901</EducationOrganizationId>
+						</EducationOrganizationIdentity>
+					</TransportationEducationOrganizationReference>
+				</BusStopIdentity>
+			</BusStopReference>
+			<ScheduledArrivalTime>08:50:00</ScheduledArrivalTime>
+		</BusRouteStop>
+		<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
+		<Mileage>11.40</Mileage>
+	</BusRoute>
 	<StudentTransportation>
 		<StudentReference>
 			<StudentIdentity>
@@ -14,15 +491,36 @@
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Disability</TransportationPublicExpenseEligibilityType>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
 		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 101</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-			<Mileage>7.20</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-AM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-PM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1001</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -38,17 +536,26 @@
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - CTE</TransportationPublicExpenseEligibilityType>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
 		<SpecialAccomodationRequirements>Customized Seating Arrangement</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 202</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-			<Mileage>4.35</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>202</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1006</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -88,10 +595,16 @@
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Health Impaired</TransportationPublicExpenseEligibilityType>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Van or SUV</TransportationType>
 		<SpecialAccomodationRequirements>Seat Belts and Harnesses</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 303</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>303</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -104,14 +617,26 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
-		<StudentBusDetails>
-			<BusNumber>Bus 404</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
-			<Mileage>5.29</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>404</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1013</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -127,12 +652,26 @@
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Homelessness</TransportationPublicExpenseEligibilityType>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
 		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 101</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
-			<Mileage>15.43</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-PM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1004</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -145,12 +684,26 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
-		<StudentBusDetails>
-			<BusNumber>Bus 202</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-			<Mileage>15.43</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>202</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1007</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -166,11 +719,26 @@
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Special Instruction</TransportationPublicExpenseEligibilityType>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
 		<SpecialAccomodationRequirements>Customized Seating Arrangement</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 303</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
-			<Mileage>12.30</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>303</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1010</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -183,11 +751,26 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
-		<StudentBusDetails>
-			<BusNumber>Bus 404</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
-			<Mileage>8.67</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>404</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1014</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -203,11 +786,26 @@
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Unsafe Walk</TransportationPublicExpenseEligibilityType>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
 		<SpecialAccomodationRequirements>Seat Belts and Harnesses</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 404</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>404</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1016</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -220,12 +818,36 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
-		<StudentBusDetails>
-			<BusNumber>Bus 101</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-AM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-PM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1002</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -241,11 +863,26 @@
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Other</TransportationPublicExpenseEligibilityType>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
 		<SpecialAccomodationRequirements>Customized Seating Arrangement</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 202</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>202</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1008</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -258,11 +895,26 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
-		<StudentBusDetails>
-			<BusNumber>Bus 303</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>303</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1009</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -277,14 +929,36 @@
 		</TransportationEducationOrganizationReference>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
 		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 101</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-			<Mileage>9.15</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-AM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-PM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1003</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -299,10 +973,16 @@
 		</TransportationEducationOrganizationReference>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
 		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 202</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>202</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -317,13 +997,26 @@
 		</TransportationEducationOrganizationReference>
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Health Impaired</TransportationPublicExpenseEligibilityType>
 		<SpecialAccomodationRequirements>Communication Systems</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 303</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-			<Mileage>19.13</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>303</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1011</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -338,10 +1031,16 @@
 		</TransportationEducationOrganizationReference>
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Disability</TransportationPublicExpenseEligibilityType>
 		<SpecialAccomodationRequirements>Communication Systems</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 404</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>404</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -356,14 +1055,36 @@
 		</TransportationEducationOrganizationReference>
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Distance</TransportationPublicExpenseEligibilityType>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
-		<StudentBusDetails>
-			<BusNumber>Bus 101</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-			<Mileage>24.67</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-AM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-PM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1001</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -378,10 +1099,16 @@
 		</TransportationEducationOrganizationReference>
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - CTE</TransportationPublicExpenseEligibilityType>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
-		<StudentBusDetails>
-			<BusNumber>Bus 202</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>202</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -422,14 +1149,26 @@
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Distance</TransportationPublicExpenseEligibilityType>
-		<StudentBusDetails>
-			<BusNumber>Bus 303</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-			<Mileage>17.01</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>303</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1012</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -443,10 +1182,16 @@
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
 		<TransportationPublicExpenseEligibilityType>uri://ed-fi.org/TransportationPublicExpenseEligibilityTypeDescriptor#Eligible - Shelter Care</TransportationPublicExpenseEligibilityType>
-		<StudentBusDetails>
-			<BusNumber>Bus 101</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-AM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -460,17 +1205,26 @@
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
-		<StudentBusDetails>
-			<BusNumber>Bus 404</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Thursday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
-			<Mileage>9.87</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>404</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1015</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -484,15 +1238,26 @@
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
 		<TransportationType>uri://ed-fi.org/TransportationTypeDescriptor#School Bus</TransportationType>
-		<StudentBusDetails>
-			<BusNumber>Bus 101</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#From School</TravelDirection>
-			<Mileage>20.39</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-PM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1004</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -506,15 +1271,26 @@
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
 		<SpecialAccomodationRequirements>Wheelchair Accessibility</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 202</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#202</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Monday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Friday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To and From School</TravelDirection>
-			<Mileage>7.20</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>202</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1005</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -528,10 +1304,16 @@
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
 		<SpecialAccomodationRequirements>Seatbelts and Harnesses</SpecialAccomodationRequirements>
-		<StudentBusDetails>
-			<BusNumber>Bus 303</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#303</BusRoute>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>303</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -544,14 +1326,26 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
-		<StudentBusDetails>
-			<BusNumber>Bus 404</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#404</BusRoute>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Tuesday</TravelDayofWeek>
-			<TravelDayofWeek>uri://ed-fi.org/TravelDayofWeekDescriptor#Wednesday</TravelDayofWeek>
-			<TravelDirection>uri://ed-fi.org/TravelDirectionDescriptor#To School</TravelDirection>
-			<Mileage>18.49</Mileage>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>404</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<HomeBusStopReference>
+			<BusStopIdentity>
+				<BusStopId>1015</BusStopId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusStopIdentity>
+		</HomeBusStopReference>
 	</StudentTransportation>
 	<StudentTransportation>
 		<StudentReference>
@@ -564,9 +1358,25 @@
 				<EducationOrganizationId>255901</EducationOrganizationId>
 			</EducationOrganizationIdentity>
 		</TransportationEducationOrganizationReference>
-		<StudentBusDetails>
-			<BusNumber>Bus 101</BusNumber>
-			<BusRoute>uri://gbisd.edu/BusRouteDescriptor#101</BusRoute>
-		</StudentBusDetails>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-AM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
+		<BusRouteReference>
+			<BusRouteIdentity>
+				<BusRouteId>101-PM</BusRouteId>
+				<TransportationEducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</TransportationEducationOrganizationReference>
+			</BusRouteIdentity>
+		</BusRouteReference>
 	</StudentTransportation>
 </InterchangeStudentEnrollment>

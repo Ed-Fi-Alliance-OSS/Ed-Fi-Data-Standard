@@ -42,7 +42,6 @@ The Descriptor interchange is used to describe metadata about the descriptors an
         <xs:element name="BackgroundCheckTypeDescriptor" type="BackgroundCheckTypeDescriptor" />
         <xs:element name="BarrierToInternetAccessInResidenceDescriptor" type="BarrierToInternetAccessInResidenceDescriptor" />
         <xs:element name="BehaviorDescriptor" type="BehaviorDescriptor" />
-        <xs:element name="BusRouteDescriptor" type="BusRouteDescriptor" />
         <xs:element name="CTEProgramServiceDescriptor" type="CTEProgramServiceDescriptor" />
         <xs:element name="CalendarEventDescriptor" type="CalendarEventDescriptor" />
         <xs:element name="CalendarTypeDescriptor" type="CalendarTypeDescriptor" />
