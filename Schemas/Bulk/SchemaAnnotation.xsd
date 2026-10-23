@@ -67,6 +67,7 @@
       <xs:enumeration value="CohortYearTypeDescriptor" />
       <xs:enumeration value="CompetencyLevelDescriptor" />
       <xs:enumeration value="ContactIdentificationSystemDescriptor" />
+      <xs:enumeration value="ContactResponsibilityDescriptor" />
       <xs:enumeration value="ContentClassDescriptor" />
       <xs:enumeration value="ContinuationOfServicesReasonDescriptor" />
       <xs:enumeration value="CostRateDescriptor" />
