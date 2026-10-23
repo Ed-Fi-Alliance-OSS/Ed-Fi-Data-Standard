@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/6.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.2.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/6.2.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 6.1.0 ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 6.2.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -9412,6 +9412,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="ContactResponsibilityDescriptor">
+    <xs:annotation>
+      <xs:documentation>Indicates the contact responsibility being provided to the student by the program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="ContentClassDescriptor">
     <xs:annotation>
       <xs:documentation>The predominate type or kind characterizing the learning resource.</xs:documentation>
@@ -13841,6 +13852,11 @@
           <xs:element name="SpecialEducationExitExplained" type="SpecialEducationExitExplained" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Explanation on why a person stops receiving special education services.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ContactResponsibility" type="ContactResponsibility" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Indicates the contact responsibility being provided to the student by the special education program.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -23409,6 +23425,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="ContactResponsibilityDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>Indicates the contact responsibility being provided to the student by the program.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="ContentClassDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The predominate type or kind characterizing the learning resource.</xs:documentation>
@@ -26266,6 +26291,39 @@
           <xs:appinfo>
             <ann:Descriptor>TermDescriptor</ann:Descriptor>
           </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ContactResponsibility">
+    <xs:annotation>
+      <xs:documentation>The contact responsibility for the student.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ContactResponsibility" type="ContactResponsibilityDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>Indicates the contact responsibility being provided to the student.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>ContactResponsibilityDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PrimaryIndicator" type="xs:boolean" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>True if contact responsibility is a primary contact responsibility.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ContactResponsibilityBeginDate" type="xs:date" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>First date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ContactResponsibilityEndDate" type="xs:date" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Last date the student was in this option for the current school year.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
