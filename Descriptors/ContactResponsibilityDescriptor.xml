@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/6.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.2.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<ContactResponsibilityDescriptor>
+		<CodeValue>Educational Decision Maker</CodeValue>
+		<ShortDescription>Educational Decision Maker</ShortDescription>
+		<Description>The contact holds the right to make educational decisions for the student, including consenting to evaluations, services, and placement.</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+	<ContactResponsibilityDescriptor>
+		<CodeValue>Emergency Contact</CodeValue>
+		<ShortDescription>Emergency Contact</ShortDescription>
+		<Description>The contact is to be notified in the event of an emergency involving the student.</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+	<ContactResponsibilityDescriptor>
+		<CodeValue>Financial Responsibility</CodeValue>
+		<ShortDescription>Financial Responsibility</ShortDescription>
+		<Description>The contact is financially responsible for fees and expenses related to the student.</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+	<ContactResponsibilityDescriptor>
+		<CodeValue>IEP Meeting Participant</CodeValue>
+		<ShortDescription>IEP Meeting Participant</ShortDescription>
+		<Description>The contact is to be invited to and participate in the student's Individualized Education Program (IEP) meetings.</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+	<ContactResponsibilityDescriptor>
+		<CodeValue>Legal Guardian</CodeValue>
+		<ShortDescription>Legal Guardian</ShortDescription>
+		<Description>The contact holds legal guardianship or custody of the student.</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+	<ContactResponsibilityDescriptor>
+		<CodeValue>Medical Decision Maker</CodeValue>
+		<ShortDescription>Medical Decision Maker</ShortDescription>
+		<Description>The contact is authorized to make medical and health-related decisions for the student.</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+	<ContactResponsibilityDescriptor>
+		<CodeValue>Other</CodeValue>
+		<ShortDescription>Other</ShortDescription>
+		<Description>Other</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+	<ContactResponsibilityDescriptor>
+		<CodeValue>Pickup Authorization</CodeValue>
+		<ShortDescription>Pickup Authorization</ShortDescription>
+		<Description>The contact is authorized to pick up the student from school or program activities.</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+	<ContactResponsibilityDescriptor>
+		<CodeValue>Progress Report Recipient</CodeValue>
+		<ShortDescription>Progress Report Recipient</ShortDescription>
+		<Description>The contact is to receive progress reports and other official communications about the student's program.</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+	<ContactResponsibilityDescriptor>
+		<CodeValue>Transportation</CodeValue>
+		<ShortDescription>Transportation</ShortDescription>
+		<Description>The contact is responsible for transporting the student to and from school or program services.</Description>
+		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
+	</ContactResponsibilityDescriptor>
+</InterchangeDescriptors>
