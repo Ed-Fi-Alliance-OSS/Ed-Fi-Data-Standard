@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeStudentProgram xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-StudentProgram.xsd">
+<InterchangeStudentProgram xmlns="http://ed-fi.org/6.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.2.0 ../../Schemas/Bulk/Interchange-StudentProgram.xsd">
 	<StudentProgramAssociation>
 		<StudentReference>
 			<StudentIdentity>
@@ -3123,6 +3123,18 @@
 		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
 		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Transferred out</SpecialEducationExitReason>
 		<SpecialEducationExitExplained>Transferred to another educational organization</SpecialEducationExitExplained>
+		<ContactResponsibility>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Educational Decision Maker</ContactResponsibility>
+			<PrimaryIndicator>true</PrimaryIndicator>
+			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
+			<ContactResponsibilityEndDate>2021-10-01</ContactResponsibilityEndDate>
+		</ContactResponsibility>
+		<ContactResponsibility>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#IEP Meeting Participant</ContactResponsibility>
+			<PrimaryIndicator>false</PrimaryIndicator>
+			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
+			<ContactResponsibilityEndDate>2021-10-01</ContactResponsibilityEndDate>
+		</ContactResponsibility>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3226,6 +3238,11 @@
 				<PrimaryProvider>true</PrimaryProvider>
 			</ServiceProvider>
 		</SpecialEducationProgramService>
+		<ContactResponsibility>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Legal Guardian</ContactResponsibility>
+			<PrimaryIndicator>true</PrimaryIndicator>
+			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
+		</ContactResponsibility>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3266,6 +3283,19 @@
 		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
 		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Diploma</SpecialEducationExitReason>
 		<SpecialEducationExitExplained>Student Graduated with Diploma</SpecialEducationExitExplained>
+		<ContactResponsibility>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Medical Decision Maker</ContactResponsibility>
+			<PrimaryIndicator>true</PrimaryIndicator>
+			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
+		</ContactResponsibility>
+		<ContactResponsibility>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Emergency Contact</ContactResponsibility>
+			<PrimaryIndicator>false</PrimaryIndicator>
+			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
+		</ContactResponsibility>
+		<ContactResponsibility>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Progress Report Recipient</ContactResponsibility>
+		</ContactResponsibility>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3397,6 +3427,12 @@
 		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
 		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Diploma</SpecialEducationExitReason>
 		<SpecialEducationExitExplained>Student Graduated with Diploma</SpecialEducationExitExplained>
+		<ContactResponsibility>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Transportation</ContactResponsibility>
+			<PrimaryIndicator>false</PrimaryIndicator>
+			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
+			<ContactResponsibilityEndDate>2021-10-01</ContactResponsibilityEndDate>
+		</ContactResponsibility>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
