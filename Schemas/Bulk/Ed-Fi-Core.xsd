@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/6.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.2.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/6.2.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 6.1.0 ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 6.2.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -2768,7 +2768,7 @@
               <xs:documentation>A short name for the institution.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="EducationOrganizationCategory" type="EducationOrganizationCategoryDescriptorReferenceType" maxOccurs="unbounded">
+          <xs:element name="EducationOrganizationCategory" type="EducationOrganizationCategoryDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>The classification of the education agency within the geographic boundaries of a state according to the level of administrative and operational control granted by the state.</xs:documentation>
               <xs:appinfo>
