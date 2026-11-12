@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeStudentProgram xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-StudentProgram.xsd">
+<InterchangeStudentProgram xmlns="http://ed-fi.org/7.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/7.0.0 ../../Schemas/Bulk/Interchange-StudentProgram.xsd">
 	<StudentProgramAssociation>
 		<StudentReference>
 			<StudentIdentity>
@@ -3217,6 +3217,7 @@
 		<IEPBeginDate>2021-09-01</IEPBeginDate>
 		<SpecialEducationProgramService>
 			<SpecialEducationProgramService>uri://ed-fi.org/SpecialEducationProgramServiceDescriptor#Early Identification And Evaluation</SpecialEducationProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 			<ServiceProvider>
 				<StaffReference>
 					<StaffIdentity>
@@ -4983,6 +4984,7 @@
 		</Disability>
 		<SpecialEducationProgramService>
 			<SpecialEducationProgramService>uri://ed-fi.org/SpecialEducationProgramServiceDescriptor#Speech-Language And Audiology Services</SpecialEducationProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 			<ServiceProvider>
 				<StaffReference>
 					<StaffIdentity>
@@ -6961,6 +6963,7 @@
 		</EducationOrganizationReference>
 		<CTEProgramService>
 			<CTEProgramService>uri://ed-fi.org/CTEProgramServiceDescriptor#Education and Training</CTEProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 			<CIPCode>13.0410</CIPCode>
 		</CTEProgramService>
 	</StudentCTEProgramAssociation>
@@ -7508,6 +7511,7 @@
 		<CTEProgramService>
 			<CTEProgramService>uri://ed-fi.org/CTEProgramServiceDescriptor#Science, Technology, Engineering and Mathematics</CTEProgramService>
 			<PrimaryIndicator>true</PrimaryIndicator>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</CTEProgramService>
 	</StudentCTEProgramAssociation>
 	<StudentCTEProgramAssociation>
@@ -16262,6 +16266,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16289,6 +16294,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16316,6 +16322,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16343,6 +16350,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16370,6 +16378,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16397,6 +16406,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16424,6 +16434,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16451,6 +16462,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16478,6 +16490,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16505,6 +16518,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16532,6 +16546,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16559,6 +16574,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16586,6 +16602,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16613,6 +16630,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16640,6 +16658,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16667,6 +16686,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16694,6 +16714,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16721,6 +16742,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16748,6 +16770,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16775,6 +16798,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16802,6 +16826,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16829,6 +16854,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16856,6 +16882,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16883,6 +16910,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16910,6 +16938,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16937,6 +16966,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16964,6 +16994,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -16991,6 +17022,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17018,6 +17050,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17045,6 +17078,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17072,6 +17106,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17099,6 +17134,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17126,6 +17162,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17153,6 +17190,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17180,6 +17218,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17207,6 +17246,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17234,6 +17274,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17261,6 +17302,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17288,6 +17330,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17315,6 +17358,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17342,6 +17386,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Breakfast</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17369,6 +17414,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17396,6 +17442,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17423,6 +17470,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17450,6 +17498,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17477,6 +17526,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17504,6 +17554,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17531,6 +17582,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17558,6 +17610,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17585,6 +17638,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17612,6 +17666,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17639,6 +17694,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17666,6 +17722,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17693,6 +17750,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17720,6 +17778,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17747,6 +17806,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17774,6 +17834,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17801,6 +17862,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17828,6 +17890,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17855,6 +17918,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17882,6 +17946,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Free Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17909,6 +17974,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17936,6 +18002,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17963,6 +18030,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -17990,6 +18058,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18017,6 +18086,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18044,6 +18114,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18071,6 +18142,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18098,6 +18170,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18125,6 +18198,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18152,6 +18226,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18179,6 +18254,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18206,6 +18282,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18233,6 +18310,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18260,6 +18338,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18287,6 +18366,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18314,6 +18394,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18341,6 +18422,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18368,6 +18450,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18395,6 +18478,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18422,6 +18506,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSchoolFoodServiceProgramAssociation>
@@ -18449,6 +18534,7 @@
 		</EducationOrganizationReference>
 		<SchoolFoodServiceProgramService>
 			<SchoolFoodServiceProgramService>uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor#Reduced Price Lunch</SchoolFoodServiceProgramService>
+			<ServiceBeginDate>2021-08-30</ServiceBeginDate>
 		</SchoolFoodServiceProgramService>
 	</StudentSchoolFoodServiceProgramAssociation>
 	<StudentSection504ProgramAssociation>

@@ -158,6 +158,7 @@
       <xs:enumeration value="IndicatorLevelDescriptor" />
       <xs:enumeration value="InstitutionTelephoneNumberTypeDescriptor" />
       <xs:enumeration value="InstructionalSettingDescriptor" />
+      <xs:enumeration value="InstructionalSubjectDescriptor" />
       <xs:enumeration value="InteractivityStyleDescriptor" />
       <xs:enumeration value="InternetAccessDescriptor" />
       <xs:enumeration value="InternetAccessTypeInResidenceDescriptor" />
@@ -190,7 +191,6 @@
       <xs:enumeration value="ObjectiveRatingLevelDescriptor" />
       <xs:enumeration value="OpenStaffPositionEventStatusDescriptor" />
       <xs:enumeration value="OpenStaffPositionEventTypeDescriptor" />
-      <xs:enumeration value="OpenStaffPositionReasonDescriptor" />
       <xs:enumeration value="OperationalStatusDescriptor" />
       <xs:enumeration value="OtherNameTypeDescriptor" />
       <xs:enumeration value="ParticipationDescriptor" />
@@ -205,7 +205,7 @@
       <xs:enumeration value="PersonalInformationVerificationDescriptor" />
       <xs:enumeration value="PlatformTypeDescriptor" />
       <xs:enumeration value="PopulationServedDescriptor" />
-      <xs:enumeration value="PostingResultDescriptor" />
+      <xs:enumeration value="PostingClosedReasonDescriptor" />
       <xs:enumeration value="PostSecondaryEventCategoryDescriptor" />
       <xs:enumeration value="PostSecondaryInstitutionLevelDescriptor" />
       <xs:enumeration value="PreviousCareerDescriptor" />
@@ -292,6 +292,7 @@
       <xs:enumeration value="TravelDayofWeekDescriptor" />
       <xs:enumeration value="TravelDirectionDescriptor" />
       <xs:enumeration value="TribalAffiliationDescriptor" />
+      <xs:enumeration value="VacancyReasonDescriptor" />
       <xs:enumeration value="VisaDescriptor" />
       <xs:enumeration value="WeaponDescriptor" />
       <xs:enumeration value="WithdrawReasonDescriptor" />
