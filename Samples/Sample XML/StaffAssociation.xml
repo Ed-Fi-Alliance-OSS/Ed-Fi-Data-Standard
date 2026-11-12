@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeStaffAssociation xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/6.1.0 ../../Schemas/Bulk/Interchange-StaffAssociation.xsd">
+<InterchangeStaffAssociation xmlns="http://ed-fi.org/7.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/7.0.0 ../../Schemas/Bulk/Interchange-StaffAssociation.xsd">
 	<Staff>
 		<StaffUniqueId>207288</StaffUniqueId>
 		<Name>
@@ -25181,4 +25181,119 @@
 		<PersonId>605362</PersonId>
 		<SourceSystem>uri://ed-fi.org/SourceSystemDescriptor#District</SourceSystem>
 	</Person>
+	<OpenStaffPosition>
+		<PositionIdentifier>100101</PositionIdentifier>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901107</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Elementary Teacher</StaffClassification>
+		<PositionVacancy>
+			<DatePositionVacant>2022-06-04</DatePositionVacant>
+			<VacancyReason>uri://ed-fi.org/VacancyReasonDescriptor#Retirement</VacancyReason>
+		</PositionVacancy>
+		<SchoolCategory>uri://ed-fi.org/SchoolCategoryDescriptor#Elementary School</SchoolCategory>
+		<InstructionalSubject>uri://ed-fi.org/InstructionalSubjectDescriptor#English Language Arts</InstructionalSubject>
+		<InstructionalSubject>uri://ed-fi.org/InstructionalSubjectDescriptor#Mathematics</InstructionalSubject>
+		<ProgramAssignment>uri://ed-fi.org/ProgramAssignmentDescriptor#Regular Education</ProgramAssignment>
+		<PositionTitle>Third Grade Teacher</PositionTitle>
+		<SchoolYear>2022-2023</SchoolYear>
+		<FullTimeEquivalency>1.00</FullTimeEquivalency>
+		<MaxSalary>62000.00</MaxSalary>
+		<MinSalary>48000.00</MinSalary>
+		<FundingSource>uri://ed-fi.org/FundingSourceDescriptor#District</FundingSource>
+		<HighNeedAcademicSubject>false</HighNeedAcademicSubject>
+		<Term>uri://ed-fi.org/TermDescriptor#Fall Semester</Term>
+		<TotalBudgeted>78000.00</TotalBudgeted>
+	</OpenStaffPosition>
+	<OpenStaffPosition>
+		<PositionIdentifier>100205</PositionIdentifier>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901001</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
+		<SchoolCategory>uri://ed-fi.org/SchoolCategoryDescriptor#High School</SchoolCategory>
+		<InstructionalSubject>uri://ed-fi.org/InstructionalSubjectDescriptor#Mathematics</InstructionalSubject>
+		<ProgramAssignment>uri://ed-fi.org/ProgramAssignmentDescriptor#Regular Education</ProgramAssignment>
+		<PositionTitle>High School Mathematics Teacher</PositionTitle>
+		<SchoolYear>2022-2023</SchoolYear>
+		<FullTimeEquivalency>1.00</FullTimeEquivalency>
+		<MaxSalary>66000.00</MaxSalary>
+		<MinSalary>52000.00</MinSalary>
+		<FundingSource>uri://ed-fi.org/FundingSourceDescriptor#State</FundingSource>
+		<HighNeedAcademicSubject>true</HighNeedAcademicSubject>
+		<Term>uri://ed-fi.org/TermDescriptor#Fall Semester</Term>
+		<TotalBudgeted>83000.00</TotalBudgeted>
+	</OpenStaffPosition>
+	<OpenStaffPosition>
+		<PositionIdentifier>100312</PositionIdentifier>
+		<EducationOrganizationReference>
+			<EducationOrganizationIdentity>
+				<EducationOrganizationId>255901044</EducationOrganizationId>
+			</EducationOrganizationIdentity>
+		</EducationOrganizationReference>
+		<StaffClassification>uri://ed-fi.org/StaffClassificationDescriptor#Teacher</StaffClassification>
+		<PositionVacancy>
+			<DatePositionVacant>2022-05-28</DatePositionVacant>
+			<VacancyReason>uri://ed-fi.org/VacancyReasonDescriptor#Resignation</VacancyReason>
+		</PositionVacancy>
+		<SchoolCategory>uri://ed-fi.org/SchoolCategoryDescriptor#Middle School</SchoolCategory>
+		<InstructionalSubject>uri://ed-fi.org/InstructionalSubjectDescriptor#Science</InstructionalSubject>
+		<PositionTitle>Middle School Science Teacher</PositionTitle>
+		<SchoolYear>2022-2023</SchoolYear>
+		<FullTimeEquivalency>0.50</FullTimeEquivalency>
+	</OpenStaffPosition>
+	<Requisition>
+		<RequisitionIdentifier>GB-2022-0143</RequisitionIdentifier>
+		<OpenStaffPositionReference>
+			<OpenStaffPositionIdentity>
+				<PositionIdentifier>100101</PositionIdentifier>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901107</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+			</OpenStaffPositionIdentity>
+		</OpenStaffPositionReference>
+		<EmploymentStatus>uri://ed-fi.org/EmploymentStatusDescriptor#Probationary</EmploymentStatus>
+		<DatePosted>2022-03-15</DatePosted>
+		<DatePostingClosed>2022-06-30</DatePostingClosed>
+		<PostingClosedReason>uri://ed-fi.org/PostingClosedReasonDescriptor#Position Filled</PostingClosedReason>
+		<HireDate>2022-08-01</HireDate>
+	</Requisition>
+	<Requisition>
+		<RequisitionIdentifier>GB-2022-0187</RequisitionIdentifier>
+		<OpenStaffPositionReference>
+			<OpenStaffPositionIdentity>
+				<PositionIdentifier>100205</PositionIdentifier>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901001</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+			</OpenStaffPositionIdentity>
+		</OpenStaffPositionReference>
+		<EmploymentStatus>uri://ed-fi.org/EmploymentStatusDescriptor#Contractual</EmploymentStatus>
+		<DatePosted>2022-04-11</DatePosted>
+	</Requisition>
+	<Requisition>
+		<RequisitionIdentifier>GB-2022-0159</RequisitionIdentifier>
+		<OpenStaffPositionReference>
+			<OpenStaffPositionIdentity>
+				<PositionIdentifier>100312</PositionIdentifier>
+				<EducationOrganizationReference>
+					<EducationOrganizationIdentity>
+						<EducationOrganizationId>255901044</EducationOrganizationId>
+					</EducationOrganizationIdentity>
+				</EducationOrganizationReference>
+			</OpenStaffPositionIdentity>
+		</OpenStaffPositionReference>
+		<EmploymentStatus>uri://ed-fi.org/EmploymentStatusDescriptor#Employed part-time</EmploymentStatus>
+		<DatePosted>2022-04-01</DatePosted>
+		<DatePostingClosed>2022-08-15</DatePostingClosed>
+		<PostingClosedReason>uri://ed-fi.org/PostingClosedReasonDescriptor#Posting Cancelled</PostingClosedReason>
+	</Requisition>
 </InterchangeStaffAssociation>

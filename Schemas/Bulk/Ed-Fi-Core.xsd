@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/6.1.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/6.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/7.0.0" xmlns:ann="http://ed-fi.org/annotation" targetNamespace="http://ed-fi.org/7.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="http://ed-fi.org/annotation" schemaLocation="SchemaAnnotation.xsd" />
   <xs:annotation>
-    <xs:documentation>===== Ed-Fi-Core Version 6.1.0 ====</xs:documentation>
+    <xs:documentation>===== Ed-Fi-Core Version 7.0.0 ====</xs:documentation>
   </xs:annotation>
   <xs:annotation>
     <xs:documentation>===== Domain Entities =====</xs:documentation>
@@ -4807,12 +4807,14 @@
     <xs:complexContent>
       <xs:extension base="ComplexObjectType">
         <xs:sequence>
-          <xs:element name="EmploymentStatus" type="EmploymentStatusDescriptorReferenceType">
+          <xs:element name="PositionIdentifier" type="PositionIdentifier">
             <xs:annotation>
-              <xs:documentation>Reflects the type of employment or contract desired for the position.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>EmploymentStatusDescriptor</ann:Descriptor>
-              </xs:appinfo>
+              <xs:documentation>Identifier assigned to the position to be filled.  Typically a number assigned by Human Resources that is associated with the specific position.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
+            <xs:annotation>
+              <xs:documentation>The education organization with the open staff position.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="StaffClassification" type="StaffClassificationDescriptorReferenceType">
@@ -4823,14 +4825,25 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="PositionTitle" type="PositionTitle" minOccurs="0">
+          <xs:element name="PositionVacancy" type="PositionVacancy" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The descriptive name of an individual's position.</xs:documentation>
+              <xs:documentation>The set of elements that describe the reason for vacancy and the date of the vacancy.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element name="RequisitionNumber" type="RequisitionNumber">
+          <xs:element name="SchoolCategory" type="SchoolCategoryDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation>The number or identifier assigned to an open staff position, typically a requisition number assigned by Human Resources.</xs:documentation>
+              <xs:documentation>The category of school levels of the teaching position. For example: High School, Middle School, Elementary School.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>SchoolCategoryDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="InstructionalSubject" type="InstructionalSubjectDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The Academic subject of instruction for that position.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>InstructionalSubjectDescriptor</ann:Descriptor>
+              </xs:appinfo>
             </xs:annotation>
           </xs:element>
           <xs:element name="ProgramAssignment" type="ProgramAssignmentDescriptorReferenceType" minOccurs="0">
@@ -4841,43 +4854,9 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="InstructionalGradeLevel" type="GradeLevelDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PositionTitle" type="PositionTitle" minOccurs="0">
             <xs:annotation>
-              <xs:documentation>The set of grade levels for which the position's assignment is responsible.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>GradeLevelDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="AcademicSubject" type="AcademicSubjectDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation>The teaching field required for the open staff position.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>AcademicSubjectDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="DatePosted" type="xs:date">
-            <xs:annotation>
-              <xs:documentation>Date the open staff position was posted.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="DatePostingRemoved" type="xs:date" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The date the posting was removed or filled.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PostingResult" type="PostingResultDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indication of whether the OpenStaffPosition was filled or retired without filling.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>PostingResultDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
-            <xs:annotation>
-              <xs:documentation>The education organization with the open staff position.</xs:documentation>
+              <xs:documentation>The descriptive name of an individual's position.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="SchoolYear" type="SchoolYearType" minOccurs="0">
@@ -4888,19 +4867,6 @@
           <xs:element name="FullTimeEquivalency" type="FullTimeEquivalency" minOccurs="0">
             <xs:annotation>
               <xs:documentation>The ratio between the hours of work expected in a position and the hours of work normally expected in a full-time position in the same setting.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="OpenStaffPositionReason" type="OpenStaffPositionReasonDescriptorReferenceType" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>The reason for the open staff position.</xs:documentation>
-              <xs:appinfo>
-                <ann:Descriptor>OpenStaffPositionReasonDescriptor</ann:Descriptor>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="IsActive" type="xs:boolean" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Indicator of whether the open staff position is currently active.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="MaxSalary" type="CompensationPackageAmount" minOccurs="0">
@@ -4924,11 +4890,6 @@
           <xs:element name="HighNeedAcademicSubject" type="xs:boolean" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Indicator as to whether the open staff position is filling a high-need subject area designated as a teacher shortage that may be eligible for special grants, aid, or compensation.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="PositionControlNumber" type="PositionControlNumber" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>Identifier assigned to the position to be filled.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element name="Term" type="TermDescriptorReferenceType" minOccurs="0">
@@ -6132,6 +6093,61 @@
           <xs:element name="GradingPeriodReference" type="GradingPeriodReferenceType">
             <xs:annotation>
               <xs:documentation>Identifies the grading period for this report card.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Requisition">
+    <xs:annotation>
+      <xs:documentation>This entity represents the requisition to fill an open staff position within the education organization.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Domain Entity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="RequisitionIdentifier" type="RequisitionIdentifier">
+            <xs:annotation>
+              <xs:documentation>Identifier assigned to the position to be filled.  Typically a number assigned by Human Resources that is associated with the specific position.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="OpenStaffPositionReference" type="OpenStaffPositionReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reference to OpenStaffPosition the Education Organization is seeking to fill.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="EmploymentStatus" type="EmploymentStatusDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>Reflects the type of employment or contract desired for the position.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>EmploymentStatusDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="DatePosted" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>DatePosted indicates the date that the requisition was posted.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="DatePostingClosed" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The date the posting was removed or filled.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="PostingClosedReason" type="PostingClosedReasonDescriptorReferenceType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>PostingClosedReason indicates whether the position was filled or closed unfilled.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>PostingClosedReasonDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="HireDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>HireDate is the first day a staff member is employed at an educational organization.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -10413,6 +10429,17 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="InstructionalSubjectDescriptor">
+    <xs:annotation>
+      <xs:documentation>The Academic subject of instruction for that position.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="InteractivityStyleDescriptor">
     <xs:annotation>
       <xs:documentation>The predominate mode of learning supported by the learning resource. Acceptable values are active, expositive, or mixed.</xs:documentation>
@@ -10765,17 +10792,6 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="OpenStaffPositionReasonDescriptor">
-    <xs:annotation>
-      <xs:documentation>The primary reason for the current vacancy or opening within a position.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Descriptor</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="DescriptorType" />
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="OperationalStatusDescriptor">
     <xs:annotation>
       <xs:documentation>The current operational status of the education organization (e.g., active, inactive).</xs:documentation>
@@ -10930,9 +10946,9 @@
       <xs:extension base="DescriptorType" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="PostingResultDescriptor">
+  <xs:complexType name="PostingClosedReasonDescriptor">
     <xs:annotation>
-      <xs:documentation>Indication of whether the position was filled or retired without filling.</xs:documentation>
+      <xs:documentation>PostingClosedReason indicates whether the position was filled or closed unfilled.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -11879,6 +11895,17 @@
   <xs:complexType name="TribalAffiliationDescriptor">
     <xs:annotation>
       <xs:documentation>An American Indian tribe with which an individual is affiliated.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Descriptor</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DescriptorType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="VacancyReasonDescriptor">
+    <xs:annotation>
+      <xs:documentation>VacancyReason indicates the reason the position became vacant.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Descriptor</ann:TypeGroup>
       </xs:appinfo>
@@ -18049,9 +18076,9 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="RequisitionNumber" type="RequisitionNumber">
+      <xs:element name="PositionIdentifier" type="PositionIdentifier">
         <xs:annotation>
-          <xs:documentation>The number or identifier assigned to an open staff position, typically a requisition number assigned by Human Resources.</xs:documentation>
+          <xs:documentation>Identifier assigned to the position to be filled.  Typically a number assigned by Human Resources that is associated with the specific position.</xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="EducationOrganizationReference" type="EducationOrganizationReferenceType">
@@ -19081,6 +19108,45 @@
           <xs:element name="ReportCardIdentity" type="ReportCardIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a ReportCard.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="RequisitionIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a Requisition.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="RequisitionIdentifier" type="RequisitionIdentifier">
+        <xs:annotation>
+          <xs:documentation>Identifier assigned to the position to be filled.  Typically a number assigned by Human Resources that is associated with the specific position.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="OpenStaffPositionReference" type="OpenStaffPositionReferenceType">
+        <xs:annotation>
+          <xs:documentation>Reference to OpenStaffPosition the Education Organization is seeking to fill.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RequisitionReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a Requisition. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="RequisitionIdentity" type="RequisitionIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a Requisition.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -24228,6 +24294,15 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
+  <xs:simpleType name="InstructionalSubjectDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>The Academic subject of instruction for that position.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
   <xs:simpleType name="InteractivityStyleDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The predominate mode of learning supported by the learning resource. Acceptable values are active, expositive, or mixed.</xs:documentation>
@@ -24516,15 +24591,6 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="OpenStaffPositionReasonDescriptorReferenceType">
-    <xs:annotation>
-      <xs:documentation>The primary reason for the current vacancy or opening within a position.</xs:documentation>
-      <xs:appinfo>
-        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
-      </xs:appinfo>
-    </xs:annotation>
-    <xs:restriction base="DescriptorReferenceType" />
-  </xs:simpleType>
   <xs:simpleType name="OperationalStatusDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>The current operational status of the education organization (e.g., active, inactive).</xs:documentation>
@@ -24651,9 +24717,9 @@
     </xs:annotation>
     <xs:restriction base="DescriptorReferenceType" />
   </xs:simpleType>
-  <xs:simpleType name="PostingResultDescriptorReferenceType">
+  <xs:simpleType name="PostingClosedReasonDescriptorReferenceType">
     <xs:annotation>
-      <xs:documentation>Indication of whether the position was filled or retired without filling.</xs:documentation>
+      <xs:documentation>PostingClosedReason indicates whether the position was filled or closed unfilled.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -25428,6 +25494,15 @@
   <xs:simpleType name="TribalAffiliationDescriptorReferenceType">
     <xs:annotation>
       <xs:documentation>An American Indian tribe with which an individual is affiliated.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="DescriptorReferenceType" />
+  </xs:simpleType>
+  <xs:simpleType name="VacancyReasonDescriptorReferenceType">
+    <xs:annotation>
+      <xs:documentation>VacancyReason indicates the reason the position became vacant.</xs:documentation>
       <xs:appinfo>
         <ann:TypeGroup>Extended Descriptor Reference</ann:TypeGroup>
       </xs:appinfo>
@@ -28038,6 +28113,29 @@
       <xs:element name="EndDate" type="xs:date" minOccurs="0">
         <xs:annotation>
           <xs:documentation>The month, day, and year for the end of the period.  Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PositionVacancy">
+    <xs:annotation>
+      <xs:documentation>The set of elements that describe the reason for vacancy and the date of the vacancy.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Common</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="DatePositionVacant" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>DatePositionVacant indicates the date when the position becomes vacant. This should be the day after the final day of employment for the individual currently holding the position.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="VacancyReason" type="VacancyReasonDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>VacancyReason indicates the reason the position became vacant.</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>VacancyReasonDescriptor</ann:Descriptor>
+          </xs:appinfo>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
@@ -30810,6 +30908,18 @@
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:simpleType name="PositionIdentifier">
+    <xs:annotation>
+      <xs:documentation>Identifier assigned to the position to be filled.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Simple</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="20" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:simpleType name="PositionTitle">
     <xs:annotation>
       <xs:documentation>The descriptive name of an individual's position.</xs:documentation>
@@ -31069,7 +31179,7 @@
       <xs:maxLength value="75" />
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="RequisitionNumber">
+  <xs:simpleType name="RequisitionIdentifier">
     <xs:annotation>
       <xs:documentation>The number or identifier assigned to an open staff position, typically a requisition number assigned by Human Resources.</xs:documentation>
       <xs:appinfo>
@@ -31077,6 +31187,7 @@
       </xs:appinfo>
     </xs:annotation>
     <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
       <xs:maxLength value="20" />
     </xs:restriction>
   </xs:simpleType>

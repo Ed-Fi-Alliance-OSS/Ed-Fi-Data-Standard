@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/7.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/7.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<InstructionalSubjectDescriptor>
+		<CodeValue>English Language Arts</CodeValue>
+		<ShortDescription>English Language Arts</ShortDescription>
+		<Description>English Language Arts</Description>
+		<Namespace>uri://ed-fi.org/InstructionalSubjectDescriptor</Namespace>
+	</InstructionalSubjectDescriptor>
+	<InstructionalSubjectDescriptor>
+		<CodeValue>Mathematics</CodeValue>
+		<ShortDescription>Mathematics</ShortDescription>
+		<Description>Mathematics</Description>
+		<Namespace>uri://ed-fi.org/InstructionalSubjectDescriptor</Namespace>
+	</InstructionalSubjectDescriptor>
+	<InstructionalSubjectDescriptor>
+		<CodeValue>Science</CodeValue>
+		<ShortDescription>Science</ShortDescription>
+		<Description>Science</Description>
+		<Namespace>uri://ed-fi.org/InstructionalSubjectDescriptor</Namespace>
+	</InstructionalSubjectDescriptor>
+	<InstructionalSubjectDescriptor>
+		<CodeValue>Social Studies</CodeValue>
+		<ShortDescription>Social Studies</ShortDescription>
+		<Description>Social Studies</Description>
+		<Namespace>uri://ed-fi.org/InstructionalSubjectDescriptor</Namespace>
+	</InstructionalSubjectDescriptor>
+	<InstructionalSubjectDescriptor>
+		<CodeValue>Fine and Performing Arts</CodeValue>
+		<ShortDescription>Fine and Performing Arts</ShortDescription>
+		<Description>Fine and Performing Arts</Description>
+		<Namespace>uri://ed-fi.org/InstructionalSubjectDescriptor</Namespace>
+	</InstructionalSubjectDescriptor>
+	<InstructionalSubjectDescriptor>
+		<CodeValue>Career and Technical Education</CodeValue>
+		<ShortDescription>Career and Technical Education</ShortDescription>
+		<Description>Career and Technical Education</Description>
+		<Namespace>uri://ed-fi.org/InstructionalSubjectDescriptor</Namespace>
+	</InstructionalSubjectDescriptor>
+	<InstructionalSubjectDescriptor>
+		<CodeValue>Physical, Health, and Safety Education</CodeValue>
+		<ShortDescription>Physical, Health, and Safety Education</ShortDescription>
+		<Description>Physical, Health, and Safety Education</Description>
+		<Namespace>uri://ed-fi.org/InstructionalSubjectDescriptor</Namespace>
+	</InstructionalSubjectDescriptor>
+	<InstructionalSubjectDescriptor>
+		<CodeValue>Foreign Language and Literature</CodeValue>
+		<ShortDescription>Foreign Language and Literature</ShortDescription>
+		<Description>Foreign Language and Literature</Description>
+		<Namespace>uri://ed-fi.org/InstructionalSubjectDescriptor</Namespace>
+	</InstructionalSubjectDescriptor>
+</InterchangeDescriptors>
