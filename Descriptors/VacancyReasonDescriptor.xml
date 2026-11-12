@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterchangeDescriptors xmlns="http://ed-fi.org/7.0.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/7.0.0 ../Schemas/Bulk/Interchange-Descriptors.xsd">
+	<VacancyReasonDescriptor>
+		<CodeValue>New position</CodeValue>
+		<ShortDescription>New position</ShortDescription>
+		<Description>New position</Description>
+		<Namespace>uri://ed-fi.org/VacancyReasonDescriptor</Namespace>
+	</VacancyReasonDescriptor>
+	<VacancyReasonDescriptor>
+		<CodeValue>Promotion</CodeValue>
+		<ShortDescription>Promotion</ShortDescription>
+		<Description>Promotion</Description>
+		<Namespace>uri://ed-fi.org/VacancyReasonDescriptor</Namespace>
+	</VacancyReasonDescriptor>
+	<VacancyReasonDescriptor>
+		<CodeValue>Resignation</CodeValue>
+		<ShortDescription>Resignation</ShortDescription>
+		<Description>Resignation</Description>
+		<Namespace>uri://ed-fi.org/VacancyReasonDescriptor</Namespace>
+	</VacancyReasonDescriptor>
+	<VacancyReasonDescriptor>
+		<CodeValue>Retirement</CodeValue>
+		<ShortDescription>Retirement</ShortDescription>
+		<Description>Retirement</Description>
+		<Namespace>uri://ed-fi.org/VacancyReasonDescriptor</Namespace>
+	</VacancyReasonDescriptor>
+	<VacancyReasonDescriptor>
+		<CodeValue>Termination</CodeValue>
+		<ShortDescription>Termination</ShortDescription>
+		<Description>Termination</Description>
+		<Namespace>uri://ed-fi.org/VacancyReasonDescriptor</Namespace>
+	</VacancyReasonDescriptor>
+	<VacancyReasonDescriptor>
+		<CodeValue>Transfer</CodeValue>
+		<ShortDescription>Transfer</ShortDescription>
+		<Description>Transfer</Description>
+		<Namespace>uri://ed-fi.org/VacancyReasonDescriptor</Namespace>
+	</VacancyReasonDescriptor>
+	<VacancyReasonDescriptor>
+		<CodeValue>Leave of absence</CodeValue>
+		<ShortDescription>Leave of absence</ShortDescription>
+		<Description>Leave of absence</Description>
+		<Namespace>uri://ed-fi.org/VacancyReasonDescriptor</Namespace>
+	</VacancyReasonDescriptor>
+	<VacancyReasonDescriptor>
+		<CodeValue>Death of employee</CodeValue>
+		<ShortDescription>Death of employee</ShortDescription>
+		<Description>Death of employee</Description>
+		<Namespace>uri://ed-fi.org/VacancyReasonDescriptor</Namespace>
+	</VacancyReasonDescriptor>
+</InterchangeDescriptors>
