@@ -25,6 +25,7 @@
         <xs:element name="Credential" type="Credential" />
         <xs:element name="Person" type="Person" />
         <xs:element name="OpenStaffPositionEvent" type="OpenStaffPositionEvent" />
+        <xs:element name="Requisition" type="Requisition" />
         <xs:element name="StaffEducatorPreparationProgramAssociation" type="StaffEducatorPreparationProgramAssociation" />
       </xs:choice>
     </xs:complexType>
