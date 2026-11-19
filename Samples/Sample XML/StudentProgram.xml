@@ -3123,18 +3123,26 @@
 		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
 		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Transferred out</SpecialEducationExitReason>
 		<SpecialEducationExitExplained>Transferred to another educational organization</SpecialEducationExitExplained>
-		<ContactResponsibility>
-			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Educational Decision Maker</ContactResponsibility>
-			<PrimaryIndicator>true</PrimaryIndicator>
+		<ResponsibleContact>
+			<ContactReference>
+				<ContactIdentity>
+					<ContactUniqueId>779043</ContactUniqueId>
+				</ContactIdentity>
+			</ContactReference>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Other program-specific responsibilities</ContactResponsibility>
 			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
 			<ContactResponsibilityEndDate>2021-10-01</ContactResponsibilityEndDate>
-		</ContactResponsibility>
-		<ContactResponsibility>
-			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#IEP Meeting Participant</ContactResponsibility>
-			<PrimaryIndicator>false</PrimaryIndicator>
+		</ResponsibleContact>
+		<ResponsibleContact>
+			<ContactReference>
+				<ContactIdentity>
+					<ContactUniqueId>779043</ContactUniqueId>
+				</ContactIdentity>
+			</ContactReference>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Attendance</ContactResponsibility>
 			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
 			<ContactResponsibilityEndDate>2021-10-01</ContactResponsibilityEndDate>
-		</ContactResponsibility>
+		</ResponsibleContact>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3238,11 +3246,15 @@
 				<PrimaryProvider>true</PrimaryProvider>
 			</ServiceProvider>
 		</SpecialEducationProgramService>
-		<ContactResponsibility>
-			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Legal Guardian</ContactResponsibility>
-			<PrimaryIndicator>true</PrimaryIndicator>
+		<ResponsibleContact>
+			<ContactReference>
+				<ContactIdentity>
+					<ContactUniqueId>779063</ContactUniqueId>
+				</ContactIdentity>
+			</ContactReference>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Other program-specific responsibilities</ContactResponsibility>
 			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
-		</ContactResponsibility>
+		</ResponsibleContact>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3283,19 +3295,33 @@
 		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
 		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Diploma</SpecialEducationExitReason>
 		<SpecialEducationExitExplained>Student Graduated with Diploma</SpecialEducationExitExplained>
-		<ContactResponsibility>
-			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Medical Decision Maker</ContactResponsibility>
-			<PrimaryIndicator>true</PrimaryIndicator>
+		<ResponsibleContact>
+			<ContactReference>
+				<ContactIdentity>
+					<ContactUniqueId>779073</ContactUniqueId>
+				</ContactIdentity>
+			</ContactReference>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Nurse-Related Contact</ContactResponsibility>
 			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
-		</ContactResponsibility>
-		<ContactResponsibility>
-			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Emergency Contact</ContactResponsibility>
-			<PrimaryIndicator>false</PrimaryIndicator>
+		</ResponsibleContact>
+		<ResponsibleContact>
+			<ContactReference>
+				<ContactIdentity>
+					<ContactUniqueId>779073</ContactUniqueId>
+				</ContactIdentity>
+			</ContactReference>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Texting</ContactResponsibility>
 			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
-		</ContactResponsibility>
-		<ContactResponsibility>
-			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Progress Report Recipient</ContactResponsibility>
-		</ContactResponsibility>
+		</ResponsibleContact>
+		<ResponsibleContact>
+			<ContactReference>
+				<ContactIdentity>
+					<ContactUniqueId>779073</ContactUniqueId>
+				</ContactIdentity>
+			</ContactReference>
+			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Mailing</ContactResponsibility>
+			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
+		</ResponsibleContact>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
@@ -3427,12 +3453,16 @@
 		<SpecialEducationExitDate>2021-10-01</SpecialEducationExitDate>
 		<SpecialEducationExitReason>uri://ed-fi.org/SpecialEducationExitReasonDescriptor#Graduated with Diploma</SpecialEducationExitReason>
 		<SpecialEducationExitExplained>Student Graduated with Diploma</SpecialEducationExitExplained>
-		<ContactResponsibility>
+		<ResponsibleContact>
+			<ContactReference>
+				<ContactIdentity>
+					<ContactUniqueId>778367</ContactUniqueId>
+				</ContactIdentity>
+			</ContactReference>
 			<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Transportation</ContactResponsibility>
-			<PrimaryIndicator>false</PrimaryIndicator>
 			<ContactResponsibilityBeginDate>2021-08-30</ContactResponsibilityBeginDate>
 			<ContactResponsibilityEndDate>2021-10-01</ContactResponsibilityEndDate>
-		</ContactResponsibility>
+		</ResponsibleContact>
 	</StudentSpecialEducationProgramAssociation>
 	<StudentSpecialEducationProgramAssociation>
 		<StudentReference>
