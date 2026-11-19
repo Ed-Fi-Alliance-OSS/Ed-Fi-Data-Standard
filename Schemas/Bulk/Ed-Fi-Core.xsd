@@ -12912,6 +12912,14 @@
               <xs:documentation>Indicator of whether the person is a legal guardian for the student.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="ContactResponsibility" type="ContactResponsibilityDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Defines the type of responsibility a contact has for a specific student.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>ContactResponsibilityDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
