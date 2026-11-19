@@ -45,7 +45,7 @@
 		<ContactResponsibilityDescriptor>
 		<CodeValue>IDEA Parent</CodeValue>
 		<ShortDescription>IDEA Parent</ShortDescription>
-		<Description>The contact who acts as the parent under the Individuals with Disabilities Education Act (IDEA) and is responsible for participating in decisions about the student's Individualized Education Program (IEP), including consenting to evaluations, services, and placement.</Description>
+		<Description>The contact who acts as the parent under IDEA and is responsible for participating in decisions about the student's IEP, including consenting to evaluations, services, and placement.</Description>
 		<Namespace>uri://ed-fi.org/ContactResponsibilityDescriptor</Namespace>
 	</ContactResponsibilityDescriptor>
 </InterchangeDescriptors>
