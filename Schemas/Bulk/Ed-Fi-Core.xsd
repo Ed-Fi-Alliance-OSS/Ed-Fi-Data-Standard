@@ -12912,6 +12912,14 @@
               <xs:documentation>Indicator of whether the person is a legal guardian for the student.</xs:documentation>
             </xs:annotation>
           </xs:element>
+          <xs:element name="ContactResponsibility" type="ContactResponsibilityDescriptorReferenceType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Defines the type of responsibility a contact has for a specific student.</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>ContactResponsibilityDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -13218,6 +13226,48 @@
           <xs:element name="HomelessProgramService" type="HomelessProgramService" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>Indicates the service(s) being provided to the student by the homeless program.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPResponsibleContactAssociation">
+    <xs:annotation>
+      <xs:documentation>EARLY ACCESS: This association relates a contact to a student's Individualized Education Program (IEP) and identifies the responsibility the contact has for the student, effective beginning on a specific date.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Association</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ComplexObjectType">
+        <xs:sequence>
+          <xs:element name="StudentIEPReference" type="StudentIEPReferenceType">
+            <xs:annotation>
+              <xs:documentation>A reference to the student's IEP for which the contact has the specified responsibility.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ContactReference" type="ContactReferenceType">
+            <xs:annotation>
+              <xs:documentation>A reference to the contact who has the specified responsibility for the student.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ContactResponsibility" type="ContactResponsibilityDescriptorReferenceType">
+            <xs:annotation>
+              <xs:documentation>Defines the type of responsibility a contact has for a specific student IEP. Examples include: IDEA Parent</xs:documentation>
+              <xs:appinfo>
+                <ann:Descriptor>ContactResponsibilityDescriptor</ann:Descriptor>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ContactResponsibilityBeginDate" type="xs:date">
+            <xs:annotation>
+              <xs:documentation>The date on which the specific contact responsibility for the student IEP becomes effective. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ContactResponsibilityEndDate" type="xs:date" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>The date on which the specific contact responsibility for the student IEP ends. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -21160,6 +21210,58 @@
           <xs:element name="StudentIEPIdentity" type="StudentIEPIdentityType" minOccurs="0">
             <xs:annotation>
               <xs:documentation>Identity of a StudentIEP.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPResponsibleContactAssociationIdentityType">
+    <xs:annotation>
+      <xs:documentation>Identity of a StudentIEPResponsibleContactAssociation.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Identity</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StudentIEPReference" type="StudentIEPReferenceType">
+        <xs:annotation>
+          <xs:documentation>A reference to the student's IEP for which the contact has the specified responsibility.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ContactReference" type="ContactReferenceType">
+        <xs:annotation>
+          <xs:documentation>A reference to the contact who has the specified responsibility for the student.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ContactResponsibility" type="ContactResponsibilityDescriptorReferenceType">
+        <xs:annotation>
+          <xs:documentation>Defines the type of responsibility a contact has for a specific student IEP. Examples include: IDEA Parent</xs:documentation>
+          <xs:appinfo>
+            <ann:Descriptor>ContactResponsibilityDescriptor</ann:Descriptor>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ContactResponsibilityBeginDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>The date on which the specific contact responsibility for the student IEP becomes effective. Note: Date interpretation may vary. Ed-Fi recommends inclusive dates, but states may define dates as inclusive or exclusive. For calculations, align with local guidelines.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentIEPResponsibleContactAssociationReferenceType">
+    <xs:annotation>
+      <xs:documentation>Provides alternative references for a StudentIEPResponsibleContactAssociation. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to look up a record that was loaded previously.</xs:documentation>
+      <xs:appinfo>
+        <ann:TypeGroup>Extended Reference</ann:TypeGroup>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="ReferenceType">
+        <xs:sequence>
+          <xs:element name="StudentIEPResponsibleContactAssociationIdentity" type="StudentIEPResponsibleContactAssociationIdentityType" minOccurs="0">
+            <xs:annotation>
+              <xs:documentation>Identity of a StudentIEPResponsibleContactAssociation.</xs:documentation>
             </xs:annotation>
           </xs:element>
         </xs:sequence>

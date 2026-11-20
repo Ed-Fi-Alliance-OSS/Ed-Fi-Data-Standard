@@ -10,6 +10,7 @@
     </xs:annotation>
     <xs:complexType>
       <xs:choice maxOccurs="unbounded">
+        <xs:element name="Contact" type="Contact" />
         <xs:element name="IDEAEvent" type="IDEAEvent" />
         <xs:element name="Staff" type="Staff" />
         <xs:element name="Student" type="Student" />
@@ -17,6 +18,7 @@
         <xs:element name="StudentIEPServicePrescription" type="StudentIEPServicePrescription" />
         <xs:element name="StudentIEPServiceDelivery" type="StudentIEPServiceDelivery" />
         <xs:element name="StudentIEPGoal" type="StudentIEPGoal" />
+        <xs:element name="StudentIEPResponsibleContactAssociation" type="StudentIEPResponsibleContactAssociation" />
       </xs:choice>
     </xs:complexType>
   </xs:element>
