@@ -51431,6 +51431,8 @@
 		<PrimaryContactStatus>true</PrimaryContactStatus>
 		<LivesWith>true</LivesWith>
 		<EmergencyContactStatus>false</EmergencyContactStatus>
+		<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Mailing</ContactResponsibility>
+		<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Texting</ContactResponsibility>
 	</StudentContactAssociation>
 	<StudentContactAssociation>
 		<StudentReference>
@@ -51443,6 +51445,7 @@
 		<PrimaryContactStatus>false</PrimaryContactStatus>
 		<LivesWith>true</LivesWith>
 		<EmergencyContactStatus>false</EmergencyContactStatus>
+		<ContactResponsibility>uri://ed-fi.org/ContactResponsibilityDescriptor#Transportation</ContactResponsibility>
 	</StudentContactAssociation>
 	<StudentContactAssociation>
 		<StudentReference>
