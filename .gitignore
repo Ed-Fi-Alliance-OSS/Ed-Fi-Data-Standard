@@ -6,3 +6,6 @@ Schemas/Bulk/SchemaAnnotation.xsd
 obj/
 bin/
 *.sln
+
+# macOS Finder metadata
+.DS_Store
